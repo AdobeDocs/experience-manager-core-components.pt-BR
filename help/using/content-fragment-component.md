@@ -10,7 +10,7 @@ topic-tags: criação
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | Compatível | Compatível | Compatível |
+
+>[!NOTE]
+>
+>Antes da versão 2.4.0, o componente Fragmento do conteúdo estava localizado na pasta extensões.
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>A partir de 2.4.0, foi movido para o seguinte local.
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>Embora seja v 1, qualquer componente do Fragmento de conteúdo que foi usado na pasta de extensões exigirá uma migração de seus componentes de proxy relacionados para usar o novo tipo de recurso ao atualizar para a versão 2.4.0 ou superior dos Componentes principais.
 
 Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
 
