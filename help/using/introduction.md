@@ -10,7 +10,7 @@ topic-tags: introdução
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Para obter uma introdução aos Componentes principais, os recursos que eles ofe
 
 ## Tutorial do desenvolvedor WKND {#wknd-developer-tutorial}
 
-[Comece a desenvolver o AEM Sites com os Componentes principais seguindo este tutorial passo a passo.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Comece a desenvolver o AEM Sites com os Componentes principais seguindo [este tutorial passo a passo.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Suporte aos componentes principais {#core-components-support}
 
@@ -115,4 +115,4 @@ Para obter detalhes sobre a compatibilidade com as personalizações de componen
 
 Como os Componentes básicos serviram como base de tanta desenvolvimento de projeto em várias versões, eles continuarão a ser suportados no futuro próximo.
 
-No entanto, a ênfase de desenvolvimento da Adobe mudou para os Componentes principais e os novos recursos serão adicionados a eles, enquanto apenas correções de erros serão feitas nos Componentes fundamentais.
+No entanto, a ênfase de desenvolvimento da Adobe mudou para os Componentes principais e os novos recursos serão adicionados a eles, enquanto [quase todos os Componentes fundamentais foram descontinuados com o AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) e somente correções de erros serão feitas nos Componentes de fundação que estiverem avançando.
