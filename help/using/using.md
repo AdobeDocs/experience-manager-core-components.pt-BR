@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -135,13 +135,13 @@ Verifique se os componentes de proxy e as bibliotecas de clientes foram implanta
 
 ## Permitir os componentes {#allow-the-components}
 
-As seguintes etapas normalmente são feitas no Editor [de modelos](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html), para as configurações existentes, no entanto, isso pode ser feito no modo Design:
+As etapas a seguir são executadas no Editor de [modelos](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. No Editor de modelos (ou no modo Design), selecione o Contêiner de layout (ou parsys) e abra sua política (ou configuração de design).
+1. No Editor de modelos, selecione o Contêiner de layout e abra sua política.
 1. Na lista de Componentes permitidos, selecione os componentes de proxy criados anteriormente, que devem ser exibidos no grupo de componentes atribuído a eles. Após concluir, aplique as alterações.
 1. Opcionalmente, para os componentes que possuem uma caixa de diálogo de design, eles podem ser pré-configurados.
 
-É isso, nas páginas criadas a partir do modelo editado, agora você pode usar os componentes recém criados.
+Isso! Nas páginas criadas a partir do modelo editado, agora você deve ser capaz de usar os componentes recém criados.
 
 **Ler em seguida:**
 
