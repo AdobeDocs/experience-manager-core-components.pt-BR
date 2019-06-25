@@ -10,12 +10,12 @@ topic-tags: developing
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: 157 a 2 ec 3-9 fca -4 fad -977 a-d 93013 fe 218
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: bea783936100abe899f9b60e4a09522514755db2
 
 ---
 
 
-# Componentes principais do desenvolvimento{#developing-core-components}
+# Developing Core Components{#developing-core-components}
 
 ## Visão geral {#overview}
 
@@ -26,40 +26,40 @@ Os Componentes principais fornecem componentes básicos e extensíveis, e seus d
    * [Recursos pré-configuráveis](authoring.md#pre-configuring-core-components) para definir quais recursos estão disponíveis para autores de páginas
 * Entrega contínua
    * Melhorias na funcionalidade incremental frequente
-   * Disponibilidade do código [fonte no github](https://github.com/adobe/aem-core-wcm-components) para permitir que a comunidade de desenvolvedores dê feedback e contribua para o
-   * A instalação por meio de [um pacote de conteúdo lançado separadamente](https://github.com/adobe/aem-core-wcm-components/releases) para atualizações de componentes deve ser executada independentemente das atualizações do AEM
+   * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
+   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
 * [Controle de versão do componente](guidelines.md#component-versioning)
    * [Garantir compatibilidade em uma versão](#upgrade-of-core-components), ainda permitir que os componentes evoluam
    * Permitir que várias versões de um componente coexistam no mesmo ambiente
 * Implementação moderna
-   * Markup definido na [Linguagem do modelo HTML](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
-   * Lógica do modelo de conteúdo implementada com [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html)
+   * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
+   * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * Markan markup
-   * Observação de [modificador](https://getbem.com/) de elemento de bloco (GI) a partir da versão 2.0.0
-      * A versão anterior segue [as convenções](https://getbootstrap.com/css/) de nomenclatura do Bootstrap
-   * Construídos em torno [das diretrizes de acessibilidade](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
+      * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
+   * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * Capaz de ser usado para sites responsivos e móveis
 * Capacidade de serializar como JSON o modelo de conteúdo para casos de uso com CMS sem marcas
 * Acessível
-   * Compatível com o padrão [WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Os componentes principais exigem o AEM 6.3 ou posterior e o Java 8 e exigem o uso de [modelos editáveis](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
 >Os Componentes principais não funcionam com a interface clássica nem com modelos estáticos.
 
-## Visão geral da sessão Gems {#gems-session-overview}
+## Gems Session Overview {#gems-session-overview}
 
-Para obter uma introdução aos Componentes principais, os recursos que eles oferecem e como eles são aproveitados no AEM, confira os Componentes principais do [AEM Gems Session AEM.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
 [O Gems no Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) é uma série de soluções técnicas oferecidas pelos especialistas da Adobe. Esta série complementa a documentação do produto e de todos os outros canais técnicos, permitindo que os desenvolvedores entrem em contato e se aprofunde em um tópico específico.
 
-## Tutorial do desenvolvedor WKND {#wknd-developer-tutorial}
+## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-Comece a desenvolver o AEM Sites com os Componentes principais seguindo [este tutorial passo a passo.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## Entregue por github {#delivered-over-github}
+## Delivered over GitHub {#delivered-over-github}
 
 Os Componentes principais são desenvolvidos e entregues por meio do github.
 
@@ -68,40 +68,40 @@ CODE EM GITHUB
 Você pode encontrar o código desta página no github
 
 * [Abrir o projeto aem-core-wcm-components no github](https://github.com/adobe/aem-core-wcm-components)
-* Baixar o projeto como [um arquivo ZIP](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
+* Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
 
-Consulte [a página](using.md) de documentação Usar componentes principais para saber como começar a usá-los em seu projeto.
+See the [Using Core Components](using.md) documentation page to learn how to get started using them in your project.
 
 Ter os componentes principais no github permite fazer atualizações frequentes e ouvir o feedback da comunidade de desenvolvedores do AEM. Além disso, isso deve ajudar os clientes e parceiros a seguir padrões similares ao construir componentes personalizados.
 
 >[!NOTE]
 >
->Para manter as últimas alterações nos componentes principais, você pode assistir ao [repositório Componentes principais](https://github.com/adobe/aem-core-wcm-components) no github.
+>To keep up-to-date on the latest changes to the core components, you can watch the [Core Components repository](https://github.com/adobe/aem-core-wcm-components) on GitHub.
 
 ## Biblioteca de componentes
 
-Confira a [Biblioteca de componentes](http://opensource.adobe.com/aem-core-wcm-components/library.html), que exibe a versão atual dos Componentes principais e fornece exemplos de seu uso.
+Check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
 
-### Amostra de execução de conteúdo {#sample-content-run-mode}
+### Sample Content Run-Mode {#sample-content-run-mode}
 
-Os Componentes principais ficam visíveis no Início rápido quando o conteúdo de amostra está presente, pois o [site de referência We. Retail os](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) usa. No entanto, ao executar na produção (no `nosamplecontent` modo de execução, sem o conteúdo de amostra ativado), os componentes principais não estarão mais presentes e devem ser instalados nas instâncias do AEM pela equipe de desenvolvimento e/ou operações.
+The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instances by the development and/or operations team.
 
 >[!NOTE]
 >
->Em ambientes de produção, sempre execute o Início rápido no `nosamplecontent` modo de execução. Para usar os Componentes principais no `nosamplecontent` modo de execução, siga as instruções da página [de documentação Usar componentes](using.md) principais.
+>In production environments, always run the Quickstart in `nosamplecontent` runmode. To use the Core Components in `nosamplecontent` runmode, follow the instructions of the [Using Core Components](using.md) documentation page.
 
-## Recursos técnicos {#technical-capabilities}
+## Technical Capabilities {#technical-capabilities}
 
 A tabela a seguir apresenta uma visão geral das diferenças entre componentes principais e componentes de fundação.
 
-Para obter detalhes sobre seus recursos de criação e opções para pré-configurá-los, [consulte a página de criação sobre eles](authoring.md).
+For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md).
 
 | **Recurso** | **Componente principal** | **Componente de base** |
 |-----|---|---|
-| Implementação lógica | Java pojos com [anotações de modelo](https://sling.apache.org/documentation/bundles/models.html) Sling | Código JSP |
+| Implementação lógica | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | Código JSP |
 | Definição de marcação | [Sintaxe HTML do Modelo de HTML](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | Código JSP |
 | Limpeza de XSS | Automatizado por HTL | Principal manual |
-| Nomenclatura de classes CSS | Convenção de nomenclatura padronizada baseada na notação do [Elemento de bloco de bloco](https://getbem.com/) (a partir da versão 2.0.0) | Esquemas personalizados |
+| Nomenclatura de classes CSS | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | Esquemas personalizados |
 | Definição da caixa de diálogo | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Classic UI |
 | Saída JSON | [Sling Model Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet de sling padrão |
 | Versões | [Para o modelo e HTL](guidelines.md) | Nenhum |
@@ -109,9 +109,9 @@ Para obter detalhes sobre seus recursos de criação e opções para pré-config
 | Entrega | [Via github pública](https://github.com/adobe/aem-core-wcm-components) | Por início rápido |
 | Licença | [Licença do Apache](https://www.apache.org/licenses/LICENSE-2.0) | Proprietário da Adobe |
 | Contribuição | Solicitação de extração | Não é possível |
-| Acessibilidade | Totalmente compatível com o padrão [WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Apenas em conformidade parcial com o [padrão WCAG 2.0 AA](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Acessibilidade | Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
-## Lista de componentes {#component-list}
+## Component List {#component-list}
 
 A tabela a seguir lista os Componentes principais disponíveis, vinculação à API e indica quais componentes de fundação eles substituem.
 
@@ -138,36 +138,40 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculação à 
 | [Fragmento do conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permite a exibição de um fragmento do conteúdo | `-` |
 | [Lista de fragmentos do conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permite a exibição de uma lista de fragmentos de conteúdo | `-` |
 | [Separador](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Separa o conteúdo em uma página | `-` |
+| [Expandir/recolher](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organizar os painéis de conteúdo em um acordeão flexível | `-` |
+| [Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organizar componentes em um contêiner | `-` |
+| [Imagem](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Criar um botão em uma página | `-` |
+| [Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Adicionar um ativo baixável a uma página | `-` |
 
-### Componentes futuros {#upcoming-components}
+### Upcoming components {#upcoming-components}
 
-Os componentes principais a seguir estão sendo ativamente trabalhados. Eles ainda não foram lançados, mas podem ser visualizados na ramificação [de desenvolvimento](https://github.com/adobe/aem-core-wcm-components/tree/development):
+Os componentes principais a seguir estão sendo ativamente trabalhados. They haven&#39;t been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
 
-* Vídeo
-* Download
+* Incorporar
+* Modal
 
-## Atualização dos componentes principais {#upgrade-of-core-components}
+## Upgrade of Core Components {#upgrade-of-core-components}
 
 Uma vantagem dos componentes com versões de versão é que ela permite separar a migração para uma nova versão do AEM da migração para novas versões de componentes. Além disso, se novas versões de componentes estiverem disponíveis, permitirá a migração individual de cada componente para a nova versão.
 
-As migrações para uma nova versão do AEM não afetarão a forma como os Componentes principais funcionam, desde que suas versões também sejam compatíveis com a nova versão do AEM que está sendo migrada. As personalizações feitas aos Componentes principais não devem ser afetadas, desde que elas não utilizem apis que foram [substituídas ou removidas](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+As migrações para uma nova versão do AEM não afetarão a forma como os Componentes principais funcionam, desde que suas versões também sejam compatíveis com a nova versão do AEM que está sendo migrada. Customizations made to the Core Components should not be affected either, as long as they don&#39;t use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
-As migrações para novas versões dos Componentes principais não afetarão a forma como o componente funciona, mas novos recursos podem ser introduzidos para autores de páginas, o que pode exigir alguma configuração por um editor de modelo, caso o comportamento padrão não seja desejado. As personalizações no entanto podem precisar ser adaptadas para obter mais detalhes, consulte [a página Personalizar componentes](customizing.md#upgrade-compatibility-of-customizations) principais.
+As migrações para novas versões dos Componentes principais não afetarão a forma como o componente funciona, mas novos recursos podem ser introduzidos para autores de páginas, o que pode exigir alguma configuração por um editor de modelo, caso o comportamento padrão não seja desejado. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#upgrade-compatibility-of-customizations) page.
 
-## Quando usar os componentes principais? {#when-to-use-the-core-components}
+## When to Use the Core Components? {#when-to-use-the-core-components}
 
 Como os Componentes principais são totalmente novos e oferecem vários benefícios, recomendamos que os novos projetos do AEM sejam usados. Para projetos existentes, uma migração deve ser parte de um esforço de projeto maior, por exemplo, uma reformulação ou uma atualização geral.
 
 Portanto, a Adobe fornece as seguintes recomendações:
 
 * **Novos projetos**
-Novos projetos devem sempre tentar usar Componentes principais. Se os Componentes principais não puderem ser usados diretamente ou [estendidos](customizing.md) para atender aos requisitos do projeto, crie um componente personalizado após a arquitetura do componente definida nos componentes principais. Exceto onde não for possível, evite usar os componentes [de base](developing.md).
+Novos projetos devem sempre tentar usar Componentes principais. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md).
 * **A Recomendação de projetos**
 existentes continua usando os componentes [de base](developing.md), a menos que um site ou a redefinição de componentes esteja planejada.\
-   Como são amplamente usadas pela maioria dos projetos existentes, os componentes [fundamentais continuarão sendo suportados.](developing.md)
+   As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md)
 * **Novos componentes
 personalizados** Avaliar se um componente [principal existente pode ser personalizado](customizing.md).\
-   Caso contrário, a recomendação será criar um novo componente personalizado seguindo as Diretrizes [de componentes](guidelines.md).
+   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
 * **Componentes
 personalizados existentes** Se os componentes funcionarem como esperado e os mantenham como estão.\
    Caso contrário, consulte &quot;Novos componentes personalizados&quot; acima.
@@ -178,16 +182,20 @@ Qualquer novo projeto deve ser implementado com Componentes principais. No entan
 
 Um esforço maior em um projeto existente (por exemplo, uma reformulação ou atualização geral) geralmente oferece uma chance de migrar para os Componentes principais. Para facilitar essa migração, a Adobe forneceu várias ferramentas de migração para incentivar a adoção dos Componentes principais e da tecnologia mais recente do AEM.
 
-[O AEM Modernize Tools Suite](https://github.com/adobe/aem-modernize-tools) permite a fácil conversão de:
+[As Ferramentas de modernização do AEM](http://opensource.adobe.com/aem-modernize-tools/) permitem a fácil conversão de:
 
 * Modelos estáticos para modelos editáveis
 * Configurações de design para políticas
 * Componentes fundamentais aos componentes principais
 * Interface clássica para IU habilitada para toque
 
-Para obter mais informações sobre o uso dessas ferramentas, [consulte sua documentação](https://www.adobe.com/go/aem_modernize_tools_en).
+For further information about the usage of these tools, [see their documentation](http://opensource.adobe.com/aem-modernize-tools/).
 
-## Suporte a componentes principais {#core-component-support}
+>[!NOTE]
+>
+>As Ferramentas de modernização do AEM são um esforço da comunidade e não são suportadas ou garantidas pela Adobe.
+
+## Core Component Support {#core-component-support}
 
 Os Componentes principais são parte integrante do AEM e são compatíveis com os mesmos termos e condições que se fossem entregues como parte do Início rápido.
 
@@ -195,13 +203,13 @@ Como outros recursos do produto AEM, a regra geral é: Os componentes são anunc
 
 A versão de cada componente declara claramente as versões do AEM que ele suporta. Quando o suporte for interrompido para uma versão do AEM, então o suporte aos Componentes principais dessa versão do AEM será compatível.
 
-Para obter detalhes sobre a compatibilidade com as personalizações de componentes, consulte [a página Personalizar componentes](customizing.md) principais.
+For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page.
 
-## Suporte para componentes de base {#foundation-component-support}
+## Foundation Component Support {#foundation-component-support}
 
 Como os componentes de fundação serviram como base de muito desenvolvimento de projeto em muitas versões do AEM, eles continuarão a ser suportados no futuro próximo.
 
-No entanto, a ênfase de desenvolvimento da Adobe mudou para os Componentes principais e os novos recursos serão adicionados a eles, enquanto [quase todos os Componentes fundamentais foram descontinuados com o AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) e somente correções de erros serão feitas nos Componentes de fundação que estiverem avançando.
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
 **Ler em seguida:**
 
