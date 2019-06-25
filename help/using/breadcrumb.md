@@ -11,12 +11,12 @@ products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: asu 237 df -08 b 8-4 deb -9881-66 a 1 f 0 d 65 ef 3
 modalsize: 426x240
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
 
 ---
 
 
-# Componente de trilha de navegação{#breadcrumb-component}
+# Breadcrumb Component{#breadcrumb-component}
 
 O componente de navegação estrutural do componente principal é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 
@@ -24,9 +24,9 @@ O componente de navegação estrutural do componente principal é um componente 
 
 O componente de navegação estrutural exibe a posição da página atual na hierarquia do site, permitindo que os visitantes da página naveguem pela hierarquia da página a partir do seu local atual. Isso é frequentemente integrado aos cabeçalhos de página ou rodapés.
 
-As opções disponíveis, como o nível de navegação padrão e a capacidade de mostrar a página atual ou páginas ocultas, podem ser definidas pelo autor do modelo na caixa de diálogo [de design](#design-dialog). O editor de conteúdo pode então escolher se páginas ocultas devem ser exibidas ou não e o nível de navegação real do componente na janela [de edição](#edit-dialog).
+Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
 
-## Versão e compatibilidade {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 A versão atual do componente de navegação estrutural é v 2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e descrita neste documento.
 
@@ -37,94 +37,23 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | Compatível | Compatível | Compatível |
 | [v1](breadcrumb-v1.md) | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Captura de tela {#screenshot}
-
-![](assets/chlimage_1.png)
-
-### HTML {#html}
-
-```
-<nav class="cmp-breadcrumb">
-    <ol class="cmp-breadcrumb__list">
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us.html" class="cmp-breadcrumb__item-link">
-                United States
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us/en.html" class="cmp-breadcrumb__item-link">
-                English
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
-            
-                Experience
-            
-        </li>
-    </ol>
-</nav>
-```
-
-### JSON {#json}
-
-```
-"breadcrumb":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "items":[  
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us",
-                              "pageTitle":null,
-                              "name":"us",
-                              "description":null,
-                              "title":"United States"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en",
-                              "pageTitle":null,
-                              "name":"en",
-                              "description":null,
-                              "title":"English"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en/experience",
-                              "pageTitle":null,
-                              "name":"experience",
-                              "description":null,
-                              "title":"Experience"
-                           },
-                           "active":true
-                        }
-                     ],
-                     ":type":"weretail/components/content/breadcrumb"
-                  }
-```
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb.html).
 
 >[!NOTE]
 >
->A partir da versão Components .1.0 dos Componentes principais, o componente da trilha de navegação suporta [schema.org microdados](https://schema.org/BreadcrumbList).
+>As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
-### Detalhes técnicos {#technical-details}
+## Technical Details {#technical-details}
 
-A documentação técnica mais recente sobre o componente de navegação estrutural [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-## Editar caixa de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 A caixa de diálogo Editar permite que o autor do conteúdo exclua páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que ela deve ser exibida.
 
@@ -132,19 +61,19 @@ A caixa de diálogo Editar permite que o autor do conteúdo exclua páginas ocul
 
 * **Nível de início de navegação** - Onde na hierarquia o componente da trilha de navegação deve começar para percorrer a página atual. Por exemplo, em We. Retail:
 
-   * 0 inicia em `/content`
+   * 0 starts at `/content`
 
-   * 1 inicia em `/content/we-retail`
-   * 2 inicia em `/content/we-retail/<country>`
+   * 1 starts at `/content/we-retail`
+   * 2 starts at `/content/we-retail/<country>`
 
 * **Mostrar itens de navegação ocultos** - Mostrar páginas marcadas como ocultas na navegação estrutural (por padrão, eles não serão exibidos)
 * **Ocultar a página** atual - Suprimir a página atual na navegação estrutural (por padrão, ela será exibida)
 
-## Caixa de diálogo de design {#design-dialog}
+## Design Dialog {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina o que os valores padrão são para as opções de suprimir páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que ela deve ser exibida.
 
-### Guia Principal {#main-tab}
+### Main Tab {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
@@ -157,6 +86,6 @@ A caixa de diálogo de design permite que o autor do modelo defina o que os valo
 
    * Isso não ativa ou desativa a opção para o autor. Ela apenas define o valor padrão.
 
-### Guia Estilos {#styles-tab}
+### Styles Tab {#styles-tab}
 
-O componente de navegação estrutural é compatível com o Sistema [de estilo AEM](authoring.md#component-styling).
+The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
