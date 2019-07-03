@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -24,9 +24,9 @@ O Componente de título do componente principal é um componente de cabeçalho d
 
 ## Uso {#usage}
 
-O componente de título deve ser usado como título ou cabeçalho de uma seção do conteúdo. Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [de design](#design-dialog). O editor de conteúdo pode selecionar os níveis de cabeçalhos disponíveis na caixa de diálogo [de edição](#edit-dialog). Para maior conveniência, a edição simples no local do cabeçalho também está disponível.
+O componente de título deve ser usado como título ou cabeçalho de uma seção do conteúdo. The available heading levels can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). Para maior conveniência, a edição simples no local do cabeçalho também está disponível.
 
-## Versão e compatibilidade {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 A versão atual do Componente de título é v 2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e descrita neste documento.
 
@@ -37,27 +37,19 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | Compatível | Compatível | Compatível |
 | [v1](title-v1.md) | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
 
-### Captura de tela {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-36.png)
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
 
-### Biblioteca de componentes
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-Para experimentar o Componente de título, bem como ver exemplos de suas opções de configuração, além de HTML e saída JSON, visite a Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
-
-### Detalhes técnicos {#technical-details}
-
-A documentação técnica mais recente sobre o componente de título [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
-
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
-
-## Editar caixa de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 A caixa de diálogo Editar permite que o autor do conteúdo defina o texto do título e selecione o nível de cabeçalho.
 
@@ -75,11 +67,11 @@ O editor local também pode ser usado para editar o texto do componente de títu
 
 ![](assets/chlimage_1-37.png)
 
-## Caixa de diálogo de design {#design-dialog}
+## Design Dialog {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina o nível de cabeçalho padrão que os componentes de título terão quando criados pelos autores de conteúdo.
 
-### Guia Tamanhos {#sizes-tab}
+### Sizes Tab {#sizes-tab}
 
 ![](assets/screenshot_2018-10-19at110120.png)
 
@@ -91,6 +83,6 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 >
 >A capacidade de definir um link para o título foi introduzida com a versão 2.2.0 dos Componentes principais.
 
-### Guia Estilos {#styles-tab}
+### Styles Tab {#styles-tab}
 
-O Componente de título é compatível com o Sistema [de estilo AEM](authoring.md#component-styling).
+The Title Component supports the AEM [Style System](authoring.md#component-styling).
