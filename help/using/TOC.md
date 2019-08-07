@@ -1,15 +1,16 @@
 ---
 cloud: experience-cloud
-product: componentes principais do adobe experience manager
-archtype: Administrador
+product: adobe experience manager
+sub-product: componentes principais do adobe experience manager
+archetype: Administrador
 user-guide-title: Componentes principais do AEM
 translation-type: tm+mt
-source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
+source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
 
 ---
 
 
-# AEM Core Components Help {#using}
+# Ajuda dos componentes principais do AEM {#using}
 
 + [Introdução aos componentes principais](introduction.md)
 + [Biblioteca de componentes](http://opensource.adobe.com/aem-core-wcm-components/library.html)
@@ -17,7 +18,7 @@ source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
 + Get Started {#get-started}
    + [Criação com componentes principais](authoring.md)
    + [Uso de componentes principais](using.md)
-+ The Components {#components}
++ Os componentes {#components}
    + [Expandir/recolher](accordion.md)
    + [Caminho](breadcrumb.md)
    + [Imagem](button.md)
@@ -38,20 +39,20 @@ source-git-commit: 330c0984d851ae4eac86e3423bb35edd8cfa644c
    + [Guias](tabs.md)
    + [Teaser](teaser.md)
    + [Título](title.md)
-   + Form Components {#forms}
+   + Componentes do formulário {#forms}
       + [Botão de formulário](form-button.md)
       + [Contêineres de formulário](form-container.md)
       + [Formulário oculto](form-hidden.md)
       + [Opções de formulário](form-options.md)
       + [Texto do formulário](form-text.md)
-   + v1 Components {#v1-components}
+   + Componentes v 1 {#v1-components}
       + [Caminho (v1)](breadcrumb-v1.md)
       + [Imagem (v1)](image-v1.md)
       + [Lista (v1)](list-v1.md)
       + [Página (v1)](page-v1.md)
       + [Texto (v1)](text-v1.md)
       + [Título (v1)](title-v1.md)
-      + v1 Form Components {#v1-forms}
+      + Componentes do formulário v 1 {#v1-forms}
          + [Botão do formulário (v1)](form-button-v1.md)
          + [Contêiner de formulário (v1)](form-container-v1.md)
          + [Formulário oculto (v1)](form-hidden-v1.md)
