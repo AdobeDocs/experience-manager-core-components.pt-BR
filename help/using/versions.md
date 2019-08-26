@@ -10,20 +10,20 @@ topic-tags: introdução
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: a 3 a 98 b 2 f -65 bf -4493-82 ad -01717938 fdbc
 translation-type: tm+mt
-source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
+source-git-commit: d1708bef323e2cdb071ebea5b15a1ebc6f683e9d
 
 ---
 
 
-# Core Components Versions{#core-components-versions}
+# Versões principais dos componentes{#core-components-versions}
 
 A versão atual dos Componentes principais é 2.4.0 e é compatível com o AEM 6.5. Foi lançado em maio de 2019 como uma pequena atualização da versão 2.0.0. A versão 2.0.0 introduziu novos componentes junto com atualizações v 2 de componentes existentes.
 
-See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
+Consulte o Histórico [de versões e a Compatibilidade](#versions-and-releases) deste documento para obter mais informações.
 
-You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+Você também pode verificar a [Biblioteca de componentes](http://opensource.adobe.com/aem-core-wcm-components/library.html), que exibe a versão atual dos Componentes principais e fornece exemplos de seu uso.
 
-## Versions and Releases {#versions-and-releases}
+## Versões e versões {#versions-and-releases}
 
 Os Componentes principais são distribuídos via github. Isso permite que a Adobe adicione funcionalidade mais rapidamente aos componentes e também permita a entrada da comunidade fora do ciclo de lançamento do AEM.
 
@@ -31,15 +31,15 @@ Os Componentes principais são disponibilizados com versões AEM definidas com a
 
 ### Versões {#versions}
 
-The major iteration of the Core Components are the **versions**. Cada componente tem uma versão. Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. As versões são aumentadas apenas para alterações que não são compatíveis com versões anteriores, o que é normalmente o caso da introdução dos novos recursos e funcionalidades.
+A maior iteração dos Componentes principais são **as versões**. Cada componente tem uma versão. As versões são denotadas com **v** appended com um número inteiro diferente de zero, como v 1 e v 2. As versões são aumentadas apenas para alterações que não são compatíveis com versões anteriores, o que é normalmente o caso da introdução dos novos recursos e funcionalidades.
 
-Os desenvolvedores e administradores podem reconhecer versões dos componentes principais por um número em seus caminhos de tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
+Os desenvolvedores e administradores podem reconhecer versões dos componentes principais por um número em seus caminhos de tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. Este número de versão representa uma versão importante, definida pelas [diretrizes de controle de versão semântica](https://semver.org/).
 
-For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
+Para obter mais detalhes sobre as versões principais do componente, consulte a documentação [do desenvolvedor dos Componentes principais](guidelines.md).
 
-### Releases {#releases}
+### Versões {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). As versões são indicadas com um número decimal do formato X.Y.Z e coletam todos os componentes principais juntos como um pacote executável.
+Os componentes principais são disponibilizados por **meio de lançamentos** e [representam os artefatos publicados reais disponíveis no github](https://github.com/adobe/aem-core-wcm-components/releases). As versões são indicadas com um número decimal do formato X.Y.Z e coletam todos os componentes principais juntos como um pacote executável.
 
 * **As versões principais** podem apresentar novas versões de componentes existentes juntamente com componentes totalmente novos, bem como correções padrão. Isso é representado por um incremento no componente X do número da versão.
 
@@ -53,18 +53,19 @@ The core components are made available through **releases** and [represent the a
 >
 >A mesma versão de um componente pode aparecer em várias versões.
 
-## Release History and Compatibility {#release-history-and-compatibility}
+## Histórico de versões e compatibilidade {#release-history-and-compatibility}
 
 Os Componentes principais foram lançados pela primeira vez com o AEM 6.3 e foram projetados para serem flexíveis e compatíveis com todas as versões do AEM suportadas. Por isso, uma versão dos componentes pode conter várias versões do mesmo componente.
 
 As tabelas a seguir ilustram a compatibilidade das versões dos Componentes principais juntamente com as versões de componentes contidas nas versões.
 
-### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
+### Versão do histórico e versões do AEM suportadas {#release-history-supported-aem-versions}
 
-The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
+A tabela a seguir, cujo conteúdo está [disponível no github com detalhes completos da versão](https://github.com/adobe/aem-core-wcm-components/releases), fornece uma visão geral das versões dos Componentes principais e sua compatibilidade com versões do AEM e versões Java.
 
 | Versão | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versão introduziu os componentes do Novo Acordeão, Botão, Contêiner e Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versão introduziu o componente Lista de fragmentos do conteúdo | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versão foi focada em refinamentos à biblioteca de componentes, mas também contém alguns aprimoramentos de recursos para o componente Separador | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Esta versão foi focada na biblioteca de componentes, além de apresentar o novo componente de separador, mas também contém alguns aprimoramentos de recursos para o componente de imagem | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
@@ -83,9 +84,9 @@ The following table, the contents of which are [available on GitHub with full re
 
 >[!NOTE]
 >
->As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
+>Assim como com o AEM, a Adobe recomenda que os desenvolvedores usem a [versão mais recente e as versões dos Componentes](https://github.com/adobe/aem-core-wcm-components/releases/latest) principais disponíveis que sejam compatíveis com a versão do AEM em execução para se beneficiar das correções e recursos mais atualizados.
 
-### Component Versions &amp; Releases {#component-versions-and-releases}
+### Versões e versões do componente {#component-versions-and-releases}
 
 A tabela a seguir detalha as versões de quais componentes estão contidos nas versões dos Componentes principais.
 
