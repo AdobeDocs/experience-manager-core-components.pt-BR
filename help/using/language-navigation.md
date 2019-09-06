@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
+source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
 
 ---
 
@@ -85,15 +85,15 @@ Considere que o conteúdo é parecido com:
    +-- us
       +-- en
       \-- es
-   +-- ch
+   \-- ch
       +-- de
       +-- fr
-      +-- it
+      \-- it
 +-- wknd-events
 \-- wknd-shop
 ```
 
-Para o site We. Retail, você provavelmente desejaria colocar o componente Navegação de idioma em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo é possível definir a Raiz **de navegação** do componente para `/content/we-retail` , uma vez que o conteúdo localizado para o site começa. Você também deve definir a Profundidade da estrutura **do idioma** como se `2` fosse uma estrutura de dois níveis (país em seguida, laguage).
+Para o site We. Retail, você provavelmente desejaria colocar o componente Navegação de idioma em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de navegação** do componente como `/content/we-retail` sendo aquela onde o conteúdo localizado para o site começa. Você também deve definir a Profundidade da estrutura **do idioma** como se `2` fosse uma estrutura de dois níveis (país em seguida, laguage).
 
 Com o valor **Raiz** de navegação, o Componente de idioma sabe que depois `/content/we-retail` da navegação começa e pode gerar opções de navegação de idioma reconhecendo os próximos dois níveis na árvore de conteúdo como a estrutura de navegação do idioma do site (conforme definido pelo **valor Profundidade da** estrutura do idioma).
 
