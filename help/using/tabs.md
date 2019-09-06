@@ -8,7 +8,7 @@ content-type: referência
 topic-tags: componentes principais
 discoiquuid: 966 d 47 fb-d 35 d -4103-b 29 d -4 ef 0 aa 739 f 24
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
 
@@ -21,15 +21,15 @@ O componente de tabulações do componente principal permite a organização do 
 
 O componente de tabulações permite que o autor do conteúdo organize o conteúdo da página em várias guias.
 
-The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
+A caixa de diálogo [Editar](#edit-dialog) permite que o autor do conteúdo defina várias guias e defina a guia ativa. Usando a caixa [de diálogo de design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados a guias e personalizar os estilos.
 
 >[!NOTE]
 >
 >Os componentes da guia aninhados (guias nas guias) são suportados.
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
+>Componentes simples da guia (não aninhados) podem ser localizados/selecionados usando a árvore [de conteúdo](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), no entanto, as guias aninhadas não podem ser.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versão e compatibilidade {#version-and-compatibility}
 
 A versão atual do componente de tabulações é v 1, que foi introduzida com a versão 2.2.0 dos Componentes principais em outubro de 2018 e descrita neste documento.
 
@@ -39,46 +39,54 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |--- |--- |--- |--- |
 | v1 | Compatível | Compatível | Compatível |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
+Para experimentar o componente de tabulações, bem como ver exemplos de suas opções de configuração, além de HTML e saída JSON, visite a Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
 
-### Technical Details {#technical-details}
+### Detalhes técnicos {#technical-details}
 
-The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+A documentação técnica mais recente sobre o componente de tabulações [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 
 A caixa de diálogo Editar permite que o autor do conteúdo crie, renomeie e reorganize guias, bem como defina a guia ativa.
 
-### Items Tab {#items-tab}
+### Guia Itens {#items-tab}
 
-![](assets/screenshot_2018-10-11at153557.png)
+![](assets/screen-shot-2019-08-29-12.28.16.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a tab. Uma vez adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
+Use o botão **Adicionar** para abrir o seletor de componentes para escolher qual componente adicionar como uma guia. Uma vez adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
 
 * **Ícone** - O ícone do tipo de componente da guia para fácil identificação na lista. Passe o mouse sobre o nome completo do componente como uma dica de ferramenta.
 * **Descrição** - A descrição usada como o texto da guia, padrão do nome do componente selecionado para a guia.
 * **Excluir** - toque ou clique para excluir a guia do componente da guia.
 * **Reorganizar** - toque ou clique e arraste para reorganizar a ordem das guias.
 
-### Properties Tab {#properties-tab}
+### Guia Propriedades {#properties-tab}
 
-![](assets/screenshot_2018-10-19at140646.png)
+![](assets/screen-shot-2019-08-29-12.28.32.png)
 
-On the **Properties** tab, the content author can define which tab is active when the page is loaded. With the **Default** option, the first tab will be selected.
+Na guia **Propriedades** , o autor do conteúdo pode definir qual guia está ativa quando a página é carregada. Com a **opção Padrão** , a primeira guia será selecionada.
+
+### Guia Acessibilidade {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.28.40.png)
+
+Na guia **Acessibilidade** , os valores podem ser definidos para [rótulos de acessibilidade](https://www.w3.org/WAI/standards-guidelines/aria/) da ARIA para o componente.
+
+* **Rótulo** - Valor de um atributo de rótulo da JAR para o componente
 
 ## Select Panel {#select-panel}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
+O autor do conteúdo pode usar a **opção Selecionar painel** na barra de ferramentas do componente para mudar para um painel diferente para edição, bem como para reorganizar a ordem das guias facilmente.
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
+Depois de selecionar a **opção Selecionar painel** na barra de ferramentas do componente, as guias configuradas são exibidas como uma lista suspensa.
 
 * A lista é ordenada pela disposição atribuída das guias e refletida na numeração.
 * O tipo de componente da guia é exibido primeiro, seguido pela descrição da guia na fonte mais leve.
@@ -90,18 +98,18 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
+>As guias não são selecionadas pelo autor quando no **modo Editar** . Use [**o modo de Visualização**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ou **[a](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** opção Exibir como publicada para interagir com as guias como um leitor do conteúdo publicado.
 
-## Design Dialog {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina quais componentes podem ser adicionados como itens ao componente tabulações, bem como definir quais estilos personalizados estão disponíveis para o autor do conteúdo.
 
-### Allowed Components Tab {#allowed-components-tab}
+### Guia Componentes permitidos {#allowed-components-tab}
 
-The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
+A guia **Componentes** permitidos é usada para definir quais componentes podem ser adicionados como itens ao componente tabulações pelo autor do conteúdo.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+As funções de guia Componentes permitidos da mesma forma que a guia com o mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Styles Tab {#styles-tab}
+### Guia Estilos {#styles-tab}
 
-The Tabs Component supports the AEM [Style System](authoring.md#component-styling).
+O componente de tabulações é compatível com o Sistema [de estilo AEM](authoring.md#component-styling).
