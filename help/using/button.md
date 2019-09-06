@@ -10,12 +10,12 @@ topic-tags: criação
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
 translation-type: tm+mt
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Button Component{#button-component}
+# Componente do botão{#button-component}
 
 O componente do botão de componente principal permite a configuração e a exibição de um item de botão em uma página.
 
@@ -23,10 +23,10 @@ O componente do botão de componente principal permite a configuração e a exib
 
 O componente de botão do componente principal permite a inclusão de um botão em uma página.
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* As propriedades do botão podem ser selecionadas na caixa de diálogo [Configurar](#configure-dialog).
+* Os estilos para o componente de botão podem ser definidos na caixa de diálogo [de design](#design-dialog).
 
-## Version and Compatibility {#version-and-compatibility}
+## Versão e compatibilidade {#version-and-compatibility}
 
 A versão atual do componente de Botão é v 1, que foi introduzida com a versão 2.5.0 dos Componentes principais em junho de 2019 e descrita neste documento.
 
@@ -36,31 +36,41 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |--- |--- |--- |---|
 | v1 | Compatível | Compatível | Compatível |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+Para experimentar o componente do botão, bem como ver exemplos de suas opções de configuração, além de HTML e saída JSON, visite a Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
 
-## Technical Details {#technical-details}
+## Detalhes técnicos {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+A documentação técnica mais recente sobre o componente de botão [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
 
-## Configure Dialog {#configure-dialog}
+## Configurar caixa de diálogo {#configure-dialog}
 
 A caixa de diálogo Configurar permite que o autor do conteúdo defina o botão e como ele se comportará e será exibido para um visitante da página.
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### Guia Propriedades {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **Texto** - O texto a ser exibido no botão
 * **Link** - Link para uma página de conteúdo no AEM, um recurso externo ou uma âncora
-   * Use the **Selection Dialog** to choose a path within AEM.
+   * Use a caixa de diálogo **de seleção** para escolher um caminho no AEM.
 * **Ícone** - Identificador para exibir um ícone no botão
 
-## Design Dialog {#design-dialog}
+### Guia Acessibilidade {#accessibility-tab}
 
-### Styles Tab {#styles-tab}
+![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+Na guia **Acessibilidade** , os valores podem ser definidos para [rótulos de acessibilidade](https://www.w3.org/WAI/standards-guidelines/aria/) da ARIA para o componente.
+
+* **Rótulo** - Valor de um atributo de rótulo da JAR para o componente
+
+## Caixa de diálogo de design {#design-dialog}
+
+### Guia Estilos {#styles-tab}
+
+O componente de imagem é compatível com o Sistema [de estilo AEM](authoring.md#component-styling).
