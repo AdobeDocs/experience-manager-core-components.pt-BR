@@ -10,7 +10,7 @@ topic-tags: introdução
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: a 3 a 98 b 2 f -65 bf -4493-82 ad -01717938 fdbc
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -63,7 +63,7 @@ A tabela a seguir, cujo conteúdo está [disponível no github com detalhes comp
 
 | Versão | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão introduziu o novo componente de Fragmento de experiência | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | setembro de 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão introduziu o novo componente de Fragmento de experiência | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 6 de setembro de 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versão introduziu os componentes do Novo Acordeão, Botão, Contêiner e Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 de junho de 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versão introduziu o componente Lista de fragmentos do conteúdo | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7 de maio de 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versão foi focada em refinamentos à biblioteca de componentes, mas também contém alguns aprimoramentos de recursos para o componente Separador | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 14 de março de 2019 |
