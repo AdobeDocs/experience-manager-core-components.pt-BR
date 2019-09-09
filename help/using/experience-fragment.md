@@ -6,7 +6,7 @@ seo-description: O componente de fragmento de experiência permite que o autor d
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ O componente de fragmento de experiência tentará localizar um componente local
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de fragmento de experiência é v 1, que foi introduzida com a versão 2.6.0 dos Componentes principais em agosto de 2019 e descrita neste documento.
+A versão atual do Componente de fragmento de experiência é v 1, que foi introduzida com a versão 2.6.0 dos Componentes principais em setembro de 2019 e descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e links para a documentação das versões anteriores.
 
