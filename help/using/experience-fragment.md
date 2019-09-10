@@ -6,7 +6,7 @@ seo-description: O componente de fragmento de experiência permite que o autor d
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ O componente de fragmento de experiência é adaptável às estruturas localizad
 Nesse caso, o fragmento com a mesma localização (idioma, blueprint ou live copy) que a página atual será renderizada como parte do modelo.
 
 Esse comportamento é limitado aos Componentes do fragmento de experiência adicionados aos modelos. Componentes do fragmento de experiência adicionados a páginas de conteúdo individuais renderizarão as representações exatas do fragmento de experiência configuradas no componente.
+
+* Para obter um exemplo de como os recursos de localização do Componente de fragmentos de experiência funcionam, consulte [a seção abaixo](#example).
+* Para obter um exemplo de como os recursos de localização dos Componentes principais trabalham em conjunto, consulte os [Recursos de localização da página Componentes principais](localization.md).
 
 ### Exemplo {#example}
 
