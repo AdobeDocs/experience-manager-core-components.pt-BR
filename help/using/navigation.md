@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ A caixa de diálogo [Editar](#edit-dialog) permite que o autor do conteúdo defi
 ## Suporte a estrutura localizada do site {#localized-site-structure}
 
 Os sites são geralmente fornecidos em vários idiomas para diferentes regiões. Geralmente, cada página localizada conterá um elemento de navagação incluído como parte do modelo de página. O componente de navegação permite colocá-lo uma vez em um modelo para todas as páginas do site e, em seguida, se adaptar automaticamente para as páginas localizadas individuais com base na estrutura do site globalizada.
+
+* Para obter um exemplo de como o recurso de localização do Componente de navegação funciona, consulte [a seção abaixo](#example-localiatzion).
+* Para obter um exemplo de como os recursos de localização dos Componentes principais trabalham em conjunto, consulte os [Recursos de localização da página Componentes principais](localization.md).
 
 ### Exemplo {#example-localization}
 
