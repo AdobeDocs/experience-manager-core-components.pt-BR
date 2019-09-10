@@ -8,7 +8,7 @@ topic-tags: componentes principais
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ A maioria dos sites requer que um rodapé esteja presente em todas as páginas. 
 
 De modo semelhante, um componente de navegação geralmente deve ser exibido em todas as páginas. No entanto, também será necessário refletir o conteúdo das páginas localizadas.
 
-Usando os recursos de localização do componente principal [de navegação](navigation.md) e [do componente](experience-fragment.md) principal do fragmento de experiência juntamente com os [modelos editáveis do AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), isso se torna uma tarefa combinada.
+Usando os recursos de localização do componente principal [de navegação](navigation.md) e [do componente](experience-fragment.md) principal do fragmento de experiência juntamente com os [modelos editáveis do AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), isso se torna uma tarefa combinada. O exemplo pode ser ainda estendido para usar o [Componente](language-navigation.md) de navegação de idioma.
 
 ## A estrutura do conteúdo {#content-structure}
 
