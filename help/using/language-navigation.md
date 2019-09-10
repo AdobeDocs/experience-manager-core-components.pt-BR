@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -30,6 +30,9 @@ O componente de navegação de idioma fornece uma navegação de idioma/país pa
 ## Uso {#usage}
 
 Os sites são geralmente fornecidos em vários idiomas para diferentes regiões. O componente de navegação de idioma permite que um visitante visualize a mesma página em idiomas/localidades diferentes. Assim, se você for um leitor na versão em alemão suíço do site, poderá alternar facilmente para a versão em inglês dos EUA da mesma página. O componente de Navegação de idioma trata da compreensão do idioma do site e encontra a página correspondente de forma automática.
+
+* Para obter um exemplo de como o recurso de localização do Componente de navegação de idioma funciona, consulte [a seção abaixo](#example).
+* Para obter um exemplo de como os recursos de localização dos outros Componentes principais trabalham, consulte os [Recursos de localização da página Componentes principais](localization.md).
 
 A caixa de diálogo [Editar](#edit-dialog) permite a definição da raiz de navegação do site global, bem como a profundidade da estrutura que a navegação deve ir. Usando a [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir os valores padrão para as mesmas opções.
 
