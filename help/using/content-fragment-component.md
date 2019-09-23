@@ -2,40 +2,40 @@
 title: Componente do fragmento do conteúdo
 seo-title: Componente do fragmento do conteúdo
 description: 'null'
-seo-description: O componente do Fragmento do conteúdo do componente principal permite a exibição de um fragmento do conteúdo.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 439 a 1 d 626
+seo-description: O componente Fragmento de conteúdo do componente principal permite a exibição de um fragmento de conteúdo.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Usuário
 content-type: referência
-topic-tags: criação
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
+topic-tags: autoria
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
+source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ---
 
 
 # Componente do fragmento do conteúdo{#content-fragment-component}
 
-O componente do Fragmento do conteúdo do componente principal permite a exibição de um [fragmento do conteúdo](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+O componente Fragmento de conteúdo do componente principal permite a exibição de um fragmento [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)conteúdo.
 
 >[!NOTE]
 >
->Antes da versão 2.4.0 dos Componentes principais, o componente Fragmento do conteúdo estava disponível como uma extensão para os componentes principais e precisava ser baixado separadamente e ativado explicitamente.
+>Antes da versão 2.4.0 dos Componentes principais, o componente Fragmento do conteúdo estava disponível como uma extensão para os componentes principais e precisava ser baixado separadamente e habilitado explicitamente.
 
 ## Uso {#usage}
 
-O componente do fragmento do conteúdo do componente principal permite a inclusão de um fragmento [de conteúdo](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) em uma página.
+O Componente principal de fragmento de conteúdo do componente permite a inclusão de um fragmento [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) conteúdo em uma página.
 
-* O fragmento e suas propriedades podem ser selecionados na caixa de diálogo [Configurar](#configure-dialog).
-* Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na caixa de diálogo [de design](#design-dialog).
-* A opção de edição abrirá o fragmento selecionado no editor de fragmentos [do conteúdo](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
+* O fragmento e suas propriedades podem ser selecionados na caixa de diálogo [](#configure-dialog)configurar.
+* Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na caixa de diálogo [de](#design-dialog)design.
+* A opção de edição abrirá o fragmento selecionado no editor [de fragmentos de](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente do fragmento do conteúdo é v 1, que foi introduzida com a versão 1.1.0 dos Componentes principais em outubro de 2017 e descrita neste documento.
+A versão atual do Componente de fragmento de conteúdo é a v1, que foi introduzida com a versão 1.1.0 dos Componentes principais em outubro de 2017, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e links para a documentação das versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
@@ -47,49 +47,49 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->A partir de 2.4.0, foi movido para o seguinte local.
+>Da 2.4.0, ele foi movido para o seguinte local.
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->Embora seja v 1, qualquer componente do Fragmento de conteúdo que foi usado na pasta de extensões exigirá uma migração de seus componentes de proxy relacionados para usar o novo tipo de recurso ao atualizar para a versão 2.4.0 ou superior dos Componentes principais.
+>Embora ambos sejam v1, qualquer componente de Fragmento de conteúdo que tenha sido usado da pasta de extensões exigirá a migração de seus componentes proxy relacionados para usar o novo tipo de recurso ao atualizar para a versão 2.4.0 ou superior dos Componentes principais.
 
-Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente do fragmento do conteúdo, bem como ver exemplos de suas opções de configuração, além de HTML e saída JSON, visite a Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Para experimentar o Componente de fragmento de conteúdo e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente do fragmento do conteúdo [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+A documentação técnica mais recente sobre o Componente de fragmento de conteúdo [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-A caixa de diálogo Configurar permite que o autor do conteúdo defina o fragmento do conteúdo e os elementos desse fragmento a serem incluídos.
+A caixa de diálogo de configuração permite que o autor do conteúdo defina o fragmento do conteúdo e os elementos desse fragmento a serem incluídos.
 
 ![](assets/chlimage_1-87.png)
 
 * **Fragmento do conteúdo**
 
-   * Caminho para o fragmento do conteúdo desejado
-   * A **caixa de diálogo de seleção** pode ser usada para localizar o fragmento
+   * Caminho para o fragmento de conteúdo desejado
+   * A caixa de diálogo **** de seleção pode ser usada para localizar o fragmento
 
-* **Elemento** - o elemento do fragmento do conteúdo para incluir
-* **Variação** - qual variação do fragmento do conteúdo usar (padrão **para Mestre**)
+* **Elemento** - O elemento do fragmento de conteúdo a ser incluído
+* **Variação** - qual variação do fragmento de conteúdo usar (o padrão é **Mestre**)
 
 * **Parágrafos**
 
    * **Todos** - Exibir todos os parágrafos
    * **Intervalo**
 
-      * Especificar intervalos de parágrafos que devem ser exibidos, separados por um ponto e vírgula
-      * Por exemplo `1;3-5;7;9-*` , para incluir a 1 ª, a 3 ª a 5 ª, a 7 ª e a 9 ª aos parágrafos finais
+      * Especificar intervalos de parágrafos que devem ser exibidos, separados por ponto e vírgula
+      * Por exemplo, `1;3-5;7;9-*` para incluir os parágrafos 1º, 3º a 5º, 7º e 9º ao final
 
-* **Gerenciar cabeçalho como seus próprios parágrafos**
+* **Tratar o cabeçalho como seus próprios parágrafos**
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina os tipos de recursos usados para lidar com imagens de mídia mista e grades responsivas.
 
