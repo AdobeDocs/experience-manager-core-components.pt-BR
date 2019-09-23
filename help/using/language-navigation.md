@@ -3,11 +3,11 @@ title: Componente de navegação de idioma
 seo-title: Componente de navegação de idioma
 description: 'null'
 seo-description: O componente de navegação de idioma fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar até a mesma página em uma localidade diferente.
-uuid: ce 736458-9 cdf -4 bc 2-b 90 f -9 c 5 a 62 fe 1 ca 0
+uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
 content-type: referência
-topic-tags: criação
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 8 f 232 eb 0-65 d 5-4075-8668-75 f 1366882 c 8
+topic-tags: autoria
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: não
@@ -25,61 +25,61 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 # Language Navigation Component{#language-navigation-component}
 
-O componente de navegação de idioma fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar até a mesma página em uma localidade diferente.
+O Componente de navegação de idioma fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar até a mesma página em uma localidade diferente.
 
 ## Uso {#usage}
 
-Os sites são geralmente fornecidos em vários idiomas para diferentes regiões. O componente de navegação de idioma permite que um visitante visualize a mesma página em idiomas/localidades diferentes. Assim, se você for um leitor na versão em alemão suíço do site, poderá alternar facilmente para a versão em inglês dos EUA da mesma página. O componente de Navegação de idioma trata da compreensão do idioma do site e encontra a página correspondente de forma automática.
+Geralmente, os sites são fornecidos em vários idiomas para diferentes regiões. O componente de navegação de idioma permite que um visitante visualize a mesma página em idiomas/localidades diferentes. Então se você é um leitor da versão suíça alemã do site, você pode facilmente mudar para a versão em inglês dos EUA da mesma página. O componente de Navegação de idioma lida com a compreensão da estrutura de idioma do site e encontra a página correspondente automaticamente.
 
 * Para obter um exemplo de como o recurso de localização do Componente de navegação de idioma funciona, consulte [a seção abaixo](#example).
-* Para obter um exemplo de como os recursos de localização dos outros Componentes principais trabalham, consulte os [Recursos de localização da página Componentes principais](localization.md).
+* Para ver um exemplo de como os recursos de localização dos outros Componentes principais trabalham juntos, consulte a página [Recursos de](localization.md)localização dos componentes principais.
 
-A caixa de diálogo [Editar](#edit-dialog) permite a definição da raiz de navegação do site global, bem como a profundidade da estrutura que a navegação deve ir. Usando a [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir os valores padrão para as mesmas opções.
+A caixa de diálogo [de](#edit-dialog) edição permite a definição da raiz de navegação global do site, bem como a profundidade na estrutura que a navegação deve percorrer. Usando a caixa de diálogo [de](#design-dialog)design, o autor do modelo pode definir os valores padrão para as mesmas opções.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação de idioma é v 1, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e descrita neste documento.
+A versão atual do Componente de navegação de idioma é a v1, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e links para a documentação das versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões do componente principal, consulte o documento [Principais versões de componentes](versions.md).
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente de navegação de idioma, bem como ver exemplos de suas opções de configuração, além de HTML e saída JSON, visite a Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
+Para experimentar o Componente de navegação de idioma e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de navegação de idioma [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+A documentação técnica mais recente sobre o Componente de navegação de idiomas [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo Editar permite a definição da raiz de navegação do site global, bem como a profundidade da estrutura que a navegação deve ir.
+A caixa de diálogo de edição permite a definição da raiz de navegação global do site, bem como a profundidade na estrutura que a navegação deve percorrer.
 
-Normalmente, essas configurações só precisam ser feitas no modelo de página. No entanto, elas podem ser alteradas no nível da página por meio da [caixa](#edit-dialog)de diálogo de edição.
+Normalmente, essas configurações precisam ser feitas somente no nível do modelo da página. No entanto, eles podem ser alterados no nível da página por meio da caixa de diálogo [de](#edit-dialog)edição.
 
 ### Guia Propriedades {#properties-tab}
 
 ![](assets/screen_shot_2018-01-12at133642.png)
 
 * **Raiz da navegação**
-   * É aqui que a navegação do idioma do site deve ser iniciada.
-   * A estrutura de idioma do site começa no próximo nível abaixo desta raiz.
+   * É aqui que a navegação em idioma do site deve começar.
+   * A estrutura de idioma do site começa no próximo nível abaixo dessa raiz.
 * **Profundidade da estrutura do idioma**
-   * A árvore de conteúdo abaixo da Raiz **de navegação** representa a estrutura de idioma do site. Exemplos:
-      * `1` geralmente significa que você tem apenas a opção de idioma.
-      * `2` significa que você tem uma escolha de idioma e país.
-      * `3` geralmente significa que você tem uma escolha de idioma, país e região.
+   * Esta é a quantidade de níveis da árvore de conteúdo abaixo da Raiz **de** navegação que representa a estrutura de idioma do site. Exemplos:
+      * `1` tipicamente significa que você só tem a escolha do idioma.
+      * `2` tipicamente significa que você tem uma escolha de idioma e país.
+      * `3` tipicamente significa que você tem uma escolha de idioma, país e região.
 
 #### Exemplo {#example}
 
-Considere que o conteúdo é parecido com:
+Digamos que seu conteúdo se parece com isso:
 
 ```
 /content
@@ -96,18 +96,18 @@ Considere que o conteúdo é parecido com:
 \-- wknd-shop
 ```
 
-Para o site We. Retail, você provavelmente desejaria colocar o componente Navegação de idioma em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de navegação** do componente como `/content/we-retail` sendo aquela onde o conteúdo localizado para o site começa. Você também deve definir a Profundidade da estrutura **do idioma** como se `2` fosse uma estrutura de dois níveis (país em seguida, laguage).
+Para o site We.Retail, você provavelmente gostaria de colocar o componente de Navegação de idioma em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de** navegação do componente como `/content/we-retail` sendo aquele em que seu conteúdo localizado começa. Você também gostaria de definir a Profundidade **da Estrutura de** Idioma como sendo `2` de dois níveis (país e idioma).
 
-Com o valor **Raiz** de navegação, o Componente de idioma sabe que depois `/content/we-retail` da navegação começa e pode gerar opções de navegação de idioma reconhecendo os próximos dois níveis na árvore de conteúdo como a estrutura de navegação do idioma do site (conforme definido pelo **valor Profundidade da** estrutura do idioma).
+Com o valor Raiz **de** navegação, o Componente de linguagem sabe que depois disso a navegação começa e pode gerar opções de navegação de idioma reconhecendo os próximos dois níveis na árvore de conteúdo como a estrutura de navegação de idioma do site (conforme definido pelo valor de Profundidade `/content/we-retail` da estrutura de **** idiomas).
 
-Não importa qual página um usuário está visualizando, o componente Navegação de idioma pode encontrar a página correspondente em outro idioma, ao saber o local da página atual e trabalhar de volta à raiz e encaminhar para a página correspondente.
+Independentemente da página que um usuário esteja visualizando, o componente de Navegação de idioma pode encontrar a página correspondente em outro idioma, ao saber o local da página atual e ao trabalhar de trás para a raiz e, em seguida, encaminhar para a página correspondente.
 
 ### Guia Estilos {#styles-tab}
 
-O componente de navegação de idioma é compatível com o sistema [de estilo do AEM](authoring.md#component-styling).
+O componente de navegação de idioma suporta o sistema [de](authoring.md#component-styling)estilo AEM.
 
 ## Edit Dialog {#edit-dialog}
 
-Normalmente, o componente de Navegação do Langauge precisa apenas ser adicionado e configurado nos modelos de página de um site. Entretanto, se o componente de Navegação de idioma precisar ser adicionado a uma página de conteúdo individual, a caixa de diálogo de edição permitirá que um autor de conteúdo configure os mesmos valores descritos na [caixa](#design-dialog)de diálogo de design.
+Normalmente, o componente de Navegação de idioma precisa apenas ser adicionado e configurado nos modelos de página de um site. No entanto, se o componente de Navegação de idioma precisar ser adicionado a uma página de conteúdo individual, a caixa de diálogo de edição permitirá que um autor de conteúdo configure os mesmos valores conforme descrito na caixa de diálogo [de](#design-dialog)design.
 
 ![](assets/screen_shot_2018-01-12at133353.png)
