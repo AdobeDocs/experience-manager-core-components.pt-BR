@@ -1,12 +1,12 @@
 ---
-title: Componente de opções de formulário (v 1)
-seo-title: Componente de opções de formulário (v 1)
+title: Componente de opções de formulário (v1)
+seo-title: Componente de opções de formulário (v1)
 description: 'null'
 seo-description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
-uuid: a 22 ed 77 c-c 9 f 3-46 f 4-8 afe-e 478383 c 1251
+uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
 content-type: referência
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: e 1975 bfe -2 bda -409 a -998 e -1 ff 4 f 9 f 23 b 94
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: não
@@ -23,21 +23,21 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente de opções de formulário (v 1){#form-options-component-v}
+# Form Options Component (v1){#form-options-component-v}
 
 O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
 
 ## Uso {#usage}
 
-O Componente de opções de formulário do componente principal permite o envio de diferentes tipos de opções apresentadas de várias formas diferentes e destina-se a ser usado junto com [o componente do contêiner de formulário](form-container.md).
+O Componente de opções de formulário do componente principal permite o envio de diferentes tipos de opções apresentadas de várias maneiras diferentes e é destinado ao uso junto com o componente [do contêiner de](form-container.md)formulário.
 
-A apresentação das opções, rótulos e opções individuais pode ser definida pelo editor de conteúdo na caixa de diálogo [Configurar](form-options-v1.md#main-pars_title).
+A apresentação das opções, rótulos e opções individuais pode ser definida pelo editor de conteúdo na caixa de diálogo [](form-options-v1.md#main-pars_title)configurar.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve v 1 do Componente de opções de formulário, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de opções de formulário, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v 1 do Componente de opções de formulário.
+A tabela a seguir lista a compatibilidade de v1 do Componente de opções de formulário.
 
 | Versão do componente | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
@@ -46,13 +46,13 @@ A tabela a seguir lista a compatibilidade da v 1 do Componente de opções de fo
 
 >[!CAUTION]
 >
->Este documento descreve v 1 do componente de opções de formulário.
+>Este documento descreve a v1 do Componente de opções de formulário.
 >
->Para obter detalhes sobre a versão atual do Componente de opções de formulário, consulte o [documento Componente](form-options.md) de opções de formulário.
+>Para obter detalhes sobre a versão atual do Componente de opções de formulário, consulte o documento Componente [de opções de](form-options.md) formulário.
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -122,47 +122,46 @@ A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->A exportação JSON dos componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade para Componentes principais v 1](versions.md#main-pars_title_236368006) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](versions.md#main-pars_title_236368006) para obter mais informações.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-A caixa de diálogo Configurar permite que o autor do conteúdo defina o tipo de opções que devem ser apresentadas, rótulos e quais opções estão disponíveis.
+A caixa de diálogo de configuração permite que o autor do conteúdo defina o tipo de opções que devem ser apresentadas, rótulos e quais opções estão disponíveis.
 
 ![](assets/chlimage_1-90.png)
 
-* **Tipos**
-como as opções serão apresentadas
+* **Tipos** Como as opções serão apresentadas
 
    * **Caixas de seleção**
    * **Botões de opção**
    * **Suspenso**
    * **Lista suspensa de multisseleção**
 
-* **Título** - o título que será exibido como rótulo para as opções
-* **Nome** - o nome do campo enviado com os dados do formulário
-* **Fonte** - Onde as opções são definidas
+* **Título** - o título que será exibido como o rótulo das opções
+* **Nome** - O nome do campo enviado com os dados do formulário
+* **Origem** - onde as opções são definidas
 
-   * **Local** - definido no componente
-      * Toque ou clique no **botão Adicionar** para adicionar um valor, **Excluir** para remover um valor
-      * **Valor** - o valor salvo quando essa opção é selecionada quando o formulário é enviado
+   * **Local** - Definido no componente
+      * Toque ou clique no botão **Adicionar** para adicionar um valor, **Excluir** para remover um valor
+      * **Valor** - O valor salvo quando essa opção é selecionada quando o formulário é enviado
       * **Texto** - O rótulo da opção exibida no formulário
       * **Ativo** - A opção é marcada como selecionada quando o formulário é carregado
-      * **Desativado** - A opção não é selecionável, mas ainda exibe
-      * **Lista** - Uma lista estática definida em outro lugar no AEM é usada para a opção
-         * **Lista** - o caminho da lista estática no AEM
-            * Use o botão Procurar para localizar o recurso da lista
-      * **Fonte de dados** - Uma fonte de dados é usada para as opções
-         * **Fonte de dados** - tipo de recurso da fonte de dados
-* **Mensagem de ajuda** - Uma dica para o usuário do que pode ser inserido no campo
+      * **Desativado** - A opção não é selecionável, mas ainda é exibida
+      * **Lista** - uma lista estática definida em outro lugar no AEM é usada para a opção
+         * **Lista** - O caminho da lista estática no AEM
+            * Use o botão Procurar para localizar o recurso de lista
+      * **Fonte** de dados - uma fonte de dados é usada para as opções
+         * **Fonte** de dados - tipo de recurso da fonte de dados
+* **Mensagem** de ajuda - uma dica para o usuário do que pode ser inserido no campo
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-Não há diálogo de design para o componente Opções de formulário.
+Não há caixa de diálogo de design para o componente Opções de formulário.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de opções de formulário [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+A documentação técnica mais recente sobre o Componente de opções de formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
-Todo o projeto de componentes principais pode ser baixado de github.
+Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
