@@ -1,14 +1,14 @@
 ---
-title: Componente de trilha de navegação
-seo-title: Componente de trilha de navegação
+title: Componente de navegação estrutural
+seo-title: Componente de navegação estrutural
 description: 'null'
-seo-description: O componente de navegação estrutural do componente principal é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
-uuid: 13 e 858 d 5-24 ad -4144-adc 4-0 fa 1 ffd 257 c 1
+seo-description: O Componente de navegação estrutural principal é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
+uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
 contentOwner: Usuário
 content-type: referência
-topic-tags: criação
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: asu 237 df -08 b 8-4 deb -9881-66 a 1 f 0 d 65 ef 3
+topic-tags: autoria
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
@@ -16,76 +16,76 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 ---
 
 
-# Breadcrumb Component{#breadcrumb-component}
+# Componente de navegação estrutural{#breadcrumb-component}
 
-O componente de navegação estrutural do componente principal é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+O Componente de navegação estrutural principal é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
 
 ## Uso {#usage}
 
-O componente de navegação estrutural exibe a posição da página atual na hierarquia do site, permitindo que os visitantes da página naveguem pela hierarquia da página a partir do seu local atual. Isso é frequentemente integrado aos cabeçalhos de página ou rodapés.
+O Componente de navegação estrutural exibe a posição da página atual na hierarquia do site, permitindo que os visitantes da página naveguem na hierarquia da página a partir do local atual. Geralmente, isso é integrado aos cabeçalhos ou rodapés da página.
 
-Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
+As opções disponíveis, como o nível de navegação padrão e a capacidade de mostrar a página atual ou páginas ocultas, podem ser definidas pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode escolher se as páginas ocultas devem ou não ser exibidas e o nível de navegação real do componente na caixa de diálogo [de](#edit-dialog)edição.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de navegação estrutural é v 2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e descrita neste documento.
+A versão atual do Componente de navegação estrutural é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e links para a documentação das versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | Compatível | Compatível | Compatível |
 | [v1](breadcrumb-v1.md) | Compatível | Compatível | Compatível |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
-## Sample Component Output {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
+Para experimentar o Componente de navegação estrutural, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)componentes.
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
+>A partir da versão 2.1.0 dos Componentes principais, o Componente de navegação estrutural oferece suporte aos microdados [](https://schema.org/BreadcrumbList)schema.org.
 
-## Technical Details {#technical-details}
+## Detalhes técnicos {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+A documentação técnica mais recente sobre o Componente de navegação estrutural [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
 ## Edit Dialog {#edit-dialog}
 
-A caixa de diálogo Editar permite que o autor do conteúdo exclua páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que ela deve ser exibida.
+A caixa de diálogo de edição permite que o autor do conteúdo suprima páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que deve ser exibida.
 
 ![](assets/screen_shot_2018-01-12at124250.png)
 
-* **Nível de início de navegação** - Onde na hierarquia o componente da trilha de navegação deve começar para percorrer a página atual. Por exemplo, em We. Retail:
+* **Nível** inicial de navegação - onde na hierarquia o componente de navegação estrutural deve começar a ir até a página atual. Por exemplo em We.Retail:
 
-   * 0 starts at `/content`
+   * 0 inicia em `/content`
 
-   * 1 starts at `/content/we-retail`
-   * 2 starts at `/content/we-retail/<country>`
+   * 1 começa em `/content/we-retail`
+   * 2 começa em `/content/we-retail/<country>`
 
-* **Mostrar itens de navegação ocultos** - Mostrar páginas marcadas como ocultas na navegação estrutural (por padrão, eles não serão exibidos)
-* **Ocultar a página** atual - Suprimir a página atual na navegação estrutural (por padrão, ela será exibida)
+* **Mostrar itens** de navegação ocultos - Mostrar páginas marcadas como ocultas na navegação estrutural (por padrão, elas não serão exibidas)
+* **Ocultar página** atual - Suprimir a página atual na navegação estrutural (por padrão, ela será exibida)
 
-## Design Dialog {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina o que os valores padrão são para as opções de suprimir páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que ela deve ser exibida.
+A caixa de diálogo de design permite que o autor do modelo defina quais são os valores padrão para as opções de suprimir páginas ocultas e ativas nas navegações estruturais, bem como a profundidade na hierarquia que devem ser exibidas.
 
-### Main Tab {#main-tab}
+### Guia Principal {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
-* **Nível de início de navegação** - define o valor padrão para onde, na hierarquia, o componente da trilha de navegação deve começar para se movimentar até a página atual quando o componente da navegação estrutural for adicionado a uma página.
-* **Mostrar itens de navegação ocultos** - Define o valor padrão da opção **Mostrar itens** de navegação ocultos quando o componente de navegação estrutural é adicionado a uma página.
+* **Nível** inicial de navegação - Define o valor padrão para onde na hierarquia o componente de navegação estrutural deve começar a ir até a página atual quando o componente de navegação estrutural é adicionado a uma página.
+* **Mostrar itens** de navegação ocultos - Define o valor padrão da opção **Mostrar itens** de navegação ocultos quando o componente de navegação estrutural é adicionado a uma página.
 
-   * Isso não ativa ou desativa a opção para o autor. Ela apenas define o valor padrão.
+   * Ela não ativa ou desativa a opção do autor. Ela só define o valor padrão.
 
 * **Ocultar página** atual - Define o valor padrão da opção **Ocultar página** atual quando o componente de navegação estrutural é adicionado a uma página.
 
-   * Isso não ativa ou desativa a opção para o autor. Ela apenas define o valor padrão.
+   * Ela não ativa ou desativa a opção do autor. Ela só define o valor padrão.
 
-### Styles Tab {#styles-tab}
+### Guia Estilos {#styles-tab}
 
-The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
+O componente de navegação estrutural suporta o AEM [Style System](authoring.md#component-styling).
