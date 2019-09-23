@@ -1,55 +1,55 @@
 ---
-title: Diretrizes de componentes
-seo-title: Diretrizes de componentes
-description: Os Componentes principais seguem padrões de implementação modernos que são muito diferentes dos componentes de fundação.
-seo-description: Os Componentes principais seguem padrões de implementação modernos que são muito diferentes dos componentes de fundação.
-uuid: b 1 daea 89-da 3 c -454 f -8 ab 5-d 75 a 19412954
+title: Diretrizes do componente
+seo-title: Diretrizes do componente
+description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
+seo-description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
+uuid: b1daea89-da3c-454f-8ab5-d75a19412954
 contentOwner: Usuário
 content-type: referência
-topic-tags: developing
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 170 dba 8 f-a 2 ed -442 e-a 56 e -1126 b 338 c 36 e
+topic-tags: desenvolvimento
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
 source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
 
-# Diretrizes de componentes {#component-guidelines}
+# Diretrizes do componente {#component-guidelines}
 
-Os Componentes [principais](developing.md) seguem padrões de implementação modernos que são muito diferentes dos componentes de fundação.
+Os componentes [](developing.md) principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
 
-Essa página explica esses padrões e quando usá-los para criar seus próprios componentes criáveis. A primeira seção [Padrões de componente geral](guidelines.md) se aplica a qualquer tipo de componente, enquanto a segunda seção [Padrões de componentes reutilizáveis](guidelines.md) se aplica a componentes destinados a serem reutilizados em sites ou projetos, como Componentes principais por exemplo.
+Esta página explica esses padrões e quando usá-los para criar seus próprios componentes autoráveis. A primeira seção Padrões [gerais de componentes se aplica a qualquer tipo de componente, enquanto a segunda seção Padrões](guidelines.md) de componentes [](guidelines.md) reutilizáveis se aplica a componentes que devem ser reutilizados em sites ou projetos, como os Componentes principais, por exemplo.
 
 ## Padrões gerais de componentes {#general-component-patterns}
 
-As diretrizes nesta seção são recomendadas para qualquer tipo de componente, independentemente se o componente é específico a um único projeto ou se o componente deve ser amplamente reutilizado em sites ou projetos.
+As diretrizes desta seção são recomendadas para qualquer tipo de componente, independentemente de o componente ser específico de um único projeto ou de o componente ser amplamente reutilizado em sites ou projetos.
 
 ### Componentes configuráveis {#configurable-components}
 
-Os componentes podem ter caixas de diálogo com diversas opções. Isso deve ser potencializado para tornar os componentes flexíveis e configuráveis, e evitar implementar vários componentes que são mais variações entre si.
+Os componentes podem ter diálogos com várias opções. Isso deve ser aproveitado para tornar os componentes flexíveis e configuráveis e evitar a implementação de vários componentes que são principalmente variações entre si.
 
-Normalmente, se um wireframe ou design contiver variações de elementos similares, essas variações não deverão ser implementadas como componentes diferentes, mas como um componente com opções para escolher entre as variações.
+Normalmente, se um wireframe ou design contiver variações de elementos semelhantes, essas variações não devem ser implementadas como componentes diferentes, mas como um componente com opções para escolher entre as variações.
 
-Para fazer isso uma etapa ainda mais, se os componentes forem reutilizados em sites ou projetos, consulte a [seção Recursos](#pre-configurable-capabilities) pré-configuráveis.
+To take this a step further, if components are reused across sites or projects, see the Pre-Configurable Capabilities section.[](#pre-configurable-capabilities)
 
-### Separação de preocupações {#separation-of-concerns}
+### Separation of Concerns {#separation-of-concerns}
 
-Manter a lógica (ou modelo) de um componente separado do modelo de marcação (ou exibição) geralmente é uma boa prática. Há várias maneiras de conseguir isso. Entretanto, o recomendado é usar Modelos [Sling](https://sling.apache.org/documentation/bundles/models.html) para a lógica e a Linguagem [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) para a marcação, como os Componentes principais também.
+Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use Sling Models for the logic and the HTML Template Language (HTL) for the markup, like the Core Components also do.[](https://sling.apache.org/documentation/bundles/models.html)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
 
-Modelos Sling são um conjunto de anotações Java para acessar facilmente variáveis necessárias de pojos e, portanto, oferecem uma maneira simples, eficaz e performativa de implementar a lógica Java para componentes.
+Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful and performant way to implement Java logic for components.
 
-O HTL foi projetado para ser um idioma de modelo seguro e simples que é ajustado para o AEM. Ele pode chamar várias formas de lógica, o que torna bastante flexível.
+HTL has been designed to be a secure and simple template language that is tailored for AEM. It can call many forms of logic, which makes it very flexible.
 
-## Padrões de componentes reutilizáveis {#reusable-component-patterns}
+## Reusable Component Patterns {#reusable-component-patterns}
 
-As diretrizes nesta seção também podem ser usadas para qualquer tipo de componente, mas elas fazem a maior parte dos componentes que devem ser reutilizados em sites ou projetos, como Componentes principais, por exemplo. Essas orientações podem, portanto, ser ignoradas para componentes que são usados apenas em um único site ou projeto.
+The guidelines in this section can be used as well for any kind of component, but they make most sense for components that are intended to be reused across sites or projects, like the Core Components for instance. Essas diretrizes podem, portanto, ser ignoradas para componentes que são usados apenas em um único site ou projeto.
 
-### Recursos pré-configuráveis {#pre-configurable-capabilities}
+### Pre-Configurable Capabilities {#pre-configurable-capabilities}
 
-Além da caixa de diálogo de edição usada pelos autores de páginas, os componentes também podem ter uma caixa de diálogo de design para os autores do modelo pré-configurá-los. O Editor [de modelos](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) permite configurar todas as pré-configurações, chamadas de «Políticas».
+Além da caixa de diálogo de edição usada pelos autores da página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configurem. O Editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) modelos permite configurar todas essas pré-configurações, que são chamadas de "Políticas".
 
-Para tornar os componentes como reutilizáveis, eles devem ser fornecidos com opções significativas para pré-configuração. Isso permitirá ativar ou desativar os recursos dos componentes para que correspondam às necessidades específicas de sites diferentes.
+Para tornar os componentes o mais reutilizáveis possível, eles devem receber opções significativas para pré-configuração. Isso permitirá ativar ou desativar os recursos dos componentes para atender às necessidades específicas de sites diferentes.
 
 <!-- 
 
@@ -61,59 +61,56 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
  -->
 
-### Padrão do componente de proxy {#proxy-component-pattern}
+### Padrão do componente proxy {#proxy-component-pattern}
 
-Como cada recurso de conteúdo tem `sling:resourceType` uma propriedade que referencia o componente para renderizá-lo, geralmente é uma boa prática ter essas propriedades apontando para componentes específicos do site, em vez de apontar para componentes compartilhados por vários sites. Isso oferecerá mais flexibilidade e evite a atualização de conteúdo se um site precisar de um comportamento diferente para um componente, pois essa personalização pode ser alcançada no componente específico do site e não afetará os outros sites.
+Como cada recurso de conteúdo tem uma `sling:resourceType` propriedade que faz referência ao componente para renderizá-lo, geralmente é uma boa prática ter essas propriedades apontando para os componentes específicos do site, em vez de apontar para os componentes que são compartilhados por vários sites. Isso oferecerá mais flexibilidade e evitará a refatoração de conteúdo se um site precisar de um comportamento diferente para um componente, pois essa personalização pode ser realizada no componente específico do site e não afetará os outros sites.
 
-No entanto, para que os componentes específicos do projeto não duplicem qualquer código, eles devem se referir ao componente pai compartilhado com a `sling:resourceSuperType` propriedade. Esses componentes específicos do projeto que, principalmente, se referem aos componentes pai são chamados de &quot;componentes de proxy&quot;. Os componentes de proxy podem ser totalmente vazios se herdarem totalmente a funcionalidade, ou podem redefinir alguns aspectos do componente.
+Entretanto, para que os componentes específicos do projeto não dupliquem qualquer código, eles devem se referir ao componente pai compartilhado com a `sling:resourceSuperType` propriedade. Esses componentes específicos do projeto que se referem principalmente aos componentes principais são chamados de "componentes proxy". Os componentes de proxy podem ficar totalmente vazios se herdarem totalmente a funcionalidade ou se puderem redefinir alguns aspectos do componente.
 
 ### Controle de versão do componente {#component-versioning}
 
-Os componentes devem ser mantidos totalmente compatíveis com o tempo, mas algumas vezes as alterações que não podem ser mantidas compatíveis são necessárias. Uma solução para essas necessidades opostas é introduzir o controle de versão do componente adicionando um número em seu caminho de tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. Este número de versão representa uma versão importante, conforme definido pelas [diretrizes](https://semver.org/)de controle de versão semântica, que são aumentadas apenas para alterações que não são compatíveis com versões anteriores.
+Os componentes devem ser mantidos totalmente compatíveis ao longo do tempo, mas, às vezes, as alterações que não podem ser mantidas compatíveis são necessárias. Uma solução para essas necessidades opostas é introduzir o controle de versão do componente, adicionando um número no caminho do tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. This version number represents a major version as defined by semantic versioning guidelines, which is incremented only for changes that are not backward-compatible.[](https://semver.org/)
 
-Alterações incompatíveis aos seguintes aspectos dos componentes resultarão em uma nova versão:
+Alterações incompatíveis nos seguintes aspectos dos componentes resultarão em uma nova versão deles:
 
-* Modelos Sling (seguindo diretrizes de controle de versão semântica)
+* Modelos Sling (seguindo diretrizes semânticas de controle de versão)
 * Scripts e modelos HTL
-* HTML Markup and CSS Selup
+* Seletores de marcação HTML e CSS
 * Representação JSON
 * Caixas de diálogo
 
-Para obter mais detalhes, consulte [o documento Políticas](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) de controle em github.
+Para obter mais detalhes, consulte o documento Políticas [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) versão no GitHub.
 
-O controle de versão de componentes cria uma forma de contrato importante para atualizações, pois esclarece quando algo pode precisar ser refacalizado. Consulte também a seção [Compatibilidade de atualização de Personalizações](customizing.md#upgrade-compatibility-of-customizations), que explica quais considerações diferentes de personalizações exigem uma atualização.
+O controle de versão do componente cria uma forma de contrato importante para atualizações, pois esclarece quando algo pode precisar ser refatorado. Consulte também a seção Compatibilidade de [atualização das personalizações](customizing.md#upgrade-compatibility-of-customizations), que explica as considerações que diferentes formas de personalização exigem para uma atualização.
 
-Para evitar migrações de conteúdo dolorosas, é importante nunca apontar diretamente para componentes com versão de recursos de conteúdo. Como regra de miniatura, o `sling:resourceType` conteúdo não deve ter um número de versão nem atualizar os componentes para que o conteúdo seja refacado também. A melhor maneira de evitar isso é seguir o [Padrão de componentes de proxy](#proxy-component-pattern) descrito acima.
+Para evitar migrações dolorosas de conteúdo, é importante nunca apontar diretamente para os componentes com versão dos recursos de conteúdo. Como regra geral, um conteúdo nunca deve ter um número `sling:resourceType` de versão ou a atualização de componentes também exigirá que o conteúdo seja refatorado. A melhor maneira de evitar isso é seguir o Padrão [do componente](#proxy-component-pattern) proxy descrito acima.
 
 ### Interfaces do modelo {#model-interfaces}
 
-Esse padrão diz respeito à `data-sly-use` instrução HTL para apontar para uma interface Java, enquanto a implementação do Modelo de sling também se registra no tipo de recurso do componente.
+Este padrão é sobre a instrução do HTL para apontar para uma interface Java, enquanto a implementação do Modelo Sling também se registra no tipo de recurso do componente. `data-sly-use`
 
-Quando combinado com o Padrão de componente [de proxy](#proxy-component-pattern) descrito acima, esta forma de vínculo duplo oferece os seguintes pontos de extensão:
+Quando combinada com o Padrão [do componente](#proxy-component-pattern) proxy descrito acima, essa forma de vínculo duplo oferece os seguintes bons pontos de extensão:
 
-1. Um site pode redefinir a implementação de um Modelo de Sling registrando-o no tipo de recurso do componente de proxy, sem ter em mente o arquivo HTL, que ainda pode apontar para a interface.
-1. Um site pode redefinir a marcação HTL de um componente, sem ter em mente sobre qual lógica de implementação deve apontar.
+1. Um site pode redefinir a implementação de um Modelo Sling registrando-o no tipo de recurso do componente proxy, sem ter que se preocupar com o arquivo HTL, que ainda pode apontar para a interface.
+1. Um site pode redefinir a marcação HTL de um componente, sem precisar se importar com qual lógica de implementação ele deve apontar.
 
-## Colocando tudo em conjunto {#putting-it-all-together}
+## Juntando tudo {#putting-it-all-together}
 
-Abaixo está uma visão geral da estrutura de vínculo de tipo de recurso inteira, assumindo o exemplo do componente principal de título. Ele ilustra como um componente de proxy específico do site permite resolver o controle de versão de componentes, a fim de evitar que o recurso de conteúdo contenha qualquer número de versão. Em seguida, mostra como o arquivo `title.html`[HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) do componente usa a interface do modelo, enquanto a implementação é vinculada à versão específica do componente por meio [das anotações do Sling Model](https://sling.apache.org/documentation/bundles/models.html) .
+Abaixo está uma visão geral de toda a estrutura de vínculo de tipo de recurso, tomando o exemplo do Componente Principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão do componente, para evitar que o recurso de conteúdo contenha qualquer número de versão. Em seguida, mostra como o arquivo `title.html` HTL [do componente usa a interface do modelo, enquanto a implementação se vincula à versão específica do componente por meio de anotações do](https://helpx.adobe.com/experience-manager/htl/using/overview.html) Sling Model [](https://sling.apache.org/documentation/bundles/models.html) .
 
-![Visão geral de vínculo de recursos](assets/chlimage_1-32.png)
+![Visão geral do vínculo de recursos](assets/chlimage_1-32.png)
 
-Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas associados](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) são referenciados.
+Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) associados são referenciados.
 
-A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para um site, e `cq:template` as informa para cada página que o modelo associado é. Cada modelo é feito das seguintes três partes:
+A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para um site e `cq:template` informa para cada página o modelo associado. Cada modelo é feito de três partes:
 
-* **estrutura**
-Contém os recursos que serão forçados em cada página a serem presentes e que o autor da página não poderá excluir, como por exemplo, os componentes do cabeçalho e rodapé da página.
-* **inicial**
-Contém o conteúdo inicial que será duplicado na página quando ele for criado.
-* **políticas**
-contém para cada componente o mapeamento a uma política, que é a pré-configuração do componente. Esse mapeamento permite que as políticas sejam reutilizadas em modelos e, portanto, são gerenciadas centralmente.
+* **estrutura** Contém os recursos que serão forçados em cada página a estarem presentes e que o autor da página não poderá excluir, como, por exemplo, os componentes de cabeçalho e rodapé da página.
+* **initial** Contém o conteúdo inicial que será duplicado na página quando ela for criada.
+* **políticas** Contém para cada componente o mapeamento para uma política, que é a pré-configuração do componente. Esse mapeamento permite que as políticas sejam reutilizadas em modelos e, portanto, gerenciadas centralmente.
 
-![Modelos e visão geral da política](assets/screen_shot_2018-12-07at093102.png)
+![Visão geral de modelos e políticas](assets/screen_shot_2018-12-07at093102.png)
 
-**Ler em seguida:**
+**Leia a seguir:**
 
-* [Usar componentes principais](using.md) - comece a usar componentes principais em seu próprio projeto.
-* [Personalizar componentes principais](customizing.md) - para aprender como estilo e personalizar os componentes principais.
+* [Uso dos componentes](using.md) principais - comece a usar os componentes principais em seu próprio projeto.
+* [Personalização dos componentes](customizing.md) principais - para saber como estilizar e personalizar os componentes principais.
