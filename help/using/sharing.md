@@ -1,33 +1,33 @@
 ---
 title: Componente de compartilhamento em redes sociais
 seo-title: Componente de compartilhamento em redes sociais
-description: O componente de compartilhamento em redes sociais componente principal é um widget de compartilhamento do Facebook e do Pinterest.
-seo-description: O componente de compartilhamento em redes sociais componente principal é um widget de compartilhamento do Facebook e do Pinterest.
-uuid: a 75 aeca 9-f 055-429 b-a 128-7 d 4 a 1 e 5 ab 21 e
+description: O Componente principal de compartilhamento em redes sociais é um widget de compartilhamento de Pinterest e Facebook.
+seo-description: O Componente principal de compartilhamento em redes sociais é um widget de compartilhamento de Pinterest e Facebook.
+uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
 contentOwner: Usuário
 content-type: referência
-topic-tags: criação
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: a 4 a 31261-01 e 9-4 fda -8 d 1 b -7 cec 90 bb 6574
+topic-tags: autoria
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Social Sharing Component{#social-sharing-component}
+# Componente de compartilhamento em redes sociais{#social-sharing-component}
 
-O componente de compartilhamento em redes sociais componente principal é um widget de compartilhamento do Facebook e do Pinterest.
+O Componente principal de compartilhamento em redes sociais é um widget de compartilhamento de Pinterest e Facebook.
 
 ## Uso {#usage}
 
-O componente de compartilhamento em redes sociais adiciona links de compartilhamento do Facebook e Pinterest à página. Ela é incluída em cabeçalhos de página ou rodapés.
+O Componente de compartilhamento em redes sociais adiciona links de compartilhamento do Facebook e Pinterest à página. Geralmente é incluído nos cabeçalhos ou rodapés da página.
 
-Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Diferentemente de outros componentes, as configurações do Componente de compartilhamento em redes sociais são feitas pelo autor do modelo por meio das propriedades [da Página](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) inicial e pelo autor do conteúdo por meio das Propriedades [da](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)página.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de compartilhamento em redes sociais é v 1, que foi introduzida com a versão 1.0.0 dos Componentes principais com o AEM 6.3 e descrita neste documento.
+A versão atual do Componente de compartilhamento em redes sociais é a v1, que foi introduzida com a versão 1.0.0 dos Componentes principais com o AEM 6.3 e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente e as versões do AEM com as quais as versões do componente são compatíveis.
 
@@ -36,22 +36,22 @@ A tabela a seguir detalha todas as versões compatíveis do componente e as vers
 | v1 | Compatível | Compatível | Compatível |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
-## Sample Component Output {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
+Para experimentar o Componente de compartilhamento em redes sociais e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html)componentes.
 
-### Technical Details {#technical-details}
+### Detalhes técnicos {#technical-details}
 
-The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+A documentação técnica mais recente sobre o Componente de compartilhamento [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
 ## Edit Dialog {#edit-dialog}
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do conteúdo, as opções de edição para o componente de compartilhamento estão disponíveis na guia compartilhamento das propriedades [da](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)página.
 
-## Design Dialog {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
