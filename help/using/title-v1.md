@@ -1,12 +1,12 @@
 ---
-title: Componente de título (v 1)
-seo-title: Componente de título (v 1)
-description: O Componente de título do componente principal é um componente de cabeçalho de seção que inclui a edição no local.
-seo-description: O Componente de título do componente principal é um componente de cabeçalho de seção que inclui a edição no local.
-uuid: 5 c 4 d 276 c-f 0 be -4122-a 15 e -3 f 7443 d 8 b 209
+title: Componente de título (v1)
+seo-title: Componente de título (v1)
+description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
+seo-description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
+uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: referência
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: a 028 ebef -2957-410 c -9 bab-a 7040 c 350 f 2 f
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -14,36 +14,36 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente de título (v 1){#title-component-v}
+# Componente de título (v1){#title-component-v}
 
-O Componente de título do componente principal é um componente de cabeçalho de seção que inclui a edição no local.
+O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
 
 ## Uso {#usage}
 
-O componente de título deve ser usado como título ou cabeçalho de uma seção do conteúdo.
+O componente Título deve ser usado como título ou cabeçalho de uma seção de conteúdo.
 
-Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [de design](title-v1.md#main-pars_title_1995166862). O editor de conteúdo pode selecionar os níveis de cabeçalhos disponíveis na caixa de diálogo [de edição](title-v1.md#main-pars_title). Para maior conveniência, a edição simples no local do cabeçalho também está disponível.
+Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [de](title-v1.md#main-pars_title_1995166862)design. O editor de conteúdo pode selecionar entre os níveis de cabeçalho disponíveis na caixa de diálogo [de](title-v1.md#main-pars_title)edição. Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve v 1 do componente de título, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de título, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v 1 do Componente de título.
+A tabela a seguir lista a compatibilidade de v1 do Componente de título.
 
-| Versão do AEM | Componente de título v 1 |
+| Versão do AEM | Componente Título v1 |
 |--- |--- |
 | 6.3 | Compatível |
 | 6.4 | Compatível |
 
 >[!CAUTION]
 >
->Este documento descreve a versão 1 do componente de título.
+>Este documento descreve a versão 1 do componente Título.
 >
->Para obter detalhes sobre a versão atual do Componente de título, consulte o [documento Componente](title.md) de título.
+>Para obter detalhes sobre a versão atual do Componente de título, consulte o documento Componente [de](title.md) título.
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -70,11 +70,11 @@ A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->A exportação JSON dos componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade para Componentes principais v 1](versions.md#main-pars_title_236368006) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](versions.md#main-pars_title_236368006) para obter mais informações.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-A caixa de diálogo Editar permite que o autor do conteúdo defina o texto do título e selecione o nível de cabeçalho.
+A caixa de diálogo de edição permite que o autor do conteúdo defina o texto do título e selecione o nível do cabeçalho.
 
 >[!NOTE]
 >
@@ -82,20 +82,20 @@ A caixa de diálogo Editar permite que o autor do conteúdo defina o texto do t�
 
 ![](assets/chlimage_1-91.png)
 
-O editor local também pode ser usado para editar o texto do componente de título.
+O editor no local também pode ser usado para editar o texto do componente de título.
 
 ![](assets/chlimage_1-37.png)
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina o nível de cabeçalho padrão que os componentes de título terão quando criados pelos autores de conteúdo.
+A caixa de diálogo de design permite que o autor do modelo defina o nível de cabeçalho padrão que os componentes do título terão quando criados pelos autores do conteúdo.
 
 ![](assets/chlimage_1-92.png)
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de título [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+A documentação técnica mais recente sobre o componente Título [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
-Todo o projeto de componentes principais pode ser baixado de github.
+Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
