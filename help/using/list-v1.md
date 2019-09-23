@@ -1,12 +1,12 @@
 ---
-title: Componente de lista (v 1)
-seo-title: Componente de lista (v 1)
+title: Componente de lista (v1)
+seo-title: Componente de lista (v1)
 description: 'null'
-seo-description: O Componente de lista de componentes principais permite a fácil criação de listas dinâmicas e estáticas.
-uuid: 06658 c 9 d-cbf 2-4 bfe-b 425-d 980 d 1181908
+seo-description: O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
+uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
 content-type: referência
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 7 c 130 ccc -83 ff -464 d-b 58 f-d 581 f 4365 dbd
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: não
@@ -23,36 +23,36 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente de lista (v 1){#list-component-v}
+# Componente de lista (v1){#list-component-v}
 
-O Componente de lista de componentes principais permite a fácil criação de listas dinâmicas e estáticas.
+O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
 
 ## Uso {#usage}
 
-O componente de lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens arbitrários.
+O Componente de lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas secundárias ou uma lista estática de itens definidos arbitrariamente.
 
-O tipo de lista disponível e as opções de formatação podem ser definidas pelo autor do modelo na caixa de diálogo [de design](list-v1.md#main-pars_title_1995166862). O editor de conteúdo pode selecionar entre tipos de lista disponíveis e como formatar os elementos da lista na janela de [edição](list-v1.md#main-pars_title).
+O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na caixa de diálogo [de](list-v1.md#main-pars_title_1995166862)design. O editor de conteúdo pode selecionar entre os tipos de lista disponíveis e como formatar os elementos da lista na caixa de diálogo [de](list-v1.md#main-pars_title)edição.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve v 1 do componente de lista, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de lista, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v 1 do Componente de lista.
+A tabela a seguir lista a compatibilidade de v1 do Componente de lista.
 
-| Versão do AEM | Componente da lista v 1 |
+| Versão do AEM | Componente de lista v1 |
 |--- |--- |
 | 6.3 | Compatível |
 | 6.4 | Compatível |
 
 >[!CAUTION]
 >
->Este documento descreve v 1 do componente de lista.
+>Este documento descreve v1 do Componente de lista.
 >
->Para obter detalhes sobre a versão atual do Componente de lista, consulte o [documento Componente](list.md) de lista.
+>Para obter detalhes sobre a versão atual do Componente de lista, consulte o documento Componente de [lista](list.md) .
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -146,86 +146,86 @@ A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->A exportação JSON dos componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade para Componentes principais v 1](versions.md#main-pars_title_236368006) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](versions.md#main-pars_title_236368006) para obter mais informações.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-A caixa de diálogo Editar permite que o autor do conteúdo configure a lista e os elementos da lista.
+A caixa de diálogo de edição permite que o autor do conteúdo configure a lista e os elementos da lista.
 
 ### Configurações da lista {#list-settings}
 
-A lista pode ser criada de maneiras diferentes.
+A lista pode ser criada de diferentes maneiras.
 
 * [Páginas secundárias](list-v1.md#main-pars_title_1861279796)
 * [Lista fixa](list-v1.md#main-pars_title_1227896889)
 * [Pesquisar](list-v1.md#main-pars_title_1224003560)
 * [Tags](list-v1.md#main-pars_title_700759533)
 
-Independentemente de como a lista é construída, há Opções [de classificação](list-v1.md#main-pars_title_1568376452) que podem sempre ser configuradas.
+Independentemente de como a lista é criada, há opções [de](list-v1.md#main-pars_title_1568376452) classificação que podem ser sempre configuradas.
 
 ![](assets/chlimage_1-38.png)
 
-Dependendo de como o autor do conteúdo decide criar a lista, as opções de configuração adicionais serão alteradas.
+Dependendo de como o autor do conteúdo escolher criar a lista, as opções de configuração adicionais serão alteradas.
 
 #### Páginas filhas {#child-pages}
 
-A lista pode ser criada das páginas secundárias da página atual ou de outra página.
+A lista pode ser criada a partir das páginas secundárias da página atual ou de outra página.
 
 ![](assets/chlimage_1-39.png)
 
 * **Página primário**
    * A página cujas páginas secundárias devem fazer a lista
    * Deixe em branco para usar a página atual
-* **Profundidade secundária** - quantos níveis na hierarquia devem ser usados
+* **Profundidade** -filho - Quantos níveis abaixo na hierarquia devem ser usados
 
-#### Lista fixa {#fixed-list}
+#### Fixed List {#fixed-list}
 
 A lista pode ser criada usando uma lista fixa de itens.
 
 ![](assets/chlimage_1-40.png)
 
-Toque ou clique no **botão Adicionar** para inserir um novo item na lista.
+Toque ou clique no botão **Adicionar** para inserir um novo item na lista.
 
-* Digite o texto para o item na lista ou use a caixa de diálogo **de Seleção** para escolher um item do AEM.
+* Digite o texto do item na lista ou use a caixa de diálogo **** de seleção para escolher um item do AEM.
 * Use a alça de arrastar para reorganizar os itens na lista.
-* Use o ícone de lixeira para excluir itens na lista.
+* Use o ícone da lixeira para excluir itens na lista.
 
 #### Pesquisar {#search}
 
-A lista pode ser criada usando os resultados da pesquisa de conteúdo AEM.
+A lista pode ser criada usando os resultados de uma pesquisa de conteúdo do AEM.
 
 ![](assets/chlimage_1-41.png)
 
-* **Consulta de pesquisa** - A sequência de caracteres para a qual uma pesquisa de texto completa será executada para gerar os elementos da lista
-* **Pesquisar em** - Onde a pesquisa deve ser executada
-   * Usar a caixa de diálogo **de seleção** para escolher o local no AEM
-   * Usar a página atual se deixado em branco
+* **Consulta** de pesquisa - A string para a qual uma pesquisa de texto completo será executada para gerar os elementos da lista
+* **Pesquisar** - Onde a pesquisa deve ser executada
+   * Use a caixa de diálogo **** de seleção para escolher o local no AEM
+   * Usar página atual se deixado em branco
 
 #### Tags {#tags}
 
-A lista pode ser criada usando páginas que correspondem a determinadas tags em um determinado local.
+A lista pode ser criada usando páginas que correspondem a determinadas tags em um local específico.
 
 ![](assets/chlimage_1-42.png)
 
-* **Página principal** - Onde a correspondência da tag deve ser iniciada
-   * Usar a caixa de diálogo **de seleção** para escolher o local no AEM
-   * Usar a página atual se deixado em branco
+* **Página** principal - onde a correspondência de tags deve começar
+   * Use a caixa de diálogo **** de seleção para escolher o local no AEM
+   * Usar página atual se deixado em branco
 * **Tags** - Quais tags devem ser correspondidas
-   * Usar a caixa de diálogo **Procurar** para selecionar as tags
-* **Correspondência** - definir qual tipo de correspondência deve qualificar uma página a ser incluída na lista
+   * Use a caixa de diálogo **Procurar** para selecionar as tags
+* **Correspondência** - Defina o tipo de correspondência que deve qualificar uma página a ser incluída na lista
    * **qualquer tag**
    * **todas as tags**
 
 #### Opções de classificação {#sort-options}
 
-Independentemente de como você escolher criar a lista, há algumas opções de classificação que podem ser sempre definidas.
+Independentemente de como você escolher criar a lista, há certas opções de classificação que podem ser sempre definidas.
 
 ![](assets/chlimage_1-43.png)
 
-* **Ordenar por** - como os elementos devem ser ordenados
+* **Ordenar por** - Como os elementos devem ser ordenados
    * **Título**
    * **Última data de modificação**
-* **Ordem** de classificação - A ordem na qual os itens devem ser ordenados
+* **Ordem** de Classificação - A ordem na qual os itens devem ser ordenados
    * **ascendente**
    * **descendente**
 * **Máximo de itens** - Número máximo de itens exibidos na lista.
@@ -233,47 +233,44 @@ Independentemente de como você escolher criar a lista, há algumas opções de 
 
 ### Configurações do item {#item-settings}
 
-Usando a **guia Configurações** do item, é possível configurar a formatação dos elementos da lista.
+Usando a guia Configurações **de** item, a formatação dos elementos da lista pode ser configurada.
 
 ![](assets/chlimage_1-44.png)
 
-* **Itens do link Vincular itens**
-à página correspondente
-* **Mostrar descrição**
-Exibir descrições do item do link
-* **Mostrar data de modificação**Mostrar data
-do item do link
+* **Vincular itens** Vincular itens à página correspondente
+* **Mostrar descrição** Mostrar descrições do item do link
+* **Mostrar data** Mostrar data de modificação do item de link
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina quais tipos de listas devem ser permitidas aos autores de conteúdo, bem como as configurações de item disponíveis.
+A caixa de diálogo de design permite que o autor do modelo defina quais tipos de listas devem ser permitidos para os autores do conteúdo, bem como as configurações de item disponíveis.
 
 ### Configurações da lista {#list-settings-1}
 
-Na guia **Configurações** da lista, o formato de data pode ser definido, bem como que tipo de lista deve estar disponível no componente para os autores de conteúdo.
+Na guia Configurações **da** lista, o formato de data pode ser definido, bem como que tipo de listas deve estar disponível no componente para os autores de conteúdo.
 
 ![](assets/chlimage_1-45.png)
 
-* **Formato de data** - Formato a ser usado para a exibição da última data de modificação
-* **Desativar filhos** - Desativar o tipo de lista secundária no componente
-* **Desativar estático** - Desativar o tipo de lista estática no componente
-* **Desativar pesquisa** - Desativar o tipo de lista de pesquisa no componente
+* **Formato** de data - Formato a ser usado para a exibição da última data de modificação
+* **Desativar filhos** - Desabilitar o tipo de lista de filhos no componente
+* **Desativar estático** - Desabilitar o tipo de lista estática no componente
+* **Desabilitar pesquisa** - Desabilitar o tipo de lista de pesquisa no componente
 * **Desativar tags** - Desativar o tipo de lista de tags no componente
 
 ### Configurações do item {#item-settings-1}
 
-Na guia **Configurações** do item, as opções de formatação para os elementos de lista individuais que devem estar disponíveis no componente para os autores de conteúdo podem ser definidas.
+Na guia Configurações **de** item, as opções de formatação dos elementos de lista individuais que devem estar disponíveis no componente para os autores de conteúdo podem ser definidas.
 
 ![](assets/chlimage_1-46.png)
 
-* **Itens do link** - Ativar a opção Itens do link na janela [de edição](list-v1.md#main-pars_title_550499279)
-* **Mostrar descrições** - Ativar a opção Exibir descrições na janela [de edição](list-v1.md#main-pars_title_550499279)
-* **Mostrar data** - Ativar a opção Mostrar data na janela [de edição](list-v1.md#main-pars_title_550499279)
+* **Vincular itens** - opção Habilitar itens de link na caixa de diálogo [editar](list-v1.md#main-pars_title_550499279)
+* **Mostrar descrições** - ativar a opção Mostrar descrições na caixa de diálogo [editar](list-v1.md#main-pars_title_550499279)
+* **Mostrar data** - Ativar a opção Mostrar data na caixa de diálogo [editar](list-v1.md#main-pars_title_550499279)
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de lista [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+A documentação técnica mais recente sobre o componente de lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
-Todo o projeto de componentes principais pode ser baixado de github.
+Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
