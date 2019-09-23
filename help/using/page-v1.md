@@ -1,12 +1,12 @@
 ---
-title: Componente de página (v 1)
-seo-title: Componente de página (v 1)
-description: O Componente de página é um componente de página extensível projetado para funcionar com o editor de modelo e permite que os componentes de cabeçalho/rodapé da página e componentes da estrutura sejam montados com o editor de modelo.
-seo-description: O componente de página é um componente de página extensível projetado para funcionar com o editor de modelo e permite que os componentes de cabeçalho/rodapé da página e componentes da estrutura sejam montados com o editor de modelo.
-uuid: dd 1 b 1 e 58-ae 14-4818-afbe -8 bcff 0 de 2 c 32
+title: Componente de página (v1)
+seo-title: Componente de página (v1)
+description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
+seo-description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
+uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: referência
 topic-tags: componentes principais
-discoiquuid: b 3 f 1775 d -743 d -4 f 72-a 1 e 5-198303007 a 8 e
+discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -14,40 +14,40 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente de página (v 1){#page-component-v}
+# Componente de página (v1){#page-component-v}
 
-O componente de página é um componente de página extensível projetado para funcionar com o editor [de modelo](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) e permite que os componentes de cabeçalho/rodapé da página e componentes da estrutura sejam montados com o editor de modelo.
+O Componente de página é um componente de página extensível projetado para trabalhar com o editor [de](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 
 ## Uso {#usage}
 
-O componente de página é a base de todas as páginas projetadas com os componentes principais, bem como os modelos editáveis. Usando o componente de página, cabeçalhos, rodapés e a estrutura da página podem ser definidos como um modelo usando os outros componentes principais.
+O Componente de página forma a base de todas as páginas projetadas com os componentes principais, bem como modelos editáveis. Usando o componente de página, os cabeçalhos, rodapés e a estrutura da página podem ser definidos como um modelo usando os outros componentes principais.
 
-Usando a caixa [de diálogo de design](page-v1.md#main-pars_title_1995166862), as bibliotecas personalizadas do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, visto que o componente é a própria página, a [caixa de diálogo Editar](page-v1.md#main-pars_title) do componente da página é a janela de propriedades da página.
+Usando a caixa de diálogo [de](page-v1.md#main-pars_title_1995166862)design, bibliotecas personalizadas do lado do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, como o componente é a própria página, a caixa de diálogo [de](page-v1.md#main-pars_title) edição do componente da página é a janela de propriedades da página.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve v 1 do componente de página, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de página, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v 1 do componente de página.
+A tabela a seguir lista a compatibilidade da v1 do Componente de página.
 
-| Versão do AEM | Componente de página v 1 |
+| Versão do AEM | Componente de página v1 |
 |--- |--- |
 | 6.3 | Compatível |
 | 6.4 | Compatível |
 
 >[!CAUTION]
 >
->Este documento descreve v 1 do componente de página.
+>Este documento descreve a v1 do Componente de página.
 >
->Para obter detalhes sobre a versão atual do Componente de página, consulte o [documento Componente](page.md) de página.
+>Para obter detalhes sobre a versão atual do Componente de página, consulte o documento Componente [de](page.md) página.
 
 >[!NOTE]
 >
->A v 1 do componente de página não suporta redirecionamento da página. Use a versão [atual do componente de página](page.md) para o suporte a redirecionamento de página.
+>v1 do componente de página não suporta o redirecionamento de página. Use a versão [atual do componente](page.md) de página para suporte ao redirecionamento de página.
 
-## Exemplo de saída do componente {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
-A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -681,32 +681,32 @@ A amostra a seguir é coletada em [We. Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->A exportação JSON dos componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade para Componentes principais v 1](versions.md#main-pars_title_236368006) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](versions.md#main-pars_title_236368006) para obter mais informações.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na [janela Propriedades](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) da página.
+Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela Propriedades [da](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) página.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações **da página -&gt; Design de página**.
+Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -&gt; Design** da página.
 
 ![](assets/chlimage_1-94.png)
 
-Usando a janela Design de página, é possível definir bibliotecas do cliente que devem ser carregadas com a página.
+Usando a janela Design de página, você pode definir bibliotecas do lado do cliente que devem ser carregadas com a página.
 
-* Para adicionar um novo campo, clique ou toque no **botão Adicionar** abaixo dos campos.
-* Para remover um campo, clique ou toque no ícone de lixeira ao lado do campo a ser removido.
+* Para adicionar um novo campo, clique ou toque no botão **Adicionar** abaixo dos campos.
+* Para remover um campo, clique ou toque no ícone da lixeira ao lado do campo a ser removido.
 * Para reorganizar a ordem de carregamento, clique ou toque e arraste a alça ao lado do campo a ser movido.
 
-Para obter mais informações sobre como usar bibliotecas do cliente, consulte [Usar bibliotecas do cliente](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Para obter mais informações sobre o uso de bibliotecas do lado do cliente, consulte [Uso de bibliotecas](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)do lado do cliente.
 
 ![](assets/chlimage_1-95.png)
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de página [pode ser encontrada no github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+A documentação técnica mais recente sobre o Componente de página [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
-Todo o projeto de componentes principais pode ser baixado de github.
+Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Detalhes adicionais sobre o desenvolvimento dos Componentes principais podem ser encontrados na documentação do desenvolvedor de Componentes [principais](developing.md).
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
