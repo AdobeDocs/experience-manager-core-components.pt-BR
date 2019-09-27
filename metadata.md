@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Componentes principais da Experience Cloud
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 solution-image: null
 getting-started-title: Introdução
@@ -10,21 +10,21 @@ tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-video
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição que passam até o guia TOC. md do guia do usuário no repo. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no repo. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-| metadata | o que faz |
+| metadata | o que ele faz |
 |--- |--- |
 | título da solução | Usado no cabeçalho do artigo como link |
-| solução-hub-url | Abre a página helpx hub |
-| ícone de solução | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
+| solution-hub-url | Abre a página do hub helpx |
+| ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução ao helpx |
-| tutorials-url | Tutoriais de link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
-| mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo mestre para uso interno |
+| tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
+| níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. default is 2 |
+| git-repo | Specifies the location of the master repo for internal use |
