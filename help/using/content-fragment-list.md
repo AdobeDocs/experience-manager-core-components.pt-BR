@@ -8,7 +8,7 @@ content-type: referência
 topic-tags: autoria
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 translation-type: tm+mt
-source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
@@ -54,27 +54,35 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina os
 
 A guia **Propriedades** define quais Fragmentos de conteúdo são incluídos na lista. Isso se baseia principalmente em um Modelo de fragmento de conteúdo selecionado, mas há outras opções de filtro disponíveis.
 
-![](assets/screen-shot-2019-05-08-10.47.19.png)
+![](assets/screen-shot-2019-09-25-10.32.10.png)
 
 * **Modelo** - Caminho para o modelo de fragmento do conteúdo no qual a lista se baseia.
    * Por padrão, todos os fragmentos de conteúdo do modelo definidos como Caminho **** do modelo são incluídos na lista.
 * **Caminho** principal - Caminho principal a partir do qual a lista deve ser criada.
    * Os fragmentos de conteúdo com base no Caminho **do** modelo selecionado serão filtrados para os do Caminho **** principal especificado.
-   * Clique ou toque no botão **Abrir caixa de diálogo** de seleção no lado direito do campo para especificar o caminho.
+      * Clique ou toque no botão **Abrir caixa de diálogo** de seleção no lado direito do campo para especificar o caminho.
 * **Tags** - somente os Fragmentos de conteúdo com as tags especificadas serão incluídos na lista.
    * Clique ou toque no botão **Abrir caixa de diálogo** de seleção no lado direito do campo para especificar as tags.
    * Clique ou toque no X ao lado das tags selecionadas para removê-las.
+* **Ordenar por** - Campo do modelo de fragmento de conteúdo pelo qual a lista será ordenada
+   * Somente os campos de texto (incluindo numérico, data e hora) são selecionáveis.
+* **Ordem** de classificação - Como a lista será classificada pelo campo **Ordenar por**
+   * Crescente ou decrescente
+* **Máximo de itens** - Número máximo de itens a serem exibidos na lista
+   * Nenhum valor retornará todos os itens.
 
+>[!NOTE]
+>As opções **Pedido por**, **Ordem** de classificação e Itens **** máximos foram apresentadas com a versão 2.7.0 dos Componentes principais.
 
 ### Guia Elementos
 
-Por padrão, todos os elementos do Modelo de fragmento de conteúdo serão incluídos na lista. Os **Elementos** permitem que você especifique apenas os elementos específicos a serem incluídos.
+Por padrão, todos os elementos do Modelo de fragmento de conteúdo serão incluídos na lista (a menos que limitado pelo campo Itens **** máximos). A guia **Elementos** permite que você especifique apenas elementos específicos a serem incluídos.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elementos** - somente os elementos dos fragmentos de conteúdo na lista especificada serão exibidos.
-   * Clique ou toque no botão **Adicionar** para adicionar um novo elemento
-   * Clique ou toque no botão **Excluir** para remover um elemento selecionado
+   * Clique ou toque no botão **Adicionar** para adicionar um novo elemento.
+   * Clique ou toque no botão **Excluir** para remover um elemento selecionado.
    * Arraste a alça **Ordem** para reorganizar a ordem dos elementos.
 
 ## Caixa de diálogo Design {#design-dialog}
