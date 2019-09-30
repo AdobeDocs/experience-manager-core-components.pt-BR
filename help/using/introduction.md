@@ -10,7 +10,7 @@ topic-tags: introdução
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -58,6 +58,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes.
 * [Fragmento do conteúdo](content-fragment-component.md)
 * [Lista de fragmentos de conteúdo](content-fragment-list.md)
 * [Download](download.md)
+* [Incorporar](embed.md)
 * [Fragmento de experiência](experience-fragment.md)
 * [Botão de formulário](form-button.md)
 * [Contêineres de formulário](form-container.md)
