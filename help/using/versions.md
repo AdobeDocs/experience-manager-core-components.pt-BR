@@ -2,15 +2,15 @@
 title: Versões dos componentes principais
 seo-title: Versões dos componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
-seo-description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
+seo-description: Core Components are published as releases which may contain more than one version of the same core components. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
 contentOwner: Usuário
 content-type: referência
 topic-tags: introdução
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
@@ -41,21 +41,21 @@ Para obter mais detalhes sobre as versões dos componentes principais, consulte 
 
 Os componentes principais são disponibilizados por meio de **versões** e [representam os artefatos publicados reais disponíveis no GitHub](https://github.com/adobe/aem-core-wcm-components/releases). As versões são denotadas com um número decimal do formato X.Y.Z e coletam todos os componentes principais como um pacote entregável.
 
-* **As versões** principais podem apresentar novas versões dos componentes existentes, juntamente com componentes totalmente novos e correções padrão de erros. This is represented by an increment in the X component of the release number.
-* **Important releases** can introduce new functionality to existing versions of components along with bug fixes. This is represented by an increment in the Y component of the release number.
-* **Minor releases** contain only bug fixes. This is represented by an increment in the Z component of the release number.
+* **As versões** principais podem apresentar novas versões dos componentes existentes, juntamente com componentes totalmente novos e correções padrão de erros. Isso é representado por um incremento no componente X do número da versão.
+* **Important releases can introduce new functionality to existing versions of components along with bug fixes.** Isso é representado por um incremento no componente Y do número da versão.
+* **Minor releases contain only bug fixes.** This is represented by an increment in the Z component of the release number.
 
 >[!NOTE]
 >
 >Releases can contain multiple versions of the same component.
 >
->A mesma versão de um componente pode aparecer em várias versões.
+>The same version of a component can appear in multiple releases.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
 The Core Components were first released with AEM 6.3 and are designed to be flexible and compatible with all supported AEM versions. Because of this a release of the components can contain multiple versions of the same component.
 
-The following tables illustrate the compatibility of the releases of the Core Components along with which component versions are contained in which releases.
+As tabelas a seguir ilustram a compatibilidade das versões dos Componentes principais, juntamente com as versões dos componentes nas quais as versões estão contidas.
 
 ### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
 
@@ -63,7 +63,7 @@ The following table, the contents of which are available on GitHub with full rel
 
 | Release | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Release Date |
 |---|---|---|---|---|---|---|
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | This release introduced the new Embed component | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 de setembro de 2019 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versão apresentou o novo componente Incorporado | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 de setembro de 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão apresentou o novo componente Fragmento de experiência | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 6 de setembro de 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versão apresentou os novos componentes Acordeão, Botão, Contêiner e Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 de junho de 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versão apresentou o componente Lista de fragmentos do conteúdo | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7 de maio de 2019 |
@@ -76,7 +76,7 @@ The following table, the contents of which are available on GitHub with full rel
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Aprimoramentos adicionais de sub-capa, correções de erros e pequenos aprimoramentos, incluindo suporte a flip de imagem. | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 11 de abril de 2018 |
 | [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | A maioria das melhorias sub-capa, correções de erros, além de algumas melhorias secundárias nos componentes de imagem, página e fragmento de conteúdo | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 7 de março de 2018 |
 | [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Os componentes Navegação, Navegação de idioma e Pesquisa rápida foram introduzidos. Sistema de estilo implementado para todos os componentes. | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 16 de janeiro de 2018 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementação da exportação JSON em todos os componentes, introdução do componente Fragmento do conteúdo | 6.3.1.0 | 6.4.0.0+ | - | 8 | 10 de outubro de 2017 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementação da exportação JSON em todos os componentes, introdução do componente Fragmento do conteúdo | 6.3.1.0 | 6.4.0.0+ | - | 8 | 10 October 2017 |
 | [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Várias correções para o componente Imagem | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 4 August 2017 |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Fixes of Page Component, Image Component, various global fixes and improvements | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 26 April 2017 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Fixes for animated GIF images in Image component | 6.3.0.0+ | 6.4.0.0+ | - | 7 | 22 March 2017 |
@@ -88,9 +88,9 @@ The following table, the contents of which are available on GitHub with full rel
 
 ### Component Versions &amp; Releases {#component-versions-and-releases}
 
-The following table details which versions of which components are contained in which releases of the Core Components.
+A tabela a seguir detalha quais versões de quais componentes estão contidos em quais versões dos Componentes principais.
 
-|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Release 2.0.0 - 2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Versão 2.3.0-2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0+ |
+|  | Versão 1.0.0 - 1.0.6 | Versão 1.1.0 | Versão 2.0.0 - 2.0.8 | Versão 2.1.0 | Versão 2.2.0-2.2.0 | Versão 2.3.0-2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **[Página](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Título](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
@@ -108,12 +108,12 @@ The following table details which versions of which components are contained in 
 | **[Navegação de idiomas](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Pesquisa rápida](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Guias](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Carrossel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Separador](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Tabs](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Carousel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Separator](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[Lista de fragmento do conteúdo](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Acordeão](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Botão](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Accordion](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Button](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Contêiner](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Download](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Fragmento de experiência](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
@@ -121,12 +121,12 @@ The following table details which versions of which components are contained in 
 
 ## Documentação {#documentation}
 
-[Authoring with Core Components describes the usage of the core components and the features that are exposed to content authors and template authors. ](authoring.md) Each component is documented in detail.
+[A criação com componentes](authoring.md) principais descreve o uso dos componentes principais e os recursos expostos aos autores de conteúdo e autores de modelos. Cada componente é documentado em detalhes.
 
-[Component Library is a showcase of the current version of most Core Components, illustrating how they can be used.](http://opensource.adobe.com/aem-core-wcm-components/library.html)
+[A Biblioteca](http://opensource.adobe.com/aem-core-wcm-components/library.html) de componentes é uma demonstração da versão atual da maioria dos componentes principais, ilustrando como eles podem ser usados.
 
-[Developing Core Components describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.](developing.md)
+[Desenvolvendo componentes](developing.md) principais descreve os recursos técnicos dos componentes principais, como usá-los em seus projetos, como personalizar e as práticas recomendadas.
 
 [A Introdução](introduction.md) aos componentes principais fornece uma visão geral da compatibilidade dos componentes principais entre versões, casos de uso e suporte.
 
-[The WKND Tutorial is a great step-by-step introduction to developing for AEM including using the Core Components.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+[O Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND é uma excelente introdução passo a passo ao desenvolvimento para o AEM, incluindo o uso dos componentes principais.
