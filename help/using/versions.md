@@ -10,7 +10,7 @@ topic-tags: introdução
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
@@ -49,7 +49,7 @@ Os componentes principais são disponibilizados por meio de **versões** e [repr
 >
 >Releases can contain multiple versions of the same component.
 >
->The same version of a component can appear in multiple releases.
+>A mesma versão de um componente pode aparecer em várias versões.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -63,8 +63,8 @@ The following table, the contents of which are available on GitHub with full rel
 
 | Release | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Release Date |
 |---|---|---|---|---|---|---|
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versão apresentou o novo componente Incorporado | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 de setembro de 2019 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão apresentou o novo componente Fragmento de experiência | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 6 de setembro de 2019 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | This release introduced the new Embed component | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 de setembro de 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão apresentou o novo componente Fragmento de experiência | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 6 de setembro de 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versão apresentou os novos componentes Acordeão, Botão, Contêiner e Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 de junho de 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versão apresentou o componente Lista de fragmentos do conteúdo | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7 de maio de 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versão focou nos refinamentos da biblioteca de componentes, mas também contém algumas melhorias de recursos para o Componente separador | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 14 de março de 2019 |
@@ -90,7 +90,7 @@ The following table, the contents of which are available on GitHub with full rel
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Versão 2.0.0 - 2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Release 2.3.0-2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0+ |
+|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Release 2.0.0 - 2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Versão 2.3.0-2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **[Página](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Título](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
@@ -111,7 +111,7 @@ The following table details which versions of which components are contained in 
 | **[Guias](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Carrossel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Separador](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[Lista de fragmentos de conteúdo](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Lista de fragmento do conteúdo](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[Acordeão](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Botão](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Contêiner](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
@@ -121,12 +121,12 @@ The following table details which versions of which components are contained in 
 
 ## Documentação {#documentation}
 
-[A criação com componentes](authoring.md) principais descreve o uso dos componentes principais e os recursos expostos aos autores de conteúdo e autores de modelos. Cada componente é documentado em detalhes.
+[Authoring with Core Components describes the usage of the core components and the features that are exposed to content authors and template authors. ](authoring.md) Each component is documented in detail.
 
-[A Biblioteca](http://opensource.adobe.com/aem-core-wcm-components/library.html) de componentes é uma demonstração da versão atual da maioria dos componentes principais, ilustrando como eles podem ser usados.
+[Component Library is a showcase of the current version of most Core Components, illustrating how they can be used.](http://opensource.adobe.com/aem-core-wcm-components/library.html)
 
-[Desenvolvendo componentes](developing.md) principais descreve os recursos técnicos dos componentes principais, como usá-los em seus projetos, como personalizar e as práticas recomendadas.
+[Developing Core Components describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.](developing.md)
 
 [A Introdução](introduction.md) aos componentes principais fornece uma visão geral da compatibilidade dos componentes principais entre versões, casos de uso e suporte.
 
-[O Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND é uma excelente introdução passo a passo ao desenvolvimento para o AEM, incluindo o uso dos componentes principais.
+[The WKND Tutorial is a great step-by-step introduction to developing for AEM including using the Core Components.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
