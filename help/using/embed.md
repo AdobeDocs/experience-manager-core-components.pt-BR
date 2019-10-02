@@ -6,7 +6,7 @@ seo-description: O componente incorporado permite a incorporação de conteúdo 
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
@@ -19,7 +19,7 @@ O componente incorporado dos componentes principais permite a incorporação de 
 
 O Componente principal incorporado permite que o autor do conteúdo defina o conteúdo externo selecionado para ser incorporado em uma página de conteúdo do AEM. Além disso, há uma opção para definir o HTML de forma livre a ser incorporado também.
 
-* As propriedades dos componentes podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
+* As propriedades do componente podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
 * Os padrões do componente ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [](#design-dialog)de design.
 
 ## Versão e compatibilidade {#version-and-compatibility}
@@ -63,20 +63,20 @@ Os desenvolvedores podem adicionar outros processadores de URL, [seguindo a docu
 
 ### Incorporável {#embeddable}
 
-Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor é capaz de selecionar entre os produtos incorporados confiáveis pré-configurados e o componente é fornecido com um processador do YouTube pronto.
+Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor é capaz de selecionar entre os materiais incorporados confiáveis pré-configurados e o componente é fornecido com um anúncio pronto para uso no Youtube.
 
-O campo **Incorporável** define o tipo de processador que você deseja usar. No caso do processador do YouTube, é possível definir:
+O campo **Incorporável** define o tipo de processador que você deseja usar. No caso do YouTube incorporável, é possível definir:
 
 * **ID** de vídeo - a ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
 * **Largura** - A largura do vídeo incorporado
 * **Altura** - A altura do vídeo incorporado
 
-Outros processadores ofereceriam campos semelhantes e podem ser definidos por um desenvolvedor, [seguindo a documentação do desenvolvedor do Componente incorporado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Outros materiais incorporados ofereceriam campos semelhantes e podem ser definidos por um desenvolvedor, [seguindo a documentação do desenvolvedor do Componente incorporado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Os processadores incorporados devem ser ativados no nível do modelo pela caixa de diálogo [](#design-dialog) Design para estarem disponíveis para o autor da página.
+>Os incorporados devem ser ativados no nível do modelo por meio da caixa de diálogo [](#design-dialog) Design para estarem disponíveis para o autor da página.
 
 ### HTML {#html}
 
