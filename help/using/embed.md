@@ -6,7 +6,7 @@ seo-description: O componente incorporado permite a incorporação de conteúdo 
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ Você pode adicionar HTML de forma livre à sua página usando o Componente inco
 
 A marcação HTML que o autor pode inserir é filtrada para fins de segurança, a fim de evitar ataques de script entre sites que poderiam, por exemplo, permitir que os autores ganhassem direitos administrativos.
 
-Em geral, todos os scripts e `style` elementos, bem como todos os `on*` e `style` atributos, serão removidos da saída.
+*Em geral,* todos os scripts e `style` elementos, bem como todos `on*` e `style` atributos, serão removidos da saída.
 
-No entanto, as regras são mais complicadas do que isso, pois o Componente incorporado segue o conjunto de regras de filtragem global do AEM HTML AntiSami, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
+No entanto, as regras são mais complicadas porque o Componente incorporado segue o conjunto de regras de filtragem da estrutura de saneamento HTML global do AEM, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
+
+Informações adicionais de segurança podem ser encontradas na documentação do desenvolvedor do [AEM.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->Embora as regras AntiSamy possam ser configuradas sobrepondo-se `/libs/cq/xssprotection/config.xml`, essas alterações afetam todo o comportamento de HTL e JSP e não apenas o Componente principal incorporado.
+>Embora as regras da estrutura de saneamento AntiSamy possam ser configuradas sobrepondo-se `/libs/cq/xssprotection/config.xml`, essas alterações afetam todo o comportamento HTL e JSP e não apenas o Componente principal incorporado.
 
 ## Caixa de diálogo Design {#design-dialog}
 
