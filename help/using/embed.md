@@ -1,12 +1,12 @@
 ---
-title: Embed Component
-seo-title: Embed Component
-description: The Embed Component enables embedding external content in an AEM content page.
+title: Componente incorporado
+seo-title: Componente incorporado
+description: O componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
 seo-description: O componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
@@ -17,10 +17,10 @@ O componente incorporado dos componentes principais permite a incorporação de 
 
 ## Uso {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. Além disso, há uma opção para definir o HTML de forma livre a ser incorporado também.
+O Componente principal incorporado permite que o autor do conteúdo defina o conteúdo externo selecionado para ser incorporado em uma página de conteúdo do AEM. Além disso, há uma opção para definir o HTML de forma livre a ser incorporado também.
 
 * As propriedades do componente podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
-* Defaults for the component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* Os padrões do componente ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [](#design-dialog)de design.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -46,7 +46,11 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-A caixa de diálogo de configuração permite que o autor do conteúdo defina o recurso externo a ser incorporado na página. Primeiro escolha qual tipo de recurso deve ser incorporado: **URL**, **Incorporável** ou **HTML**.
+A caixa de diálogo de configuração permite que o autor do conteúdo defina o recurso externo a ser incorporado na página. Primeiro escolha qual tipo de recurso deve ser incorporado:
+
+* [URL](#url)
+* [Incorporável](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
@@ -67,33 +71,44 @@ Os incorporados permitem mais personalização do recurso incorporado, que pode 
 
 O campo **Incorporável** define o tipo de processador que você deseja usar. No caso do YouTube incorporável, é possível definir:
 
-* **Video ID - The unique video ID from YouTube of the resource you want to embed**
-* **Width** - The width of the embedded video
-* **Height - The height of the embedded video**
+* **ID** de vídeo - a ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
+* **Largura** - A largura do vídeo incorporado
+* **Altura** - A altura do vídeo incorporado
 
-Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Outros materiais incorporados ofereceriam campos semelhantes e podem ser definidos por um desenvolvedor, [seguindo a documentação do desenvolvedor do Componente incorporado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
+>Os incorporados devem ser ativados no nível do modelo por meio da caixa de diálogo [](#design-dialog) Design para estarem disponíveis para o autor da página.
 
 ### HTML {#html}
 
-You can add free-form HTML to your page using the Embed Component.
+Você pode adicionar HTML de forma livre à sua página usando o Componente incorporado.
 
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
+>Quaisquer tags não seguras, como scripts, serão filtradas do HTML inserido e não serão renderizadas na página resultante.
 
-## Design Dialog {#design-dialog}
+#### Segurança {#security}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+A marcação HTML que o autor pode inserir é filtrada para fins de segurança, a fim de evitar ataques de script entre sites que poderiam, por exemplo, permitir que os autores ganhassem direitos administrativos.
+
+Em geral, todos os scripts e `style` elementos, bem como todos os `on*` e `style` atributos, serão removidos da saída.
+
+No entanto, as regras são mais complicadas do que isso, pois o Componente incorporado segue o conjunto de regras de filtragem global do AEM HTML AntiSami, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
+
+>[!NOTE]
+>Embora as regras AntiSamy possam ser configuradas sobrepondo-se `/libs/cq/xssprotection/config.xml`, essas alterações afetam todo o comportamento de HTL e JSP e não apenas o Componente principal incorporado.
+
+## Caixa de diálogo Design {#design-dialog}
+
+A caixa de diálogo de design permite que o autor do modelo defina as opções disponíveis para o autor do conteúdo que usa o componente incorporado e os padrões definidos ao colocar o componente incorporado.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Disable URL - Disables the URL option for the content author when selected******
-* **Disable Embeddables - Disables the Embeddable option for the content author when selected, regardless of which embeddable processors are allowed.******
-* **Disable HTML - Disables the HTML option for the content author when selected.******
-* **Allowed Embeddables - Multislect that defines which embeddable processors are available to the content author, provided that the Embeddable option is active.******
+* **Desativar URL** - Desativa a opção **URL** para o autor do conteúdo quando selecionada
+* **Disable Embeddables (Desativar componentes** incorporados) - Desativa a opção **Embeddable (Incorporável)** para o autor do conteúdo quando selecionada, independentemente de quais processadores incorporáveis são permitidos.
+* **Desativar HTML** - Desativa a opção **HTML** para o autor do conteúdo quando selecionada.
+* **Incorporáveis** permitidos - Seleção múltipla que define quais processadores incorporáveis estão disponíveis para o autor do conteúdo, desde que a opção **Incorporável** esteja ativa.
