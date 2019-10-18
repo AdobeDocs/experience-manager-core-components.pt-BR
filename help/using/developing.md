@@ -10,7 +10,7 @@ topic-tags: desenvolvimento
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -61,7 +61,7 @@ Get started developing AEM Sites with Core Components by following [this step-by
 
 ## Arquivo de projeto do AEM {#aem-project-archetype}
 
-[O AEM Project Archetype](archetype.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
 
 ## Entregue pelo GitHub {#delivered-over-github}
 
