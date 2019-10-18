@@ -7,7 +7,7 @@ contentOwner: bohnerd
 content-type: referência
 topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ O plug-in Apache Jackrabbit FileVault Package é usado para compilar o conteúdo
 
 ## POM pai {#parent-pom}
 
-[O POM](archetype.md#parent-pom) pai (`<src>/<project>/pom.xml`) inclui `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o plug-in do pacote Jackrabbit FileVault. `filterSource` O `filterSource` aponta para o local do `filter.xml` arquivo usado para definir os caminhos jcr incluídos no pacote.
+[O POM](overview.md#parent-pom) pai (`<src>/<project>/pom.xml`) inclui `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o plug-in do pacote Jackrabbit FileVault. `filterSource` O `filterSource` aponta para o local do `filter.xml` arquivo usado para definir os caminhos jcr incluídos no pacote.
 
 Além do Plug-in do pacote Jackrabbit FileVault é uma definição do Plug-in do pacote de conteúdo que é usado para empurrar o pacote para o AEM. Observe que variáveis para `aem.host`, `aem.port`, `vault.user`e `vault.password` são usadas que correspondem às propriedades globais definidas no mesmo POM pai.
 
@@ -30,7 +30,7 @@ O pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) fornece as `embedded` tags par
 
 Observe que os pacotes core.wcm.components.all e core.wcm.components.example são incluídos como um subpacote. Isso implantará o pacote Componentes principais junto com o código WKND sempre.
 
-Os principais.wcm.components.all e core.wcm.components.examples são incluídos como dependências na lista de dependências. No entanto, como prática recomendada, as versões para dependências são omitidas aqui e gerenciadas no arquivo [pom](archetype.md#core-components)pai.
+Os principais.wcm.components.all e core.wcm.components.examples são incluídos como dependências na lista de dependências. No entanto, como prática recomendada, as versões para dependências são omitidas aqui e gerenciadas no arquivo [pom](overview.md#core-components)pai.
 
 ## filter.xml {#filter}
 
