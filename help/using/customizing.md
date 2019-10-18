@@ -10,7 +10,7 @@ topic-tags: desenvolvimento
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -36,7 +36,7 @@ E todos os componentes principais implementam o Sistema [de estilo](customizing.
 
 ## Arquivo de projeto do AEM {#aem-project-archetype}
 
-[O AEM Project Archetype](archetype.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
 
 ## Padrões de personalização {#customization-patterns}
 
