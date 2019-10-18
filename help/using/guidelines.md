@@ -1,21 +1,21 @@
 ---
-title: Diretrizes do componente
-seo-title: Diretrizes do componente
+title: Orientações para os componentes
+seo-title: Orientações para os componentes
 description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
 seo-description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: Usuário
-content-type: referência
+contentOwner: User
+content-type: reference
 topic-tags: desenvolvimento
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
 
-# Diretrizes do componente {#component-guidelines}
+# Orientações para os componentes {#component-guidelines}
 
 Os componentes [](developing.md) principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
 
@@ -31,21 +31,21 @@ Os componentes podem ter diálogos com várias opções. Isso deve ser aproveita
 
 Normalmente, se um wireframe ou design contiver variações de elementos semelhantes, essas variações não devem ser implementadas como componentes diferentes, mas como um componente com opções para escolher entre as variações.
 
-To take this a step further, if components are reused across sites or projects, see the Pre-Configurable Capabilities section.[](#pre-configurable-capabilities)
+Para dar um passo além, se os componentes forem reutilizados em sites ou projetos, consulte a seção Recursos [](#pre-configurable-capabilities) pré-configuráveis.
 
-### Separation of Concerns {#separation-of-concerns}
+### Separação das preocupações {#separation-of-concerns}
 
-Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use Sling Models for the logic and the HTML Template Language (HTL) for the markup, like the Core Components also do.[](https://sling.apache.org/documentation/bundles/models.html)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+Manter a lógica (ou modelo) de um componente separado do modelo de marcação (ou exibição) geralmente é uma boa prática. Existem várias maneiras de conseguir isso, no entanto, a recomendada é usar os Modelos [](https://sling.apache.org/documentation/bundles/models.html) Sling para a lógica e a Linguagem [de modelo](https://helpx.adobe.com/experience-manager/htl/using/overview.html) HTML (HTL) para a marcação, como os Componentes principais também fazem.
 
-Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful and performant way to implement Java logic for components.
+Os modelos Sling são um conjunto de anotações Java para acessar facilmente as variáveis necessárias dos POJOs e, portanto, oferecem uma maneira simples, poderosa e eficiente de implementar a lógica Java para os componentes.
 
-HTL has been designed to be a secure and simple template language that is tailored for AEM. It can call many forms of logic, which makes it very flexible.
+O HTL foi projetado para ser uma linguagem de modelo simples e segura, adaptada ao AEM. Pode chamar muitas formas de lógica, o que a torna muito flexível.
 
-## Reusable Component Patterns {#reusable-component-patterns}
+## Padrões de componentes reutilizáveis {#reusable-component-patterns}
 
-The guidelines in this section can be used as well for any kind of component, but they make most sense for components that are intended to be reused across sites or projects, like the Core Components for instance. Essas diretrizes podem, portanto, ser ignoradas para componentes que são usados apenas em um único site ou projeto.
+As diretrizes desta seção também podem ser usadas para qualquer tipo de componente, mas fazem mais sentido para componentes que devem ser reutilizados em sites ou projetos, como os Componentes principais, por exemplo. Essas diretrizes podem, portanto, ser ignoradas para componentes que são usados apenas em um único site ou projeto.
 
-### Pre-Configurable Capabilities {#pre-configurable-capabilities}
+### Recursos pré-configuráveis {#pre-configurable-capabilities}
 
 Além da caixa de diálogo de edição usada pelos autores da página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configurem. O Editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) modelos permite configurar todas essas pré-configurações, que são chamadas de "Políticas".
 
@@ -69,7 +69,7 @@ Entretanto, para que os componentes específicos do projeto não dupliquem qualq
 
 ### Controle de versão do componente {#component-versioning}
 
-Os componentes devem ser mantidos totalmente compatíveis ao longo do tempo, mas, às vezes, as alterações que não podem ser mantidas compatíveis são necessárias. Uma solução para essas necessidades opostas é introduzir o controle de versão do componente, adicionando um número no caminho do tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. This version number represents a major version as defined by semantic versioning guidelines, which is incremented only for changes that are not backward-compatible.[](https://semver.org/)
+Os componentes devem ser mantidos totalmente compatíveis ao longo do tempo, mas, às vezes, as alterações que não podem ser mantidas compatíveis são necessárias. Uma solução para essas necessidades opostas é introduzir o controle de versão do componente, adicionando um número no caminho do tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. Esse número de versão representa uma versão principal, conforme definido pelas diretrizes [de controle de versão](https://semver.org/)semântica, que é incrementada somente para alterações que não são compatíveis com versões anteriores.
 
 Alterações incompatíveis nos seguintes aspectos dos componentes resultarão em uma nova versão deles:
 
@@ -109,6 +109,10 @@ A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para 
 * **políticas** Contém para cada componente o mapeamento para uma política, que é a pré-configuração do componente. Esse mapeamento permite que as políticas sejam reutilizadas em modelos e, portanto, gerenciadas centralmente.
 
 ![Visão geral de modelos e políticas](assets/screen_shot_2018-12-07at093102.png)
+
+## Arquivo de projeto do AEM {#aem-project-archetype}
+
+[O AEM Project Archetype](archetype.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
 
 **Leia a seguir:**
 
