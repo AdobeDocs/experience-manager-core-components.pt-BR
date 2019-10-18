@@ -1,21 +1,21 @@
 ---
-title: Personalização de componentes principais
-seo-title: Personalização de componentes principais
+title: Personalização dos componentes principais
+seo-title: Personalização dos componentes principais
 description: Os Componentes principais implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização avançada da funcionalidade.
 seo-description: Os componentes principais do AEM implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização avançada da funcionalidade.
 uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: Usuário
-content-type: referência
+contentOwner: User
+content-type: reference
 topic-tags: desenvolvimento
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
 
-# Personalização de componentes principais{#customizing-core-components}
+# Personalização dos componentes principais{#customizing-core-components}
 
 Os Componentes [](developing.md) principais implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização avançada da funcionalidade.
 
@@ -34,6 +34,10 @@ Os componentes principais foram projetados desde o início para serem flexíveis
 
 E todos os componentes principais implementam o Sistema [de estilo](customizing.md).
 
+## Arquivo de projeto do AEM {#aem-project-archetype}
+
+[O AEM Project Archetype](archetype.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+
 ## Padrões de personalização {#customization-patterns}
 
 ### Personalização de caixas de diálogo {#customizing-dialogs}
@@ -45,25 +49,6 @@ Cada caixa de diálogo tem uma estrutura de nó consistente. É recomendável qu
 Para ser totalmente compatível com quaisquer alterações feitas em uma caixa de diálogo em sua versão atual, é muito importante que as estruturas abaixo do nível do item da guia não sejam tocadas (ocultas, adicionadas, substituídas, reordenadas etc.). Em vez disso, um item de guia do pai deve estar oculto por meio da `sling:hideResource` propriedade (consulte Propriedades [de Fusão de Recursos de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)Sling), e novos itens de guia adicionados que contêm os campos de configuração do bespoke. `sling:orderBefore` pode ser usado para reordenar itens de guia, se necessário.
 
 A caixa de diálogo abaixo demonstra a estrutura de diálogo recomendada, bem como como ocultar e substituir uma guia herdada, conforme descrito acima:
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -127,25 +112,6 @@ Para obter mais detalhes sobre o padrão de delegação, consulte o artigo Princ
 Isso pode ser feito facilmente copiando os arquivos HTL que precisam ser modificados do Componente principal no componente proxy.
 
 Tomando novamente o exemplo do Componente de navegação estrutural principal, para personalizar sua saída de marcação, o `breadcrumb.html` arquivo teria que ser copiado no componente específico do site que tem um `sling:resourceSuperTypes` que aponta para o Componente de navegação estrutural principal.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ### Estilo dos componentes {#styling-the-components}
 
