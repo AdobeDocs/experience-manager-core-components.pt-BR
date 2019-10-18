@@ -1,32 +1,32 @@
 ---
 cloud: experience-cloud
-product: adobe Experience Manager
+product: adobe experience manager
 sub-product: componentes principais do Adobe Experience Manager
-archetype: Administrador
-user-guide-title: Componentes principais do AEM
+archetype: Administrator
+user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
 
 ---
 
 
 # Ajuda dos componentes principais do AEM {#using}
 
-+ [Introdução aos componentes principais](introduction.md)
++ [Introdução dos Componentes principais](introduction.md)
 + [Biblioteca de componentes](http://opensource.adobe.com/aem-core-wcm-components/library.html)
-+ [Versões dos componentes principais](versions.md)
-+ Get Started {#get-started}
-   + [Criação com componentes principais](authoring.md)
-   + [Uso de componentes principais](using.md)
++ [Versões dos Componentes principais principais](versions.md)
++ Introdução {#get-started}
+   + [Autoria com Componentes principais](authoring.md)
+   + [Utilização dos componentes principais](using.md)
    + [Recursos de localização](localization.md)
 + Os componentes {#components}
-   + [Expandir/recolher](accordion.md)
+   + [Menu sanfonado](accordion.md)
    + [Caminho](breadcrumb.md)
-   + [Imagem](button.md)
+   + [Botão](button.md)
    + [Carrossel](carousel.md)
    + [Container](container.md)
    + [Fragmento do conteúdo](content-fragment-component.md)
-   + [Lista de fragmentos de conteúdo](content-fragment-list.md)
+   + [Lista de fragmentos do conteúdo](content-fragment-list.md)
    + [Download](download.md)
    + [Incorporar](embed.md)
    + [Fragmento de experiência](experience-fragment.md)
@@ -34,15 +34,15 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
    + [Navegação de idiomas](language-navigation.md)
    + [Lista](list.md)
    + [Navegação](navigation.md)
-   + [Modos](page.md)
-   + [Pesquisa rápida](quick-search.md)
+   + [Página](page.md)
+   + [Busca rápida](quick-search.md)
    + [Separador](separator.md)
-   + [Compartilhamento em rede social](sharing.md)
-   + [Text](text.md)
+   + [Compartilhamento em mídia social](sharing.md)
+   + [Texto](text.md)
    + [Guias](tabs.md)
    + [Teaser](teaser.md)
    + [Título](title.md)
-   + Componentes do formulário {#forms}
+   + Componentes de forma {#forms}
       + [Botão de formulário](form-button.md)
       + [Contêineres de formulário](form-container.md)
       + [Formulário oculto](form-hidden.md)
@@ -55,14 +55,20 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
       + [Página (v1)](page-v1.md)
       + [Texto (v1)](text-v1.md)
       + [Título (v1)](title-v1.md)
-      + Componentes de formulário v1 {#v1-forms}
-         + [Botão do formulário (v1)](form-button-v1.md)
-         + [Contêiner de formulário (v1)](form-container-v1.md)
+      + Componentes de forma v1 {#v1-forms}
+         + [Botão de formulário (v1)](form-button-v1.md)
+         + [Contêineres de formulário (v1)](form-container-v1.md)
          + [Formulário oculto (v1)](form-hidden-v1.md)
          + [Opções de formulário (v1)](form-options-v1.md)
          + [Texto do formulário (v1)](form-text-v1.md)
-+ Desenvolver {#developing}
-   + [Desenvolvimento de componentes principais](developing.md)
-   + [Tutorial do desenvolvedor WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
-   + [Personalização de componentes principais](customizing.md)
-   + [Diretrizes do componente](guidelines.md)
++ Desenvolvimento {#developing}
+   + [Desenvolvimento dos componentes principais](developing.md)
+   + [Tutorial do WKND Developer](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [Personalização dos componentes principais](customizing.md)
+   + [Orientações para os componentes](guidelines.md)
+   + [Arquivo de projeto] AEM {#archetype}
+      + [Visão geral do Archetype](archetype.md)
+      + [Módulo principal](core.md)
+      + [Módulo ui.apps](uiapps.md)
+      + [Módulo ui.content](uicontent.md)
+      + [Processo de compilação front-end](front-end-build.md)
