@@ -4,13 +4,13 @@ seo-title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 seo-description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: Usuário
-content-type: referência
+contentOwner: User
+content-type: reference
 topic-tags: autoria
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -276,3 +276,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Guia Estilos {#styles-tab-1}
 
 O componente de imagem suporta o sistema [de](authoring.md#component-styling)estilo AEM.
+
+## Servlet de imagem adaptável {#adaptive-image-servlet}
+
+O Componente de imagem usa o Servlet de imagem adaptativa do Componente principal. [O Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes](customizing.md)principais.
+
+>[!NOTE]
+>
+>As solicitações condicionais via cabeçalho são suportadas pelo Servlet de imagem adaptável, mas o cache do cabeçalho `Last-Modified` precisa `Last-Modified` ser habilitado no Dispatcher [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>
+>[A amostra de configuração do Dispatcher do AEM Project Archetype](overview.md)já contém essa configuração.
