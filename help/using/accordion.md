@@ -4,13 +4,13 @@ seo-title: Componente Acordeão
 description: 'null'
 seo-description: O componente principal Acordeão de componentes permite a criação de uma coleção de painéis organizados em um acordeão em uma página.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuário
-content-type: referência
+contentOwner: User
+content-type: reference
 topic-tags: autoria
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -72,6 +72,10 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 * **Itens** expandidos - Essa opção define os itens que são expandidos por padrão quando a página é carregada.
    * Quando a opção Expansão **de item** único é selecionada, um painel deve ser selecionado. Por padrão, o primeiro painel é selecionado.
    * Quando a expansão **de item** único não está selecionada, essa opção é de seleção múltipla e é opcional.
+
+>[!TIP]
+>
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente Acordeão ao [arrastar do navegador de componentes e soltar no Componente Acordeão no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ## Selecionar Pop-ver do Painel {#seelct-panel-popover}
 
