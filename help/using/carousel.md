@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -68,6 +68,10 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 * **Descrição** - A descrição usada como o texto da guia, padronizando com o nome do componente selecionado para a guia.
 * **Excluir** - Toque ou clique para excluir a guia do componente de guias.
 * **Reordenar** - Toque ou clique e arraste para ordenar as guias.
+
+>[!TIP]
+>
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente do carrossel, [arrastando-se do navegador de componentes e soltando-o no componente do carrossel no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ### Guia Propriedades {#properties-tab}
 
