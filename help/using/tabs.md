@@ -8,7 +8,7 @@ content-type: referência
 topic-tags: componentes principais
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -65,6 +65,10 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 * **Descrição** - A descrição usada como o texto da guia, padronizando com o nome do componente selecionado para a guia.
 * **Excluir** - Toque ou clique para excluir a guia do componente de guia.
 * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem das guias.
+
+>[!TIP]
+>
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente de guias ao [arrastar do navegador de componentes e soltar no Componente de guias no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ### Guia Propriedades {#properties-tab}
 
