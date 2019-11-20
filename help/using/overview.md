@@ -3,11 +3,11 @@ title: Arquivo de projeto do AEM
 seo-title: Arquivo de projeto do AEM
 description: Um modelo de projeto para aplicativos baseados no AEM
 seo-description: Um modelo de projeto para aplicativos baseados no AEM
-contentOwner: bohnerd
-content-type: referência
-topic-tags: componentes principais
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -53,11 +53,11 @@ O AEM Archetype é composto de módulos:
 * **[ui.content](uicontent.md)**: contém conteúdo de amostra usando os componentes do módulo ui.apps.
 * **ui.testing**: é um pacote Java que contém testes JUnit executados no lado do servidor. Este pacote não deve ser implantado na produção.
 * **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
-* **[ui.front](front-end-build.md)**: **(opcional)** contém os artefatos necessários para usar o módulo de compilação front-end baseado no Webpack.
+* **[ui.front](uifrontend.md)**: **(opcional)** contém os artefatos necessários para usar o módulo de compilação front-end baseado no Webpack.
 
 ![](assets/project-pom.png)
 
-Os módulos do AEM Archetpye representados no Maven são implantados no AEM como páginas de conteúdo que representam o aplicativo, o conteúdo e os pacotes OSGi necessários.
+Os módulos do AEM Archetype representados no Maven são implantados no AEM como pacotes de conteúdo que representam o aplicativo, o conteúdo e os pacotes OSGi necessários.
 
 ## Requisitos {#requirements}
 
@@ -117,7 +117,7 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `optionAemVersion` | 6.5.0 | Versão do Target AEM |
 | `optionIncludeExamples` | y | Incluir um site de exemplo Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library.html) componentes |
 | `optionIncludeErrorHandler` | n | Incluir uma página de resposta 404 personalizada |
-| `optionIncludeFrontendModule` | n | [Incluir um módulo de front-end dedicado](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [Incluir um módulo de front-end dedicado](uifrontend.md) |
 
 >[!NOTE]
 > Se o arquétipo for executado no modo interativo pela primeira vez, as propriedades com valores padrão não poderão ser alteradas (consulte [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para obter mais detalhes). O valor pode ser alterado quando a confirmação de propriedade no final for negada e o questionário for repetido, ou transmitindo o parâmetro na linha de comando (por exemplo, `-DoptionIncludeExamples=n`).
@@ -207,7 +207,7 @@ Portanto, para aproveitar os componentes principais em todas as implantações, 
 
 >[!NOTE]
 >
->Em geral, cada versão dos Componentes principais é seguida de uma versão do Arquivo de projeto do AEM para que o mais recente arquivo use a versão mais recente dos componentes principais.
+>Em geral, cada versão dos Componentes principais é seguida de uma versão do AEM Project Archetype para que o arquétipo mais recente use a versão mais recente dos componentes principais.
 >
 >Entretanto, uma nova versão do arquétipo pode não seguir diretamente uma nova versão dos Componentes principais, portanto, você pode atualizar a dependência dos Componentes principais para a versão mais recente.
 
@@ -231,9 +231,9 @@ Há três níveis de testes contidos no projeto e, por serem diferentes tipos de
 
 ## Próximas etapas {#next-steps}
 
-Assim, você criou e instalou o AEM Project Archteype. E agora? Bem, o arquétipo é pequeno, mas consiste em muitos exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto você provavelmente precisa:
+Por isso, você criou e instalou o AEM Project Archetype. E agora? Bem, o arquétipo é pequeno, mas consiste em muitos exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto você provavelmente precisa:
 
-* [Os componentes personalizados estendem os componentes principais existentes](customizing.md)
+* [Personalize componentes estendendo os componentes principais existentes](customizing.md)
 * [Adicionar modelos adicionais](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adaptar a estrutura de localização](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [Saiba mais sobre o módulo de compilação front-end](front-end-build.md)
+* [Saiba mais sobre o módulo de compilação front-end](uifrontend.md)
