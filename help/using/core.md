@@ -3,11 +3,11 @@ title: Módulo principal do arquivo do projeto AEM
 seo-title: Módulo principal do arquivo do projeto AEM
 description: Módulo principal do arquivo do projeto AEM
 seo-description: Módulo principal do arquivo do projeto AEM
-contentOwner: bohnerd
-content-type: referência
-topic-tags: componentes principais
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ Embora seja raro que o pacote principal precise ser implantado independentemente
 mvn -PautoInstallBundle clean install
 ```
 
-Depois de executado com êxito, você deve ser capaz de ver o console Bundels em `http://<host>:<port>/system/console/bundles`.
+Depois de executado com êxito, você deve ser capaz de visualizar o Console de pacotes em `http://<host>:<port>/system/console/bundles`.
