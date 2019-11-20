@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 5f905b0231b5f07924a55dd3d79d347e019f76f4
+source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
 
@@ -88,6 +88,10 @@ O AEM Project Archetype inclui um mecanismo de criação de front-end dedicado o
    * Fornecedores (dependências js/css)
 * Suporte total de Sass/Scss (o Sass é compilado para CSS via Webpack)
 * Servidor estático de desenvolvimento de webpack com proxy incorporado para uma instância local do AEM
+
+>[!NOTE]
+>
+>Para obter mais informações técnicas sobre o módulo ui.frontenda, consulte a [documentação do GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
 
 ## Instalação {#installation}
 
