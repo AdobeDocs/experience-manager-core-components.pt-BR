@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
 
 ---
 
@@ -25,13 +25,13 @@ Em termos muito simplificados, os projetos do AEM podem ser considerados como co
 
 Como esses dois processos de desenvolvimento estão focados em diferentes partes do projeto, o desenvolvimento de back-end e front-end pode acontecer em paralelo.
 
-![](assets/front-end-flow.png)
+![diagrama de fluxo de trabalho de front-end](assets/front-end-flow.png)
 
 No entanto, qualquer projeto resultante tem de utilizar os resultados de ambos os esforços de desenvolvimento, ou seja, tanto os back-end como os front-end.
 
 A execução `npm run dev` inicia o processo de compilação front-end que reúne os arquivos JavaScript e CSS armazenados no módulo ui.frontenst e produz duas bibliotecas de clientes minimizadas ou clientlibs chamadas `clientlib-site` e `clientlib-dependencies` as depositam no módulo ui.apps. clientlibs podem ser implantados no AEM e permitem que você armazene seu código do cliente no repositório.
 
-Quando todo o arquétipo de projeto do AEM é executado usando `mvn clean install -pautoinstallPackage` todos os artefatos do projeto, incluindo os clientlibs, eles são encaminhados para a instância do AEM.
+Quando todo o arquétipo de projeto do AEM é executado usando `mvn clean install -PautoInstallPackage` todos os artefatos do projeto, incluindo os clientlibs, eles são encaminhados para a instância do AEM.
 
 >[!TIP]
 >Saiba mais sobre clientlibs na documentação [de desenvolvimento do](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) AEM e [como o módulo ui.frontenda os usa abaixo](#clientlib-generation).
