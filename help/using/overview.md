@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
+source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
 
 ---
 
@@ -55,7 +55,7 @@ O AEM Archetype é composto de módulos:
 * **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
 * **[ui.front](uifrontend.md)**: **(opcional)** contém os artefatos necessários para usar o módulo de compilação front-end baseado no Webpack.
 
-![](assets/project-pom.png)
+![](assets/archetype-structure.png)
 
 Os módulos do AEM Archetype representados no Maven são implantados no AEM como pacotes de conteúdo que representam o aplicativo, o conteúdo e os pacotes OSGi necessários.
 
