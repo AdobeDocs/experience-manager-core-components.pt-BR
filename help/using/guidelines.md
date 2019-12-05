@@ -6,11 +6,11 @@ seo-description: Os componentes principais seguem padrões de implementação mo
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
 contentOwner: User
 content-type: reference
-topic-tags: desenvolvimento
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -50,16 +50,6 @@ As diretrizes desta seção também podem ser usadas para qualquer tipo de compo
 Além da caixa de diálogo de edição usada pelos autores da página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configurem. O Editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) modelos permite configurar todas essas pré-configurações, que são chamadas de "Políticas".
 
 Para tornar os componentes o mais reutilizáveis possível, eles devem receber opções significativas para pré-configuração. Isso permitirá ativar ou desativar os recursos dos componentes para atender às necessidades específicas de sites diferentes.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### Padrão do componente proxy {#proxy-component-pattern}
 
@@ -104,15 +94,15 @@ Abaixo está outra visão geral, que não mostra os detalhes do POJO de implemen
 
 A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para um site e `cq:template` informa para cada página o modelo associado. Cada modelo é feito de três partes:
 
-* **estrutura** Contém os recursos que serão forçados em cada página a estarem presentes e que o autor da página não poderá excluir, como, por exemplo, os componentes de cabeçalho e rodapé da página.
-* **initial** Contém o conteúdo inicial que será duplicado na página quando ela for criada.
-* **políticas** Contém para cada componente o mapeamento para uma política, que é a pré-configuração do componente. Esse mapeamento permite que as políticas sejam reutilizadas em modelos e, portanto, gerenciadas centralmente.
+* **structure** - contém os recursos que serão forçados em cada página a estarem presentes e que o autor da página não poderá excluir, como, por exemplo, os componentes de cabeçalho e rodapé da página.
+* **initial** - contém o conteúdo inicial que será duplicado na página quando ela for criada.
+* **políticas** - contém para cada componente o mapeamento para uma política, que é a pré-configuração do componente. Esse mapeamento permite que as políticas sejam reutilizadas em modelos e, portanto, gerenciadas centralmente.
 
 ![Visão geral de modelos e políticas](assets/screen_shot_2018-12-07at093102.png)
 
 ## Arquivo de projeto do AEM {#aem-project-archetype}
 
-[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de mundo de ajuda do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
 
 **Leia a seguir:**
 
