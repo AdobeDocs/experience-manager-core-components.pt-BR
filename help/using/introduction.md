@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -44,7 +44,7 @@ Os componentes principais são:
 | Extensíveis | Para cobrir as necessidades de personalização sem iniciar do zero, tudo pode ser estendido. |
 | Origem aberta | Se algo não é como deveria ser, contribua com aprimoramentos no GitlHub (Licença Apache). |
 | Versão | Os componentes principais não vão quebrar seu site ao melhorar coisas que poderiam afetá-lo. |
-| [Localizados](localization.md) | A resolução de referência inteligente permite que certos componentes encontrem e renderizem conteúdos correspondentes localizados automaticamente |
+| [Localizados](localization.md) | A resolução de referência inteligente permite que determinados componentes localizem e renderizem o conteúdo correspondente automaticamente |
 
 ## Componentes disponíveis {#available-components}
 
