@@ -1,23 +1,23 @@
 ---
-title: Versões dos componentes principais
-seo-title: Versões dos componentes principais
+title: Versões dos Componentes principais principais
+seo-title: Versões dos Componentes principais principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
 seo-description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: bohnerd
-content-type: referência
-topic-tags: introdução
+contentOwner: bohnert
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# Versões dos componentes principais{#core-components-versions}
+# Versões dos Componentes principais principais {#core-components-versions}
 
-A versão atual dos Componentes principais é 2.7.0 e é compatível com o AEM 6.5. Ela foi lançada em setembro de 2019 como uma atualização importante para a versão 2.0.0. A versão 2.0.0 introduziu novos componentes juntamente com atualizações v2 de componentes existentes.
+A versão atual dos Componentes principais é 2.8.0 e é compatível com o AEM 6.5. Ela foi lançada em dezembro de 2019 como uma atualização importante para a versão 2.0.0. A versão 2.0.0 introduziu novos componentes juntamente com atualizações v2 de componentes existentes.
 
 Consulte a seção Histórico de [versão e Compatibilidade](#versions-and-releases) deste documento para obter mais informações.
 
@@ -63,6 +63,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes](htt
 
 | Versão | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versão focou em correções com pequenos aprimoramentos no componente de navegação | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 5 de dezembro de 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versão apresentou o novo componente Incorporado | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 de setembro de 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão apresentou o novo componente Fragmento de experiência | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 6 de setembro de 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versão apresentou os novos componentes Acordeão, Botão, Contêiner e Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25 de junho de 2019 |
@@ -96,8 +97,8 @@ A tabela a seguir detalha quais versões de quais componentes estão contidos em
 | **[Título](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Imagem](image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Lista](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Trilha](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Compartilhamento em rede social](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Caminho](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Compartilhamento em mídia social](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Contêineres de formulário](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Texto do formulário](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Opções de formulário](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
@@ -106,15 +107,15 @@ A tabela a seguir detalha quais versões de quais componentes estão contidos em
 | **[Fragmento do conteúdo](content-fragment-component.md)** |  | Caixa de proteção | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Navegação](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Navegação de idiomas](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Pesquisa rápida](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Busca rápida](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Guias](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Carrossel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Separador](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[Lista de fragmento do conteúdo](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Acordeão](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Lista de fragmentos do conteúdo](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Menu sanfonado](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Botão](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Contêiner](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Container](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Download](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Fragmento de experiência](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Incorporar](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
@@ -127,6 +128,6 @@ A tabela a seguir detalha quais versões de quais componentes estão contidos em
 
 [Desenvolvendo componentes](developing.md) principais descreve os recursos técnicos dos componentes principais, como usá-los em seus projetos, como personalizar e as práticas recomendadas.
 
-[A Introdução](introduction.md) aos componentes principais fornece uma visão geral da compatibilidade dos componentes principais entre versões, casos de uso e suporte.
+[A Introdução](introduction.md) aos componentes principais fornece uma visão geral da compatibilidade dos componentes principais em versões, casos de uso e suporte.
 
-[O Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND é uma excelente introdução passo a passo ao desenvolvimento para o AEM, incluindo o uso dos componentes principais.
+[O Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND é uma excelente introdução passo a passo ao desenvolvimento do AEM, incluindo o uso dos componentes principais.
