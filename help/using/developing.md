@@ -6,11 +6,11 @@ seo-description: Os componentes principais fornecem componentes básicos robusto
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: User
 content-type: reference
-topic-tags: desenvolvimento
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -61,7 +61,7 @@ Get started developing AEM Sites with Core Components by following [this step-by
 
 ## Arquivo de projeto do AEM {#aem-project-archetype}
 
-[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de mundo de ajuda do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
 
 ## Entregue pelo GitHub {#delivered-over-github}
 
@@ -139,8 +139,8 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Permite que o autor do conteúdo crie com facilidade um teaser para continuar o conteúdo usando uma imagem, um título ou texto formatado e vinculando-o a outro conteúdo ou outras ações | `-` |
 | [Guias](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Permite que o autor do conteúdo organize o conteúdo da página em várias guias | `-` |
 | [Carrossel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Permite que o autor do conteúdo organize o conteúdo em um carrossel giratório de slides | `/libs/foundation/components/carousel` |
-| [Fragmento de conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permite a exibição de um fragmento de conteúdo | `-` |
-| [Lista de fragmentos de conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permite exibir uma lista de fragmentos de conteúdo | `-` |
+| [Fragmento do conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permite a exibição de um fragmento de conteúdo | `-` |
+| [Lista de fragmentos do conteúdo](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permite exibir uma lista de fragmentos de conteúdo | `-` |
 | [Separador](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Separa o conteúdo em uma página | `-` |
 | [Menu sanfonado](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organizar painéis de conteúdo de uma forma flexível | `-` |
 | [Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organizar componentes em um contêiner | `-` |
@@ -151,7 +151,7 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 
 ### Componentes futuros {#upcoming-components}
 
-Para obter uma visão geral do roteiro futuro dos Componentes principais, consulte o wiki do [projeto no GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Para obter uma visão geral do futuro mapa dos componentes principais, consulte o wiki do [projeto no GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Atualização dos componentes principais {#upgrade-of-core-components}
 
