@@ -3,19 +3,19 @@ title: Recursos de localização dos componentes principais
 seo-title: Recursos de localização dos componentes principais
 description: Recursos de localização dos componentes principais
 seo-description: Recursos de localização dos componentes principais
-content-type: referência
-topic-tags: componentes principais
+content-type: reference
+topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
 
 # Recursos de localização dos componentes principais {#localization-features-of-the-core-components}
 
-Muitos sites exigem que o conteúdo seja disponibilizado em um formato localizado em vários idiomas e regiões geográficas. Os Componentes principais selecionados têm uma resolução de referência inteligente para simplificar a criação de um modelo unificado para todo o conteúdo localizado que se adapta automaticamente com base na estrutura do site localizado.
+Muitos sites exigem que o conteúdo seja disponibilizado em um formato localizado em vários idiomas e regiões geográficas. Os Componentes principais selecionados apresentam uma resolução de referência inteligente para simplificar a criação de um modelo unificado para todo o seu conteúdo localizado que se adapta automaticamente com base na sua estrutura localizada do site.
 
 ## Exemplo - Página localizada com navegação e rodapés {#example}
 
@@ -93,7 +93,7 @@ Neste modelo, adicionaremos os componentes básicos nos quais queremos que nossa
 * [Componente do contêiner](container.md)
    * Cada página conterá um componente de contêiner editável para que os autores possam inserir conteúdo adicional na página.
 * [Fragmento de experiência](experience-fragment.md)
-   * Apontamos o Componente de fragmento de experiência para o caminho do fragmento em nossa linguagem de criação do fragmento que representa o rodapé.
+   * Apontamos o Componente do fragmento de experiência para o caminho do fragmento em nossa linguagem de criação do fragmento que representa o rodapé.
    * Com base no caminho desse fragmento e na estrutura dos fragmentos de experiência que espelham a estrutura da página localizada, o componente pode localizar o conteúdo localizado correspondente automaticamente.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
