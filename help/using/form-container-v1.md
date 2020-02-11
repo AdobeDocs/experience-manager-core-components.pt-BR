@@ -1,15 +1,9 @@
 ---
 title: Componente do contêiner de formulário (v1)
-seo-title: Componente do contêiner de formulário (v1)
 description: O Componente principal do contêiner de formulário permite a criação de formulários simples de envio.
-seo-description: O Componente principal do contêiner de formulário permite a criação de formulários simples de envio.
-uuid: 075d83ed-de40-414e-a18f-46b3a857acba
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ A tabela a seguir lista a compatibilidade de v1 do Componente do contêiner de f
 
 ## Caixa de diálogo Configurações {#settings-dialog}
 
-A caixa de diálogo de configurações permite que o autor do conteúdo defina quais ações serão executadas quando o componente for enviado.
+A caixa de diálogo de configurações permite que o autor do conteúdo defina quais ações serão tomadas quando o componente for enviado.
 
 ![](assets/chlimage_1.png)
 
