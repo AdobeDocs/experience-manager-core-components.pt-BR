@@ -1,25 +1,19 @@
 ---
 title: Componente da lista de fragmentos do conteúdo
-seo-title: Componente da lista de fragmentos do conteúdo
-description: 'null'
-seo-description: O componente principal Lista de fragmentos de conteúdo do componente permite a exibição de uma lista de fragmentos de conteúdo.
-contentOwner: bohnerd
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+description: O componente principal Lista de fragmentos de conteúdo do componente permite a exibição de uma lista de fragmentos de conteúdo.
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Componente da lista de fragmentos do conteúdo{#content-fragment-list-component}
 
-O componente principal Lista de fragmentos de conteúdo do componente permite a exibição de uma lista de fragmentos [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)conteúdo.
+O componente principal Lista de fragmentos de conteúdo do componente permite a exibição de uma lista de fragmentos [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)conteúdo.
 
 ## Uso {#usage}
 
-O componente principal da lista de fragmentos de conteúdo do componente permite a inclusão de uma lista de fragmentos [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) conteúdo em uma página com base em um modelo de fragmento de conteúdo. Isso pode ser especialmente útil para criar conteúdo [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) sem cabeçalho que possa ser facilmente consumido por outros aplicativos.
+O componente principal da lista de fragmentos de conteúdo do componente permite a inclusão de uma lista de fragmentos [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) conteúdo em uma página com base em um modelo de fragmento de conteúdo. Isso pode ser especialmente útil para criar conteúdo [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) sem cabeçalho que possa ser facilmente consumido por outros aplicativos.
 
 * A lista e suas propriedades podem ser selecionadas na caixa de diálogo [](#configure-dialog)configurar.
 * Os estilos podem ser aplicados ao componente na caixa de diálogo [de](#design-dialog)design.
@@ -30,19 +24,19 @@ A versão atual do Componente de fragmento de conteúdo é a v1, que foi introdu
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente de lista de fragmentos de conteúdo e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html)componentes.
+Para experimentar o Componente de lista de fragmentos de conteúdo e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_cflist)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente da lista de fragmentos de conteúdo [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+A documentação técnica mais recente sobre o Componente da lista de fragmentos de conteúdo [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
