@@ -1,13 +1,8 @@
 ---
 title: Compilação Front-End do Arquivo de Projeto AEM
-seo-title: Compilação Front-End do Arquivo de Projeto AEM
 description: Um modelo de projeto para aplicativos baseados no AEM
-seo-description: Um modelo de projeto para aplicativos baseados no AEM
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -23,18 +18,18 @@ Em termos muito simplificados, os projetos do AEM podem ser considerados como co
 * Desenvolvimento de backend que orienta a lógica do AEM e produz bibliotecas Java, serviços OSGi etc.
 * Desenvolvimento front-end que direciona a apresentação e o comportamento do site resultante e produz bibliotecas JavaScript e CSS
 
-Como esses dois processos de desenvolvimento estão focados em diferentes partes do projeto, o desenvolvimento de back-end e front-end pode acontecer em paralelo.
+Como esses dois processos de desenvolvimento estão focados em diferentes partes do projeto, o desenvolvimento de back-end e front-end pode ocorrer em paralelo.
 
 ![diagrama de fluxo de trabalho de front-end](assets/front-end-flow.png)
 
 No entanto, qualquer projeto resultante tem de utilizar os resultados de ambos os esforços de desenvolvimento, ou seja, tanto os back-end como os front-end.
 
-A execução `npm run dev` inicia o processo de compilação front-end que reúne os arquivos JavaScript e CSS armazenados no módulo ui.frontenst e produz duas bibliotecas de clientes minimizadas ou clientlibs chamadas `clientlib-site` e `clientlib-dependencies` as depositam no módulo ui.apps. clientlibs podem ser implantados no AEM e permitem que você armazene seu código do cliente no repositório.
+A execução `npm run dev` inicia o processo de compilação front-end que reúne os arquivos JavaScript e CSS armazenados no módulo ui.frontenst e produz duas bibliotecas de cliente ou clientlibs minified chamadas `clientlib-site` e `clientlib-dependencies` as deposita no módulo ui.apps. clientlibs podem ser implantados no AEM e permitem que você armazene seu código do cliente no repositório.
 
 Quando todo o arquétipo de projeto do AEM é executado usando `mvn clean install -PautoInstallPackage` todos os artefatos do projeto, incluindo os clientlibs, eles são encaminhados para a instância do AEM.
 
 >[!TIP]
->Saiba mais sobre clientlibs na documentação [de desenvolvimento do](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) AEM e [como o módulo ui.frontenda os usa abaixo](#clientlib-generation).
+>Saiba mais sobre clientlibs na documentação [de desenvolvimento do](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) AEM e [como o módulo ui.frontenda os usa abaixo](#clientlib-generation).
 
 ## Possíveis fluxos de trabalho de desenvolvimento de front-end {#possible-workflows}
 
@@ -53,7 +48,7 @@ Nesse fluxo, um desenvolvedor do AEM pode executar as etapas um e dois e passar 
 
 >[!TIP]
 >
->Também é possível aproveitar a Biblioteca [de](https://opensource.adobe.com/aem-core-wcm-components/library.html) componentes para capturar amostras da saída de marcação de cada componente para funcionar no nível do componente em vez do nível da página.
+>Também é possível aproveitar a Biblioteca [de](https://adobe.com/go/aem_cmp_library) componentes para capturar amostras da saída de marcação de cada componente para funcionar no nível do componente em vez do nível da página.
 
 ### Usando Storybook {#using-storybook}
 
@@ -65,7 +60,7 @@ Usando o [Storybook](https://storybook.js.org) , você pode executar mais desenv
 
 ### Determinando a marcação {#determining-markup}
 
-Qualquer que seja o fluxo de trabalho de desenvolvimento de front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e desenvolvedores de front-end devem primeiro concordar com a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, se necessário](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup).
+Qualquer que seja o fluxo de trabalho de desenvolvimento de front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e desenvolvedores de front-end devem primeiro concordar com a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, se necessário](customizing.md#customizing-the-markup).
 
 ## O módulo ui.front-end {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ O AEM Project Archetype inclui um mecanismo de criação de front-end dedicado o
 
 >[!NOTE]
 >
->Para obter mais informações técnicas sobre o módulo ui.frontenda, consulte a [documentação do GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>Para obter mais informações técnicas sobre o módulo ui.frontenda, consulte a [documentação do GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Instalação {#installation}
 
@@ -149,7 +144,7 @@ O processo de compilação do módulo ui.frontenda aproveita o plug-in [aem-clie
 
 ### Incluindo bibliotecas de clientes em páginas {#clientlib-inclusion}
 
-`clientlib-site` e `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração [da Política de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) página como parte do modelo padrão. Para exibir a política, edite o Modelo da página **de conteúdo &gt; Informações da página &gt; Política** da página.
+`clientlib-site` e `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração [da Política de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte do modelo padrão. Para exibir a política, edite o Modelo da página **de conteúdo > Informações da página > Política** da página.
 
 A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 
