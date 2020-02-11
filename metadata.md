@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
+solution-title: Aprendizagem e suporte para o AEM
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: Introdução ao desenvolvimento do AEM
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: Tutoriais do AEM
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no repo. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+Os metadados no sistema de criação do GitHub são hierárquicos e são definidos como os seguintes níveis crescentes de precedente.
 
-| metadata | o que ele faz |
-|--- |--- |
-| título da solução | Usado no cabeçalho do artigo como link |
-| solution-hub-url | Abre a página do hub helpx |
-| ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
-| getting-started-url | Link para a página de introdução ao helpx |
-| tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
-| níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. default is 2 |
-| git-repo | Specifies the location of the master repo for internal use |
+1. metadata.md
+1. ToC
+1. Artigo
+
+Os metadados definidos no arquivo metadata.md se aplicam a todo o acordo de recompra, mas podem ser substituídos nos níveis ToC e artigo. Qualquer substituição dos metadados deve ser feita no nível mais baixo possível.
+
+Os metadados no repositório experience-manager-core-components.en são o mínimo necessário.
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+Artigo
+
+* `title`
+* `description`
+* `index: n` (somente para versões anteriores de componentes)
+
+Informações adicionais sobre os metadados podem ser encontradas no guia de criação [interno.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
