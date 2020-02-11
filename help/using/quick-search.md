@@ -1,31 +1,15 @@
 ---
 title: Componente de pesquisa rápida
-seo-title: Quick Search Component
-description: 'null'
-seo-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O Componente de pesquisa rápida fornece recursos de pesquisa para um site e apresenta resultados de pesquisa para que os visitantes possam pesquisar no site e filtrar os resultados.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# Quick Search Component{#quick-search-component}
+# Componente de pesquisa rápida {#quick-search-component}
 
-The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
+O Componente de pesquisa rápida fornece recursos de pesquisa para um site e apresenta resultados de pesquisa para que os visitantes possam encontrar facilmente o conteúdo correspondente e visualizar os resultados.
 
 ## Uso {#usage}
 
@@ -39,15 +23,15 @@ A versão atual do Componente de pesquisa rápida é v1, que foi introduzida com
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -95,7 +79,7 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 >
 >A proteção do componente de pesquisa ou de qualquer aplicativo baseado em AEM contra ataques de DOS deve ser implementada em um nível mais alto, por exemplo, usando `mod_security` o dispatcher.
 
-A documentação técnica mais recente sobre o Componente de pesquisa rápida [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+A documentação técnica mais recente sobre o Componente de pesquisa rápida [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -107,18 +91,16 @@ A caixa de diálogo de edição permite que o autor do conteúdo defina onde a p
 
 **Raiz** de pesquisa - a página raiz de onde iniciar a pesquisa. A Raiz de pesquisa pode ser uma página mestre de blueprint, mestre de idioma ou regular.
 
-## Design Dialog {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
+Usando a caixa de diálogo de design, o autor do modelo pode definir o valor padrão para onde a pesquisa deve começar na árvore de conteúdo, bem como o tamanho máximo do conjunto de resultados e a duração mínima do termo de pesquisa. A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores do conteúdo.
 
-### Properties Tab {#properties-tab}
+### Guia Propriedades {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **Search Root
-The default value of search root when a content author places the Quick Search Component on a content page**
-* **Results Size
-The maximum number of results fetched by a search request**
+* **Raiz** de pesquisa O valor padrão da raiz de pesquisa quando um autor de conteúdo coloca o Componente de pesquisa rápida em uma página de conteúdo
+* **Tamanho** dos resultados O número máximo de resultados obtidos por uma solicitação de pesquisa
 * **Duração** mínima do termo de pesquisa para iniciar a pesquisa
 
 >[!NOTE]
@@ -127,8 +109,8 @@ The maximum number of results fetched by a search request**
 
 >[!CAUTION]
 >
->**Results Size and Search Term Minimum Length can have performance impacts if they are set too high or too low, respectively.******
+>**O Tamanho** dos resultados e o Comprimento **mínimo do termo de** pesquisa podem ter impacto no desempenho se estiverem definidos muito altos ou muito baixos, respectivamente.
 
-### Styles Tab {#styles-tab}
+### Guia Estilos {#styles-tab}
 
 O componente de pesquisa rápida suporta o AEM [Style System](authoring.md#component-styling).
