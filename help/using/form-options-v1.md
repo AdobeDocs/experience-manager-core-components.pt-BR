@@ -1,24 +1,9 @@
 ---
 title: Componente de opções de formulário (v1)
-seo-title: Componente de opções de formulário (v1)
-description: 'null'
-seo-description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-noindex: verdadeiro
+description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
