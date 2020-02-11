@@ -1,24 +1,9 @@
 ---
 title: Componente de lista (v1)
-seo-title: Componente de lista (v1)
-description: 'null'
-seo-description: O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-noindex: verdadeiro
+description: O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
