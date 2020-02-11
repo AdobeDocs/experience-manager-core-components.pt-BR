@@ -1,23 +1,15 @@
 ---
 title: Componente da página
-seo-title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
-seo-description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
-uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # Componente da página{#page-component}
 
-O Componente de página é um componente de página extensível projetado para trabalhar com o editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) modelo e permite que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
+O Componente de página é um componente de página extensível projetado para trabalhar com o editor [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) modelo e permite que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 
 ## Uso {#usage}
 
@@ -31,10 +23,10 @@ A versão atual do Componente de página é a v2, que foi introduzida com a vers
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| [v2](page-v1.md) | Compatível | Compatível | Compatível |
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|---|---|---|---|---|
+| [v2](page-v1.md) | Compatível | Compatível | Compatível | Compatível |
+| v1 | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
@@ -44,7 +36,7 @@ Para obter mais informações sobre versões e versões dos Componentes principa
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -52,17 +44,17 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de página [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
+A documentação técnica mais recente sobre o Componente de página [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
 ## Edit Dialog {#edit-dialog}
 
-Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela Propriedades [da](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) página.
+Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela Propriedades [da](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) página.
 
 ## Caixa de diálogo Design {#design-dialog}
 
-Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -&gt; Política** da página ao editar o modelo da página.
+Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -> Política** da página ao editar o modelo da página.
 
 ![](assets/screen_shot_2018-04-03at113410.png)
 
