@@ -1,25 +1,8 @@
 ---
 title: Componente de texto do formulário
-seo-title: Componente de texto do formulário
-description: 'null'
-seo-description: O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
-uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -38,16 +21,16 @@ A versão atual do Componente de texto do formulário é a v2, que foi introduzi
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](form-text-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](form-text-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -88,7 +71,7 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de texto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+A documentação técnica mais recente sobre o Componente de texto do formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -101,7 +84,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 ![](assets/chlimage_1-23.png)
 
 * **Restrição** O tipo de texto a ser inserido e será validado em relação
-   * **Text**
+   * **Texto**
    * **Área de texto**
    * **E-mail**
    * **Telefone**
