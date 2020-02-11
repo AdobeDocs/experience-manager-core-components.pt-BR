@@ -1,15 +1,9 @@
 ---
 title: Componente oculto do formulário (v1)
-seo-title: Componente oculto do formulário (v1)
 description: O componente principal Formulário oculto do componente permite a exibição de um campo oculto.
-seo-description: O componente principal Formulário oculto do componente permite a exibição de um campo oculto.
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
