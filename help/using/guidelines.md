@@ -1,16 +1,8 @@
 ---
 title: Orientações para os componentes
-seo-title: Orientações para os componentes
 description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
-seo-description: Os componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
-uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -35,7 +27,7 @@ Para dar um passo além, se os componentes forem reutilizados em sites ou projet
 
 ### Separação das preocupações {#separation-of-concerns}
 
-Manter a lógica (ou modelo) de um componente separado do modelo de marcação (ou exibição) geralmente é uma boa prática. Existem várias maneiras de conseguir isso, no entanto, a recomendada é usar os Modelos [](https://sling.apache.org/documentation/bundles/models.html) Sling para a lógica e a Linguagem [de modelo](https://helpx.adobe.com/experience-manager/htl/using/overview.html) HTML (HTL) para a marcação, como os Componentes principais também fazem.
+Manter a lógica (ou modelo) de um componente separado do modelo de marcação (ou exibição) geralmente é uma boa prática. Existem várias maneiras de conseguir isso, no entanto, a recomendada é usar os Modelos [](https://sling.apache.org/documentation/bundles/models.html) Sling para a lógica e a Linguagem [de modelo](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) HTML (HTL) para a marcação, como os Componentes principais também fazem.
 
 Os modelos Sling são um conjunto de anotações Java para acessar facilmente as variáveis necessárias dos POJOs e, portanto, oferecem uma maneira simples, poderosa e eficiente de implementar a lógica Java para os componentes.
 
@@ -47,7 +39,7 @@ As diretrizes desta seção também podem ser usadas para qualquer tipo de compo
 
 ### Recursos pré-configuráveis {#pre-configurable-capabilities}
 
-Além da caixa de diálogo de edição usada pelos autores da página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configurem. O Editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) modelos permite configurar todas essas pré-configurações, que são chamadas de "Políticas".
+Além da caixa de diálogo de edição usada pelos autores da página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configurem. O Editor [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) modelos permite configurar todas essas pré-configurações, que são chamadas de &quot;Políticas&quot;.
 
 Para tornar os componentes o mais reutilizáveis possível, eles devem receber opções significativas para pré-configuração. Isso permitirá ativar ou desativar os recursos dos componentes para atender às necessidades específicas de sites diferentes.
 
@@ -55,7 +47,7 @@ Para tornar os componentes o mais reutilizáveis possível, eles devem receber o
 
 Como cada recurso de conteúdo tem uma `sling:resourceType` propriedade que faz referência ao componente para renderizá-lo, geralmente é uma boa prática ter essas propriedades apontando para os componentes específicos do site, em vez de apontar para os componentes que são compartilhados por vários sites. Isso oferecerá mais flexibilidade e evitará a refatoração de conteúdo se um site precisar de um comportamento diferente para um componente, pois essa personalização pode ser realizada no componente específico do site e não afetará os outros sites.
 
-Entretanto, para que os componentes específicos do projeto não dupliquem qualquer código, eles devem se referir ao componente pai compartilhado com a `sling:resourceSuperType` propriedade. Esses componentes específicos do projeto que se referem principalmente aos componentes principais são chamados de "componentes proxy". Os componentes de proxy podem ficar totalmente vazios se herdarem totalmente a funcionalidade ou se puderem redefinir alguns aspectos do componente.
+Entretanto, para que os componentes específicos do projeto não dupliquem qualquer código, eles devem se referir ao componente pai compartilhado com a `sling:resourceSuperType` propriedade. Esses componentes específicos do projeto que se referem principalmente aos componentes principais são chamados de &quot;componentes proxy&quot;. Os componentes de proxy podem ficar totalmente vazios se herdarem totalmente a funcionalidade ou se puderem redefinir alguns aspectos do componente.
 
 ### Controle de versão do componente {#component-versioning}
 
@@ -86,11 +78,11 @@ Quando combinada com o Padrão [do componente](#proxy-component-pattern) proxy d
 
 ## Juntando tudo {#putting-it-all-together}
 
-Abaixo está uma visão geral de toda a estrutura de vínculo de tipo de recurso, tomando o exemplo do Componente Principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão do componente, para evitar que o recurso de conteúdo contenha qualquer número de versão. Em seguida, mostra como o arquivo `title.html` HTL [do componente usa a interface do modelo, enquanto a implementação se vincula à versão específica do componente por meio de anotações do](https://helpx.adobe.com/experience-manager/htl/using/overview.html) Sling Model [](https://sling.apache.org/documentation/bundles/models.html) .
+Abaixo está uma visão geral de toda a estrutura de vínculo de tipo de recurso, tomando o exemplo do Componente Principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão do componente, para evitar que o recurso de conteúdo contenha qualquer número de versão. Em seguida, mostra como o arquivo `title.html` HTL [do componente usa a interface do modelo, enquanto a implementação se vincula à versão específica do componente por meio de anotações do](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) Sling Model [](https://sling.apache.org/documentation/bundles/models.html) .
 
 ![Visão geral do vínculo de recursos](assets/chlimage_1-32.png)
 
-Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) associados são referenciados.
+Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) associados são referenciados.
 
 A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para um site e `cq:template` informa para cada página o modelo associado. Cada modelo é feito de três partes:
 
@@ -100,9 +92,9 @@ A `cq:allowedTemplates` propriedade informa quais modelos podem ser usados para 
 
 ![Visão geral de modelos e políticas](assets/screen_shot_2018-12-07at093102.png)
 
-## Arquivo de projeto do AEM {#aem-project-archetype}
+## AEM Project Archetype {#aem-project-archetype}
 
-[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de mundo de ajuda do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de componentes HTL personalizados com SlingModels para a lógica e implementação adequada dos Componentes principais com o padrão proxy recomendado.
 
 **Leia a seguir:**
 
