@@ -1,21 +1,9 @@
 ---
 title: Componente do botão de formulário (v1)
-seo-title: Componente do botão de formulário (v1)
-description: 'null'
-seo-description: O componente principal Formulário oculto do componente permite a inclusão de um campo oculto em um formulário.
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
+description: O componente principal Formulário oculto do componente permite a inclusão de um campo oculto em um formulário.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -102,7 +90,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina os
 ![](assets/chlimage_1-49.png)
 
 * **Tipo**
-   * **Imagem**
+   * **Botão**
    * **Enviar**
 
 * **Título** - O texto exibido no botão
