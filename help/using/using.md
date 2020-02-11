@@ -1,26 +1,13 @@
 ---
-title: Uso de componentes principais
-seo-title: Uso de componentes principais
-description: 'null'
-seo-description: '"Para começar a usar os Componentes principais em seu próprio projeto, há três etapas a seguir: baixe e instale, crie componentes proxy, carregue os estilos principais e permita os componentes em seus modelos."'
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: Usuário
-content-type: referência
-topic-tags: desenvolvimento
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: light
-index: y
-internal: n
-snippet: y
+title: Utilização dos componentes principais
+description: '"Para começar a usar os Componentes principais em seu próprio projeto, há três etapas a seguir: baixe e instale, crie componentes proxy, carregue os estilos principais e permita os componentes em seus modelos."'
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
 
-# Uso de componentes principais{#using-core-components}
+# Utilização dos componentes principais{#using-core-components}
 
 Para começar a usar os Componentes [](developing.md) principais em seu próprio projeto, há quatro etapas, que são detalhadas individualmente nas seções abaixo:
 
@@ -40,7 +27,7 @@ Uma das ideias fundamentais por trás dos componentes principais é a flexibilid
 
 Por esse motivo, os Componentes principais não fazem parte do início rápido ao iniciar no modo de produção (sem conteúdo de amostra). Portanto, sua primeira etapa é [baixar o pacote de conteúdo mais recente do GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalá-lo em seus ambientes AEM.
 
-Existem várias maneiras de automatizar isso, mas a maneira mais simples de instalar rapidamente um pacote de conteúdo em uma instância é usando o Gerenciador de pacotes; consulte [Instalar pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Além disso, uma vez que uma instância de publicação também esteja em execução, será necessário replicar esse pacote para o editor; consulte [Replicação de pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+Existem várias maneiras de automatizar isso, mas a maneira mais simples de instalar rapidamente um pacote de conteúdo em uma instância é usando o Gerenciador de pacotes; consulte [Instalar pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Além disso, uma vez que uma instância de publicação também esteja em execução, será necessário replicar esse pacote para o editor; consulte [Replicação de pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -56,7 +43,7 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 Por motivos explicados na seção Padrão [do componente](guidelines.md#proxy-component-pattern) proxy, os Componentes principais não devem ser referenciados diretamente do conteúdo. Para evitar isso, todos pertencem a um grupo de componentes ocultos ( `.core-wcm` ou `.core-wcm-form`), o que impedirá que eles apareçam diretamente no editor.
 
-Em vez disso, os componentes específicos do site devem ser criados, que definem o nome do componente e o grupo desejados para exibição aos autores da página, e fazem referência a cada um dos componentes principais como seu supertipo. Esses componentes específicos do site às vezes são chamados de "componentes proxy", pois não precisam conter nada e servem principalmente para definir a versão de um componente a ser usada para o site. No entanto, ao personalizar os Componentes [](customizing.md)principais, esses componentes proxy desempenham um papel essencial para a marcação e a personalização lógica.
+Em vez disso, os componentes específicos do site devem ser criados, que definem o nome do componente e o grupo desejados para exibição aos autores da página, e fazem referência a cada um dos componentes principais como seu supertipo. Esses componentes específicos do site às vezes são chamados de &quot;componentes proxy&quot;, pois não precisam conter nada e servem principalmente para definir a versão de um componente a ser usada para o site. No entanto, ao personalizar os Componentes [](customizing.md)principais, esses componentes proxy desempenham um papel essencial para a marcação e a personalização lógica.
 
 Assim, para cada Componente principal que for desejado para ser usado em um site, você deve:
 
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. Se ainda não tiver sido feito, crie uma Biblioteca [de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) clientes que contenha todos os arquivos CSS e JS necessários para o seu site.
+1. Se ainda não tiver sido feito, crie uma Biblioteca [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) clientes que contenha todos os arquivos CSS e JS necessários para o seu site.
 1. Na Biblioteca de clientes do site, adicione as dependências aos Componentes principais que podem ser necessárias. Isso é feito adicionando uma `embed` propriedade.
 
    Por exemplo, para incluir as Bibliotecas de clientes de todos os componentes principais v1, a propriedade a ser adicionada seria:
@@ -132,7 +119,7 @@ Certifique-se de que seus componentes proxy e bibliotecas de clientes foram impl
 
 ## Permitir os componentes {#allow-the-components}
 
-As etapas a seguir são executadas no Editor [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de modelos.
+As etapas a seguir são executadas no Editor [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelos.
 
 1. No Editor de modelos, selecione o Contêiner de layout e abra sua política.
 1. Na lista de Componentes permitidos, selecione os componentes proxy criados anteriormente, que devem aparecer abaixo do grupo de componentes atribuído a eles. Depois de concluído, aplique as alterações.
