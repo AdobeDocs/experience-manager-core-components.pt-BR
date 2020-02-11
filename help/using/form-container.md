@@ -1,25 +1,8 @@
 ---
 title: Componente do contêiner de formulário
-seo-title: Componente do contêiner de formulário
-description: 'null'
-seo-description: O Componente principal do contêiner de formulário permite a criação de formulários simples de envio.
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O Componente principal do contêiner de formulário permite a criação de formulários simples de envio.
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,11 +15,11 @@ O Componente principal do contêiner de formulário permite a criação de formu
 
 O componente de contêiner de formulário permite a criação de formulários e recursos simples de envio de informações, ao suportar formulários WCM simples e ao usar uma estrutura aninhada para permitir componentes de formulário adicionais.
 
-Usando a caixa de diálogo [](#configure-dialog) configurar, o editor de conteúdo pode definir a ação acionada pelo envio do formulário, onde o conteúdo enviado deve ser armazenado e se um fluxo de trabalho deve ser acionado. O autor do modelo pode usar a caixa de diálogo [de](#design-dialog) design para definir os componentes permitidos e seus mapeamentos semelhantes à caixa de diálogo de design para o contêiner de layout [padrão no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de modelo.
+Usando a caixa de diálogo [](#configure-dialog) configurar, o editor de conteúdo pode definir a ação acionada pelo envio do formulário, onde o conteúdo enviado deve ser armazenado e se um fluxo de trabalho deve ser acionado. O autor do modelo pode usar a caixa de diálogo [de](#design-dialog) design para definir os componentes permitidos e seus mapeamentos semelhantes à caixa de diálogo de design para o contêiner de layout [padrão no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelo.
 
 >[!NOTE]
 >
->Os componentes principais Componente do contêiner de formulário só oferecem suporte ao uso dos componentes principais do formulário (botão, texto, oculto etc.). Não há suporte para o uso de componentes [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) alicerce no contêiner de formulário dos componentes principais (e vice-versa).
+>Os componentes principais Componente do contêiner de formulário só oferecem suporte ao uso dos componentes principais do formulário (botão, texto, oculto etc.). Não há suporte para o uso de componentes [de](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) alicerce no contêiner de formulário dos componentes principais (e vice-versa).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -44,16 +27,16 @@ A versão atual do Componente do contêiner de formulário é a v2, que foi intr
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](form-container-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](form-container-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente do contêiner de formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
+A documentação técnica mais recente sobre o Componente do contêiner de formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -124,4 +107,4 @@ O usuário será redirecionado para a página especificada após a conclusão do
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina os componentes permitidos e seus mapeamentos para o contêiner de forma semelhante à caixa de diálogo de design para o contêiner de layout [padrão no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de modelo.
+A caixa de diálogo de design permite que o autor do modelo defina os componentes permitidos e seus mapeamentos para o contêiner de forma semelhante à caixa de diálogo de design para o contêiner de layout [padrão no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelo.
