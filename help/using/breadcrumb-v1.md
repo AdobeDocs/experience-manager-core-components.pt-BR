@@ -1,20 +1,9 @@
 ---
 title: Componente da trilha de navegação (v1)
-seo-title: Componente da trilha de navegação (v1)
 description: O Componente de navegação estrutural principal é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
-seo-description: O componente de navegação do componente principal do AEM é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: referência
-topic-tags: componentes principais
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -31,7 +20,7 @@ As opções disponíveis, como o nível de navegação padrão e a capacidade de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do componente de navegação estrutural, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a versão 1 do componente Breadcrumb, originalmente apresentada com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
 A tabela a seguir lista a compatibilidade de v1 do Componente de navegação estrutural.
 
