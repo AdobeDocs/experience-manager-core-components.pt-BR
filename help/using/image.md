@@ -1,16 +1,8 @@
 ---
 title: Componente da imagem
-seo-title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
-seo-description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: User
-content-type: reference
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -37,10 +29,10 @@ A versão atual do Componente de imagem é a v2, que foi introduzida com a vers�
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](image-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](image-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
@@ -50,7 +42,7 @@ O SVG (Scalable Vetor Graphics) é compatível com o Componente de imagem.
 
 * Arrastar e soltar um ativo SVG do DAM e carregar um upload de arquivo SVG de um sistema de arquivos local são suportados.
 * O Adaptive Image Servlet transmite o arquivo SVG original em fluxo contínuo (as transformações são ignoradas).
-* Para uma imagem SVG, as "imagens inteligentes" e os "tamanhos inteligentes" são definidos como uma matriz vazia no modelo de imagem.
+* Para uma imagem SVG, as &quot;imagens inteligentes&quot; e os &quot;tamanhos inteligentes&quot; são definidos como uma matriz vazia no modelo de imagem.
 
 ### Segurança {#security}
 
@@ -58,15 +50,15 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 >[!CAUTION]
 >
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) do editor de imagens no AEM.
+>O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) do editor de imagens no AEM.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente de imagem e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)componentes.
+Para experimentar o Componente de imagem e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_image)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de imagem [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+A documentação técnica mais recente sobre o Componente de imagem [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -83,9 +75,9 @@ Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de di�
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Ativos da imagem**
-   * Solte um ativo do navegador [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) no editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
 
 ### Guia Metadados {#metadata-tab}
 
@@ -144,7 +136,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
    >[!CAUTION]
    >
-   >O recurso Launch Map requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) do editor de imagens no AEM.
+   >O recurso Launch Map requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) do editor de imagens no AEM.
 
    ![](assets/chlimage_1-12.png)
 
@@ -250,14 +242,6 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
    >[!CAUTION]
    >
    >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e nenhuma alteração feita usando essas opções será persistente.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
 
 * Cortar
 
