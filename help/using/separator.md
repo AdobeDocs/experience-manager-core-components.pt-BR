@@ -1,13 +1,8 @@
 ---
 title: Componente separador
-seo-title: Componente separador
 description: O componente separador cria uma quebra entre os componentes em uma página
-seo-description: O componente separador cria uma quebra entre os componentes em uma página
-contentOwner: bohnerd
-content-type: referência
-topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ A versão atual do Componente separador é v1, que foi introduzida com a versão
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|---|---|---|---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente separador e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)componentes.
+Para experimentar o Componente separador e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_separator)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente separador [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+A documentação técnica mais recente sobre o Componente separador [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
