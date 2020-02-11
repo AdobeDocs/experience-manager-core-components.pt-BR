@@ -1,16 +1,8 @@
 ---
 title: Componente Acordeão
-seo-title: Componente Acordeão
-description: 'null'
-seo-description: O componente principal Acordeão de componentes permite a criação de uma coleção de painéis organizados em um acordeão em uma página.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: O componente principal Acordeão de componentes permite a criação de uma coleção de painéis organizados em um acordeão em uma página.
 translation-type: tm+mt
-source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -24,7 +16,7 @@ O componente principal Acordeão de componentes permite a criação de uma cole�
 O componente principal Acordeão de componentes permite a criação de uma coleção de componentes, composta como painéis, e organizada de acordo com uma tabela em uma página, semelhante ao Componente [de](tabs.md)guias, mas permite expandir e recolher os painéis.
 
 * As propriedades do acordeão podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
-* A ordem dos painéis do acordeão pode ser definida na caixa de diálogo de configuração, bem como no pod de painel [selecionado](#select-planel.md).
+* A ordem dos painéis do acordeão pode ser definida na caixa de diálogo de configuração, bem como no pod de painel [selecionado](#select-panel.md).
 * Os padrões do Componente Acordeão ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [](#design-dialog)de design.
 
 ## Versão e compatibilidade {#version-and-compatibility}
@@ -33,19 +25,19 @@ A versão atual do Componente Acordeão é v1, que foi introduzida com a versão
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente Acordeão, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)componentes.
+Para experimentar o componente Acordeão, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_accordion)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
