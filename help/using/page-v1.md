@@ -1,15 +1,9 @@
 ---
 title: Componente de página (v1)
-seo-title: Componente de página (v1)
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
-seo-description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: referência
-topic-tags: componentes principais
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ Como o componente representa a página inteira, as configurações que normalmen
 
 ## Caixa de diálogo Design {#design-dialog}
 
-Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -&gt; Design** da página.
+Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -> Design** da página.
 
 ![](assets/chlimage_1-94.png)
 
