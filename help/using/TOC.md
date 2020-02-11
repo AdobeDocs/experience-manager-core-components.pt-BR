@@ -1,11 +1,8 @@
 ---
-cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager core components
-archetype: Administrator
+sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -13,7 +10,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 # Ajuda dos componentes principais do AEM {#using}
 
 + [Introdução dos Componentes principais](introduction.md)
-+ [Biblioteca de componentes](http://opensource.adobe.com/aem-core-wcm-components/library.html)
++ [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library)
 + [Versões dos Componentes principais principais](versions.md)
 + Introdução {#get-started}
    + [Autoria com Componentes principais](authoring.md)
@@ -63,10 +60,10 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
          + [Texto do formulário (v1)](form-text-v1.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos componentes principais](developing.md)
-   + [Tutorial do WKND Developer](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [Tutorial do WKND Developer](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalização dos componentes principais](customizing.md)
    + [Orientações para os componentes](guidelines.md)
-   + Arquivo de projeto do AEM {#archetype}
+   + AEM Project Archetype {#archetype}
       + [Visão geral do Archetype](overview.md)
       + [Módulo principal](core.md)
       + [Módulo ui.apps](uiapps.md)
