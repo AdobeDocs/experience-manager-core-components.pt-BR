@@ -1,23 +1,8 @@
 ---
 title: Componente do carrossel
-seo-title: Componente do carrossel
-description: 'null'
-seo-description: O componente carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel rotativo.
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: referência
-topic-tags: componentes principais
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O componente carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel rotativo.
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -38,19 +23,19 @@ A versão atual do componente carrossel é a v1, que foi introduzida com a vers�
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)componentes.
+Para experimentar o componente carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_carousel)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente do carrossel [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+A documentação técnica mais recente sobre o componente do carrossel [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -71,7 +56,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 
 >[!TIP]
 >
->Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente do carrossel, [arrastando-se do navegador de componentes e soltando-o no componente do carrossel no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente do carrossel, [arrastando-se do navegador de componentes e soltando-o no componente do carrossel no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)de páginas.
 
 ### Guia Propriedades {#properties-tab}
 
@@ -85,9 +70,9 @@ Na guia **Propriedades** , o autor do conteúdo pode definir os slides para tran
 
 >[!NOTE]
 >
->Os controles de avanço do slide não são ativados no modo **Editar** . Use o modo [**Visualizar** ou a opção](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) Visualizar como publicado **[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** para interagir com o carrossel como um leitor do conteúdo publicado.
+>Os controles de avanço do slide não são ativados no modo **Editar** . Use o modo [**Visualizar **ou a opção](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Visualizar como publicado **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**para interagir com o carrossel como um leitor do conteúdo publicado.
 >
->O recurso de avanço automático não é ativado no modo **Editar** . Use a opção **[Exibir como publicado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
+>O recurso de avanço automático não é ativado no modo **Editar** . Use a opção **[Exibir como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**para ver o recurso de avanço automático como um leitor do conteúdo publicado.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
@@ -131,7 +116,7 @@ A guia **Propriedades** é usada para definir as configurações padrão para as
 
 A guia Componentes **** permitidos é usada para definir quais componentes podem ser adicionados como slides ao componente carrossel pelo autor do conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Estilos {#styles-tab}
 
