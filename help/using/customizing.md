@@ -1,16 +1,8 @@
 ---
 title: Personalização dos componentes principais
-seo-title: Personalização dos componentes principais
 description: Os Componentes principais implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização avançada da funcionalidade.
-seo-description: Os componentes principais do AEM implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização avançada da funcionalidade.
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: User
-content-type: reference
-topic-tags: desenvolvimento
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -34,9 +26,9 @@ Os componentes principais foram projetados desde o início para serem flexíveis
 
 E todos os componentes principais implementam o Sistema [de estilo](customizing.md).
 
-## Arquivo de projeto do AEM {#aem-project-archetype}
+## AEM Project Archetype {#aem-project-archetype}
 
-[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de helloworld do componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes Principais com o padrão de proxy recomendado.
+[O AEM Project Archetype](overview.md) cria um projeto mínimo do Adobe Experience Manager como ponto de partida para seus próprios projetos, incluindo um exemplo de componente HTL personalizado com SlingModels para a lógica e implementação adequada dos Componentes principais com o padrão proxy recomendado.
 
 ## Padrões de personalização {#customization-patterns}
 
@@ -117,7 +109,7 @@ Tomando novamente o exemplo do Componente de navegação estrutural principal, p
 
 A primeira forma de personalização é aplicar estilos CSS.
 
-Para facilitar isso, os Componentes principais renderizam a marcação semântica e seguem uma convenção de nomenclatura padronizada inspirada no [Bootstrap](https://getbootstrap.com/). Além disso, para direcionar e nomear facilmente os estilos para os componentes individuais, cada Componente principal é embutido em um elemento DIV com as classes " `cmp`" e " `cmp-<name>`".
+Para facilitar isso, os Componentes principais renderizam a marcação semântica e seguem uma convenção de nomenclatura padronizada inspirada no [Bootstrap](https://getbootstrap.com/). Além disso, para direcionar e nomear facilmente os estilos para os componentes individuais, cada Componente principal é embutido em um elemento DIV com as classes &quot; `cmp`&quot; e &quot; `cmp-<name>`&quot;.
 
 Por exemplo, olhando para o arquivo HTL do Componente de navegação estrutural principal v1: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), vemos que a hierarquia de saída de elementos é `ol.breadcrumb > li.breadcrumb-item > a`. Portanto, para garantir que uma regra CSS afete somente a classe de navegação estrutural desse componente, todas as regras devem ser nomeadas como mostrado abaixo:
 
@@ -127,7 +119,7 @@ Por exemplo, olhando para o arquivo HTL do Componente de navegação estrutural 
 .cmp-breadcrumb a {}
 ```
 
-Além disso, cada um dos Componentes principais aproveita o recurso [Sistema de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) estilo AEM que permite que os autores de modelo definam nomes adicionais de classe CSS que podem ser aplicados ao componente pelos autores de página. Isso permite definir para cada modelo uma lista de estilos de componente permitidos e se um deles deve ser aplicado por padrão a todos os componentes desse tipo.
+Além disso, cada um dos Componentes principais aproveita o recurso [Sistema de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) estilo AEM que permite que os autores de modelo definam nomes adicionais de classe CSS que podem ser aplicados ao componente pelos autores de página. Isso permite definir para cada modelo uma lista de estilos de componente permitidos e se um deles deve ser aplicado por padrão a todos os componentes desse tipo.
 
 ## Compatibilidade de atualização das personalizações {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +129,7 @@ Três tipos diferentes de atualizações são possíveis:
 * atualização dos componentes principais para uma nova versão secundária
 * atualização dos componentes principais para uma versão mais recente
 
-Geralmente, atualizar o AEM para uma nova versão não afetará os Componentes principais ou as personalizações feitas, desde que as versões dos componentes também suportem a nova versão do AEM para a qual está sendo migrada e que as personalizações não usem APIs que foram [desatualizadas ou removidas](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+Geralmente, atualizar o AEM para uma nova versão não afetará os Componentes principais ou as personalizações feitas, desde que as versões dos componentes também suportem a nova versão do AEM para a qual está sendo migrada e que as personalizações não usem APIs que foram [desatualizadas ou removidas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Atualizar os Componentes principais sem alternar para uma versão principal mais recente não deve afetar as personalizações, desde que os padrões de personalização descritos nesta página sejam usados.
 
@@ -157,7 +149,7 @@ Como para qualquer componente AEM, há várias coisas que devem ser levadas em c
 
 1. **Assista à funcionalidade obsoleta e removida.**
 
-   Com cada nova versão do AEM sendo atualizada para, verifique se todas as APIs usadas ainda são atuais, mantendo um olho na página Recursos [](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) obsoletos e removidos.
+   Com cada nova versão do AEM sendo atualizada para, verifique se todas as APIs usadas ainda são atuais, mantendo um olho na página Recursos [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) obsoletos e removidos.
 
 Consulte também a seção Suporte [a componentes](developing.md#core-component-support) principais.
 
