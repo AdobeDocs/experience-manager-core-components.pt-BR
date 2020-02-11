@@ -1,19 +1,8 @@
 ---
 title: Componente do título
-seo-title: Componente do título
-description: 'null'
-seo-description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
-uuid: cf190861-e5cd-42b8-9193-842b8df8c5c6
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 243efc75-fcf9-427d-9303-9642b0602991
-index: y
-internal: n
-snippet: y
+description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,20 +21,20 @@ A versão atual do Componente de título é a v2, que foi introduzida com a vers
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | Compatível | Compatível | Compatível |
-| [v1](title-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|---|---|---|---|---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](title-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente de título e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/title.html)componentes.
+Para experimentar o Componente de título e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_title)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Título [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
+A documentação técnica mais recente sobre o componente Título [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
