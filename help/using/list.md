@@ -1,25 +1,8 @@
 ---
 title: Listar Componente
-seo-title: Listar Componente
-description: 'null'
-seo-description: O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
-uuid: 50a572e8-b444-4f7d-82bc-5a93ebb4be95
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 89053323-6221-46ed-896a-31a42c55282e
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O Componente principal de lista de componentes permite a fácil criação de listas dinâmicas e estáticas.
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -38,20 +21,20 @@ A versão atual do Componente de lista é a v2, que foi introduzida com a versã
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](list-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](list-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente de lista e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/list.html)componentes.
+Para experimentar o componente de lista e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_list)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+A documentação técnica mais recente sobre o componente de lista [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
