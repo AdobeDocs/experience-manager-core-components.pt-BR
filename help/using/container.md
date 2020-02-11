@@ -1,16 +1,8 @@
 ---
 title: Componente do contêiner
-seo-title: Componente do contêiner
-description: 'null'
-seo-description: O componente principal do contêiner de componentes permite a criação de um contêiner para vários componentes adicionais em uma página.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: O componente principal do contêiner de componentes permite a criação de um contêiner para vários componentes adicionais em uma página.
 translation-type: tm+mt
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ A versão atual do Componente de contêiner é a v1, que foi introduzida com a v
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente do contêiner e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/container.html)componentes.
+Para experimentar o Componente do contêiner e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_container)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de contêiner [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+A documentação técnica mais recente sobre o componente de contêiner [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -56,7 +48,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 
 * **Layout** - Essa opção define o comportamento ou o comportamento do layout do Componente do contêiner.
    * **Simples** - Define um contêiner como uma coleção simples de componentes
-   * **Grade** responsiva - Define um contêiner como uma Grade responsiva do [AEM](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **Grade** responsiva - Define um contêiner como um layout responsivo do [AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** - Use essa opção para definir o atributo de ID HTML a ser aplicado ao componente.
 * **Cor** do Plano de Fundo - Definível como valores RGB de forma livre ou usando o seletor de cores, [dependendo da configuração](#background-tab)
 * **Imagem** de plano de fundo - Define uma cor de plano de fundo para o contêiner, [dependendo da configuração](#background-tab)
@@ -69,11 +61,11 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 A guia Componentes **** permitidos é usada para definir quais componentes podem ser adicionados como itens ao Componente de contêiner pelo autor do conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Componentes padrão {#default-components-tab}
 
-A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é solto no contêiner, da mesma forma [como os componentes padrão são definidos no modelo](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)de página.
+A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é solto no contêiner, da mesma forma [como os componentes padrão são definidos no modelo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de página.
 
 ### Guia Configurações responsivas {#responsive-settings-tab}
 
