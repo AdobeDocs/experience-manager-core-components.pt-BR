@@ -1,18 +1,13 @@
 ---
-title: Arquivo de projeto do AEM
-seo-title: Arquivo de projeto do AEM
+title: AEM Project Archetype
 description: Um modelo de projeto para aplicativos baseados no AEM
-seo-description: Um modelo de projeto para aplicativos baseados no AEM
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
-# Arquivo de projeto do AEM {#aem-project-archetype}
+# AEM Project Archetype {#aem-project-archetype}
 
 O AEM Project Archetype cria um projeto Adobe Experience Manager mínimo baseado em práticas recomendadas como ponto de partida para seus próprios projetos do AEM. As propriedades que devem ser fornecidas ao usar esse arquétipo permitem especificar os nomes de todas as partes deste projeto, bem como controlar determinados recursos opcionais.
 
@@ -49,11 +44,11 @@ Usar o AEM Project Archetype define você no caminho para a criação de um proj
 O AEM Archetype é composto de módulos:
 
 * **[núcleo](core.md)**: é um pacote Java que contém todas as funcionalidades principais, como serviços OSGi, ouvintes e programadores, bem como código Java relacionado a componentes, como servlets e filtros de solicitação.
-* **[ui.apps](uiapps.md)**: contém as `/apps` e `/etc` partes do projeto, ou seja, clientlibs JS e CSS, componentes, modelos, configurações específicas do modo de execução, bem como testes Hobbes.
+* **[ui.apps](uiapps.md)**: contém as`/apps`e`/etc`partes do projeto, ou seja, clientlibs JS e CSS, componentes, modelos, configurações específicas do modo de execução, bem como testes Hobbes.
 * **[ui.content](uicontent.md)**: contém conteúdo de amostra usando os componentes do módulo ui.apps.
 * **ui.testing**: é um pacote Java que contém testes JUnit executados no lado do servidor. Este pacote não deve ser implantado na produção.
 * **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
-* **[ui.front](uifrontend.md)**: **(opcional)** contém os artefatos necessários para usar o módulo de compilação front-end baseado no Webpack.
+* **[ui.front](uifrontend.md)**:**(opcional)**contém os artefatos necessários para usar o módulo de compilação front-end baseado no Webpack.
 
 ![](assets/archetype-structure.png)
 
@@ -77,7 +72,7 @@ A construção do projeto com o Maven cria os artefatos (pacotes e pacotes OSGi)
 
 ### Criação de um projeto {#create-project}
 
-Para começar, você pode simplesmente usar a extensão [do](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) AEM Eclipse e seguir o assistente para Novo projeto e escolher Projeto **multimódulo de amostra do** AEM para usar uma versão lançada do arquétipo.
+Para começar, você pode simplesmente usar a extensão [do](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) AEM Eclipse e seguir o assistente para Novo projeto e escolher Projeto **multimódulo de amostra do** AEM para usar uma versão lançada do arquétipo.
 
 Claro que você também pode chamar Maven diretamente.
 
@@ -191,7 +186,7 @@ A `<dependencyManagement>` seção do POM pai define todas as dependências e ve
 
 #### Uber-Jar {#uber-jar}
 
-Uma das principais dependências é o [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). Isso incluirá todas as APIs de AEM com apenas uma entrada de dependência para a versão do AEM.
+Uma das principais dependências é o [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). Isso incluirá todas as APIs de AEM com apenas uma entrada de dependência para a versão do AEM.
 
 >[!NOTE]
 >
@@ -201,7 +196,7 @@ Uma das principais dependências é o [AEM uber-jar](https://helpx.adobe.com/exp
 
 O AEM Project Archetype, claro, aproveita os componentes principais.
 
-Os Componentes principais são instalados automaticamente no AEM no modo de execução padrão e usados pelo site de amostra We.Retail. Em um modo de execução [de produção](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`), os Componentes principais não estão disponíveis.
+Os Componentes principais são instalados automaticamente no AEM no modo de execução padrão e usados pelo site de amostra We.Retail. Em um modo de execução [de produção](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`), os Componentes principais não estão disponíveis.
 
 Portanto, para aproveitar os componentes principais em todas as implantações, é uma prática recomendada incluí-los como parte do projeto Maven.
 
@@ -225,7 +220,7 @@ Há três níveis de testes contidos no projeto e, por serem diferentes tipos de
    * `mvn clean verify -PintegrationTests`
 * Testes Hobbes.js do cliente: Esses são testes do lado do navegador baseados em JavaScript que verificam o comportamento do lado do navegador. Para testar:
    1. Carregue o AEM no seu navegador como faria para criar uma página.
-   1. Abrir a página no modo [Desenvolvedor](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)
+   1. Abrir a página no modo [Desenvolvedor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
    1. Abra o painel esquerdo e alterne para a guia **Testes** .
    1. Encontre os testes **do** MyName gerados e execute-os.
 
@@ -234,6 +229,6 @@ Há três níveis de testes contidos no projeto e, por serem diferentes tipos de
 Por isso, você criou e instalou o AEM Project Archetype. E agora? Bem, o arquétipo é pequeno, mas consiste em muitos exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto você provavelmente precisa:
 
 * [Personalize componentes estendendo os componentes principais existentes](customizing.md)
-* [Adicionar modelos adicionais](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [Adaptar a estrutura de localização](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [Adicionar modelos adicionais](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Adaptar a estrutura de localização](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [Saiba mais sobre o módulo de compilação front-end](uifrontend.md)
