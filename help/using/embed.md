@@ -1,12 +1,8 @@
 ---
 title: Componente incorporado
-seo-title: Componente incorporado
 description: O componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
-seo-description: O componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
-content-type: referência
-topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -28,19 +24,19 @@ A versão atual do Componente incorporado é a v1, que foi introduzida com a ver
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente incorporado e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html)componentes.
+Para experimentar o Componente incorporado e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_embed)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente incorporado [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+A documentação técnica mais recente sobre o Componente incorporado [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -99,7 +95,7 @@ A marcação HTML que o autor pode inserir é filtrada para fins de segurança, 
 
 No entanto, as regras são mais complicadas porque o Componente incorporado segue o conjunto de regras de filtragem da estrutura de saneamento HTML global do AEM, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
 
-Informações adicionais de segurança podem ser encontradas na documentação do desenvolvedor do [AEM.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+Informações adicionais de segurança podem ser encontradas na documentação do desenvolvedor do [AEM para instalações](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) locais, bem como no [AEM como instalações do serviço em nuvem.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Embora as regras da estrutura de saneamento AntiSamy possam ser configuradas sobrepondo-se `/libs/cq/xssprotection/config.xml`, essas alterações afetam todo o comportamento HTL e JSP e não apenas o Componente principal incorporado.
