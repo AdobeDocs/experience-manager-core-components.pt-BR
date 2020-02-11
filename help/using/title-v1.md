@@ -1,15 +1,9 @@
 ---
 title: Componente de título (v1)
-seo-title: Componente de título (v1)
 description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
-seo-description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
-uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
