@@ -1,25 +1,14 @@
 ---
-source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 translation-type: tm+mt
 
 ---
 # Licença do MIT
 
-© Copyright 2019 Adobe. All rights reserved.
+© Copyright 2020 Adobe. All rights reserved.
 
-A permissão é concedida gratuitamente para qualquer pessoa que obter uma cópia
-desse software e arquivos de documentação associados (o «Software»), para lidar
-com o Software sem restrição, incluindo sem limitação os direitos
-de usar, copiar, modificar, unir, publicar, distribuir, combinar, unir, publicar, distribuir, combinar, publicar, distribuir e/ou vender
-cópias do Software, sujeito às seguintes condições:
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, intercalar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e para permitir às pessoas a quem o Software for fornecido fazê-lo, sob as seguintes condições:
 
-O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas
-as cópias ou partes substanciais do Software.
+O aviso de copyright acima e este aviso de permissão serão incluídos em todas as cópias ou partes substanciais do Software.
 
-O SOFTWARE É FORNECIDO "COMO É", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
-IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADA, AS GARANTIAS DE COMERCIALIZAÇÃO,
-ADEQUAÇÃO PARA UMA FINALIDADE ESPECÍFICA E NÃO INFRAÇÃO. EM NENHUM EVENTO DEVEM OS
-AUTORES OU TITULARES DE DIREITOS AUTORAIS SEREM RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA
-RESPONSABILIDADE, EM UMA AÇÃO DE CONTRATO, TORT OU DE OUTRA FORMA, DECORRENTE DE,
-OU EM CONEXÃO COM O SOFTWARE OU USO OU OUTRAS NEGOCIAÇÕES DO
-SOFTWARE.
+O SOFTWARE É FORNECIDO &quot;NO ESTADO EM QUE SE ENCONTRA&quot;, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADA, AS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM FIM EM PARTICULAR E NÃO-INFRAÇÃO. OS TITULARES DE DIREITOS AUTORAIS OU DE COPYRIGHT NÃO SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, QUER EM AÇÃO DE CONTRATO, TORTO OU DE OUTRA FORMA, RESULTANTE DE, PARA FORA OU EM RELAÇÃO AO SOFTWARE OU À UTILIZAÇÃO OU OUTROS TRATAMENTOS NO SOFTWARE.
