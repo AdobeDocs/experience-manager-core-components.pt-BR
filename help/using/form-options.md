@@ -1,16 +1,8 @@
 ---
 title: Componente Opções de formulário
-seo-title: Componente Opções de formulário
 description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
-seo-description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
-uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -31,16 +23,16 @@ A versão atual do Componente de opções de formulário é a v2, que foi introd
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](form-options-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](form-options-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+A seguir está uma amostra retirada de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -139,7 +131,7 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de opções de formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+A documentação técnica mais recente sobre o Componente de opções de formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
