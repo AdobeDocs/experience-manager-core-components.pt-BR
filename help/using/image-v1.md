@@ -1,15 +1,9 @@
 ---
 title: Componente de imagem (v1)
-seo-title: Componente de imagem (v1)
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
-seo-description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
