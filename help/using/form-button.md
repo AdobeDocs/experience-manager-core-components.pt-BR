@@ -1,25 +1,8 @@
 ---
 title: Componente do botão de formulário
-seo-title: Componente do botão de formulário
-description: 'null'
-seo-description: O componente principal Formulário oculto do componente permite a inclusão de um campo oculto em um formulário.
-uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: não
-hidemerchandisingbar: herdar
-hidepromocomponent: herdar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O componente principal Formulário oculto do componente permite a inclusão de um campo oculto em um formulário.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -40,10 +23,10 @@ A versão atual do Componente do botão de formulário é a v2, que foi introduz
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatível | Compatível | Compatível |
-| [v1](form-button-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível | Compatível |
+| [v1](form-button-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
@@ -85,7 +68,7 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente do botão de formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+A documentação técnica mais recente sobre o Componente do botão de formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -99,7 +82,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina os
 
 * **Tipo**
 
-   * **Imagem**
+   * **Botão**
    * **Enviar**
 
 * **Título** - O texto exibido no botão
