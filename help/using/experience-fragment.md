@@ -1,12 +1,8 @@
 ---
 title: Componente do fragmento de experiência
-seo-title: Componente do fragmento de experiência
 description: O componente Fragmento de experiência permite que o autor do conteúdo adicione uma variação de fragmento de experiência a uma página.
-seo-description: O componente Fragmento de experiência permite que o autor do conteúdo adicione uma variação de fragmento de experiência a uma página.
-content-type: referência
-topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -17,9 +13,9 @@ O Componente principal de fragmento de experiência do componente permite que o 
 
 ## Uso {#usage}
 
-O Componente principal de fragmento de experiência do componente permite que o autor do conteúdo selecione as variações do fragmento de experiência existente e insira uma na página de conteúdo. O componente Fragmento de experiência também suporta uma estrutura de site localizada.
+O Componente principal de fragmento de experiência do componente permite que o autor do conteúdo selecione a partir das variações de fragmento de experiência existentes e coloque uma na página de conteúdo. O componente Fragmento de experiência também suporta uma estrutura de site localizada.
 
-* As propriedades dos componentes podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
+* As propriedades do componente podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
 * Os padrões do componente ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [](#design-dialog)de design.
 
 ## Suporte à estrutura do site localizada {#localized-site-structure}
@@ -97,19 +93,19 @@ A versão atual do Componente do fragmento de experiência é a v1, que foi intr
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente do fragmento de experiência, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html)componentes.
+Para experimentar o Componente do fragmento de experiência, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_xf)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente do fragmento de experiência [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment).
+A documentação técnica mais recente sobre o Componente do fragmento de experiência [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
