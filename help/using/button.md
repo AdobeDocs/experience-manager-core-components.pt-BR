@@ -1,16 +1,8 @@
 ---
 title: Componente do botão
-seo-title: Componente do botão
-description: 'null'
-seo-description: O componente do botão Componente principal permite a criação e a exibição de um botão.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: O componente do botão Componente principal permite a criação e a exibição de um botão.
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ A versão atual do Componente de botão é v1, que foi introduzida com a versão
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente Botão e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)componentes.
+Para experimentar o componente Botão e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_button)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Botão [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+A documentação técnica mais recente sobre o componente Botão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
