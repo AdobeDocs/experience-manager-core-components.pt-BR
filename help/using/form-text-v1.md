@@ -1,34 +1,28 @@
 ---
 title: Componente de texto do formulário (v1)
-seo-title: Componente de texto do formulário (v1)
-description: 'null'
-seo-description: O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: referência
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
 # Form Text Component (v1){#form-text-component-v}
 
-The Core Component Form Text component allows the entry of form text for submission.
+O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
 
 ## Uso {#usage}
 
-The Form Text Component allows for the submission of different types of text and is intended to be used along with the form container component.[](form-container.md)
+O Componente de texto do formulário permite o envio de diferentes tipos de texto e se destina a ser usado junto com o componente [de contêiner do](form-container.md)formulário.
 
-The type of text validation, labels, and help messages can be defined by the content editor in the configure dialog.[](form-text-v1.md#main-pars_title)
+O tipo de validação de texto, rótulos e mensagens de ajuda podem ser definidos pelo editor de conteúdo na caixa de diálogo [](form-text-v1.md#main-pars_title)configurar.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versão e compatibilidade {#version-and-compatibility}
 
-This document describes v1 of the Form Text Component, originally introduced with release 1.0.0 of the Core Components with AEM 6.3.
+Este documento descreve a v1 do Componente de texto do formulário, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-The following table lists the compatibility of v1 of the Form Text Component.
+A tabela a seguir lista a compatibilidade de v1 do Componente de texto do formulário.
 
 | Versão do AEM | Componente de texto do formulário v1 |
 |--- |--- |
@@ -37,11 +31,11 @@ The following table lists the compatibility of v1 of the Form Text Component.
 
 >[!CAUTION]
 >
->This document describes v1 of the Form Text Component.
+>Este documento descreve a v1 do Componente de texto do formulário.
 >
 >Para obter detalhes sobre a versão atual do Componente de texto do formulário, consulte o documento Componente [de texto do](form-text.md) formulário.
 
-## Sample Component Output {#sample-component-output}
+## Exemplo de saída de componente {#sample-component-output}
 
 A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -103,7 +97,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 
 * **Restrição** - O tipo de texto a ser inserido e será validado em relação
 
-   * **Text**
+   * **Texto**
    * **Área de texto**
    * **E-mail**
    * **Telefone**
@@ -135,13 +129,13 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
    * Não exibido para tipos de restrição de **Texto** e Área **de** texto
 
 * **Obrigatório** - se selecionado, o usuário deve preencher um valor antes de enviar o formulário
-* **Make read only - If selected the user cannot modify the value of the field**
+* **Tornar somente** leitura - Se selecionado, o usuário não poderá modificar o valor do campo
 
-## Design Dialog {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-There is no design dialog for the Form Text component.
+Não há caixa de diálogo de design para o componente de Texto do formulário.
 
-## Technical Details {#technical-details}
+## Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente de texto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
