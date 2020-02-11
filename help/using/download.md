@@ -1,16 +1,8 @@
 ---
 title: Baixar componente
-seo-title: Baixar componente
-description: 'null'
-seo-description: O componente de download do componente principal permite a criação de uma opção de download em uma página.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuário
-content-type: referência
-topic-tags: autoria
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: O componente de download do componente principal permite a criação de uma opção de download em uma página.
 translation-type: tm+mt
-source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ A versão atual do Componente de download é a v1, que foi introduzida com a ver
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente de download e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/download.html)componentes.
+Para experimentar o Componente de download e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_download)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de download [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+A documentação técnica mais recente sobre o Componente de download [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -59,9 +51,9 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 A seleção de um ativo de download é muito semelhante à funcionalidade do Componente [de](image.md) imagem e também aproveita o DAM do AEM.
 
 * **Baixar ativo**
-   * Solte um ativo do navegador [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) no editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
 
 ### Guia Propriedades {#properties-tab}
 
