@@ -1,24 +1,8 @@
 ---
 title: Componente de navegação
-seo-title: Componente de navegação
-description: 'null'
-seo-description: O componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
-uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: false
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: O componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 translation-type: tm+mt
-source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -107,19 +91,19 @@ A versão atual do Componente de navegação é v1, que foi introduzida com a ve
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o Componente de navegação e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)componentes.
+Para experimentar o Componente de navegação e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_navigation)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de navegação [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+A documentação técnica mais recente sobre o componente de navegação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
