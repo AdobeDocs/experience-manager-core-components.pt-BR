@@ -1,14 +1,8 @@
 ---
 title: Componente Tabulações
-seo-title: Componente Tabulações
 description: O componente Tabulações permite a criação de várias guias para organizar o conteúdo em uma página.
-seo-description: O componente Tabulações permite a criação de várias guias para organizar o conteúdo em uma página.
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: referência
-topic-tags: componentes principais
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -27,7 +21,7 @@ A caixa de diálogo [de](#edit-dialog) edição permite que o autor do conteúdo
 >
 >Os componentes de guia aninhados (guias dentro de guias) são suportados.
 >
->Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a árvore [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)conteúdo, no entanto, guias aninhadas não podem ser.
+>Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a árvore [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)conteúdo, no entanto, guias aninhadas não podem ser.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -35,19 +29,19 @@ A versão atual do Componente de guias é v1, que foi introduzida com a versão 
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como um serviço em nuvem |
+|--- |--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível | Compatível |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](versions.md)principais.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
-Para experimentar o componente Tabs e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)componentes.
+Para experimentar o componente Tabs e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_tabs)componentes.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Tabs [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+A documentação técnica mais recente sobre o componente Tabs [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](developing.md)principais.
 
@@ -68,7 +62,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 
 >[!TIP]
 >
->Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente de guias ao [arrastar do navegador de componentes e soltar no Componente de guias no editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente de guias ao [arrastar do navegador de componentes e soltar no Componente de guias no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)de páginas.
 
 ### Guia Propriedades {#properties-tab}
 
@@ -102,7 +96,7 @@ Depois de selecionar a opção **Selecionar painel** na barra de ferramentas do 
 
 >[!NOTE]
 >
->As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar** . Use o modo [**Visualizar** ou a opção](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) Visualizar como publicado **[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** para interagir com as guias como um leitor do conteúdo publicado.
+>As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar** . Use o modo **[Visualizar](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**ou a opção**[ Visualizar como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
 
 ## Caixa de diálogo Design {#design-dialog}
 
@@ -112,7 +106,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais compone
 
 A guia Componentes **** permitidos é usada para definir quais componentes podem ser adicionados como itens ao componente de guias pelo autor do conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Estilos {#styles-tab}
 
