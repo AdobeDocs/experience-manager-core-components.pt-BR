@@ -1,13 +1,8 @@
 ---
 title: Módulo ui.apps do Arquivo de Projeto AEM
-seo-title: Módulo ui.apps do Arquivo de Projeto AEM
 description: Módulo ui.apps do Arquivo de Projeto AEM
-seo-description: Módulo ui.apps do Arquivo de Projeto AEM
-contentOwner: bohnerd
-content-type: referência
-topic-tags: componentes principais
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
