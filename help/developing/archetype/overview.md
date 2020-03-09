@@ -2,7 +2,7 @@
 title: AEM Project Archetype
 description: Um modelo de projeto para aplicativos baseados no AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -26,7 +26,7 @@ O arquétipo tem vários recursos que devem oferecer um ponto de partida conveni
 * Exemplos de componentes de [formulário](/help/components/forms/form-container.md)
 * Configurações para emuladores de dispositivo, configuração de arrastar e soltar e internacionalização
 * Bibliotecas clientes que seguem convenções de nomenclatura BEM, bem como estilos específicos do componente
-* Pacotes de exemplos incluindo modelos de amostra, servelets, filtros e programadores
+* Pacotes de exemplos incluindo modelos de amostra, servelts, filtros e programadores
 * Testes de unidade, integração e do cliente
 * Amostra de implementações SPA em React ou Angular (opcional)
 
@@ -54,7 +54,7 @@ O AEM Archetype é composto de módulos:
 * **[ui.testing](uitests.md)**: é um pacote Java que contém testes JUnit executados no lado do servidor. Este pacote não deve ser implantado na produção.
 * **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
 * **[ui.frontende.general](uifrontend.md)**:**(opcional)**contém os artefatos necessários para usar o módulo de compilação front-end geral baseado no Webpack.
-* **[ui.frontende.response](uifrontend-react.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA baseados em Reagir.
+* **[ui.frontende.response](uifrontend-react.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA com base em Reagir.
 * **[ui.frontende.angular](uifrontend-angular.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA baseados em Angular.
 
 ![](/help/assets/archetype-structure.png)
@@ -73,13 +73,13 @@ Para obter uma lista das versões do AEM com suporte das versões anteriores do 
 
 ## Como usar o Archetype {#how-to-use-the-archetype}
 
-Para usar o arquétipo, primeiro é necessário criar um projeto que gere os módulos em uma estrutura de arquivos local, conforme descrito [](#what-you-get)anteriormente. Como parte da geração do projeto, várias propriedades do projeto podem ser definidas, como nome do projeto, versão etc.
+Para usar o arquétipo, primeiro é necessário criar um projeto, que gera os módulos em uma estrutura de arquivos local, conforme descrito [](#what-you-get)anteriormente. Como parte da geração do projeto, várias propriedades do projeto podem ser definidas, como nome do projeto, versão etc.
 
 A construção do projeto com o Maven cria os artefatos (pacotes e pacotes OSGi), que podem ser implantados no AEM. Comandos e perfis Maven adicionais podem ser usados para implantar os artefatos do projeto em uma instância do AEM.
 
-### Criação de um projeto {#create-project}
+### Criação de um projeto   {#create-project}
 
-Para começar, você pode simplesmente usar a extensão [do](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) AEM Eclipse e seguir o assistente para Novo projeto e escolher Projeto **multimódulo de amostra do** AEM para usar uma versão lançada do arquétipo.
+Para começar, você pode simplesmente usar a extensão [do](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) AEM Eclipse e seguir o assistente para Novo projeto e escolher Projeto **de vários módulos de amostra do** AEM para usar uma versão lançada do arquétipo.
 
 Claro que você também pode chamar Maven diretamente.
 
@@ -110,7 +110,7 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `package` |  | Pacote de origem Java |
 | `appID` |  | ID do aplicativo usada para pastas de componente, configuração e conteúdo e IDs css |
 | `appTitle` |  | Título do aplicativo usado para o título do site e grupos de componentes |
-| `aemVersion` | 6.5.0 | Versão do Target AEM |
+| `aemVersion` | 6.5.0 | Versão do AEM de destino |
 | `sdkVersion` |  |
 | `languageCountry` | en_us | Código de idioma e país para criar a estrutura de conteúdo localizada (por exemplo, `en_us`) |
 | `includeExamples` | y | Incluir um site de exemplo da Biblioteca de componentes |
@@ -123,11 +123,11 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 > Se o arquétipo for executado no modo interativo pela primeira vez, as propriedades com valores padrão não poderão ser alteradas (consulte [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para obter mais detalhes). O valor pode ser alterado quando a confirmação de propriedade no final for negada e o questionário for repetido, ou transmitindo o parâmetro na linha de comando (por exemplo, `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
->Ao executar no Windows e gerar a configuração do dispatcher, você deve estar em execução em um prompt de comando elevado ou no Subsistema Windows para Linux (consulte o [problema 329](https://github.com/adobe/aem-project-archetype/issues/329)).
+>Ao executar no Windows e gerar a configuração do dispatcher, você deve estar em execução em um prompt de comando elevado ou no Subsistema do Windows para Linux (consulte o [problema 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Perfis {#profiles}
 
-O projeto maven gerado suporta diferentes perfis de implantação durante a execução `mvn install`.
+O projeto maven gerado oferece suporte a diferentes perfis de implantação durante a execução `mvn install`.
 
 | ID do perfil | Descrição |
 --------------------------|------------------------------
@@ -236,7 +236,7 @@ Há três níveis de testes contidos no projeto e, por serem diferentes tipos de
 
 ## Próximas etapas {#next-steps}
 
-Por isso, você criou e instalou o AEM Project Archetype. E agora? Bem, o arquétipo é pequeno, mas consiste em muitos exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto você provavelmente precisa:
+Por isso, você criou e instalou o AEM Project Archetype. E agora? Bem, o arquétipo é pequeno, mas consiste em muitos exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto, você provavelmente precisa:
 
 * [Personalize componentes estendendo os componentes principais existentes](/help/developing/customizing.md)
 * [Adicionar modelos adicionais](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
