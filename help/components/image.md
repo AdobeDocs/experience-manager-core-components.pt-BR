@@ -2,7 +2,7 @@
 title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -19,7 +19,7 @@ As larguras de imagem, bem como recortes e configurações adicionais podem ser 
 
 ## Recursos responsivos {#responsive-features}
 
-O Componente de imagem vem com recursos robustos e responsivos prontos imediatamente. No nível do modelo de página, a caixa de diálogo [de](#design-dialog) design pode ser usada para definir as larguras padrão do ativo de imagem. O Componente de imagem carregará automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. Conforme a janela é redimensionada, o Componente de imagem carrega dinamicamente o tamanho correto da imagem dinamicamente. Não há necessidade de desenvolvedores de componentes se preocuparem com a definição de consultas de mídia personalizadas, pois o Componente de imagem já está otimizado para carregar seu conteúdo.
+O Componente de imagem vem com recursos robustos e responsivos prontos imediatamente. No nível do modelo de página, a caixa de diálogo [de](#design-dialog) design pode ser usada para definir as larguras padrão do ativo de imagem. O Componente de imagem carregará automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o Componente de imagem carrega dinamicamente o tamanho correto da imagem dinamicamente. Não há necessidade de desenvolvedores de componentes se preocuparem com a definição de consultas de mídia personalizadas, pois o Componente de imagem já está otimizado para carregar seu conteúdo.
 
 Além disso, o Componente de imagem oferece suporte ao carregamento lento para adiar o carregamento do ativo de imagem real até que ele esteja visível no navegador, aumentando a capacidade de resposta das páginas.
 
@@ -29,7 +29,7 @@ A versão atual do Componente de imagem é a v2, que foi introduzida com a vers�
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatível | Compatível | Compatível | Compatível |
 | [v1](v1/image-v1.md) | Compatível | Compatível | Compatível | - |
@@ -41,7 +41,7 @@ Para obter mais informações sobre versões e versões dos Componentes principa
 O SVG (Scalable Vetor Graphics) é compatível com o Componente de imagem.
 
 * Arrastar e soltar um ativo SVG do DAM e carregar um upload de arquivo SVG de um sistema de arquivos local são suportados.
-* O Adaptive Image Servelet transmite o arquivo SVG original em fluxo contínuo (as transformações são ignoradas).
+* O Adaptive Image Servlet transmite o arquivo SVG original em fluxo contínuo (as transformações são ignoradas).
 * Para uma imagem SVG, as &quot;imagens inteligentes&quot; e os &quot;tamanhos inteligentes&quot; são definidos como uma matriz vazia no modelo de imagem.
 
 ### Segurança {#security}
@@ -64,7 +64,7 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 >[!NOTE]
 >
->Desde a versão 2.1.0 dos Componentes principais, o Componente de imagem oferece suporte aos microdados [](https://schema.org)schema.org.
+>A partir da versão 2.1.0 dos Componentes principais, o Componente de imagem oferece suporte aos microdados [](https://schema.org)schema.org.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
@@ -110,7 +110,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
    * Escolha a opção Mão **livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
-   Depois que uma opção de corte for selecionada, use as alças azuis para dimensionar o corte na imagem.
+   Depois que uma opção de recorte for selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
    ![](/help/assets/chlimage_1-10.png)
 
@@ -146,7 +146,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
    * **Adicionar mapa circular**
    * **Adicionar Mapa de Polígono**
       * Por padrão, adiciona um mapa de triângulo. Clique duas vezes em uma linha da forma para adicionar uma nova alça de redimensionamento azul em um novo lado.
-   Quando uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças de redimensionamento azuis para ajustar a forma.
+   Depois que uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças de redimensionamento azuis para ajustar a forma.
 
    ![](/help/assets/chlimage_1-13.png)
 
@@ -155,7 +155,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
    * **Caminho**
       * Use a opção Seletor de caminho para selecionar um caminho no AEM
       * Se o caminho não estiver no AEM, use o URL absoluto. Caminhos não absolutos serão interpretados em relação ao AEM.
-   * **Texto** alternativo Descrição alternativa do destino do caminho
+   * **Texto** alternativoDescrição alternativa do destino do caminho
    * **Target**
       * **Mesma guia**
       * **Nova guia**
@@ -210,7 +210,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
    * Toque ou clique no botão **Adicionar** para adicionar outro tamanho.
       * Use as alças de captura para reorganizar a ordem dos tamanhos.
       * Use o ícone **Excluir** para remover uma largura.
-   * Por padrão, o carregamento de imagens é adiado até que fiquem visíveis.
+   * Por padrão, o carregamento de imagens é adiado até que se tornem visíveis.
       * Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
 * **Qualidade** JPEG O fator de qualidade (em porcentagem de 0 e 100) para imagens JPEG transformadas (por exemplo, dimensionadas ou cortadas).
 
@@ -222,7 +222,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
 >
 >A partir da versão 2.2.0 dos Componentes principais, o Componente de imagem adiciona o atributo UUID exclusivo `data-asset-id` ao ativo de imagem para permitir o rastreamento e a análise do número de exibições que os ativos individuais recebem.
 
-### Guia Recursos {#features-tab}
+### Features Tab {#features-tab}
 
 Na guia **Recursos** , é possível definir quais opções estão disponíveis para os autores de conteúdo ao usar o componente, incluindo opções de upload, orientação e recorte.
 
@@ -241,7 +241,7 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
    >[!CAUTION]
    >
-   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e nenhuma alteração feita usando essas opções será persistente.
+   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e nenhuma alteração feita usando essas opções será persistida.
 
 * Cortar
 
@@ -255,18 +255,18 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
    * Use o ícone da lixeira para excluir uma proporção.
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feito por motivos de compatibilidade herdados. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
 
 ### Guia Estilos {#styles-tab-1}
 
 O componente de imagem suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
 
-## Servelet de imagem adaptável {#adaptive-image-servelet}
+## Servlet de imagem adaptável {#adaptive-image-servlet}
 
-O componente de imagem usa o servidor de imagem adaptável do componente principal. [O Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes](/help/developing/customizing.md)principais.
+O Componente de imagem usa o Servlet de imagem adaptativa do Componente principal. [O Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes](/help/developing/customizing.md)principais.
 
 >[!NOTE]
 >
->As solicitações condicionais via cabeçalho são suportadas pelo Servelet de imagem adaptável, mas o cache do cabeçalho `Last-Modified` precisa `Last-Modified` ser habilitado no Dispatcher [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>As solicitações condicionais via cabeçalho são suportadas pelo Servlet de imagem adaptável, mas o cache do cabeçalho `Last-Modified` precisa `Last-Modified` ser habilitado no Dispatcher [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
 >[A amostra de configuração do Dispatcher do AEM Project Archetype](/help/developing/archetype/overview.md)já contém essa configuração.
