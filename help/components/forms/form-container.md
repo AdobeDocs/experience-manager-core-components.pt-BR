@@ -2,7 +2,7 @@
 title: Componente do contêiner de formulário
 description: O Componente principal do contêiner de formulário permite a criação de formulários simples de envio.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -27,12 +27,16 @@ A versão atual do Componente do contêiner de formulário é a v2, que foi intr
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatível | Compatível | Compatível | Compatível |
 | [v1](/help/components/v1/form-container-v1.md) | Compatível | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+
+## Exemplo de saída de componente {#sample-component-output}
+
+Para experimentar o Componente do contêiner de formulário e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_form_container)componentes.
 
 ## Detalhes técnicos {#technical-details}
 
@@ -57,7 +61,7 @@ Independentemente do tipo, existem configurações [](#general-settings) gerais 
 
 ### Email {#mail}
 
-Quando o formulário for enviado, o tipo de ação de email enviará um email aos destinatários designados.
+Quando o formulário for enviado, o tipo de ação de email enviará um email para os destinatários designados.
 
 ![](/help/assets/screen_shot_2018-01-12at122554.png)
 
@@ -78,7 +82,7 @@ Quando o formulário for enviado, o conteúdo do formulário será armazenado em
 ![](/help/assets/screen_shot_2018-01-12at122538.png)
 
 * **Caminho** do conteúdo Caminho do repositórioO conteúdo enviado é armazenado
-* **Exibir** Toque em Dados ou clique para exibir dados enviados armazenados como JSON
+* **Exibir** Toque em Dados ou clique para exibir os dados enviados armazenados como JSON
 * **Iniciar fluxo de trabalho** Configurar para iniciar um fluxo de trabalho com o conteúdo armazenado como carga após o envio do formulário
 
 ### Enviar pedido {#submit-order}
