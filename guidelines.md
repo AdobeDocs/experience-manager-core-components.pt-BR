@@ -1,88 +1,90 @@
 ---
-source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
 translation-type: tm+mt
 
 ---
-# Diretrizes para a contribuição para a documentação do AEM
+# Diretrizes para contribuir com a documentação do AEM
 
 ## Filosofia da documentação do AEM
 
-Sabemos que os usuários do Adobe Experience Manager estão trabalhando em ambientes altamente competitivos, tentando criar experiências digitais que os configurarão de seus concorrentes. Portanto, é fundamental que quando a Adobe fornecer novas ferramentas avançadas no AEM, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seus investimentos AEM e maximize o ROI.
+Sabemos que os usuários do Adobe Experience Manager estão trabalhando em ambientes altamente competitivos, lutando para criar experiências digitais que os separarão de seus concorrentes. Portanto, é vital que, quando a Adobe fornecer novas ferramentas avançadas no AEM, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seu investimento no AEM e maximize o ROI.
 
-O objetivo da documentação do AEM é colocar a documentação nas mãos dos usuários do AEM assim que possível. Por isso, priorizamos a documentação precisa e utilizável e procuremos atualizá-la e melhorá-la continuamente.
+O objetivo da documentação do AEM é colocar a documentação nas mãos dos usuários do AEM o mais rápido possível. Portanto, priorizamos a documentação precisa e utilizável e nos esforçamos para atualizá-la continuamente e aprimorá-la.
 
 ## Contribuições de documentação do AEM
 
-Para melhorar continuamente a documentação do AEM, a comunidade inteira de usuários do AEM é bem-vinda para contribuir com a documentação. Seja por meio de solicitações de extração ou problemas, as melhorias na documentação podem ser correções, esclarecimentos, expansões e exemplos adicionais.
+Para melhorar continuamente a documentação do AEM, a comunidade inteira de usuários do AEM é bem-vinda para contribuir com a documentação. Seja por meio de solicitações ou problemas, as melhorias na documentação podem ser correções, esclarecimentos, expansões e exemplos adicionais.
 
-## Padrões de documentação
+## Normas de documentação
 
-Embora possamos receber as contribuições para a nossa documentação, qualquer contribuição para a documentação do AEM, seja na forma de uma solicitação extraída ou em um problema, deve estar em conformidade com nossas normas de contribuição e documentação.
+Embora possamos receber contribuições para nossa documentação, qualquer contribuição para a documentação do AEM, seja na forma de solicitação por push ou problema, deve estar em conformidade com nossos padrões de contribuição e documentação.
 
-As contribuições que não atendem a esses padrões podem ser rejeitadas.
+As contribuições que não cumprem estes padrões podem ser rejeitadas.
 
-### Nós documemos casos de uso padrão.
+### Nós documento casos de uso padrão.
 
-A documentação do AEM cobre casos de uso padrão. Casos de uso além do escopo da instalação padrão e uso do produto não fazem parte da documentação do AEM.
+A documentação do AEM cobre casos de uso padrão. Casos de uso além do escopo de instalação padrão e uso do produto não fazem parte da documentação do AEM.
 
-### Não documemos bugs ou soluções alternativas.
+### Geralmente, não documento erros nem as suas soluções.
 
-Como a documentação do AEM abrange casos de uso padrão, erros, esses efeitos causado por erros e soluções alternativas para bugs não estão documentados.
+A documentação do AEM cobre casos de uso padrão. Por essa razão, os erros, os efeitos causados por erros e as soluções alternativas para erros geralmente não estão documentados.
 
-### As contribuições da documentação não são para responder a perguntas técnicas.
+As exceções a essa regra se aplicam às notas de versão onde os problemas conhecidos podem ser listados com possíveis soluções que foram aprovadas pelo Gerenciamento de produtos AEM.
 
-Quaisquer ideias que você precisar para melhorar a documentação do AEM são bem-vindas como contribuições. However comments, issues, and pull requests are intended for *contributions* only. Eles não devem ser usados para responder suas perguntas sobre como usar o AEM ou resolver problemas técnicos.
+### As contribuições para a documentação não se destinam a responder a questões técnicas.
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
+Quaisquer ideias que você precisar melhorar a documentação do AEM são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de baixa automática são destinados apenas a *contribuições* . Eles não devem ser usados para responder suas perguntas sobre como usar o AEM, implementar seu projeto do AEM ou resolver problemas técnicos.
 
-***As contribuições de documentação do AEM não são uma substituição para o suporte*** da Adobe e qualquer contribuição que procura respostas para perguntas relacionadas a suporte será rejeitada.
+Quaisquer dúvidas sobre o uso do AEM ou erros técnicos que possam ter sido relatados por meio do processo de suporte normal pelo Portal [de suporte do](https://daycare.day.com/home.html) Experience Manager ou discutidos na comunidade [](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html)Experience Manager.
 
-### As contribuições devem fazer referência claramente às páginas de documentação afetadas.
+***As contribuições de documentação do AEM não são uma substituição do suporte da Adobe*** e quaisquer contribuições que buscam respostas para perguntas relacionadas ao suporte serão rejeitadas.
 
-Se você criar um problema para sugerir melhorias na documentação, deverá incluir incluir links para as páginas afetadas. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
+### As contribuições devem mencionar claramente as páginas de documentação afetadas.
 
-Isso não se aplica a solicitações de extração, pois as solicitações de extração incluem as páginas afetadas por definição.
+Se você criar um problema para sugerir melhorias na documentação, deverá incluir links para as páginas afetadas. Caso crie um problema usando o link **Editar esta página** em uma página de documentação, o problema será criado automaticamente com um link para a página.
+
+Isso não se aplica a solicitações de baixa automática, pois as solicitações de baixa automática por sua natureza fazem referência às páginas afetadas.
 
 ## Diretrizes de documentação
 
-Pedimos que quaisquer contribuições para a nossa documentação sigam determinadas diretrizes de estilo.
+Solicitamos que qualquer contribuição para nossa documentação siga determinadas diretrizes de estilo.
 
-Seguindo essas diretrizes, a análise da contribuição fica mais fácil e, portanto, a integração na nossa documentação é mais rápida. No entanto, a conformidade sem conformidade ou inconsistência com essas orientações não significa que a contribuição será rejeitada.
+Seguir essas diretrizes facilita a revisão de sua contribuição e, portanto, a integração à nossa documentação é mais rápida.
 
 ### Idioma e estilo
 
 #### Idioma
 
-* A documentação do AEM é criada e mantida em inglês dos EUA.
-* Mantenha as sentenças o mais simples possível.
+* A documentação do AEM foi criada e mantida em inglês dos EUA.
+* Mantenha as frases o mais simples possível.
 * Mantenha o idioma claro e conciso.
 
-Lembre-se de que os leitores de documentação do AEM são mundiais e não podem ser os alto-falantes nativos ou fluidos em inglês. Evite colargalismos e mantenha o idioma o mais claro e simples possível.
+Lembre-se de que os leitores da documentação do AEM são do mundo inteiro e não é de se esperar que sejam falantes nativos ou fluentes do inglês. Evite coloquialismos e mantenha a linguagem o mais clara e simples possível.
 
-#### Seguir o manual do Microsoft Manual
+#### Siga o Manual de estilo da Microsoft
 
-[O Manual de estilo da Microsoft é](https://docs.microsoft.com/en-us/style-guide/welcome/) um guia de estilo de documentação disponível livremente que foca na documentação do software e a documentação do AEM segue este guia sempre que possível.
+[O Manual de estilo](https://docs.microsoft.com/en-us/style-guide/welcome/) da Microsoft é um guia de estilo de documentação disponível gratuitamente, que foca na documentação do software e a documentação do AEM segue este guia sempre que possível.
 
 ### Formatação
 
 | Item | Estilo |
 |---|---|
 | Elemento ou opção da interface do usuário | **negrito** |
-| Nome de arquivo, caminho, entrada do usuário, parâmetro-valores | `monospaced` |
+| Nome do arquivo, caminho, entrada do usuário, valores de parâmetro | `monospaced` |
 | Código, linha de comando | ```Code Block``` |
 
 ### Capturas de tela
 
-As capturas de tela devem ser usadas de forma criteriosa e somente quando uma descrição textual é insuficiente.
+As capturas de tela devem ser utilizadas de forma sensata e apenas quando uma descrição textual for insuficiente.
 
-Os marcadores ou outras anotações em capturas de tela (como quadros vermelhos, setas ou texto) não devem ser usados. Dessa forma, as capturas de tela são mais fáceis de serem reutilizadas ou replicadas em versões localizadas da documentação.
+Marcadores ou outras anotações em capturas de tela (como quadros vermelhos, setas ou texto) não devem ser usados. Dessa forma, as capturas de tela são mais fáceis de reutilizar ou replicar em versões localizadas da documentação.
 
 ### Referências específicas à versão
 
-Tente evitar referências diretas a uma versão específica em todo o conteúdo da documentação sempre que possível. Isso torna a documentação mais flexível e extensível para versões futuras.
+Tente evitar referências diretas a uma versão específica em todo o conteúdo da documentação, sempre que possível. Isso torna a documentação mais flexível e extensível para versões futuras.
 
 ### Uso do dia, AEM, CQ, CRX
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
+O produto sempre deve ser referenciado pelo nome completo **Adobe Experience Manager** pela primeira vez em um artigo e pode, a partir de então, ser chamado de **AEM**.
 
-Dia, Software de dia, CQ e CRX não devem ser usados, exceto quando inevitáveis, como em nomes de classe ou se referem ao histórico do AEM.
+O Dia, o Day Software, o CQ e o CRX não devem ser usados, exceto quando inevitável, como em nomes de classe ou referência ao histórico do AEM.
