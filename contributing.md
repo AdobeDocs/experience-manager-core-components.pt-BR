@@ -1,5 +1,5 @@
 ---
-source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
+source-git-commit: 10892e6befa81caba8ed152270e3a01ee6b56fee
 translation-type: tm+mt
 
 ---
@@ -19,7 +19,7 @@ Embora nos congratulemos com quaisquer contribuições para melhorar a documenta
 
 ## Como contribuir
 
-Queremos facilitar ao máximo a submissão das vossas contribuições. Você pode contribuir de duas formas:
+Queremos facilitar ao máximo a apresentação das suas contribuições. Você pode contribuir de duas formas:
 
 * [Criar um problema](#create-an-issue)
 * [Criar uma solicitação de baixa automática](#create-a-pull-request)
@@ -50,9 +50,9 @@ Assista ao vídeo a seguir para obter uma rápida visão geral de como criar pro
 
 ### Contribuições de funcionários da Adobe
 
-Se você for um funcionário da Adobe e quiser fazer uma solicitação pull, use o repositório privado em `https://git.corp.adobe.com/AdobeDocs`.
+Se você for um funcionário da Adobe e tiver uma contribuição, use a `AdobeDocs` organização no git corporativo.
 
-Por problemas, sinta-se à vontade para usar os repositórios públicos.
+É claro que estamos satisfeitos com qualquer contribuição e revisaremos sua contribuição se ela for feita no repositório público, no entanto, as solicitações dos funcionários da Adobe são mais fáceis de processar e podem ser aprovadas mais rapidamente no acordo de recompra corporativo. Certifique-se de que qualquer informação proprietária seja apenas discutida no acordo de recompra das empresas.
 
 ## Informações adicionais
 
