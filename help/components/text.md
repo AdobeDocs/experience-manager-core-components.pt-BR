@@ -2,7 +2,7 @@
 title: Componente de texto
 description: O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -13,22 +13,22 @@ O Componente de texto principal é um componente de edição e composição de r
 
 ## Uso {#usage}
 
-O componente de texto oferece um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
+O componente de texto oferta um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
 A caixa de diálogo [de](#edit-dialog) edição possui edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a caixa de diálogo [de](#design-dialog)design, opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de texto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
+A versão atual do Componente de texto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Compatível | Compatível | Compatível | Compatível |
 | [v1](v1/text-v1.md) | Compatível | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -42,7 +42,7 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## O componente de texto e o Editor de Rich Text {#the-text-component-and-the-rich-text-editor}
 
-O Componente de texto dos componentes principais aproveita o Editor de Rich Text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de Rich Text e [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
+O Componente de texto dos componentes principais aproveita o Editor de Rich Text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de Rich Text e [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
 
 O restante deste artigo demonstra a configuração padrão do Componente de texto dos componentes principais com a configuração predefinida do ERT.
 
@@ -52,7 +52,7 @@ O restante deste artigo demonstra a configuração padrão do Componente de text
 
 ## Edit Dialog {#edit-dialog}
 
-A caixa de diálogo de edição oferece as ferramentas padrão de formatação Rich Text que um usuário esperaria compor texto.
+A caixa de diálogo de edição oferta as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
 
 ![](/help/assets/screen_shot_2018-01-11at143025.png)
 
@@ -90,7 +90,7 @@ Usado para formatar texto ou texto selecionado inserido após o cursor como subs
 
 ![](/help/assets/screen_shot_2018-01-11at125708.png)
 
-Usado para formatar o texto selecionado ou o texto inserido após o cursor como sobrescrito.
+Usado para formatar o texto selecionado ou o texto digitado após o cursor como sobrescrito.
 
 ### Colar como texto
 
@@ -98,7 +98,7 @@ Usado para formatar o texto selecionado ou o texto inserido após o cursor como 
 
 Cola qualquer texto copiado como texto sem formatação.
 
-Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
 ![](/help/assets/screen_shot_2018-01-11at143234.png)
 
@@ -106,7 +106,7 @@ Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado co
 
 ![](/help/assets/screen_shot_2018-01-11at125717.png)
 
-Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
 ![](/help/assets/screen_shot_2018-01-11at143250.png)
 
@@ -172,6 +172,10 @@ Se uma correspondência for encontrada, ela será realçada e a caixa de diálog
 
 Selecione **Substituir todas** para substituir todas as ocorrências do texto ao mesmo tempo.
 
+Ao usar a funcionalidade de substituição, a string de substituição a ser substituída deve ser inserida ao mesmo tempo que a string de localização. No entanto, você ainda pode clicar em localizar para procurar a string antes de substituí-la. Se a string de substituição for inserida após clicar em Localizar, a pesquisa será redefinida para o início do texto.
+
+A caixa de diálogo localizar e substituir fica transparente quando a localização é clicada e se torna opaca quando a substituição é clicada. Isso permite que o autor reveja o texto que o autor substituirá.
+
 ### Alinhar texto à esquerda
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
@@ -196,7 +200,7 @@ Usado para alinhar o texto à margem direita.
 
 Usado para formatar o texto selecionado como uma lista com marcadores ou iniciar a inserção de uma lista com marcadores após o cursor.
 
-Para encerrar uma lista com marcadores, toque ou clique no botão **Marcador** novamente ou insira duas retornos de carro.
+Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas retornos de carro.
 
 ### Numerado
 
@@ -266,19 +270,19 @@ Toque ou clique no caractere desejado para inseri-lo no texto após o cursor. V�
 
 ![](/help/assets/screen_shot_2018-01-11at142746.png)
 
-Usado para exibir e modificar a fonte HTML do texto.
+Usado para visualização e modificação da fonte HTML do texto.
 
-Toque ou clique no ícone Editar **** fonte para alterar o conteúdo do texto da exibição formatada para exibir o HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone Editar **** fonte para retornar à exibição formatada.
+Toque ou clique no ícone Editar **** fonte para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone Editar **** fonte para retornar à visualização formatada.
 
 >[!CAUTION]
 >
 >Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção Edição **de** origem!
 >
->O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+>O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS, e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
 
 >[!NOTE]
 >
->Como o HTML inserido via Edição **** de origem é verificado em busca de riscos XSS e qualquer script e remove automaticamente os encontrados, o conteúdo real persistido pode variar do que foi inserido na Edição **de** origem. Por isso, para salvar as alterações feitas usando a Edição **** de origem, é necessário sair primeiro da Edição **de** origem para exibir o texto no editor normal antes de salvar.
+>Como o HTML inserido via Edição **** de origem é verificado em busca de riscos XSS e qualquer script e remove automaticamente os encontrados, o conteúdo real persistido pode variar do que foi inserido na Edição **de** origem. Por esse motivo, para salvar as alterações feitas usando a Edição **** de origem, é necessário sair primeiro da Edição **de** origem para visualização do texto no editor normal antes de salvar.
 
 ### Formato de parágrafo
 
