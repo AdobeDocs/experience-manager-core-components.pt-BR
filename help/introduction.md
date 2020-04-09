@@ -2,7 +2,7 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais foram introduzidos para fornecer componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 ---
 
@@ -11,111 +11,87 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 No Adobe Experience Manager, os componentes são os elementos estruturais que constituem o conteúdo das páginas criadas. Os componentes sempre foram um elemento fundamental da experiência do AEM, tornando a criação de páginas simples, mas poderosa para o autor e o desenvolvimento de componentes flexíveis e extensíveis para o desenvolvedor.
 
-Os componentes principais foram introduzidos para fornecer componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas, além de seguir as diretrizes de acessibilidade e serem compatíveis com o padrão WCAG 2.0 AA. Os componentes principais tornam a criação de páginas mais flexível e personalizável, e sua extensão para oferecer funcionalidade personalizada é simples para o desenvolvedor.
+Os componentes principais são um conjunto de componentes padronizados de Gestão de conteúdo da Web (WCM) para o AEM, para acelerar o tempo de desenvolvimento e reduzir o custo de manutenção de seus sites.
 
-## Experimente os componentes principais
+## Recursos {#resources}
 
-Se você quiser começar imediatamente a experimentar os Componentes principais, vá para a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library). A Biblioteca de componentes é uma demonstração on-line da versão atual da maioria dos componentes principais, que permite interagir com variações dos componentes, além de ver exemplos de saída HTML e JSON.
+* **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library)**Uma coleção de exemplos para visualização dos componentes em suas várias configurações.
+* **Documentação do componente (este documento):** Para desenvolvedores e autores, com detalhes sobre cada componente.
+* Introdução:
+   * **[Sucesso com os componentes principais:](/help/developing/success.md)**Diretrizes para considerar bem antes do start de qualquer projeto que usará os Componentes principais.
+   * **[Tutorial da WKND:](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Um tutorial de dois dias para criar um novo site.
+   * **[Tutorial de cúpula:](https://expleague.azureedge.net/labs/L767/index.html)**Um tutorial de duas horas para a construção de um novo site (de um Laboratório no US Summit 2019).
+   * **[Webinar Gems:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**Um tour orientado dos Componentes Principais (gravado em dezembro de 2018).
 
-O tutorial [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND também ilustra como os componentes principais podem ser usados.
+## Recursos {#features}
 
-## Componentes principais - Recursos principais {#core-components-core-features}
+|||—|—|Preparados para produção | Os componentes principais são 27 componentes robustos, bem testados, amplamente utilizados e com bom desempenho.||Pronto para a nuvem| Quer no [AEM como serviço](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)em nuvem, nos serviços [gerenciados da](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe, ou no local, eles funcionam apenas.||Versátil| Os componentes representam conceitos genéricos com os quais os autores podem montar praticamente qualquer layout.||Configurável| As políticas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) conteúdo no nível do modelo definem quais recursos os autores da página podem usar ou não.|
+|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+acessibilidade+in%3Atitle)).|
+|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.||Pronto para WebApp| A saída [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) otimizada permite a renderização do lado do cliente, ainda com uma possibilidade de edição [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)no contexto.||Kit de design| Um kit de [interface do usuário para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite que os designers criem wireframes que podem então [estilizar conforme necessário](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd).|
+|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).||Personalizável| Vários padrões permitem personalização [](developing/customizing.md)fácil, desde o ajuste do HTML até a reutilização avançada da funcionalidade.||Controle de versão| A política [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) controle de versão garante que os Componentes principais não quebrem seu site ao melhorar coisas que podem afetar você.|
+|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).||Open Source| Se algo não for como deveria, [contribua com suas melhorias!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
-Os componentes principais são:
-
-|  |  |
-|--- |--- |
-| Pré-configuráveis | Os modelos podem definir como os autores de página podem usá-los. |
-| Versáteis | Os autores podem criar a maioria dos tipos de conteúdo com eles. |
-| Fáceis de usar | Os autores podem criar a maioria dos tipos de conteúdo com eles. |
-| Prontos para produção | Uso imediato! Eles são robustos, bem testados e funcionam bem. |
-| Acessíveis | Eles estão em conformidade com o padrão WCAG 2.0, fornecem etiquetas ARIA e suportam a navegação pelo teclado. |
-| Fáceis de usar | Os componentes implementam o Sistema de estilo e a marcação segue a nomeação de CSS do BEM. |
-| Intuitivos para SEO | O resultado em HTML é semântico e fornece anotações de microdados schema.org. |
-| Pronto para PWA/SPA/App | Seu resultado direcionado JSON também pode ser usado para renderização pelo cliente. |
-| Extensíveis | Para cobrir as necessidades de personalização sem iniciar do zero, tudo pode ser estendido. |
-| Origem aberta | Se algo não é como deveria ser, contribua com aprimoramentos no GitlHub (Licença Apache). |
-| Versão | Os componentes principais não vão quebrar seu site ao melhorar coisas que poderiam afetá-lo. |
-| [Localizados](get-started/localization.md) | A resolução de referência inteligente permite que determinados componentes localizem e renderizem o conteúdo correspondente automaticamente |
-
-## Componentes disponíveis {#available-components}
+## Os componentes {#the-components}
 
 A versão atual dos Componentes principais apresenta os seguintes componentes:
 
-* [Menu sanfonado](components/accordion.md)
+### Componentes de modelo {#template-components}
+
+* [Página](components/page.md)
+* [Navegação](components/navigation.md)
+* [Navegação de idiomas](components/language-navigation.md)
 * [Caminho](components/breadcrumb.md)
+* [Busca rápida](components/quick-search.md)
+
+### Componentes de criação de página {#page-authoring-components}
+
+* [Título](components/title.md)
+* [Texto](components/text.md)
+* [Imagem](components/image.md)
 * [Botão](components/button.md)
-* [Container](components/container.md)
-* [Carrossel](components/carousel.md)
+* [Teaser](components/teaser.md)
+* [Download](components/download.md)
+* [Lista](components/list.md)
+* [Fragmento de experiência](components/experience-fragment.md)
 * [Fragmento do conteúdo](components/content-fragment-component.md)
 * [Lista de fragmentos do conteúdo](components/content-fragment-list.md)
-* [Download](components/download.md)
 * [Incorporar](components/embed.md)
-* [Fragmento de experiência](components/experience-fragment.md)
-* [Botão de formulário](components/forms/form-button.md)
-* [Contêineres de formulário](components/forms/form-container.md)
-* [Formulário oculto](components/forms/form-hidden.md)
-* [Opções de formulário](components/forms/form-options.md)
-* [Texto do formulário](components/forms/form-text.md)
-* [Imagem](components/image.md)
-* [Navegação de idiomas](components/language-navigation.md)
-* [Lista](components/list.md)
-* [Navegação](components/navigation.md)
-* [Página](components/page.md)
-* [Busca rápida](components/quick-search.md)
-* [Separador](components/separator.md)
 * [Compartilhamento em mídia social](components/sharing.md)
+* [Separador](components/separator.md)
+
+### Componentes do Container {#container-components}
+
+* [Container](components/container.md)
+* [Carrossel](components/carousel.md)
 * [Guias](components/tabs.md)
-* [Texto](components/text.md)
-* [Título](components/title.md)
+* [Menu sanfonado](components/accordion.md)
+
+### Componentes de forma {#form-components}
+
+* [Contêineres de formulário](components/forms/form-container.md)
+* [Texto do formulário](components/forms/form-text.md)
+* [Opções de formulário](components/forms/form-options.md)
+* [Formulário oculto](components/forms/form-hidden.md)
+* [Botão de formulário](components/forms/form-button.md)
 
 >[!NOTE]
 >
 >Os Componentes principais não estão imediatamente disponíveis para os autores, a [equipe de desenvolvimento deve primeiro integrá-los ao seu ambiente](get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
->[!CAUTION]
+>[!NOTE]
 >
 >Algumas versões dos Componentes principais individuais podem ser compatíveis apenas com certas versões do AEM.
 >
 >Consulte a página de ajuda individual (ligada à lista anterior) para o componente específico para informações de compatibilidade ou referência das [Versões dos componentes principais](versions.md) para mais informações.
 
-## Quando usar os componentes principais {#when-to-use-core-components}
+## Requisitos do sistema {#system-requirements}
 
-Como os Componentes principais são totalmente novos e oferecem vários benefícios, é recomendável que os novos projetos AEM os usem. No caso dos projetos existentes, a migração deve fazer parte de um maior esforço de projeto, por exemplo, uma reformulação da marca ou uma reformulação global.
+| Componentes principais | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------|---------
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Contínuo | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
 
-Para obter recomendações de uso específicas, consulte [Quando usar os componentes principais?](developing/overview.md#when-to-use-the-core-components) no documento [Desenvolvendo componentes principais](developing/overview.md).
+Para saber os requisitos das versões anteriores dos Componentes principais, consulte Versões [dos componentes](versions.md)principais.
 
-## Visão geral da sessão Gems {#gems-session-overview}
+Os Componentes principais exigem o uso de modelos [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) editáveis e não são compatíveis com a interface clássica nem com modelos estáticos. Se necessário, verifique as Ferramentas [de modernização do](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) AEM para atualizar seu projeto com esses recursos modernos do AEM.
 
-Para obter uma introdução aos Componentes principais, os recursos que eles oferecem e como eles são aproveitados no AEM, verifique os Componentes principais do AEM [da sessão do AEM Gems.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
-
-[O Gems no Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) é uma série de soluções técnicas oferecidas por especialistas da Adobe. Esta série complementa a documentação do produto e de todos os outros canais técnicos, permitindo que os desenvolvedores entrem em contato e aprofundem o assunto.
-
-## Desenvolver com os componentes principais {#developing-core-components}
-
-Os componentes principais fornecem componentes básicos robustos e extensíveis que implementam vários padrões que permitem personalização fácil, desde o estilo simples até a reutilização avançada da funcionalidade. Consulte a documentação [de desenvolvimento dos Componentes](developing/overview.md) principais para obter mais informações.
-
-Comece a desenvolver o AEM Sites com componentes principais seguindo [o tutorial da WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-
-Não se esqueça de iniciar seu próprio projeto do AEM aproveitando o [AEM Project Archetype](developing/archetype/overview.md) com os componentes principais mais recentes!
-
-## Suporte para componentes principais {#core-components-support}
-
-Os componentes principais são parte integrante do AEM e são suportados como estão, nos mesmos termos e condições como se fossem fornecidos como parte do Início rápido.
-
-Como outros recursos do produto, a regra geral do fim da vida útil é:
-
-* Os componentes são anunciados como obsoletos antes de serem removidos
-* Logo que possível, eles serão removidos do lançamento do AEM após o anúncio.
-
-Isso dá aos clientes pelo menos um ciclo de lançamento para migrar para a nova versão do componente, antes que o suporte termine.
-
-A versão de cada componente indica claramente as versões do AEM suportadas. Quando o suporte para uma versão do AEM é interrompido, o mesmo acontece com o suporte dos Componentes principais para essa versão do AEM.
-
-Para obter detalhes sobre o suporte às personalizações de componentes, consulte a página [Personalizando componentes principais](developing/customizing.md) da versão relevante dos componentes principais.
-
-## Suporte aos componentes da fundação {#foundation-component-support}
-
-Como os Componentes da Fundação serviram de base para tantas versões de desenvolvimento de projetos, eles continuarão a ser apoiados num futuro previsível.
-
-Entretanto, a ênfase de desenvolvimento da Adobe foi transferida para os Componentes principais e novos recursos serão adicionados a eles, enquanto [quase todos os Componentes básicos foram descontinuados com o AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) e somente correções de erros serão feitas nos Componentes de fundação a partir de agora.
+Para configurar seu ambiente de desenvolvimento local, verifique [esta visão geral do AEM como um SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) de serviço em nuvem ou este documento [para versões mais antigas do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
