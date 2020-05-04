@@ -2,7 +2,7 @@
 title: Usar o arquivo de projeto do AEM
 description: Instruções detalhadas de uso para o AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
+source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
 
 ---
 
@@ -35,7 +35,7 @@ O AEM Archetype é composto de módulos:
 * **[ui.testing](uitests.md)**: é um pacote Java que contém testes JUnit executados no lado do servidor. Este pacote não deve ser implantado na produção.
 * **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
 * **[ui.frontende.general](uifrontend.md)**:**(opcional)**contém os artefatos necessários para usar o módulo de compilação front-end geral baseado no Webpack.
-* **[ui.frontende.response](uifrontend-react.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA com base em Reagir.
+* **[ui.frontende.response](uifrontend-react.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA baseados em Reagir.
 * **[ui.frontende.angular](uifrontend-angular.md)**:**(opcional)**contém os artefatos necessários ao usar o arquétipo para criar projetos SPA baseados em Angular.
 
 ![](/help/assets/archetype-structure.png)
@@ -166,9 +166,9 @@ Essas propriedades são configuradas para implantar em uma instância AEM local,
 
 Essas propriedades são configuradas para que possam ser substituídas ao implantar ambientes de nível superior. Dessa forma, os arquivos POM não precisam ser alterados, mas variáveis como `aem.host` e `sling.password` podem ser substituídas por argumentos de linha de comando:
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### Estrutura do módulo {#module-structure}
 
