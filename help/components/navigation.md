@@ -1,15 +1,18 @@
 ---
 title: Componente de navegação
-description: O componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
+description: O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 1%
 
 ---
 
 
 # Componente de navegação{#navigation-component}
 
-O componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
+O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 
 ## Uso {#usage}
 
@@ -24,7 +27,7 @@ A caixa de diálogo [de](#edit-dialog) edição permite que o autor do conteúdo
 Geralmente, os sites são fornecidos em vários idiomas para diferentes regiões. Normalmente, cada página localizada conterá um elemento de navegação que é incluído como parte do modelo da página. O Componente de navegação permite que você o coloque uma vez em um modelo para todas as páginas do site e ele se adapta automaticamente para as páginas individuais localizadas com base na estrutura do site globalizado.
 
 * Para obter um exemplo de como o recurso de localização do Componente de navegação funciona, consulte [a seção abaixo](#example-localization).
-* Para ver um exemplo de como os recursos de localização dos Componentes principais trabalham juntos, consulte a página [Recursos de](/help/get-started/localization.md)localização dos componentes principais.
+* Para ver um exemplo de como os recursos de localização dos Componentes principais trabalham juntos, consulte a página [Recursos de](/help/get-started/localization.md)Localização dos Componentes principais.
 
 ### Exemplo {#example-localization}
 
@@ -32,7 +35,7 @@ Digamos que seu conteúdo se parece com isso:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,19 +61,19 @@ Digamos que seu conteúdo se parece com isso:
 \-- wknd-shop
 ```
 
-Para o site We.Retail, você provavelmente gostaria de colocar o Componente de navegação em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de** navegação do componente como `/content/we-retail/language-masters/en` sendo aquele em que seu conteúdo mestre começa. Talvez você também queira definir a Profundidade **da Estrutura de** Navegação como sendo `2` porque provavelmente não quer que a árvore de conteúdo inteira seja mostrada pelo componente, mas sim os dois primeiros níveis para que ela sirva como uma visão geral.
+Para o site We.Retail, você provavelmente gostaria de colocar o Componente de navegação em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de** navegação do componente como `/content/wknd/language-masters/en` sendo aquele em que seu conteúdo mestre começa. Talvez você também queira definir a Profundidade **da Estrutura de** Navegação como sendo `2` uma vez que você provavelmente não quer que a árvore de conteúdo inteira seja mostrada pelo componente, mas sim os dois primeiros níveis para que ela sirva como uma visão geral.
 
-Com o valor Raiz **de** navegação, o Componente de navegação sabe que depois `/content/we-retail/language-masters/en` disso a navegação começa e pode gerar opções de navegação ao repetir a estrutura do site em dois níveis abaixo (conforme definido pelo valor de Profundidade **da estrutura de** navegação).
+Com o valor Raiz **de** navegação, o Componente de navegação sabe que depois `/content/wknd/language-masters/en` disso a navegação começa e pode gerar opções de navegação ao repetir a estrutura do site em dois níveis abaixo (conforme definido pelo valor de Profundidade **da estrutura de** navegação).
 
 Independentemente da página localizada que um usuário esteja visualizando, o componente de Navegação pode encontrar a página localizada correspondente, sabendo o local da página atual, trabalhando para trás até a raiz e, em seguida, encaminhando para a página correspondente.
 
-Portanto, se um visitante estiver visualizando `/content/ch/de/experience/arctic-surfing-in-lofoten`, o componente saberá gerar a estrutura de navegação com base `/content/we-retail/language-masters/de`. Da mesma forma, se o visitante estiver visualizando `/content/us/en/experience/arctic-surfing-in-lofoten`, o componente saberá gerar a estrutura de navegação com base `/content/we-retail/language-masters/en`.
+Então, se um visitante está visualizando `/content/ch/de/experience/arctic-surfing-in-lofoten`, o componente sabe gerar a estrutura de navegação com base `/content/wknd/language-masters/de`. Da mesma forma, se o visitante estiver visualizando `/content/us/en/experience/arctic-surfing-in-lofoten`, o componente saberá gerar a estrutura de navegação com base `/content/wknd/language-masters/en`.
 
 ## Suporte à estrutura do site sombra {#shadow-structure}
 
 Às vezes, é necessário criar um menu de navegação para o visitante que seja diferente da estrutura real do site. Talvez uma promoção deva destacar determinado conteúdo no menu reorganizando a listagem do conteúdo. Usando páginas sombra, que simplesmente redirecionam para outras páginas de conteúdo, o componente de navegação pode gerar qualquer estrutura de navegação arbitrária necessária.
 
-Para fazer isso, é necessário:
+Para fazer isso, você precisará:
 
 1. Crie páginas sombra como páginas vazias que representam a estrutura do site desejado. Isso é frequentemente chamado de uma estrutura de site sombra.
 1. Defina os valores de **Redirecionamento** nas propriedades da página nessas páginas para apontar para as páginas de conteúdo reais.
@@ -87,15 +90,15 @@ O Componente de navegação renderizará o menu com base na estrutura do site de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação é v1, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
+A versão atual do Componente de navegação é a v1, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -109,15 +112,15 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 >[!NOTE]
 >
->Desde a versão 2.1.0 dos Componentes principais, o Componente de navegação oferece suporte aos microdados [](https://schema.org)schema.org.
+>A partir da versão 2.1.0 dos Componentes principais, o Componente de navegação oferece suporte aos microdados [](https://schema.org)schema.org.
 
 ## Edit Dialog {#edit-dialog}
 
-Na caixa de diálogo Editar, o autor do conteúdo pode definir a página raiz para navegação e a profundidade da estrutura de navegação.
+Na caixa de diálogo de edição, o autor do conteúdo pode definir a página raiz para navegação e a profundidade da estrutura de navegação.
 
 ### Guia Propriedades {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Guia de propriedades da caixa de diálogo de edição do componente de navegação](/help/assets/navigation-edit-properties.png)
 
 * **Raiz** de navegação - a página raiz, que será usada para gerar a árvore de navegação.
 * **Excluir níveis** raiz - Geralmente, a raiz não deve ser incluída na navegação. Essa opção permite especificar quantos níveis acima da raiz você deseja excluir. Por exemplo:
@@ -127,10 +130,15 @@ Na caixa de diálogo Editar, o autor do conteúdo pode definir a página raiz pa
    * etc.
 * **Coletar todas as páginas** secundárias - Coleta todas as páginas que são descendentes da raiz de navegação.
 * **Profundidade** da estrutura de navegação - Define quantos níveis abaixo da árvore de navegação o componente deve exibir em relação à raiz de navegação (disponível somente quando a opção **Coletar todas as páginas** filhas não estiver selecionada).
+* **Desativar sombreamento** - Se a página na hierarquia for um redirecionamento, o nome da página de redirecionamento será exibido em vez do público alvo. Consulte o Suporte [à estrutura do site](#shadow-structure) sombra para obter mais informações.
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Guia de acessibilidade da caixa de diálogo de edição do componente de navegação](/help/assets/navigation-edit-accessibility.png)
 
 Na guia **Acessibilidade** , os valores podem ser definidos para rótulos de acessibilidade [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para o componente.
 
@@ -142,7 +150,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os valores pa
 
 ### Guia Propriedades {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Caixa de diálogo de design do componente de navegação](/help/assets/navigation-design.png)
 
 * **Raiz** de navegação - O valor padrão da página raiz da estrutura de navegação, que será usado para gerar a árvore de navegação e assumirá o padrão quando o autor do conteúdo adicionar o componente à página.
 * **Excluir níveis** raiz - Geralmente, a raiz não deve ser incluída na navegação. Essa opção permite especificar o padrão de quantos níveis acima da raiz você deseja excluir. Por exemplo:
@@ -152,6 +160,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os valores pa
    * etc.
 * **Coletar todas as páginas** -filho - o valor padrão da opção para coletar todas as páginas que são descendentes da raiz de navegação.
 * **Profundidade** da estrutura de navegação - O valor padrão da profundidade da estrutura de navegação.
+* **Desativar sombreamento** - O valor padrão de se o sombreamento deve ser desativado ao adicionar um componente de navegação
 
 ### Guia Estilos {#styles-tab}
 
