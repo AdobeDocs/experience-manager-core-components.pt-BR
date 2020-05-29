@@ -2,7 +2,10 @@
 title: Componente Teaser
 description: O componente do teaser pode mostrar uma imagem, um título, rich text e, opcionalmente, vincular para conteúdo adicional.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +26,9 @@ A versão atual do Teaser Component é v1, que foi introduzida com a versão 2.1
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatível | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatível | Compatível | Compatível |
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -43,7 +46,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ### Imagem {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Guia de imagem da caixa de diálogo de edição do Componente Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ativos da imagem**
    * Solte um ativo do navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
@@ -52,19 +55,24 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ### Texto {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Guia de texto da caixa de diálogo de edição do Componente Teaser](/help/assets/teaser-edit-text.png)
 
-* **Título** Define um título a ser exibido como o título do teaser.
-* **Obter título da página** vinculada Quando marcado, o título será preenchido com o título da página vinculada.
-* **Descrição** Define uma descrição a ser exibida como o subtítulo do teaser.
-* **Obter descrição da página** vinculada Quando marcada, a descrição será preenchida com a descrição da página vinculada.
+* **Pretitle** - O pretitle será exibido antes do título do teaser.
+* **Título** - Define um título a ser exibido como o título do teaser.
+   * **Obter título da página** vinculada - Quando marcado, o título será preenchido com o título da página vinculada.
+* **Descrição** - Define uma descrição para ser exibida como o subtítulo do teaser.
+   * **Obter descrição da página** vinculada - Quando marcada, a descrição será preenchida com a descrição da página vinculada.
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
 
 ### Links e ações {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Guia do link de edição do componente Teaser](/help/assets/teaser-edit-link.png)
 
-* **Link** Link aplicado ao teaser. Use o navegador de caminho para selecionar o destino do link.
-* **Ativar Chamada para Ações** Quando marcada, ativa a definição de Chamada para Ações. O primeiro link de Chamada para Ação na lista é usado como link para outros elementos do teaser.
+* **Link** - Link aplicado ao teaser. Use o navegador de caminho para selecionar o público alvo do link.
+* **Ativar ações** de chamada - quando marcada, ativa a definição de Ações de chamada. O primeiro link de Chamada para Ação na lista é usado como link para outros elementos do teaser.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -76,19 +84,20 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 ### Guia Teaser {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Caixa de diálogo de design do componente Teaser](/help/assets/teaser-design.png)
 
 * **Frases de chamariz**
-   * **Desativar Chamada para Ações** Ocultar a opção **Chamada para Ações** para autores de conteúdo
+   * **Desabilitar ações** de chamada - Ocultar a opção **Chamada para ações** para autores de conteúdo
 * **Elementos**
-   * **Ocultar título**
-      * Oculta a opção **Título** para autores de conteúdo
+   * **Ocultar pretítulo** - Oculta a opção **Pretítulo** para autores de conteúdo
+   * **Ocultar título** - Oculta a opção **Título** para autores de conteúdo
       * Quando selecionado, o Tipo **de** Título fica oculto
-   * **Ocultar descrição** Ocultar a opção **Descrição** para autores de conteúdo
-* **Tipo** de títuloDefine a tag H a ser usada pelo título do teaser.
+   * **Ocultar descrição** - Ocultar a opção **Descrição** para autores de conteúdo
+* **Tipo** de título - Define a tag H a ser usada pelo título do teaser.
 * **Links**
-   * **Não vincular a imagem** Quando selecionada, a imagem do teaser não está vinculada
-   * **Não vincular o título** Quando selecionado, o título do teaser não está vinculado
+   * **Não vincular a imagem** - quando selecionada, a imagem do teaser não está vinculada
+   * **Não vincular o título** - Quando selecionado, o título do teaser não está vinculado
+* **Delegar** imagem - exibição informativa indicando para qual componente o Teaser delega o gerenciamento de imagens.
 
 ### Guia Estilos {#styles-tab}
 
