@@ -2,7 +2,10 @@
 title: Desenvolvimento dos componentes principais
 description: Os componentes principais fornecem componentes básicos robustos e extensíveis que ofertas recursos ricos, delivery contínuo, controle de versão de componentes, implementação moderna, marcação magra e exportação JSON de conteúdo.
 translation-type: tm+mt
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 12%
 
 ---
 
@@ -15,9 +18,9 @@ Como os Componentes principais são totalmente novos e oferecem vários benefíc
 
 Portanto, a Adobe fornece as seguintes recomendações:
 
-* **Novos projetos** Os novos projetos devem sempre tentar usar os Componentes principais. Se os Componentes principais não puderem ser usados diretamente ou [estendidos](customizing.md) para satisfazer os requisitos do projeto, crie um componente personalizado seguindo a arquitetura do componente estabelecida nos componentes principais. Exceto quando não for possível, evite usar os componentes [da](#foundation-component-support)fundação.
-* **A** Recomendação de projetos [existentes continua usando os componentes](#foundation-component-support)debase, a menos que seja planejada uma refatoração de site ou componente.\
-   Dado que são amplamente utilizadas pela maioria dos projetos existentes, os componentes da fundação [continuarão a ser apoiados.](#foundation-component-support)
+* **Novos projetos** Os novos projetos devem sempre tentar usar os Componentes principais. Se os Componentes principais não puderem ser usados diretamente ou [estendidos](customizing.md) para satisfazer os requisitos do projeto, crie um componente personalizado seguindo a arquitetura do componente estabelecida nos componentes principais. Exceto quando não for possível, evite usar os componentes [da](/help/versions.md#foundation-component-support)fundação.
+* **A** Recomendação de projetos [existentes continua usando os componentes](/help/versions.md#foundation-component-support)debase, a menos que seja planejada uma refatoração de site ou componente.\
+   Dado que são amplamente utilizadas pela maioria dos projetos existentes, os componentes da fundação [continuarão a ser apoiados.](/help/versions.md#foundation-component-support)
 * **Os novos componentes** personalizados avaliam se um componente [principal existente pode ser personalizado](customizing.md).\
    Caso contrário, a recomendação é criar um novo componente personalizado seguindo as Diretrizes [do](guidelines.md)componente.
 * **Componentes** personalizados existentes Se seus componentes funcionarem como esperado, mantenha-os como estão.\
@@ -66,7 +69,7 @@ Para obter detalhes sobre os recursos de criação e as opções para pré-confi
 | **Recurso** | **Componente principal** | **Componente básico** |
 |-----|---|---|
 | Implementação lógica | Java POJOs com anotações de modelos [](https://sling.apache.org/documentation/bundles/models.html) Sling | Código JSP |
-| Definição de marcação | [Sintaxe HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) | Código JSP |
+| Definição de marcação | [Sintaxe HTML Template Language](https://docs.adobe.com/content/help/br/experience-manager-htl/using/overview.html) (HTL) | Código JSP |
 | Sanitização XSS | Automatizado por HTL | Principalmente manual |
 | Nomeação de classes CSS | Convenção de nomenclatura padronizada baseada na notação BEM ( [Block Element Modifier](https://getbem.com/) ) (a partir da versão 2.0.0) | Esquemas personalizados |
 | Definição de diálogo | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Interface clássica |
@@ -111,6 +114,7 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1) | Adicionar um ativo baixável a uma página | `-` |
 | [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1) | Adicionar um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporar um recurso externo em uma página | - |
+| [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornecer uma representação visual do progresso em direção a uma meta | - |
 
 ### Componentes futuros {#upcoming-components}
 
