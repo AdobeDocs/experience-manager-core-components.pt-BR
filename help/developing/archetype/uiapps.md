@@ -2,7 +2,10 @@
 title: Módulo ui.apps do Arquivo de Projeto AEM
 description: Módulo ui.apps do Arquivo de Projeto AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ O plug-in Apache Jackrabbit FileVault Package é usado para compilar o conteúdo
 
 ## POM pai {#parent-pom}
 
-[O POM](overview.md#parent-pom) pai (`<src>/<project>/pom.xml`) inclui `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o plug-in do pacote Jackrabbit FileVault. `filterSource` O `filterSource` aponta para o local do `filter.xml` arquivo usado para definir os caminhos jcr incluídos no pacote.
+[O POM](/help/developing/archetype/using.md#parent-pom) pai (`<src>/<project>/pom.xml`) inclui `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o plug-in do pacote Jackrabbit FileVault. `filterSource` O `filterSource` aponta para o local do `filter.xml` arquivo usado para definir os caminhos jcr incluídos no pacote.
 
 Além do Plug-in do pacote Jackrabbit FileVault é uma definição do Plug-in do pacote de conteúdo que é usado para empurrar o pacote para o AEM. Observe que variáveis para `aem.host`, `aem.port`, `vault.user`e `vault.password` são usadas que correspondem às propriedades globais definidas no mesmo POM pai.
 
@@ -25,7 +28,7 @@ O pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) fornece as `embedded` tags par
 
 Observe que os pacotes core.wcm.components.all e core.wcm.components.example são incluídos como um subpacote. Isso implantará o pacote Componentes principais junto com o código WKND sempre.
 
-Os principais.wcm.components.all e core.wcm.components.examples são incluídos como dependências na lista de dependências. No entanto, como prática recomendada, as versões para dependências são omitidas aqui e gerenciadas no arquivo [pom](overview.md#core-components)pai.
+Os principais.wcm.components.all e core.wcm.components.examples são incluídos como dependências na lista de dependência. No entanto, como prática recomendada, as versões para dependências são omitidas aqui e gerenciadas no arquivo [pom](/help/developing/archetype/using.md#core-components)pai.
 
 ## filter.xml {#filter}
 
