@@ -1,8 +1,11 @@
 ---
 title: Componente do fragmento de experiência
-description: O componente Fragmento de experiência permite que o autor do conteúdo adicione uma variação de fragmento de experiência a uma página.
+description: O Componente de fragmento de experiência permite que o autor do conteúdo adicione uma variação de fragmento de experiência a uma página.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ O Componente principal de fragmento de experiência do componente permite que o 
 
 ## Uso {#usage}
 
-O Componente principal de fragmento de experiência do componente permite que o autor do conteúdo selecione a partir das variações de fragmento de experiência existentes e coloque uma na página de conteúdo. O componente Fragmento de experiência também suporta uma estrutura de site localizada.
+O Componente principal de fragmento de experiência do componente permite que o autor do conteúdo selecione a partir das variações de fragmento de experiência existentes e insira uma na página de conteúdo. O componente Fragmento de experiência também suporta uma estrutura de site localizada.
 
 * As propriedades do componente podem ser definidas na caixa de diálogo [](#configure-dialog)configurar.
 * Os padrões do componente ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [](#design-dialog)de design.
@@ -24,14 +27,14 @@ O Componente do fragmento de experiência é adaptável às estruturas do site l
 
 * O componente Fragmento de experiência é adicionado a um modelo.
 * Esse modelo é usado para criar uma nova página de conteúdo que faz parte de uma estrutura localizada abaixo `/content/<site>`.
-* O fragmento de experiência referenciado em uma página de conteúdo faz parte de uma estrutura de fragmento de experiência localizada abaixo que segue os mesmos padrões do site abaixo, `/content/experience-fragments` `/content/<site>` incluindo o uso dos mesmos nomes de componentes.
+* O fragmento de experiência referenciado em uma página de conteúdo faz parte de uma estrutura de fragmento de experiência localizada abaixo `/content/experience-fragments` que segue os mesmos padrões do site abaixo, `/content/<site>` incluindo o uso dos mesmos nomes de componentes.
 
 Nesse caso, o fragmento com a mesma localização (idioma, blueprint ou live copy) da página atual será renderizado como parte do modelo.
 
 Esse comportamento é limitado aos Componentes do fragmento de experiência adicionados aos modelos. Fragmento de experiênciaOs componentes adicionados a páginas de conteúdo individuais renderizarão as execuções exatas do fragmento de experiência configurado no componente.
 
 * Para obter um exemplo de como os recursos de localização do Componente de fragmento de experiência funcionam, consulte [a seção abaixo](#example).
-* Para ver um exemplo de como os recursos de localização dos Componentes principais trabalham juntos, consulte a página [Recursos de](/help/get-started/localization.md)localização dos componentes principais.
+* Para ver um exemplo de como os recursos de localização dos Componentes principais trabalham juntos, consulte a página [Recursos de](/help/get-started/localization.md)Localização dos Componentes principais.
 
 ### Exemplo {#example}
 
@@ -40,7 +43,7 @@ Digamos que seu conteúdo se parece com isso:
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -59,7 +62,7 @@ Digamos que seu conteúdo se parece com isso:
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -72,11 +75,11 @@ Digamos que seu conteúdo se parece com isso:
 \-- wknd-shop
 ```
 
-Observe que a estrutura abaixo `/content/experience-fragments/we-retail` reflete a estrutura de `/content/we-retail`.
+Observe que a estrutura abaixo `/content/experience-fragments/wknd` reflete a estrutura de `/content/wknd`.
 
-Nesse caso, se o componente Fragmento de experiência `/content/experience-fragments/we-retail/us/en/footerTextXf` for colocado em um modelo, as páginas localizadas criadas com base nesse modelo renderizarão automaticamente o fragmento de experiência localizado que corresponde à página de conteúdo localizada.
+Nesse caso, se o componente Fragmento de experiência `/content/experience-fragments/wknd/us/en/footerTextXf` for colocado em um modelo, as páginas localizadas criadas com base nesse modelo renderizarão automaticamente o fragmento de experiência localizado que corresponde à página de conteúdo localizada.
 
-Portanto, se você navegar até uma página de conteúdo em `/content/we-retail/ch/de` que usa o mesmo modelo, `/content/experience-fragments/we-retail/ch/de/footerTextXf` será renderizado em vez de `/content/experience-fragments/we-retail/us/en/footerTextXf`.
+Portanto, se você navegar até uma página de conteúdo em `/content/wknd/ch/de` que usa o mesmo modelo, `/content/experience-fragments/wknd/ch/de/footerTextXf` será renderizado em vez de `/content/experience-fragments/wknd/us/en/footerTextXf`.
 
 ### Fallback {#fallback}
 
@@ -93,11 +96,11 @@ A versão atual do Componente do fragmento de experiência é a v1, que foi intr
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatível | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -113,16 +116,22 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 A caixa de diálogo de configuração permite que o autor do conteúdo selecione a variação do fragmento da experiência que deve ser renderizada na página.
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![Caixa de diálogo de edição do componente de fragmento de experiência](/help/assets/experience-fragment-edit.png)
 
 Use o botão **Abrir caixa de diálogo** de seleção para abrir o seletor de componentes e escolher qual variação de componente de fragmento de experiência adicionar à página de conteúdo.
 
 Se você adicionar o Componente de fragmento de experiência a um modelo, observe que ele será automaticamente localizado desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente que você selecionou explicitamente. [Consulte o exemplo acima](#example) para obter mais informações.
 
+Também é possível definir uma **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+
+* Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+* Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+* A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
+
 ## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina as opções disponíveis para o autor do conteúdo que usa o Componente do fragmento de experiência e os padrões definidos ao colocar o Componente do fragmento de experiência.
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### Guia Estilos {#styles-tab}
 
 O componente de fragmento de experiência suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
