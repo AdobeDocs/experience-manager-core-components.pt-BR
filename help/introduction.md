@@ -2,7 +2,10 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais foram introduzidos para fornecer componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +30,7 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 
 |  |  |
 |---|---|
-| Prontos para produção | Os Componentes principais são 27 componentes robustos que são bem testados, amplamente utilizados e têm bom desempenho. |
+| Prontos para produção | Os Componentes principais são 28 componentes robustos que são bem testados, amplamente utilizados e têm bom desempenho. |
 | Pronto para nuvem | Seja no [AEM como serviço](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)em nuvem, nos serviços [gerenciados da](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe ou no local, eles funcionam apenas. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem montar praticamente qualquer layout. |
 | Configurável | As políticas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) conteúdo em nível de modelo definem quais recursos os autores da página podem usar ou não. |
@@ -68,6 +71,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 * [Incorporar](components/embed.md)
 * [Compartilhamento em mídia social](components/sharing.md)
 * [Separador](components/separator.md)
+* [Barra de progresso](components/progress-bar.md)
 
 ### Componentes do Container {#container-components}
 
@@ -96,9 +100,9 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 ## Requisitos do sistema {#system-requirements}
 
-| Componentes principais | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Contínuo | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| Componentes principais | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Contínuo | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Para saber os requisitos das versões anteriores dos Componentes principais, consulte Versões [dos componentes](versions.md)principais.
 
