@@ -2,7 +2,10 @@
 title: Componente separador
 description: O componente separador cria uma quebra entre os componentes em uma página
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +24,9 @@ A versão atual do Componente separador é v1, que foi introduzida com a versão
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatível | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatível | Compatível | Compatível |
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -37,7 +40,12 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-O componente separador não tem uma caixa de diálogo de configuração.
+![Caixa de diálogo de edição do componente separador](/help/assets/separator-edit.png)
+
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
 
 ## Caixa de diálogo Design {#design-dialog}
 
