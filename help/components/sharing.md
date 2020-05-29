@@ -2,7 +2,10 @@
 title: Componente de compartilhamento em redes sociais
 description: O Componente principal de compartilhamento em redes sociais é um widget de compartilhamento de Pinterest e Facebook.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 2%
 
 ---
 
@@ -19,15 +22,15 @@ Diferentemente de outros componentes, as configurações do Componente de compar
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de compartilhamento em redes sociais é a v1, que foi introduzida com a versão 1.0.0 dos Componentes principais com o AEM 6.3 e está descrita neste documento.
+A versão atual do Componente de compartilhamento em redes sociais é a v1, que foi introduzida com a versão 1.0.0 dos Componentes principais com o AEM 6.3 e é descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente e as versões do AEM com as quais as versões do componente são compatíveis.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -41,7 +44,14 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## Edit Dialog {#edit-dialog}
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do conteúdo, as opções de edição para o componente de compartilhamento estão disponíveis na guia compartilhamento das propriedades [da](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)página.
+![Caixa de diálogo de edição do Componente de compartilhamento](/help/assets/sharing-edit.png)
+
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
+
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do conteúdo, opções de edição adicionais para o componente de compartilhamento estão disponíveis na guia compartilhamento das propriedades [da](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)página.
 
 ## Caixa de diálogo Design {#design-dialog}
 
