@@ -2,9 +2,9 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais foram introduzidos para fornecer componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 
 * **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library)**Uma coleção de exemplos para visualização dos componentes em suas várias configurações.
 * **Documentação do componente (este documento):** Para desenvolvedores e autores, com detalhes sobre cada componente.
+* **[Repositório GitHub de componentes principais:](https://github.com/adobe/aem-core-wcm-components)**Para obter detalhes sobre cada componente e download do projeto.
 * Introdução:
    * **[Sucesso com os componentes principais:](/help/developing/success.md)**Diretrizes para considerar bem antes do start de qualquer projeto que usará os Componentes principais.
    * **[Tutorial da WKND:](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Um tutorial de dois dias para criar um novo site.
@@ -43,6 +44,7 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 | Versões | A política [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) controle de versão garante que os Componentes principais não quebrem seu site ao melhorar coisas que podem afetar você. |
 | Localizável | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | Abrir origem | Se algo não é o que deveria, [contribua com as suas melhorias!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Trackable | Os componentes principais são [integrados à Adobe Client Data Layer.](/help/developing/data-layer/overview.md) |
 
 ## Os componentes {#the-components}
 
