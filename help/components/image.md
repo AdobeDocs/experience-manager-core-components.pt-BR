@@ -2,7 +2,10 @@
 title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 translation-type: tm+mt
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 2%
 
 ---
 
@@ -13,13 +16,13 @@ O Componente principal de imagem é um componente de imagem adaptável que possu
 
 ## Uso {#usage}
 
-O Componente de imagem possui seleção adaptável de imagem e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento fácil de imagem e recorte para o autor do conteúdo.
+O Componente de imagem possui seleção adaptável de imagem e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento fácil da imagem e recorte para o autor do conteúdo.
 
 As larguras de imagem, bem como recortes e configurações adicionais podem ser definidas pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode fazer upload ou selecionar ativos na caixa de diálogo [de](#configure-dialog) configuração e cortar a imagem na caixa de diálogo [de](#edit-dialog)edição. Para maior conveniência, a modificação simples no local da imagem também está disponível.
 
 ## Recursos responsivos {#responsive-features}
 
-O Componente de imagem vem com recursos robustos e responsivos prontos imediatamente. No nível do modelo de página, a caixa de diálogo [de](#design-dialog) design pode ser usada para definir as larguras padrão do ativo de imagem. O Componente de imagem carregará automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o Componente de imagem carrega dinamicamente o tamanho correto da imagem dinamicamente. Não há necessidade de desenvolvedores de componentes se preocuparem com a definição de consultas de mídia personalizadas, pois o Componente de imagem já está otimizado para carregar seu conteúdo.
+O Componente de imagem vem com recursos robustos e responsivos prontos imediatamente. No nível do modelo de página, a caixa de diálogo [de](#design-dialog) design pode ser usada para definir as larguras padrão do ativo de imagem. O Componente de imagem carregará automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o Componente de imagem carrega dinamicamente o tamanho correto da imagem dinamicamente. Não há necessidade de desenvolvedores de componentes se preocuparem com a definição de query de mídia personalizados, pois o Componente de imagem já está otimizado para carregar seu conteúdo.
 
 Além disso, o Componente de imagem oferece suporte ao carregamento lento para adiar o carregamento do ativo de imagem real até que ele esteja visível no navegador, aumentando a capacidade de resposta das páginas.
 
@@ -31,10 +34,10 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatível | Compatível | Compatível | Compatível |
+| v2 | - | Compatível | Compatível | Compatível |
 | [v1](v1/image-v1.md) | Compatível | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 ## Suporte SVG {#svg-support}
 
@@ -68,11 +71,11 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de diálogo [de](#design-dialog)design, o componente de imagem oferece uma caixa de diálogo de configuração na qual a própria imagem é definida juntamente com sua descrição e propriedades básicas.
+Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de diálogo [de](#design-dialog)design, o componente de imagem oferta uma caixa de diálogo de configuração onde a própria imagem é definida, juntamente com sua descrição e propriedades básicas.
 
 ### Guia Ativo {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![Guia Ativo da caixa de diálogo de configuração do Componente de imagem](/help/assets/image-configure-asset.png)
 
 * **Ativos da imagem**
    * Solte um ativo do navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
@@ -81,7 +84,7 @@ Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de di�
 
 ### Guia Metadados {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![Guia Metadados da caixa de diálogo de configuração do Componente de imagem](/help/assets/image-configure-metadata.png)
 
 * **A imagem é decorativa** Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
 * **Texto** alternativo Alternativa textual do significado ou função da imagem, para leitores com deficiências visuais.
@@ -96,15 +99,20 @@ Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de di�
    * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
    * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos ao AEM.
 
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
+   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
+
 ## Edit Dialog {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifique o mapa de inicialização e aumente o zoom da imagem.
 
-![](/help/assets/chlimage_1-8.png)
+![Caixa de diálogo de edição do componente de imagem](/help/assets/image-edit.png)
 
-* Iniciar corte
+* Recorte de Start
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![Ícone de recorte de Start](/help/assets/image-start-crop.png)
 
    Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
 
@@ -112,76 +120,43 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
    * Escolha a opção **Remover corte** para exibir o ativo original.
    Depois que uma opção de recorte for selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![Opções de corte](/help/assets/image-crop-options.png)
 
 * Girar para a direita
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![Ícone Girar para a direita](/help/assets/image-rotate-right.png)
 
    Use essa opção para girar a imagem 90° para a direita (no sentido horário).
 
 * Virar horizontalmente
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![Ícone Virar horizontalmente](/help/assets/image-flip-horizontal.png)
 
    Use essa opção para virar a imagem horizontalmente ou girar a imagem 180° ao longo do eixo y.
 
 * Virar Verticalmente
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![Ícone Virar verticalmente](/help/assets/image-flip-vertical.png)
 
    Use essa opção para girar a imagem na vertical ou girar a imagem 180° ao longo do eixo x.
 
-* Mapa de lançamento
-
-   >[!CAUTION]
-   >
-   >O recurso Launch Map requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) do editor de imagens no AEM.
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   Use essa opção para aplicar um mapa de inicialização à imagem. Selecionar essa opção abre uma nova janela permitindo que o usuário selecione a forma do mapa:
-
-   * **Adicionar mapa retangular**
-   * **Adicionar mapa circular**
-   * **Adicionar Mapa de Polígono**
-      * Por padrão, adiciona um mapa de triângulo. Clique duas vezes em uma linha da forma para adicionar uma nova alça de redimensionamento azul em um novo lado.
-   Depois que uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças de redimensionamento azuis para ajustar a forma.
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   Depois de dimensionar o mapa de inicialização, clique nele para abrir uma barra de ferramentas flutuante para definir o caminho do link.
-
-   * **Caminho**
-      * Use a opção Seletor de caminho para selecionar um caminho no AEM
-      * Se o caminho não estiver no AEM, use o URL absoluto. Caminhos não absolutos serão interpretados em relação ao AEM.
-   * **Texto** alternativoDescrição alternativa do destino do caminho
-   * **Target**
-      * **Mesma guia**
-      * **Nova guia**
-      * **Quadro pai**
-      * **Quadro superior**
-   Toque ou clique na marca de seleção azul para salvar, no x preto para cancelar e na lixeira vermelha para excluir o mapa.
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * Redefinir zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![Redefinir ícone de zoom](/help/assets/image-reset-zoom.png)
 
    Se a imagem já tiver sido ampliada, use esta opção para redefinir o nível de zoom.
 
 * Abrir controle deslizante de zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![Abrir ícone de controle deslizante de zoom](/help/assets/image-zoom.png)
 
    Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![Controle deslizante de zoom](/help/assets/image-zoom-slider.png)
 
 O editor no local também pode ser usado para modificar a imagem. Devido a limitações de espaço, somente as opções básicas estão disponíveis em linha. Para opções de edição completa, use o modo de tela cheia.
 
-![](/help/assets/chlimage_1-18.png)
+![Opções de edição de imagem no local](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -197,7 +172,7 @@ Na guia **Principal** , é possível definir uma lista de larguras em pixels par
 
 Além disso, você pode definir quais opções gerais de componente são automaticamente ou desativadas quando o autor adiciona o componente a uma página.
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![Guia principal da caixa de diálogo de design do Componente de imagem](/help/assets/image-design-main.png)
 
 * **Ativar carregamento** lentoDefina se a opção de carregamento lento é ativada automaticamente ao adicionar o componente de imagem a uma página.
 * **A imagem é decorativa** Defina se a opção de imagem decorativa é ativada automaticamente ao adicionar o componente de imagem a uma página.
@@ -214,13 +189,13 @@ Além disso, você pode definir quais opções gerais de componente são automat
       * Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
 * **Qualidade** JPEG O fator de qualidade (em porcentagem de 0 e 100) para imagens JPEG transformadas (por exemplo, dimensionadas ou cortadas).
 
->[!CAUTION]
+>[!NOTE]
 >
 >A opção Qualidade JPEG está disponível a partir da versão 2.2.0 dos Componentes principais.
 
 >[!NOTE]
 >
->A partir da versão 2.2.0 dos Componentes principais, o Componente de imagem adiciona o atributo UUID exclusivo `data-asset-id` ao ativo de imagem para permitir o rastreamento e a análise do número de exibições que os ativos individuais recebem.
+>A partir da versão 2.2.0 dos Componentes principais, o Componente de imagem adiciona o atributo UUID exclusivo `data-asset-id` ao ativo de imagem para permitir o rastreamento e a análise do número de visualizações que os ativos individuais recebem.
 
 ### Features Tab {#features-tab}
 
@@ -228,13 +203,13 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
 * Origem
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![Caixa de diálogo de design do Componente de imagem Guia Recursos](/help/assets/image-design-features-source.png)
 
    Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
 
 * Orientação
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![Caixa de diálogo de design do Componente de imagem Guia Recursos](/help/assets/image-design-features-orientation.png)
 
 * **Girar** Use essa opção para permitir que o autor do conteúdo use a opção **Girar à direita** .
 * **Virar** Use essa opção para permitir que o autor do conteúdo use as opções **Virar horizontalmente** e **Virar verticalmente** .
@@ -245,11 +220,11 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
 * Cortar
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![Caixa de diálogo de design do Componente de imagem Guia Recursos](/help/assets/image-design-features-cropping.png)
 
    Selecione a opção **Permitir recorte** para permitir que o autor do conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma proporção de corte predefinida.
-   * Digite um nome descritivo, que será exibido na lista suspensa **Iniciar corte** .
+   * Digite um nome descritivo, que será exibido na lista suspensa Recortar **do** Start.
    * Insira a proporção numérica do aspecto.
    * Use as alças de arrastar para reorganizar a ordem das proporções
    * Use o ícone da lixeira para excluir uma proporção.
