@@ -2,7 +2,10 @@
 title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -23,24 +26,16 @@ A versão atual do Componente de página é a v2, que foi introduzida com a vers
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatível | Compatível | Compatível | Compatível |
+| v2 | - | Compatível | Compatível | Compatível |
 | [v1](v1/page-v1.md) | Compatível | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento Versões [dos componentes](/help/versions.md)principais.
+Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
 >[!NOTE]
 >
 >Para ativar o redirecionamento no `cq:Page` nível para a versão 2 do componente de página e AEM 6.3, é necessário o [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) ou posterior. Esse redirecionamento não estava disponível em versões anteriores.
-
-## Exemplo de saída de componente {#sample-component-output}
-
-A seguir está uma amostra retirada de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Captura de tela {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### Detalhes técnicos {#technical-details}
 
@@ -56,7 +51,7 @@ Como o componente representa a página inteira, as configurações que normalmen
 
 Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -> Política** da página ao editar o modelo da página.
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![Política da página](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,14 +61,16 @@ Como o componente representa a página inteira, a caixa de diálogo de design é
 
 Usando a janela Design de página, você pode definir as bibliotecas do cliente a serem carregadas, bem como a biblioteca de recursos da Web para a página.
 
-* **Bibliotecas** do clienteDefine as categorias da biblioteca do cliente a serem carregadas. O JavaScript é adicionado na extremidade do corpo e o CSS é adicionado ao cabeçalho da página.
-* **Cabeçalho** da página JavaScript das bibliotecas do clienteDefine as categorias da biblioteca do cliente JavaScript a serem carregadas no cabeçalho da página.
-   * As categorias definidas aqui que também estão presentes no campo Bibliotecas **do** cliente terão o JavaScript carregado no cabeçalho da página em vez de no final do corpo.
-   * Nenhum CSS será carregado, a menos que a categoria também esteja presente no campo Bibliotecas **do** cliente.
+* **Bibliotecas** do cliente - define as categorias da biblioteca do cliente a serem carregadas. O JavaScript é adicionado na extremidade do corpo e o CSS é adicionado ao cabeçalho da página.
+* **Cabeçalho** da página JavaScript das bibliotecas do cliente: define as categorias da biblioteca do cliente JavaScript a serem carregadas no cabeçalho da página.
+   * As Categorias definidas aqui que também estão presentes no campo Bibliotecas **do** cliente terão o JavaScript carregado no cabeçalho da página em vez de na extremidade do corpo.
+   * Nenhum CSS será carregado a menos que a categoria também esteja presente no campo Bibliotecas **do** cliente.
 
-* **Biblioteca** do cliente de recursos da Web A categoria da biblioteca do cliente usada para fornecer recursos da Web, como favicons.
+* **Biblioteca** do cliente de recursos da Web - a categoria da biblioteca do cliente usada para fornecer recursos da Web, como favicons.
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **Ignorar para o seletor** do elemento de conteúdo principal - Usado como um recurso de acessibilidade para pular diretamente para o conteúdo principal da página
+
+![Caixa de diálogo de design do componente de página](/help/assets/page-design.png)
 
 As bibliotecas podem ser configuradas para os campos **Client Libraries** e **Client Library JavaScript Page Head** da seguinte maneira:
 
