@@ -2,7 +2,7 @@
 title: Versões dos Componentes principais principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 28%
@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # Versões dos Componentes principais principais {#core-components-versions}
 
-A versão atual dos Componentes principais é 2.8.0 e é compatível com o [AEM como um serviço](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) em nuvem e instalações [no local do AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Ela foi lançada em dezembro de 2019 como uma atualização importante para a versão 2.0.0. A versão 2.0.0 introduziu novos componentes juntamente com atualizações v2 de componentes existentes.
+A versão atual dos Componentes principais é 2.9.0 e é compatível com o [AEM como um serviço](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) em nuvem e instalações [no local do AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Ela foi lançada em maio de 2020 como uma atualização importante para a versão 2.0.0. A versão 2.0.0 introduziu novos componentes juntamente com atualizações v2 de componentes existentes.
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
