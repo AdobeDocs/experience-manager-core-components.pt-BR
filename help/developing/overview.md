@@ -2,10 +2,10 @@
 title: Desenvolvimento dos componentes principais
 description: Os componentes principais fornecem componentes básicos robustos e extensíveis que ofertas recursos ricos, delivery contínuo, controle de versão de componentes, implementação moderna, marcação magra e exportação JSON de conteúdo.
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 12%
+source-wordcount: '1442'
+ht-degree: 13%
 
 ---
 
@@ -38,10 +38,10 @@ Um esforço maior em um projeto existente (por exemplo, uma reformulação de ma
 
 [As Ferramentas](http://opensource.adobe.com/aem-modernize-tools/) de modernização do AEM permitem a fácil conversão de:
 
-* Modelos estáticos para modelos editáveis
-* Desenvolver configurações para políticas
-* Componentes básicos para os componentes principais
-* Interface clássica para a interface habilitada para toque
+* Modelos estáticos em modelos editáveis
+* Configurações de design em políticas
+* Componentes básicos em componentes principais
+* IU Clássica em IU ativada por toque
 
 Para obter mais informações sobre o uso dessas ferramentas, [consulte a documentação](http://opensource.adobe.com/aem-modernize-tools/).
 
@@ -115,6 +115,7 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1) | Adicionar um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorporar um recurso externo em uma página | - |
 | [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornecer uma representação visual do progresso em direção a uma meta | - |
+| [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Apresenta um documento PDF em uma página | - |
 
 ### Componentes futuros {#upcoming-components}
 
@@ -124,6 +125,6 @@ Para obter uma visão geral do futuro mapa dos componentes principais, consulte 
 
 Um benefício dos componentes com versão é que eles permitem separar a migração para uma nova versão do AEM da migração para novas versões de componentes. Além disso, se novas versões de componentes estiverem disponíveis, isso permitirá a migração individual de cada componente para a nova versão.
 
-As migrações para uma nova versão do AEM não afetarão o funcionamento dos Componentes principais, desde que suas versões também suportem a nova versão do AEM para a qual estão sendo migradas. As personalizações feitas nos Componentes principais também não devem ser afetadas, contanto que elas não usem APIs que foram [desaprovadas ou removidas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+As migrações para uma nova versão do AEM não afetarão o funcionamento dos Componentes principais, desde que suas versões também suportem a nova versão do AEM para a qual estão sendo migradas. As personalizações feitas nos Componentes principais também não devem ser afetadas, contanto que elas não usem APIs que foram [desaprovadas ou removidas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html#deprecated-featureshttps://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 As migrações para novas versões dos Componentes principais também não afetarão o modo de funcionamento do componente, mas os novos recursos poderão ser apresentados aos autores das páginas, o que pode exigir alguma configuração por um editor de modelo, caso o comportamento padrão não seja desejado. No entanto, as personalizações podem precisar ser adaptadas; para obter mais detalhes, consulte a página [Personalizando componentes](customizing.md#upgrade-compatibility-of-customizations) principais.
