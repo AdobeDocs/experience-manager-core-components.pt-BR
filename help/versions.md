@@ -2,7 +2,7 @@
 title: Versões dos Componentes principais principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e o AEM.
 translation-type: tm+mt
-source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 28%
@@ -26,8 +26,8 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes](htt
 
 | Versão | Descrição | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|---|
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versão apresentou o componente Visualizador de PDF. | - | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 17 de junho de 2020 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versão habilitou a integração com a Adobe Client Data Layer e introduziu o componente Progress Bar. | - | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 29 de maio de 2020 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versão apresentou o componente Visualizador de PDF. | - | 6.4.8.1+ | 6.5.5.0+ | Contínuo | 8, 11 | 17 de junho de 2020 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versão habilitou a integração com a Adobe Client Data Layer e introduziu o componente Progress Bar. | - | 6.4.8.0+ | 6.5.4.0+ | Contínuo | 8, 11 | 29 de maio de 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versão focou em correções com pequenos aprimoramentos. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 5 de dezembro de 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versão apresentou o novo componente Incorporado | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 25 de setembro de 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versão apresentou o novo componente Fragmento de experiência | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 6 de setembro de 2019 |
