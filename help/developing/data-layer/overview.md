@@ -2,10 +2,10 @@
 title: Uso da camada de dados do cliente Adobe com os componentes principais
 description: Uso da camada de dados do cliente Adobe com os componentes principais
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -33,6 +33,7 @@ No entanto, a Camada de dados não é ativada por padrão. Para ativar a camada 
 
 1. Crie a seguinte estrutura abaixo do `/conf` nó:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * Tipo de nó: `nt:unstructured`
 1. Adicione uma propriedade booleana chamada `enabled` e defina-a como `true`.
 1. Adicione uma `sling:configRef` propriedade ao `jcr:content` nó do site abaixo `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina como `/conf/<mySite>`.
 
