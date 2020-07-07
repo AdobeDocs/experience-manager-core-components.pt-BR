@@ -2,7 +2,7 @@
 title: Usar o arquivo de projeto do AEM
 description: Instruções detalhadas de uso para o AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Usar o AEM Project Archetype define você no caminho para a criação de um proj
 
 O arquétipo de projeto facilita a introdução ao desenvolvimento no AEM. Você pode dar seus primeiros passos de várias maneiras.
 
-* Tutorial de WKND - Para obter uma excelente introdução ao desenvolvimento no AEM, incluindo como aproveitar o arquétipo, consulte o Tutorial [](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) Introdução ao AEM Sites - WKND para obter um exemplo prático que o orienta a usar o arquétipo para implementar um projeto simples.
+* Tutorial de WKND - Para obter uma excelente introdução ao desenvolvimento no AEM, incluindo como aproveitar o arquétipo, consulte o Tutorial [](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) Introdução aos AEM Sites - WKND para obter um exemplo prático que o orienta a usar o arquétipo para implementar um projeto simples.
 * Tutorial de Eventos WKND - se você estiver particularmente interessado no desenvolvimento de aplicativos de página única (SPA) no AEM, verifique o tutorial [de Eventos](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)WKND dedicados.
 * Baixe e start por conta própria! - Você pode baixar facilmente o arquétipo de projeto atual disponível no GitHub e criar seu primeiro projeto, [seguindo as etapas simples abaixo](#how-to-use-the-archetype).
 
@@ -71,8 +71,8 @@ mvn -B archetype:generate \
 ```
 
 * Defina `XX` para o número [de](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) versão do AEM Project Archetype mais recente.
-* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   Defina `aemVersion=6.5.0` para Serviços [gerenciados da](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe ou no local.
+* Definir `aemVersion=cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
+   Definido `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)ou no local.
 A dependência dos Componentes principais é adicionada somente para versões aem não-nuvem, já que os Componentes principais são fornecidos como OOTB para AEM como CloudService.
 * Ajuste `appTitle="My Site"` para definir o título do site e os grupos de componentes.
 * Ajuste `appId="mysite"` para definir a Maven artiactualId, os nomes de componentes, configurações e pastas de conteúdo, bem como os nomes da biblioteca do cliente.
@@ -97,19 +97,21 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `groupId` |  | ID de grupo do Maven de base (por exemplo, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Pacote de código-fonte Java (por exemplo, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versão do projeto (por exemplo, `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Versão do AEM do Público alvo (pode ser `cloud` para o [AEM como um serviço](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)em nuvem; ou `6.5.0`, `6.4.4`ou `6.3.3` para Serviços [gerenciados da](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) Adobe ou no local). |
+| `aemVersion` | `6.5.0` | Versão do AEM do Público alvo (pode ser `cloud` para o [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); ou `6.5.0`, `6.4.4`ou `6.3.3` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou no local). |
 | `sdkVersion` | `latest` | Quando é possível especificar `aemVersion=cloud` uma versão [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (por exemplo, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclui uma configuração de despachante para nuvem ou para AMS/no local, dependendo do valor de `aemVersion` (pode ser `y` ou `n`). |
 | `frontendModule` | `none` | Inclui um módulo de construção de front-end do Webpack que gera as bibliotecas do cliente (pode ser `general` ou `none` para sites regulares; pode ser `angular` ou `react` para um aplicativo de página única que implemente o Editor [](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)SPA). |
 | `languageCountry` | `en_us` | Código de idioma e país para criar a estrutura de conteúdo (por exemplo, `en_us`). |
-| `singleCountry` | `y` | Inclui uma estrutura de conteúdo do idioma mestre (pode ser `y`, ou `n`). |
+| `singleCountry` | `y` | Inclui uma estrutura de conteúdo principal de idioma (pode ser `y`, ou `n`). |
 | `includeExamples` | `y` | Inclui um site de exemplo da Biblioteca [de](https://www.aemcomponents.dev/) componentes (pode ser `y`, ou `n`). |
 | `includeErrorHandler` | `n` | Inclui uma página de resposta 404 personalizada que será global para a instância inteira (pode ser `y` ou `n`). |
 
 >[!NOTE]
+>
 > Se o arquétipo for executado no modo interativo pela primeira vez, as propriedades com valores padrão não poderão ser alteradas (consulte [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para obter mais detalhes). O valor pode ser alterado quando a confirmação de propriedade no final for negada e o questionário for repetido, ou transmitindo o parâmetro na linha de comando (por exemplo, `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >Ao executar no Windows e gerar a configuração do dispatcher, você deve estar em execução em um prompt de comando elevado ou no Subsistema do Windows para Linux (consulte o [problema 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Perfis {#profiles}
