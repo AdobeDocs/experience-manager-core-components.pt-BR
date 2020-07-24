@@ -2,10 +2,10 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 69%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 69%
    + [Tutorial do WKND Developer](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalização dos componentes principais](developing/customizing.md)
    + [Orientações para os componentes](developing/guidelines.md)
+   + [Suporte AMP](developing/amp.md)
    + Adobe Client Data Layer {#data-layer}
       + [Componentes principais e a camada de dados do Adobe Client](developing/data-layer/overview.md)
       + [Integração com o Adobe Launch](developing/data-layer/launch-integration.md)
