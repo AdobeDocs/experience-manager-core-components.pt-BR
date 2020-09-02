@@ -1,35 +1,34 @@
 ---
-title: Uso da camada de dados do cliente Adobe com os componentes principais
-description: Uso da camada de dados do cliente Adobe com os componentes principais
+title: Usando a camada de dados do cliente Adobe com os componentes principais
+description: Usando a camada de dados do cliente Adobe com os componentes principais
 translation-type: tm+mt
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 4%
 
 ---
 
 
-# Uso da camada de dados do cliente Adobe com os componentes principais {#data-layer-core-components}
+# Usando a camada de dados do cliente Adobe com os componentes principais {#data-layer-core-components}
 
-A meta da Adobe Client Data Layer é reduzir o esforço de instrumentar sites, fornecendo um método padronizado para expor e acessar qualquer tipo de dados para qualquer script.
+A meta da Camada de Dados do Cliente Adobe é reduzir o esforço de instrumentar sites, fornecendo um método padronizado para expor e acessar qualquer tipo de dados para qualquer script.
 
-A Adobe Client Data Layer é agnóstica da plataforma, mas está totalmente integrada aos Componentes principais para uso com o AEM.
+A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com AEM.
 
-Como os Componentes principais, o código da Adobe Client Data Layer está disponível no GitHub, juntamente com sua documentação do desenvolvedor. Este documento fornece uma visão geral de como os Componentes principais interagem com a Camada de dados, mas detalhes técnicos completos são adiados para a documentação do GitHub.
+Como os Componentes principais, o código da Camada de dados do cliente do Adobe está disponível no GitHub, juntamente com a documentação do desenvolvedor. Este documento fornece uma visão geral de como os Componentes principais interagem com a Camada de dados, mas detalhes técnicos completos são adiados para a documentação do GitHub.
 
 >[!TIP]
 >
->Para obter mais informações sobre a Adobe Client Data Layer, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
+>Para obter mais informações sobre a Camada de dados do cliente Adobe, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Para obter mais detalhes técnicos sobre a integração da Adobe Client Data Layer com os Componentes principais, consulte o [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) arquivo no repositório dos Componentes principais.
-
+>Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente Adobe com os componentes principais, consulte o [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) arquivo no repositório dos componentes principais.
 
 ## Instalação e Ativação {#installation-activation}
 
 Desde a versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como clientlib. Nenhuma instalação é necessária.
 
-No entanto, a Camada de dados não é ativada por padrão. Para ativar a camada de dados
+No entanto, a Camada de dados não é ativada por padrão. Para ativar a Camada de dados, é necessário criar uma configuração [sensível ao](/help/developing/context-aware-configs.md) contexto para ela:
 
 1. Crie a seguinte estrutura abaixo do `/conf` nó:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -37,7 +36,7 @@ No entanto, a Camada de dados não é ativada por padrão. Para ativar a camada 
 1. Adicione uma propriedade booleana chamada `enabled` e defina-a como `true`.
 1. Adicione uma `sling:configRef` propriedade ao `jcr:content` nó do site abaixo `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina como `/conf/<mySite>`.
 
-Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor. Ao inspecionar a página, você verá que a Adobe Client Data Layer está carregada.
+Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor. Ao inspecionar a página, você verá que a Camada de dados do cliente Adobe está carregada.
 
 ## Schemas de dados dos componentes principais {#data-schemas}
 
@@ -71,7 +70,7 @@ id: {                   // component ID
 ```
 
 
-### Schema de página {#page}
+### Schema da página {#page}
 
 O schema Página é usado pelo seguinte componente:
 
@@ -95,7 +94,7 @@ id: {
 }
 ```
 
-### Schema Container {#container}
+### Schema container {#container}
 
 O schema do Container é usado pelos seguintes componentes:
 
