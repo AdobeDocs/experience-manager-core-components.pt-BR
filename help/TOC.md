@@ -3,10 +3,10 @@ sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
+source-git-commit: 77123951c73f41f1673c7ca04f3af87f08e73775
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 70%
+source-wordcount: '191'
+ht-degree: 68%
 
 ---
 
@@ -68,15 +68,17 @@ ht-degree: 70%
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos componentes principais](developing/overview.md)
    + [Caminhos para o sucesso](developing/success.md)
-   + [Tutorial do WKND Developer](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutorial do WKND Developer](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalização dos componentes principais](developing/customizing.md)
    + [Orientações para os componentes](developing/guidelines.md)
    + [Suporte AMP](developing/amp.md)
-   + Adobe Client Data Layer {#data-layer}
-      + [Componentes principais e a camada de dados do Adobe Client](developing/data-layer/overview.md)
+   + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
+   + Camada de dados do cliente Adobe {#data-layer}
+      + [Componentes principais e a camada de dados do cliente Adobe](developing/data-layer/overview.md)
       + [Integração com o Adobe Launch](developing/data-layer/launch-integration.md)
-      + [Integração com o Adobe Analytics](developing/data-layer/analytics-integration.md)
-   + AEM Project Archetype {#archetype}
+      + [Integração com a Adobe Analytics](developing/data-layer/analytics-integration.md)
+      + [Extensão da camada de dados](developing/data-layer/extending.md)
+   + Arquétipo de projeto do AEM{#archetype}
       + [Visão geral do Archetype](developing/archetype/overview.md)
       + [Uso do Archetype](developing/archetype/using.md)
       + [Módulo principal](developing/archetype/core.md)
