@@ -2,9 +2,9 @@
 title: Suporte AMP para os componentes principais
 description: Os componentes principais suportam AMP - Páginas móveis aceleradas
 translation-type: tm+mt
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,18 @@ O suporte para AMP nos Componentes principais é [totalmente configurável.](#en
 
 Os Componentes principais usam `amp` como seletor Sling para renderizar uma página AMP. Por exemplo, `example.html` renderizaria a página normal e `example.amp.html` seria a versão AMP.
 
-### Requisitos {#requirements}
-
-Ao usar a AMP com os componentes principais, a principal diferença é que a AMP exige que todos os CSS sejam incorporados no `<head>` elemento e otimizados.
-
-Para suportar isso, um componente de página personalizado é usado, que carrega apenas o CSS específico da AMP para componentes presentes na página.
-
-Para obter mais requisitos e detalhes técnicos, consulte a documentação do desenvolvedor do [GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
-
-### Uso da AMP nos componentes principais {#using-amp}
-
 Projetos individuais podem decidir se devem ou não alavancar a AMP. Na verdade, como a AMP e as páginas HTML padrão podem ser entregues em paralelo, um projeto pode optar por usar a AMP somente em determinadas páginas do projeto.
 
-### Instalação do suporte AMP {#installing-amp}
+## Introdução ao suporte AMP em seu projeto {#getting-started}
 
-Como a AMP é opcional, ela é fornecida como uma extensão para os Componentes principais.
+Embora o suporte AMP tenha ofertas de grande flexibilidade, para começar a usá-lo rapidamente, são necessárias apenas algumas etapas simples:
 
-* Para o AEM como um projeto Cloud Service, a extensão fica automaticamente disponível.
-* Para projetos no local e AMS, a extensão deve ser explicitamente instalada ao instalar os Componentes principais.
-
-Depois que a extensão for instalada, o autor do componente deverá simplesmente apontar os supertipos do componente para os da extensão.
+1. Instale a extensão de suporte AMP, se necessário.
+   * Para AEM como um Cloud Service, a extensão é disponibilizada automaticamente com os Componentes principais e nenhuma instalação é necessária.
+   * Para projetos no local e AMS, a extensão deve ser explicitamente instalada ao instalar os Componentes principais.
+1. Depois que a extensão AMP estiver instalada, o autor do componente deve simplesmente apontar os supertipos do componente para os da extensão.
+1. [Ative o suporte](#enabling-amp) AMP no nível do modelo ou em suas páginas individuais.
+1. [Implante o CSS](#css-requirements) incorporado, conforme necessário.
 
 ### Ativação da AMP para páginas {#enabling-amp}
 
@@ -65,3 +57,11 @@ As configurações AMP de uma página também podem ser substituídas nas Propri
 * **Sem AMP** - A página é entregue somente como HTML padrão.
 * **AMP** emparelhada - A página é entregue como AMP e HTML.
 * **Somente** AMP - A página é entregue somente como AMP.
+
+### Requisitos de CSS {#css-requirements}
+
+Ao usar a AMP com os componentes principais, a principal diferença é que a AMP exige que todos os CSS sejam incorporados no `<head>` elemento e otimizados.
+
+Para suportar isso, um componente de página personalizado é usado, que carrega apenas o CSS específico da AMP para componentes presentes na página.
+
+Para obter mais requisitos e detalhes técnicos, consulte a documentação do desenvolvedor do [GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
