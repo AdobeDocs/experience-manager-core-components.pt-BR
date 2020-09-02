@@ -2,16 +2,15 @@
 title: Componente do visualizador de PDF
 description: O componente Visualizador de PDF permite a exibição de um documento PDF.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
 
 # Componente do visualizador de PDF {#pdf-viewer-component}
-
 
 O componente principal do Visualizador de PDF componentes permite a inclusão de um documento PDF em uma página.
 
@@ -23,7 +22,7 @@ O componente Visualizador de PDF do componente principal incorpora um visualizad
 
 A versão atual do Componente do visualizador de PDF é a v1, que foi introduzida com a versão 2.10.0 dos Componentes principais em junho de 2020, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -41,13 +40,17 @@ A documentação técnica mais recente sobre o Componente do visualizador de PDF
 
 Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
 
+>[!NOTE]
+>
+>O componente Visualizador do PDF aproveita as APIs do Adobe [Documento Services e exige que o administrador configure uma configuração](https://www.adobe.io/apis/documentcloud/dcsdk.html) sensível ao [](/help/developing/context-aware-configs.md) contexto para usar esses serviços. Consulte a documentação técnica do componente para [obter detalhes sobre essa configuração.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+
 ## Configurar caixa de diálogo {#configure-dialog}
 
 A caixa de diálogo de configuração permite que o autor do conteúdo defina o visualizador e como ele se comportará e aparecerá para um visitante da página.
 
 ### Guia Configuração {#configuration-tab}
 
-A guia Configuração permite que o autor defina qual PDF deve ser exibido. O caminho pode ser definido como um ativo no AEM ou um caminho absoluto para outro recurso.
+A guia Configuração permite que o autor defina qual PDF deve ser exibido. O caminho pode ser definido como um ativo em AEM ou um caminho absoluto para outro recurso.
 
 ![Guia Configuração da caixa de diálogo Editar do Componente do Visualizador de PDF](/help/assets/pdf-viewer-edit-configuration.png)
 
@@ -78,8 +81,8 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 * **Download de PDF** - quando ativado, o botão de download é exibido.
 * **Imprimir PDF** - quando ativado, o botão Imprimir é exibido.
 * **Controles** de página - Alterna o comportamento dos controles de página.
-   * Encaixe
-   * Desencaixar
+   * Fixar
+   * Desafixar
 
 #### Container dimensionado {#sized-container}
 
@@ -91,8 +94,8 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 * **Download de PDF** - quando ativado, o botão de download é exibido.
 * **Imprimir PDF** - quando ativado, o botão Imprimir é exibido.
 * **Controles** de página - Alterna o comportamento dos controles de página.
-   * Encaixe
-   * Desencaixar
+   * Fixar
+   * Desafixar
 
 #### Em linha {#in-line}
 
