@@ -2,7 +2,7 @@
 title: Arquétipo de projeto do AEM
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 10%
@@ -95,7 +95,7 @@ A dependência dos Componentes principais só é adicionada para versões aem n�
 ## Requisitos do sistema
 
 | Arquétipo | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | Contínuo | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Configure seu ambiente de desenvolvimento local para [AEM como um SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) Cloud Service ou para versões [mais antigas de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
