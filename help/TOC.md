@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: ea7c8b2ac4a60a22644c9de96833b95c4113986d
+source-git-commit: b35b951a203b100e296bc3a115e34e27727293ae
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 68%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -75,9 +75,8 @@ ht-degree: 68%
    + [Suporte AMP](developing/amp.md)
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
    + Camada de dados do cliente Adobe {#data-layer}
-      + [Componentes principais e a camada de dados do cliente Adobe](developing/data-layer/overview.md)
-      + [Integração com o Adobe Launch](developing/data-layer/launch-integration.md)
-      + [Integração com a Adobe Analytics](developing/data-layer/analytics-integration.md)
+      + [Visão geral da camada de dados](developing/data-layer/overview.md)
+      + [Integrações com a camada de dados](developing/data-layer/integrations.md)
       + [Extensão da camada de dados](developing/data-layer/extending.md)
    + Arquétipo de projeto do AEM{#archetype}
       + [Visão geral do Archetype](developing/archetype/overview.md)
