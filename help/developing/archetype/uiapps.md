@@ -1,8 +1,8 @@
 ---
-title: Módulo ui.apps do Arquivo de Projeto AEM
-description: Módulo ui.apps do Arquivo de Projeto AEM
+title: Módulo ui.apps do AEM Project Archetype
+description: Módulo ui.apps do AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -10,9 +10,9 @@ ht-degree: 0%
 ---
 
 
-# Módulo ui.apps do Arquivo de Projeto AEM {#uiapps-module}
+# Módulo ui.apps do AEM Project Archetype {#uiapps-module}
 
-O módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) inclui todo o código de renderização necessário para o site abaixo `/apps`. Isso inclui CSS/JS que serão armazenados em um formato AEM chamado clientlibs. Isso também inclui scripts HTL para renderização de HTML dinâmico. Você pode considerar o módulo ui.apps como um mapa para a estrutura no JCR, mas em um formato que pode ser armazenado em um sistema de arquivos e confirmado para o controle de origem.
+O módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) inclui todo o código de renderização necessário para o site abaixo `/apps`. Isso inclui CSS/JS que serão armazenados em um formato AEM chamado [clientlibs.](uifrontend.md#clientlibs) Isso também inclui scripts HTL para renderização de HTML dinâmico. Você pode considerar o módulo ui.apps como um mapa para a estrutura no JCR, mas em um formato que pode ser armazenado em um sistema de arquivos e confirmado para o controle de origem.
 
 O plug-in Apache Jackrabbit FileVault Package é usado para compilar o conteúdo do módulo ui.apps em um pacote AEM que pode ser implantado no AEM. As configurações globais para o plug-in são definidas no pom.xml pai.
 
@@ -20,7 +20,7 @@ O plug-in Apache Jackrabbit FileVault Package é usado para compilar o conteúdo
 
 [O POM](/help/developing/archetype/using.md#parent-pom) pai (`<src>/<project>/pom.xml`) inclui `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o plug-in do pacote Jackrabbit FileVault. `filterSource` O `filterSource` aponta para o local do `filter.xml` arquivo usado para definir os caminhos jcr incluídos no pacote.
 
-Além do Plug-in do pacote Jackrabbit FileVault é uma definição do Plug-in do pacote de conteúdo que é usado para empurrar o pacote para o AEM. Observe que variáveis para `aem.host`, `aem.port`, `vault.user`e `vault.password` são usadas que correspondem às propriedades globais definidas no mesmo POM pai.
+Além do Plug-in do pacote Jackrabbit FileVault é uma definição do Plug-in do pacote de conteúdo que é usado para empurrar o pacote para AEM. Observe que variáveis para `aem.host`, `aem.port`, `vault.user`e `vault.password` são usadas que correspondem às propriedades globais definidas no mesmo POM pai.
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
