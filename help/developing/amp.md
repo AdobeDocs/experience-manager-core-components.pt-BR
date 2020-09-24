@@ -2,7 +2,7 @@
 title: Suporte AMP para os componentes principais
 description: Os componentes principais suportam AMP - Páginas móveis aceleradas
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -60,7 +60,7 @@ As configurações AMP de uma página também podem ser substituídas nas Propri
 
 ### Requisitos de CSS {#css-requirements}
 
-Ao usar a AMP com os componentes principais, a principal diferença é que a AMP exige que todos os CSS sejam incorporados no `<head>` elemento e otimizados.
+Ao usar a AMP com os componentes principais, a principal diferença é que a AMP exige que todos os [CSS sejam incorporados](including-clientlibs.md#inlining) no `<head>` elemento e otimizados.
 
 Para suportar isso, um componente de página personalizado é usado, que carrega apenas o CSS específico da AMP para componentes presentes na página.
 
