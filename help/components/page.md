@@ -2,10 +2,10 @@
 title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,14 @@ Usando a caixa de diálogo [de](#design-dialog)design, bibliotecas personalizada
 
 A versão atual do Componente de página é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](v1/page-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](v1/page-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
-
->[!NOTE]
->
->Para ativar o redirecionamento no `cq:Page` nível para a versão 2 do componente de página e AEM 6.3, é necessário o [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) ou posterior. Esse redirecionamento não estava disponível em versões anteriores.
 
 ### Detalhes técnicos {#technical-details}
 
@@ -63,7 +59,7 @@ Usando a janela Design de página, você pode definir as bibliotecas do cliente 
 
 * **Bibliotecas** do cliente - define as categorias da biblioteca do cliente a serem carregadas. O JavaScript é adicionado na extremidade do corpo e o CSS é adicionado ao cabeçalho da página.
 * **Cabeçalho** da página JavaScript das bibliotecas do cliente: define as categorias da biblioteca do cliente JavaScript a serem carregadas no cabeçalho da página.
-   * As Categorias definidas aqui que também estão presentes no campo Bibliotecas **do** cliente terão o JavaScript carregado no cabeçalho da página em vez de na extremidade do corpo.
+   * As categorias definidas aqui que também estão presentes no campo Bibliotecas **do** cliente terão o JavaScript carregado no cabeçalho da página em vez de na extremidade do corpo.
    * Nenhum CSS será carregado a menos que a categoria também esteja presente no campo Bibliotecas **do** cliente.
 
 * **Biblioteca** do cliente de recursos da Web - a categoria da biblioteca do cliente usada para fornecer recursos da Web, como favicons.
