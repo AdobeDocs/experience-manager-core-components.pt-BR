@@ -2,10 +2,10 @@
 title: Componente de opções de formulário
 description: O componente de opções de Formulário de componente principal permite a seleção de opções predefinidas em vários formatos.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ A apresentação das opções, rótulos e opções individuais pode ser definida
 
 A versão atual do Componente de opções de formulário é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](/help/components/v1/form-options-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/form-options-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -63,7 +63,7 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
          * **Texto** - O rótulo da opção exibida no formulário
          * **Ativo** - A opção é marcada como selecionada quando o formulário é carregado
          * **Desativado** - A opção não é selecionável, mas ainda é exibida
-   * **Lista** - Uma lista estática definida em outro lugar do AEM é usada para as opções
+   * **Lista** - Uma lista estática definida em outro lugar no AEM é usada para as opções
       * **Lista** - O caminho da lista estática no AEM
          * Use o botão Procurar para localizar o recurso de lista
    * **Fonte** de dados - uma fonte de dados é usada para as opções
@@ -78,4 +78,4 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 
 ### Guia Estilos {#styles-tab}
 
-O componente de opções de formulário suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente de opções de formulário suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
