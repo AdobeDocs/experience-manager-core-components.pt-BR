@@ -2,10 +2,10 @@
 title: Componente Acordeão
 description: O componente principal Acordeão de componentes permite a criação de uma coleção de painéis organizados em um acordeão em uma página.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,8 @@ Os componentes [Acordeão e](tabs.md) Presilhas suportam a vinculação diretame
 
 Para fazer isso:
 
-1. Visualização a página com o componente usando a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**no editor de páginas.
-1. Inspecione o conteúdo da página e identifique a ID do painel.
+1. Visualização a página com o componente usando a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
+1. Inspect o conteúdo da página e identifique a ID do painel.
    * Por exemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. A ID se torna a âncora que você pode anexar ao URL usando um hash (`#`).
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -40,7 +40,7 @@ Ao navegar até o URL com a ID do painel como âncora, o navegador rolar diretam
 
 A versão atual do Componente Acordeão é v1, que foi introduzida com a versão 2.5.0 dos Componentes Principais em junho de 2019, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -120,8 +120,8 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 A guia Componentes **** permitidos é usada para definir quais componentes podem ser adicionados como itens aos painéis no Componente Acordeão pelo autor do conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Container de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Container de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Guia Estilos {#styles-tab}
 
-O componente Acordeão suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O Componente Acordeão suporta o Sistema de [Estilo](/help/get-started/authoring.md#component-styling)AEM.
