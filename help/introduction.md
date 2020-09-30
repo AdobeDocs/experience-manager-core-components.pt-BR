@@ -2,10 +2,10 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,14 +34,14 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 | Prontos para produção | Os Componentes principais são 28 componentes robustos que são bem testados, amplamente utilizados e têm bom desempenho. |
 | Pronto para nuvem | Quer [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), nos Serviços [gerenciados da](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe, ou no local, eles funcionam apenas. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem montar praticamente qualquer layout. |
-| Configurável | As políticas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) conteúdo em nível de modelo definem quais recursos os autores da página podem usar ou não. |
+| Configurável | As políticas [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) conteúdo em nível de modelo definem quais recursos os autores da página podem usar ou não. |
 | Trackable | A integração [da camada de dados do cliente](/help/developing/data-layer/overview.md) Adobe permite rastrear todos os aspectos da experiência do visitante. |
 | Acessíveis | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+acessibilidade+in%3Atitle)). |
 | Amigável para SEO | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp-Ready | A saída [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) otimizada permite a renderização do lado do cliente, ainda com uma possibilidade de edição [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)no contexto. |
 | Suporte AMP | Os componentes têm [suporte integrado para o padrão AMP,](/help/developing/amp.md) acelerando suas experiências móveis. |
 | Kit de design | Um kit de [interface do usuário para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite que os designers criem wireframes que podem ser [estilizados conforme necessário](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
-| Temível | The components implement the [Style System](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/components/style-system.translate.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
+| Temível | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | Personalizável | Vários padrões permitem personalização [](developing/customizing.md)fácil, desde o ajuste do HTML até a reutilização avançada da funcionalidade. |
 | Versões | A política [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) controle de versão garante que os Componentes principais não quebrem seu site ao melhorar coisas que podem afetar você. |
 | Localizável | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
