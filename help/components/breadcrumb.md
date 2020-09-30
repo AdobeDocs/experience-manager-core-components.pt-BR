@@ -2,10 +2,10 @@
 title: Componente de navegação estrutural
 description: O Componente de navegação estrutural principal é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ As opções disponíveis, como o nível de navegação padrão e a capacidade de
 
 A versão atual do Componente de navegação estrutural é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -53,7 +53,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo suprima página
 
 ![Caixa de diálogo de edição de componentes da navegação estrutural](/help/assets/breadcrumb-edit.png)
 
-* **Nível** do Start de navegação - onde na hierarquia o componente de navegação estrutural deve ser start para ir até a página atual. Por exemplo em We.Retail:
+* **Nível** do Start de navegação - onde na hierarquia o componente de navegação estrutural deve ser start para ir até a página atual. Por exemplo:
 
    * 0 start em `/content`
    * 1 start em `/content/<yourSite>`
@@ -88,4 +88,4 @@ A caixa de diálogo de design permite que o autor do modelo defina quais são os
 
 ### Guia Estilos {#styles-tab}
 
-O componente de navegação estrutural suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente de navegação estrutural suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
