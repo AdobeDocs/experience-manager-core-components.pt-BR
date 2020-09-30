@@ -2,10 +2,10 @@
 title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +30,12 @@ Além disso, o Componente de imagem oferece suporte ao carregamento lento para a
 
 A versão atual do Componente de imagem é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](v1/image-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](v1/image-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -53,7 +53,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 >[!CAUTION]
 >
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para o AEM 6.4 ou o [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para o AEM 6.3 ou superior, para oferecer suporte aos [novos recursos](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) do editor de imagens no AEM.
+>O suporte para SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Service Pack 2](https://docs.adobe.com/content/help/pt-BR/experience-manager-64/release-notes/sp-release-notes.translate.html) para AEM 6.4 ou superior, para suportar os recursos [do editor de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) imagens dentro do AEM.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -91,13 +91,14 @@ Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de di�
    * Obter texto alternativo do DAM - quando marcado, o texto alternativo da imagem será preenchido com o valor dos `dc:description` metadados no DAM.
 
 * **LegendaInformações** adicionais sobre a imagem, exibidas abaixo da imagem por padrão.
-   * **Obter legenda do DAM** Quando marcado, o texto da legenda da imagem será preenchido com o valor dos `dc:title` metadados no DAM.
+   * **Obter legenda do DAM** Quando marcado, o texto da legenda da imagem será preenchido com o valor da variável 
+`dc:title` metadados no DAM.
    * **Exibir legenda como pop-up** Quando selecionada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
 
 * **Link**
    * Vincule a imagem a outro recurso.
-   * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
-   * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos ao AEM.
+   * Use a caixa de diálogo de seleção para vincular a outro recurso AEM.
+   * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos a AEM.
 
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
@@ -110,14 +111,15 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
 ![Caixa de diálogo de edição do componente de imagem](/help/assets/image-edit.png)
 
-* Recorte de Start
+* Recorte de start
 
-   ![Ícone de recorte de Start](/help/assets/image-start-crop.png)
+   ![Ícone de recorte de start](/help/assets/image-start-crop.png)
 
    Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
 
    * Escolha a opção Mão **livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
+
    Depois que uma opção de recorte for selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
    ![Opções de corte](/help/assets/image-crop-options.png)
@@ -205,18 +207,20 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
    ![Caixa de diálogo de design do Componente de imagem Guia Recursos](/help/assets/image-design-features-source.png)
 
-   Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
+   Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar os autores de conteúdo a selecionar somente ativos de AEM, desmarque essa opção.
 
 * Orientação
 
    ![Caixa de diálogo de design do Componente de imagem Guia Recursos](/help/assets/image-design-features-orientation.png)
 
-* **Girar** Use essa opção para permitir que o autor do conteúdo use a opção **Girar à direita** .
-* **Virar** Use essa opção para permitir que o autor do conteúdo use as opções **Virar horizontalmente** e **Virar verticalmente** .
+* **Girar** Use essa opção para permitir que o autor do conteúdo use a variável 
+**Opção Girar para a direita** .
+* **Virar** Use essa opção para permitir que o autor do conteúdo use a variável 
+**Opções Virar horizontalmente** e **Virar verticalmente** .
 
    >[!CAUTION]
    >
-   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e nenhuma alteração feita usando essas opções será persistida.
+   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pela AEM e nenhuma alteração feita usando essas opções será persistida.
 
 * Cortar
 
@@ -228,13 +232,14 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
    * Insira a proporção numérica do aspecto.
    * Use as alças de arrastar para reorganizar a ordem das proporções
    * Use o ícone da lixeira para excluir uma proporção.
+
    >[!CAUTION]
    >
    >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
 
 ### Guia Estilos {#styles-tab-1}
 
-O componente de imagem suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O Componente de imagem suporta o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
 
 ## Servlet de imagem adaptável {#adaptive-image-servlet}
 
