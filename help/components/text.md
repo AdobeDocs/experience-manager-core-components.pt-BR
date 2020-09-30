@@ -2,10 +2,10 @@
 title: Componente de texto
 description: O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ A caixa de diálogo [de](#edit-dialog) edição possui edição em linha com op�
 
 A versão atual do Componente de texto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](v1/text-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](v1/text-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -45,13 +45,13 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 ## O componente de texto e o Editor de Rich Text {#the-text-component-and-the-rich-text-editor}
 
-O Componente de texto dos componentes principais aproveita o Editor de Rich Text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de Rich Text e [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
+O Componente de texto dos componentes principais aproveita o Editor de Rich Text AEM (RTE). O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) de Rich Text e [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
 
 O restante deste artigo demonstra a configuração padrão do Componente de texto dos componentes principais com a configuração predefinida do ERT.
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas configurações de [interface do RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
+>Somente as opções ativadas pelas configurações de [interface do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -124,7 +124,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
 * Insira o caminho
    * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM
    * Se o link não estiver no AEM, insira o URL absoluto
-      * Caminhos não absolutos são interpretados como relativos ao AEM
+      * Caminhos não absolutos são interpretados como relativos a AEM
 * Digite um texto descritivo alternativo para o link
 * Selecionar comportamento do link
    * Target
@@ -132,6 +132,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
    * Nova guia
    * Quadro pai
    * Quadro superior
+
    Toque ou clique na marca de seleção para aplicar o link ou o x para cancelar.
 
 ### Desvincular
@@ -257,7 +258,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
 
 ### Caracteres especiais {#special-characters}
 
@@ -281,7 +282,7 @@ Toque ou clique no ícone Editar **** fonte para alterar o conteúdo do texto da
 >
 >Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção Edição **de** origem!
 >
->O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS, e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+>O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
 
 >[!NOTE]
 >
