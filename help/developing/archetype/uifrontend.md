@@ -2,9 +2,9 @@
 title: AEM Projeto de Arquétipo de Compilação Front-End
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Quando todo o arquétipo de projeto AEM é executado usando `mvn clean install -
 
 ## Visão geral do ClientLibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando um ClientLib [AEM](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
+O módulo de front-end é disponibilizado usando um ClientLib [AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
 
 Um ClientLib consistirá nos seguintes arquivos e diretórios:
 
@@ -161,7 +161,7 @@ O processo de compilação do módulo ui.frontenda aproveita o plug-in [aem-clie
 
 ### Incluindo bibliotecas de clientes em páginas {#clientlib-inclusion}
 
-`clientlib-site` e `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração [da Política de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte do modelo padrão. Para visualização da política, edite o Modelo da página **de conteúdo > Informações da página > Política** da página.
+`clientlib-site` e `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração [da Política de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) página como parte do modelo padrão. Para visualização da política, edite o Modelo da página **de conteúdo > Informações da página > Política** da página.
 
 A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 
