@@ -2,10 +2,10 @@
 title: Listar Componente
 description: O componente principal de Lista do componente permite a fácil criação de listas dinâmicas e estáticas.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ O Componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 A versão atual do Componente de Lista é a v2, que foi introduzida com a versão 2.0.0 dos Componentes Principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](v1/list-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](v1/list-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -45,7 +45,7 @@ Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, con
 
 A caixa de diálogo de edição permite que o autor do conteúdo configure os itens de lista e lista.
 
-### Guia Configurações de Lista {#list-settings-tab}
+### Guia Configurações de lista {#list-settings-tab}
 
 A lista pode ser construída de maneiras diferentes.
 
@@ -56,7 +56,7 @@ A lista pode ser construída de maneiras diferentes.
 
 Independentemente de como a lista é criada, há opções [de](#sort-options) classificação e ID que podem ser sempre configuradas.
 
-![Caixa de diálogo de edição do componente de Lista](/help/assets/list-edit.png)
+![Caixa de diálogo de edição do componente de lista](/help/assets/list-edit.png)
 
 Dependendo de como o autor do conteúdo escolher criar a lista, as opções de configuração adicionais serão alteradas.
 
@@ -80,17 +80,17 @@ A lista pode ser construída usando uma lista fixa de itens.
 
 Toque ou clique no botão **Adicionar** para inserir um novo item na lista.
 
-* Digite o texto do item na lista ou use a caixa de diálogo **** de seleção para escolher um item do AEM.
+* Insira o texto do item na lista ou use a caixa de diálogo **** de seleção para escolher um item da AEM.
 * Use a alça de arrastar para reorganizar os itens na lista.
 * Use o ícone da lixeira para excluir itens na lista.
 
 #### Pesquisar {#search-options}
 
-A lista pode ser criada usando os resultados de uma pesquisa de conteúdo do AEM.
+A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 
 ![Opções de lista de pesquisa](/help/assets/list-edit-search.png)
 
-* **query** de pesquisa A string para a qual uma pesquisa de texto completo será executada para gerar os elementos de lista
+* **Query** de pesquisa A string para a qual uma pesquisa de texto completo será executada para gerar os elementos de lista
 * **Pesquisar** Onde a pesquisa deve ser executada
    * Use a caixa de diálogo **** de seleção para escolher o local no AEM
    * Usar página atual se deixado em branco
@@ -147,7 +147,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais tipos d
 
 Na guia Configurações **de** Lista, o formato de data pode ser definido, bem como que tipo de listas deve estar disponível no componente para os autores de conteúdo.
 
-![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/list-design-list-settings.png)
+![Configuração da lista da caixa de diálogo de design do componente de lista](/help/assets/list-design-list-settings.png)
 
 * **Formato** de data a ser usado para a exibição da última data de modificação
 * **Desativar filhos** Desativar o tipo de lista filho no componente
@@ -159,7 +159,7 @@ Na guia Configurações **de** Lista, o formato de data pode ser definido, bem c
 
 Na guia Configurações **de** item, as opções de formatação dos elementos de lista individuais que devem estar disponíveis no componente para os autores de conteúdo podem ser definidas.
 
-![Configurações do item de diálogo de design do Componente de Lista](/help/assets/list-design-item-settings.png)
+![Configurações do item de diálogo de design do Componente de lista](/help/assets/list-design-item-settings.png)
 
 * **Vincular itens** Ativar itens de link na caixa de diálogo [Editar](#edit-dialog)
 * **Mostrar descrições** Ativar a opção Mostrar descrições na caixa de diálogo de [edição](#edit-dialog)
@@ -167,4 +167,4 @@ Na guia Configurações **de** item, as opções de formatação dos elementos d
 
 ### Guia Estilos {#styles-tab}
 
-O componente de imagem suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O Componente de imagem suporta o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
