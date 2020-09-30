@@ -1,11 +1,11 @@
 ---
 title: Autoria com Componentes principais
-description: No AEM, os componentes são os elementos estruturais que constituem o conteúdo das páginas que estão sendo criadas - os componentes principais oferecem uma funcionalidade de criação flexível e repleta de recursos para a oferta.
+description: No AEM, os componentes são os elementos estruturais que constituem o conteúdo das páginas que estão sendo criadas - Componentes principais, funcionalidade de criação flexível e repleta de recursos.
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Os componentes principais ofertas funcionalidade de criação flexível e replet
 
 Para experimentar os Componentes principais e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library)componentes.
 
-Para obter uma introdução mais detalhada e orientada ao desenvolvedor para implementar os Componentes principais em um projeto do AEM usando o [AEM Project Archetype](/help/developing/archetype/overview.md) , consulte [o tutorial WKND.](https://docs.adobe.com/content/help/br/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Para obter uma introdução mais detalhada e orientada ao desenvolvedor para implementar os Componentes principais em um projeto AEM usando o [AEM Project Archetype](/help/developing/archetype/overview.md) , consulte [o tutorial WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Para obter uma introdução mais detalhada e orientada ao desenvolvedor para imp
 
 >[!CAUTION]
 >
->Os componentes principais [exigem o AEM 6.3 ou superior](/help/versions.md) e exigem o uso de modelos [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)editáveis. Eles não funcionam com a interface clássica nem com modelos estáticos.
+>Os Componentes principais [exigem AEM 6.4 ou superior](/help/versions.md) e exigem o uso de modelos [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)editáveis. Eles não funcionam com a interface clássica nem com modelos estáticos.
 
 ## Autoria com Componentes principais {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Os estilos da maioria dos Componentes principais podem ser definidos usando o si
 * O autor do conteúdo pode escolher quais estilos aplicar ao adicionar o componente e criar o conteúdo.
 
 Para obter mais detalhes, consulte a documentação do Sistema [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) estilo.
-
->[!NOTE]
->
->No AEM 6.3, o Service Pack 2 (6.3.2.0) ou mais recente é necessário para ativar o recurso de estilo do sistema.
 
 ## Recursos do desenvolvedor {#developer-resources}
 
