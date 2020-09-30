@@ -2,10 +2,10 @@
 title: Componente do botão de formulário
 description: O componente principal Formulário oculto do componente permite a inclusão de um campo oculto em um formulário.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ As propriedades do botão podem ser definidas pelo editor de conteúdo na caixa 
 
 A versão atual do Componente do botão de formulário é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](/help/components/v1/form-button-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/form-button-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -72,4 +72,4 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina os
 
 ### Guia Estilos {#styles-tab}
 
-O componente de botão de formulário suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente Botão de formulário suporta o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
