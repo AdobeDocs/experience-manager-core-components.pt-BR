@@ -2,10 +2,10 @@
 title: Componente de compartilhamento em redes sociais
 description: O Componente principal de compartilhamento em redes sociais é um widget de compartilhamento de Pinterest e Facebook.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ Diferentemente de outros componentes, as configurações do Componente de compar
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de compartilhamento em redes sociais é a v1, que foi introduzida com a versão 1.0.0 dos Componentes principais com o AEM 6.3 e é descrita neste documento.
+A versão atual do Componente de compartilhamento em redes sociais é a v1, que foi introduzida com a versão 1.0.0 dos Componentes principais e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente e as versões do AEM com as quais as versões do componente são compatíveis.
+A tabela a seguir detalha todas as versões compatíveis do componente e as versões AEM com as quais as versões do componente são compatíveis.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
