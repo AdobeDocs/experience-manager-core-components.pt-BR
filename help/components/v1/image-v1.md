@@ -3,7 +3,10 @@ title: Componente de imagem (v1)
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 index: n
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ O Componente principal de imagem é um componente de imagem adaptável com ediç
 
 ## Uso {#usage}
 
-O Componente de imagem permite a fácil colocação de ativos de imagem e oferece edição no local. Ele possui seleção adaptável de imagens com carregamento lento e recorte para o autor do conteúdo.
+O Componente de imagem permite a fácil colocação de ativos de imagem e ofertas de edição no local. Ele possui seleção adaptável de imagens com carregamento lento e recorte para o autor do conteúdo.
 
 As larguras de imagem permitidas, bem como recortes e configurações adicionais podem ser definidas pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode fazer upload ou selecionar ativos na caixa de diálogo [de](#configure-dialog) configuração e cortar a imagem na caixa de diálogo [de](#edit-dialog)edição. Para maior conveniência, a modificação simples no local da imagem também está disponível.
 
@@ -33,7 +36,7 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de imagem.
 >
 >Este documento descreve a v1 do Componente de imagem.
 >
->Para obter detalhes sobre a versão atual do Componente de imagem, consulte o documento Componente [de](/help/components/image.md) imagem.
+>Para obter detalhes sobre a versão atual do Componente de imagem, consulte o documento do Componente [de](/help/components/image.md) imagem.
 
 ## Exemplo de saída de componente {#sample-component-output}
 
@@ -74,7 +77,7 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de diálogo [de](#design-dialog)design, o componente de imagem oferece uma caixa de diálogo de configuração na qual a própria imagem é definida juntamente com sua descrição e propriedades básicas.
+Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de diálogo [de](#design-dialog)design, o componente de imagem oferta uma caixa de diálogo de configuração onde a própria imagem é definida, juntamente com sua descrição e propriedades básicas.
 
 ![](/help/assets/chlimage_1-50.png)
 
@@ -87,8 +90,8 @@ Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de di�
 * **Texto** alternativo - Alternativa textual do significado ou função da imagem, para leitores com deficiências visuais.
 * **Link**
    * Vincule a imagem a outro recurso.
-   * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
-   * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos ao AEM.
+   * Use a caixa de diálogo de seleção para vincular a outro recurso AEM.
+   * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos a AEM.
 
 * **Legenda** - Informações adicionais sobre a imagem, exibidas abaixo da imagem, são padrão.
 * **Exibir legenda como pop-up** - quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
@@ -99,7 +102,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
 ![](/help/assets/chlimage_1-8.png)
 
-* Iniciar corte
+* Recorte de start
 
    ![](/help/assets/chlimage_1-9.png)
 
@@ -107,7 +110,8 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
    * Escolha a opção Mão **livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
-   Depois que uma opção de corte for selecionada, use as alças azuis para dimensionar o corte na imagem.
+
+   Depois que uma opção de recorte for selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
    ![](/help/assets/chlimage_1-10.png)
 
@@ -127,8 +131,9 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
    * **Adicionar mapa circular**
    * **Adicionar Mapa de Polígono**
 
-      * Por padrão, adiciona um mapa de triângulo. Clique duas vezes em uma linha da forma para adicionar uma nova alça de redimensionamento azul em um novo lado.
-   Quando uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças de redimensionamento azuis para ajustar a forma.
+      * Por padrão, adiciona um mapa de triângulo. Clique com o duplo em uma linha da forma para adicionar uma nova alça de redimensionamento azul em um novo lado.
+
+   Depois que uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças de redimensionamento azuis para ajustar a forma.
 
    ![](/help/assets/chlimage_1-13.png)
 
@@ -136,14 +141,15 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
    * **Caminho**
       * Use a opção Seletor de caminho para selecionar um caminho no AEM
-      * Se o caminho não estiver no AEM, use o URL absoluto. Caminhos não absolutos serão interpretados em relação ao AEM.
+      * Se o caminho não estiver em AEM, use o URL absoluto. Caminhos não absolutos serão interpretados em relação ao AEM.
 
-      * **Texto** alternativo Descrição alternativa do destino do caminho
+      * **Texto** alternativoDescrição alternativa do destino do caminho
       * **Target**
          * **Mesma guia**
          * **Nova guia**
          * **Quadro pai**
          * **Quadro superior**
+
    Toque ou clique na marca de seleção azul para salvar, no x preto para cancelar e na lixeira vermelha para excluir o mapa.
 
    ![](/help/assets/chlimage_1-14.png)
@@ -185,7 +191,7 @@ Toque ou clique no botão Adicionar para adicionar outro tamanho.
 * Use as alças de captura para reorganizar a ordem dos tamanhos.
 * Use o ícone Excluir para remover uma largura.
 
-Por padrão, o carregamento de imagens é adiado até que fiquem visíveis. Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
+Por padrão, o carregamento de imagens é adiado até que se tornem visíveis. Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
 
 ### Recursos {#features}
 
@@ -195,25 +201,18 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
    ![](/help/assets/chlimage_1-19.png)
 
-   Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
+   Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar os autores de conteúdo a selecionar somente ativos de AEM, desmarque essa opção.
 
 * Orientação
 
    ![](/help/assets/chlimage_1-20.png)
 
    * **Girar** - Use essa opção para permitir que o autor do conteúdo use a opção **Girar à direita** .
-   * **Virar** Use essa opção para permitir que o autor do conteúdo use as opções **Virar horizontalmente** e **Virar verticalmente** .
+   * **Virar** Use essa opção para permitir que o autor do conteúdo use a variável 
+**Opções Virar horizontalmente** e **Virar verticalmente** .
    >[!CAUTION]
    >
-   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e nenhuma alteração feita usando essas opções será persistente.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
+   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pela AEM e nenhuma alteração feita usando essas opções será persistida.
 
 * Cortar
 
@@ -221,13 +220,14 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    Selecione a opção **Permitir recorte** para permitir que o autor do conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma proporção de corte predefinida.
-   * Digite um nome descritivo, que será exibido na lista suspensa **Iniciar corte** .
+   * Digite um nome descritivo, que será exibido na lista suspensa Recortar **do** Start.
    * Insira a proporção numérica do aspecto.
    * Use as alças de arrastar para reorganizar a ordem das proporções
    * Use o ícone da lixeira para excluir uma proporção.
+
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feito por motivos de compatibilidade herdados. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
 
 ## Detalhes técnicos {#technical-details}
 
