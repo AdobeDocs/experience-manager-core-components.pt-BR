@@ -2,10 +2,10 @@
 title: Componente oculto do formulário
 description: O componente principal Formulário oculto do componente permite a exibição de um campo oculto.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ O componente principal Formulário oculto do componente permite a exibição de 
 
 ## Uso {#usage}
 
-O componente principal Oculto do formulário permite que a criação de campos ocultos transmita informações sobre a página atual para o AEM e deve ser usado junto com o componente [de container de](form-container.md)formulário.
+O Componente principal Formulário oculto permite a criação de campos ocultos para retornar as informações sobre a página atual ao AEM e é destinado ao uso junto com o componente [de container de](form-container.md)formulário.
 
 As propriedades de campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [](form-hidden.md)configurar.
 
@@ -24,12 +24,12 @@ As propriedades de campo podem ser definidas pelo editor de conteúdo na caixa d
 
 A versão atual do Componente oculto do formulário é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](/help/components/v1/form-hidden-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/form-hidden-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -64,4 +64,4 @@ Como o componente Form Oculto normalmente não tem atributos visíveis, o espaç
 
 ### Guia Estilos {#styles-tab}
 
-O componente Oculto do formulário é compatível com o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente Oculto do formulário é compatível com o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
