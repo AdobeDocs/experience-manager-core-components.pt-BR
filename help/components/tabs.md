@@ -2,9 +2,9 @@
 title: Componente Tabulações
 description: O componente Tabulações permite a criação de várias guias para organizar o conteúdo em uma página.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -32,8 +32,8 @@ Os Componentes [Tabulações e](accordion.md) Acordeão suportam a vinculação 
 
 Para fazer isso:
 
-1. Visualização a página com o componente usando a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**no editor de páginas.
-1. Inspecione o conteúdo da página e identifique a ID do painel.
+1. Visualização a página com o componente usando a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
+1. Inspect o conteúdo da página e identifique a ID do painel.
    * Por exemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. A ID se torna a âncora que você pode anexar ao URL usando um hash (`#`).
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -44,7 +44,7 @@ Ao navegar até o URL com a ID do painel como âncora, o navegador rolar diretam
 
 A versão atual do Componente de guias é v1, que foi introduzida com a versão 2.2.0 dos Componentes principais em outubro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -118,7 +118,7 @@ Depois de selecionar a opção **Selecionar painel** na barra de ferramentas do 
 
 >[!NOTE]
 >
->As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar** . Use o modo **[Pré-visualização](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**ou a opção**[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado faria.
+>As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar** . Use o modo **[Pré-visualização](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado faria.
 
 ## Caixa de diálogo Design {#design-dialog}
 
@@ -132,4 +132,4 @@ A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome
 
 ### Guia Estilos {#styles-tab}
 
-O componente Tabs suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente Tabs suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
