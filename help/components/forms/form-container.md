@@ -2,10 +2,10 @@
 title: Componente de Container de formulário
 description: O Componente principal de Container de formulário permite a criação de formulários simples de envio.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,12 +28,12 @@ Usando a caixa de diálogo [](#configure-dialog) configurar, o editor de conteú
 
 A versão atual do Componente do Container de formulário é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
-| Versão do componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatível | Compatível | Compatível |
-| [v1](/help/components/v1/form-container-v1.md) | Compatível | Compatível | Compatível | - |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/form-container-v1.md) | Compatível | Compatível | - |
 
 Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
 
@@ -80,8 +80,8 @@ Quando o formulário for enviado, o conteúdo do formulário será armazenado em
 ![Armazenar opções de conteúdo na caixa de diálogo de edição do Container de formulário](/help/assets/form-container-edit-store.png)
 
 * **Caminho** do conteúdo - Caminho do repositório do conteúdo no qual o conteúdo enviado é armazenado
-* **Dados** de Visualização - Toque ou clique para visualização de dados enviados armazenados como JSON
-* **Fluxo de trabalho** do Start - Configure para start de um fluxo de trabalho com o conteúdo armazenado como carga após o envio do formulário
+* **Dados** de visualização - Toque ou clique para visualização de dados enviados armazenados como JSON
+* **Fluxo de trabalho** do start - Configure para start de um fluxo de trabalho com o conteúdo armazenado como carga após o envio do formulário
 
 ### Configurações gerais {#general-settings}
 
@@ -90,8 +90,8 @@ Independentemente do tipo de ação selecionado, uma página de agradecimento se
 ![Opções gerais na caixa de diálogo de edição do Componente do Container de formulário](/help/assets/form-container-edit-general.png)
 
 * **Página** de agradecimento - o usuário será redirecionado para a página especificada após a conclusão do envio do formulário.
-   * Use a caixa de diálogo de seleção para selecionar um recurso no AEM.
-   * Se a página de agradecimento não estiver no AEM, especifique o URL absoluto. URLs não absolutos serão interpretados em relação ao AEM.
+   * Use a caixa de diálogo Seleção para selecionar um recurso dentro do AEM.
+   * Se a página de agradecimento não estiver em AEM, especifique o URL absoluto. URLs não absolutos serão interpretados em relação ao AEM.
    * Deixe em branco para exibir novamente o formulário após o envio.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
