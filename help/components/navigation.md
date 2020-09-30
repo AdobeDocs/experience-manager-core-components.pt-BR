@@ -2,10 +2,10 @@
 title: Componente de navegação
 description: O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ O Componente de navegação permite que os usuários naveguem facilmente em uma 
 
 O componente de navegação lista uma árvore de páginas para que os usuários de um site possam navegar facilmente pela estrutura do site.
 
-O Componente de navegação pode detectar automaticamente a estrutura do site globalizado do site e [se adaptar automaticamente a uma página localizada.](#localized-site-structure) Além disso, ele pode suportar qualquer estrutura de site arbitrária usando páginas [de redirecionamento de](#shadow-structure) sombra para representar outra estrutura que não a de conteúdo principal.
+O Componente de navegação pode detectar automaticamente a estrutura do site globalizado do site e [se adaptar automaticamente a uma página localizada.](#localized-site-structure) Além disso, ele pode suportar qualquer estrutura de site arbitrária usando páginas [de redirecionamento de](#shadow-structure) sombra para representar outra estrutura que não seja a estrutura de conteúdo principal.
 
 A caixa de diálogo [de](#edit-dialog) edição permite que o autor do conteúdo defina a página raiz de navegação junto com a profundidade da navegação. A caixa de diálogo [de](#design-dialog) design permite que o autor do modelo defina valores padrão para a raiz e profundidade da navegação.
 
@@ -61,7 +61,7 @@ Digamos que seu conteúdo se parece com isso:
 \-- wknd-shop
 ```
 
-Para o site We.Retail, você provavelmente gostaria de colocar o Componente de navegação em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de** navegação do componente como `/content/wknd/language-masters/en` sendo aquele em que seu conteúdo mestre começa. Talvez você também queira definir a Profundidade **da Estrutura de** Navegação como sendo `2` uma vez que você provavelmente não quer que a árvore de conteúdo inteira seja mostrada pelo componente, mas sim os dois primeiros níveis para que ela sirva como uma visão geral.
+Para o WKND do site, você provavelmente gostaria de colocar o Componente de navegação em um modelo de página como parte do cabeçalho. Uma vez que parte do modelo, você pode definir a Raiz **de** navegação do componente como `/content/wknd/language-masters/en` sendo aquele em que seu conteúdo principal começa. Talvez você também queira definir a Profundidade **da Estrutura de** Navegação como sendo `2` porque provavelmente não quer que a árvore de conteúdo inteira seja mostrada pelo componente, mas sim os dois primeiros níveis para que ela sirva como uma visão geral.
 
 Com o valor Raiz **de** navegação, o Componente de navegação sabe que depois `/content/wknd/language-masters/en` disso a navegação começa e pode gerar opções de navegação ao repetir a estrutura do site em dois níveis abaixo (conforme definido pelo valor de Profundidade **da estrutura de** navegação).
 
@@ -92,7 +92,7 @@ O Componente de navegação renderizará o menu com base na estrutura do site de
 
 A versão atual do Componente de navegação é a v1, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -164,4 +164,4 @@ A caixa de diálogo de design permite que o autor do modelo defina os valores pa
 
 ### Guia Estilos {#styles-tab}
 
-O componente de navegação suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente de navegação suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
