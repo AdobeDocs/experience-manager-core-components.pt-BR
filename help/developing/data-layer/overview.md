@@ -2,10 +2,10 @@
 title: Usando a camada de dados do cliente Adobe com os componentes principais
 description: Usando a camada de dados do cliente Adobe com os componentes principais
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma configuraç�
    * Onde cada nó tem um `jcr:primaryType` definido como `nt:unstructured`.
 1. Adicione uma propriedade booleana chamada `enabled` e defina-a como `true`.
 
-   ![Localização de DataLayerConfig no Site de Referência WKND](../../assets/datalayer-contextaware-sling-config.png)
+   ![Localização de DataLayerConfig no Site de Referência WKND](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Localização de DataLayerConfig no Site de Referência WKND*
 
@@ -59,7 +59,7 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma configuraç�
 
 1. Você também pode abrir as ferramentas do desenvolvedor do seu navegador e, no console, o objeto `adobeDataLayer` JavaScript deve estar disponível. Digite o seguinte comando para obter o estado da Camada de dados da sua página atual:
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ Onde `<component-path>` é o caminho JSON para o componente na Camada de dados q
 
 Por exemplo:
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
