@@ -2,10 +2,10 @@
 title: Componente de Container de formulário
 description: O Componente principal de Container de formulário permite a criação de formulários simples de envio.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '956'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ O Componente principal de Container de formulário permite a criação de formul
 
 O componente de Container de formulário permite a criação de formulários e recursos simples de envio de informações, ao suportar formulários WCM simples e ao usar uma estrutura aninhada para permitir componentes de formulário adicionais.
 
-Usando a caixa de diálogo [](#configure-dialog) configurar, o editor de conteúdo pode definir a ação acionada pelo envio do formulário, onde o conteúdo enviado deve ser armazenado e se um fluxo de trabalho deve ser acionado. O autor do modelo pode usar a caixa de diálogo [de](#design-dialog) design para definir os componentes permitidos e seus mapeamentos semelhantes à caixa de diálogo de design para o container de layout [padrão no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelo.
+Ao usar a caixa de diálogo [](#configure-dialog) configurar, o editor de conteúdo pode definir a ação acionada pelo envio do formulário, o URL que deve lidar com o envio e se um fluxo de trabalho deve ser acionado. O autor do modelo pode usar a caixa de diálogo [de](#design-dialog) design para definir os componentes permitidos e seus mapeamentos semelhantes à caixa de diálogo de design para o container de layout [padrão no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelo.
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina qu
 
 Dependendo do Tipo **de** ação selecionado, as opções disponíveis no container serão alteradas. Os tipos de ação disponíveis são:
 
+* [Dados do formulário de publicação](#post-data)
 * [Email](#mail)
 * [Armazenar conteúdo](#store-content)
 
 Independentemente do tipo, existem configurações [](#general-settings) gerais que se aplicam a cada ação.
+
+### Dados do formulário de publicação {#post-data}
+
+Quando o formulário for submetido, o tipo de ação de dados do formulário posterior transmitirá os dados enviados a terceiros como JSON para processamento.
+
+![Opções de publicação de dados de formulário na caixa de diálogo de edição do componente Container de formulário](/help/assets/form-container-edit-post.png)
+
+* **Endpoint** - o serviço HTTPS totalmente qualificado que processará os dados
+* **Mensagem** de erro - mensagem a ser exibida se o envio não for bem-sucedido
+
+>[!TIP]
+>Há opções adicionais de tempo limite que um administrador do sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica do GitHub para obter mais informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Email {#mail}
 
@@ -82,6 +95,12 @@ Quando o formulário for enviado, o conteúdo do formulário será armazenado em
 * **Caminho** do conteúdo - Caminho do repositório do conteúdo no qual o conteúdo enviado é armazenado
 * **Dados** de visualização - Toque ou clique para visualização de dados enviados armazenados como JSON
 * **Fluxo de trabalho** do start - Configure para start de um fluxo de trabalho com o conteúdo armazenado como carga após o envio do formulário
+
+>[!NOTE]
+>
+>Para tornar o gerenciamento de dados de usuários mais simples e impor a separação de preocupações, geralmente não é recomendado armazenar conteúdo gerado pelo usuário no repositório.
+>
+>Em vez disso, use o tipo de ação [Publicar dados](#post-data) do formulário para passar o conteúdo do usuário para um provedor de serviço dedicado.
 
 ### Configurações gerais {#general-settings}
 
