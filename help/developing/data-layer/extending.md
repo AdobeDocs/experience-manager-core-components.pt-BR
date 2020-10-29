@@ -2,9 +2,9 @@
 title: Extensão da camada de dados do cliente Adobe
 description: A Camada de Dados do Cliente Adobe pode ser estendida seguindo alguns padrões básicos
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ Um Componente principal como o componente [](https://github.com/adobe/aem-core-w
 Portanto, seu modelo Sling personalizado pode ter um `getData` método que retorna um objeto que se estende `ComponentData` para retornar mais campos.
 
 Ao fazer isso, adicionará um `data-cmp-data-layer` atributo ao elemento HTML do seu componente com o JSON dos dados que serão preenchidos na camada de dados. Nesse ponto, é possível implementar scripts que ouvem esses dados ou eventos relacionados.
+
+>[!TIP]
+>
+>Para explorar a flexibilidade da camada de dados, analise sobre as opções de integração, incluindo como ativar a camada de dados para seus componentes personalizados.
