@@ -2,10 +2,10 @@
 title: Usando a camada de dados do cliente Adobe com os componentes principais
 description: Usando a camada de dados do cliente Adobe com os componentes principais
 translation-type: tm+mt
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '893'
+ht-degree: 3%
 
 ---
 
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## Tutorial
 
 Deseja explorar a camada de dados e os componentes principais com mais detalhes? [Dê uma olhada neste tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)prático.
+
+>[!TIP]
+>
+>Para explorar a flexibilidade da camada de dados, analise sobre as opções de integração, incluindo como ativar a camada de dados para seus componentes personalizados.
