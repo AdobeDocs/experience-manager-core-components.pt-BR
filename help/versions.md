@@ -2,9 +2,9 @@
 title: Versões dos Componentes principais principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais versões e versões são e como entender a compatibilidade com os Componentes principais e AEM.
 translation-type: tm+mt
-source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
+source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1848'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # Versões dos Componentes principais principais {#core-components-versions}
 
-A versão atual dos Componentes principais é 2.12.0 e é compatível com [AEM como instalações de Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) e [no local AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Ela foi lançada em outubro de 2020 como uma atualização importante para a versão 2.0.0. A versão 2.0.0 introduziu novos componentes juntamente com atualizações v2 de componentes existentes.
+A versão atual dos Componentes principais é 2.12.1 e é compatível com [AEM como instalações de Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) e [no local AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Foi lançado em novembro de 2020 como versão de patch para 2.12.0. A versão 2.12.0 introduziu vários novos recursos para formulários, metadados e a camada de dados.
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
@@ -26,8 +26,9 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes](htt
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versão introduziu [um novo manipulador de formulários POST;](/help/components/forms/form-container.md#post-data) a capacidade de incluir CSS, Javascript e [tags de metadados personalizadas por meio da configuração sensível ao contexto;](/help/developing/including-clientlibs.md#context-aware-loading) e um `DataLayerBuilder` utilitário para [simplificar a integração da camada de dados em componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | Contínuo | 8, 11 | 29 de outubro de 2020 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versão apresentou suporte para [AMP.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | Contínuo | 8, 11 | 20 de julho de 2020 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | Esta foi uma versão de correção para 2.12.0 que corrige um erro principal no Componente de imagem. | 6.4.8.1+ * | 6.5.5.0+ * | Contínuo | 8, 11 | 5 de novembro de 2020 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versão introduziu [um novo manipulador de formulários POST;](/help/components/forms/form-container.md#post-data) a capacidade de incluir CSS, Javascript e [tags de metadados personalizadas por meio da configuração sensível ao contexto;](/help/developing/including-clientlibs.md#context-aware-loading) e um `DataLayerBuilder` utilitário para [simplificar a integração da camada de dados em componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Contínuo | 8, 11 | 29 de outubro de 2020 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versão apresentou suporte para [AMP.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | Contínuo | 8, 11 | 20 de julho de 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versão apresentou o componente Visualizador de [PDF.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Contínuo | 8, 11 | 17 de junho de 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versão habilitou a integração com a Camada [de Dados do Cliente](/help/developing/data-layer/overview.md) Adobe e introduziu o componente da Barra de [Progresso.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | Contínuo | 8, 11 | 29 de maio de 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versão focou em correções com pequenos aprimoramentos. | 6.4.4.0+ | 6.5.0.0+ | Contínuo | 8, 11 | 5 de dezembro de 2019 |
@@ -51,6 +52,10 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes](htt
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Versão inicial dos Componentes principais. | 6.4.0.0+ | - | - | 7 | 20 de março de 2017 |
 
 >[!NOTE]
+>
+>(*) Desde a versão 2.11.0, é necessária a `org.apache.sling.models.impl` versão 1.4.12 ou superior (devido ao [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Isso será fornecido para AEM 6.4 e 6.5 em um Service Pack futuro. Até então, o pacote Sling Models é incluído no `core.wcm.components.all` pacote.
+
+>[!TIP]
 >
 >Assim como no AEM, a Adobe recomenda que os desenvolvedores usem a versão [mais recente e as versões dos Componentes](https://github.com/adobe/aem-core-wcm-components/releases/latest) principais disponíveis, compatíveis com a versão dos AEM que estão sendo executados para se beneficiarem das correções e recursos mais atualizados.
 
