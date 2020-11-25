@@ -2,10 +2,10 @@
 title: Arquétipo de projeto do AEM
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 9%
+source-wordcount: '1035'
+ht-degree: 10%
 
 ---
 
@@ -90,21 +90,6 @@ A dependência dos Componentes principais só é adicionada para versões aem n�
 | `commerceEndpoint` |  | Obrigatório apenas para CIF. Ponto de extremidade opcional do serviço GraphQL do sistema de comércio a ser usado (por exemplo, `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Ative a integração com a Camada [de dados do cliente](/help/developing/data-layer/overview.md)Adobe. |
 | `amp` | `n` | Ative o suporte [AMP](/help/developing/amp.md) para modelos de projeto gerados. |
-
-## Módulo analisador {#analyzer-module}
-
-O plug-in Maven do analisador de AEM analisa a estrutura dos vários projetos de pacotes de conteúdo.
-
-Consulte a documentação [](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) AEM Analyzer Maven Plugin para obter informações sobre como incluí-lo em um projeto AEM maven. O plug-in está incluído AEM arquétipo Maven versão 25 e superior.
-
-Abaixo está uma tabela descrevendo os analisadores que são executados como parte dessa etapa. Observe que alguns são executados no SDK local, enquanto outros são executados somente durante a implantação do pipeline do Gerenciador de nuvem.
-
-| Módulo | Função, exemplo e solução de problemas | SDK local | Cloud Manager |
-|---|---|---|---|
-| `api-regions-exportsimports` | Verifica se todos os pacotes OSGI têm as suas declarações Pacote de Importação satisfeitas pela declaração Pacote de Exportação de outros pacotes incluídos no projeto Maven. <p> </p> Para solucionar problemas, verifique o manifesto do pacote que você espera exportar para determinar se o nome errado ou a versão incorreta foi usada. | Sim | Sim |
-| `requirements-capabilities` | Verifica se todas as declarações de requisitos feitas em pacotes OSGI são satisfeitas pelas declarações de capacidades de outros pacotes incluídos no projeto Maven. <p> </p> Para solucionar problemas, verifique o manifesto do pacote que você esperaria que declarasse um recurso para determinar por que ele está faltando. | Sim | Sim |
-| `bundle-content` | Emite um aviso se um pacote contiver conteúdo inicial especificado com Sling-Initial-Content, o que é problemático no AEM como um ambiente agrupado. | Sim | Sim |
-| `api-regions-crossfeature-dups` | Valida que os pacotes OSGI do cliente não têm declarações de pacote de exportação que substituem AEM como uma API pública do Cloud Service | Sim | Sim |
 
 ## Requisitos do sistema
 
