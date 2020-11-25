@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guia dos componentes principais
 user-guide-description: Use os componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 71%
+source-wordcount: '206'
+ht-degree: 69%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 71%
       + [Módulo ui.frontende.response](developing/archetype/uifrontend-react.md)
       + [ui.frontenst.angle Module](developing/archetype/uifrontend-angular.md)
       + [Módulo ui.testing](developing/archetype/uitests.md)
+      + [Plug-in Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
