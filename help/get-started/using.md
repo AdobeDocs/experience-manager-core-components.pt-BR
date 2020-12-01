@@ -4,8 +4,8 @@ description: '"Para começar a usar os Componentes principais em seu próprio pr
 translation-type: tm+mt
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Para começar a usar os Componentes principais em seu próprio projeto, há quat
 >[!NOTE]
 >
 >Como alternativa, para obter instruções mais amplas sobre como começar do zero com a configuração do projeto, os Componentes principais, Modelos editáveis, Bibliotecas do cliente e desenvolvimento de componentes, o seguinte tutorial de várias partes pode ser de interesse:\
->[Introdução ao AEM Sites - Tutorial WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Introdução ao AEM Sites - Tutorial do WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Baixar e instalar {#download-and-install}
 
@@ -34,24 +34,27 @@ Existem várias maneiras de automatizar isso, mas a maneira mais simples de inst
 
 ## Criar componentes proxy {#create-proxy-components}
 
-Por motivos explicados na seção Padrão [do componente](/help/developing/guidelines.md#proxy-component-pattern) proxy, os Componentes principais não devem ser referenciados diretamente do conteúdo. Para evitar isso, todos pertencem a um grupo de componentes ocultos ( `.core-wcm` ou `.core-wcm-form`), o que impedirá que eles apareçam diretamente no editor.
+Por motivos explicados na seção [Padrão do componente proxy](/help/developing/guidelines.md#proxy-component-pattern), os Componentes principais não devem ser referenciados diretamente do conteúdo. Para evitar isso, todos pertencem a um grupo de componentes ocultos ( `.core-wcm` ou `.core-wcm-form`), o que impedirá que eles apareçam diretamente no editor.
 
-Em vez disso, os componentes específicos do site devem ser criados, que definem o nome do componente e o grupo desejados para exibição aos autores da página, e fazem referência a cada um dos componentes principais como seu supertipo. Esses componentes específicos do site às vezes são chamados de &quot;componentes proxy&quot;, pois não precisam conter nada e servem principalmente para definir a versão de um componente a ser usada para o site. No entanto, ao personalizar os Componentes [](/help/developing/customizing.md)principais, esses componentes proxy desempenham um papel essencial para a marcação e a personalização lógica.
+Em vez disso, os componentes específicos do site devem ser criados, que definem o nome do componente e o grupo desejados para exibição aos autores da página, e fazem referência a cada um dos componentes principais como seu supertipo. Esses componentes específicos do site às vezes são chamados de &quot;componentes proxy&quot;, pois não precisam conter nada e servem principalmente para definir a versão de um componente a ser usada para o site. No entanto, ao personalizar os [Componentes principais](/help/developing/customizing.md), esses componentes proxy desempenham uma função essencial para a marcação e a personalização lógica.
 
 Assim, para cada Componente principal que for desejado para ser usado em um site, você deve:
 
 1. Crie um componente proxy correspondente na pasta de componentes do site.
 
-   **Exemplo** Em `/apps/my-site/components` criar um nó de título do tipo `cq:Component`
+   ****
+ExemploEm  `/apps/my-site/components` criar um nó de título do tipo  `cq:Component`
 
 1. Aponte para a versão correspondente do Componente principal com o supertipo.
 
-   **Exemplo** Adicione a seguinte propriedade:\
+   ****
+ExampleAdicione a seguinte propriedade:\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. Defina o grupo, o título e a descrição opcionalmente do componente. Esses valores são específicos do projeto e ditam como o componente é exposto aos autores.
 
-   **Exemplo** Adicione as seguintes propriedades:
+   ****
+ExemploAdicione as seguintes propriedades:
 
    ```shell
    componentGroup="My Site"
@@ -59,12 +62,12 @@ Assim, para cada Componente principal que for desejado para ser usado em um site
    jcr:description="Section Heading"
    ```
 
-Por exemplo, observe o componente de [título do site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)WKND, que é um bom exemplo de um componente proxy criado dessa forma.
+Por exemplo, observe o componente [title do site WKND](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), que é um bom exemplo de um componente proxy criado dessa forma.
 
 ## Carregue os estilos principais {#load-the-core-styles}
 
-1. Se ainda não tiver sido feito, crie uma Biblioteca [de](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html) clientes que contenha todos os arquivos CSS e JS necessários para o seu site.
-1. Na Biblioteca de clientes do seu site, adicione as dependências aos Componentes principais que podem ser necessárias. Isso é feito adicionando uma `embed` propriedade.
+1. Caso ainda não tenha sido feito, crie uma [Biblioteca de clientes](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html) que contenha todos os arquivos CSS e JS necessários para o seu site.
+1. Na Biblioteca de clientes do seu site, adicione as dependências aos Componentes principais que podem ser necessárias. Isso é feito adicionando uma propriedade `embed`.
 
    Por exemplo, para incluir as Bibliotecas de clientes de todos os componentes principais v1, a propriedade a ser adicionada seria:
 
@@ -82,7 +85,7 @@ Certifique-se de que seus componentes proxy e bibliotecas de clientes foram impl
 
 ## Permitir os componentes {#allow-the-components}
 
-As etapas a seguir são executadas no Editor [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de modelos.
+As etapas a seguir são executadas no [Editor de modelos](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. No Editor de modelos, selecione o Container Layout e abra sua política.
 1. Na lista de componentes permitidos, selecione os componentes proxy criados anteriormente, que devem aparecer abaixo do grupo de componentes atribuído a eles. Depois de concluído, aplique as alterações.
@@ -92,5 +95,5 @@ As etapas a seguir são executadas no Editor [](https://docs.adobe.com/content/h
 
 **Leia a seguir:**
 
-* [Personalização dos componentes](/help/developing/customizing.md) principais - para saber como estilizar e personalizar os componentes principais.
-* [Diretrizes](/help/developing/guidelines.md) de componentes - para conhecer os padrões de implementação dos Componentes principais.
+* [Personalização dos componentes](/help/developing/customizing.md)  principais - para saber como estilizar e personalizar os componentes principais.
+* [Diretrizes](/help/developing/guidelines.md)  de componentes - para saber mais sobre os padrões de implementação dos Componentes principais.
