@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # Incluindo bibliotecas de clientes {#including-client-libraries}
 
-Existem várias maneiras diferentes de incluir bibliotecas [de](/help/developing/archetype/uifrontend.md#clientlibs) clientes, dependendo do caso de uso. Este documento fornece exemplos e trechos [](https://docs.adobe.com/content/help/pt-BR/experience-manager-htl/using/overview.html) HTL de amostra para cada um.
+Existem várias maneiras diferentes de incluir [bibliotecas de clientes](/help/developing/archetype/uifrontend.md#clientlibs), dependendo do caso de uso. Este documento fornece exemplos e exemplos de [trechos HTL](https://docs.adobe.com/content/help/pt-BR/experience-manager-htl/using/overview.html) para cada um.
 
 ## Uso padrão recomendado {#recommended-default-usage}
 
-Se você não tiver tempo para investigar o que há de melhor em sua situação, inclua as bibliotecas do cliente colocando as seguintes linhas HTL dentro do elemento da página `head` :
+Se você não tiver tempo para investigar o que há de melhor em sua situação, inclua as bibliotecas clientes colocando as seguintes linhas HTL dentro do elemento `head` da página:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ Se você não tiver tempo para investigar o que há de melhor em sua situação,
 </sly>
 ```
 
-Isso incluirá o CSS e o JS na sua página `head`, mas a adição do `defer` atributo ao JS `script` inclui, para que os navegadores esperem pelo DOM estar prontos antes de executar seus scripts e, portanto, otimizem a velocidade de carregamento da página.
+Isso incluirá o CSS e o JS na sua página `head`, mas a adição do atributo `defer` ao JS `script` inclui, para que os navegadores aguardem o DOM estar pronto antes da execução dos scripts e, portanto, otimizem a velocidade de carregamento da página.
 
 ## Uso básico {#basic-usage}
 
-A sintaxe básica para incluir JS e CSS de uma categoria da biblioteca do cliente, que gerará todos os `link` elementos CSS e/ou `script` elementos JS correspondentes, é a seguinte:
+A sintaxe básica para incluir JS e CSS de uma categoria de biblioteca do cliente, que gerará todos os elementos CSS `link` e/ou elementos JS `script` correspondentes, é a seguinte:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -37,7 +37,7 @@ A sintaxe básica para incluir JS e CSS de uma categoria da biblioteca do client
 </sly>
 ```
 
-Para fazer o mesmo para várias categorias de biblioteca de cliente ao mesmo tempo, uma matriz de sequências de caracteres pode ser passada para o `categories` parâmetro:
+Para fazer o mesmo para várias categorias de biblioteca de cliente ao mesmo tempo, uma matriz de strings pode ser passada para o parâmetro `categories`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -48,9 +48,9 @@ Para fazer o mesmo para várias categorias de biblioteca de cliente ao mesmo tem
 
 ## Somente CSS ou JS {#css-js-only}
 
-Frequentemente, é necessário colocar o CSS incluído no `head` elemento HTML, e o JS inclui pouco antes do fechamento do `body` elemento.
+Frequentemente, é necessário colocar o CSS incluído no elemento HTML `head`, e o JS inclui pouco antes do fechamento do elemento `body`.
 
-No `head`, para incluir apenas o CSS, e não o JS, use `cssIncludes`:
+Em `head`, para incluir somente o CSS, e não o JS, use `cssIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ No `head`, para incluir apenas o CSS, e não o JS, use `cssIncludes`:
 </sly>
 ```
 
-Antes de `body` fechar, para incluir somente o JS, e não o CSS, use `jsIncludes`:
+Antes de fechar `body`, para incluir somente o JS, e não o CSS, use `jsIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -68,7 +68,7 @@ Antes de `body` fechar, para incluir somente o JS, e não o CSS, use `jsIncludes
 
 ## Atributos {#attributes}
 
-Para aplicar atributos aos `link` elementos CSS e/ou `script` elementos JS gerados, é possível usar vários parâmetros:
+Para aplicar atributos aos elementos CSS `link` gerados e/ou aos elementos JS `script`, vários parâmetros são possíveis:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -84,17 +84,17 @@ Para aplicar atributos aos `link` elementos CSS e/ou `script` elementos JS gerad
 
 Atributos CSS `link` que podem ser transmitidos para `jsAndCssIncludes` e `cssIncludes`:
 
-* `media`: atributos JS de string `script` que podem ser passados para `jsAndCssIncludes` e `jsIncludes`:
+* `media`: os  `script` atributos JS de string que podem ser passados para  `jsAndCssIncludes` e  `jsIncludes`:
 * `async`: boolean
-* `defer`: boolean
+* `defer`: booleano
 * `onload`: sequência de caracteres
 * `crossorigin`: sequência de caracteres
 
-## Inclinar {#inlining}
+## Inline {#inlining}
 
-Em alguns casos, seja para otimização, seja para email ou [AMP,](amp.md) pode ser necessário inline o CSS ou JS na saída do HTML.
+Em alguns casos, para otimização ou para e-mail ou [AMP,](amp.md) pode ser necessário inline o CSS ou JS na saída do HTML.
 
-Para embutir o CSS, `cssInline` é possível usá-lo, caso em que você deve gravar o `style` elemento adjacente:
+Para embutir o CSS, `cssInline` pode ser usado, nesse caso, você deve gravar o elemento `style` ao redor:
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ Para embutir o CSS, `cssInline` é possível usá-lo, caso em que você deve gra
 </style>
 ```
 
-Da mesma forma, para embutir o JS, `jsInline` pode ser usado, e nesse caso você deve gravar o `script` elemento adjacente:
+Da mesma forma, para embutir o JS, `jsInline` pode ser usado, nesse caso, você deve gravar o elemento `script` ao redor:
 
 ```html
 <script type="text/javascript"
@@ -114,9 +114,9 @@ Da mesma forma, para embutir o JS, `jsInline` pode ser usado, e nesse caso você
 
 ## Carregamento de CSS e JavaScript sensíveis ao contexto {#context-aware-loading}
 
-O componente [](/help/components/page.md) Página também suporta o carregamento de tags CSS, JavaScript ou meta com reconhecimento de contexto definidas pelo desenvolvedor.
+O [Componente de página](/help/components/page.md) também oferece suporte ao carregamento de tags CSS, JavaScript ou meta com reconhecimento de contexto definidas pelo desenvolvedor.
 
-Isso é feito criando um recurso [sensível ao](context-aware-configs.md) contexto para `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` usar a seguinte estrutura:
+Isso é feito criando um [recurso sensível ao contexto](context-aware-configs.md) para `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` usando a seguinte estrutura:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
