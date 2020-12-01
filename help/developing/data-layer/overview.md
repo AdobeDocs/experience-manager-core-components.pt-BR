@@ -20,17 +20,17 @@ Como os Componentes principais, o código da Camada de dados do cliente do Adobe
 
 >[!TIP]
 >
->Para obter mais informações sobre a Camada de dados do cliente Adobe, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
+>Para obter mais informações sobre a Camada de Dados do Cliente Adobe, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente Adobe com os componentes principais, consulte o [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) arquivo no repositório dos componentes principais.
+>Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente Adobe com os componentes principais, consulte o arquivo [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) no repositório dos componentes principais.
 
 ## Instalação e Ativação {#installation-activation}
 
 A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma Biblioteca de clientes AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de Dados ativada por padrão.
 
-Para ativar manualmente a Camada de Dados, é necessário criar uma configuração [sensível ao](/help/developing/context-aware-configs.md) contexto para ela:
+Para ativar manualmente a Camada de Dados, é necessário criar uma [configuração sensível ao contexto](/help/developing/context-aware-configs.md) para ela:
 
-1. Crie a seguinte estrutura abaixo da `/conf/<mySite>` pasta, onde `<mySite>` é o nome do projeto de seu Site:
+1. Crie a seguinte estrutura abaixo da pasta `/conf/<mySite>`, onde `<mySite>` é o nome do projeto do seu Site:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
    * Onde cada nó tem um `jcr:primaryType` definido como `nt:unstructured`.
 1. Adicione uma propriedade booleana chamada `enabled` e defina-a como `true`.
@@ -39,9 +39,9 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma configuraç�
 
    *Localização de DataLayerConfig no Site de Referência WKND*
 
-1. Adicione uma `sling:configRef` propriedade ao `jcr:content` nó do site abaixo `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina-a como `/conf/<mySite>` da etapa anterior.
+1. Adicione uma propriedade `sling:configRef` ao nó `jcr:content` do site abaixo de `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina-o como `/conf/<mySite>` da etapa anterior.
 
-1. Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor. A origem da página e a `<body>` tag do Inspect devem incluir um atributo `data-cmp-data-layer-enabled`
+1. Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor. A origem da página e a tag `<body>` do Inspect devem incluir um atributo `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -57,7 +57,7 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma configuraç�
        </script>
    ```
 
-1. Você também pode abrir as ferramentas do desenvolvedor do seu navegador e, no console, o objeto `adobeDataLayer` JavaScript deve estar disponível. Digite o seguinte comando para obter o estado da Camada de dados da sua página atual:
+1. Você também pode abrir as ferramentas do desenvolvedor do seu navegador e no console o objeto `adobeDataLayer` JavaScript deve estar disponível. Digite o seguinte comando para obter o estado da Camada de dados da sua página atual:
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -67,7 +67,7 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma configuraç�
 
 A seguir está uma lista de schemas que os Componentes principais usam com a Camada de dados.
 
-### Schema de componente/item de Container {#item}
+### Schema de Item de Componente/Container {#item}
 
 O schema de componente/item de Container é usado nos seguintes componentes:
 
@@ -94,11 +94,11 @@ id: {                   // component ID
 }
 ```
 
-O seguinte [evento](#events) é relevante para o schema Componente/Item do Container:
+O seguinte [evento](#events) é relevante para o schema Componente/Item de Container:
 
 * `cmp:click`
 
-### Schema da página {#page}
+### Schema de página {#page}
 
 O schema Página é usado pelo seguinte componente:
 
@@ -122,9 +122,9 @@ id: {
 }
 ```
 
-Um `cmp:show` evento é acionado no carregamento da página. Esse evento é despachado do JavaScript em linha imediatamente abaixo da `<body>` tag de abertura, tornando-o o evento mais antigo na fila de evento da camada de dados.
+Um evento `cmp:show` é acionado no carregamento da página. Esse evento é despachado do JavaScript em linha imediatamente abaixo da tag `<body>` de abertura, tornando-se o primeiro evento na fila de evento da camada de dados.
 
-### Schema container {#container}
+### Schema de container {#container}
 
 O schema do Container é usado pelos seguintes componentes:
 
@@ -147,7 +147,7 @@ id: {
 }
 ```
 
-Os seguintes [eventos](#events) são relevantes para o schema do Container:
+Os seguintes Container [eventos](#events) são relevantes para o schema:
 
 * `cmp:click`
 * `cmp:show`
@@ -174,7 +174,7 @@ id: {
 }
 ```
 
-O seguinte [evento](#events) é relevante para o schema de imagem:
+O seguinte schema [a1/> é relevante para o evento de Imagem:](#events)
 
 * `cmp:click`
 
@@ -198,15 +198,15 @@ O seguinte [evento](#events) é relevante para o schema de ativos:
 
 * `cmp:click`
 
-## Eventos componentes principais {#events}
+## Eventos de componentes principais {#events}
 
-Há vários eventos que os Componentes principais acionam por meio da Camada de dados. A prática recomendada para interagir com a Camada de dados é [registrar um ouvinte](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) de eventos e *depois* executar uma ação com base no tipo de evento e/ou componente que acionou o evento. Isso evitará possíveis condições de raça com scripts assíncronos.
+Há vários eventos que os Componentes principais acionam por meio da Camada de dados. A prática recomendada para interagir com a Camada de dados é [registrar um ouvinte de eventos](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) e *em seguida* realizar uma ação com base no tipo de evento e/ou no componente que acionou o evento. Isso evitará possíveis condições de raça com scripts assíncronos.
 
 Abaixo estão os eventos prontos para uso fornecidos pelos componentes principais AEM:
 
-* **`cmp:click`** - Clicar em um elemento clicável (um elemento que tem um `data-cmp-clickable` atributo) faz com que a camada de dados dispare um `cmp:click` evento.
-* **`cmp:show`** e **`cmp:hide`** - Manipular o acordeão (expandir/recolher), o carrossel (botões próximo/anterior) e os componentes de guias (seleção de guia) fazem com que a camada de dados seja acionada `cmp:show` e um `cmp:hide` evento, respectivamente. Um `cmp:show` evento também é despachado no carregamento da página e espera-se que seja o primeiro evento.
-* **`cmp:loaded`** - Assim que a Camada de dados for preenchida com os Componentes principais na página, a Camada de dados acionará um `cmp:loaded` evento.
+* **`cmp:click`** - Clicar em um elemento clicável (um elemento que tem um  `data-cmp-clickable` atributo) faz com que a camada de dados dispare um  `cmp:click` evento.
+* **`cmp:show`** e  **`cmp:hide`** - Manipular o acordeão (expandir/recolher), o carrossel (botões próximo/anterior) e os componentes de guias (seleção de guia) fazem com que a camada de dados seja acionada  `cmp:show` e um  `cmp:hide` evento, respectivamente. Um evento `cmp:show` também é despachado no carregamento da página e espera-se que seja o primeiro evento.
+* **`cmp:loaded`** - Assim que a Camada de dados for preenchida com os Componentes principais na página, a Camada de dados acionará um  `cmp:loaded` evento.
 
 ### Eventos acionados pelo componente {#events-components}
 
@@ -224,7 +224,7 @@ As tabelas a seguir listas os Componentes principais padrão que acionam eventos
 | [Guias](/help/components/tabs.md) | `cmp:show` e `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### Informações do caminho do evento {#event-path-info}
+### Informações de caminho do evento {#event-path-info}
 
 Cada evento de camada de dados acionado por um componente principal AEM incluirá uma carga com o seguinte objeto JSON:
 
@@ -234,7 +234,7 @@ eventInfo: {
 }
 ```
 
-Onde `<component-path>` é o caminho JSON para o componente na Camada de dados que acionou o evento.  O valor, disponível via `event.eventInfo.path`, é importante, pois pode ser usado como um parâmetro para o `adobeDataLayer.getState(<component-path>)` qual recupera o estado atual do componente que acionou o evento, permitindo que o código personalizado acesse dados adicionais e os adicione à Camada de dados.
+Em que `<component-path>` é o caminho JSON para o componente na Camada de dados que acionou o evento.  O valor, disponível por meio de `event.eventInfo.path`, é importante, pois pode ser usado como um parâmetro para `adobeDataLayer.getState(<component-path>)`, que recupera o estado atual do componente que acionou o evento, permitindo que o código personalizado acesse dados adicionais e os adicione à Camada de dados.
 
 Por exemplo:
 
@@ -255,7 +255,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-Deseja explorar a camada de dados e os componentes principais com mais detalhes? [Dê uma olhada neste tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)prático.
+Deseja explorar a camada de dados e os componentes principais com mais detalhes? [Dê uma olhada neste tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) prático.
 
 >[!TIP]
 >
