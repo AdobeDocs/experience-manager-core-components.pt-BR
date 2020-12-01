@@ -22,28 +22,28 @@ O Componente de barra de progresso permite que o autor do conteúdo crie facilme
 
 A versão atual do Componente de barra de progresso é a v1, que foi introduzida com a versão 2.9.0 dos Componentes principais em maio de 2020 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | Compatível | Compatível | Compatível |
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente de barra de progresso e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_progressbar)componentes.
+Para experimentar o Componente de barra de progresso e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente de barra de progresso [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
 ![Caixa de diálogo de edição do componente da barra de progresso](/help/assets/progress-bar-edit.png)
 
-* **Conclusão** - O progresso como representado por uma porcentagem
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+* **Conclusão**  - O progresso como representado por uma porcentagem
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
@@ -54,4 +54,4 @@ A caixa de diálogo de design permite que o autor do modelo defina os estilos ap
 
 ### Guia Estilos {#styles-tab}
 
-O componente de barra de progresso suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente de barra de progresso suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
