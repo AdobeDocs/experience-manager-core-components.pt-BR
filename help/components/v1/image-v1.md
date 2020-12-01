@@ -5,8 +5,8 @@ index: n
 translation-type: tm+mt
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1229'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ O Componente principal de imagem é um componente de imagem adaptável com ediç
 
 O Componente de imagem permite a fácil colocação de ativos de imagem e ofertas de edição no local. Ele possui seleção adaptável de imagens com carregamento lento e recorte para o autor do conteúdo.
 
-As larguras de imagem permitidas, bem como recortes e configurações adicionais podem ser definidas pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode fazer upload ou selecionar ativos na caixa de diálogo [de](#configure-dialog) configuração e cortar a imagem na caixa de diálogo [de](#edit-dialog)edição. Para maior conveniência, a modificação simples no local da imagem também está disponível.
+As larguras de imagem permitidas, bem como recortes e configurações adicionais podem ser definidas pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos na [caixa de diálogo de configuração](#configure-dialog) e cortar a imagem na [caixa de diálogo de edição](#edit-dialog). Para maior conveniência, a modificação simples no local da imagem também está disponível.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -36,11 +36,11 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de imagem.
 >
 >Este documento descreve a v1 do Componente de imagem.
 >
->Para obter detalhes sobre a versão atual do Componente de imagem, consulte o documento do Componente [de](/help/components/image.md) imagem.
+>Para obter detalhes sobre a versão atual do Componente de imagem, consulte o documento [Componente de imagem](/help/components/image.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -73,30 +73,30 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-Além da caixa de diálogo [de](#edit-dialog) edição padrão e da caixa de diálogo [de](#design-dialog)design, o componente de imagem oferta uma caixa de diálogo de configuração onde a própria imagem é definida, juntamente com sua descrição e propriedades básicas.
+Além da caixa de diálogo padrão [edit](#edit-dialog) e da caixa de diálogo [design](#design-dialog), o componente de imagem oferta uma caixa de diálogo de configuração na qual a própria imagem é definida juntamente com sua descrição e propriedades básicas.
 
 ![](/help/assets/chlimage_1-50.png)
 
 * **Ativos da imagem**
-   * Solte um ativo do navegador [de](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ativos ou toque na opção de **navegação** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do [navegador de ativos](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ou toque na opção **browse** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) no editor de ativos.
 
-* **A imagem é decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
-* **Texto** alternativo - Alternativa textual do significado ou função da imagem, para leitores com deficiências visuais.
+* **Imagem decorativa**  - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
+* **Texto**  alternativo - Alternativa textual do significado ou função da imagem, para leitores com deficiências visuais.
 * **Link**
    * Vincule a imagem a outro recurso.
    * Use a caixa de diálogo de seleção para vincular a outro recurso AEM.
    * Se não estiver vinculando a um recurso AEM, insira o URL absoluto. URLs não solutos serão interpretados como relativos a AEM.
 
-* **Legenda** - Informações adicionais sobre a imagem, exibidas abaixo da imagem, são padrão.
-* **Exibir legenda como pop-up** - quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
+* **Legenda**  - Informações adicionais sobre a imagem, exibidas abaixo da imagem, são padrão.
+* **Exibir legenda como pop-up** : quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifique o mapa de inicialização e aumente o zoom da imagem.
 
@@ -108,7 +108,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
    Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
 
-   * Escolha a opção Mão **livre** para definir seu próprio corte.
+   * Escolha a opção **Mão Livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
 
    Depois que uma opção de recorte for selecionada, use as alças azuis para dimensionar o recorte na imagem.
@@ -143,7 +143,8 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
       * Use a opção Seletor de caminho para selecionar um caminho no AEM
       * Se o caminho não estiver em AEM, use o URL absoluto. Caminhos não absolutos serão interpretados em relação ao AEM.
 
-      * **Texto** alternativoDescrição alternativa do destino do caminho
+      * **Texto alternativo**
+Descrição alternativa do destino do caminho
       * **Target**
          * **Mesma guia**
          * **Nova guia**
@@ -182,7 +183,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os uploads de
 
 ### Principal {#main}
 
-On the **Main** tab you can define a list of allowed widths in pixels for the image to automatically load the most appropriate width from the list.
+Na guia **Main**, é possível definir uma lista de larguras permitidas em pixels para que a imagem carregue automaticamente a largura mais apropriada da lista.
 
 ![](/help/assets/chlimage_1-51.png)
 
@@ -195,24 +196,25 @@ Por padrão, o carregamento de imagens é adiado até que se tornem visíveis. S
 
 ### Recursos {#features}
 
-Na guia **Recursos** , é possível definir quais opções estão disponíveis para os autores de conteúdo ao usar o componente, incluindo opções de upload, orientação e recorte.
+Na guia **Recursos**, é possível definir quais opções estão disponíveis para os autores de conteúdo ao usar o componente, incluindo opções de upload, orientação e opções de recorte.
 
 * Origem
 
    ![](/help/assets/chlimage_1-19.png)
 
-   Selecione a opção **Permitir o upload de ativos do sistema** de arquivos para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar os autores de conteúdo a selecionar somente ativos de AEM, desmarque essa opção.
+   Selecione a opção **Permitir o upload de ativos do sistema de arquivos** para permitir que os autores de conteúdo carreguem imagens de seu computador local. Para forçar os autores de conteúdo a selecionar somente ativos de AEM, desmarque essa opção.
 
 * Orientação
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **Girar** - Use essa opção para permitir que o autor do conteúdo use a opção **Girar à direita** .
-   * **Virar** Use essa opção para permitir que o autor do conteúdo use a variável 
-**Opções Virar horizontalmente** e **Virar verticalmente** .
+   * **Girar**  - Use essa opção para permitir que o autor do conteúdo use a opção  **Girar** direita.
+   * ****
+VirarUse esta opção para permitir que o autor do conteúdo use a variável 
+**Opções Virar** horizontalmente e  **Virar** verticalmente.
    >[!CAUTION]
    >
-   >A opção **Virar** está desativada por padrão. Habilitá-lo exibirá os botões **Virar verticalmente** e **Virar horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pela AEM e nenhuma alteração feita usando essas opções será persistida.
+   >A opção **Flip** está desativada por padrão. Habilitá-lo exibirá os botões **Virar Verticalmente** e **Virar Horizontalmente** na caixa de diálogo de edição do componente de imagem, no entanto, o recurso não é suportado atualmente pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
 
 * Cortar
 
@@ -220,14 +222,14 @@ Na guia **Recursos** , é possível definir quais opções estão disponíveis p
 
    Selecione a opção **Permitir recorte** para permitir que o autor do conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma proporção de corte predefinida.
-   * Digite um nome descritivo, que será exibido na lista suspensa Recortar **do** Start.
+   * Digite um nome descritivo, que será exibido na lista suspensa **Recortar do Start**.
    * Insira a proporção numérica do aspecto.
    * Use as alças de arrastar para reorganizar a ordem das proporções
    * Use o ícone da lixeira para excluir uma proporção.
 
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
+   >Observe que em AEM, as proporções de corte são definidas como **height/width**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não terão consciência de qualquer diferença, desde que você forneça um nome claro da proporção, já que o nome é exibido na interface do usuário e não a proporção propriamente dita.
 
 ## Detalhes técnicos {#technical-details}
 
@@ -235,4 +237,4 @@ A documentação técnica mais recente sobre o Componente de imagem [pode ser en
 
 Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
