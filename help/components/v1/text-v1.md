@@ -4,6 +4,9 @@ description: O componente de texto é um componente de edição e composição d
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 3%
 
 ---
 
@@ -14,13 +17,13 @@ O componente de texto é um componente de edição e composição de rich text q
 
 ## Uso {#usage}
 
-O componente de texto oferece um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
+O componente de texto oferta um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
-A caixa de diálogo [de](#edit-dialog) edição possui edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a caixa de diálogo [de](#design-dialog)design, opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
+A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do componente de texto, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de texto, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
 
 A tabela a seguir lista a compatibilidade de v1 do Componente de texto.
 
@@ -33,11 +36,11 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de texto.
 >
 >Este documento descreve v1 do Componente de texto.
 >
->Para obter detalhes sobre a versão atual do Componente de texto, consulte o documento Componente [de](/help/components/text.md) texto.
+>Para obter detalhes sobre a versão atual do Componente de texto, consulte o documento [Componente de texto](/help/components/text.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -65,11 +68,11 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
-A caixa de diálogo de edição oferece as ferramentas padrão de formatação Rich Text que um usuário esperaria compor texto.
+A caixa de diálogo de edição oferta as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
 
 ![](/help/assets/chlimage_1-52.png)
 
@@ -79,7 +82,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar negrito o texto inserido após o cursor.
 
-   **Ctrl+B** pode ser usado como um atalho do teclado.
+   **Ctrl+** Bcan pode ser usado como um atalho do teclado.
 
 * Itálico
 
@@ -87,7 +90,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Usado para aplicar a formatação em itálico ao texto selecionado ou para colocar o texto em itálico inserido após o cursor.
 
-   **Ctrl+I** pode ser usado como um atalho do teclado.
+   **Ctrl+** Id pode ser usado como um atalho do teclado.
 
 * Sublinhado
 
@@ -95,7 +98,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Usado para aplicar a formatação sublinhada ao texto selecionado ou ao texto sublinhado inserido após o cursor.
 
-   **Ctrl+U** pode ser usado como um atalho do teclado.
+   **Ctrl+** UID pode ser usado como um atalho do teclado.
 
 * Subscrito
 
@@ -107,7 +110,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    ![](/help/assets/chlimage_1-57.png)
 
-   Usado para formatar o texto selecionado ou o texto inserido após o cursor como sobrescrito.
+   Usado para formatar o texto selecionado ou o texto digitado após o cursor como sobrescrito.
 
 * Colar como texto
 
@@ -115,7 +118,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Cola qualquer texto copiado como texto sem formatação.
 
-   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
    ![](/help/assets/chlimage_1-59.png)
 
@@ -123,7 +126,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    ![](/help/assets/chlimage_1-60.png)
 
-   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
    ![](/help/assets/chlimage_1-61.png)
 
@@ -147,6 +150,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
       * Nova guia
       * Quadro pai
       * Quadro superior
+
    Toque ou clique na marca de seleção para aplicar o link ou o x para cancelar.
 
 * Desvincular
@@ -189,9 +193,9 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
 
-   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** está ativo somente quando uma correspondência é feita.
+   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
 
-   Selecione **Substituir todas** para substituir todas as ocorrências do texto ao mesmo tempo.
+   Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
 
 * Alinhar texto à esquerda
 
@@ -217,7 +221,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    Usado para formatar o texto selecionado como uma lista com marcadores ou iniciar a inserção de uma lista com marcadores após o cursor.
 
-   Para encerrar uma lista com marcadores, toque ou clique no botão **Marcador** novamente ou insira duas retornos de carro.
+   Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas retornos de carro.
 
 * Numerado
 
@@ -249,20 +253,20 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    ![](/help/assets/chlimage_1-79.png)
 
-   * **Colunas** - O número de colunas da tabela (obrigatório)
-   * **Linhas** - O número de linhas da tabela (obrigatório)
-   * **Largura** - A largura da tabela
-   * **Altura** - A altura da tabela
+   * **Colunas**  - O número de colunas da tabela (obrigatório)
+   * **Linhas**  - O número de linhas da tabela (obrigatório)
+   * **Largura**  - A largura da tabela
+   * **Altura**  - A altura da tabela
    * **Preenchimento** da célula - O espaço ao redor do conteúdo da célula
-   * **Espaçamento entre células** - O espaço entre células
-   * **Borda** - O peso das linhas de borda da tabela
+   * **Espaçamento**  da célula - O espaço entre células
+   * **Borda**  - O peso das linhas de borda da tabela
    * Se for o cabeçalho da tabela:
 
       * A primeira linha deve ser usada
       * A primeira coluna deve ser usada
       * A primeira linha e a primeira coluna devem ser usadas
       * Ou nenhum cabeçalho deve ser usado.
-   * **Legenda** - A legenda da tabela
+   * **Legenda**  - A legenda da tabela
 
 
 * Verificar ortografia
@@ -285,16 +289,16 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação R
 
    ![](/help/assets/chlimage_1-83.png)
 
-   Usado para exibir e modificar a fonte HTML do texto.
+   Usado para visualização e modificação da fonte HTML do texto.
 
-   Toque ou clique no ícone Editar **** fonte para alterar o conteúdo do texto da exibição formatada para exibir o HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone Editar **** fonte para retornar à exibição formatada.
+   Toque ou clique no ícone **Edição de origem** para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone **Edição de origem** para retornar à visualização formatada.
 
    >[!CAUTION]
    >
-   >Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção Edição **de** origem!
+   >Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção **Edição de origem**!
    >
    >
-   >O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+   >O HTML inserido via **Edição de origem** é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Edição de Origem** pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
 
 * Formato de parágrafo
 
@@ -320,7 +324,7 @@ Os seguintes recursos podem ser ativados ou desativados para o componente.
 
 * Colar texto sem formatação
 * Passado da palavra
-* Find and replace
+* Localizar e substituir
 * Verificador ortográfico
 * Edição de origem
 
@@ -345,7 +349,7 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 
 * Toque ou clique no botão **Adicionar** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de estilo ou clique no botão **Excluir** .
+* Para remover um toque de estilo ou clique no botão **Excluir**.
 * Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
 
 ### Caracteres especiais {#special-characters}
@@ -356,13 +360,13 @@ A opção para inserir caracteres especiais pode ser ativada ou desativada para 
 
 * Toque ou clique no botão **Adicionar** para inserir um novo caractere.
 * Insira o código HTML do caractere e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de caractere ou clique no botão **Excluir** .
+* Para remover um toque de caractere ou clique no botão **Excluir**.
 * Para reorganizar a ordem dos caracteres, toque ou clique e arraste as alças.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de texto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+A documentação técnica mais recente sobre o Componente de texto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
