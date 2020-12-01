@@ -4,6 +4,9 @@ description: O Componente principal de título do componente é um componente de
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +19,11 @@ O Componente principal de título do componente é um componente de cabeçalho d
 
 O componente Título deve ser usado como título ou cabeçalho de uma seção de conteúdo.
 
-Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode selecionar entre os níveis de cabeçalho disponíveis na caixa de diálogo [de](#edit-dialog)edição. Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
+Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode selecionar entre os níveis de cabeçalho disponíveis na caixa de diálogo [editar](#edit-dialog). Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de título, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do Componente de título, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
 
 A tabela a seguir lista a compatibilidade de v1 do Componente de título.
 
@@ -33,11 +36,11 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de título.
 >
 >Este documento descreve a versão 1 do componente Título.
 >
->Para obter detalhes sobre a versão atual do Componente de título, consulte o documento Componente [de](/help/components/title.md) título.
+>Para obter detalhes sobre a versão atual do Componente de título, consulte o documento [Componente de título](/help/components/title.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -64,9 +67,9 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor do conteúdo defina o texto do título e selecione o nível do cabeçalho.
 
@@ -88,8 +91,8 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Título [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+A documentação técnica mais recente sobre o Componente de título [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
