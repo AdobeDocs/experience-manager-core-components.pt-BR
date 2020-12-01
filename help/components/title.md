@@ -4,8 +4,8 @@ description: O Componente principal de título do componente é um componente de
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '556'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ O Componente principal de título do componente é um componente de cabeçalho d
 
 ## Uso {#usage}
 
-O componente Título deve ser usado como título ou cabeçalho de uma seção de conteúdo. Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [de](#design-dialog)design. O editor de conteúdo pode selecionar entre os níveis de cabeçalhos disponíveis na caixa de diálogo [de](#edit-dialog)edição. Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
+O componente Título deve ser usado como título ou cabeçalho de uma seção de conteúdo. Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode selecionar entre os níveis de cabeçalho disponíveis na caixa de diálogo [editar](#edit-dialog). Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -29,26 +29,26 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | Compatível | Compatível | Compatível |
 | [v1](v1/title-v1.md) | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente de título e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_title)componentes.
+Para experimentar o Componente de título e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_title).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Título [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
+A documentação técnica mais recente sobre o Componente de título [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor do conteúdo defina o texto do título e selecione o nível do cabeçalho.
 
-* **Título** - se estiver vazio, o título da página será usado
-* **Tipo/Tamanho** - Define o nível do cabeçalho do título
-* **Link** - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+* **Título**  - se estiver vazio, o título da página será usado
+* **Tipo/Tamanho**  - Define o nível do cabeçalho do título
+* **Link**  - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
@@ -71,9 +71,9 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 
 ![Caixa de diálogo de design do Componente de título](/help/assets/title-design.png)
 
-* **Tipos / tamanhos permitidos para autores** - ative ou desative os tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando usarem o componente Título.
+* **Tipos / tamanhos permitidos para autores**  - ative ou desative os tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando usarem o componente Título.
 * **Tipo/tamanho** padrão - Defina o tipo de cabeçalho que será atribuído automaticamente quando um autor de conteúdo adicionar o Componente de título a uma página.
-* **Desativar link**- desabilite o suporte para links no componente de título para impedir que autores de conteúdo vinculem de títulos.
+* **Desativar link** - desabilite o suporte para links no componente de título para impedir que autores de conteúdo vinculem de títulos.
 
 >[!NOTE]
 >
@@ -81,4 +81,4 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 
 ### Guia Estilos {#styles-tab}
 
-O componente Título suporta o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente Título suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
