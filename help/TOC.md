@@ -1,6 +1,6 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Componentes principais AEM
 breadcrumb-title: Guia dos componentes principais
 user-guide-description: Use os componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 translation-type: tm+mt
@@ -75,7 +75,7 @@ ht-degree: 69%
    + [Suporte AMP](developing/amp.md)
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
    + [Incluindo bibliotecas de clientes](developing/including-clientlibs.md)
-   + Camada de dados do cliente Adobe {#data-layer}
+   + Camada de Dados do Cliente Adobe {#data-layer}
       + [Visão geral da camada de dados](developing/data-layer/overview.md)
       + [Integrações com a camada de dados](developing/data-layer/integrations.md)
       + [Extensão da camada de dados](developing/data-layer/extending.md)
