@@ -4,8 +4,8 @@ description: O componente principal Formulário oculto do componente permite a e
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,9 @@ O componente principal Formulário oculto do componente permite a exibição de 
 
 ## Uso {#usage}
 
-O Componente principal Formulário oculto permite a criação de campos ocultos para retornar as informações sobre a página atual ao AEM e é destinado ao uso junto com o componente [de container de](form-container.md)formulário.
+O Componente principal de formulário oculto permite que a criação de campos ocultos transmita informações sobre a página atual para AEM e é destinado a ser usado junto com o [componente de container de formulário](form-container.md).
 
-As propriedades de campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [](form-hidden.md)configurar.
+As propriedades de campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [configure](form-hidden.md).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -31,17 +31,17 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | Compatível | Compatível | Compatível |
 | [v1](/help/components/v1/form-hidden-v1.md) | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente Oculto do formulário e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_form_hidden)componentes.
+Para experimentar o componente Oculto do formulário e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_form_hidden).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente oculto do formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
+A documentação técnica mais recente sobre o Componente oculto do formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
@@ -49,14 +49,14 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina os
 
 ![Caixa de diálogo de edição oculta do formulário](/help/assets/form-hidden-edit.png)
 
-* **Nome** - O nome do campo, que é enviado com os dados do formulário
-* **Valor** - O valor do campo, que é submetido com os dados do formulário
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+* **Nome**  - O nome do campo, que é enviado com os dados do formulário
+* **Valor**  - O valor do campo, que é submetido com os dados do formulário
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
 
-Como o componente Form Oculto normalmente não tem atributos visíveis, o espaço reservado do componente no editor exibe os valores dos campos **Nome** e **Valor** se eles forem atribuídos para ajudar o autor a identificar o componente Form Oculto apropriado.
+Como o componente Form Hidden normalmente não tem atributos visíveis, o espaço reservado do componente no editor exibe os valores dos campos **Name** e **Value** se forem atribuídos para ajudar o autor a identificar o componente Form Hidden apropriado.
 
 ![Exemplo de componente oculto do formulário](/help/assets/form-hidden-example.png)
 
@@ -64,4 +64,4 @@ Como o componente Form Oculto normalmente não tem atributos visíveis, o espaç
 
 ### Guia Estilos {#styles-tab}
 
-O componente Oculto do formulário é compatível com o Sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente Oculto de formulário suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
