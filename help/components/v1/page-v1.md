@@ -4,25 +4,28 @@ description: O Componente de página é um componente de página extensível pro
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 2%
 
 ---
 
 
 # Componente de página (v1) {#page-component-v}
 
-O Componente de página é um componente de página extensível projetado para trabalhar com o editor [de](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
+O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo [e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)
 
 ## Uso {#usage}
 
 O Componente de página forma a base de todas as páginas projetadas com os componentes principais, bem como modelos editáveis. Usando o componente de página, os cabeçalhos, rodapés e a estrutura da página podem ser definidos como um modelo usando os outros componentes principais.
 
-Usando a caixa de diálogo [de](#design-dialog)design, bibliotecas personalizadas do lado do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, como o componente é a própria página, a caixa de diálogo [de](#edit-dialog) edição do componente da página é a janela de propriedades da página.
+Usando a caixa de diálogo [design](#design-dialog), bibliotecas personalizadas do lado do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, como o componente é a própria página, a [caixa de diálogo de edição](#edit-dialog) do componente de página é a janela de propriedades da página.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
 Este documento descreve a v1 do Componente de página, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v1 do Componente de página.
+A tabela a seguir lista a compatibilidade de v1 do Componente de página.
 
 | Versão do AEM | Componente de página v1 |
 |--- |--- |
@@ -33,15 +36,15 @@ A tabela a seguir lista a compatibilidade da v1 do Componente de página.
 >
 >Este documento descreve a v1 do Componente de página.
 >
->Para obter detalhes sobre a versão atual do Componente de página, consulte o documento Componente [de](/help/components/page.md) página.
+>Para obter detalhes sobre a versão atual do Componente de página, consulte o documento [Componente de página](/help/components/page.md).
 
 >[!NOTE]
 >
->v1 do componente de página não suporta o redirecionamento de página. Use a versão [atual do componente](/help/components/page.md) de página para suporte ao redirecionamento de página.
+>v1 do componente de página não suporta o redirecionamento de página. Use a [versão atual do componente de página](/help/components/page.md) para suporte ao redirecionamento de página.
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de tela {#screenshot}
 
@@ -675,15 +678,15 @@ A seguir está uma amostra retirada de [We.Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as informações de [compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
-Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela Propriedades [da](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) página.
+Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela [Propriedades da página](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Caixa de diálogo Design {#design-dialog}
 
-Como o componente representa a página inteira, a caixa de diálogo de design é acessada por meio de Informações da **página -> Design** da página.
+Como o componente representa a página inteira, a caixa de diálogo de design é acessada por **Informações da página -> Design da página**.
 
 ![](/help/assets/chlimage_1-94.png)
 
@@ -693,7 +696,7 @@ Usando a janela Design de página, você pode definir bibliotecas do lado do cli
 * Para remover um campo, clique ou toque no ícone da lixeira ao lado do campo a ser removido.
 * Para reorganizar a ordem de carregamento, clique ou toque e arraste a alça ao lado do campo a ser movido.
 
-Para obter mais informações sobre o uso de bibliotecas do lado do cliente, consulte [Uso de bibliotecas](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)do lado do cliente.
+Para obter mais informações sobre o uso de bibliotecas do lado do cliente, consulte [Usando bibliotecas do lado do cliente](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](/help/assets/chlimage_1-95.png)
 
@@ -703,4 +706,4 @@ A documentação técnica mais recente sobre o Componente de página [pode ser e
 
 Todo o projeto de componentes principais pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
