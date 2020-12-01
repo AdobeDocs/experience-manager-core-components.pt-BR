@@ -4,8 +4,8 @@ description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O AEM Project Archetype inclui um mecanismo de criação de front-end opcional e dedicado baseado no Webpack. Assim, o módulo ui.frontenda se torna o local central para todos os recursos front-end do projeto, incluindo arquivos JavaScript e CSS. Para aproveitar ao máximo esse recurso útil e flexível, é importante entender como o desenvolvimento de front-end se encaixa em um projeto AEM.
 
-## Projetos AEM e desenvolvimento de front-end {#aem-and-front-end-development}
+## AEM projetos e desenvolvimento de front-end {#aem-and-front-end-development}
 
 Em termos muito simplificados, AEM projetos podem ser considerados como compostos por duas partes distintas, mas relacionadas:
 
@@ -27,29 +27,29 @@ Como esses dois processos de desenvolvimento estão focados em diferentes partes
 
 No entanto, qualquer projeto resultante tem de utilizar os resultados de ambos os esforços de desenvolvimento, ou seja, tanto os back-end como os front-end.
 
-A execução `npm run dev` start o processo de compilação front-end que reúne os arquivos JavaScript e CSS armazenados no módulo ui.front-end e produz duas bibliotecas de clientes minified ou ClientLibs chamadas `clientlib-site` e `clientlib-dependencies` as depositam no módulo ui.apps. Os ClientLibs podem ser implantados para AEM e permitir que você armazene seu código do cliente no repositório.
+A execução `npm run dev` start o processo de compilação front-end que reúne os arquivos JavaScript e CSS armazenados no módulo ui.front-end e produz duas bibliotecas de clientes minified ou ClientLibs chamadas `clientlib-site` e `clientlib-dependencies` e as deposita no módulo ui.apps. Os ClientLibs podem ser implantados para AEM e permitir que você armazene seu código do cliente no repositório.
 
-Quando todo o arquétipo de projeto AEM é executado usando `mvn clean install -PautoInstallPackage` todos os artefatos do projeto, incluindo os ClientLibs, são empurrados para a instância AEM.
+Quando todo o arquétipo de projeto AEM é executado usando `mvn clean install -PautoInstallPackage`, todos os artefatos do projeto, incluindo o ClientLibs, são empurrados para a instância AEM.
 
 >[!TIP]
 >
->Saiba mais sobre como AEM o ClientLibs lida com a documentação [de desenvolvimento de](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html)AEM, como [incluí-los](/help/developing/including-clientlibs.md)ou veja abaixo [como o módulo ui.frontenda os utiliza.](#clientlib-generation)
+>Saiba mais sobre como AEM o ClientLibs lida com a [documentação de desenvolvimento AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html), como incluí-los](/help/developing/including-clientlibs.md), ou ver abaixo [como o módulo ui.frontenda os utiliza.](#clientlib-generation)[
 
 ## Visão geral do ClientLibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando um ClientLib [AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
+O módulo de front-end é disponibilizado usando um [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
 
 Um ClientLib consistirá nos seguintes arquivos e diretórios:
 
 * `css/`: Arquivos CSS que podem ser solicitados no HTML
-* `css.txt`: Informa AEM a ordem e os nomes dos arquivos para `css/` que possam ser mesclados
+* `css.txt`: Informa AEM a ordem e os nomes dos arquivos para  `css/` que possam ser mesclados
 * `js/`: Arquivos JavaScript que podem ser solicitados no HTML
-* `js.txt` Informa AEM a ordem e os nomes dos arquivos para `js/` que possam ser mesclados
+* `js.txt` Informa AEM a ordem e os nomes dos arquivos para  `js/` que possam ser mesclados
 * `resources/`: Mapas de origem, partes de código de não-ponto de entrada (resultantes da divisão do código), ativos estáticos (por exemplo, ícones), etc.
 
 ## Possíveis Workflows de desenvolvimento front-end {#possible-workflows}
 
-O módulo de construção front-end é uma ferramenta útil e muito flexível, mas não impõe nenhuma opinião específica sobre como ele deve ser usado. A seguir estão dois exemplos de uso *possível* , mas suas necessidades de projeto individuais podem ditar outros modelos de uso.
+O módulo de construção front-end é uma ferramenta útil e muito flexível, mas não impõe nenhuma opinião específica sobre como ele deve ser usado. A seguir estão dois exemplos de uso *possible*, mas suas necessidades de projeto individuais podem ditar outros modelos de uso.
 
 ### Usando o Servidor de Desenvolvimento Estático do Webpack {#using-webpack}
 
@@ -57,22 +57,22 @@ Usando o Webpack, você pode estilizar e desenvolver com base na saída estátic
 
 1. Pré-visualização da página no AEM usando o modo de pré-visualização da página ou enviando `wcmmode=disabled` no URL
 1. Fonte da página de visualização e salvar como HTML estático no módulo ui.frontenda
-1. [O webpack](#webpack-dev-server) do start e começar a estilizar e gerar o JavaScript e o CSS necessários
-1. Executar `npm run dev` para gerar o ClientLibs
+1. [Start ](#webpack-dev-server) webpacke comece a estilizar e gerar o JavaScript e CSS necessários
+1. Execute `npm run dev` para gerar o ClientLibs
 
 Nesse fluxo, um desenvolvedor AEM pode executar as etapas um e dois e passar o HTML estático para o desenvolvedor front-end que se desenvolve com base na saída AEM HTML.
 
 >[!TIP]
 >
->Também é possível aproveitar a Biblioteca [de](https://adobe.com/go/aem_cmp_library) componentes para capturar amostras da saída de marcação de cada componente para funcionar no nível do componente em vez do nível da página.
+>Também é possível aproveitar a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library) para capturar amostras da saída de marcação de cada componente para trabalhar no nível do componente em vez do nível da página.
 
-### Usando o Storybook {#using-storybook}
+### Usando Storybook {#using-storybook}
 
-Usando o [Storybook](https://storybook.js.org) , você pode executar mais desenvolvimento atômico de front-end. Embora o Storybook não esteja incluído no AEM Project Archetype, você pode instalá-lo e armazenar seus artefatos do Storybook no módulo ui.frontenda. Quando prontos para testes no AEM, eles podem ser implantados como ClientLibs executando `npm run dev`.
+Usando [Storybook](https://storybook.js.org) você pode executar mais desenvolvimento atômico front-end. Embora o Storybook não esteja incluído no AEM Project Archetype, você pode instalá-lo e armazenar seus artefatos do Storybook no módulo ui.frontenda. Quando prontos para testes no AEM, eles podem ser implantados como ClientLibs executando `npm run dev`.
 
 >[!NOTE]
 >
->[Storybook](https://storybook.js.org) não está incluído no AEM Project Archetype. Se você optar por usá-lo, deverá instalá-lo separadamente.
+>[](https://storybook.js.org) Storybookis não incluídos no AEM Project Archetype. Se você optar por usá-lo, deverá instalá-lo separadamente.
 
 ### Determinando a marcação {#determining-markup}
 
@@ -88,12 +88,12 @@ O AEM Project Archetype inclui um mecanismo de criação de front-end dedicado o
 * Recurso de coringa
    * Não é necessário adicionar importações em qualquer lugar
    * Todos os arquivos JS e CSS agora podem ser adicionados a cada componente.
-      * As melhores práticas estão em `/clientlib/js`, `/clientlib/css`ou `/clientlib/scss`
-   * Nenhum arquivo `.content.xml` ou `js.txt`/`css.txt` arquivo é necessário, pois tudo é executado pelo Webpack.
-   * O globber extrai todos os arquivos JS sob a `/component/` pasta.
+      * A prática recomendada está em `/clientlib/js`, `/clientlib/css` ou `/clientlib/scss`
+   * Nenhum arquivo `.content.xml` ou `js.txt`/`css.txt` é necessário, pois tudo é executado pelo Webpack.
+   * O globber puxa todos os arquivos JS na pasta `/component/`.
       * O Webpack permite que os arquivos CSS/SCSS sejam encadeados via arquivos JS.
       * Elas são puxadas pelos dois pontos de entrada, `sites.js` e `vendors.js`.
-   * O único arquivo consumido pelo AEM são os arquivos de saída `site.js` e `site.css` em `/clientlib-site` ambos, assim como `dependencies.js` e `dependencies.css` em `/clientlib-dependencies`
+   * O único arquivo consumido pelo AEM são os arquivos de saída `site.js` e `site.css` em `/clientlib-site`, bem como `dependencies.js` e `dependencies.css` em `/clientlib-dependencies`
 * Pedaços
    * Principal (site js/css)
    * Fornecedores (dependências js/css)
@@ -102,7 +102,7 @@ O AEM Project Archetype inclui um mecanismo de criação de front-end dedicado o
 
 >[!NOTE]
 >
->Para obter mais informações técnicas sobre o módulo ui.frontenda, consulte a [documentação do GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
+>Para obter mais informações técnicas sobre o módulo ui.frontende, consulte a documentação [no GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Instalação {#installation}
 
@@ -111,7 +111,7 @@ O AEM Project Archetype inclui um mecanismo de criação de front-end dedicado o
 
 >[!NOTE]
 >
->Você deve ter [executado o arquétipo](overview.md) com a opção `-DoptionIncludeFrontendModule=y` para preencher a pasta ui.frontenda.
+>Você deve ter [executar o archetype](overview.md) com a opção `-DoptionIncludeFrontendModule=y` para preencher a pasta ui.front-end.
 
 ## Uso {#usage}
 
@@ -123,10 +123,10 @@ Os seguintes scripts npm direcionam o fluxo de trabalho de front-end:
 
 ## Saída {#output}
 
-O módulo ui.front-end compila o código sob a `ui.frontend/src` pasta e gera o CSS e o JS compilados, além de todos os recursos abaixo de uma pasta chamada `ui.frontend/dist`.
+O módulo ui.front-end compila o código na pasta `ui.frontend/src` e gera os CSS e JS compilados, além de todos os recursos abaixo de uma pasta chamada `ui.frontend/dist`.
 
-* **Site** - `site.js`e uma `site.css` pasta para imagens e fontes dependentes de layout são criados em uma pasta `resources/` `dist/`clientlib-site.
-* **Dependências** - `dependencies.js` e `dependencies.css` são criadas em uma `dist/clientlib-dependencies` pasta.
+* **Site**  -  `site.js`e uma  `site.css` pasta para imagens e fontes dependentes de layout são criados em uma pasta do site  `resources/`   `dist/`clientlib.
+* **Dependências**  -  `dependencies.js` e  `dependencies.css` são criadas em uma  `dist/clientlib-dependencies` pasta.
 
 ### JavaScript {#javascript}
 
@@ -136,7 +136,8 @@ O módulo ui.front-end compila o código sob a `ui.frontend/src` pasta e gera o 
 
 * Prefixação automática - Todos os CSS são executados por meio de um prefixador e todas as propriedades que exigem prefixação terão automaticamente aquelas adicionadas ao CSS.
 * Otimização - No post, todo o CSS é executado por um otimizador (cssnano) que o normaliza de acordo com as seguintes regras padrão:
-   * Reduz a expressão de cálculo CSS sempre que possível, garantindo a compatibilidade e a compactação do navegadorConverte entre valores equivalentes de comprimento, tempo e ângulo. Observe que, por padrão, os valores de comprimento não são convertidos.
+   * Reduz a expressão de CSS calc sempre que possível, garantindo compatibilidade e compactação do navegador
+Converte entre valores equivalentes de comprimento, tempo e ângulo. Observe que, por padrão, os valores de comprimento não são convertidos.
    * Remove comentários em regras, seletores e declarações e ao redor deles
    * Remove regras, regras e declarações duplicadas
       * Observe que isso só funciona para duplicados exatos.
@@ -154,14 +155,14 @@ O módulo ui.front-end compila o código sob a `ui.frontend/src` pasta e gera o 
 
 ### Geração da biblioteca do cliente {#clientlib-generation}
 
-O processo de compilação do módulo ui.frontenda aproveita o plug-in [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) para mover o CSS compilado, o JS e quaisquer recursos para o módulo ui.apps. A configuração aem-clientlib-generator é definida em `clientlib.config.js`. As seguintes bibliotecas de clientes são geradas:
+O processo de compilação do módulo ui.frontenda aproveita o plug-in [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) para mover o CSS compilado, o JS e quaisquer recursos para o módulo ui.apps. A configuração aem-clientlib-generator está definida em `clientlib.config.js`. As seguintes bibliotecas de clientes são geradas:
 
-* **clientlib-site** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
-* **dependências** clientlib - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
+* **clientlib-site** -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
+* **dependências**  clientlib -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
 
-### Incluindo bibliotecas de clientes em páginas {#clientlib-inclusion}
+### Incluindo bibliotecas de clientes nas páginas {#clientlib-inclusion}
 
-`clientlib-site` e `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração [da Política de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) página como parte do modelo padrão. Para visualização da política, edite o Modelo da página **de conteúdo > Informações da página > Política** da página.
+`clientlib-site` e  `clientlib-dependencies` as categorias são incluídas nas páginas por meio da configuração da Política de  [ ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) página como parte do modelo padrão. Para visualização da política, edite **Modelo de página de conteúdo > Informações da página > Política de página**.
 
 A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 
@@ -202,8 +203,8 @@ Incluído no módulo ui.front-end está um servidor webpack-dev que fornece reca
 
 #### Usar {#using-webpack-server}
 
-1. Na raiz do projeto, execute o comando `mvn -PautoInstallSinglePackage clean install` para instalar o projeto inteiro em uma instância AEM em execução `localhost:4502`.
-1. Navegue dentro da `ui.frontend` pasta.
-1. Execute o seguinte comando `npm run start` para start do servidor de desenvolvimento de webpack. Depois de iniciado, ele deve abrir um navegador (`localhost:8080` ou a próxima porta disponível).
+1. Na raiz do projeto, execute o comando `mvn -PautoInstallSinglePackage clean install` para instalar o projeto inteiro em uma instância AEM em execução em `localhost:4502`.
+1. Navegue dentro da pasta `ui.frontend`.
+1. Execute o seguinte comando `npm run start` para start do servidor dev de webpack. Depois de iniciado, ele deve abrir um navegador (`localhost:8080` ou a próxima porta disponível).
 
 Agora você pode modificar arquivos CSS, JS, SCSS e TS e ver as alterações imediatamente refletidas no servidor de desenvolvimento de webpack.
