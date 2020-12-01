@@ -2,25 +2,25 @@
 title: Configurações Sling sensíveis ao contexto e componentes principais
 description: Os Componentes principais aproveitam as configurações sensíveis ao contexto do Sling para determinados recursos
 translation-type: tm+mt
-source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
+source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 
-# Configurações Sling sensíveis ao contexto e componentes principais {#sling-context-aware-configurations}
+# Sling Context-Aware Configurations and Core Components {#sling-context-aware-configurations}
 
-As configurações sensíveis ao contexto são um recurso do Sling e são configurações relacionadas a um recurso de conteúdo ou a uma árvore de recursos e são aproveitadas pelos Componentes principais para permitir configurações de todo o site.
+As configurações sensíveis ao contexto são um recurso [do Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). São configurações relacionadas a um recurso de conteúdo ou a uma árvore de recursos e são aproveitadas pelos Componentes principais para permitir configurações do site inteiro.
 
-## Configurações Sling sensíveis ao contexto {#context-aware-configurations}
+## Sling Context-Aware Configurations {#context-aware-configurations}
 
 Seu site pode precisar de configurações diferentes para regiões de sites diferentes, por exemplo, onde alguns parâmetros podem ser compartilhados, o que exige herança para contextos aninhados e valores de fallback globais. AEM aproveita as configurações sensíveis ao contexto Sling, que permitem essa possibilidade.
 
-Para obter detalhes sobre configurações em AEM, [consulte a documentação do Navegador de configurações e configurações.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+Para obter detalhes sobre configurações no AEM, [consulte a documentação do Navegador de configurações e configurações.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
-## Usar nos componentes principais {#core-components}
+## Usar nos Componentes principais {#core-components}
 
 Vários recursos dos Componentes principais aproveitam as configurações sensíveis ao contexto. Todas essas configurações estão localizadas no seguinte nó:
 
