@@ -10,7 +10,7 @@ ht-degree: 2%
 ---
 
 
-# Componente Tabulações {#tabs-component}
+# Componente de guias {#tabs-component}
 
 O Componente principal de guias de componentes permite a organização de conteúdo em várias guias.
 
@@ -18,21 +18,21 @@ O Componente principal de guias de componentes permite a organização de conte�
 
 O componente Guias permite que o autor do conteúdo organize o conteúdo da página em várias guias.
 
-A caixa de diálogo [de](#edit-dialog) edição permite que o autor do conteúdo defina várias guias, bem como defina a guia ativa. Usando a caixa de diálogo [de](#design-dialog)design, o autor do modelo pode definir quais componentes podem ser adicionados às guias e personalizar os estilos.
+A caixa de diálogo [edit](#edit-dialog) permite que o autor do conteúdo defina várias guias, bem como defina a guia ativa. Usando a caixa de diálogo [design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados às guias e personalizar os estilos.
 
 >[!TIP]
 >
 >Os componentes de guia aninhados (guias dentro de guias) são suportados.
 >
->Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a árvore [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)conteúdo, no entanto, guias aninhadas não podem ser.
+>Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a [árvore de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), no entanto, guias aninhadas não podem ser.
 
-## Deep links para um painel {#deep-linking}
+## Deep Linking to a Panel {#deep-linking}
 
-Os Componentes [Tabulações e](accordion.md) Acordeão suportam a vinculação direta a um painel dentro do componente.
+As Guias e [Componentes Acordeão](accordion.md) suportam a vinculação direta a um painel dentro do componente.
 
 Para fazer isso:
 
-1. Visualização a página com o componente usando a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
+1. Visualização a página com o componente usando a opção **[Visualização como Publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
 1. Inspect o conteúdo da página e identifique a ID do painel.
    * Por exemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. A ID se torna a âncora que você pode anexar ao URL usando um hash (`#`).
@@ -50,19 +50,19 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |--- |--- |--- |---|
 | v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente Tabs e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_tabs)componentes.
+Para experimentar o componente Tabs e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_tabs).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Tabs [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+A documentação técnica mais recente sobre o Componente de guias [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor do conteúdo crie, renomeie e reorganize guias, bem como defina a guia ativa.
 
@@ -72,22 +72,22 @@ A caixa de diálogo de edição permite que o autor do conteúdo crie, renomeie 
 
 Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual componente adicionar como guia. Depois de adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
 
-* **Ícone** - o ícone do tipo de componente da guia para facilitar a identificação na lista. Passe o mouse sobre o mouse para ver o nome completo do componente como uma dica de ferramenta.
-* **Descrição** - A descrição usada como o texto da guia, padronizando com o nome do componente selecionado para a guia.
-* **Excluir** - Toque ou clique para excluir a guia do componente de guia.
-* **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem das guias.
+* **Ícone**  - o ícone do tipo de componente da guia para facilitar a identificação na lista. Passe o mouse sobre o mouse para ver o nome completo do componente como uma dica de ferramenta.
+* **Descrição**  - A descrição usada como o texto da guia, padronizando com o nome do componente selecionado para a guia.
+* **Excluir**  - Toque ou clique para excluir a guia do componente de guia.
+* **Reorganizar**  - Toque ou clique e arraste para reorganizar a ordem das guias.
 
 >[!TIP]
 >
->Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente de guias ao [arrastar do navegador de componentes e soltar no Componente de guias no editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)de páginas.
+>Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao Componente de guias ao [arrastar do navegador de componentes e soltar no Componente de guias no editor de páginas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Guia Propriedades {#properties-tab}
 
 ![Guia Propriedades da caixa de diálogo de edição do Componente de guias](/help/assets/tabs-edit-properties.png)
 
-* **Item** ativo - o autor do conteúdo pode definir qual guia está ativa quando a página é carregada.
-   * Com a opção **Padrão** , a primeira guia será selecionada.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+* **Item**  ativo - o autor do conteúdo pode definir qual guia está ativa quando a página é carregada.
+   * Com a opção **Padrão**, a primeira guia será selecionada.
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
@@ -96,13 +96,13 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 
 ![Guia de acessibilidade da caixa de diálogo de edição do Componente de guias](/help/assets/tabs-edit-accessibility.png)
 
-Na guia **Acessibilidade** , os valores podem ser definidos para rótulos de acessibilidade [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para o componente.
+Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) do componente.
 
-* **Rótulo** - Valor de um atributo de rótulo ARIA para o componente
+* **Rótulo**  - Valor de um atributo de rótulo ARIA para o componente
 
-## Select Panel {#select-panel}
+## Selecionar painel {#select-panel}
 
-O autor do conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para mudar para um painel diferente para edição, bem como para reorganizar facilmente a ordem das guias.
+O autor do conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um painel diferente para edição, bem como para reorganizar facilmente a ordem das guias.
 
 ![Selecionar ícone do painel](/help/assets/select-panel-icon.png)
 
@@ -118,18 +118,18 @@ Depois de selecionar a opção **Selecionar painel** na barra de ferramentas do 
 
 >[!NOTE]
 >
->As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar** . Use o modo **[Pré-visualização](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou a opção **[Visualização como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado faria.
+>As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar**. Use o modo **[Pré-visualização](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou a opção **[Visualização como Publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
 
 ## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design permite que o autor do modelo defina quais componentes podem ser adicionados como itens ao componente de guias, bem como defina quais estilos personalizados estão disponíveis para o autor do conteúdo.
 
-### Allowed Components Tab {#allowed-components-tab}
+### Guia Componentes permitidos {#allowed-components-tab}
 
-A guia Componentes **** permitidos é usada para definir quais componentes podem ser adicionados como itens ao componente de guias pelo autor do conteúdo.
+A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens ao componente de guias pelo autor do conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Container de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome quando [define a política e as propriedades de um Container de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Estilos {#styles-tab}
 
-O componente Tabs suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente Tabs suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
