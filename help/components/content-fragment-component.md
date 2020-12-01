@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Componente do fragmento do conteúdo{#content-fragment-component}
 
-O componente Fragmento de conteúdo do componente principal permite a exibição de um fragmento [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)conteúdo.
+O componente Fragmento de conteúdo do componente principal permite a exibição de um [fragmento de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -20,17 +20,17 @@ O componente Fragmento de conteúdo do componente principal permite a exibição
 
 ## Uso {#usage}
 
-O Componente principal de fragmento de conteúdo do componente permite a inclusão de um fragmento [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) conteúdo em uma página.
+O Componente principal de fragmento de conteúdo do componente permite a inclusão de um [fragmento de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) em uma página.
 
-* O fragmento e suas propriedades podem ser selecionados na caixa de diálogo [](#configure-dialog)configurar.
-* Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na caixa de diálogo [de](#design-dialog)design.
-* A opção de edição abrirá o fragmento selecionado no editor [de fragmentos de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)conteúdo.
+* O fragmento e suas propriedades podem ser selecionados na caixa de diálogo [configurar](#configure-dialog).
+* Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na caixa de diálogo [design](#design-dialog).
+* A opção de edição abrirá o fragmento selecionado no [editor de fragmentos de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
 A versão atual do Componente de fragmento de conteúdo é a v1, que foi introduzida com a versão 1.1.0 dos Componentes principais em outubro de 2017 e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -48,17 +48,17 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 >
 >Embora ambos sejam v1, qualquer componente de Fragmento de conteúdo que tenha sido usado da pasta de extensões exigirá a migração de seus componentes proxy relacionados para usar o novo tipo de recurso ao atualizar para a versão 2.4.0 ou superior dos Componentes principais.
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente de fragmento de conteúdo e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_cf)componentes.
+Para experimentar o Componente de fragmento de conteúdo e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente de fragmento de conteúdo [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
@@ -68,25 +68,25 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 
 ![Componente do fragmento do conteúdo](/help/assets/content-fragment-edit-properties.png)
 
-* **Fragmento do conteúdo**
+* **Fragmento de conteúdo**
 
    * Caminho para o fragmento de conteúdo desejado
-   * A caixa de diálogo **** de seleção pode ser usada para localizar o fragmento
+   * A caixa de diálogo **Seleção** pode ser usada para localizar o fragmento
 
 * **Modo de exibição**
-   * **Elemento** de texto único - permite a seleção de um elemento de texto de várias linhas e permite opções de controle de parágrafo
-   * **Vários elementos** - permite a seleção de um ou mais elementos do fragmento de conteúdo selecionado
-* **Elemento** - O elemento ou os elementos do fragmento de conteúdo a serem incluídos
-* **Variação** - qual variação do fragmento de conteúdo usar (o padrão é **Mestre**)
+   * **Elemento**  de texto único - permite a seleção de um elemento de texto de várias linhas e permite opções de controle de parágrafo
+   * **Vários elementos** : permite a seleção de um ou mais elementos do fragmento de conteúdo selecionado
+* **Elemento**  - O elemento ou os elementos do fragmento de conteúdo a serem incluídos
+* **Variação**  - qual variação do fragmento de conteúdo usar (o padrão é  **Principal**)
 
 * **Parágrafos**
 
-   * **Todos** - Exibir todos os parágrafos
+   * **Todos**  - Exibir todos os parágrafos
    * **Intervalo**
 
       * Especificar intervalos de parágrafos que devem ser exibidos, separados por ponto e vírgula
-      * Por exemplo, `1;3-5;7;9-*` para incluir os parágrafos 1º, 3º a 5º, 7º e 9º ao final
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+      * Por exemplo `1;3-5;7;9-*` para incluir o primeiro, o terceiro a quinto, o sétimo e o nono parágrafos finais
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
@@ -97,7 +97,7 @@ Esta guia não está disponível quando o modo **Vários elementos** está selec
 
 ![Componente do fragmento do conteúdo](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Parágrafos** - Permitir seleção de todos os parágrafos ou de um intervalo
+* **Parágrafos**  - Permitir seleção de todos os parágrafos ou de um intervalo
 * **Tratar o cabeçalho como seus próprios parágrafos**
 
 ## Caixa de diálogo Design {#design-dialog}
