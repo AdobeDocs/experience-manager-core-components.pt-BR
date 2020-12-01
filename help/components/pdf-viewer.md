@@ -28,21 +28,21 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |--- |--- |---|---|
 | v1 | Compatível | Compatível | Compatível |
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente do visualizador de PDF e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_pdfviewer)componentes.
+Para experimentar o Componente do visualizador de PDF e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_pdfviewer).
 
 ## Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente do visualizador de PDF [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 >[!NOTE]
 >
->O componente Visualizador do PDF aproveita as APIs do Adobe [Documento Services e exige que o administrador configure uma configuração](https://www.adobe.io/apis/documentcloud/dcsdk.html) sensível ao [](/help/developing/context-aware-configs.md) contexto para usar esses serviços. Consulte a documentação técnica do componente para [obter detalhes sobre essa configuração.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>O componente Visualizador de PDF aproveita [APIs de serviços do Documento](https://www.adobe.io/apis/documentcloud/dcsdk.html) e requer que o administrador configure uma [configuração sensível ao contexto](/help/developing/context-aware-configs.md) para usar esses serviços. Consulte a documentação técnica do componente para obter [detalhes sobre esta configuração.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
@@ -62,9 +62,9 @@ A guia Personalizar permite que o autor defina as opções disponíveis no visua
 
 O número de opções disponíveis depende do **Tipo** selecionado.
 
-* [Janela](#full-window) completa - A área de visualização é renderizada no navegador completo. Isso é mais adequado para aplicativos de armazenamento e produtividade.
-* [Container](#sized-container) dimensionado - A área de visualização é renderizada no navegador completo. Isso é mais adequado para aplicativos de armazenamento e produtividade.
-* [Em linha](#in-line) - Todas as páginas de PDF renderizadas em linha em uma página da Web. Isso é mais adequado para aplicativos de leitura.
+* [Janela](#full-window)  completa - A área de visualização é renderizada no navegador completo. Isso é mais adequado para aplicativos de armazenamento e produtividade.
+* [Container](#sized-container)  dimensionado - A área de visualização é renderizada no navegador completo. Isso é mais adequado para aplicativos de armazenamento e produtividade.
+* [Em linha](#in-line)  - Todas as páginas de PDF renderizadas em linha em uma página da Web. Isso é mais adequado para aplicativos de leitura.
 
 #### Janela completa {#full-window}
 
@@ -72,15 +72,15 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 
 ![Opção Personalizar a janela inteira da guia da caixa de diálogo Editar do Componente do Visualizador de PDF](/help/assets/pdf-viewer-edit-customize-full.png)
 
-* **Modo** de Visualização padrão - Como o visualizador se ajusta à página em que é exibido
+* **Modo**  de Visualização padrão - Como o visualizador se ajusta à página em que é exibido
    * Ajustar página
    * Ajustar largura
-* **Tela** inteira - quando ativado, o visualizador assumirá a altura/largura totais do visor.
-* **Ferramentas** de anotação - quando ativadas, as ferramentas de anotação estão disponíveis.
-* **Painel** esquerdo - quando ativado, o painel esquerdo é exibido.
-* **Download de PDF** - quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - quando ativado, o botão Imprimir é exibido.
-* **Controles** de página - Alterna o comportamento dos controles de página.
+* **Tela**  inteira - quando ativado, o visualizador assumirá a altura/largura totais do visor.
+* **Ferramentas**  de anotação - quando ativadas, as ferramentas de anotação estão disponíveis.
+* **Painel**  esquerdo - quando ativado, o painel esquerdo é exibido.
+* **Download de PDF**  - quando ativado, o botão de download é exibido.
+* **Imprimir PDF**  - quando ativado, o botão Imprimir é exibido.
+* **Controles**  de página - Alterna o comportamento dos controles de página.
    * Fixar
    * Desafixar
 
@@ -90,10 +90,10 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 
 ![Personalizar a opção de container tamanho da guia da caixa de diálogo Editar do Componente do Visualizador de PDF](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Tela** inteira - quando ativado, o visualizador assumirá a altura/largura totais do visor.
-* **Download de PDF** - quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - quando ativado, o botão Imprimir é exibido.
-* **Controles** de página - Alterna o comportamento dos controles de página.
+* **Tela**  inteira - quando ativado, o visualizador assumirá a altura/largura totais do visor.
+* **Download de PDF**  - quando ativado, o botão de download é exibido.
+* **Imprimir PDF**  - quando ativado, o botão Imprimir é exibido.
+* **Controles**  de página - Alterna o comportamento dos controles de página.
    * Fixar
    * Desafixar
 
@@ -103,8 +103,8 @@ Todas as páginas PDF renderizadas em linha em uma página da Web. Isso é mais 
 
 ![Personalizar a opção de container tamanho da guia da caixa de diálogo Editar do Componente do Visualizador de PDF](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **Download de PDF** - quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - quando ativado, o botão Imprimir é exibido.
+* **Download de PDF**  - quando ativado, o botão de download é exibido.
+* **Imprimir PDF**  - quando ativado, o botão Imprimir é exibido.
 
 ## Caixa de diálogo Design {#design-dialog}
 
