@@ -4,8 +4,8 @@ description: O componente de texto é um componente de edição e composição d
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2200'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ O Componente de texto principal é um componente de edição e composição de r
 
 O componente de texto oferta um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
-A caixa de diálogo [de](#edit-dialog) edição possui edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a caixa de diálogo [de](#design-dialog)design, opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
+A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -31,29 +31,29 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | Compatível | Compatível | Compatível |
 | [v1](v1/text-v1.md) | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e lançamentos dos Componentes principais, consulte as Versões [dos Componentes](/help/versions.md)principais do documento.
+Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída de componente {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente de texto e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a Biblioteca [de](https://adobe.com/go/aem_cmp_library_text)componentes.
+Para experimentar o Componente de texto e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_text).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de texto [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+A documentação técnica mais recente sobre o Componente de texto [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a documentação [do desenvolvedor dos Componentes](/help/developing/overview.md)principais.
+Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## O componente de texto e o Editor de Rich Text {#the-text-component-and-the-rich-text-editor}
+## O componente de texto e o editor de Rich Text {#the-text-component-and-the-rich-text-editor}
 
-O Componente de texto dos componentes principais aproveita o Editor de Rich Text AEM (RTE). O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) de Rich Text e [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
+O Componente de texto dos componentes principais aproveita o Editor de Rich Text AEM (RTE). O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configure o Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) e [Configure os plug-ins do Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 O restante deste artigo demonstra a configuração padrão do Componente de texto dos componentes principais com a configuração predefinida do ERT.
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas configurações de [interface do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
+>Somente as opções ativadas por [configurações de interface do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
 
-## Edit Dialog {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição oferta as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
 
@@ -65,7 +65,7 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
 Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar negrito o texto inserido após o cursor.
 
-**Ctrl+B** pode ser usado como um atalho do teclado.
+**Ctrl+** Bcan pode ser usado como um atalho do teclado.
 
 ### Itálico
 
@@ -73,7 +73,7 @@ Usado para aplicar a formatação em negrito ao texto selecionado ou para format
 
 Usado para aplicar a formatação em itálico ao texto selecionado ou para colocar o texto em itálico inserido após o cursor.
 
-**Ctrl+I** pode ser usado como um atalho do teclado.
+**Ctrl+** Id pode ser usado como um atalho do teclado.
 
 ### Sublinhado
 
@@ -81,7 +81,7 @@ Usado para aplicar a formatação em itálico ao texto selecionado ou para coloc
 
 Usado para aplicar a formatação sublinhada ao texto selecionado ou ao texto sublinhado inserido após o cursor.
 
-**Ctrl+U** pode ser usado como um atalho do teclado.
+**Ctrl+** UID pode ser usado como um atalho do teclado.
 
 ### Subscrito
 
@@ -171,9 +171,9 @@ Insira o texto para o qual deseja pesquisar, bem como o texto com o qual ele dev
 
 * Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
 * Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
-* Selecione **Substituir todas** para substituir todas as ocorrências do texto ao mesmo tempo.
+* Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
 
-Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** está ativo somente quando uma correspondência é feita.
+Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
 
 A caixa de diálogo localizar e substituir fica transparente quando a localização é clicada e se torna opaca quando a substituição é clicada. Isso permite que o autor reveja o texto que o autor substituirá.
 
@@ -238,19 +238,19 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 ![Exemplo de tabela](/help/assets/text-table-example.png)
 
-* **Colunas** - O número de colunas da tabela (obrigatório)
-* **Linhas** - O número de linhas da tabela (obrigatório)
-* **Largura** - A largura da tabela
-* **Altura** - A altura da tabela
-* **Preenchimento** da célula - O espaço ao redor do conteúdo da célula
-* **Espaçamento entre células** - O espaço entre células
-* **Borda** - O peso das linhas de borda da tabela
+* **Colunas**  - O número de colunas da tabela (obrigatório)
+* **Linhas**  - O número de linhas da tabela (obrigatório)
+* **Largura**  - A largura da tabela
+* **Altura**  - A altura da tabela
+* **Preenchimento**  da célula - O espaço ao redor do conteúdo da célula
+* **Espaçamento**  da célula - O espaço entre células
+* **Borda**  - O peso das linhas de borda da tabela
    * Se for o cabeçalho da tabela:
       * A primeira linha deve ser usada
       * A primeira coluna deve ser usada
       * A primeira linha e a primeira coluna devem ser usadas
       * Ou nenhum cabeçalho deve ser usado.
-* **Legenda** - A legenda da tabela
+* **Legenda**  - A legenda da tabela
 
 ### Verificar ortografia
 
@@ -258,7 +258,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)do Editor de Rich Text.
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configure os Plug-ins do Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caracteres especiais {#special-characters}
 
@@ -276,17 +276,17 @@ Toque ou clique no caractere desejado para inseri-lo no texto após o cursor. V�
 
 Usado para visualização e modificação da fonte HTML do texto.
 
-Toque ou clique no ícone Editar **** fonte para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone Editar **** fonte para retornar à visualização formatada.
+Toque ou clique no ícone **Edição de origem** para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone **Edição de origem** para retornar à visualização formatada.
 
 >[!CAUTION]
 >
->Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção Edição **de** origem!
+>Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção **Edição de origem**!
 >
->O HTML inserido via Edição **** de origem é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido na Edição **de** origem pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+>O HTML inserido via **Edição de origem** é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Edição de Origem** pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
 
 >[!NOTE]
 >
->Como o HTML inserido via Edição **** de origem é verificado em busca de riscos XSS e qualquer script e remove automaticamente os encontrados, o conteúdo real persistido pode variar do que foi inserido na Edição **de** origem. Por esse motivo, para salvar as alterações feitas usando a Edição **** de origem, é necessário sair primeiro da Edição **de** origem para visualização do texto no editor normal antes de salvar.
+>Como o HTML inserido via **Edição de origem** é verificado em busca de riscos XSS e quaisquer scripts e remove automaticamente os encontrados, o conteúdo real persistido pode variar do que foi inserido em **Edição de origem**. Por esse motivo, para salvar as alterações feitas usando **Edição de Origem**, você deve sair primeiro **Edição de Origem** para visualização o texto no editor normal antes de salvar.
 
 ### Formato de parágrafo
 
@@ -304,7 +304,7 @@ O componente de texto também pode ser editado em linha, mas devido a restriçõ
 
 ### Configuração e ID {#setting-id}
 
-Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [de](/help/developing/data-layer/overview.md)dados.
+Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
 
 * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
 * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
@@ -352,7 +352,7 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 
 * Toque ou clique no botão **Adicionar** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de estilo ou clique no botão **Excluir** .
+* Para remover um toque de estilo ou clique no botão **Excluir**.
 * Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
 
 ### Caracteres especiais {#configuring-special-characters}
@@ -363,9 +363,9 @@ A opção para inserir caracteres especiais pode ser ativada ou desativada para 
 
 * Toque ou clique no botão **Adicionar** para inserir um novo caractere.
 * Insira o código HTML do caractere e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de caractere ou clique no botão **Excluir** .
+* Para remover um toque de caractere ou clique no botão **Excluir**.
 * Para reorganizar a ordem dos caracteres, toque ou clique e arraste as alças.
 
 ## Guia Estilos {#styles-tab}
 
-O componente de texto suporta o sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+O componente de texto suporta o sistema de estilo AEM [a1/>.](/help/get-started/authoring.md#component-styling)
