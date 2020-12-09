@@ -2,9 +2,9 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
+source-git-commit: 456bd449f5776355923bcd859a2afb6b00f33d5c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 26%
 
 ---
@@ -40,7 +40,7 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 | Amigável para SEO | A saída HTML é semântica e fornece [schema.org](https://schema.org) anotações de microdados. |
 | WebApp-Ready | A [saída JSON simplificada](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permite a renderização do lado do cliente, ainda com uma possibilidade de [edição no contexto](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | Suporte AMP | Os componentes têm suporte [integrado para o padrão AMP,](/help/developing/amp.md) acelerando suas experiências móveis. |
-| Kit de design | Um [kit de interface de usuário para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite que os designers criem wireframes que podem, então, [estilo, conforme necessário](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
+| Kit de design | Um [kit de interface de usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite que os designers criem wireframes que podem, então, [estilo, conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Temível | Os componentes implementam o [Sistema de estilo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html) e a marcação segue [convenções CSS de BEM](http://getbem.com/). |
 | Personalizável | Vários padrões permitem [fácil personalização](developing/customizing.md), desde o ajuste do HTML até a reutilização avançada da funcionalidade. |
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não quebrem seu site ao melhorar coisas que podem afetar você. |
