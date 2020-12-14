@@ -2,7 +2,7 @@
 title: Uso do AEM Project Archetype
 description: Instruções de utilização detalhadas para o AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -57,9 +57,9 @@ Para começar, você pode simplesmente usar a [AEM extensão do Eclipse](https:/
 
 Claro que você também pode chamar Maven diretamente.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -132,31 +132,31 @@ O projeto maven gerado suporta diferentes perfis de implantação ao executar `m
 
 Para criar todos os módulos executados no diretório raiz do projeto, use o seguinte comando Maven.
 
-```
+```shell
 mvn clean install
 ```
 
 Se você tiver uma instância AEM em execução, poderá criar e empacotar o projeto inteiro e implantar no AEM com o seguinte comando Maven.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 Para implantá-lo em uma instância de publicação, execute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 Como alternativa, para implantar em uma instância de publicação, execute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 Ou para implantar somente o pacote no autor, execute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -172,7 +172,7 @@ Essas propriedades são configuradas para implantar em uma instância AEM local,
 
 Essas propriedades são configuradas para que possam ser substituídas ao implantar ambientes de nível superior. Dessa forma, os arquivos POM não precisam ser alterados, mas variáveis como `aem.host` e `sling.password` podem ser substituídas por argumentos de linha de comando:
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
