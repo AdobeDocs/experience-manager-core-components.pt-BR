@@ -2,7 +2,7 @@
 title: Arquétipo de projeto do AEM
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 10%
@@ -49,7 +49,7 @@ O AEM Project Archetype é um modelo Maven que cria um projeto Adobe Experience 
 
 Para gerar um projeto, ajuste a seguinte linha de comando de acordo com suas necessidades:
 
-```
+```shell
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
