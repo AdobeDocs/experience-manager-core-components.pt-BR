@@ -2,9 +2,9 @@
 title: Componente Teaser
 description: O componente do teaser pode mostrar uma imagem, um título, rich text e, opcionalmente, vincular para conteúdo adicional.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,10 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
    * Solte um ativo do [navegador de ativos](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **browse** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
+
+>[!NOTE]
+>
+>[Os ](image.md#dynamic-media) recursos do Dynamic Media não estão disponíveis no momento no Teaser Component.
 
 ### Texto {#text}
 
