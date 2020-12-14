@@ -2,7 +2,7 @@
 title: Componente do botão
 description: O componente de Botão Componente Principal permite a criação e a exibição de um botão.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 4%
@@ -72,4 +72,4 @@ Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos [ARI
 
 ### Guia Estilos {#styles-tab}
 
-O Componente de imagem suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+O componente Botão suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
