@@ -2,10 +2,10 @@
 title: AEM Projeto de Arquétipo de Compilação Front-End
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 1%
+source-wordcount: '1620'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +33,11 @@ Quando todo o arquétipo de projeto AEM é executado usando `mvn clean install -
 
 >[!TIP]
 >
->Saiba mais sobre como AEM o ClientLibs lida com a [documentação de desenvolvimento AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html), como incluí-los](/help/developing/including-clientlibs.md), ou ver abaixo [como o módulo ui.frontenda os utiliza.](#clientlib-generation)[
+>Saiba mais sobre como AEM o ClientLibs lida com a [documentação de desenvolvimento AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), como incluí-los](/help/developing/including-clientlibs.md), ou ver abaixo [como o módulo ui.frontenda os utiliza.](#clientlib-generation)[
 
 ## Visão geral do ClientLibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando um [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
+O módulo de front-end é disponibilizado usando um [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Ao executar o script de compilação NPM, o aplicativo é criado e o pacote aem-clientlib-generator pega a saída de compilação resultante e a transforma em um ClientLib.
 
 Um ClientLib consistirá nos seguintes arquivos e diretórios:
 
