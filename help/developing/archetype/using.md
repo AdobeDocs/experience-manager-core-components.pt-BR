@@ -2,9 +2,9 @@
 title: Uso do AEM Project Archetype
 description: Instruções de utilização detalhadas para o AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2055'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ A construção do projeto com Maven cria os artefatos (pacotes e pacotes OSGi), 
 
 ### Criação de um projeto   {#create-project}
 
-Para começar, você pode simplesmente usar a [AEM extensão do Eclipse](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) e seguir o assistente de Novo projeto e escolher **AEM Amostra de projeto de vários módulos** para usar uma versão lançada do arquétipo.
+Para começar, você pode simplesmente usar a [AEM extensão do Eclipse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) e seguir o assistente de Novo projeto e escolher **AEM Amostra de projeto de vários módulos** para usar uma versão lançada do arquétipo.
 
 Claro que você também pode chamar Maven diretamente.
 
