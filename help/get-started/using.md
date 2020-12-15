@@ -2,10 +2,10 @@
 title: Utilização dos componentes principais
 description: '"Para começar a usar os Componentes principais em seu próprio projeto, há três etapas a seguir: baixe e instale, crie componentes proxy, carregue os estilos principais e permita os componentes em seus modelos."'
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 4%
+source-wordcount: '757'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Por exemplo, observe o componente [title do site WKND](https://github.com/adobe/
 
 ## Carregue os estilos principais {#load-the-core-styles}
 
-1. Caso ainda não tenha sido feito, crie uma [Biblioteca de clientes](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/developing/introduction/clientlibs.translate.html) que contenha todos os arquivos CSS e JS necessários para o seu site.
+1. Caso ainda não tenha sido feito, crie uma [Biblioteca de clientes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) que contenha todos os arquivos CSS e JS necessários para o seu site.
 1. Na Biblioteca de clientes do seu site, adicione as dependências aos Componentes principais que podem ser necessárias. Isso é feito adicionando uma propriedade `embed`.
 
    Por exemplo, para incluir as Bibliotecas de clientes de todos os componentes principais v1, a propriedade a ser adicionada seria:
