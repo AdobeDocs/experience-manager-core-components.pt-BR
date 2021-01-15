@@ -2,9 +2,9 @@
 title: AEM como um plug-in Maven do Cloud Service SDK Build Analyzer
 description: Documentação para o plug-in do analisador de compilação Maven local
 translation-type: tm+mt
-source-git-commit: b95515dba74486add7f50bc8984f4358090e735c
+source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '425'
 ht-degree: 3%
 
 ---
@@ -26,3 +26,4 @@ Abaixo está uma tabela descrevendo os analisadores que são executados como par
 | `bundle-resources` | Emite um aviso se um pacote contiver recursos especificados com o cabeçalho Sling-Bundle-Resources, que é problemático no AEM como um ambiente agrupado Cloud Service. O aviso tem a seguinte aparência:<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Para solucionar problemas de conversão de recursos em instruções reformuladas, consulte [Documentação de repontas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=en#repo-init). | Sim | Sim |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Esses analisadores verificam alguns detalhes relacionados ao pacote de conteúdo [para o processo de conversão do modelo de recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying) que cria artefatos em conformidade com o Modelo de recurso Sling. Quaisquer erros devem ser reportados ao Suporte ao cliente do Adobe. | Sim | Sim |
 | `api-regions-crossfeature-dups` | Valida que os pacotes OSGI do cliente não têm declarações de pacote de exportação que substituem AEM como uma API pública de Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Para corrigir, pare de exportar um pacote que faz parte da API pública AEM. | Sim | Sim |
+| `repoinit` | Verifica a sintaxe de todas as seções de realocação | Sim | Sim |
