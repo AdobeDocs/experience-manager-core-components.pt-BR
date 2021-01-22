@@ -2,9 +2,9 @@
 title: Suporte AMP para os componentes principais
 description: Os componentes principais suportam AMP - Páginas móveis aceleradas
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -63,5 +63,9 @@ As configurações AMP de uma página também podem ser substituídas em [Propri
 Ao usar a AMP com os Componentes principais, a principal diferença é que a AMP exige que todos os [CSS sejam incorporados](including-clientlibs.md#inlining) no elemento `<head>`, bem como otimizados.
 
 Para suportar isso, um componente de página personalizado é usado, que carrega apenas o CSS específico da AMP para componentes presentes na página.
+
+>[!NOTE]
+>
+>Devido às limitações de design da AMP, o Adobe não suporta o uso da Grade responsiva com a versão AMP da sua página.
 
 Para obter mais requisitos e detalhes técnicos, consulte a [documentação do desenvolvedor do GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
