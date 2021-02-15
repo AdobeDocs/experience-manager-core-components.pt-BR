@@ -2,9 +2,9 @@
 title: Listar Componente
 description: O componente principal de Lista do componente permite a fácil criação de listas dinâmicas e estáticas.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
@@ -188,3 +188,7 @@ dataAtivar Mostrar data na caixa de diálogo  [editar](#edit-dialog)
 ### Guia Estilos {#styles-tab}
 
 O Componente de imagem suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de Lista suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
