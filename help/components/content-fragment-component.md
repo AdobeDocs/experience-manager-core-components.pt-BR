@@ -2,10 +2,10 @@
 title: Componente do fragmento do conteúdo
 description: O componente Fragmento de conteúdo do componente principal permite a exibição de um fragmento de conteúdo.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 5%
+source-wordcount: '673'
+ht-degree: 4%
 
 ---
 
@@ -110,3 +110,6 @@ A caixa de diálogo de design permite que o autor do modelo defina os tipos de r
 
    * O tipo de recurso Sling que é usado para a grade responsiva interna
 
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de fragmento de conteúdo suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
