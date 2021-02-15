@@ -2,9 +2,9 @@
 title: Componente de navegação estrutural
 description: O Componente de navegação estrutural principal é um componente de navegação que cria uma trilha de navegação de links com base na localização da página na hierarquia de conteúdo.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -89,3 +89,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais são os
 ### Guia Estilos {#styles-tab}
 
 O componente de navegação estrutural suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de navegação estrutural suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
