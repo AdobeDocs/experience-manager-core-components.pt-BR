@@ -2,7 +2,7 @@
 title: Compilação front-end para React SPA
 description: Uma descrição do processo de compilação front-end para projetos de SPA baseados em React
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -26,7 +26,7 @@ No diretório do projeto, você pode executar os seguintes comandos:
 
 ### start npm {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,7 +45,7 @@ Se você estiver recebendo erros relacionados ao CORS, é possível configurar A
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Esse comando inicia o executante de teste no modo de observação interativa. Co
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ Por padrão, esse projeto usa a opção padrão [Browserslist](https://github.co
 
 O aplicativo React está configurado para usar [divisão de código](https://webpack.js.org/guides/code-splitting) por padrão. Ao criar o aplicativo para produção, o código será exibido em várias partes:
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
