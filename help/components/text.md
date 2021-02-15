@@ -2,9 +2,9 @@
 title: Componente de texto
 description: O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2213'
 ht-degree: 3%
 
 ---
@@ -369,3 +369,7 @@ A opção para inserir caracteres especiais pode ser ativada ou desativada para 
 ## Guia Estilos {#styles-tab}
 
 O componente de texto suporta o sistema de estilo AEM [a1/>.](/help/get-started/authoring.md#component-styling)
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O componente de texto oferece suporte à [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
