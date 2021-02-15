@@ -2,7 +2,7 @@
 title: Introdução aos Componentes principais
 description: 'Os componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
+source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 26%
@@ -35,7 +35,7 @@ Os componentes principais são um conjunto de componentes padronizados de Gestã
 | Pronto para nuvem | Seja em [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), em [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles funcionam apenas. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem montar praticamente qualquer layout. |
 | Configurável | As políticas de conteúdo [em nível de modelo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) definem quais recursos os autores de página podem usar ou não. |
-| Trackable | A [integração da Camada de Dados do Cliente Adobe](/help/developing/data-layer/overview.md) permite rastrear todos os aspectos da experiência do visitante. |
+| Trackable | A [integração da camada de dados do cliente Adobe](/help/developing/data-layer/overview.md) permite rastrear todos os aspectos da experiência do visitante. |
 | Acessíveis | Eles estão em conformidade com o [padrão WCAG 2.1](https://www.w3.org/TR/WCAG21/), fornecem etiquetas ARIA e suportam a navegação do teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+acessibilidade+in%3Atitle)). |
 | Amigável para SEO | A saída HTML é semântica e fornece [schema.org](https://schema.org) anotações de microdados. |
 | WebApp-Ready | A [saída JSON simplificada](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permite a renderização do lado do cliente, ainda com uma possibilidade de [edição no contexto](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
@@ -106,7 +106,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Componentes principais | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2,13,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Contínuo | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+| [2,14,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Contínuo | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
