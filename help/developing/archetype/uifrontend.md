@@ -2,7 +2,7 @@
 title: AEM Projeto de Arquétipo de Compilação Front-End
 description: Um modelo de projeto para aplicativos baseados em AEM
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -166,7 +166,7 @@ O processo de compilação do módulo ui.frontenda aproveita o plug-in [aem-clie
 
 A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
