@@ -1,22 +1,26 @@
 ---
 product: Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+description: Documentação dos componentes principais Adobe Experience Manager
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.pt-BR
 index: y
-solution-title: Aprendizagem e suporte para o AEM
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
-getting-started-title: Introdução ao desenvolvimento do AEM
+solution-title: Aprendizagem e suporte para AEM
+solution-hub-url: https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/home.html
+getting-started-title: Introdução ao desenvolvimento para AEM
 getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
 tutorials-title: Tutoriais do AEM
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
+source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 19%
 
 ---
 
 
 # Metadados para uso interno
 
-Os metadados no sistema de criação do GitHub são hierárquicos e são definidos como os seguintes níveis crescentes de precedente.
+Os metadados no sistema de criação do GitHub são hierárquicos e são definidos como os seguintes níveis crescentes de precedência.
 
 1. metadata.md
 1. ToC
@@ -49,4 +53,4 @@ Artigo
 * `description`
 * `index: n` (somente para versões anteriores de componentes)
 
-Informações adicionais sobre os metadados podem ser encontradas no guia de criação [interno.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+Informações adicionais sobre os metadados podem ser encontradas no [guia de criação interno.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
