@@ -2,9 +2,9 @@
 title: Componente do carrossel
 description: O componente carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel rotativo.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Para obter mais informações sobre versões e versões dos Componentes principa
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel).
+Para experimentar o componente do carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### Detalhes técnicos {#technical-details}
 
@@ -128,3 +128,7 @@ A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome
 ### Guia Estilos {#styles-tab}
 
 O componente carrossel suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O componente carrossel suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
