@@ -2,9 +2,9 @@
 title: Componente de navegação
 description: O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ Na caixa de diálogo de edição, o autor do conteúdo pode definir a página ra
    * 2 = excluir a raiz e mais 1 nível acima
    * etc.
 * **Coletar todas as páginas**  secundárias - Coleta todas as páginas que são descendentes da raiz de navegação.
-* **Profundidade**  da estrutura de navegação - Define quantos níveis abaixo da árvore de navegação o componente deve exibir em relação à raiz de navegação (disponível somente quando  **Coleta todas as** páginas filhas não selecionadas).
+* **Profundidade**  da estrutura de navegação - Define quantos níveis abaixo da árvore de navegação o componente deve exibir em relação à raiz de navegação (disponível apenas quando  **Coleta todas as** páginas filhas não selecionadas).
 * **Desativar sombreamento**  - Se a página na hierarquia for um redirecionamento, o nome da página de redirecionamento será exibido em vez do público alvo. Consulte o [Suporte à estrutura do site sombra](#shadow-structure) para obter mais informações.
 * **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
    * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
@@ -165,3 +165,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os valores pa
 ### Guia Estilos {#styles-tab}
 
 O componente de navegação suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de Navegação suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
