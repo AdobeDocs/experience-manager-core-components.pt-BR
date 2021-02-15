@@ -2,10 +2,10 @@
 title: Usando a camada de dados do cliente Adobe com os componentes principais
 description: Usando a camada de dados do cliente Adobe com os componentes principais
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 A meta da Camada de Dados do Cliente Adobe é reduzir o esforço de instrumentar sites, fornecendo um método padronizado para expor e acessar qualquer tipo de dados para qualquer script.
 
-A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com o AEM.
+A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com AEM.
 
 Como os Componentes principais, o código da Camada de dados do cliente do Adobe está disponível no GitHub, juntamente com a documentação do desenvolvedor. Este documento fornece uma visão geral de como os Componentes principais interagem com a Camada de dados, mas detalhes técnicos completos são adiados para a documentação do GitHub.
 
@@ -41,7 +41,7 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma [configuraç
 
 1. Adicione uma propriedade `sling:configRef` ao nó `jcr:content` do site abaixo de `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina-o como `/conf/<mySite>` da etapa anterior.
 
-1. Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor. A origem da página e a tag `<body>` do Inspect devem incluir um atributo `data-cmp-data-layer-enabled`
+1. Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor, por exemplo, usando a opção **Visualização como Publicada** no editor. A origem da página e a tag `<body>` do Inspect devem incluir um atributo `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma [configuraç
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## Componentes suportados {#supported-components}
+
+Os componentes a seguir são compatíveis com a Camada de dados.
+
+* [Menu sanfonado](/help/components/accordion.md)
+* [Caminho](/help/components/breadcrumb.md)
+* [Botão](/help/components/button.md)
+* [Carrossel](/help/components/carousel.md)
+* [Fragmento do conteúdo](/help/components/content-fragment-component.md)
+* [Imagem](/help/components/image.md)
+* [Navegação de idiomas](/help/components/language-navigation.md)
+* [Lista](/help/components/list.md)
+* [Navegação](/help/components/navigation.md)
+* [Página](/help/components/page.md)
+* [Barra de progresso](/help/components/progress-bar.md)
+* [Guias](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Texto](/help/components/text.md)
+* [Título](/help/components/title.md)
+
+Consulte também os eventos [acionados pelos componentes.](#events-components)
 
 ## Schemas de dados dos componentes principais {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 O seguinte [evento](#events) é relevante para o schema de ativos:
 
 * `cmp:click`
+
+### Schema de fragmento de conteúdo {#content-fragment}
+
+O schema de Fragmento de conteúdo é usado pelo [componente de Fragmento de conteúdo.](/help/components/content-fragment-component.md)
+
+O schema de Fragmento do conteúdo é definido da seguinte forma.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+O schema usado para o elemento Fragmento do conteúdo é o seguinte.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Eventos de componentes principais {#events}
 
