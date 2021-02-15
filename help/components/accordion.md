@@ -2,9 +2,9 @@
 title: Componente Acordeão
 description: O componente principal Acordeão de componentes permite a criação de uma coleção de painéis organizados em um acordeão em uma página.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -125,3 +125,7 @@ A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome
 ### Guia Estilos {#styles-tab}
 
 O Componente Acordeão suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente Acordeão suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
