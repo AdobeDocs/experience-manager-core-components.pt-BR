@@ -1,10 +1,10 @@
 ---
 title: Módulo ui.tests do AEM Project Archetype
-description: Como usar os testes JUnit do AEM Project Archetype
+description: Como usar os Testes da interface do AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,22 @@ ht-degree: 0%
 
 Há três níveis de teste contidos no projeto:
 
-## Testes de Unidade {#unit-tests}
+* [Testes de unidade](core.md#unit-tests)
+* [Testes de integração](ittests.md)
+* Testes da interface do usuário
 
-O teste de unidade no módulo [núcleo](core.md) mostra o teste de unidade clássica do código contido no conjunto. Para testar, execute:
+Este artigo descreve os testes de interface disponíveis como parte do módulo ui.testing.
 
-```
-mvn clean test
-```
+## Execução de testes de interface de usuário {#running-tests}
 
-## Testes de integração {#integration-tests}
+Para testar, execute:
 
-Os testes de integração do lado do servidor permitem que testes semelhantes a unidades sejam executados no ambiente AEM, ou seja, no servidor AEM. Para testar, execute:
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## Testes do lado do cliente {#client-side-tests}
+Após a execução, os relatórios e registros ficam disponíveis na pasta `target/reports`.
 
-Os testes `client-side Hobbes.js` são testes do lado do navegador baseados em JavaScript que verificam o comportamento do lado do navegador.
+## Opções adicionais {#additional-options}
 
-Para testar, ao visualizar uma página AEM que você deseja testar no navegador, abra a página no **modo Desenvolvedor** abrindo o painel esquerdo e alterne para a guia **Testes** e localize os **Testes do MeuNome** gerados e execute-os.
+Os testes da interface do usuário podem ser executados com muitas opções diferentes, incluindo testes sem cabeça em um navegador local e como uma imagem Docker. Consulte o arquivo [README.md do módulo ui.testing](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) para obter mais informações.
