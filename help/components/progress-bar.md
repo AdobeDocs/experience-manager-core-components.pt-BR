@@ -2,9 +2,9 @@
 title: Componente da barra de progresso
 description: O componente da barra de progresso representa visualmente o progresso em direção a uma meta
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '338'
 ht-degree: 3%
 
 ---
@@ -55,3 +55,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os estilos ap
 ### Guia Estilos {#styles-tab}
 
 O componente de barra de progresso suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente da Barra de Progresso suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
