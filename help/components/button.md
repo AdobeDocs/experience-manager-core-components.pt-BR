@@ -2,10 +2,10 @@
 title: Componente do botão
 description: O componente de Botão Componente Principal permite a criação e a exibição de um botão.
 translation-type: tm+mt
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 4%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -73,3 +73,7 @@ Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos [ARI
 ### Guia Estilos {#styles-tab}
 
 O componente Botão suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente Botão suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
