@@ -2,9 +2,9 @@
 title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 translation-type: tm+mt
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2170'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ O Componente de imagem vem com recursos robustos e responsivos prontos imediatam
 
 Além disso, o Componente de imagem oferece suporte ao carregamento lento para adiar o carregamento do ativo de imagem real até que ele esteja visível no navegador, aumentando a capacidade de resposta das páginas.
 
-## Suporte a Dynamic Media {#dynamic-media}
+## Suporte Dynamic Media {#dynamic-media}
 
-O Componente de imagem (a partir de [versão 2.13.0](/help/versions.md)) suporta os ativos [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia). [Quando ativados, ](#design-dialog) esses recursos ofertas a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou pelo navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O Componente de imagem (a partir de [versão 2.13.0](/help/versions.md)) suporta [ativos Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia). [Quando ativados, ](#design-dialog) esses recursos ofertas a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências na Web criadas com os Componentes principais não podem ter recursos avançados, avançados pelo Sensei, robustos, de alto desempenho e recursos de Imagem de Mídia Dinâmica em várias plataformas.
+Suas experiências na Web criadas com os Componentes principais não podem ter recursos avançados, avançados pelo Sensei, robustos, de alto desempenho e recursos de Imagem Dynamic Media em várias plataformas.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -90,10 +90,10 @@ Além da caixa de diálogo padrão [edit](#edit-dialog) e da caixa de diálogo [
 
 ![Guia Metadados da caixa de diálogo de configuração do Componente de imagem](/help/assets/image-configure-metadata.png)
 
-* **Tipo**  predefinido - define os tipos de predefinições de imagens disponíveis,  **Imagem** do  **preetor** inteligente e está disponível somente quando  [os recursos de Mídia ](#dynamic-meida) dinâmica estão ativados.
+* **Tipo**  predefinido - define os tipos de predefinições de imagens disponíveis,  **Imagem** do  **preetor** inteligente, e só está disponível quando os  [recursos ](#dynamic-meida) Dynamic Media estão ativados.
    * **Predefinição**  de imagem - quando  **Predefinir** tipo de  **imagem** predefinido é selecionado, a opção suspensa  **Predefinições de imagem** está disponível, permitindo a seleção das predefinições disponíveis do Dynamic Media. Isso só estará disponível se as predefinições forem definidas para o ativo selecionado.
    * **Recorte**  inteligente - quando  **Predefinir** tipo de  **Correspondência** inteligente selecionou a representação suspensa  **** está disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
-   * **Modificadores**  de imagem - Comandos adicionais de serviço de imagem do Dynamic Media podem ser definidos aqui separados por  `&`, independentemente do  **tipo predefinido** selecionado.
+   * **Modificadores**  de imagem - Comandos adicionais de serviço de imagem do Dynamic Media podem ser definidos aqui separados por  `&`, independentemente de qual  **Tipo** predefinido está selecionado.
 * **Imagem decorativa**  - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
 * **Texto**  alternativo - Alternativa textual do significado ou função da imagem, para leitores com deficiências visuais.
    * **Obter texto alternativo do DAM**  - quando marcado, o texto alternativo da imagem será preenchido com o valor dos  `dc:description` metadados no DAM.
@@ -118,7 +118,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo recorte, modifi
 
 >[!NOTE]
 >
->Os recursos de cortar, girar e aplicar zoom não se aplicam aos ativos do Dynamic Media. Se [os recursos do Dynamic Media](#dynamic-media) estiverem ativados, qualquer edição desse tipo nos ativos do Dynamic Media deve ser realizada por meio da [Configurar caixa de diálogo.](#configure-dialog)
+>Os recursos de cortar, girar e aplicar zoom não se aplicam aos ativos Dynamic Media. Se [Os recursos do Dynamic Media](#dynamic-media) estiverem ativados, qualquer edição desse tipo nos ativos do Dynamic Media deverá ser realizada por meio da [Caixa de Diálogo Configurar.](#configure-dialog)
 
 ![Caixa de diálogo de edição do componente de imagem](/help/assets/image-edit.png)
 
@@ -187,7 +187,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
 
 ![Guia principal da caixa de diálogo de design do Componente de imagem](/help/assets/image-design-main.png)
 
-* **Ativar recursos**  do DM - Quando marcado, os  [recursos habilitados do ](#dynamic-media) Dynamic Media ficam disponíveis.
+* **Ativar recursos**  DM - quando marcados, os recursos habilitados do  [Dynamic Media ](#dynamic-media) estarão disponíveis.
 * **Ativar carregamento**  lento - Defina se a opção de carregamento lento é ativada automaticamente ao adicionar o componente de imagem a uma página.
 * **Imagem decorativa**  - Defina se a opção de imagem decorativa é ativada automaticamente ao adicionar o componente de imagem a uma página.
 * **Obter texto alternativo do DAM** - Defina se a opção para recuperar o texto alternativo do DAM está automaticamente ativada ao adicionar o componente de imagem a uma página.
@@ -255,3 +255,7 @@ O Componente de imagem usa o Servlet de imagem adaptativa do Componente principa
 >As solicitações condicionais por meio do cabeçalho `Last-Modified` são suportadas pelo Servlet de imagem adaptável, mas o cache do cabeçalho `Last-Modified` [precisa ser habilitado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[A amostra de configuração do Dispatcher do AEM Project Archetype](/help/developing/archetype/overview.md) já contém essa configuração.
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de Imagem suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
