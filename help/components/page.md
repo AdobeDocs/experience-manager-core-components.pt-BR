@@ -2,9 +2,9 @@
 title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ Para obter mais informações sobre o uso de bibliotecas do lado do cliente, con
 ### Guia Estilos {#styles-tab}
 
 O Componente de página suporta o Sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de Página suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
