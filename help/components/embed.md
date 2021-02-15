@@ -2,9 +2,9 @@
 title: Componente incorporado
 description: O Componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo AEM.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,20 @@ Os desenvolvedores podem adicionar outros processadores de URL [seguindo a docum
 
 ### Incorporável {#embeddable}
 
-Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor é capaz de selecionar entre os materiais incorporados confiáveis pré-configurados e o componente é fornecido com um anúncio pronto para uso no Youtube.
+Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor é capaz de selecionar entre os materiais incorporados confiáveis pré-configurados e o componente é fornecido com um YouTube incorporado e pronto para uso.
 
 O campo **Incorporável** define o tipo de processador que você deseja usar. No caso do YouTube incorporável, é possível definir:
 
 * **ID**  de vídeo - a ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
 * **Largura**  - A largura do vídeo incorporado
 * **Altura**  - A altura do vídeo incorporado
+* **Ativar mudo**  - Esse parâmetro especifica se o vídeo será reproduzido sem áudio por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
+* **Ativar reprodução**  automática - Esse parâmetro especifica se o vídeo inicial será automaticamente start para reproduzir quando o player for carregado. Isso só é eficaz na instância de publicação ou ao usar a opção **Visualização como Publicada** na instância de criação.
+* **Ativar loop**  - no caso de um único vídeo, esse parâmetro especifica se o player deve reproduzir repetidamente o vídeo inicial. No caso de uma lista de reprodução, o player reproduz a lista de reprodução inteira e start novamente no primeiro vídeo.
+* **Ativar reprodução em linha (iOS)**  - Esse parâmetro controla se os vídeos são reproduzidos em linha (ativado) ou em tela cheia (desativado) em um player HTML5 no iOS.
+* **Vídeos**  relacionados irrestritos - se essa opção estiver desativada, os vídeos relacionados virão do mesmo canal que o vídeo que acabou de ser reproduzido, caso contrário eles virão de qualquer canal.
+
+Observe que as opções &quot;enable&quot; devem ser ativadas por meio da [Caixa de diálogo de design](#design-dialog) e podem ser definidas como valores padrão.
 
 Outros materiais incorporados ofertas campos semelhantes e podem ser definidos por um desenvolvedor por [seguindo a documentação do desenvolvedor do Componente incorporado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -102,7 +109,7 @@ A marcação HTML que o autor pode inserir é filtrada para fins de segurança, 
 
 *Em geral,* todos os scripts e  `style` elementos, bem como todos  `on*` e  `style` atributos, serão removidos da saída.
 
-No entanto, as regras são mais complicadas porque o Componente incorporado segue o conjunto de regras de filtragem da estrutura de saneamento HTML global do AEM, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
+No entanto, as regras são mais complicadas porque o Componente incorporado segue AEM conjunto de regras de filtragem da estrutura de saneamento HTML global AntiSamy, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica do projeto por um desenvolvedor, se necessário.
 
 Informações adicionais de segurança podem ser encontradas na [AEM documentação do desenvolvedor para instalações locais](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), bem como em [AEM como instalações de Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
@@ -113,9 +120,26 @@ Informações adicionais de segurança podem ser encontradas na [AEM documentaç
 
 A caixa de diálogo de design permite que o autor do modelo defina as opções disponíveis para o autor do conteúdo que usa o componente incorporado e os padrões definidos ao colocar o componente incorporado.
 
+### Guia Tipos Incorporáveis {#embeddable-types-tab}
+
 ![Caixa de diálogo de design do componente incorporado](/help/assets/embed-design.png)
 
 * **Desativar URL**  - Desativa a opção  **** URL para o autor do conteúdo quando selecionada
 * **Desabilitar materiais**  incorporados - Desabilita a opção  **** Incorporável para o autor do conteúdo quando selecionada, independentemente de quais processadores incorporáveis são permitidos.
 * **Desativar HTML**  - Desativa a opção  **** HTML para o autor do conteúdo quando selecionada.
-* **Incorporáveis**  permitidos - Seleção múltipla que define quais processadores incorporáveis estão disponíveis para o autor do conteúdo, desde que a opção  **** Incorporável esteja ativa.
+* **Incorporáveis**  permitidos - multiselecione que define quais processadores incorporáveis estão disponíveis para o autor do conteúdo, desde que a opção  **** Incorporável esteja ativa.
+
+### Guia do YouTube {#youtube-tab}
+
+![Guia YouTube da caixa de diálogo de design do Componente incorporado](/help/assets/embed-design-youtube.png)
+
+* **Permitir configuração de comportamento**  silencioso - permite que o autor do conteúdo configure a opção  **Ativar** mutação no componente quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão de mudo**  - define  **Ativar** muteoption automaticamente quando o tipo de incorporação do YouTube é selecionado
+* **Permitir configuração do comportamento**  de reprodução automática - Permite que o autor do conteúdo configure a opção  **Ativar reprodução** automática no componente quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão da reprodução**  automática: define automaticamente a opção  **Ativar reprodução** automática quando o tipo de incorporação do YouTube é selecionado
+* **Permitir configuração do comportamento**  de loop - permite que o autor do conteúdo configure a opção  **Ativar** loopção no componente quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão do loop** : define automaticamente  **Ativar** loopção quando o tipo incorporado do YouTube é selecionado
+* **Permitir configuração de reprodução em linha (iOS)** - Permite que o autor do conteúdo configure a  **opção** Ativar reprodução em linha (iOS)no componente quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão da reprodução em linha (iOS)**  - Define automaticamente a  **opção** Ativar reprodução em linha (iOS)quando o tipo de incorporação do YouTube é selecionado
+* **Permitir configuração de vídeos**  em linha - Permite que o autor do conteúdo configure a opção  **** Vídeos relacionados sem restrições no componente quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão de vídeos**  relacionados irrestritos - Define automaticamente a opção  **Vídeos relacionados** irrestritos quando o tipo de incorporação do YouTube é selecionado
