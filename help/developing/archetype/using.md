@@ -2,9 +2,9 @@
 title: Uso do AEM Project Archetype
 description: Instruções de utilização detalhadas para o AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
@@ -33,13 +33,16 @@ O arquétipo de projeto facilita começar a desenvolver em AEM. Você pode dar s
 O AEM Archetype é composto de módulos:
 
 * **[núcleo](core.md)**: é um pacote Java que contém todas as funcionalidades principais, como serviços OSGi, ouvintes e scheduleres, bem como código Java relacionado a componentes, como servlets e filtros de solicitação.
-* **[ui.apps](uiapps.md)**: contém as  `/apps` e  `/etc` partes do projeto, ou seja, clientes JS e CSS, componentes, modelos, configurações específicas do modo de execução, bem como testes Hobbes.
+* **[it.testing](ittests.md)**: são testes de integração baseados em Java.
+* **[ui.apps](uiapps.md)**: contém as  `/apps` e  `/etc` partes do projeto, ou seja, clientes JS e CSS, componentes e modelos.
 * **[ui.content](uicontent.md)**: contém conteúdo de amostra usando os componentes do módulo ui.apps.
-* **[ui.testing](uitests.md)**: é um pacote Java que contém testes JUnit executados no lado do servidor. Este pacote não deve ser implantado na produção.
-* **ui.launch**: contém o código de cola que implanta o pacote ui.testing (e os pacotes dependentes) para o servidor e aciona a execução remota da JUnit.
+* **ui.config**: contém configurações OSGi específicas para runmode para o projeto.
 * **[ui.frontende.general](uifrontend.md)**:  **(opcional)** contém os artefatos necessários para usar o módulo de compilação front-end baseado em Webpack geral.
 * **[ui.frontende.response](uifrontend-react.md)**:  **(opcional)** contém os artefatos necessários ao usar o arquétipo para criar um SPA projetos com base em Reagir.
 * **[ui.frontende.angular](uifrontend-angular.md)**:  **(opcional)** contém os artefatos necessários ao usar o arquétipo para criar projetos SPA baseados em Angular.
+* **[ui.testing](uitests.md)**: contém testes de interface baseados em Selenium.
+* **tudo**: é um único pacote de conteúdo que incorpora todos os módulos compilados (pacotes e pacotes de conteúdo), incluindo todas as dependências do fornecedor.
+* **analisar**: executa a análise no projeto, que fornece validação adicional para implantação em AEM como um Cloud Service.
 
 ![](/help/assets/archetype-structure.png)
 
