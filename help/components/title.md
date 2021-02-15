@@ -2,9 +2,9 @@
 title: Componente do título
 description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
@@ -82,3 +82,7 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 ### Guia Estilos {#styles-tab}
 
 O componente Título suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+
+## Camada de Dados do Cliente Adobe {#data-layer}
+
+O Componente de Título suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
