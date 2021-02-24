@@ -2,9 +2,9 @@
 title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,13 @@ O Componente de página é um componente de página extensível projetado para f
 
 ## Uso {#usage}
 
-O componente de página forma a base de todas as páginas projetadas com os componentes principais, bem como modelos editáveis. Usando o componente de página, os cabeçalhos, rodapés e a estrutura da página podem ser definidos como um modelo usando os outros componentes principais.
+O Componente de página forma a base de todas as páginas projetadas com os Componentes principais, bem como modelos editáveis. Usando o Componente de página, os cabeçalhos, rodapés e a estrutura da página podem ser definidos como um modelo usando os outros Componentes principais.
 
-Usando a caixa de diálogo [design](#design-dialog), bibliotecas personalizadas do lado do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, como o componente é a própria página, a [caixa de diálogo de edição](#edit-dialog) do componente de página é a janela de propriedades da página.
+Usando a caixa de diálogo [design](#design-dialog), bibliotecas personalizadas do lado do cliente podem ser definidas para a página. Ao contrário de outros componentes que têm uma caixa de diálogo de edição acessível diretamente do componente, como o Componente da página é a própria página, a [caixa de diálogo de edição](#edit-dialog) do Componente da página é a janela de propriedades da página.
+
+## Suporte progressivo a aplicativos da Web {#pwa-support}
+
+A versão 2.15.0 dos Componentes principais introduziu suporte para AEM recursos internos [Aplicativos da Web progressivos (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) no Componente de página. Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
