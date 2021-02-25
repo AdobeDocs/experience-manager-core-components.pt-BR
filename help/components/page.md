@@ -2,9 +2,9 @@
 title: Componente da página
 description: O Componente de página é um componente de página extensível projetado para trabalhar com o editor de modelo e permitir que os componentes de cabeçalho/rodapé e estrutura da página sejam montados com o editor de modelo.
 translation-type: tm+mt
-source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
+source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '683'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Usando a caixa de diálogo [design](#design-dialog), bibliotecas personalizadas 
 
 ## Suporte progressivo a aplicativos da Web {#pwa-support}
 
-A versão 2.15.0 dos Componentes principais introduziu suporte para AEM recursos internos [Aplicativos da Web progressivos (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) no Componente de página. Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
+A versão 2.1.0 dos Componentes principais introduziu o suporte para AEM como um Cloud Service integrado de aplicativos da Web progressivos (PWA.). Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
