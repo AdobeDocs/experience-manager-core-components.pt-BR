@@ -87,7 +87,7 @@ ht-degree: 67%
       + [Módulo ui.content](developing/archetype/uicontent.md)
       + [ui.frontende.general Module](developing/archetype/uifrontend.md)
       + [Módulo ui.frontende.response](developing/archetype/uifrontend-react.md)
-      + [ui.frontenst.angle Module](developing/archetype/uifrontend-angular.md)
+      + [Módulo ui.frontende.angular](developing/archetype/uifrontend-angular.md)
       + [Módulo ui.testing](developing/archetype/uitests.md)
       + [módulo it.testing](developing/archetype/ittests.md)
       + [Plug-in Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
