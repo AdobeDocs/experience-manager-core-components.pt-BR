@@ -1,11 +1,12 @@
 ---
 title: Componente de lista (v1)
-description: O componente principal de Lista do componente permite a fácil criação de listas dinâmicas e estáticas.
+description: O Componente de lista de componentes principais permite a criação fácil de listas dinâmicas e estáticas.
 index: n
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 4%
 
 # Componente de lista (v1) {#list-component-v}
 
-O componente principal de Lista do componente permite a fácil criação de listas dinâmicas e estáticas.
+O Componente de lista de componentes principais permite a criação fácil de listas dinâmicas e estáticas.
 
 ## Uso {#usage}
 
-O Componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens definidos arbitrariamente.
+O Componente de lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens definidos arbitrariamente.
 
-O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode selecionar entre os tipos de lista disponíveis e como formatar os elementos de lista na caixa de diálogo [edit](#edit-dialog).
+O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode selecionar entre os tipos de lista disponíveis e como formatar os elementos da lista no [diálogo de edição](#edit-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente da Lista, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
+Este documento descreve a v1 do Componente de lista, introduzido originalmente com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade de v1 do Componente de Lista.
+A tabela a seguir lista a compatibilidade da v1 do Componente de lista.
 
 | Versão do AEM | Componente de lista v1 |
 |--- |--- |
@@ -34,11 +35,11 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de Lista.
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente de Lista.
+>Este documento descreve v1 do Componente de lista.
 >
->Para obter detalhes sobre a versão atual do Componente de Lista, consulte o documento [Componente de Lista](/help/components/list.md).
+>Para obter detalhes sobre a versão atual do Componente de lista, consulte o documento [Componente de lista](/help/components/list.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
 A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -134,47 +135,47 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Editar Caixa de Diálogo {#edit-dialog}
 
-A caixa de diálogo de edição permite que o autor do conteúdo configure os elementos de lista e lista.
+A caixa de diálogo de edição permite que o autor de conteúdo configure a lista e os elementos da lista.
 
 ### Configurações da lista {#list-settings}
 
-A lista pode ser construída de maneiras diferentes.
+A lista pode ser criada de maneiras diferentes.
 
 * [Páginas secundárias](#child-pages)
 * [Lista fixa](#fixed-list)
 * [Pesquisar](#search-list)
 * [Tags](#tags)
 
-Independentemente de como a lista é criada, há [Opções de classificação](#sort-options) que podem ser sempre configuradas.
+Independentemente de como a lista é criada, há [Opções de Classificação](#sort-options) que podem ser sempre configuradas.
 
 ![](/help/assets/chlimage_1-38.png)
 
-Dependendo de como o autor do conteúdo escolher criar a lista, as opções de configuração adicionais serão alteradas.
+Dependendo de como o autor de conteúdo optar por criar a lista, as opções de configuração adicionais serão alteradas.
 
 #### Páginas filhas {#child-pages}
 
-A lista pode ser criada a partir das páginas secundárias da página atual ou de outra página.
+A lista pode ser criada das páginas filhas da página atual ou de outra página.
 
 ![](/help/assets/chlimage_1-39.png)
 
 * **Página primário**
    * A página cujas páginas secundárias devem fazer a lista
    * Deixe em branco para usar a página atual
-* **Profundidade** -filho - Quantos níveis abaixo na hierarquia devem ser usados
+* **Profundidade do filho**  - Quantos níveis abaixo na hierarquia devem ser usados
 
 #### Lista fixa {#fixed-list}
 
-A lista pode ser construída usando uma lista fixa de itens.
+A lista pode ser criada usando uma lista fixa de itens.
 
 ![](/help/assets/chlimage_1-40.png)
 
-Toque ou clique no botão **Adicionar** para inserir um novo item na lista.
+Toque ou clique no botão **Add** para inserir um novo item à lista.
 
-* Insira o texto do item na lista ou use a **Caixa de diálogo de seleção** para escolher um item da AEM.
+* Insira o texto para o item na lista ou use a **Caixa de Diálogo de Seleção** para escolher um item do AEM.
 * Use a alça de arrastar para reorganizar os itens na lista.
 * Use o ícone da lixeira para excluir itens na lista.
 
@@ -184,36 +185,36 @@ A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Query**  de pesquisa - a string para a qual uma pesquisa de texto completo será executada para gerar os elementos de lista
-* **Pesquisar**  - Onde a pesquisa deve ser executada
+* **Consulta de pesquisa**  - a sequência de caracteres para a qual uma pesquisa de texto completo será executada para gerar os elementos da lista
+* **Pesquisar no**  - Onde a pesquisa deve ser executada
    * Use a caixa de diálogo **Seleção** para escolher o local no AEM
    * Usar página atual se deixado em branco
 
 #### Tags {#tags}
 
-A lista pode ser criada usando páginas que correspondem a determinadas tags em um local específico.
+A lista pode ser criada usando páginas que correspondem a determinadas tags em um determinado local.
 
 ![](/help/assets/chlimage_1-42.png)
 
-* **Página**  principal - Onde a correspondência de tags deve ser start
+* **Página principal**  - Onde a correspondência de tags deve começar
    * Use a caixa de diálogo **Seleção** para escolher o local no AEM
    * Usar página atual se deixado em branco
 * **Tags**  - Quais tags devem ser correspondidas
    * Use a caixa de diálogo **Procurar** para selecionar as tags
-* **Correspondência**  - Defina o tipo de correspondência que deve qualificar uma página a ser incluída na lista
+* **Correspondência**  - Defina que tipo de correspondência deve qualificar uma página para ser incluída na lista
    * **qualquer tag**
    * **todas as tags**
 
 #### Opções de classificação {#sort-options}
 
-Independentemente de como você escolher criar a lista, há certas opções de classificação que podem ser sempre definidas.
+Independentemente de como você optar por criar a lista, há certas opções de classificação que podem sempre ser definidas.
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Ordenar por** - Como os elementos devem ser ordenados
+* **Ordenar por**  - Como os elementos devem ser ordenados
    * **Título**
    * **Última data de modificação**
-* **Ordem**  de Classificação - A ordem na qual os itens devem ser ordenados
+* **Ordem de Classificação**  - A ordem na qual os itens devem ser ordenados
    * **ascendente**
    * **descendente**
 * **Máximo de itens**  - Número máximo de itens exibidos na lista.
@@ -221,47 +222,47 @@ Independentemente de como você escolher criar a lista, há certas opções de c
 
 ### Configurações do item {#item-settings}
 
-Usando a guia **Configurações do item**, a formatação dos elementos de lista pode ser configurada.
+Usando a guia **Item Settings**, a formatação dos elementos da lista pode ser configurada.
 
 ![](/help/assets/chlimage_1-44.png)
 
 * **Vincular**
 itensVincular itens à página correspondente
 * **Mostrar**
-descriçãoMostrar descrições do item do link
+DescriçãoMostrar descrições do item de link
 * **Mostrar**
-dataMostrar data de modificação do item de link
+DataMostrar data de modificação do item de link
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina quais tipos de listas devem ser permitidos para os autores do conteúdo, bem como as configurações de item disponíveis.
+A caixa de diálogo de design permite que o autor do modelo defina quais tipos de listas devem ser permitidos para os autores de conteúdo, bem como as configurações de item disponíveis.
 
 ### Configurações da lista {#list-settings-1}
 
-Na guia **Configurações de Lista**, o formato de data pode ser definido, bem como o tipo de listas que deve estar disponível no componente para os autores de conteúdo.
+Na guia **List Settings** , o formato de data pode ser definido, bem como que tipo de lista deve estar disponível no componente para os autores de conteúdo.
 
 ![](/help/assets/chlimage_1-45.png)
 
-* **Formato**  de data - Formato a ser usado para a exibição da última data de modificação
-* **Desativar filhos**  - Desabilitar o tipo de lista filho no componente
-* **Disable Static (Desativar estático** ) - Desative o tipo de lista estática no componente
-* **Desabilitar pesquisa**  - Desabilitar o tipo de lista de pesquisa no componente
+* **Formato de data**  - Formato a ser usado para a exibição da última data de modificação
+* **Desativar filhos**  - Desative o tipo de lista de filhos no componente
+* **Desativar estático**  - Desative o tipo de lista estática no componente
+* **Desativar pesquisa**  - Desative o tipo de lista de pesquisa no componente
 * **Desativar tags**  - Desativar o tipo de lista de tags no componente
 
 ### Configurações do item {#item-settings-1}
 
-Na guia **Configurações do item**, as opções de formatação dos elementos de lista individuais que devem estar disponíveis no componente para os autores do conteúdo podem ser definidas.
+Na guia **Configurações do item**, as opções de formatação para os elementos da lista individual que devem estar disponíveis no componente para os autores de conteúdo podem ser definidas.
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Itens**  de link - opção Ativar itens de link na caixa de diálogo  [de edição](#edit-dialog)
-* **Mostrar descrições**  - Ativar a opção Mostrar descrições na caixa de diálogo  [editar](#edit-dialog)
-* **Mostrar data**  - Ativar a opção Mostrar data na caixa de diálogo  [editar](#edit-dialog)
+* **Itens de link**  - opção Habilitar itens de link na caixa de diálogo de  [edição](#edit-dialog)
+* **Mostrar descrições**  - Habilite a opção Mostrar descrições na caixa de diálogo de  [edição](#edit-dialog)
+* **Mostrar data**  - Ativar a opção Mostrar data na caixa de diálogo de  [edição](#edit-dialog)
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+A documentação técnica mais recente sobre o Componente de lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
-Todo o projeto de componentes principais pode ser baixado do GitHub.
+O projeto de componentes principais inteiro pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
