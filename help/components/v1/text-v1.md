@@ -1,11 +1,12 @@
 ---
 title: Componente de texto (v1)
-description: O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
+description: O componente de texto é um componente de edição e composição de rich text que possui edição no local.
 index: n
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 3%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 3%
 
 # Componente de texto (v1) {#text-component-v}
 
-O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
+O componente de texto é um componente de edição e composição de rich text que possui edição no local.
 
 ## Uso {#usage}
 
-O componente de texto oferta um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
+O componente de texto oferece um editor de rich text robusto que permite a edição fácil de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
-A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
+A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo para o autor de conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de texto, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
+Este documento descreve a v1 do componente de texto, originalmente introduzido com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade de v1 do Componente de texto.
+A tabela a seguir lista a compatibilidade da v1 do Componente de texto.
 
 | Versão do AEM | Componente de texto v1 |
 |--- |--- |
@@ -38,7 +39,7 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de texto.
 >
 >Para obter detalhes sobre a versão atual do Componente de texto, consulte o documento [Componente de texto](/help/components/text.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
 A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -68,11 +69,11 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Editar Caixa de Diálogo {#edit-dialog}
 
-A caixa de diálogo de edição oferta as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
+A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria compor o texto.
 
 ![](/help/assets/chlimage_1-52.png)
 
@@ -80,17 +81,17 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-53.png)
 
-   Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar negrito o texto inserido após o cursor.
+   Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar o texto em negrito inserido após o cursor.
 
-   **Ctrl+** Bcan pode ser usado como um atalho do teclado.
+   **Ctrl+** Bcan pode ser usado como atalho de teclado.
 
 * Itálico
 
    ![](/help/assets/chlimage_1-54.png)
 
-   Usado para aplicar a formatação em itálico ao texto selecionado ou para colocar o texto em itálico inserido após o cursor.
+   Usado para aplicar a formatação em itálico ao texto selecionado ou colocar o texto em itálico inserido após o cursor.
 
-   **Ctrl+** Id pode ser usado como um atalho do teclado.
+   **Ctrl+** Pode ser usado como um atalho de teclado.
 
 * Sublinhado
 
@@ -98,19 +99,19 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    Usado para aplicar a formatação sublinhada ao texto selecionado ou ao texto sublinhado inserido após o cursor.
 
-   **Ctrl+** UID pode ser usado como um atalho do teclado.
+   **Ctrl+** Usa pode ser usado como um atalho de teclado.
 
 * Subscrito
 
    ![](/help/assets/chlimage_1-56.png)
 
-   Usado para formatar texto ou texto selecionado inserido após o cursor como subscrito.
+   Usado para formatar o texto selecionado ou o texto inserido após o cursor como subscrito.
 
 * Sobrescrito
 
    ![](/help/assets/chlimage_1-57.png)
 
-   Usado para formatar o texto selecionado ou o texto digitado após o cursor como sobrescrito.
+   Usado para formatar o texto selecionado ou o texto inserido após o cursor como sobrescrito.
 
 * Colar como texto
 
@@ -118,7 +119,7 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    Cola qualquer texto copiado como texto sem formatação.
 
-   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+   Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado como texto sem formatação como visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
    ![](/help/assets/chlimage_1-59.png)
 
@@ -126,7 +127,7 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-60.png)
 
-   Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+   Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado, mantendo sua formatação como visualização, antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
    ![](/help/assets/chlimage_1-61.png)
 
@@ -134,15 +135,15 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-62.png)
 
-   Use essa opção para converter o texto selecionado em um hiperlink ou modificar um link já definido. Essa opção só estará ativa quando o texto já estiver selecionado e abrir uma janela com opções adicionais para configurar o link.
+   Use essa opção para converter o texto selecionado em um hiperlink ou modificar um link já definido. Essa opção só estará ativa quando o texto já estiver selecionado e abrirá uma janela com opções adicionais para definir o link.
 
    ![](/help/assets/chlimage_1-63.png)
 
-   * Insira o local
+   * Insira a localização
 
       * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM
-      * Se o link não estiver no AEM, insira o URL absoluto (os caminhos não absolutos são interpretados como relativos ao AEM)
-   * Digite um texto descritivo alternativo para o link
+      * Se o link não estiver em AEM, insira o URL absoluto (caminhos não absolutos são interpretados como relativos a AEM)
+   * Inserir texto descritivo alternativo para o link
    * Selecionar comportamento do link
 
       * Target
@@ -157,21 +158,21 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-64.png)
 
-   Use essa opção para remover um link já aplicado ao texto selecionado. Esta opção só está ativa quando um link já está selecionado.
+   Use esta opção para remover um link já aplicado ao texto selecionado. Essa opção só estará ativa quando um link já estiver selecionado.
 
 * Localizar
 
    ![](/help/assets/chlimage_1-65.png)
 
-   Use essa opção para pesquisar o texto por ocorrências de uma string de texto especificada. Selecionar essa opção abre uma janela para especificar as opções de pesquisa.
+   Use essa opção para pesquisar o texto de ocorrências de uma string de texto especificada. Selecionar essa opção abre uma janela para especificar as opções de pesquisa.
 
    ![](/help/assets/chlimage_1-66.png)
 
-   Digite o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
+   Insira o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
 
-   Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
+   Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Match Case** antes de iniciar a pesquisa.
 
-   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
+   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Find** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
 
    ![](/help/assets/chlimage_1-67.png)
 
@@ -183,19 +184,19 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-69.png)
 
-   Use essa opção para pesquisar o texto por ocorrências de uma string de texto especificada e substituir as correspondências por outra string. Selecionar essa opção abre uma janela para especificar as opções de pesquisa e substituição.
+   Use essa opção para pesquisar o texto de ocorrências de uma string de texto especificada e substituir as correspondências por outra string. Selecionar essa opção abre uma janela para especificar as opções de pesquisa e substituição.
 
    ![](/help/assets/chlimage_1-70.png)
 
-   Insira o texto para o qual deseja pesquisar, bem como o texto com o qual ele deve ser substituído.
+   Insira o texto que deseja pesquisar, bem como o texto com o qual ele deve ser substituído.
 
    Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
 
-   Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
+   Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Match Case** antes de iniciar a pesquisa.
 
-   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
+   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Find** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Replace** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
 
-   Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
+   Selecione **Replace all** para substituir todas as ocorrências do texto de uma só vez.
 
 * Alinhar texto à esquerda
 
@@ -207,7 +208,7 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-72.png)
 
-   Usado para centralizar o texto.
+   Usada para centralizar o texto.
 
 * Alinhar texto à direita
 
@@ -221,7 +222,7 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    Usado para formatar o texto selecionado como uma lista com marcadores ou iniciar a inserção de uma lista com marcadores após o cursor.
 
-   Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas retornos de carro.
+   Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas devoluções de carro.
 
 * Numerado
 
@@ -229,21 +230,21 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    Usado para formatar o texto selecionado como uma lista numerada ou iniciar a inserção de uma lista numerada após o cursor.
 
-   Para encerrar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira duas retornos de carro.
+   Para terminar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira dois retornos de carro.
 
 * Recuo para a esquerda
 
    ![](/help/assets/chlimage_1-76.png)
 
-   Usado para diminuir o nível de recuo do texto ou texto selecionado inserido após o cursor.
+   Usado para diminuir o nível de recuo do texto selecionado ou do texto inserido após o cursor.
 
-   Somente ativo se o texto ou a posição do cursor selecionado já estiver recuado.
+   Ativa somente se o texto ou a posição do cursor selecionado já estiver recuada.
 
 * Recuo
 
    ![](/help/assets/chlimage_1-77.png)
 
-   Usado para aumentar o nível de recuo do texto ou texto selecionado inserido após o cursor.
+   Usado para aumentar o nível de recuo do texto selecionado ou do texto inserido após o cursor.
 
 * Tabela
 
@@ -258,9 +259,9 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
    * **Largura**  - A largura da tabela
    * **Altura**  - A altura da tabela
    * **Preenchimento** da célula - O espaço ao redor do conteúdo da célula
-   * **Espaçamento**  da célula - O espaço entre células
+   * **Espaçamento entre células**  - O espaço entre células
    * **Borda**  - O peso das linhas de borda da tabela
-   * Se for o cabeçalho da tabela:
+   * Se para o cabeçalho da tabela:
 
       * A primeira linha deve ser usada
       * A primeira coluna deve ser usada
@@ -289,22 +290,22 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
    ![](/help/assets/chlimage_1-83.png)
 
-   Usado para visualização e modificação da fonte HTML do texto.
+   Usado para exibir e modificar a fonte HTML do texto.
 
-   Toque ou clique no ícone **Edição de origem** para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone **Edição de origem** para retornar à visualização formatada.
+   Toque ou clique no ícone **Source Edit** para alterar o conteúdo do texto da exibição formatada para exibir o HTML bruto. Nesse modo, todas as outras opções de formatação são desativadas. Toque ou clique no ícone **Editar fonte** novamente para retornar à exibição formatada.
 
    >[!CAUTION]
    >
-   >Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção **Edição de origem**!
+   >Como sempre o caso com acesso a HTML bruto, o cuidado deve ser exercido ao usar a opção **Source Edit**!
    >
    >
-   >O HTML inserido via **Edição de origem** é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Edição de Origem** pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+   >O HTML inserido por **Source Edit** é verificado em busca de riscos XSS e os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Source Edit** pode quebrar o modelo da página, resultando em formatação inesperada ou inutilizando a página resultante.
 
 * Formato de parágrafo
 
    ![](/help/assets/chlimage_1-84.png)
 
-   Usado para aplicar a formatação de parágrafo ao texto selecionado ou ao texto inserido após o cursor. A seleção dessas opções abre uma lista suspensa na qual o formato de parágrafo é selecionado.
+   Usado para aplicar a formatação de parágrafo ao texto selecionado ou ao texto inserido após o cursor. Selecionar essa opção abre uma lista suspensa na qual o formato de parágrafo é selecionado.
 
    ![](/help/assets/chlimage_1-85.png)
 
@@ -314,7 +315,7 @@ O componente de texto também pode ser editado em linha, mas devido a restriçõ
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores do conteúdo.
+A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores de conteúdo.
 
 ### Recursos {#features}
 
@@ -347,9 +348,9 @@ As seguintes opções de formatação podem ser ativadas ou desativadas para o c
 
 Os estilos de parágrafo podem ser ativados ou desativados para o componente. Quando ativados, os formatos permitidos podem ser definidos.
 
-* Toque ou clique no botão **Adicionar** para inserir um novo estilo.
+* Toque ou clique no botão **Add** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de estilo ou clique no botão **Excluir**.
+* Para remover um estilo, toque ou clique no botão **Delete**.
 * Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
 
 ### Caracteres especiais {#special-characters}
@@ -358,15 +359,15 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 
 A opção para inserir caracteres especiais pode ser ativada ou desativada para o componente. Quando ativados, os caracteres permitidos podem ser definidos.
 
-* Toque ou clique no botão **Adicionar** para inserir um novo caractere.
+* Toque ou clique no botão **Add** para inserir um novo caractere.
 * Insira o código HTML do caractere e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de caractere ou clique no botão **Excluir**.
+* Para remover um caractere, toque ou clique no botão **Delete**.
 * Para reorganizar a ordem dos caracteres, toque ou clique e arraste as alças.
 
 ## Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente de texto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
-Todo o projeto de componentes principais pode ser baixado do GitHub.
+O projeto de componentes principais inteiro pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
