@@ -1,30 +1,31 @@
 ---
-title: Componente do carrossel
-description: O componente carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel rotativo.
+title: Componente carrossel
+description: O componente carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
 
 
-# Componente do carrossel{#carousel-component}
+# Componente carrossel{#carousel-component}
 
-O componente principal do carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel navegável.
+O componente principal carrossel permite que o autor do conteúdo apresente conteúdo em um carrossel navegável.
 
 ## Uso {#usage}
 
-Usando o componente carrossel, o autor do conteúdo para organizar o conteúdo em um carrossel rotativo de slides.
+Usando o componente Carrossel, o autor do conteúdo para organizar o conteúdo em um carrossel giratório de slides.
 
-A caixa de diálogo [edit](#edit-dialog) permite que o autor do conteúdo crie, nomeie e solicite vários slides, bem como ativar a transição automática com atraso. Usando a caixa de diálogo [design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados ao carrossel, ativar ou desativar transições automáticas e personalizar os estilos.
+A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo crie, nomeie e ordene vários slides, bem como habilite a transição automática com atraso. Usando a caixa de diálogo [design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados ao carrossel, ativar ou desativar transições automáticas e personalizar os estilos.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente carrossel é a v1, que foi introduzida com a versão 2.2.0 dos componentes principais em outubro de 2018 e é descrita neste documento.
+A versão atual do componente carrossel é a v1, que foi introduzida com a versão 2.2.0 dos Componentes principais em outubro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões de AEM com as quais as versões do componente são compatíveis e vincula à documentação das versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -32,103 +33,103 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
-Para experimentar o componente do carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel).
+Para experimentar o componente carrossel e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente do carrossel [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
+A documentação técnica mais recente sobre o componente carrossel [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar caixa de diálogo {#edit-dialog}
+## Editar Caixa de Diálogo {#edit-dialog}
 
-A caixa de diálogo de edição permite que o autor do conteúdo adicione, renomeie e reorganize slides, além de definir as configurações de transição automática.
+A caixa de diálogo de edição permite que o autor de conteúdo adicione, renomeie e reorganize os slides, bem como definir as configurações de transição automática.
 
 ### Guia Itens {#items-tab}
 
-![Guia Itens da caixa de diálogo de edição do componente Carrossel](/help/assets/carousel-edit-items.png)
+![Guia Itens da caixa de diálogo Editar do componente carrossel](/help/assets/carousel-edit-items.png)
 
-Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual componente adicionar como guia. Depois de adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
+Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual componente adicionar como guia. Uma vez adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
 
-* **Ícone**  - o ícone do tipo de componente da guia para facilitar a identificação na lista. Passe o mouse sobre o mouse para ver o nome completo do componente como uma dica de ferramenta.
-* **Descrição**  - A descrição usada como o texto da guia, padronizando com o nome do componente selecionado para a guia.
+* **Ícone**  - O ícone do tipo de componente da guia para facilitar a identificação na lista. Passe o mouse sobre o para ver o nome completo do componente como uma dica de ferramenta.
+* **Descrição**  - A descrição usada como o texto da guia, padronizando o nome do componente selecionado para a guia.
 * **Excluir**  - Toque ou clique para excluir a guia do componente de guias.
 * **Reordenar**  - Toque ou clique e arraste para ordenar as guias.
 
 >[!TIP]
 >
->Se o visor da página for reduzido para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente do carrossel ao [arrastar do navegador de componentes e soltar no componente do carrossel no editor de página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Add** ficará oculto. Os componentes ainda podem ser adicionados ao componente Carrossel ao [arrastar do navegador de componentes e soltar no componente Carrossel no editor de páginas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Guia Propriedades {#properties-tab}
 
-![Guia Propriedades da caixa de diálogo Editar do componente Carrossel](/help/assets/carousel-edit-properties.png)
+![Guia Propriedades da caixa de diálogo Editar do componente carrossel](/help/assets/carousel-edit-properties.png)
 
-Na guia **Propriedades**, o autor do conteúdo pode definir os slides para transição automática.
+Na guia **Properties**, o autor de conteúdo pode definir os slides para fazer a transição automática.
 
-* **Transição automática de slides**  - quando ativo, o componente avança automaticamente para o próximo slide após um atraso especificado.
-* **Atraso**  na transição - Quando os slides de transição automática são selecionados, esse valor é usado para definir o atraso entre transições (em milissegundos).
-* **Desativar pausa automática ao passar o mouse**  - Quando a opção  **transição automática de** slidesis for selecionada, a transição do carrossel pausará automaticamente sempre que o cursor passar sobre o carrossel. Selecione essa opção para que a transição não pause.
-* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada [ de ](/help/developing/data-layer/overview.md)dados.
-   * Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+* **Fazer a transição automática de slides**  - Quando ativo, o componente avança automaticamente para o próximo slide após um atraso especificado.
+* **Atraso de transição**  - Quando os slides de transição automática são selecionados, esse valor é usado para definir o atraso entre as transições (em milissegundos).
+* **Desativar a pausa automática ao passar o mouse**  - Quando a opção Fazer a transição  **automática de** slidesis estiver selecionada, a transição do carrossel será automaticamente pausada sempre que o cursor passar o cursor sobre o carrossel. Selecione essa opção para que a transição não seja pausada.
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de  [dados](/help/developing/data-layer/overview.md).
+   * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
-   * A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
+   * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
 
 >[!NOTE]
 >
->Os controles de avanço do slide não são ativados quando estão no modo **Editar**. Use a opção [**modo de Pré-visualização**](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou **[Visualização como Publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
+>Os controles de avanço de slide não são ativados quando estão no modo **Editar**. Use o modo [**Visualização**](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou a opção **[Visualizar como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
 >
->O recurso de avanço automático não é ativado quando está no modo **Editar**. Use a opção **[Visualização como Publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
+>O recurso de avanço automático não é ativado quando está no modo **Editar**. Use a opção **[Exibir como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
-![Guia Acessibilidade da caixa de diálogo de edição do componente carrossel](/help/assets/carousel-edit-accessibility.png)
+![Guia Acessibilidade da caixa de diálogo Editar do componente carrossel](/help/assets/carousel-edit-accessibility.png)
 
-Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) do componente.
+Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos de [acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) para o componente.
 
 * **Rótulo**  - Valor de um atributo de rótulo ARIA para o componente
 
-## Selecionar painel {#select-panel}
+## Selecionar Painel {#select-panel}
 
-O autor do conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um slide diferente para edição, bem como para reorganizar facilmente a ordem dos slides.
+O autor de conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um slide diferente para edição, bem como para reorganizar facilmente a ordem dos slides.
 
-![Selecionar ícone do painel](/help/assets/select-panel-icon.png)
+![Ícone Selecionar painel](/help/assets/select-panel-icon.png)
 
-Depois de selecionar a opção **Selecionar painel** na barra de ferramentas do componente, os slides configurados são exibidos como um menu suspenso.
+Depois de selecionar a opção **Selecionar painel** na barra de ferramentas do componente, os slides configurados são exibidos como uma lista suspensa.
 
-* A lista é ordenada pela organização atribuída dos slides e é refletida na numeração.
-* O tipo de componente do slide é exibido primeiro, seguido pela descrição do slide com uma fonte mais leve.
+* A lista é ordenada pela disposição atribuída dos slides e é refletida na numeração.
+* O tipo de componente do slide é exibido primeiro, seguido pela descrição do slide com fonte mais clara.
 
 ![Selecionar painel](/help/assets/select-panel-popover.png)
 
-* Tocar ou clicar em uma entrada na lista suspensa alterna a visualização no editor para esse slide.
-* O slide pode ser reorganizado no local usando as alças de arrastar.
+* Tocar ou clicar em uma entrada na lista suspensa altera a exibição do editor para esse slide.
+* O slide pode ser reordenado no local usando as alças de arrastar.
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina quais componentes podem ser adicionados como slides ao componente do carrossel, bem como definir padrões de transição automática e quais estilos personalizados estão disponíveis para o autor do conteúdo.
+A caixa de diálogo de design permite que o autor do modelo defina quais componentes podem ser adicionados como slides ao componente do carrossel, bem como definir padrões de transição automática e quais estilos personalizados estão disponíveis para o autor de conteúdo.
 
 ### Guia Propriedades {#properties-tab-1}
 
-A guia **Propriedades** é usada para definir as configurações padrão para as transições do slide quando um autor de conteúdo adiciona o componente carrossel a uma página.
+A guia **Properties** é usada para definir as configurações padrão para as transições de slide quando um autor de conteúdo adiciona o componente de carrossel a uma página.
 
 ![Caixa de diálogo Design do componente carrossel](/help/assets/carousel-design.png)
 
-* **Transição automática de slides**  - define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide está ativada quando o autor do conteúdo adiciona o componente do carrossel a uma página.
-* **Atraso**  na transição - Define o valor padrão do atraso da transição entre slides (em milissegundos) quando um autor de conteúdo adiciona o componente do carrossel a uma página.
-* **Desativar pausa automática ao passar o mouse**  - Define se, por padrão, a opção para desativar a pausa automática do slide está ativada quando a opção transição  **automática de** slidesis é selecionada pelo autor do conteúdo.
+* **Fazer a transição automática de slides**  - Define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide é ativada quando o autor de conteúdo adiciona o componente do carrossel a uma página.
+* **Atraso de transição**  - Define o valor padrão do atraso de transição entre os slides (em milissegundos) quando um autor de conteúdo adiciona o componente de carrossel a uma página.
+* **Desativar a pausa automática ao passar o mouse**  - Define se, por padrão, a opção para desativar a pausa automática de slide é ativada quando a opção Fazer a transição  **automática de** slidesis é selecionada pelo autor de conteúdo.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
-A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como slides ao Componente do carrossel pelo autor do conteúdo.
+A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como slides ao Componente de carrossel pelo autor de conteúdo.
 
-A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome quando [define a política e as propriedades de um Container de layout no Editor de modelos.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Estilos {#styles-tab}
 
-O componente carrossel suporta o AEM [Sistema de estilo](/help/get-started/authoring.md#component-styling).
+O componente carrossel suporta o AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-## Camada de Dados do Cliente Adobe {#data-layer}
+## Camada de dados do cliente Adobe {#data-layer}
 
 O componente carrossel suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
