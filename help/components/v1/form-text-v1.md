@@ -1,31 +1,32 @@
 ---
 title: Componente de texto do formulário (v1)
-description: O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
+description: O componente de Texto do formulário do componente principal permite a entrada do texto do formulário para envio.
 index: n
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '496'
 ht-degree: 8%
 
 ---
 
 
-# Componente de texto do formulário (v1) {#form-text-component-v}
+# Componente de texto de formulário (v1) {#form-text-component-v}
 
-O componente principal de texto do formulário do componente permite a entrada do texto do formulário para envio.
+O componente de Texto do formulário do componente principal permite a entrada do texto do formulário para envio.
 
 ## Uso {#usage}
 
-O Componente de texto do formulário permite o envio de diferentes tipos de texto e se destina a ser usado junto com o [componente de container do formulário](form-container-v1.md).
+O Componente de texto de formulário permite o envio de diferentes tipos de texto e deve ser usado junto com o [componente de contêiner de formulário](form-container-v1.md).
 
-O tipo de validação de texto, rótulos e mensagens de ajuda podem ser definidos pelo editor de conteúdo na caixa de diálogo [configure](#configure-dialog).
+O tipo de validação de texto, rótulos e mensagens de ajuda pode ser definido pelo editor de conteúdo no [configurar diálogo](#configure-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de texto do formulário, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
+Este documento descreve a v1 do Componente de texto de formulário, introduzido originalmente com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade de v1 do Componente de texto do formulário.
+A tabela a seguir lista a compatibilidade da v1 do Componente de texto de formulário.
 
 | Versão do AEM | Componente de texto do formulário v1 |
 |--- |--- |
@@ -34,11 +35,11 @@ A tabela a seguir lista a compatibilidade de v1 do Componente de texto do formul
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente de texto do formulário.
+>Este documento descreve a v1 do Componente de texto de formulário.
 >
->Para obter detalhes sobre a versão atual do Componente de texto do formulário, consulte o documento [Componente de texto do formulário](/help/components/forms/form-text.md).
+>Para obter detalhes sobre a versão atual do Componente de texto de formulário, consulte o documento [Componente de texto de formulário](/help/components/forms/form-text.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
 A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -88,11 +89,11 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-A caixa de diálogo de configuração permite que o autor do conteúdo defina o tipo de texto a ser inserido, bem como valores e rótulos padrão.
+A caixa de diálogo de configuração permite que o autor de conteúdo defina o tipo de texto a ser inserido, bem como valores e rótulos padrão.
 
 ### Principal {#main}
 
@@ -108,19 +109,19 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
    * **Número**
    * **Senha**
 
-* **Linhas**  de texto - Número de linhas a serem exibidas na área de texto (somente exibidas quando a  **** Restrição estiver definida como Área **** de texto)
+* **Linhas de texto**  - Número de linhas a serem exibidas na área de texto (exibidas somente quando a  **** Restrição é definida como Área de  **texto**)
 
 * **Rótulo**  - O rótulo que será exibido para o campo
-* **Ocultar a exibição**  da etiqueta - Necessário se a etiqueta for exigida somente para fins de acessibilidade e não fornecer nenhuma informação visual adicional sobre o campo
-* **Nome**  do elemento - o nome do campo enviado com os dados do formulário
+* **Ocultar a exibição do rótulo**  - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
+* **Nome do elemento**  - O nome do campo que é enviado com os dados do formulário
 * **Valor**  - Valor padrão pré-preenchido no campo
 
 ### Sobre {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **Mensagem**  de ajuda - uma dica para o usuário do que pode ser inserido no campo
-* **Exibir mensagem de ajuda como espaço reservado**  - para exibir a mensagem de ajuda dentro da entrada do formulário quando ela estiver vazia e não focalizada
+* **Mensagem de ajuda**  - Uma dica para o usuário do que pode ser inserido no campo
+* **Exibir mensagem de ajuda como espaço reservado**  - Para exibir a mensagem de ajuda dentro da entrada do formulário quando estiver vazia e não focalizada
 
 ### Restrições {#constraints}
 
@@ -129,10 +130,10 @@ A caixa de diálogo de configuração permite que o autor do conteúdo defina o 
 * **Mensagem de restrição**
 
    * Se o valor não validar o Tipo escolhido, a mensagem será exibida como uma dica de ferramenta ao enviar o formulário
-   * Não exibido para os tipos de restrições **Text** e **Área de texto**
+   * Não exibido para tipos de restrição **Text** e **Área de Texto**
 
-* **Obrigatório**  - se selecionado, o usuário deve preencher um valor antes de enviar o formulário
-* **Tornar somente**  leitura - Se selecionado, o usuário não poderá modificar o valor do campo
+* **Obrigatório**  - Se selecionado, o usuário deve preencher um valor antes de enviar o formulário
+* **Tornar somente leitura**  - Se selecionado, o usuário não poderá modificar o valor do campo
 
 ## Caixa de diálogo Design {#design-dialog}
 
@@ -142,6 +143,6 @@ Não há caixa de diálogo de design para o componente de Texto do formulário.
 
 A documentação técnica mais recente sobre o Componente de texto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
-Todo o projeto de componentes principais pode ser baixado do GitHub.
+O projeto de componentes principais inteiro pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
