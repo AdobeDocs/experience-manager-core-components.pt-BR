@@ -1,11 +1,12 @@
 ---
 title: Componente oculto do formulário (v1)
-description: O componente principal Formulário oculto do componente permite a exibição de um campo oculto.
+description: O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
 index: n
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 2%
 
 # Componente oculto do formulário (v1) {#form-hidden-component-v}
 
-O componente principal Formulário oculto do componente permite a exibição de um campo oculto.
+O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
 
 ## Uso {#usage}
 
-O Componente principal de formulário oculto permite que a criação de campos ocultos transmita informações sobre a página atual para AEM e é destinado a ser usado junto com o [componente de container de formulário](form-container-v1.md).
+O Componente principal de formulário oculto permite que a criação de campos ocultos transmita informações sobre a página atual de volta ao AEM e deve ser usado junto com o [componente do contêiner de formulário](form-container-v1.md).
 
-As propriedades de campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [configure](#configure-dialog).
+As propriedades do campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [configurar](#configure-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do componente Form Hidden, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
+Este documento descreve a v1 do Componente de formulário oculto, originalmente introduzido com a versão 1.0.0 dos Componentes principais com a AEM 6.3.
 
-A tabela a seguir lista a compatibilidade de v1 do componente Oculto do formulário.
+A tabela a seguir lista a compatibilidade da v1 do Componente de formulário oculto.
 
 | Versão do AEM | Componente oculto do formulário v1 |
 |--- |--- |
@@ -34,11 +35,11 @@ A tabela a seguir lista a compatibilidade de v1 do componente Oculto do formulá
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do componente Oculto do formulário.
+>Este documento descreve a v1 do Componente de formulário oculto.
 >
->Para obter detalhes sobre a versão atual do Componente oculto do formulário, consulte o documento [Componente oculto do formulário](/help/components/forms/form-hidden.md).
+>Para obter detalhes sobre a versão atual do Componente de formulário oculto, consulte o documento [Componente oculto do formulário](/help/components/forms/form-hidden.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
 A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -80,26 +81,26 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais exige a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md#release-history-and-compatibility) para obter mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md#release-history-and-compatibility) para obter mais informações.
 
 ## Configurar caixa de diálogo {#configure-dialog}
 
-A caixa de diálogo de configuração permite que o autor do conteúdo defina os parâmetros do campo oculto.
+A caixa de diálogo configurar permite que o autor de conteúdo defina os parâmetros do campo oculto.
 
 ![](/help/assets/chlimage_1-26.png)
 
 * **Nome**  - O nome do campo, que é enviado com os dados do formulário
-* **Valor**  - O valor do campo, que é submetido com os dados do formulário
-* **Identificador**  - o identificador deve ser exclusivo na página e pode ser usado para vincular scripts a esse campo de formulário
+* **Valor**  - O valor do campo, que é enviado com os dados do formulário
+* **Identificador**  - o identificador deve ser exclusivo na página e pode ser usado para vincular scripts a este campo de formulário
 
 ## Caixa de diálogo Design {#design-dialog}
 
-Não há caixa de diálogo de design para o componente Form Hidden.
+Não há caixa de diálogo de design para o componente Formulário oculto.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente oculto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+A documentação técnica mais recente sobre o Componente de formulário oculto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
-Todo o projeto de componentes principais pode ser baixado do GitHub.
+O projeto de componentes principais inteiro pode ser baixado do GitHub.
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
