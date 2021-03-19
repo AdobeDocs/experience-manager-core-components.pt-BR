@@ -1,34 +1,36 @@
 ---
-title: Usando a camada de dados do cliente Adobe com os componentes principais
-description: Usando a camada de dados do cliente Adobe com os componentes principais
+title: Uso da camada de dados do cliente do Adobe com os componentes principais
+description: Uso da camada de dados do cliente do Adobe com os componentes principais
+feature: Componentes principais, Camada de dados do cliente Adobe
+role: Arquiteto, desenvolvedor, administrador
 translation-type: tm+mt
-source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '983'
 ht-degree: 5%
 
 ---
 
 
-# Usando a camada de dados do cliente Adobe com os componentes principais {#data-layer-core-components}
+# Uso da camada de dados do cliente do Adobe com os componentes principais {#data-layer-core-components}
 
-A meta da Camada de Dados do Cliente Adobe é reduzir o esforço de instrumentar sites, fornecendo um método padronizado para expor e acessar qualquer tipo de dados para qualquer script.
+O objetivo da Camada de dados do cliente do Adobe é reduzir o esforço de instrumentar sites, fornecendo um método padronizado para expor e acessar qualquer tipo de dados para qualquer script.
 
-A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com AEM.
+A Camada de dados do cliente do Adobe é independente de plataforma, mas é totalmente integrada aos Componentes principais para uso com o AEM.
 
-Como os Componentes principais, o código da Camada de dados do cliente do Adobe está disponível no GitHub, juntamente com a documentação do desenvolvedor. Este documento fornece uma visão geral de como os Componentes principais interagem com a Camada de dados, mas detalhes técnicos completos são adiados para a documentação do GitHub.
+Como os Componentes principais, o código da Camada de dados do cliente do Adobe está disponível no GitHub, juntamente com a documentação do desenvolvedor. Este documento fornece uma visão geral de como os Componentes principais interagem com a camada de dados, mas os detalhes técnicos completos são adiados para a documentação do GitHub.
 
 >[!TIP]
 >
->Para obter mais informações sobre a Camada de Dados do Cliente Adobe, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
+>Para obter mais informações sobre a Camada de dados do cliente do Adobe, [consulte os recursos em seu repositório GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente Adobe com os componentes principais, consulte o arquivo [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) no repositório dos componentes principais.
+>Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente do Adobe com os Componentes principais, consulte o arquivo [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) no repositório dos Componentes principais.
 
-## Instalação e Ativação {#installation-activation}
+## Instalação e ativação {#installation-activation}
 
-A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma Biblioteca de clientes AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de Dados ativada por padrão.
+A partir da versão 2.9.0 dos Componentes principais, a camada de dados é distribuída com os Componentes principais como uma biblioteca de clientes AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de Dados ativada por padrão.
 
-Para ativar manualmente a Camada de Dados, é necessário criar uma [configuração sensível ao contexto](/help/developing/context-aware-configs.md) para ela:
+Para ativar manualmente a Camada de dados, você deve criar uma [configuração com reconhecimento de contexto](/help/developing/context-aware-configs.md) para ela:
 
 1. Crie a seguinte estrutura abaixo da pasta `/conf/<mySite>`, onde `<mySite>` é o nome do projeto do seu Site:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -39,9 +41,9 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma [configuraç
 
    *Localização de DataLayerConfig no Site de Referência WKND*
 
-1. Adicione uma propriedade `sling:configRef` ao nó `jcr:content` do site abaixo de `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina-o como `/conf/<mySite>` da etapa anterior.
+1. Adicione uma propriedade `sling:configRef` ao nó `jcr:content` do site abaixo de `/content` (por exemplo, `/content/<mySite>/jcr:content`) e defina-a para `/conf/<mySite>` a partir da etapa anterior.
 
-1. Depois de ativada, você pode verificar a ativação carregando uma página do site fora do editor, por exemplo, usando a opção **Visualização como Publicada** no editor. A origem da página e a tag `<body>` do Inspect devem incluir um atributo `data-cmp-data-layer-enabled`
+1. Depois de habilitado, é possível verificar a ativação carregando uma página do site fora do editor, por exemplo, usando a opção **Exibir como publicada** no editor. Inspect a fonte da página e a tag `<body>` devem incluir um atributo `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -57,13 +59,13 @@ Para ativar manualmente a Camada de Dados, é necessário criar uma [configuraç
        </script>
    ```
 
-1. Você também pode abrir as ferramentas do desenvolvedor do seu navegador e no console o objeto `adobeDataLayer` JavaScript deve estar disponível. Digite o seguinte comando para obter o estado da Camada de dados da sua página atual:
+1. Você também pode abrir as ferramentas do desenvolvedor do seu navegador e, no console, o objeto JavaScript `adobeDataLayer` deve estar disponível. Digite o seguinte comando para obter o estado da camada de dados da página atual:
 
    ```javascript
    window.adobeDataLayer.getState();
    ```
 
-## Componentes suportados {#supported-components}
+## Componentes compatíveis {#supported-components}
 
 Os componentes a seguir são compatíveis com a Camada de dados.
 
@@ -85,13 +87,13 @@ Os componentes a seguir são compatíveis com a Camada de dados.
 
 Consulte também os eventos [acionados pelos componentes.](#events-components)
 
-## Schemas de dados dos componentes principais {#data-schemas}
+## Esquemas de dados dos componentes principais {#data-schemas}
 
-A seguir está uma lista de schemas que os Componentes principais usam com a Camada de dados.
+Esta é uma lista de esquemas que os Componentes principais usam com a Camada de dados.
 
-### Schema de Item de Componente/Container {#item}
+### Esquema de Item do Componente/Contêiner {#item}
 
-O schema de componente/item de Container é usado nos seguintes componentes:
+O esquema Componente/Item do contêiner é usado nos seguintes componentes:
 
 * [Caminho](/help/components/breadcrumb.md)
 * [Botão](/help/components/button.md)
@@ -102,7 +104,7 @@ O schema de componente/item de Container é usado nos seguintes componentes:
 * [Texto](/help/components/text.md)
 * [Título](/help/components/title.md)
 
-O schema de componente/item de Container é definido da seguinte forma.
+O schema Componente/Item do contêiner é definido da seguinte maneira.
 
 ```javascript
 id: {                   // component ID
@@ -116,17 +118,17 @@ id: {                   // component ID
 }
 ```
 
-O seguinte [evento](#events) é relevante para o schema Componente/Item de Container:
+O seguinte [event](#events) é relevante para o esquema Componente/Item do Contêiner:
 
 * `cmp:click`
 
-### Schema de página {#page}
+### Esquema de página {#page}
 
-O schema Página é usado pelo seguinte componente:
+O esquema Page é usado pelo seguinte componente:
 
 * [Página](/help/components/page.md)
 
-O schema Página é definido da seguinte maneira.
+O schema Page é definido da seguinte maneira.
 
 ```javascript
 id: {
@@ -144,17 +146,17 @@ id: {
 }
 ```
 
-Um evento `cmp:show` é acionado no carregamento da página. Esse evento é despachado do JavaScript em linha imediatamente abaixo da tag `<body>` de abertura, tornando-se o primeiro evento na fila de evento da camada de dados.
+Um evento `cmp:show` é acionado no carregamento da página. Esse evento é despachado do JavaScript em linha imediatamente abaixo da tag de abertura `<body>`, tornando-o o primeiro evento na fila de eventos da Camada de dados.
 
-### Schema de container {#container}
+### Esquema do contêiner {#container}
 
-O schema do Container é usado pelos seguintes componentes:
+O schema Container é usado pelos seguintes componentes:
 
 * [Menu sanfonado](/help/components/accordion.md)
 * [Guias](/help/components/tabs.md)
 * [Carrossel](/help/components/carousel.md)
 
-O schema do Container é definido como a seguir.
+O schema Container é definido da seguinte maneira.
 
 ```javascript
 id: {
@@ -169,19 +171,19 @@ id: {
 }
 ```
 
-Os seguintes Container [eventos](#events) são relevantes para o schema:
+Os seguintes [events](#events) são relevantes para o schema do contêiner:
 
 * `cmp:click`
 * `cmp:show`
 * `cmp:hide`
 
-### Schema de imagem {#image}
+### Esquema de imagem {#image}
 
-O schema de imagem é usado pelo seguinte componente:
+O esquema Imagem é usado pelo seguinte componente:
 
 * [Imagem](/help/components/image.md)
 
-O schema de imagem é definido da seguinte forma:
+O esquema Imagem é definido da seguinte maneira.
 
 ```javascript
 id: {
@@ -196,15 +198,15 @@ id: {
 }
 ```
 
-O seguinte schema [a1/> é relevante para o evento de Imagem:](#events)
+O seguinte [event](#events) é relevante para o esquema Imagem:
 
 * `cmp:click`
 
-### Schema de ativos {#asset}
+### Esquema de ativo {#asset}
 
-O schema Asset é usado dentro do componente [Image.](/help/components/image.md)
+O esquema Ativo é usado dentro do componente [Imagem.](/help/components/image.md)
 
-O schema Asset é definido como a seguir.
+O schema Ativo é definido da seguinte maneira.
 
 ```javascript
 id: {
@@ -216,15 +218,15 @@ id: {
 }
 ```
 
-O seguinte [evento](#events) é relevante para o schema de ativos:
+O seguinte [event](#events) é relevante para o schema Asset :
 
 * `cmp:click`
 
-### Schema de fragmento de conteúdo {#content-fragment}
+### Esquema do fragmento de conteúdo {#content-fragment}
 
-O schema de Fragmento de conteúdo é usado pelo [componente de Fragmento de conteúdo.](/help/components/content-fragment-component.md)
+O esquema Fragmento de conteúdo é usado pelo componente [Fragmento de conteúdo.](/help/components/content-fragment-component.md)
 
-O schema de Fragmento do conteúdo é definido da seguinte forma.
+O esquema Fragmento de conteúdo é definido da seguinte maneira.
 
 ```javascript
 id: {
@@ -239,7 +241,7 @@ id: {
 }
 ```
 
-O schema usado para o elemento Fragmento do conteúdo é o seguinte.
+O esquema usado para o elemento do Fragmento de conteúdo é o seguinte.
 
 ```javascript
 {
@@ -248,19 +250,19 @@ O schema usado para o elemento Fragmento do conteúdo é o seguinte.
 }
 ```
 
-## Eventos de componentes principais {#events}
+## Eventos dos componentes principais {#events}
 
-Há vários eventos que os Componentes principais acionam por meio da Camada de dados. A prática recomendada para interagir com a Camada de dados é [registrar um ouvinte de eventos](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) e *em seguida* realizar uma ação com base no tipo de evento e/ou no componente que acionou o evento. Isso evitará possíveis condições de raça com scripts assíncronos.
+Há vários eventos que os Componentes principais acionam por meio da Camada de dados. A prática recomendada para interagir com a Camada de dados é [registrar um ouvinte de evento](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) e *em seguida* realizar uma ação com base no tipo de evento e/ou componente que acionou o evento. Isso evitará possíveis condições de corrida com scripts assíncronos.
 
-Abaixo estão os eventos prontos para uso fornecidos pelos componentes principais AEM:
+Abaixo estão os eventos prontos para uso fornecidos pelos Componentes principais AEM:
 
-* **`cmp:click`** - Clicar em um elemento clicável (um elemento que tem um  `data-cmp-clickable` atributo) faz com que a camada de dados dispare um  `cmp:click` evento.
-* **`cmp:show`** e  **`cmp:hide`** - Manipular o acordeão (expandir/recolher), o carrossel (botões próximo/anterior) e os componentes de guias (seleção de guia) fazem com que a camada de dados seja acionada  `cmp:show` e um  `cmp:hide` evento, respectivamente. Um evento `cmp:show` também é despachado no carregamento da página e espera-se que seja o primeiro evento.
+* **`cmp:click`** - Clicar em um elemento clicável (um elemento que tem um  `data-cmp-clickable` atributo ) faz com que a camada de dados acione um  `cmp:click` evento.
+* **`cmp:show`** e  **`cmp:hide`**  - Manipular os componentes acordeão (expandir/recolher), carrossel (botões anterior/seguinte) e tabulação (seleção de tabulação) faz com que a camada de dados seja acionada  `cmp:show` e um  `cmp:hide` evento, respectivamente. Um evento `cmp:show` também é despachado no carregamento da página e espera-se que seja o primeiro evento.
 * **`cmp:loaded`** - Assim que a Camada de dados for preenchida com os Componentes principais na página, a Camada de dados acionará um  `cmp:loaded` evento.
 
-### Eventos acionados pelo componente {#events-components}
+### Eventos acionados pelo Componente {#events-components}
 
-As tabelas a seguir listas os Componentes principais padrão que acionam eventos junto com esses eventos.
+As tabelas a seguir listam os Componentes principais padrão que acionam eventos junto com esses eventos.
 
 | Componente | Evento(s) |
 |---|---|
@@ -274,9 +276,9 @@ As tabelas a seguir listas os Componentes principais padrão que acionam eventos
 | [Guias](/help/components/tabs.md) | `cmp:show` e `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### Informações de caminho do evento {#event-path-info}
+### Informações do caminho do evento {#event-path-info}
 
-Cada evento de camada de dados acionado por um componente principal AEM incluirá uma carga com o seguinte objeto JSON:
+Cada evento da camada de dados acionado por um Componente principal AEM incluirá uma carga com o seguinte objeto JSON:
 
 ```json
 eventInfo: {
@@ -284,7 +286,7 @@ eventInfo: {
 }
 ```
 
-Em que `<component-path>` é o caminho JSON para o componente na Camada de dados que acionou o evento.  O valor, disponível por meio de `event.eventInfo.path`, é importante, pois pode ser usado como um parâmetro para `adobeDataLayer.getState(<component-path>)`, que recupera o estado atual do componente que acionou o evento, permitindo que o código personalizado acesse dados adicionais e os adicione à Camada de dados.
+Onde `<component-path>` é o caminho JSON para o componente na Camada de dados que acionou o evento.  O valor, disponível por meio de `event.eventInfo.path`, é importante, pois pode ser usado como um parâmetro para `adobeDataLayer.getState(<component-path>)`, que recupera o estado atual do componente que acionou o evento, permitindo que o código personalizado acesse dados adicionais e adicione-o à Camada de dados.
 
 Por exemplo:
 
@@ -309,4 +311,4 @@ Deseja explorar a camada de dados e os componentes principais com mais detalhes?
 
 >[!TIP]
 >
->Para explorar a flexibilidade da camada de dados, analise sobre as opções de integração, incluindo como ativar a camada de dados para seus componentes personalizados.
+>Para explorar a flexibilidade da camada de dados, analise as opções de integração, incluindo como ativar a camada de dados para seus componentes personalizados.
