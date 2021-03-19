@@ -1,10 +1,11 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: Componentes principais AEM
+user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos componentes principais
 user-guide-description: Use os componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
+feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 67%
@@ -72,22 +73,22 @@ ht-degree: 67%
    + [Tutorial do WKND Developer](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalização dos componentes principais](developing/customizing.md)
    + [Orientações para os componentes](developing/guidelines.md)
-   + [Suporte AMP](developing/amp.md)
+   + [Suporte ao AMP](developing/amp.md)
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
-   + [Incluindo bibliotecas de clientes](developing/including-clientlibs.md)
-   + Camada de Dados do Cliente Adobe {#data-layer}
+   + [Inclusão de bibliotecas de clientes](developing/including-clientlibs.md)
+   + Camada de dados do cliente Adobe {#data-layer}
       + [Visão geral da camada de dados](developing/data-layer/overview.md)
       + [Integrações com a camada de dados](developing/data-layer/integrations.md)
       + [Extensão da camada de dados](developing/data-layer/extending.md)
    + Arquétipo de projeto do AEM{#archetype}
-      + [Visão geral do Archetype](developing/archetype/overview.md)
-      + [Uso do Archetype](developing/archetype/using.md)
+      + [Visão geral do arquétipo](developing/archetype/overview.md)
+      + [Uso do arquétipo](developing/archetype/using.md)
       + [Módulo principal](developing/archetype/core.md)
       + [Módulo ui.apps](developing/archetype/uiapps.md)
       + [Módulo ui.content](developing/archetype/uicontent.md)
-      + [ui.frontende.general Module](developing/archetype/uifrontend.md)
-      + [Módulo ui.frontende.response](developing/archetype/uifrontend-react.md)
-      + [Módulo ui.frontende.angular](developing/archetype/uifrontend-angular.md)
-      + [Módulo ui.testing](developing/archetype/uitests.md)
-      + [módulo it.testing](developing/archetype/ittests.md)
-      + [Plug-in Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Módulo ui.frontend.general](developing/archetype/uifrontend.md)
+      + [Módulo ui.frontend.response](developing/archetype/uifrontend-react.md)
+      + [Módulo ui.frontend.angular](developing/archetype/uifrontend-angular.md)
+      + [Módulo ui.tests](developing/archetype/uitests.md)
+      + [Módulo it.tests](developing/archetype/ittests.md)
+      + [Plug-in Maven do Construtor Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
