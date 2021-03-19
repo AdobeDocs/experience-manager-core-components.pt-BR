@@ -1,30 +1,31 @@
 ---
 title: Componente de texto
-description: O componente de texto é um componente de edição e composição de rich text que apresenta edição no local.
+description: O componente de texto é um componente de edição e composição de rich text que possui edição no local.
+role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 3%
+source-wordcount: '2218'
+ht-degree: 4%
 
 ---
 
 
 # Componente de texto{#text-component}
 
-O Componente de texto principal é um componente de edição e composição de rich text que apresenta edição no local.
+O Componente principal de texto é um componente de edição e composição de rich text que apresenta edição no local.
 
 ## Uso {#usage}
 
-O componente de texto oferta um editor robusto de rich text que permite a fácil edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
+O componente de texto oferece um editor de rich text robusto que permite a edição fácil de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
-A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo do autor do conteúdo.
+A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade total disponível na caixa de diálogo de edição em tela cheia. Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto, como cabeçalhos, caracteres especiais e estilos de parágrafo, podem ser configuradas para o modelo para o autor de conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de texto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018 e é descrita neste documento.
+A versão atual do Componente de texto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões AEM com as quais as versões do componente são compatíveis e os links para a documentação de versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões de AEM com as quais as versões do componente são compatíveis e vincula à documentação das versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
@@ -33,29 +34,29 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
 
-## Exemplo de saída do componente {#sample-component-output}
+## Saída de componente de exemplo {#sample-component-output}
 
-Para experimentar o Componente de texto e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_text).
+Para experimentar o Componente de texto, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_text).
 
 ### Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o Componente de texto [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
-Para obter mais detalhes sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## O componente de texto e o editor de Rich Text {#the-text-component-and-the-rich-text-editor}
+## O componente de texto e o editor de rich text {#the-text-component-and-the-rich-text-editor}
 
-O Componente de texto dos componentes principais aproveita o Editor de Rich Text AEM (RTE). O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferta várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configure o Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) e [Configure os plug-ins do Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+O componente de texto dos componentes principais aproveita o editor de rich text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o Editor de Rich Text](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) e [Configurar os plug-ins do Editor de Rich Text](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
-O restante deste artigo demonstra a configuração padrão do Componente de texto dos componentes principais com a configuração predefinida do ERT.
+O restante deste artigo demonstra a configuração padrão do Componente de texto dos componentes principais com a configuração predefinida do RTE.
 
 >[!NOTE]
 >
->Somente as opções ativadas por [configurações de interface do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
+>Somente as opções ativadas pelas [configurações da interface do usuário do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
 
-## Editar caixa de diálogo {#edit-dialog}
+## Editar Caixa de Diálogo {#edit-dialog}
 
-A caixa de diálogo de edição oferta as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
+A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria compor o texto.
 
 ![Caixa de diálogo de edição do componente de texto](/help/assets/text-edit.png)
 
@@ -63,37 +64,37 @@ A caixa de diálogo de edição oferta as ferramentas padrão de formatação de
 
 ![Ícone Negrito](/help/assets/text-bold.png)
 
-Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar negrito o texto inserido após o cursor.
+Usado para aplicar a formatação em negrito ao texto selecionado ou para formatar o texto em negrito inserido após o cursor.
 
-**Ctrl+** Bcan pode ser usado como um atalho do teclado.
+**Ctrl+** Bcan pode ser usado como atalho de teclado.
 
 ### Itálico
 
-![Ícone Itálico](/help/assets/text-italic.png)
+![Ícone Italic](/help/assets/text-italic.png)
 
-Usado para aplicar a formatação em itálico ao texto selecionado ou para colocar o texto em itálico inserido após o cursor.
+Usado para aplicar a formatação em itálico ao texto selecionado ou colocar o texto em itálico inserido após o cursor.
 
-**Ctrl+** Id pode ser usado como um atalho do teclado.
+**Ctrl+** Pode ser usado como um atalho de teclado.
 
 ### Sublinhado
 
-![Ícone Sublinhado](/help/assets/text-underline.png)
+![Ícone Underline](/help/assets/text-underline.png)
 
 Usado para aplicar a formatação sublinhada ao texto selecionado ou ao texto sublinhado inserido após o cursor.
 
-**Ctrl+** UID pode ser usado como um atalho do teclado.
+**Ctrl+** Usa pode ser usado como um atalho de teclado.
 
 ### Subscrito
 
 ![Ícone Subscript](/help/assets/text-subscript.png)
 
-Usado para formatar texto ou texto selecionado inserido após o cursor como subscrito.
+Usado para formatar o texto selecionado ou o texto inserido após o cursor como subscrito.
 
 ### Sobrescrito
 
-![Ícone Sobrescrito](/help/assets/text-superscript.png)
+![Ícone de sobrescrito](/help/assets/text-superscript.png)
 
-Usado para formatar o texto selecionado ou o texto digitado após o cursor como sobrescrito.
+Usado para formatar o texto selecionado ou o texto inserido após o cursor como sobrescrito.
 
 ### Colar como texto
 
@@ -101,7 +102,7 @@ Usado para formatar o texto selecionado ou o texto digitado após o cursor como 
 
 Cola qualquer texto copiado como texto sem formatação.
 
-Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado como texto sem formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado como texto sem formatação como visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
 ![Colar como exemplo de texto](/help/assets/text-paste-text-example.png)
 
@@ -109,23 +110,23 @@ Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado co
 
 ![Ícone Colar do Word](/help/assets/text-paste-word.png)
 
-Ao selecionar essa opção, uma janela é aberta onde o texto pode ser colado, mantendo sua formatação como uma pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado, mantendo sua formatação como visualização, antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
-![Exemplo Colar do Word](/help/assets/text-paste-word-example.png)
+![Colar do exemplo do Word](/help/assets/text-paste-word-example.png)
 
 ### Hiperlink
 
 ![Ícone Hiperlink](/help/assets/text-hyperlink.png)
 
-Use essa opção para converter o texto selecionado em um hiperlink ou modificar um link já definido. Essa opção só estará ativa quando o texto já estiver selecionado e abrir uma janela com opções adicionais para configurar o link.
+Use essa opção para converter o texto selecionado em um hiperlink ou modificar um link já definido. Essa opção só estará ativa quando o texto já estiver selecionado e abrirá uma janela com opções adicionais para definir o link.
 
 ![Exemplo de hiperlink](/help/assets/text-hyperlink-example.png)
 
 * Insira o caminho
    * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM
-   * Se o link não estiver no AEM, insira o URL absoluto
-      * Caminhos não absolutos são interpretados como relativos a AEM
-* Digite um texto descritivo alternativo para o link
+   * Se o link não estiver em AEM, insira o URL absoluto
+      * Os caminhos não absolutos são interpretados como relativos a AEM
+* Inserir texto descritivo alternativo para o link
 * Selecionar comportamento do link
    * Target
    * Mesma guia
@@ -139,7 +140,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
 
 ![Ícone Desvincular](/help/assets/text-unlink.png)
 
-Use essa opção para remover um link já aplicado ao texto selecionado. Esta opção só está ativa quando um link já está selecionado.
+Use esta opção para remover um link já aplicado ao texto selecionado. Essa opção só estará ativa quando um link já estiver selecionado.
 
 ### Localizar
 
@@ -147,39 +148,39 @@ Use essa opção para remover um link já aplicado ao texto selecionado. Esta op
 
 Use essa opção para pesquisar a ocorrência de uma string de texto especificada no texto. Selecionar essa opção abre uma janela para especificar as opções de pesquisa.
 
-![Localizar exemplo](/help/assets/text-find-example.png)
+![Exemplo de localização](/help/assets/text-find-example.png)
 
-Digite o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
-Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
-Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
+Insira o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
+Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Match Case** antes de iniciar a pesquisa.
+Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Find** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
 
 ![Encontrar exemplo encontrado](/help/assets/text-find-example-found.png)
 
 Se nenhuma ocorrência adicional for encontrada, uma mensagem será exibida e a pesquisa será reiniciada a partir do início do texto.
 
-![Localizar exemplo sem mais ocorrências](/help/assets/text-find-example-found-end.png)
+![Encontrar exemplo sem mais ocorrências](/help/assets/text-find-example-found-end.png)
 
 ### Substituir
 
 ![Ícone Substituir](/help/assets/text-replace.png)
 
-Use essa opção para pesquisar o texto por ocorrências de uma string de texto especificada e substituir as correspondências por outra string. Selecionar essa opção abre uma janela para especificar as opções de pesquisa e substituição.
+Use essa opção para pesquisar o texto de ocorrências de uma string de texto especificada e substituir as correspondências por outra string. Selecionar essa opção abre uma janela para especificar as opções de pesquisa e substituição.
 
 ![Substituir exemplo](/help/assets/text-replace-example.png)
 
-Insira o texto para o qual deseja pesquisar, bem como o texto com o qual ele deve ser substituído.
+Insira o texto que deseja pesquisar, bem como o texto com o qual ele deve ser substituído.
 
 * Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
-* Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Corresponder caso** antes de iniciar a pesquisa.
-* Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
+* Se desejar fazer uma correspondência exata de acordo com o caso, selecione a opção **Match Case** antes de iniciar a pesquisa.
+* Selecione **Replace all** para substituir todas as ocorrências do texto de uma só vez.
 
-Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique novamente no botão **Localizar** na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
+Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Find** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Replace** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
 
-A caixa de diálogo localizar e substituir fica transparente quando a localização é clicada e se torna opaca quando a substituição é clicada. Isso permite que o autor reveja o texto que o autor substituirá.
+A caixa de diálogo localizar e substituir se torna transparente quando a localização é clicada e se torna opaca ao clicar em substituir. Isso permite que o autor revise o texto que será substituído.
 
 >[!NOTE]
 >
->Ao usar a funcionalidade de substituição, a string de substituição a ser substituída deve ser inserida ao mesmo tempo que a string de localização. No entanto, você ainda pode clicar em localizar para procurar a string antes de substituí-la. Se a string de substituição for inserida após clicar em Localizar, a pesquisa será redefinida para o início do texto.
+>Ao usar a funcionalidade de substituição, a string de substituição a ser substituída deve ser inserida ao mesmo tempo que a string de localização. No entanto, você ainda pode clicar em localizar para procurar a cadeia de caracteres antes de substituí-la. Se a string de substituição for inserida após clicar em localizar, a pesquisa será redefinida para o início do texto.
 
 
 ### Alinhar texto à esquerda
@@ -190,9 +191,9 @@ Usado para alinhar o texto à margem esquerda.
 
 ### Centralizar texto
 
-![Ícone de texto central](/help/assets/text-center.png)
+![Ícone Centralizar texto](/help/assets/text-center.png)
 
-Usado para centralizar o texto.
+Usada para centralizar o texto.
 
 ### Alinhar texto à direita
 
@@ -202,33 +203,33 @@ Usado para alinhar o texto à margem direita.
 
 ### Marcador
 
-![Ícone Marcador](/help/assets/text-bullet.png)
+![Ícone de marcador](/help/assets/text-bullet.png)
 
 Usado para formatar o texto selecionado como uma lista com marcadores ou iniciar a inserção de uma lista com marcadores após o cursor.
 
-Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas retornos de carro.
+Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Marcador** ou insira duas devoluções de carro.
 
 ### Numerado
 
-![Ícone lista numerada](/help/assets/text-numbered.png)
+![Ícone Lista numerada](/help/assets/text-numbered.png)
 
 Usado para formatar o texto selecionado como uma lista numerada ou iniciar a inserção de uma lista numerada após o cursor.
 
-Para encerrar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira duas retornos de carro.
+Para terminar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira dois retornos de carro.
 
 ### Recuo para a esquerda
 
-![Ícone de recuo](/help/assets/text-outdent.png)
+![Ícone Outdent](/help/assets/text-outdent.png)
 
-Usado para diminuir o nível de recuo do texto ou texto selecionado inserido após o cursor.
+Usado para diminuir o nível de recuo do texto selecionado ou do texto inserido após o cursor.
 
-Somente ativo se o texto ou a posição do cursor selecionado já estiver recuado.
+Ativa somente se o texto ou a posição do cursor selecionado já estiver recuada.
 
 ### Recuo
 
 ![Ícone Recuar](/help/assets/text-outdent.png)
 
-Usado para aumentar o nível de recuo do texto ou texto selecionado inserido após o cursor.
+Usado para aumentar o nível de recuo do texto selecionado ou do texto inserido após o cursor.
 
 ### Tabela
 
@@ -242,10 +243,10 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 * **Linhas**  - O número de linhas da tabela (obrigatório)
 * **Largura**  - A largura da tabela
 * **Altura**  - A altura da tabela
-* **Preenchimento**  da célula - O espaço ao redor do conteúdo da célula
-* **Espaçamento**  da célula - O espaço entre células
+* **Preenchimento da célula**  - O espaço ao redor do conteúdo da célula
+* **Espaçamento entre células**  - O espaço entre células
 * **Borda**  - O peso das linhas de borda da tabela
-   * Se for o cabeçalho da tabela:
+   * Se para o cabeçalho da tabela:
       * A primeira linha deve ser usada
       * A primeira coluna deve ser usada
       * A primeira linha e a primeira coluna devem ser usadas
@@ -258,7 +259,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configure os Plug-ins do Editor de Rich Text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caracteres especiais {#special-characters}
 
@@ -274,25 +275,25 @@ Toque ou clique no caractere desejado para inseri-lo no texto após o cursor. V�
 
 ![Ícone de edição de origem](/help/assets/text-source.png)
 
-Usado para visualização e modificação da fonte HTML do texto.
+Usado para exibir e modificar a fonte HTML do texto.
 
-Toque ou clique no ícone **Edição de origem** para alterar o conteúdo do texto da visualização formatada para visualização do HTML bruto. Neste modo, todas as outras opções de formatação estão desativadas. Toque ou clique novamente no ícone **Edição de origem** para retornar à visualização formatada.
+Toque ou clique no ícone **Source Edit** para alterar o conteúdo do texto da exibição formatada para exibir o HTML bruto. Nesse modo, todas as outras opções de formatação são desativadas. Toque ou clique no ícone **Editar fonte** novamente para retornar à exibição formatada.
 
 >[!CAUTION]
 >
->Como sempre acontece com o acesso a HTML bruto, é necessário ter cuidado ao usar a opção **Edição de origem**!
+>Como sempre o caso com acesso a HTML bruto, o cuidado deve ser exercido ao usar a opção **Source Edit**!
 >
->O HTML inserido via **Edição de origem** é verificado para detecção de riscos XSS e todos os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Edição de Origem** pode quebrar o modelo da página, resultando em formatação inesperada ou na inutilização da página resultante.
+>O HTML inserido por **Source Edit** é verificado em busca de riscos XSS e os scripts inseridos são removidos e não aparecerão na página resultante. No entanto, o HTML mal formado inserido em **Source Edit** pode quebrar o modelo da página, resultando em formatação inesperada ou inutilizando a página resultante.
 
 >[!NOTE]
 >
->Como o HTML inserido via **Edição de origem** é verificado em busca de riscos XSS e quaisquer scripts e remove automaticamente os encontrados, o conteúdo real persistido pode variar do que foi inserido em **Edição de origem**. Por esse motivo, para salvar as alterações feitas usando **Edição de Origem**, você deve sair primeiro **Edição de Origem** para visualização o texto no editor normal antes de salvar.
+>Como o HTML inserido por **Source Edit** é verificado em busca de riscos XSS e qualquer script e remove automaticamente os encontrados, o conteúdo real persistente pode variar do que foi inserido em **Source Edit**. Por isso, para salvar as alterações feitas usando **Source Edit**, é necessário sair primeiro **Source Edit** para exibir o texto no editor normal antes de salvar.
 
 ### Formato de parágrafo
 
 ![Ícone de formato de parágrafo](/help/assets/text-paragraph.png)
 
-Usado para aplicar a formatação de parágrafo ao texto selecionado ou ao texto inserido após o cursor. A seleção dessas opções abre uma lista suspensa na qual o formato de parágrafo é selecionado.
+Usado para aplicar a formatação de parágrafo ao texto selecionado ou ao texto inserido após o cursor. Selecionar essa opção abre uma lista suspensa na qual o formato de parágrafo é selecionado.
 
 ![Exemplo de formato de parágrafo](/help/assets/text-paragraph-example.png)
 
@@ -304,15 +305,15 @@ O componente de texto também pode ser editado em linha, mas devido a restriçõ
 
 ### Configuração e ID {#setting-id}
 
-Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
+Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Data Layer](/help/developing/data-layer/overview.md).
 
-* Se deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada inspecionando a página resultante.
+* Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar a página resultante.
 * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
-* A alteração da ID pode afetar o CSS, o JS e o rastreamento da camada de dados.
+* A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores do conteúdo.
+A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores de conteúdo.
 
 ### Guia Plug-ins {#plugins-tab}
 
@@ -320,7 +321,7 @@ A guia Plug-ins é usada para ativar e desativar várias opções de formataçã
 
 ### Recursos {#features}
 
-![Recursos da caixa de diálogo de design](/help/assets/text-design-features.png)
+![Recursos da caixa de diálogo Design](/help/assets/text-design-features.png)
 
 Os seguintes recursos podem ser ativados ou desativados para o componente.
 
@@ -328,12 +329,12 @@ Os seguintes recursos podem ser ativados ou desativados para o componente.
 * Passado da palavra
 * Localizar e substituir
 * Verificador ortográfico
-* Opções de modificação de imagem inseridas
+* Opções de modificação da imagem inseridas
 * Edição de fonte HTML
 
 ### Formatação {#formatting}
 
-![Formatação da caixa de diálogo de design](/help/assets/text-design-formatting.png)
+![Formatação da caixa de diálogo Design](/help/assets/text-design-formatting.png)
 
 As seguintes opções de formatação podem ser ativadas ou desativadas para o componente.
 
@@ -346,13 +347,13 @@ As seguintes opções de formatação podem ser ativadas ou desativadas para o c
 
 ### Estilos de parágrafo {#paragraph-styles}
 
-![Estilos de parágrafo da caixa de diálogo de design](/help/assets/text-design-paragraph.png)
+![Estilos de parágrafo da caixa de diálogo Design](/help/assets/text-design-paragraph.png)
 
 Os estilos de parágrafo podem ser ativados ou desativados para o componente. Quando ativados, os formatos permitidos podem ser definidos.
 
-* Toque ou clique no botão **Adicionar** para inserir um novo estilo.
+* Toque ou clique no botão **Add** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de estilo ou clique no botão **Excluir**.
+* Para remover um estilo, toque ou clique no botão **Delete**.
 * Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
 
 ### Caracteres especiais {#configuring-special-characters}
@@ -361,15 +362,15 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 
 A opção para inserir caracteres especiais pode ser ativada ou desativada para o componente. Quando ativados, os caracteres permitidos podem ser definidos.
 
-* Toque ou clique no botão **Adicionar** para inserir um novo caractere.
+* Toque ou clique no botão **Add** para inserir um novo caractere.
 * Insira o código HTML do caractere e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um toque de caractere ou clique no botão **Excluir**.
+* Para remover um caractere, toque ou clique no botão **Delete**.
 * Para reorganizar a ordem dos caracteres, toque ou clique e arraste as alças.
 
 ## Guia Estilos {#styles-tab}
 
-O componente de texto suporta o sistema de estilo AEM [a1/>.](/help/get-started/authoring.md#component-styling)
+O componente de texto suporta o AEM [style system](/help/get-started/authoring.md#component-styling).
 
-## Camada de Dados do Cliente Adobe {#data-layer}
+## Camada de dados do cliente Adobe {#data-layer}
 
-O componente de texto oferece suporte à [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
+O componente de texto suporta a [Camada de Dados do Cliente Adobe.](/help/developing/data-layer/overview.md)
