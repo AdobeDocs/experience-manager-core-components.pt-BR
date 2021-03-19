@@ -1,26 +1,28 @@
 ---
-title: Módulo ui.tests do AEM Project Archetype
-description: Como usar os Testes da interface do AEM Project Archetype
+title: Módulo ui.tests do Arquétipo de Projeto AEM
+description: Como usar os Testes da interface do usuário do Arquétipo de projeto do AEM
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Arquiteto, desenvolvedor, administrador
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 
-# Módulo ui.testing do AEM Project Archetype {#uitests-module}
+# Módulo ui.tests do Arquétipo de Projeto AEM {#uitests-module}
 
-Há três níveis de teste contidos no projeto:
+Existem três níveis de testes contidos no projeto:
 
 * [Testes de unidade](core.md#unit-tests)
 * [Testes de integração](ittests.md)
 * Testes da interface do usuário
 
-Este artigo descreve os testes de interface disponíveis como parte do módulo ui.testing.
+Este artigo descreve os testes de interface disponíveis como parte do módulo ui.tests .
 
-## Execução de testes de interface de usuário {#running-tests}
+## Executando testes de interface do usuário {#running-tests}
 
 Para testar, execute:
 
@@ -28,8 +30,8 @@ Para testar, execute:
 mvn verify -Pui-tests-local-execution
 ```
 
-Após a execução, os relatórios e registros ficam disponíveis na pasta `target/reports`.
+Após a execução, os relatórios e logs ficam disponíveis na pasta `target/reports`.
 
 ## Opções adicionais {#additional-options}
 
-Os testes da interface do usuário podem ser executados com muitas opções diferentes, incluindo testes sem cabeça em um navegador local e como uma imagem Docker. Consulte o arquivo [README.md do módulo ui.testing](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) para obter mais informações.
+Os testes da interface do usuário podem ser executados com várias opções diferentes, incluindo testes sem periféricos em um navegador local e como uma imagem Docker. Consulte o arquivo [README.md do módulo ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) para obter mais informações.
