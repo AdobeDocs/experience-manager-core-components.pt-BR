@@ -1,15 +1,15 @@
 ---
 title: Utilização dos componentes principais
 description: '"Para começar a usar os Componentes principais no seu próprio projeto, há três etapas a seguir: baixe e instale, crie componentes proxy, carregue os estilos principais e permita os componentes em seus modelos."'
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 2%
 
 ---
-
 
 # Utilização dos componentes principais{#using-core-components}
 
@@ -20,16 +20,36 @@ Para começar a usar os Componentes principais no seu próprio projeto, há quat
 1. [Carregar os estilos principais](#load-the-core-styles)
 1. [Ativar os componentes](#allow-the-components)
 
->[!NOTE]
+>[!TIP]
 >
->Como alternativa, para obter instruções mais detalhadas sobre como começar do zero com a configuração do projeto, os Componentes principais, Modelos editáveis, Bibliotecas do cliente e desenvolvimento de componentes, o seguinte tutorial em várias partes pode ser de interesse:\
+>Para obter instruções mais detalhadas sobre como começar do zero com a configuração do projeto, os Componentes principais, Modelos editáveis, Bibliotecas de clientes e desenvolvimento de componentes, o seguinte tutorial em várias partes pode ser de interesse:\
 >[Introdução ao AEM Sites - Tutorial do WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>Se você usar o [AEM Arquétipo de projeto,](/help/developing/archetype/overview.md) os Componentes principais serão incluídos automaticamente em seu projeto com base nas recomendações de práticas recomendadas do Adobe.
 
 ## Baixe e instale {#download-and-install}
 
-Uma das ideias subjacentes aos componentes principais é a flexibilidade. O lançamento de novas versões dos Componentes principais com mais frequência permite que o Adobe seja mais flexível no fornecimento de novos recursos. Os desenvolvedores, por sua vez, podem ser flexíveis em quais componentes eles escolhem para integrar em seus projetos e com que frequência desejam atualizá-los.
+Uma das ideias subjacentes aos componentes principais é a flexibilidade. O lançamento de novas versões dos Componentes principais com mais frequência permite que o Adobe seja mais flexível no fornecimento de novos recursos. Os desenvolvedores, por sua vez, podem ser flexíveis em quais componentes eles escolhem para integrar em seus projetos e com que frequência desejam atualizá-los. Isso resulta em um processo de versão separado para o AEM e os Componentes principais.
 
-Por isso, os Componentes principais não fazem parte do início rápido ao iniciar no modo de produção (sem conteúdo de amostra). Portanto, seu primeiro passo é [baixar o pacote de conteúdo mais recente lançado do GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalá-lo em seus ambientes de AEM.
+Portanto, se você estiver executando o AEM as a Cloud Service ou um serviço no local, as etapas de instalação serão determinadas.
+
+### AEM as a Cloud Service {#aemaacs}
+
+Não há uma etapa! O AEM as a Cloud Service vem automaticamente com a versão mais recente dos Componentes principais. Assim como o AEMaaCS oferece os recursos mais recentes do AEM, o AEMaaCS automaticamente mantém você atualizado com a versão mais recente dos Componentes principais.
+
+Alguns pontos para ter em mente ao usar os Componentes principais no AEMaaCS:
+
+* Os Componentes principais estão incluídos em `/libs`.
+* O pipeline de criação de projeto gerará avisos no log se incluir os Componentes principais novamente como parte de `/apps` e ignorará a versão incorporada como parte do projeto.
+   * Em uma próxima versão, incluindo os Componentes principais novamente, causará falha na build do pipeline.
+* Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
+* Mesmo que os Componentes principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O ](/help/developing/guidelines.md#proxy-component-pattern) padrão do componente proxy deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
+
+### AEM 6.5 e anterior {#aem-65}
+
+Os Componentes principais não fazem parte do início rápido ao iniciar no modo de produção (sem conteúdo de amostra). Portanto, seu primeiro passo é [baixar o pacote de conteúdo mais recente lançado do GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalá-lo em seus ambientes de AEM.
 
 Há várias maneiras de automatizar isso, mas a maneira mais simples de instalar rapidamente um pacote de conteúdo em uma instância é usando o Gerenciador de Pacotes; consulte [Instalar pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Além disso, uma vez que uma instância de publicação também esteja em execução, será necessário replicar esse pacote para o editor; consulte [Replicação de pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
