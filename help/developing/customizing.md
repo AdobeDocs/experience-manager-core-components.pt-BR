@@ -1,15 +1,15 @@
 ---
 title: Personalizar os Componentes principais
 description: Os Componentes principais implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização de funcionalidade avançada.
-role: Arquiteto, desenvolvedor, administrador
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
-
 
 # Personalizar os Componentes principais{#customizing-core-components}
 
@@ -105,7 +105,7 @@ Para obter mais detalhes sobre o padrão de delegação, consulte o artigo Wiki 
 
 Às vezes, o estilo avançado requer uma estrutura de marcação diferente do componente.
 
-Isso pode ser feito facilmente copiando os arquivos HTL que precisam ser modificados do Componente principal no componente proxy.
+Isso pode ser feito facilmente copiando os arquivos HTL que precisam ser modificados do Componente principal no componente proxy [.](guidelines.md#proxy-component-pattern)
 
 Levando novamente o exemplo do Componente de navegação estrutural principal, para personalizar sua saída de marcação, o arquivo `breadcrumb.html` teria que ser copiado para o componente específico do site que tem um `sling:resourceSuperTypes` que aponta para o Componente de navegação estrutural principal.
 
