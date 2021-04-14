@@ -1,15 +1,15 @@
 ---
 title: Introdução aos Componentes principais
 description: 'Os Componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 26%
+source-wordcount: '936'
+ht-degree: 25%
 
 ---
-
 
 # Introdução aos componentes principais{#core-components-introduction}
 
@@ -118,3 +118,9 @@ Para conhecer os requisitos das versões anteriores do Componente principal, con
 Os Componentes principais exigem o uso de [modelos editáveis](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) e não são compatíveis com a interface do usuário clássica nem modelos estáticos. Se necessário, verifique as [Ferramentas de Modernização AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para atualizar seu projeto com esses recursos de AEM modernos.
 
 Para configurar seu ambiente de desenvolvimento local, marque [esta visão geral para AEM como um Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou este documento [para versões mais antigas do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>Os Componentes principais fazem automaticamente parte do AEM como um Cloud Service e você sempre tem a versão mais recente dos Componentes principais.
+>
+>Consulte o documento [Using Core Components](/help/get-started/using.md) para obter mais informações sobre como começar a usar os Componentes principais no AEMaaCS e no local.
