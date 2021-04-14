@@ -1,15 +1,15 @@
 ---
 title: Desenvolvimento dos componentes principais
 description: Os Componentes principais fornecem componentes básicos robustos e extensíveis que oferecem recursos ricos em recursos, entrega contínua, versão de componentes, implementação moderna, marcação magra e exportação JSON de conteúdo.
-role: Arquiteto, desenvolvedor, administrador
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 15%
+source-wordcount: '1591'
+ht-degree: 14%
 
 ---
-
 
 # Desenvolvimento dos componentes principais {#developing-core-components}
 
@@ -40,6 +40,8 @@ Os Componentes principais são poderosos, flexíveis e fáceis de usar e persona
 
 Qualquer novo projeto deve ser implementado com os Componentes principais. No entanto, os projetos existentes normalmente terão implementações abrangentes dos componentes da fundação.
 
+### Migração de componentes básicos {#from-foundation}
+
 Um esforço maior em um projeto existente (por exemplo, uma reformulação da marca ou refatoração geral) geralmente oferece uma chance de migrar para os Componentes principais. Para facilitar essa migração, o Adobe disponibilizou uma série de ferramentas de migração para incentivar a adoção dos Componentes principais e a tecnologia de AEM mais recente.
 
 [O ](http://opensource.adobe.com/aem-modernize-tools/) Ferramenta de Modernização de AEM permite a fácil conversão de:
@@ -54,6 +56,23 @@ Para obter mais informações sobre o uso dessas ferramentas, [consulte a docume
 >[!NOTE]
 >
 >As Ferramentas de Modernização do AEM são um esforço da comunidade e não são compatíveis ou garantidas pelo Adobe.
+
+## Migração via Mover para AEM como um Cloud Service {#via-aemaacs}
+
+Como o AEM as a Cloud Service vem com a versão mais recente dos Componentes principais automaticamente, ao mudar de uma instalação AEM local, será necessário remover qualquer dependência dos Componentes principais no arquivo `pom.xml` de projetos.
+
+Os componentes proxy ainda funcionarão como antes porque   os proxies apontam para o supertipo necessário e o caminho do supertipo tem a versão nele. Dessa forma, simplesmente remover a dependência permite que os Componentes principais funcionem no AEMaaCS da mesma forma que faziam no local.
+
+Assim como qualquer outro projeto do AEMaaCS, você também precisará adicionar uma dependência ao jar do SDK do AEM. Isso não é específico dos Componentes principais, mas é obrigatório.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+Consulte o documento [AEM Estrutura do projeto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) para obter mais informações sobre projetos AEMaaCS.
 
 ## Suporte aos componentes principais {#core-component-support}
 
