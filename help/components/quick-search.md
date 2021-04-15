@@ -1,15 +1,15 @@
 ---
 title: Componente de pesquisa rápida
 description: O Componente de pesquisa rápida fornece recursos de pesquisa para um site e apresenta resultados de pesquisa para que os visitantes possam pesquisar no site e filtrar os resultados.
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
-
 
 # Componente de pesquisa rápida {#quick-search-component}
 
@@ -54,6 +54,10 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina onde a p
    * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
+
+>[!NOTE]
+>
+>Se a **Raiz de Pesquisa** não estiver configurada ou não puder ser resolvida, a Pesquisa Rápida assumirá como padrão a pesquisa abaixo da página atual.
 
 ## Caixa de diálogo Design {#design-dialog}
 
