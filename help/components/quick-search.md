@@ -4,7 +4,7 @@ description: O Componente de pesquisa rápida fornece recursos de pesquisa para 
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina onde a p
 ![Caixa de diálogo de edição do Componente de pesquisa rápida](/help/assets/quick-search-edit.png)
 
 **Raiz de pesquisa**  - A página raiz de onde a pesquisa deve ser iniciada. A Raiz de pesquisa pode ser um blueprint principal, idioma principal ou página regular.
-* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de  [dados](/help/developing/data-layer/overview.md).
+* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada  [de dados.](/help/developing/data-layer/overview.md)
    * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar a página resultante.
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
