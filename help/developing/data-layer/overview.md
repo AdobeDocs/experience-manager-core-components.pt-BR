@@ -1,8 +1,8 @@
 ---
 title: Uso da camada de dados do cliente do Adobe com os componentes principais
 description: Uso da camada de dados do cliente do Adobe com os componentes principais
-feature: Componentes principais, Camada de dados do cliente Adobe
-role: Arquiteto, desenvolvedor, administrador
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

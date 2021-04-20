@@ -1,8 +1,8 @@
 ---
 title: Integrações e a camada de dados do cliente do Adobe
 description: Saiba como a Camada de dados do cliente do Adobe pode se integrar aos seus componentes personalizados e como as integrações com o Adobe Analytics e o Adobe Target podem ajudar você a obter insights sobre seu site
-feature: Componentes principais, Camada de dados do cliente Adobe
-role: Arquiteto, desenvolvedor, administrador
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

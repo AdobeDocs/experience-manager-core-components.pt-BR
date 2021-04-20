@@ -2,7 +2,7 @@
 title: Componente de navegação estrutural (v1)
 description: O Componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 index: n
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

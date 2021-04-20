@@ -1,7 +1,7 @@
 ---
 title: Suporte AMP para os componentes principais
 description: Os componentes principais são compatíveis com AMP - Accelerated Mobile Pages
-role: Arquiteto, desenvolvedor, administrador
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 title: Componente do fragmento de experiência
 description: O componente Fragmento de experiência permite que o autor de conteúdo adicione uma variação de fragmento de experiência a uma página.
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

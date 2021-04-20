@@ -2,7 +2,7 @@
 title: Componente de opções de formulário (v1)
 description: O componente de opções do Formulário do componente principal permite a seleção de opções predefinidas em vários formatos.
 index: n
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

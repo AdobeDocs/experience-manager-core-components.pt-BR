@@ -2,7 +2,7 @@
 title: Componente de texto (v1)
 description: O componente de texto é um componente de edição e composição de rich text que possui edição no local.
 index: n
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

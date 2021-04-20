@@ -1,7 +1,7 @@
 ---
 title: Componente do fragmento de conteúdo
 description: O componente Fragmento do conteúdo do componente principal permite a exibição de um fragmento de conteúdo.
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

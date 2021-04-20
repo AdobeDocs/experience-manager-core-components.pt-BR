@@ -1,7 +1,7 @@
 ---
 title: Componente da barra de progresso
 description: O componente da barra de progresso representa visualmente o progresso em direção a uma meta
-role: Arquiteto, Desenvolvedor, Administrador, Praticante de negócios
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

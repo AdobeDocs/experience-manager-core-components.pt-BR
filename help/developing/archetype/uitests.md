@@ -1,8 +1,8 @@
 ---
 title: Módulo ui.tests do Arquétipo de Projeto AEM
 description: Como usar os Testes da interface do usuário do Arquétipo de projeto do AEM
-feature: Componentes principais, Arquétipo de projeto AEM
-role: Arquiteto, desenvolvedor, administrador
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

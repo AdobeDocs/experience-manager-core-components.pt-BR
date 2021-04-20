@@ -1,8 +1,8 @@
 ---
 title: Build de front-end para React SPA
 description: Uma descrição do processo de criação front-end para projetos de SPA baseados em React
-feature: Componentes principais, Arquétipo de projeto AEM
-role: Arquiteto, desenvolvedor, administrador
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
