@@ -2,14 +2,14 @@
 title: Caminhos para o sucesso com os componentes principais
 description: Como obter sucesso ao implementar seu projeto com os Componentes principais
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '564'
+ht-degree: 14%
 
 ---
-
 
 # Caminhos para o sucesso com os Componentes principais {#paths-to-success}
 
@@ -41,7 +41,7 @@ Faça referência à [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Use o Kit da interface do usuário para Adobe XD {#ui-kit}
 
-Assim que houver uma necessidade comprovada de um componente personalizado, aproveite o [kit de interface do usuário para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) para que os designers possam começar a criar os wireframes e os designs com os Componentes principais como blocos de construção.
+Assim que houver uma necessidade comprovada de um componente personalizado, aproveite o [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que os designers possam começar a criar os wireframes e os designs com os Componentes principais como blocos de construção.
 
 ## Não ignore recursos poderosos {#powerful-features}
 
@@ -59,4 +59,4 @@ Se um autor quiser reutilizar partes (um fragmento de uma experiência) de uma p
 
 ### O componente incorporado {#embed-component}
 
-[O ](/help/components/embed.md) componente Incorporado não só permite a inclusão de recursos externos, como conteúdo de vídeo do YouTube, como também é extensível para permitir que ele acomode conteúdo específico às necessidades de um projeto.
+[O ](/help/components/embed.md) Componente incorporado não só permite a inclusão simples de recursos externos, como conteúdo de vídeo do YouTube, como também é extensível para permitir que ele acomode conteúdo específico às necessidades de um projeto.
