@@ -1,17 +1,16 @@
 ---
 title: Inclusão de bibliotecas de clientes
 description: Há várias maneiras diferentes de incluir bibliotecas de clientes, dependendo do seu caso de uso.
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
 
-
-# Incluindo bibliotecas de clientes {#including-client-libraries}
+# Inclusão de bibliotecas de clientes {#including-client-libraries}
 
 Há várias maneiras diferentes de incluir [bibliotecas de clientes](/help/developing/archetype/uifrontend.md#clientlibs), dependendo do seu caso de uso. Este documento fornece exemplos e exemplos de [trechos HTL](https://docs.adobe.com/content/help/pt-BR/experience-manager-htl/using/overview.html) para cada um.
 
@@ -91,7 +90,7 @@ Atributos CSS `link` que podem ser passados para `jsAndCssIncludes` e `cssInclud
 * `onload`: sequência de caracteres
 * `crossorigin`: sequência de caracteres
 
-## Inline {#inlining}
+## Inclinar {#inlining}
 
 Em alguns casos, para otimização ou para email ou [AMP,](amp.md) pode ser necessário embutir o CSS ou o JS na saída do HTML.
 
@@ -113,7 +112,7 @@ Da mesma forma, para embutir o JS, `jsInline` pode ser usado, nesse caso, você 
 </script>
 ```
 
-## Carregamento de CSS e JavaScript com reconhecimento de contexto {#context-aware-loading}
+## Carregamento de CSS e JavaScript sensíveis ao contexto {#context-aware-loading}
 
 O [Componente de página](/help/components/page.md) também oferece suporte ao carregamento de CSS, JavaScript ou metatags com reconhecimento de contexto definido pelo desenvolvedor.
 
