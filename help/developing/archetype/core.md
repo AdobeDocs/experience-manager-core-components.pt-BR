@@ -1,18 +1,17 @@
 ---
 title: Módulo principal do arquétipo de projeto AEM
 description: Módulo principal do arquétipo de projeto AEM
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Architect, Developer, Admin
+exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-
-# Módulo principal do Arquétipo de projeto AEM {#core-module}
+# Módulo principal do arquétipo de projeto AEM {#core-module}
 
 O módulo principal de maven (`<src-directory>/<project>/core`) inclui todo o código Java necessário para a implementação. O módulo compactará todo o código Java e implantará na instância AEM como um pacote OSGi.
 
@@ -26,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 Depois de executado com êxito, você deve conseguir ver o Console de pacotes em `http://<host>:<port>/system/console/bundles`.
 
-##  Testes de Unidade {#unit-tests}
+##  Testes de unidade {#unit-tests}
 
 O teste de unidade no módulo principal mostra o teste de unidade clássica do código contido no pacote. Para testar, execute:
 
