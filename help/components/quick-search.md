@@ -1,10 +1,9 @@
 ---
 title: Componente de pesquisa rápida
 description: O Componente de pesquisa rápida fornece recursos de pesquisa para um site e apresenta resultados de pesquisa para que os visitantes possam pesquisar no site e filtrar os resultados.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-translation-type: tm+mt
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -43,7 +42,7 @@ A documentação técnica mais recente sobre o Componente de pesquisa rápida [p
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo defina onde a pesquisa deve iniciar na árvore de conteúdo.
 
