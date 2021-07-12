@@ -1,15 +1,14 @@
 ---
 title: Listar Componente
 description: O Componente de lista de componentes principais permite a criação fácil de listas dinâmicas e estáticas.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
-
 
 # Listar Componente{#list-component}
 
@@ -42,7 +41,7 @@ A documentação técnica mais recente sobre o Componente de lista [pode ser enc
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo configure a lista e os itens da lista.
 
@@ -52,7 +51,7 @@ A lista pode ser criada de maneiras diferentes.
 
 * [Páginas secundárias](#child-pages)
 * [Lista fixa](#fixed-list)
-* [Pesquisar](#search-options)
+* [Pesquisar  ](#search-options)
 * [Tags](#tags)
 
 Independentemente de como a lista é criada, há [Opções de Classificação e ID](#sort-options) que podem ser sempre configuradas.
@@ -86,7 +85,7 @@ Toque ou clique no botão **Add** para inserir um novo item à lista.
 * Use a alça de arrastar para reorganizar os itens na lista.
 * Use o ícone da lixeira para excluir itens na lista.
 
-#### Pesquisar {#search-options}
+#### Pesquisar   {#search-options}
 
 A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 
