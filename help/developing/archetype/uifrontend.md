@@ -1,16 +1,15 @@
 ---
 title: Build Front-End do Arquétipo de Projeto AEM
 description: Um modelo de projeto para aplicativos baseados em AEM
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Architect, Developer, Admin
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
-
 
 # Módulo ui.frontend do AEM Project Archetype {#uifrontend-module}
 
@@ -68,7 +67,7 @@ Nesse fluxo, um desenvolvedor de AEM pode executar as etapas um e dois e transmi
 >
 >Também é possível aproveitar a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library) para capturar amostras da saída de marcação de cada componente para funcionar no nível do componente, em vez do nível da página.
 
-### Usando o Storybook {#using-storybook}
+### Usar o Storybook {#using-storybook}
 
 Usando [Storybook](https://storybook.js.org), você pode executar mais desenvolvimento atômico front-end. Embora o Storybook não esteja incluído no AEM Project Archetype, você pode instalá-lo e armazenar seus artefatos do Storybook no módulo ui.frontend. Quando prontos para testes no AEM, eles podem ser implantados como ClientLibs executando `npm run dev`.
 
@@ -155,7 +154,7 @@ Converte entre valores equivalentes de comprimento, tempo e ângulo. Observe que
 >
 >A opção de build do front-end utiliza arquivos de configuração de webpack somente dev e prod que compartilham um arquivo de configuração comum. Dessa forma, as configurações de desenvolvimento e produção podem ser modificadas independentemente.
 
-### Geração da biblioteca do cliente {#clientlib-generation}
+### Geração de biblioteca do cliente {#clientlib-generation}
 
 O processo de build do módulo ui.frontend aproveita o plug-in [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) para mover o CSS compilado, o JS e quaisquer recursos para o módulo ui.apps. A configuração aem-clientlib-generator é definida em `clientlib.config.js`. As seguintes bibliotecas de clientes são geradas:
 
@@ -186,7 +185,7 @@ A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 
 A inclusão acima pode, é claro, ser modificada ao atualizar a Política de página e/ou modificar as categorias e propriedades incorporadas das respectivas bibliotecas de clientes.
 
-### Servidor de desenvolvimento de pacote Web estático {#webpack-dev-server}
+### Servidor de desenvolvimento de Webpack estático {#webpack-dev-server}
 
 Incluído no módulo ui.frontend é um servidor webpack-dev que fornece recarregamento ao vivo para rápido desenvolvimento front-end fora do AEM. A configuração utiliza o html-webpack-plugin para injetar automaticamente CSS e JS compilados do módulo ui.frontend em um modelo HTML estático.
 
