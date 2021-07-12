@@ -1,15 +1,14 @@
 ---
 title: Componente de texto
 description: O componente de texto é um componente de edição e composição de rich text que possui edição no local.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2213'
 ht-degree: 4%
 
 ---
-
 
 # Componente de texto{#text-component}
 
@@ -54,7 +53,7 @@ O restante deste artigo demonstra a configuração padrão do Componente de text
 >
 >Somente as opções ativadas pelas [configurações da interface do usuário do RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria compor o texto.
 
@@ -215,7 +214,7 @@ Para encerrar uma lista com marcadores, toque ou clique novamente no botão **Ma
 
 Usado para formatar o texto selecionado como uma lista numerada ou iniciar a inserção de uma lista numerada após o cursor.
 
-Para terminar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira dois retornos de carro.
+Para terminar uma lista numerada, toque ou clique novamente no botão **Numbered** ou insira duas CRs de carro.
 
 ### Recuo para a esquerda
 
