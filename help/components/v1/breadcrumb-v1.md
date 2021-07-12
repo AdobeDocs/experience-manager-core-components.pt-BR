@@ -2,15 +2,14 @@
 title: Componente de navegação estrutural (v1)
 description: O Componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
-
 
 # Componente de navegação estrutural (v1) {#breadcrumb-component-v}
 
@@ -74,7 +73,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 "breadcrumb": {
@@ -87,7 +86,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 >
 >A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo suprima páginas ocultas e ativas na navegação estrutural, bem como a profundidade na hierarquia que deve ser exibida.
 
