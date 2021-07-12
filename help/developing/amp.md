@@ -1,15 +1,14 @@
 ---
 title: Suporte AMP para os componentes principais
 description: Os componentes principais são compatíveis com AMP - Accelerated Mobile Pages
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
-
 
 # Suporte AMP para os componentes principais {#amp-support}
 
@@ -29,7 +28,7 @@ Os Componentes principais usam `amp` como um seletor do Sling para renderizar um
 
 Os projetos individuais podem decidir se utilizam ou não a AMP. Na verdade, como as páginas AMP e HTML padrão podem ser entregues em paralelo, um projeto pode optar por usar a AMP em determinadas páginas do projeto.
 
-## Introdução ao suporte ao AMP em seu projeto {#getting-started}
+## Introdução ao suporte ao AMP no seu projeto {#getting-started}
 
 Embora o suporte à AMP ofereça muita flexibilidade, para começar a usá-lo rapidamente requer apenas algumas etapas simples:
 
