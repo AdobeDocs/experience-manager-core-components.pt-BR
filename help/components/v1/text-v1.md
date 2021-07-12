@@ -2,15 +2,14 @@
 title: Componente de texto (v1)
 description: O componente de texto é um componente de edição e composição de rich text que possui edição no local.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 3%
 
 ---
-
 
 # Componente de texto (v1) {#text-component-v}
 
@@ -56,7 +55,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 "text": {
@@ -71,7 +70,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 >
 >A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria compor o texto.
 
@@ -230,7 +229,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação d
 
    Usado para formatar o texto selecionado como uma lista numerada ou iniciar a inserção de uma lista numerada após o cursor.
 
-   Para terminar uma lista numerada, toque ou clique novamente no botão **Numerado** ou insira dois retornos de carro.
+   Para terminar uma lista numerada, toque ou clique novamente no botão **Numbered** ou insira duas CRs de carro.
 
 * Recuo para a esquerda
 
