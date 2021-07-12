@@ -2,15 +2,14 @@
 title: Componente de título (v1)
 description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
-
 
 # Componente de título (v1) {#title-component-v}
 
@@ -55,7 +54,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 "title": {
@@ -70,7 +69,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 >
 >A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo defina o texto do título, bem como selecione o nível do cabeçalho.
 
