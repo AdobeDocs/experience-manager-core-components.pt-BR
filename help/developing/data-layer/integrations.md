@@ -1,16 +1,15 @@
 ---
 title: Integrações e a camada de dados do cliente do Adobe
 description: Saiba como a Camada de dados do cliente do Adobe pode se integrar aos seus componentes personalizados e como as integrações com o Adobe Analytics e o Adobe Target podem ajudar você a obter insights sobre seu site
-feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Camada de dados do cliente Adobe
+role: Architect, Developer, Admin
+exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
-
 
 # Integrações com a camada de dados do cliente do Adobe {#integrations}
 
@@ -33,7 +32,7 @@ O atributo `data-cmp-data-layer-enabled` pode ser consultado no lado do cliente 
 >
 >Para obter mais detalhes técnicos sobre a integração da Camada de dados do cliente do Adobe com os Componentes principais e como habilitar a Camada de dados em seus componentes personalizados, consulte o arquivo [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) no repositório dos Componentes principais.
 
-## Integração com Adobe Analytics e Adobe Target {#analytics-target}
+## Integração com o Adobe Analytics e o Adobe Target {#analytics-target}
 
 Em conjunto com a Adobe Analytics e a Adobe Target, a Camada de dados do cliente do Adobe se torna a base de um conjunto de ferramentas muito eficiente e flexível para obter insights sobre suas experiências digitais. Os seguintes tutoriais o orientam por meio de integrações de amostra.
 
