@@ -1,15 +1,14 @@
 ---
 title: Componente do botão de formulário
 description: O componente Componente principal Formulário oculto permite a inclusão de um campo oculto em um formulário.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '412'
 ht-degree: 4%
 
 ---
-
 
 # Componente do botão de formulário {#form-button-component}
 
