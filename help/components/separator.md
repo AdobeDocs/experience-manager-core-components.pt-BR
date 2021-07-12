@@ -1,15 +1,14 @@
 ---
 title: Componente separador
 description: O componente separador cria uma quebra entre componentes em uma página
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '304'
 ht-degree: 5%
 
 ---
-
 
 # Componente separador {#separator-component}
 
