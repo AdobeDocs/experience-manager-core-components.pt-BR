@@ -1,17 +1,16 @@
 ---
 title: Componente Navegação de idioma
 description: O componente de navegação do idioma fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
 
-
-# Componente de navegação de idioma{#language-navigation-component}
+# Componente Navegação de idioma{#language-navigation-component}
 
 O Componente de navegação de idioma fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
 
@@ -94,7 +93,7 @@ Independentemente da página que um usuário esteja visualizando, o componente d
 
 O Componente de Navegação de Idioma suporta o AEM [Sistema de Estilos](/help/get-started/authoring.md#component-styling).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 Normalmente, o componente de Navegação de idioma só precisa ser adicionado e configurado nos modelos de página de um site. No entanto, se o componente Navegação de idioma precisar ser adicionado a uma página de conteúdo individual, a caixa de diálogo de edição permitirá que um autor de conteúdo configure os mesmos valores, conforme descrito na [caixa de diálogo de design](#design-dialog).
 
