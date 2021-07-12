@@ -1,15 +1,14 @@
 ---
 title: Autoria com Componentes principais
 description: Em AEM, os componentes são os elementos estruturais que constituem o conteúdo das páginas criadas - os Componentes principais oferecem funcionalidade de criação flexível e repleta de recursos.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
-
 
 # Autor com componentes principais
 
@@ -63,7 +62,7 @@ Por exemplo, se um componente de imagem não deve permitir o upload de imagem do
 
 Consulte [Criação de modelos de página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) para obter mais informações.
 
-### Editar e criar caixas de diálogo {#edit-and-design-dialogs}
+### Caixas de diálogo Editar e Design {#edit-and-design-dialogs}
 
 Como os Componentes principais podem ser pré-configurados pelos autores de modelo para definir quais opções são permitidas como parte de um modelo e, em seguida, configuradas pelo autor da página para definir o conteúdo real da página, cada componente pode ter opções em duas caixas de diálogo diferentes.
 
