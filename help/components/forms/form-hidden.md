@@ -1,17 +1,16 @@
 ---
 title: Componente Oculto do Formulário
 description: O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '428'
 ht-degree: 3%
 
 ---
 
-
-# Componente oculto do formulário{#form-hidden-component}
+# Componente Oculto do Formulário{#form-hidden-component}
 
 O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
 
