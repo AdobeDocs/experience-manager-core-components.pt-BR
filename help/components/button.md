@@ -1,15 +1,14 @@
 ---
 title: Componente do botão
 description: O componente Botão Componente principal permite a criação e a exibição de um botão.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---
-
 
 # Componente do botão{#button-component}
 
