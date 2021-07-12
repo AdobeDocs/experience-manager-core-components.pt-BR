@@ -1,17 +1,16 @@
 ---
 title: Caminhos para o sucesso com os componentes principais
 description: Como obter sucesso ao implementar seu projeto com os Componentes principais
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: tm+mt
-source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 14%
 
 ---
 
-# Caminhos para o sucesso com os Componentes principais {#paths-to-success}
+# Caminhos para o sucesso com os componentes principais {#paths-to-success}
 
 Os Componentes principais são poderosos, flexíveis e fáceis de usar e personalizar. Seguir algumas diretrizes principais, conforme descrito neste documento, garantirá que seu projeto com os Componentes principais seja bem-sucedido.
 
@@ -31,7 +30,7 @@ Dois problemas comuns que levam a projetos que não têm sucesso com os Componen
 
 Em ambos os casos, os requisitos feitos aos componentes são tão rígidos e específicos que é difícil fazer com que os Componentes principais ou qualquer componente pronto para uso estejam em conformidade com eles, resultando no desenvolvimento maciço de componentes personalizados.
 
-## Iniciar Mais Cedo {#start-early}
+## Iniciar com antecedência {#start-early}
 
 Em vez de considerar apenas os Componentes principais na fase de implementação do seu projeto, já comece com os Componentes principais durante a fase de wireframing e design.
 
@@ -39,7 +38,7 @@ Em vez de considerar apenas os Componentes principais na fase de implementação
 
 Faça referência à [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library) já na fase de design. Os Componentes principais são poderosos e flexíveis e podem levar você até o ponto de partida. Adicione somente componentes personalizados quando houver uma necessidade real de negócios que não possa ser razoavelmente alcançada com um Componente principal.
 
-### Use o Kit da interface do usuário para Adobe XD {#ui-kit}
+### Usar o kit de interface do usuário para Adobe XD {#ui-kit}
 
 Assim que houver uma necessidade comprovada de um componente personalizado, aproveite o [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que os designers possam começar a criar os wireframes e os designs com os Componentes principais como blocos de construção.
 
@@ -57,6 +56,6 @@ Juntamente com o exportador JSON atualizado, os fragmentos de conteúdo estrutur
 
 Se um autor quiser reutilizar partes (um fragmento de uma experiência) de uma página. Sem [Fragmentos de experiência,](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html) o autor precisaria copiar e colar esse fragmento. Criar e manter essa experiências de copiar/colar é um processo demorado e pode causar erros feitos pelo usuário. Os fragmentos de experiência eliminam a necessidade de copiar/colar.
 
-### O componente incorporado {#embed-component}
+### O componente Incorporado {#embed-component}
 
 [O ](/help/components/embed.md) Componente incorporado não só permite a inclusão simples de recursos externos, como conteúdo de vídeo do YouTube, como também é extensível para permitir que ele acomode conteúdo específico às necessidades de um projeto.
