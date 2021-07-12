@@ -2,15 +2,14 @@
 title: Componente do contêiner de formulário (v1)
 description: O Componente de contêiner de formulário do componente principal permite a criação de formulários de envio simples.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '638'
 ht-degree: 3%
 
 ---
-
 
 # Componente do contêiner de formulário (v1) {#form-container-component-v1}
 
@@ -47,14 +46,14 @@ A caixa de diálogo de configurações permite que o autor de conteúdo defina q
 
 Dependendo do **Tipo de ação** selecionado, as opções disponíveis no contêiner serão alteradas. Os tipos de ação disponíveis são:
 
-* [Email](#mail)
+* [E-mail](#mail)
 * [Armazenar conteúdo](#store-content)
 * [Enviar pedido](#submit-order)
 * [Atualizar pedido](#update-order)
 
 Independentemente do tipo , há [configurações gerais](#general-settings) que se aplicam a cada ação.
 
-### Email {#mail}
+### E-mail {#mail}
 
 Quando o formulário for enviado, o tipo de ação de email enviará um email para os recipients designados.
 
