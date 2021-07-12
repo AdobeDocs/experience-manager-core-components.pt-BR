@@ -1,15 +1,14 @@
 ---
 title: Componente do título
 description: O Componente principal de título do componente é um componente de cabeçalho de seção que apresenta edição no local.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 393af72c-549f-4609-afb0-2712f827b549
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
-
 
 # Componente do título{#title-component}
 
@@ -42,7 +41,7 @@ A documentação técnica mais recente sobre o Componente de título [pode ser e
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo defina o texto do título, bem como selecione o nível do cabeçalho.
 
