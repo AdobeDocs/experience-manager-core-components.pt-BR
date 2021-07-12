@@ -1,10 +1,9 @@
 ---
 title: Utilização dos componentes principais
 description: '"Para começar a usar os Componentes principais no seu próprio projeto, há três etapas a seguir: baixe e instale, crie componentes proxy, carregue os estilos principais e permita os componentes em seus modelos."'
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-translation-type: tm+mt
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -47,13 +46,13 @@ Alguns pontos para ter em mente ao usar os Componentes principais no AEMaaCS:
 * Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
 * Mesmo que os Componentes principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O ](/help/developing/guidelines.md#proxy-component-pattern) padrão do componente proxy deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
 
-### AEM 6.5 e anterior {#aem-65}
+### AEM 6.5 e anteriores {#aem-65}
 
 Os Componentes principais não fazem parte do início rápido ao iniciar no modo de produção (sem conteúdo de amostra). Portanto, seu primeiro passo é [baixar o pacote de conteúdo mais recente lançado do GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalá-lo em seus ambientes de AEM.
 
 Há várias maneiras de automatizar isso, mas a maneira mais simples de instalar rapidamente um pacote de conteúdo em uma instância é usando o Gerenciador de Pacotes; consulte [Instalar pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Além disso, uma vez que uma instância de publicação também esteja em execução, será necessário replicar esse pacote para o editor; consulte [Replicação de pacotes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
-## Criar componentes proxy {#create-proxy-components}
+## Criar componentes de proxy {#create-proxy-components}
 
 Por motivos explicados na seção [Padrão de componente proxy](/help/developing/guidelines.md#proxy-component-pattern) , os Componentes principais não devem ser referenciados diretamente do conteúdo. Para evitar isso, todos pertencem a um grupo de componentes ocultos ( `.core-wcm` ou `.core-wcm-form`), o que impedirá que sejam exibidos diretamente no editor.
 
