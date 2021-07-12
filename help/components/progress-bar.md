@@ -1,15 +1,14 @@
 ---
 title: Componente da barra de progresso
 description: O componente da barra de progresso representa visualmente o progresso em direção a uma meta
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '338'
 ht-degree: 3%
 
 ---
-
 
 # Componente da barra de progresso {#progress-bar-component}
 
