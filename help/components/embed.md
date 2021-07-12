@@ -1,15 +1,14 @@
 ---
 title: Incorporar componente
 description: O Componente incorporado permite a incorporação de conteúdo externo em uma página de conteúdo AEM.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
-
 
 # Incorporar componente{#embed-component}
 
@@ -64,7 +63,7 @@ A inserção mais simples é o URL. Basta colar o URL do recurso que deseja inco
 
 O Componente incorporado é fornecido com processadores para os seguintes tipos de recursos:
 
-* Recursos que estão em conformidade com o [Incorporar padrão](https://oembed.com/) incluindo publicação do Facebook, Instagram, SoundCloud, Twitter e YouTube
+* Recursos que estão em conformidade com o [Incorporar padrão](https://oembed.com/) incluindo Facebook Post, Instagram, SoundCloud, Twitter e YouTube
 * Pinterest
 
 Os desenvolvedores podem adicionar processadores de URL adicionais seguindo a documentação do desenvolvedor do Componente incorporado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)[
@@ -73,11 +72,11 @@ Os desenvolvedores podem adicionar processadores de URL adicionais seguindo a do
 
 ### Incorporável {#embeddable}
 
-Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor pode selecionar entre incorporados confiáveis pré-configurados e o componente é fornecido com um YouTube incorporável pronto para uso.
+Os incorporados permitem mais personalização do recurso incorporado, que pode ser parametrizado e incluir informações adicionais. Um autor é capaz de selecionar entre incorporados confiáveis pré-configurados e o componente é fornecido com um YouTube integrado pronto para uso.
 
-O campo **Embeddable** define o tipo de processador que deseja usar. No caso de um YouTube incorporável, é possível definir:
+O campo **Embeddable** define o tipo de processador que deseja usar. No caso do YouTube incorporável, é possível definir:
 
-* **ID do vídeo**  - A ID do vídeo exclusiva do YouTube do recurso que você deseja incorporar
+* **ID do vídeo**  - A ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
 * **Largura**  - A largura do vídeo incorporado
 * **Altura**  - A altura do vídeo incorporado
 * **Ativar Mudo**  - Esse parâmetro especifica se o vídeo será reproduzido com mudo por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
@@ -130,7 +129,7 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 * **Desativar HTML**  - Desativa a opção  **** HTML para o autor de conteúdo quando selecionada.
 * **Incorporáveis permitidos**  - Multisseleção que define quais processadores incorporados estarão disponíveis para o autor do conteúdo, desde que a opção  **** Incorporável esteja ativa.
 
-### Guia do YouTube {#youtube-tab}
+### Guia YouTube {#youtube-tab}
 
 ![Guia YouTube da caixa de diálogo Incorporar design do componente](/help/assets/embed-design-youtube.png)
 
@@ -143,4 +142,4 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 * **Permitir configuração de reprodução em linha (iOS)**  - Permite que o autor de conteúdo configure a opção  **Habilitar reprodução em linha (iOS)**  no componente quando o tipo de incorporação do YouTube é selecionado
    * **Valor padrão da reprodução em linha (iOS)**  - Define automaticamente a opção  **Ativar reprodução em linha (iOS)** quando o tipo de incorporação do YouTube é selecionado
 * **Permitir configuração de vídeos em linha**  - Permite que o autor de conteúdo configure a opção  **** Vídeos relacionados irrestritos no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão de vídeos relacionados irrestritos**  - Define automaticamente a opção  **** Vídeos relacionados irrestritos quando o tipo de incorporação do YouTube é selecionado
+   * **Valor padrão de vídeos relacionados irrestritos**  - Define automaticamente a opção  **Vídeos relacionados irrestritos** quando o tipo de incorporação do YouTube é selecionado
