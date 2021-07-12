@@ -1,15 +1,14 @@
 ---
 title: Recursos de localização dos componentes principais
 description: Recursos de localização dos componentes principais
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
-
 
 # Recursos de localização dos componentes principais {#localization-features-of-the-core-components}
 
@@ -23,7 +22,7 @@ Da mesma forma, um componente de navegação geralmente deve ser exibido em toda
 
 Usando os recursos de localização do [Componente principal de navegação](/help/components/navigation.md) e [Componente principal do fragmento de experiência](/help/components/experience-fragment.md) juntamente com os [modelos editáveis de AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html), essa se torna uma tarefa simples. O exemplo pode ser estendido ainda mais para usar o [Componente de navegação de idioma](/help/components/language-navigation.md) também.
 
-## A estrutura de conteúdo {#content-structure}
+## A estrutura do conteúdo {#content-structure}
 
 Todos os recursos de localização do AEM e seus Componentes principais dependem de uma estrutura de conteúdo clara e lógica para o seu conteúdo localizado.
 
