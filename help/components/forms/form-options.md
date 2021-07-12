@@ -1,19 +1,18 @@
 ---
 title: Componente Opções de formulário
 description: O componente de opções do Formulário do componente principal permite a seleção de opções predefinidas em vários formatos.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
 
+# Componente Opções de formulário {#form-options-component}
 
-# Componente de opções de formulário {#form-options-component}
-
-O componente Opções de formulário do componente principal permite a seleção de opções predefinidas em vários formatos.
+O componente de opções do Formulário do componente principal permite a seleção de opções predefinidas em vários formatos.
 
 ## Uso {#usage}
 
