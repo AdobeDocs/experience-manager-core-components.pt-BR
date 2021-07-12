@@ -1,15 +1,14 @@
 ---
 title: Componente carrossel
 description: O componente carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
-
 
 # Componente carrossel{#carousel-component}
 
@@ -43,7 +42,7 @@ A documentação técnica mais recente sobre o componente carrossel [pode ser en
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo adicione, renomeie e reorganize os slides, bem como definir as configurações de transição automática.
 
@@ -90,7 +89,7 @@ Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos de [
 
 * **Rótulo**  - Valor de um atributo de rótulo ARIA para o componente
 
-## Selecionar Painel {#select-panel}
+## Selecionar painel {#select-panel}
 
 O autor de conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um slide diferente para edição, bem como para reorganizar facilmente a ordem dos slides.
 
