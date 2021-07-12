@@ -1,15 +1,14 @@
 ---
 title: Componente do contêiner de formulário
 description: O Componente de contêiner de formulário do componente principal permite a criação de formulários de envio simples.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '956'
 ht-degree: 2%
 
 ---
-
 
 # Componente do contêiner de formulário {#form-container-component}
 
@@ -55,12 +54,12 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina qu
 Dependendo do **Tipo de ação** selecionado, as opções disponíveis no contêiner serão alteradas. Os tipos de ação disponíveis são:
 
 * [Dados do formulário de postagem](#post-data)
-* [Email](#mail)
+* [E-mail](#mail)
 * [Armazenar conteúdo](#store-content)
 
 Independentemente do tipo , há [configurações gerais](#general-settings) que se aplicam a cada ação.
 
-### Dados do formulário posterior {#post-data}
+### Dados do formulário de postagem {#post-data}
 
 Quando o formulário for enviado, o tipo de ação pós-formulário de dados passará os dados enviados para terceiros como JSON para processamento.
 
@@ -72,7 +71,7 @@ Quando o formulário for enviado, o tipo de ação pós-formulário de dados pas
 >[!TIP]
 >Há opções de tempo limite adicionais que um administrador de sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica no GitHub para obter mais informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### Email {#mail}
+### E-mail {#mail}
 
 Quando o formulário for enviado, o tipo de ação de email enviará um email para os recipients designados.
 
