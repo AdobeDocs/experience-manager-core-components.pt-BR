@@ -1,15 +1,14 @@
 ---
 title: Componente de navegação estrutural
 description: O Componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
-
 
 # Componente de navegação estrutural{#breadcrumb-component}
 
@@ -48,7 +47,7 @@ A documentação técnica mais recente sobre o Componente de navegação estrutu
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo suprima páginas ocultas e ativas na navegação estrutural, bem como a profundidade na hierarquia que deve ser exibida.
 
@@ -72,7 +71,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo suprima página
 
 A caixa de diálogo de design permite que o autor do modelo defina quais são os valores padrão para as opções de suprimir páginas ocultas e ativas na navegação estrutural, bem como a profundidade na hierarquia que deve ser exibida.
 
-### Guia Principal {#main-tab}
+### Guia principal {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
