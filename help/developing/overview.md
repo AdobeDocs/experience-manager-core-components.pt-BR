@@ -1,10 +1,9 @@
 ---
 title: Desenvolvimento dos componentes principais
 description: Os Componentes principais fornecem componentes básicos robustos e extensíveis que oferecem recursos ricos em recursos, entrega contínua, versão de componentes, implementação moderna, marcação magra e exportação JSON de conteúdo.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: tm+mt
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 14%
@@ -32,7 +31,7 @@ componentes personalizadosAvalie se um componente  [principal existente pode ser
 \
    Caso contrário, consulte &quot;Novos componentes personalizados&quot; acima.
 
-## Como obter sucesso com os Componentes principais {#how-to-succeed}
+## Como obter sucesso com os componentes principais {#how-to-succeed}
 
 Os Componentes principais são poderosos, flexíveis e fáceis de usar e personalizar. [Seguir algumas ](success.md) diretrizes principais garantirá que seu projeto com os Componentes principais seja bem-sucedido.
 
@@ -118,7 +117,7 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Texto](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texto formatado | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
 | [Imagem](https://adobe.com/go/aem_cmp_tech_image_v2) | Carregamento inteligente e lento do tamanho de representação ideal | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lista](https://adobe.com/go/aem_cmp_tech_list_v2) | Lista de páginas | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Compartilhamento em mídia social](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget de compartilhamento do Facebook e Pinterest | `-` |
+| [Compartilhamento em mídia social](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Compartilhamento de widget facebook e Pinterest | `-` |
 | [Contêineres de formulário](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Sistema de parágrafo de formulário responsivo | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [Texto do formulário](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Campo de entrada de texto | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [Opções de formulário](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Campo de entrada de várias opções | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
