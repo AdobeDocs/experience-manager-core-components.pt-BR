@@ -1,15 +1,14 @@
 ---
 title: Componente acordeão
 description: O componente Acordo do componente principal permite a criação de uma coleção de painéis organizados de acordo com uma opção em uma página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
-
 
 # Componente acordeão{#accordion-component}
 
@@ -91,7 +90,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
 
-## Selecione Pasta do painel {#select-panel-popover}
+## Selecionar Pop do Painel {#select-panel-popover}
 
 O autor de conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um painel diferente para edição, bem como para reorganizar facilmente a ordem dos painéis dentro da opção .
 
