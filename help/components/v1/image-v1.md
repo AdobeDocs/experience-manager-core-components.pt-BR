@@ -2,15 +2,14 @@
 title: Componente de imagem (v1)
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1229'
 ht-degree: 3%
 
 ---
-
 
 # Componente de imagem (v1) {#image-component-v}
 
@@ -59,7 +58,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 "image": {
@@ -97,7 +96,7 @@ Além do [diálogo de edição](#edit-dialog) padrão e [diálogo de design](#de
 * **Legenda**  - As informações adicionais sobre a imagem, exibidas abaixo da imagem, podem ser padrão.
 * **Exibir legenda como pop-up**  - Quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o cursor do mouse sobre a imagem.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo Editar permite que o autor de conteúdo recorte, modifique o mapa de lançamento e faça zoom da imagem.
 
