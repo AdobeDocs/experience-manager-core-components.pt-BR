@@ -1,17 +1,16 @@
 ---
 title: Componente da lista de fragmentos do conteúdo
 description: O componente Lista de fragmentos do conteúdo do componente principal permite a exibição de uma lista de fragmentos de conteúdo.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '762'
 ht-degree: 5%
 
 ---
 
-
-# Componente da lista de fragmentos de conteúdo{#content-fragment-list-component}
+# Componente da lista de fragmentos do conteúdo{#content-fragment-list-component}
 
 O componente Lista de fragmentos do conteúdo do componente principal permite a exibição de uma lista de [fragmentos de conteúdo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
