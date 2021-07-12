@@ -1,15 +1,14 @@
 ---
 title: Componente do visualizador de PDF
 description: O Componente do visualizador de PDF permite a exibição de um documento PDF.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
-
 
 # Componente do visualizador de PDF {#pdf-viewer-component}
 
@@ -55,7 +54,7 @@ A guia Configuração permite que o autor defina qual PDF deve ser exibido. O ca
 
 ![Guia Configuração da caixa de diálogo Editar do Componente do Visualizador de PDF](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Personalizar Guia {#customize-tab}
+### Guia Personalizar {#customize-tab}
 
 A guia Personalizar permite que o autor defina as opções disponíveis no visualizador para o leitor e como o visualizador deve ser apresentado.
 
