@@ -1,15 +1,14 @@
 ---
 title: Componente de navegação
 description: O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
-
 
 # Componente de navegação{#navigation-component}
 
@@ -23,7 +22,7 @@ O Componente de navegação pode detectar automaticamente a estrutura globalizad
 
 A caixa de diálogo [edit](#edit-dialog) permite que o autor de conteúdo defina a página raiz de navegação junto com a profundidade da navegação. A caixa de diálogo [design](#design-dialog) permite que o autor do modelo defina valores padrão para a raiz e a profundidade de navegação.
 
-## Suporte Localizado à Estrutura do Site {#localized-site-structure}
+## Suporte à estrutura do site localizado {#localized-site-structure}
 
 Geralmente, sites são fornecidos em vários idiomas para diferentes regiões. Normalmente, cada página localizada contém um elemento de navegação que é incluído como parte do modelo da página. O Componente de navegação permite colocá-lo uma vez em um modelo para todas as páginas do site e ele se adaptará automaticamente para as páginas localizadas individuais com base na estrutura do site globalizado.
 
@@ -115,7 +114,7 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 >
 >A partir dos Componentes principais versão 2.1.0, o Componente de navegação oferece suporte a [schema.org microdata](https://schema.org).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 Na caixa de diálogo de edição, o autor de conteúdo pode definir a página raiz para navegação e a profundidade da estrutura de navegação.
 
