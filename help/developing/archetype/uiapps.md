@@ -1,18 +1,17 @@
 ---
 title: Módulo ui.apps do AEM Project Archetype
 description: Módulo ui.apps do AEM Project Archetype
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Architect, Developer, Admin
+exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-
-# Módulo ui.apps do Arquétipo de projeto AEM {#uiapps-module}
+# Módulo ui.apps do AEM Project Archetype {#uiapps-module}
 
 O módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) inclui todo o código de renderização necessário para o site sob `/apps`. Isso inclui CSS/JS que será armazenado em um formato de AEM chamado [clientlibs.](uifrontend.md#clientlibs) Também inclui scripts HTL para renderização de HTML dinâmico. Pense no módulo ui.apps como um mapa para a estrutura no JCR, mas em um formato que pode ser armazenado em um sistema de arquivos e comprometido com o controle de origem.
 
