@@ -2,15 +2,14 @@
 title: Componente de página (v1)
 description: O Componente de página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
-
 
 # Componente de página (v1) {#page-component-v}
 
@@ -612,7 +611,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </html>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 {
@@ -681,7 +680,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 >
 >A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela [Propriedades da página](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
