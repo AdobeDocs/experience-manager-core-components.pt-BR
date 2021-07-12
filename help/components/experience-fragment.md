@@ -1,15 +1,14 @@
 ---
 title: Componente do fragmento de experiência
 description: O componente Fragmento de experiência permite que o autor de conteúdo adicione uma variação de fragmento de experiência a uma página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
-
 
 # Componente do fragmento de experiência{#experience-fragment-component}
 
@@ -22,7 +21,7 @@ O Componente de fragmento de experiência do componente principal permite que o 
 * As propriedades do componente podem ser definidas na caixa de diálogo [configurar](#configure-dialog).
 * Os padrões do componente ao adicioná-lo a uma página podem ser definidos na caixa de diálogo [design](#design-dialog).
 
-## Suporte Localizado à Estrutura do Site {#localized-site-structure}
+## Suporte à estrutura do site localizado {#localized-site-structure}
 
 O Componente do fragmento de experiência é adaptável às estruturas do site localizadas e renderiza o fragmento de experiência apropriado com base na localização da página. Para fazer isso, o fragmento de experiência deve atender às seguintes condições.
 
