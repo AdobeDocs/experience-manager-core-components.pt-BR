@@ -1,10 +1,9 @@
 ---
 title: Orientações para os componentes
 description: Os Componentes principais seguem padrões de implementação modernos que são bem diferentes dos componentes básicos.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 2%
@@ -57,7 +56,7 @@ No entanto, para que os componentes específicos do projeto não dupliquem qualq
 >
 >Consulte [Usando componentes principais](/help/get-started/using.md#create-proxy-components) para obter detalhes sobre como criar componentes proxy.
 
-### Controle de versão do componente {#component-versioning}
+### Versão do componente {#component-versioning}
 
 Os componentes devem ser mantidos totalmente compatíveis ao longo do tempo, mas, por vezes, são necessárias alterações que não podem ser mantidas compatíveis. Uma solução para essas necessidades opostas é introduzir o controle de versão de componentes, adicionando um número em seu caminho de tipo de recurso e nos nomes de classe Java totalmente qualificados de suas implementações. Este número de versão representa uma versão principal conforme definido por [semântico versioning Guidelines](https://semver.org/), que é incrementada apenas para alterações que não são compatíveis com versões anteriores.
 
@@ -75,7 +74,7 @@ O controle de versão de componentes cria uma forma de contrato importante para 
 
 Para evitar migrações de conteúdo dolorosas, é importante nunca apontar diretamente para componentes com versão dos recursos de conteúdo. Como regra geral, um `sling:resourceType` do conteúdo nunca deve ter um número de versão nele, ou a atualização de componentes exigirá que o conteúdo também seja refatorado. A melhor maneira de evitar isso é seguir o [Padrão do componente proxy](#proxy-component-pattern) descrito acima.
 
-### Interfaces de modelo {#model-interfaces}
+### Interfaces do modelo {#model-interfaces}
 
 Esse padrão é sobre a instrução `data-sly-use` do HTL para apontar para uma interface Java, enquanto a implementação do Modelo do Sling também está se registrando no tipo de recurso do componente.
 
@@ -100,7 +99,7 @@ A propriedade `cq:allowedTemplates` informa quais modelos podem ser usados para 
 
 ![Visão geral de modelos e políticas](/help/assets/screen_shot_2018-12-07at093102.png)
 
-## Arquétipo de projeto do AEM{#aem-project-archetype}
+## Arquétipo de projeto do AEM {#aem-project-archetype}
 
 [O ](/help/developing/archetype/overview.md) Arquétipo de projeto AEM cria um projeto Adobe Experience Manager mínimo como ponto de partida para seus próprios projetos, incluindo um exemplo de componentes HTL personalizados com SlingModels para a lógica e a implementação adequada dos Componentes principais com o padrão de proxy recomendado.
 
