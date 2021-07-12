@@ -1,15 +1,14 @@
 ---
 title: Componente do fragmento de conteúdo
 description: O componente Fragmento do conteúdo do componente principal permite a exibição de um fragmento de conteúdo.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '673'
 ht-degree: 7%
 
 ---
-
 
 # Componente do fragmento de conteúdo{#content-fragment-component}
 
@@ -92,7 +91,7 @@ A caixa de diálogo configurar permite que o autor de conteúdo defina o fragmen
    * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
    * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
 
-### Guia Controle de Parágrafo {#paragraph-control-tab}
+### Guia Controle de parágrafo {#paragraph-control-tab}
 
 Esta guia não está disponível quando o modo **Multiple Elements** é selecionado.
 
