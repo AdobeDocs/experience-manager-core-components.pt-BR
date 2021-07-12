@@ -1,23 +1,22 @@
 ---
 title: Componente de compartilhamento em redes sociais
-description: O Componente principal de compartilhamento social é um widget de compartilhamento de Pinterest e Facebook.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+description: O Componente principal de compartilhamento social é um widget de compartilhamento Facebook e Pinterest.
+role: Architect, Developer, Admin, User
+exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '427'
 ht-degree: 7%
 
 ---
 
-
 # Componente de compartilhamento em redes sociais{#social-sharing-component}
 
-O Componente principal de compartilhamento social é um widget de compartilhamento de Pinterest e Facebook.
+O Componente principal de compartilhamento social é um widget de compartilhamento Facebook e Pinterest.
 
 ## Uso {#usage}
 
-O Componente de compartilhamento em redes sociais adiciona links do Facebook e do Pinterest para a página. Geralmente é incluído em cabeçalhos ou rodapés da página.
+O Componente de compartilhamento em redes sociais adiciona links de compartilhamento do Facebook e Pinterest à página. Geralmente é incluído em cabeçalhos ou rodapés da página.
 
 Diferentemente de outros componentes, as configurações do Componente de compartilhamento em redes sociais são feitas pelo autor do modelo por meio de [Propriedades da página inicial](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) e pelo autor de conteúdo por meio de [Propriedades da página](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
@@ -43,7 +42,7 @@ A documentação técnica mais recente sobre o Componente de compartilhamento [p
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 ![Caixa de diálogo de edição do Componente de compartilhamento](/help/assets/sharing-edit.png)
 
