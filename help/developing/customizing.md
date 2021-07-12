@@ -1,10 +1,9 @@
 ---
 title: Personalizar os Componentes principais
 description: Os Componentes principais implementam vários padrões que permitem a fácil personalização, desde o estilo simples até a reutilização de funcionalidade avançada.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 4%
@@ -30,13 +29,13 @@ Os Componentes principais foram projetados desde o início para serem flexíveis
 
 E todos os componentes principais implementam o [Sistema de estilos](#styling-the-components).
 
-## Arquétipo de projeto do AEM{#aem-project-archetype}
+## Arquétipo de projeto do AEM {#aem-project-archetype}
 
 [O ](/help/developing/archetype/overview.md) Arquétipo de projeto AEM cria um projeto Adobe Experience Manager mínimo como ponto de partida para seus próprios projetos, incluindo um exemplo de componente HTL personalizado com SlingModels para a lógica e a implementação adequada dos Componentes principais com o padrão de proxy recomendado.
 
 ## Padrões de personalização {#customization-patterns}
 
-### Personalizar caixas de diálogo {#customizing-dialogs}
+### Personalização de caixas de diálogo {#customizing-dialogs}
 
 Talvez seja desejável personalizar as opções de configuração disponíveis em uma caixa de diálogo de componente principal, seja na [Caixa de diálogo Design ou na caixa de diálogo Editar](/help/get-started/authoring.md).
 
