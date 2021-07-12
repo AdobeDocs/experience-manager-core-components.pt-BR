@@ -1,15 +1,14 @@
 ---
 title: Componente Teaser
 description: O componente de teaser pode mostrar uma imagem, um título, rich text e, opcionalmente, vincular a conteúdo adicional.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
-
 
 # Componente Teaser {#teaser-component}
 
@@ -79,7 +78,7 @@ O autor de conteúdo pode usar a caixa de diálogo de configuração para defini
 * **Link**  - Link aplicado ao teaser. Use o navegador de caminho para selecionar o destino do link.
 * **Habilitar ações de chamada para**  - quando marcado, habilita a definição de Ações de chamada para ação. O primeiro link de Chamada para Ação na lista é usado como o link para outros elementos de teaser.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 O Teaser Component delega a renderização da imagem ao [Image Component](image.md). Portanto, a caixa de diálogo [edit](image.md#edit-dialog do Componente de imagem está disponível para o autor de conteúdo para manipular a imagem do teaser.
 
