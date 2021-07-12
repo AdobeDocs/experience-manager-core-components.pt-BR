@@ -1,17 +1,16 @@
 ---
 title: Componente Guias
 description: O Componente de guias permite a criação de várias guias para organizar o conteúdo em uma página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0031c5f3-447c-4932-898f-2f453801e492
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
 
-
-# Componente de guias {#tabs-component}
+# Componente Guias {#tabs-component}
 
 O Componente de guias do componente principal permite a organização do conteúdo em várias guias.
 
@@ -63,7 +62,7 @@ A documentação técnica mais recente sobre o Componente de guias [pode ser enc
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo de edição permite que o autor de conteúdo crie, renomeie e reorganize as guias, bem como definir a guia ativa.
 
@@ -101,7 +100,7 @@ Na guia **Acessibilidade**, os valores podem ser definidos para os rótulos de [
 
 * **Rótulo**  - Valor de um atributo de rótulo ARIA para o componente
 
-## Selecionar Painel {#select-panel}
+## Selecionar painel {#select-panel}
 
 O autor de conteúdo pode usar a opção **Selecionar painel** na barra de ferramentas do componente para alterar para um painel diferente para edição, bem como para reorganizar facilmente a ordem das guias.
 
