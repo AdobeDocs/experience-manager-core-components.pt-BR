@@ -1,15 +1,14 @@
 ---
 title: Baixar componente
 description: O componente Download do componente principal permite a criação de uma opção de download em uma página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
-
 
 # Baixar componente{#download-component}
 
