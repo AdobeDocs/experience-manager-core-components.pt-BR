@@ -1,15 +1,14 @@
 ---
 title: Componente do contêiner
 description: O componente Contêiner do componente principal permite a criação de um contêiner para vários componentes adicionais em uma página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
-
 
 # Componente do contêiner{#container-component}
 
@@ -70,7 +69,7 @@ A guia **Componentes permitidos** é usada para definir quais componentes podem 
 
 A guia Componentes permitidos funciona da mesma maneira que a guia do mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### Guia Componentes Padrão {#default-components-tab}
+### Guia Componentes padrão {#default-components-tab}
 
 A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, de modo semelhante a [como os componentes padrão são definidos no modelo de página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
