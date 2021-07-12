@@ -1,18 +1,17 @@
 ---
 title: Build de front-end para React SPA
 description: Uma descrição do processo de criação front-end para projetos de SPA baseados em React
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Architect, Developer, Admin
+exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
-
-# Build Front-End para React SPA {#frontend-react}
+# Build de front-end para React SPA {#frontend-react}
 
 Este documento explica os detalhes do projeto criado ao usar o arquétipo para criar um aplicativo de página única (SPA) com base na estrutura React. Ou seja, quando você define a opção `frontendModule` para `react`.
 
@@ -26,7 +25,7 @@ Este aplicativo é criado para consumir o modelo de AEM de um site. Ele gerará 
 
 No diretório do projeto, você pode executar os seguintes comandos:
 
-### npm start {#npm-start}
+### início de npm {#npm-start}
 
 ```shell
 npm start
@@ -53,7 +52,7 @@ npm test
 
 Este comando inicia o executor de teste no modo de observação interativo. Consulte a documentação [React sobre a execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
-### npm executar compilação {#npm-run-build}
+### build de execução npm {#npm-run-build}
 
 ```shell
 npm run build
@@ -63,7 +62,7 @@ Este comando cria o aplicativo para produção na pasta de compilação. Ele agr
 
 Além disso, um ClientLib AEM é gerado pelo aplicativo usando o pacote [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator).
 
-## Suporte ao navegador {#browser-support}
+## Suporte para navegador {#browser-support}
 
 Por padrão, esse projeto usa a opção padrão de [Browserslist](https://github.com/browserslist/browserslist) para identificar navegadores de destino. Além disso, inclui preenchimentos eletrônicos para recursos de linguagem moderna para suportar navegadores mais antigos (por exemplo, Internet Explorer 11). Se o suporte a esses navegadores não for um requisito, as dependências de polyfill e as importações poderão ser removidas.
 
