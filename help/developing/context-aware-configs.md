@@ -1,17 +1,16 @@
 ---
 title: Configurações e componentes principais sensíveis ao contexto do Sling
 description: Os Componentes principais usam as configurações sensíveis ao contexto do Sling para determinados recursos
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-
-# Configurações Sling sensíveis ao contexto e componentes principais {#sling-context-aware-configurations}
+# Configurações e componentes principais sensíveis ao contexto do Sling {#sling-context-aware-configurations}
 
 As configurações sensíveis ao contexto são um recurso [do Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). São configurações relacionadas a um recurso de conteúdo ou a uma árvore de recursos e são aproveitadas pelos Componentes principais para permitir configurações em todo o site.
 
@@ -21,7 +20,7 @@ Seu site pode precisar de configurações diferentes para regiões de sites dife
 
 Para obter detalhes sobre as configurações no AEM, [consulte a documentação do Navegador de configurações e configurações.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
-## Usar nos Componentes principais {#core-components}
+## Usar os componentes principais {#core-components}
 
 Vários recursos dos Componentes principais usam configurações sensíveis ao contexto. Todas essas configurações estão localizadas no seguinte nó:
 
