@@ -1,15 +1,14 @@
 ---
 title: Componente da imagem
 description: O Componente principal de imagem é um componente de imagem adaptável com edição no local.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2170'
 ht-degree: 2%
 
 ---
-
 
 # Componente da imagem{#image-component}
 
@@ -113,7 +112,7 @@ Além do [diálogo de edição](#edit-dialog) padrão e [diálogo de design](#de
 >
 >**As opções** de  **** predefinição de imagem de recorte inteligente são mutuamente exclusivas. Se um autor precisar usar uma predefinição de imagem junto com uma representação de Recorte inteligente, ele precisará usar os **Modificadores de imagem** para adicionar predefinições manualmente.
 
-## Editar Caixa de Diálogo {#edit-dialog}
+## Editar caixa de diálogo {#edit-dialog}
 
 A caixa de diálogo Editar permite que o autor de conteúdo recorte, modifique o mapa de lançamento e faça zoom da imagem.
 
@@ -180,7 +179,7 @@ O editor local também pode ser usado para modificar a imagem. Devido às limita
 
 A caixa de diálogo de design permite que o autor do modelo defina as opções de recorte, upload e rotação e upload que o autor de conteúdo tem ao usar esse componente.
 
-### Guia Principal {#main-tab}
+### Guia principal {#main-tab}
 
 Na guia **Main**, é possível definir uma lista de larguras em pixels para a imagem e o componente carregará automaticamente a largura mais apropriada com base no tamanho do navegador. Essa é uma parte importante dos [recursos responsivos](#responsive-features) do Componente de imagem.
 
