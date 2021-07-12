@@ -1,16 +1,15 @@
 ---
 title: Uso da camada de dados do cliente do Adobe com os componentes principais
 description: Uso da camada de dados do cliente do Adobe com os componentes principais
-feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Camada de dados do cliente Adobe
+role: Architect, Developer, Admin
+exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '980'
 ht-degree: 5%
 
 ---
-
 
 # Uso da camada de dados do cliente do Adobe com os componentes principais {#data-layer-core-components}
 
@@ -73,7 +72,7 @@ Os componentes a seguir são compatíveis com a Camada de dados.
 * [Caminho](/help/components/breadcrumb.md)
 * [Botão](/help/components/button.md)
 * [Carrossel](/help/components/carousel.md)
-* [Fragmento do conteúdo](/help/components/content-fragment-component.md)
+* [Fragmento de conteúdo](/help/components/content-fragment-component.md)
 * [Imagem](/help/components/image.md)
 * [Navegação de idiomas](/help/components/language-navigation.md)
 * [Lista](/help/components/list.md)
@@ -222,7 +221,7 @@ O seguinte [event](#events) é relevante para o schema Asset :
 
 * `cmp:click`
 
-### Esquema do fragmento de conteúdo {#content-fragment}
+### Esquema do fragmento do conteúdo {#content-fragment}
 
 O esquema Fragmento de conteúdo é usado pelo componente [Fragmento de conteúdo.](/help/components/content-fragment-component.md)
 
@@ -260,7 +259,7 @@ Abaixo estão os eventos prontos para uso fornecidos pelos Componentes principai
 * **`cmp:show`** e  **`cmp:hide`**  - Manipular os componentes acordeão (expandir/recolher), carrossel (botões anterior/seguinte) e tabulação (seleção de tabulação) faz com que a camada de dados seja acionada  `cmp:show` e um  `cmp:hide` evento, respectivamente. Um evento `cmp:show` também é despachado no carregamento da página e espera-se que seja o primeiro evento.
 * **`cmp:loaded`** - Assim que a Camada de dados for preenchida com os Componentes principais na página, a Camada de dados acionará um  `cmp:loaded` evento.
 
-### Eventos acionados pelo Componente {#events-components}
+### Eventos acionados por Componente {#events-components}
 
 As tabelas a seguir listam os Componentes principais padrão que acionam eventos junto com esses eventos.
 
