@@ -1,16 +1,15 @@
 ---
 title: Build de front-end para Angular SPA
 description: Uma descrição do processo de criação de front-end para projetos de SPA baseados em Angulars
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principais, Arquétipo de projeto AEM
+role: Architect, Developer, Admin
+exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
-
 
 # Build de front-end para Angular SPA {#frontend-angular}
 
@@ -26,7 +25,7 @@ Este aplicativo é criado para consumir o modelo de AEM de um site. Ele gerará 
 
 No diretório do projeto, você pode executar os seguintes comandos.
 
-### npm start {#npm-start}
+### início de npm {#npm-start}
 
 ```
 npm start
@@ -61,7 +60,7 @@ npm run test:debug
 
 Este comando inicia o corredor de teste Karma no modo de relógio interativo.
 
-### npm executar compilação {#npm-run-build}
+### build de execução npm {#npm-run-build}
 
 ```shell
 npm run build
@@ -73,6 +72,6 @@ Além disso, um ClientLib AEM é gerado pelo aplicativo usando o pacote [aem-cli
 
 Consulte a documentação geral do módulo [ui.frontend](uifrontend.md#clientlibs) para obter mais informações sobre como AEM ClientLibs são usadas pelo arquétipo de projeto.
 
-## Suporte ao navegador {#browser-support}
+## Suporte para navegador {#browser-support}
 
 Por padrão, esse projeto usa a opção padrão de [Browserslist](https://github.com/browserslist/browserslist) para identificar navegadores de destino. Além disso, inclui preenchimentos eletrônicos para recursos de linguagem moderna para suportar navegadores mais antigos (por exemplo, Internet Explorer 11). Se o suporte a esses navegadores não for um requisito, as dependências de polyfill e as importações poderão ser removidas.
