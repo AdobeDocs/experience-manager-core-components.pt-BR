@@ -2,15 +2,14 @@
 title: Componente de opções de formulário (v1)
 description: O componente de opções do Formulário do componente principal permite a seleção de opções predefinidas em vários formatos.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
-
 
 # Componente de opções de formulário (v1) {#form-options-component-v}
 
@@ -85,7 +84,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </form></div>
 ```
 
-### JSON {#json}
+### JSON  {#json}
 
 ```
 "container": {
