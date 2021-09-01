@@ -3,7 +3,7 @@ title: Introdução aos Componentes principais
 description: 'Os Componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
+source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 25%
@@ -23,7 +23,7 @@ Os Componentes principais são um conjunto de componentes padronizados do WCM (W
 * **[Repositório GitHub dos componentes principais:](https://github.com/adobe/aem-core-wcm-components)** para obter detalhes do desenvolvedor sobre cada componente e download do projeto.
 * Introdução:
    * **[Sucesso com os componentes principais:](/help/developing/success.md)** diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os componentes principais.
-   * **[Tutorial WKND: ](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** um tutorial de dois dias para criar um novo site.
+   * **[Tutorial WKND: ](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** um tutorial de dois dias para criar um novo site.
    * **[Tutorial do Summit: ](https://expleague.azureedge.net/labs/L767/index.html)** um tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
    * **[Webinar do Gems: ](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** um tour orientado por componentes principais (gravado em dezembro de 2018).
 
@@ -106,7 +106,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Componentes principais | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Contínuo | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Contínuo | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Componente de navegação
 description: O Componente de navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1469'
 ht-degree: 1%
 
 ---
@@ -87,6 +87,18 @@ O Componente de navegação renderizará o menu com base na estrutura do site de
 
 >[!NOTE]
 >Ao renderizar uma estrutura de site de sombra, somente as páginas de sombra são recursivas pela lógica de navegação. A lógica não repete a estrutura dos destinos de redirecionamento.
+
+## Redirecionamentos na navegação {#redirects}
+
+Quando uma página tem um destino de redirecionamento (independentemente de estar apontando para uma URL externa ou para outra página de AEM), então um componente de navegação que contém links para esse ponto diretamente para a URL do destino de redirecionamento.
+
+### Exemplo {#redirect-example}
+
+* Crie uma página A que redirecione para a página B.
+* Crie uma página C que redireciona para `https://aemcomponents.dev`
+* Em uma página D, insira um componente de navegação ou que contenha as páginas A e C
+* Os respectivos links que são gerados, então, apontam diretamente para a página B e `https://aemcomponents.dev`
+
 
 ## Versão e compatibilidade {#version-and-compatibility}
 

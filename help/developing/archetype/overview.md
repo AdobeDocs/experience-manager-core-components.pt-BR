@@ -1,12 +1,12 @@
 ---
 title: Arquétipo de projeto do AEM
 description: Um modelo de projeto para aplicativos baseados em AEM
-feature: Componentes principais, Arquétipo de projeto AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1113'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ O AEM Project Archetype é um modelo Maven que cria um projeto Adobe Experience 
    * **[Usando o Arquétipo:](using.md)** mais detalhes sobre o uso do arquétipo e dos módulos disponíveis
    * **[ui.frontend:](uifrontend.md)** como usar o módulo de build front-end
 * Os seguintes tutoriais são baseados nesse arquétipo:
-   * **[Site WKND: ](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** saiba como iniciar um novo site.
+   * **[Site WKND: ](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** saiba como iniciar um novo site.
    * **[Aplicativo de página única WKND: ](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** saiba como criar um aplicativo Web React ou Angular que seja totalmente autorável no AEM.
 
 ## Recursos {#features}
@@ -99,7 +99,7 @@ A dependência dos Componentes principais é adicionada apenas para versões do 
 
 | Arquétipo | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [28º](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | Contínuo | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [30º](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Contínuo | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Configure seu ambiente de desenvolvimento local para [AEM como um SDK do Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou para [versões mais antigas do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 

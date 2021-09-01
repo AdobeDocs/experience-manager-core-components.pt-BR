@@ -3,9 +3,9 @@ title: Listar Componente
 description: O Componente de lista de componentes principais permite a criação fácil de listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,17 @@ O Componente de lista de componentes principais permite a criação fácil de li
 ## Uso {#usage}
 
 O Componente de lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens definidos arbitrariamente. O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na caixa de diálogo [design](#design-dialog). O editor de conteúdo pode selecionar entre os tipos de lista disponíveis e como formatar os elementos da lista no [diálogo de edição](#edit-dialog).
+
+## Redirecionamentos em Listas {#redirects}
+
+Quando uma página tem um destino de redirecionamento (independentemente de estar apontando para uma URL externa ou para outra página AEM), então uma lista que contém links para esse ponto diretamente para a URL do destino de redirecionamento.
+
+### Exemplo {#redirect-example}
+
+* Crie uma página A que redirecione para a página B.
+* Crie uma página C que redireciona para `https://aemcomponents.dev`
+* Em uma página D, insira um componente de lista que contenha as páginas A e C
+* Os respectivos links que são gerados, então, apontam diretamente para a página B e `https://aemcomponents.dev`
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
