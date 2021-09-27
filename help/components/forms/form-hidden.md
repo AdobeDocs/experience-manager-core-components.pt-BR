@@ -1,67 +1,67 @@
 ---
-title: Componente Oculto do Formulário
-description: O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
+title: Componente Formulário Oculto
+description: O componente Formulário Oculto, dos Componentes Principais, possibilita a exibição de um campo oculto.
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Componente Oculto do Formulário{#form-hidden-component}
+# Componente Formulário oculto{#form-hidden-component}
 
-O componente Componente principal Formulário oculto permite a exibição de um campo oculto.
+O componente Formulário Oculto, dos Componentes Principais, possibilita a exibição de um campo oculto.
 
 ## Uso {#usage}
 
-O Componente principal de formulário oculto permite que a criação de campos ocultos transmita informações sobre a página atual de volta ao AEM e deve ser usado junto com o [componente do contêiner de formulário](form-container.md).
+O componente Formulário oculto, dos Componentes Principais, possibilita a criação de campos ocultos para transmitir informações sobre a página atual de volta ao AEM. Ele deve ser usado com o [componente Contêiner de formulário](form-container.md).
 
-As propriedades do campo podem ser definidas pelo editor de conteúdo na caixa de diálogo [configurar](form-hidden.md).
+As propriedades do campo podem ser definidas pelo editor de conteúdo na [caixa de diálogo de configuração](form-hidden.md).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de formulário oculto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e é descrita neste documento.
+A versão atual do componente Formulário Oculto é a v2, que foi introduzida com a versão 2.0.0 dos Componentes Principais em janeiro de 2018, e está descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões de AEM com as quais as versões do componente são compatíveis e vincula à documentação das versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | Compatível | Compatível | Compatível |
 | [v1](/help/components/v1/form-hidden-v1.md) | Compatível | Compatível | - |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos componentes principais](/help/versions.md).
+Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
-## Saída de componente de exemplo {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente de formulário oculto, bem como ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_form_hidden).
+Para experimentar o componente Formulário Oculto e ver exemplos de suas opções de configuração, bem como a saída HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_form_hidden_br).
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de formulário oculto [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
+A documentação técnica mais recente sobre o componente Formulário Oculto [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
-## Configurar caixa de diálogo {#configure-dialog}
+## Caixa de diálogo de configuração {#configure-dialog}
 
-A caixa de diálogo configurar permite que o autor de conteúdo defina os parâmetros do campo oculto.
+A caixa de diálogo de configuração permite que o autor de conteúdo defina os parâmetros do campo oculto.
 
-![Caixa de diálogo de edição oculta do formulário](/help/assets/form-hidden-edit.png)
+![Caixa de diálogo de edição do Formulário Oculto](/help/assets/form-hidden-edit.png)
 
-* **Nome**  - O nome do campo, que é enviado com os dados do formulário
-* **Valor**  - O valor do campo, que é enviado com os dados do formulário
-* **ID**  - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de  [dados](/help/developing/data-layer/overview.md).
-   * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar a página resultante.
-   * Se uma ID for especificada, é responsabilidade do autor garantir que seja exclusiva.
-   * A alteração da ID pode afetar o rastreamento de CSS, JS e Camada de dados.
+* **Nome** - O nome do campo, que é enviado com os dados de formulário
+* **Valor** - O valor do campo, que é enviado com os dados de formulário
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
+   * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
+   * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
+   * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
-Como o componente Formulário oculto normalmente não tem atributos visíveis, o espaço reservado do componente no editor exibe os valores dos campos **Nome** e **Valor** se estiverem atribuídos para ajudar o autor a identificar o componente Formulário oculto apropriado.
+Uma vez que o componente Formulário Oculto normalmente não tem atributos visíveis, o espaço reservado do componente no editor exibe os valores dos campos **Nome** e **Valor** se forem atribuídos para ajudar o autor a identificar o componente Formulário Oculto apropriado.
 
-![Exemplo de componente oculto do formulário](/help/assets/form-hidden-example.png)
+![Exemplo do componente Formulário Oculto](/help/assets/form-hidden-example.png)
 
-## Caixa de diálogo Design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 ### Guia Estilos {#styles-tab}
 
-O componente Formulário oculto é compatível com o AEM [Style System](/help/get-started/authoring.md#component-styling).
+O componente Formulário Oculto é compatível com o [Sistema de Estilos](/help/get-started/authoring.md#component-styling) do AEM.
