@@ -1,35 +1,35 @@
 ---
-title: Módulo ui.apps do AEM Project Archetype
-description: Módulo ui.apps do AEM Project Archetype
-feature: Componentes principais, Arquétipo de projeto AEM
+title: Módulo ui.apps do Arquétipo de projeto do AEM
+description: Módulo ui.apps do Arquétipo de projeto do AEM
+feature: Componentes principais, Arquétipo de projeto do AEM
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Módulo ui.apps do AEM Project Archetype {#uiapps-module}
+# Módulo ui.apps do Arquétipo de projeto do AEM {#uiapps-module}
 
-O módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) inclui todo o código de renderização necessário para o site sob `/apps`. Isso inclui CSS/JS que será armazenado em um formato de AEM chamado [clientlibs.](uifrontend.md#clientlibs) Também inclui scripts HTL para renderização de HTML dinâmico. Pense no módulo ui.apps como um mapa para a estrutura no JCR, mas em um formato que pode ser armazenado em um sistema de arquivos e comprometido com o controle de origem.
+O módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) inclui todo o código de renderização necessário para o site sob `/apps`. Isso inclui CSS/JS que será armazenado em um formato do AEM chamado [clientlibs.](uifrontend.md#clientlibs) Também inclui scripts HTL para renderização de HTML dinâmico. Pense no módulo ui.apps como um mapa para a estrutura no JCR, mas em um formato que pode ser armazenado em um sistema de arquivos e comprometido com o controle de origem.
 
-O plug-in Apache Jackrabbit FileVault Package é usado para compilar o conteúdo do módulo ui.apps em um pacote de AEM que pode ser implantado em AEM. As configurações globais para o plug-in são definidas no pom.xml pai.
+O plug-in Apache Jackrabbit FileVault Package é usado para compilar os conteúdos do módulo ui.apps em um pacote de AEM que pode ser implantado no AEM. As configurações globais para o plug-in são definidas no pom.xml principal.
 
-## POM pai {#parent-pom}
+## POM principal {#parent-pom}
 
-[O POM](/help/developing/archetype/using.md#parent-pom)  principal (`<src>/<project>/pom.xml`) inclui  `<plugin>` seções que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o `filterSource` para o plug-in do pacote Jackrabbit FileVault. O `filterSource` aponta para o local do arquivo `filter.xml` usado para definir os caminhos jcr incluídos no pacote.
+[O POM principal](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`) inclui seções `<plugin>` que definem várias configurações para os plug-ins usados no projeto. Isso inclui uma configuração para o `filterSource` para o plug-in Jackrabbit FileVault Package. O `filterSource` aponta para o local do arquivo `filter.xml` usado para definir os caminhos jcr incluídos no pacote.
 
-Além do Jackrabbit FileVault Package Plugin é uma definição do Content Package Plugin que é usada para empurrar o pacote para o AEM. Observe que são usadas variáveis para `aem.host`, `aem.port`, `vault.user` e `vault.password` que correspondem às propriedades globais definidas no mesmo POM pai.
+Além do plug-in Jackrabbit FileVault Package, há uma definição do plug-in Pacote de conteúdo, usado para enviar o pacote para o AEM. Observe que são usadas variáveis para `aem.host`, `aem.port`, `vault.user` e `vault.password` que correspondem às propriedades globais definidas no mesmo POM principal.
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
 O pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) fornece as tags `embedded` para o `filevault-package-maven-plugin`. As tags `embedded` incluem o pacote principal compilado como parte do pacote ui.apps e onde ele será instalado.
 
-Observe que os pacotes core.wcm.components.all e core.wcm.components.example são incluídos como um subpacote. Isso implantará o pacote dos Componentes principais junto com o código WKND de cada vez.
+Observe que os pacotes core.wcm.components.all e core.wcm.components.examples são incluídos como um subpacote. Isso implantará o pacote dos Componentes principais junto com o código WKND toda vez.
 
-Os core.wcm.components.all e core.wcm.components.example são incluídos como dependências na lista de dependências. No entanto, como prática recomendada, as versões das dependências são omitidas aqui e gerenciadas no [arquivo pom pai](/help/developing/archetype/using.md#core-components).
+Os pacotes core.wcm.components.all e core.wcm.components.examples são incluídos como dependências na lista de dependências. No entanto, como prática recomendada, as versões das dependências são omitidas aqui e gerenciadas no [arquivo pom principal](/help/developing/archetype/using.md#core-components).
 
 ## filter.xml {#filter}
 
