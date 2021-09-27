@@ -1,46 +1,46 @@
 ---
-title: Componente de texto do formulário (v1)
-description: O componente de Texto do formulário do componente principal permite a entrada do texto do formulário para envio.
+title: Componente de Texto de formulário (v1)
+description: O componente de Texto de formulário, dos Componentes principais, permite a entrada do texto de formulário para envio.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Componente de texto do formulário (v1) {#form-text-component-v}
+# Componente de Texto de formulário (v1) {#form-text-component-v}
 
-O componente de Texto do formulário do componente principal permite a entrada do texto do formulário para envio.
+O componente de Texto de formulário, dos Componentes principais, permite a entrada do texto de formulário para envio.
 
 ## Uso {#usage}
 
-O Componente de texto de formulário permite o envio de diferentes tipos de texto e deve ser usado junto com o [componente de contêiner de formulário](form-container-v1.md).
+O componente de Texto de formulário permite o envio de diferentes tipos de texto e deve ser usado junto com o [componente de Contêiner de formulário](form-container-v1.md).
 
-O tipo de validação de texto, rótulos e mensagens de ajuda pode ser definido pelo editor de conteúdo no [configurar diálogo](#configure-dialog).
+O tipo de validação de texto, rótulos e mensagens de ajuda pode ser definido pelo editor de conteúdo na [caixa de diálogo de configuração](#configure-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de texto de formulário, introduzido originalmente com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a v1 do componente de Texto de formulário, introduzido originalmente com a versão 1.0.0 dos Componentes principais, com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v1 do Componente de texto de formulário.
+A tabela a seguir lista a compatibilidade da v1 do componente de Texto de formulário.
 
-| Versão do AEM | Componente de texto do formulário v1 |
+| Versão do AEM | Componente de Texto de formulário (v1) |
 |--- |--- |
 | 6.3 | Compatível |
 | 6.4 | Compatível |
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente de texto de formulário.
+>Este documento descreve a v1 do componente de Texto de formulário.
 >
->Para obter detalhes sobre a versão atual do Componente de texto de formulário, consulte o documento [Componente de texto de formulário](/help/components/forms/form-text.md).
+>Para obter detalhes sobre a versão atual do componente de Texto de formulário, consulte o documento [Componente de Texto de formulário](/help/components/forms/form-text.md).
 
-## Saída de componente de exemplo {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=pt-BR).
 
 ### Captura de tela {#screenshot}
 
@@ -62,7 +62,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON  {#json}
+### JSON {#json}
 
 ```
 "container": {
@@ -88,9 +88,9 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para mais informações.
 
-## Configurar caixa de diálogo {#configure-dialog}
+## Caixa de diálogo de configuração {#configure-dialog}
 
 A caixa de diálogo de configuração permite que o autor de conteúdo defina o tipo de texto a ser inserido, bem como valores e rótulos padrão.
 
@@ -98,29 +98,29 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **Restrição**  - O tipo de texto a ser inserido e será validado em relação a
+* **Restrição** - O tipo de texto a ser inserido e em relação ao qual será validado
 
    * **Texto**
    * **Área de texto**
-   * **E-mail**
+   * **Email**
    * **Telefone**
    * **Data**
    * **Número**
    * **Senha**
 
-* **Linhas de texto**  - Número de linhas a serem exibidas na área de texto (exibidas somente quando a  **** Restrição é definida como Área de  **texto**)
+* **Linhas de texto** - Número de linhas a serem exibidas na área de texto (exibidas somente quando a **Restrição** é definida como **Área de texto**)
 
-* **Rótulo**  - O rótulo que será exibido para o campo
-* **Ocultar a exibição do rótulo**  - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
-* **Nome do elemento**  - O nome do campo que é enviado com os dados do formulário
-* **Valor**  - Valor padrão pré-preenchido no campo
+* **Rótulo** - O rótulo que será exibido para o campo
+* **Ocultar a exibição do rótulo** - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
+* **Nome do elemento** - O nome do campo enviado com os dados de formulário
+* **Valor** - Valor padrão pré-preenchido no campo
 
 ### Sobre {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **Mensagem de ajuda**  - Uma dica para o usuário do que pode ser inserido no campo
-* **Exibir mensagem de ajuda como espaço reservado**  - Para exibir a mensagem de ajuda dentro da entrada do formulário quando estiver vazia e não focalizada
+* **Mensagem de ajuda** - Uma dica para o usuário sobre o que pode ser inserido no campo
+* **Exibir a mensagem de ajuda como espaço reservado** -Para exibir a mensagem de ajuda dentro da entrada de formulário quando ela estiver vazia e não focalizada
 
 ### Restrições {#constraints}
 
@@ -129,19 +129,19 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 * **Mensagem de restrição**
 
    * Se o valor não validar o Tipo escolhido, a mensagem será exibida como uma dica de ferramenta ao enviar o formulário
-   * Não exibido para tipos de restrição **Text** e **Área de Texto**
+   * Não exibido para tipos de restrição de **Texto** e **Área de Texto**
 
-* **Obrigatório**  - Se selecionado, o usuário deve preencher um valor antes de enviar o formulário
-* **Tornar somente leitura**  - Se selecionado, o usuário não poderá modificar o valor do campo
+* **Exigido** - Caso selecionado, o usuário deve preencher um valor antes de enviar o formulário
+* **Tornar somente leitura** - Caso selecionado, o usuário não poderá modificar o valor do campo
 
-## Caixa de diálogo Design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
-Não há caixa de diálogo de design para o componente de Texto do formulário.
+Não há caixa de diálogo de design para o componente Texto de formulário.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de texto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
+A documentação técnica mais recente sobre o componente Texto do formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
-O projeto de componentes principais inteiro pode ser baixado do GitHub.
+Todo o projeto dos Componentes principais pode ser baixado do GitHub.
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
