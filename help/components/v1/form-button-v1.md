@@ -1,46 +1,46 @@
 ---
-title: Componente do botão de formulário (v1)
-description: O componente Componente principal Formulário oculto permite a inclusão de um campo oculto em um formulário.
+title: Componente Botão de formulário (v1)
+description: O componente Formulário Oculto, dos Componentes Principais, possibilita a inclusão de um campo oculto em um formulário.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Componente do botão de formulário (v1) {#form-button-component-v}
+# Componente Botão de formulário (v1) {#form-button-component-v}
 
-O componente do botão de formulário do componente principal permite a inclusão de um campo de botão em um formulário para acionar uma ação.
+O componente Botão de formulário, dos Componentes Principais, permite a inclusão de um campo de botão em um formulário para acionar uma ação.
 
 ## Uso {#usage}
 
-O componente de Botão de formulário do componente principal permite a criação de campo de botão, muitas vezes para acionar o envio do formulário e deve ser usado junto com o [componente de contêiner de formulário](form-container-v1.md).
+O componente Botão de formulário, dos Componentes Principais, permite a criação de um campo de botão, muitas vezes para acionar o envio do formulário. Ele deve ser usado com o [componente Contêiner de formulário](form-container-v1.md).
 
-As propriedades do botão podem ser definidas pelo editor de conteúdo na caixa de diálogo [configurar](#configure-dialog).
+As propriedades do botão podem ser definidas pelo editor de conteúdo na [caixa de diálogo de configuração](#configure-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente do botão de formulário, introduzido originalmente com a versão 1.0.0 dos Componentes principais com o AEM 6.3.
+Este documento descreve a versão v1 do componente Botão de formulário, introduzido originalmente com a versão 1.0.0 dos Componentes Principais com o AEM 6.3.
 
-A tabela a seguir lista a compatibilidade da v1 do Componente do botão de formulário.
+A tabela a seguir lista a compatibilidade da v1 do componente Botão de Formulário.
 
-| Versão do AEM | Componente do botão de formulário v1 |
+| Versão do AEM | Componente Botão de Formulário (v1) |
 |--- |--- |
 | 6.3 | Compatível |
 | 6.4 | Compatível |
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente do botão de formulário.
+>Este documento descreve a v1 do componente Botão de formulário.
 >
->Para obter detalhes sobre a versão atual do Componente do botão de formulário, consulte o documento [Componente do botão de formulário](/help/components/forms/form-button.md).
+>Para mais detalhes sobre a versão atual do componente Botão de formulário, consulte o documento [Componente Botão de Formulário](/help/components/forms/form-button.md).
 
-## Saída de componente de exemplo {#sample-component-output}
+## Exemplo de saída do componente {#sample-component-output}
 
-A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=pt-BR).
 
 ### Captura de tela {#screenshot}
 
@@ -58,7 +58,7 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 </div>
 ```
 
-### JSON  {#json}
+### JSON {#json}
 
 ```
 "container": {
@@ -84,11 +84,11 @@ A amostra a seguir é retirada de [We.Retail](https://helpx.adobe.com/experience
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para obter mais informações.
+>A exportação JSON dos Componentes Principais requer a versão 1.1.0 dos Componentes Principais. Consulte as [informações de compatibilidade dos Componentes Principais v1](/help/versions.md) para mais informações.
 
-## Configurar caixa de diálogo {#configure-dialog}
+## Caixa de diálogo de configuração {#configure-dialog}
 
-A caixa de diálogo configurar permite que o autor de conteúdo defina os parâmetros do botão.
+A caixa de diálogo de configuração permite que o autor de conteúdo defina os parâmetros do botão.
 
 ![](/help/assets/chlimage_1-49.png)
 
@@ -96,20 +96,20 @@ A caixa de diálogo configurar permite que o autor de conteúdo defina os parâm
    * **Botão**
    * **Enviar**
 
-* **Título**  - O texto exibido no botão
-   * Se nenhum fornecido, o padrão será o tipo de botão
+* **Título** - O texto exibido no botão
+   * Se nenhum for fornecido, o padrão será o tipo de botão
 
-* **Nome**  - O nome do botão, que é enviado com os dados do formulário
-* **Valor**  - O valor do botão, que é enviado com os dados do formulário
+* **Nome** - O nome do botão, que é enviado com os dados de formulário
+* **Valor** - O valor do botão, que é enviado com os dados de formulário
 
-## Caixa de diálogo Design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 Não há caixa de diálogo de design para o componente Botão de formulário.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente do botão de formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+A documentação técnica mais recente sobre o componente Botão de Formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
-O projeto de componentes principais inteiro pode ser baixado do GitHub.
+Todo o projeto de Componentes Principais pode ser baixado do GitHub.
 
-Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
