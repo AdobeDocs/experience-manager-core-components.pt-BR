@@ -1,13 +1,13 @@
 ---
-sub-product: Componentes principais do AEM
+sub-product: AEM Core Components
 user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
-workflow-type: ht
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Uso do Arquétipo](developing/archetype/using.md)
       + [Módulo principal](developing/archetype/core.md)
       + [Módulo ui.apps](developing/archetype/uiapps.md)
+      + [Scripts embutidos pré-compilados](developing/archetype/precompiled-bundled-scripts.md)
       + [Módulo ui.content](developing/archetype/uicontent.md)
       + [Módulo ui.frontend.general](developing/archetype/uifrontend.md)
       + [Módulo ui.frontend.react](developing/archetype/uifrontend-react.md)

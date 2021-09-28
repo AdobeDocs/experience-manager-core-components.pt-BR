@@ -4,10 +4,10 @@ description: Um modelo de projeto para aplicativos baseados no AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
@@ -94,6 +94,7 @@ A dependência dos Componentes principais é adicionada apenas para versões do 
 | `amp` | `n` | Habilita o suporte [AMP](/help/developing/amp.md) para modelos de projeto gerados. |
 | `enableDynamicMedia` | `n` | Ativa os componentes básicos do Dynamic Media nas configurações de política do projeto e ativa os recursos do Dynamic Media na política do componente de Imagem principal. |
 | `enableSSR` | `n` | Opção para habilitar o SSR para o projeto de front-end. |
+| `precompiledScripts` | `n` | Opção para [pré-compilar](/help/developing/archetype/precompiled-bundled-scripts.md) os scripts do lado do servidor de `ui.apps` e anexá-los à compilação como um artefato de pacote secundário no projeto `ui.apps`. `aemVersion` deve ser definido como  `cloud`. |
 
 ## Requisitos do sistema {#requirements}
 
