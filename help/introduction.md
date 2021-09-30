@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais
 description: 'Os Componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem reunir quase qualquer layout. |
 | Configuráveis | As [políticas de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
 | Rastreáveis | A [integração da Camada de dados de clientes Adobe](/help/developing/data-layer/overview.md) permite rastrear todos os aspectos da experiência do visitante. |
-| Acessíveis | Eles estão em conformidade com o [padrão WCAG 2.1](https://www.w3.org/TR/WCAG21/), fornecem rótulos ARIA e são compatíveis com a navegação pelo teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| Acessíveis | Eles estão em conformidade com o [padrão WCAG 2.1](https://www.w3.org/TR/WCAG21/), fornecem rótulos ARIA e suportam a navegação do teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Compatíveis com SEO | A saída HTML é semântica e fornece anotações de microdados [schema.org](https://schema.org). |
 | Prontos para aplicativos Web | A [saída JSON simplificada](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permite renderização no lado do cliente, ainda com uma possibilidade de [edição no contexto](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | Suporte ao AMP | Os componentes têm [suporte para o padrão AMP](/help/developing/amp.md) integrado, o que acelera suas experiências em dispositivos móveis. |
