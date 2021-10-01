@@ -3,10 +3,10 @@ title: Configurações sensíveis ao contexto do Sling e Componentes principais
 description: Os Componentes principais usam as configurações sensíveis ao contexto do Sling para determinados recursos
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ As configurações sensíveis ao contexto são um [recurso do Sling](https://sli
 
 Seu site pode precisar de configurações diferentes para regiões de sites diferentes, por exemplo, onde alguns parâmetros podem ser compartilhados, o que requer herança para contextos aninhados e valores de fallback global. O AEM usa configurações sensíveis ao contexto do Sling, que permitem essa possibilidade.
 
-Para obter detalhes sobre as configurações no AEM, [consulte as Configurações e a documentação do Navegador de configurações](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/developing/configurations.html).
+Para obter detalhes sobre as configurações no AEM, [consulte as Configurações e a documentação do Navegador de configurações](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html).
 
 ## Uso dos Componentes principais {#core-components}
 

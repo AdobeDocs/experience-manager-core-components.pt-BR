@@ -3,10 +3,10 @@ title: Suporte AMP para os Componentes principais
 description: Os Componentes principais são compatíveis com AMP - Páginas para Dispositivos Móveis Aceleradas
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Embora o suporte a AMP ofereça muita flexibilidade, para começar a usá-las ra
 
 ### Ativar AMP para páginas {#enabling-amp}
 
-Para habilitar AMP para uma página, o **Modo AMP** deve ser selecionado na [Política da página](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer).
+Para habilitar AMP para uma página, o **Modo AMP** deve ser selecionado na [Política da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer).
 
 ![Opções de política da página de AMP](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Para habilitar AMP para uma página, o **Modo AMP** deve ser selecionado na [Pol
 * **AMP emparelhado** - A página é fornecida como AMP e HTML.
 * **Somente AMP** - A página é entregue somente como AMP.
 
-As configurações das AMP para uma página também podem ser substituídas nas [Propriedades da página](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) para uma página individual.
+As configurações das AMP para uma página também podem ser substituídas nas [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) para uma página individual.
 
 ![Propriedades da página de AMP](/help/assets/amp-page-properties.png)
 

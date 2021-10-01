@@ -3,10 +3,10 @@ title: Componente de Download
 description: O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 97%
 
 ---
 
@@ -54,9 +54,9 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 A seleção de um ativo de download é muito semelhante à funcionalidade do [Componente de imagem](image.md), aproveitando também o DAM do AEM.
 
 * **Baixar ativo**
-   * Solte um ativo do [navegador de ativos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
 
 ### Guia Propriedades {#properties-tab}
 

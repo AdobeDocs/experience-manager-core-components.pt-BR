@@ -3,10 +3,10 @@ title: Componente de Compartilhamento em redes sociais
 description: O componente de Compartilhamento em redes sociais, dos Componentes principais, é um dispositivo de compartilhamento no Facebook e Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ O componente de Compartilhamento em redes sociais, dos Componentes principais, �
 
 O componente de Compartilhamento em redes sociais adiciona links de compartilhamento do Facebook e Pinterest à página. Geralmente é incluído em cabeçalhos ou rodapés da página.
 
-Diferente de outros componentes, as configurações do componente de Compartilhamento em redes sociais são feitas pelo autor do modelo por meio de [Propriedades da página inicial](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html), e pelo autor de conteúdo por meio de [Propriedades da página](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Diferente de outros componentes, as configurações do componente de Compartilhamento em redes sociais são feitas pelo autor do modelo por meio de [Propriedades da página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html), e pelo autor de conteúdo por meio de [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -51,8 +51,8 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor de conteúdo, opções de edição adicionais para o componente de Compartilhamento estão disponíveis na guia de compartilhamento, as [Propriedades da página](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor de conteúdo, opções de edição adicionais para o componente de Compartilhamento estão disponíveis na guia de compartilhamento, as [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Caixa de diálogo de design {#design-dialog}
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do modelo, as opções de design para o componente de compartilhamento estão disponíveis por meio das [propriedades da página inicial](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do modelo, as opções de design para o componente de compartilhamento estão disponíveis por meio das [propriedades da página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).

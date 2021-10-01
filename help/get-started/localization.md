@@ -3,10 +3,10 @@ title: Recursos de localização dos Componentes principais
 description: Recursos de localização dos Componentes principais
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ A maioria dos sites requer que um rodapé esteja presente em todas as páginas. 
 
 Da mesma forma, um componente de navegação geralmente deve ser exibido em todas as páginas. No entanto, ele também precisará refletir o conteúdo das páginas localizadas.
 
-Usando os recursos de localização do [Componente principal de Navegação](/help/components/navigation.md) e [Componente principal de Fragmento de experiência](/help/components/experience-fragment.md) juntamente com os [modelos editáveis do AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html), isso se torna uma tarefa simples. O exemplo pode ser estendido ainda mais para usar também o [componente de Navegação de idioma](/help/components/language-navigation.md).
+Usando os recursos de localização do [Componente principal de Navegação](/help/components/navigation.md) e [Componente principal de Fragmento de experiência](/help/components/experience-fragment.md) juntamente com os [modelos editáveis do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html), isso se torna uma tarefa simples. O exemplo pode ser estendido ainda mais para usar também o [componente de Navegação de idioma](/help/components/language-navigation.md).
 
 ## A estrutura do conteúdo {#content-structure}
 

@@ -3,10 +3,10 @@ title: Componente de texto
 description: O componente de Texto é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2213'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2205'
+ht-degree: 98%
 
 ---
 
@@ -45,13 +45,13 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 ## O componente de Texto e o Editor de rich text {#the-text-component-and-the-rich-text-editor}
 
-O componente de Texto, dos Componentes principais, aproveita o editor de rich text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o editor de rich text](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) e [Configurar os plug-ins do editor de rich text](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+O componente de Texto, dos Componentes principais, aproveita o editor de rich text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é muito flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) e [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 O restante deste artigo demonstra a configuração padrão do componente principal de Texto com a configuração pronta para uso do RTE.
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no componente de Texto.
+>Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no componente de Texto.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -258,7 +258,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caracteres especiais {#special-characters}
 

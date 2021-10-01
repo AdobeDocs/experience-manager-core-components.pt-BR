@@ -3,10 +3,10 @@ title: Personalizar os Componentes principais
 description: Os Componentes principais implementam vários padrões que permitem personalização simplificada, desde a estilização simples até a reutilização de funcionalidade avançada.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Por exemplo, olhando o arquivo HTL do componente principal de Navegação estrut
 .cmp-breadcrumb a {}
 ```
 
-Além disso, cada um dos Componentes principais usa o [recurso do Sistema de Estilos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/style-system.html) do AEM, o que permite que os autores de modelos definam nomes de classe CSS adicionais que podem ser aplicados ao componente pelos autores da página. Isso permite definir para cada modelo uma lista de estilos de componente permitidos e se um deles deve ser aplicado por padrão a todos os componentes desse tipo.
+Além disso, cada um dos Componentes principais usa o [recurso do Sistema de Estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) do AEM, o que permite que os autores de modelos definam nomes de classe CSS adicionais que podem ser aplicados ao componente pelos autores da página. Isso permite definir para cada modelo uma lista de estilos de componente permitidos e se um deles deve ser aplicado por padrão a todos os componentes desse tipo.
 
 ## Atualização da compatibilidade de personalizações {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ São possíveis três tipos diferentes de atualizações:
 * atualização dos Componentes principais para uma nova versão secundária
 * atualização dos Componentes principais para uma versão principal
 
-Geralmente, atualizar o AEM para uma nova versão não afetará os Componentes principais ou as personalizações feitas, desde que as versões dos componentes também sejam compatíveis com a nova versão do AEM para a qual está sendo migrada e que as personalizações não usem APIs que se tornaram [obsoletas ou foram removidas](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Geralmente, atualizar o AEM para uma nova versão não afetará os Componentes principais ou as personalizações feitas, desde que as versões dos componentes também sejam compatíveis com a nova versão do AEM para a qual está sendo migrada e que as personalizações não usem APIs que se tornaram [obsoletas ou foram removidas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Atualizar os Componentes principais sem alternar para uma versão principal mais recente não deve afetar as personalizações, desde que os padrões de personalização descritos nesta página sejam usados.
 
@@ -152,7 +152,7 @@ Como para qualquer componente do AEM, há vários fatores que devem ser levados 
 
 1. **Atenção à funcionalidade obsoleta e removida.**
 
-   Com cada nova versão do AEM sendo atualizada, verifique se todas as APIs usadas ainda são atuais, atentando-se à página [Recursos obsoletos e removidos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Com cada nova versão do AEM sendo atualizada, verifique se todas as APIs usadas ainda são atuais, atentando-se à página [Recursos obsoletos e removidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consulte também a seção [Suporte a Componentes principais](overview.md#core-component-support).
 

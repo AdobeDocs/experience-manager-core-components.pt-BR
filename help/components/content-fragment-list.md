@@ -3,20 +3,20 @@ title: Componente de Lista de fragmentos de conteúdo
 description: O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de fragmentos de conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Componente de Lista de fragmentos de conteúdo{#content-fragment-list-component}
 
-O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de [fragmentos de conteúdo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de [fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 ## Uso {#usage}
 
-O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a inclusão de uma lista de [fragmentos de conteúdo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) em uma página com base em um modelo de Fragmento de conteúdo. Isso pode ser especialmente útil para criar [conteúdo sem periféricos](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que podem ser facilmente consumidos por outros aplicativos.
+O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a inclusão de uma lista de [fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) em uma página com base em um modelo de Fragmento de conteúdo. Isso pode ser especialmente útil para criar [conteúdo sem periféricos](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que podem ser facilmente consumidos por outros aplicativos.
 
 * A lista e suas propriedades podem ser selecionadas na [caixa de diálogo de configuração](#configure-dialog).
 * Os estilos podem ser aplicados ao componente na [caixa de diálogo de design](#design-dialog).

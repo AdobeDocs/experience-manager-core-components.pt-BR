@@ -3,10 +3,10 @@ title: Caminhos para o sucesso com os Componentes principais
 description: Como obter sucesso ao implementar seu projeto com os Componentes principais
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,13 +48,13 @@ Os recursos do AEM e os Componentes principais podem ser muito poderosos, mas ta
 
 ### Fragmentos de conteúdo {#content-fragments}
 
-[Fragmentos de conteúdo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) - Eles permitem criar conteúdo não vinculado a canais, juntamente com variações (podem ser específicas de cada canal). Em seguida, é possível usar estes fragmentos e suas variações ao criar suas páginas de conteúdo.
+[Fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) - Eles permitem criar conteúdo não vinculado a canais, juntamente com variações (podem ser específicas de cada canal). Em seguida, é possível usar estes fragmentos e suas variações ao criar suas páginas de conteúdo.
 
 Juntamente com o exportador JSON atualizado, os fragmentos de conteúdo estruturados também podem ser usados para fornecer o conteúdo do AEM através do Content Services a canais diferentes das páginas do AEM.
 
 ### Modelos de fragmento de experiência {#experience-fragment-templates}
 
-Se um autor quiser reutilizar partes (um fragmento de uma experiência) de uma página. Sem [Fragmentos de experiência](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html), o autor precisaria copiar e colar esse fragmento. Criar e manter essa experiências de copiar/colar é um processo demorado e pode causar erros feitos pelo usuário. Os fragmentos de experiência eliminam a necessidade de copiar/colar.
+Se um autor quiser reutilizar partes (um fragmento de uma experiência) de uma página. Sem [Fragmentos de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html), o autor precisaria copiar e colar esse fragmento. Criar e manter essa experiências de copiar/colar é um processo demorado e pode causar erros feitos pelo usuário. Os fragmentos de experiência eliminam a necessidade de copiar/colar.
 
 ### O componente de Incorporação {#embed-component}
 

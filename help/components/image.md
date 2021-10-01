@@ -3,10 +3,10 @@ title: Componente de imagem
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2170'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 >[!CAUTION]
 >
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://docs.adobe.com/content/help/pt-BR/experience-manager-64/release-notes/sp-release-notes.translate.html) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) no AEM.
+>O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) no AEM.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -82,9 +82,9 @@ Além da [caixa de diálogo de edição](#edit-dialog) padrão e da [caixa de di
 ![Guia Ativo da caixa de diálogo de configuração do componente de Imagem](/help/assets/image-configure-asset.png)
 
 * **Ativos da imagem**
-   * Solte um ativo do [navegador de ativos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
 
 ### Guia Metadados {#metadata-tab}
 

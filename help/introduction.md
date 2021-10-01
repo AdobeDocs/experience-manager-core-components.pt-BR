@@ -3,7 +3,7 @@ title: Introdução aos Componentes principais
 description: 'Os Componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
+source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 * **[Repositório GitHub dos Componentes principais](https://github.com/adobe/aem-core-wcm-components)**: Para detalhes do desenvolvedor sobre cada componente e download do projeto.
 * Introdução:
    * **[Sucesso com os Componentes principais](/help/developing/success.md)**: Diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os Componentes principais.
-   * **[Tutorial do WKND](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**: Tutorial de dois dias para criar um novo site.
+   * **[Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**: Tutorial de dois dias para criar um novo site.
    * **[Tutorial do Summit](https://expleague.azureedge.net/labs/L767/index.html)**: Tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
    * **[Gems Webinar](https://helpx.adobe.com/br/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**: Tour orientado sobre os Componentes principais (gravado em dezembro de 2018).
 
@@ -32,16 +32,16 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 |  |  |
 |---|---|
 | Prontos para produção | Os Componentes principais são 28 componentes robustos e bem testados, amplamente usados e que apresentam um bom desempenho. |
-| Prontos para nuvem | Seja no [AEM as a Cloud Service](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/landing/home.html), no [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles simplesmente funcionam. |
+| Prontos para nuvem | Seja no [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), no [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles simplesmente funcionam. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem reunir quase qualquer layout. |
-| Configuráveis | As [políticas de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
+| Configuráveis | As [políticas de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
 | Rastreáveis | A [integração da Camada de dados de clientes Adobe](/help/developing/data-layer/overview.md) permite rastrear todos os aspectos da experiência do visitante. |
 | Acessíveis | Eles estão em conformidade com o [padrão WCAG 2.1](https://www.w3.org/TR/WCAG21/), fornecem rótulos ARIA e suportam a navegação do teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Compatíveis com SEO | A saída HTML é semântica e fornece anotações de microdados [schema.org](https://schema.org). |
-| Prontos para aplicativos Web | A [saída JSON simplificada](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permite renderização no lado do cliente, ainda com uma possibilidade de [edição no contexto](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
+| Prontos para aplicativos Web | A [saída JSON simplificada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) permite renderização no lado do cliente, ainda com uma possibilidade de [edição no contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | Suporte ao AMP | Os componentes têm [suporte para o padrão AMP](/help/developing/amp.md) integrado, o que acelera suas experiências em dispositivos móveis. |
 | Kit de design | Um [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite que os designers criem wireframes para que possam [estilizar conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
-| Temáticos | Os componentes implementam o [Sistema de Estilos](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html), e a marcação segue as [convenções de CSS de BEM.](http://getbem.com/) |
+| Temáticos | Os componentes implementam o [Sistema de Estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html), e a marcação segue as [convenções de CSS de BEM.](http://getbem.com/) |
 | Personalizáveis | Vários padrões permitem [fácil personalização](developing/customizing.md), desde o ajuste do HTML até a reutilização de funcionalidade avançada. |
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não interrompam seu site ao melhorar coisas que podem afetar você. |
 | Localizáveis | A resolução de referência inteligente permite que certos componentes encontrem e [renderizem conteúdos correspondentes localizados automaticamente](get-started/localization.md). |
@@ -94,7 +94,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 >[!NOTE]
 >
->Os Componentes principais não estão imediatamente disponíveis para os autores, a [equipe de desenvolvimento deve primeiro integrá-los ao seu ambiente](get-started/using.md). Uma vez integrados, eles podem ser disponibilizados e pré-configurados pelo [editor de modelos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Os Componentes principais não estão imediatamente disponíveis para os autores, a [equipe de desenvolvimento deve primeiro integrá-los ao seu ambiente](get-started/using.md). Uma vez integrados, eles podem ser disponibilizados e pré-configurados pelo [editor de modelos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -114,9 +114,9 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 Para saber quais são os requisitos das versões anteriores dos Componentes principais, consulte [Versões dos Componentes principais](versions.md).
 
-Os Componentes principais exigem o uso de [modelos editáveis](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) e não são compatíveis com a IU Clássica nem com modelos estáticos. Se necessário, verifique as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para atualizar seu projeto com esses recursos modernos do AEM.
+Os Componentes principais exigem o uso de [modelos editáveis](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) e não são compatíveis com a IU Clássica nem com modelos estáticos. Se necessário, verifique as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para atualizar seu projeto com esses recursos modernos do AEM.
 
-Para configurar seu ambiente de desenvolvimento local, veja esta [visão geral do SDK do AEM as a Cloud Service](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou este documento [para versões mais antigas do AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Para configurar seu ambiente de desenvolvimento local, veja esta [visão geral do SDK do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou este documento [para versões mais antigas do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >

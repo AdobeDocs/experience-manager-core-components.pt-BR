@@ -3,10 +3,10 @@ title: Desenvolvimento dos Componentes principais
 description: Os Componentes principais fornecem componentes básicos robustos e extensíveis, que por sua vez, oferecem recursos avançados, entrega contínua, versões de componentes, implementação moderna, marcação simples e exportação JSON de conteúdo.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1583'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Para obter detalhes sobre recursos de criação dos Componentes principais e op�
 | **Recurso** | **Componente principal** | **Componente de base** |
 |-----|---|---|
 | Implementação lógica | POJOs Java com anotações de [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html) | Código JSP |
-| Definição de marcação | Sintaxe de [Linguagem de modelo HTML](https://docs.adobe.com/content/help/pt-BR/experience-manager-htl/using/overview.html) (HTL) | Código JSP |
+| Definição de marcação | Sintaxe de [Linguagem de modelo HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=pt-BR) (HTL) | Código JSP |
 | Sanitização XSS | Automatizado por HTL | Principalmente manual |
 | Nomenclatura de classes CSS | Convenção de nomenclatura padronizada baseada na notação [Bloco, Elemento, Modificador](https://getbem.com/) (BEM) (a partir da versão 2.0.0) | Esquemas personalizados |
 | Definição de caixa de diálogo | [Coral 3](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + IU Clássica |
@@ -103,7 +103,7 @@ Para obter detalhes sobre recursos de criação dos Componentes principais e op�
 | Entrega | [Pelo GitHub público](https://github.com/adobe/aem-core-wcm-components) | Pelo Início rápido |
 | Licença | [Licença do Apache](https://www.apache.org/licenses/LICENSE-2.0) | Proprietária da Adobe |
 | Contribuição | Por solicitação de envio | Não é possível |
-| Acessibilidade | Totalmente compatível com o [padrão WCAG 2.0 AA](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Apenas parcialmente compatível com o [padrão WCAG 2.0 AA](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Acessibilidade | Totalmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Apenas parcialmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Lista de componentes {#component-list}
 
@@ -149,6 +149,6 @@ Para obter uma visão geral do vindouro roteiro dos Componentes principais, cons
 
 Um benefício dos componentes com versão é permitir separar a migração para uma nova versão do AEM, da migração para novas versões de componentes. Além disso, se as novas versões de componentes estiverem disponíveis, é possível fazer a migração individual de cada componente para a nova versão.
 
-As migrações para uma nova versão do AEM não afetarão o funcionamento dos Componentes principais, desde que suas versões também sejam compatíveis com a nova versão do AEM para a qual está sendo migrada. As personalizações feitas nos Componentes principais também não devem ser afetadas, desde que elas não usem APIs que tenham se tornado [obsoletas ou sido removidas](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+As migrações para uma nova versão do AEM não afetarão o funcionamento dos Componentes principais, desde que suas versões também sejam compatíveis com a nova versão do AEM para a qual está sendo migrada. As personalizações feitas nos Componentes principais também não devem ser afetadas, desde que elas não usem APIs que tenham se tornado [obsoletas ou sido removidas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 As migrações para novas versões dos Componentes principais também não afetam o funcionamento do componente. Porém, novos recursos podem ser introduzidos aos autores da página, o que pode exigir alguma configuração por um editor de modelo, caso o comportamento padrão não seja o desejado. As personalizações, no entanto, podem precisar de adaptação. Para mais detalhes, consulte a página [Personalização dos Componentes principais](customizing.md#upgrade-compatibility-of-customizations).

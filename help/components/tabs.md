@@ -3,10 +3,10 @@ title: Componente de Guias
 description: O componente de Guias permite a criação de várias guias para organizar o conteúdo em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1040'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo
 >
 >Os componentes de guia aninhados (guias dentro de guias) são compatíveis.
 >
->Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a [árvore de conteúdo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), no entanto, guias aninhadas não podem ser localizadas/selecionadas.
+>Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a [árvore de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), no entanto, guias aninhadas não podem ser localizadas/selecionadas.
 
 ## Deep linking para um painel {#deep-linking}
 
@@ -32,7 +32,7 @@ Os [componentes Acordeão](accordion.md) e de Guias suportam a vinculação dire
 
 Para fazer isso:
 
-1. Visualize a página com o componente usando a opção **[Exibir como publicada](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
+1. Visualize a página com o componente usando a opção **[Exibir como publicada](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
 1. Inspecione o conteúdo da página e identifique o ID do painel.
    * Por exemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. O ID se torna a âncora que pode ser anexada ao URL usando um hash (`#`).
@@ -79,7 +79,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher que co
 
 >[!TIP]
 >
->Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente de Guias ao [arrastar do navegador de componentes e soltar no componente de Guias no editor de páginas](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente de Guias ao [arrastar do navegador de componentes e soltar no componente de Guias no editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Guia Propriedades {#properties-tab}
 
@@ -118,7 +118,7 @@ Depois de escolher a opção **Selecionar painel** na barra de ferramentas do co
 
 >[!NOTE]
 >
->As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar**. Use o modo de **[Visualização](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou a opção **[Visualizar como publicado](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
+>As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar**. Use o modo de **[Visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -128,7 +128,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais compone
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens ao componente de guias pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Guia Estilos {#styles-tab}
 

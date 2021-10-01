@@ -3,10 +3,10 @@ title: Componente de Teaser
 description: O componente de Teaser pode mostrar uma imagem, um título, um rich text e, opcionalmente, vincular a conteúdo adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '775'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 98%
 
 ---
 
@@ -49,9 +49,9 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 ![Guia Imagem da caixa de diálogo de edição do componente de Teaser](/help/assets/teaser-edit-image.png)
 
 * **Ativos da imagem**
-   * Solte um ativo do [navegador de ativos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
+   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) no editor de ativos.
 
 >[!NOTE]
 >
