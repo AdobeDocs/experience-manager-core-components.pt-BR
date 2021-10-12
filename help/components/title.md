@@ -71,9 +71,9 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 
 ![Caixa de diálogo de design do componente de Título](/help/assets/title-design.png)
 
-* **Tipos / Tamanhos permitidos para autores** - Ativa ou desativa tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando eles usarem o componente de Título.
+* **Tipos / tamanhos permitidos para editores** - Ativa ou desativa tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando eles usarem o componente de Título.
 * **Tipo / Tamanho padrão** - Define o tipo de cabeçalho que será atribuído automaticamente quando um autor de conteúdo adicionar o componente de Título a uma página.
-* **Desativar link** - Desativa o suporte para links no componente de título para impedir que os autores de conteúdo vinculem de títulos.
+* **Desabilitar link** - Desativa o suporte para links no componente de título para impedir que os autores de conteúdo vinculem de títulos.
 
 >[!NOTE]
 >
