@@ -1,12 +1,12 @@
 ---
 title: Build de front-end para Aplicativos de Página Única (SPAs) do Angular
 description: Uma descrição do processo de build de front-end para projetos de SPAs com base no Angular
-feature: Componentes principais, Arquétipo de projeto do AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
