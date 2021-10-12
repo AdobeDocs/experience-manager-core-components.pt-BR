@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
 workflow-type: tm+mt
 source-wordcount: '2300'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,8 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é uma versão de patch que corrige uma regressão introduzida com a versão anterior. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 1 de outubro de 2021 |
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Esse patch melhora os componentes [List](/help/components/list.md) e [Navigation](/help/components/navigation.md) para exibir o URL externo para destinos de redirecionamento, habilita a herança de imagens da página para a próxima v2 do componente [Teaser](/help/components/teaser.md) e contém correções de erros adicionais. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 31 de agosto de 2021 |
-| [2.17.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta versão de patch É uma versão de patch para corrigir uma alteração retroativa incompatível que foi introduzida anteriormente. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 2 de agosto de 2021 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Esse patch melhora os componentes [Lista](/help/components/list.md) e [Navegação](/help/components/navigation.md) para exibir o URL externo para destinos de redirecionamento, habilita a herança de imagens da página para a próxima v2 do componente [Teaser](/help/components/teaser.md) e contém outras correções de erros. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 31 de agosto de 2021 |
+| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta é uma versão de patch para corrigir uma alteração incompatível com versões anteriores que foi introduzida anteriormente. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 2 de agosto de 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Esta versão de patch adiciona suporte para mapas de site para Páginas e inclui várias melhorias de acessibilidade. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 29 de julho de 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versão de patch inclui uma correção para a [Camada de dados](/help/developing/data-layer/overview.md) que não está funcionando com o AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 8 de julho de 2021 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Esta versão inclui visualizações técnicas de várias versões de novos componentes que oferecem suporte a recursos do manipulador de links, bem como uma visualização técnica de um recurso de imagem em destaque para o [componente de Página.](/help/components/page.md) Várias correções de bugs também estão incluídas. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 16 de junho de 2021 |

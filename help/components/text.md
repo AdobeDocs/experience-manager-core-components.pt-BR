@@ -122,7 +122,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
 ![Exemplo de hiperlink](/help/assets/text-hyperlink-example.png)
 
 * Insira o caminho
-   * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
+   * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM
    * Se o link não estiver no AEM, insira o URL absoluto
       * Os caminhos não absolutos são interpretados como relativos ao AEM
 * Inserir texto descritivo alternativo para o link

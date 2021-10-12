@@ -1,5 +1,5 @@
 ---
-title: Componente de Compartilhamento em redes sociais
+title: 'Componente de Compartilhamento em redes sociais '
 description: O componente de Compartilhamento em redes sociais, dos Componentes principais, é um dispositivo de compartilhamento no Facebook e Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
@@ -10,7 +10,7 @@ ht-degree: 92%
 
 ---
 
-# Componente de Compartilhamento em redes sociais{#social-sharing-component}
+# Componente de Compartilhamento em redes sociais {#social-sharing-component}
 
 O componente de Compartilhamento em redes sociais, dos Componentes principais, é um dispositivo de compartilhamento no Facebook e Pinterest.
 

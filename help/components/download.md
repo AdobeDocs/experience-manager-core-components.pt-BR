@@ -1,5 +1,5 @@
 ---
-title: Componente de Download
+title: 'Componente de Download '
 description: O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
@@ -10,7 +10,7 @@ ht-degree: 97%
 
 ---
 
-# Componente de Download{#download-component}
+# Componente de Download {#download-component}
 
 O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 
@@ -63,9 +63,9 @@ A seleção de um ativo de download é muito semelhante à funcionalidade do [Co
 ![Guia Propriedades da caixa de diálogo de edição do componente de Download](/help/assets/download-edit-properties.png)
 
 * **Título** - exibido como um título para o item de download
-   * **Obter título do ativo DAM** - Quando selecionado, o título é preenchido automaticamente com o título do ativo DAM.
+   * **Obter o título do ativo DAM** - Quando selecionado, o título é preenchido automaticamente com o título do ativo DAM.
 * **Descrição** - É exibido como um subtítulo descritivo do item de download
-   * **Obter descrição do ativo DAM** - Quando selecionada, a descrição é preenchida automaticamente com a descrição do ativo DAM.
+   * **Obter a descrição do ativo DAM** - Quando selecionada, a descrição é preenchida automaticamente com a descrição do ativo DAM.
 * **Texto de ação** - É exibido como texto de ação para o item de download
    * Esse campo é necessário ao fazer upload de um ativo do sistema de arquivos.
    * **Exibir em linha** - Quando selecionado, o **Texto de ação** fornecido será exibido em linha.
@@ -82,13 +82,13 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 ![Caixa de diálogo design do componente de Download](/help/assets/download-design.png)
 
-* **Permitir upload do sistema de arquivos** - Permite que o autor de conteúdo faça upload de um ativo do sistema de arquivos local como o ativo de download.
+* **Permitir o upload por meio do sistema de arquivos** - Permite que o autor de conteúdo faça upload de um ativo do sistema de arquivos local como o ativo de download.
    * O valor padrão não está selecionado.
 * **Tipo de título** - O elemento HTML usado para o título do componente de Download.
    * Se nenhum valor for selecionado, o valor padrão será H3.
-* **Exibir tamanho do arquivo** - Quando selecionado, o tamanho do arquivo do ativo será exibido no componente de Download.
+* **Tamanho do arquivo de exibição** - Quando selecionado, o tamanho do arquivo do ativo será exibido no componente de Download.
    * O valor padrão está selecionado.
-* **Exibir formato de arquivo** - Quando selecionado, o formato de arquivo do ativo será exibido no componente de Download.
+* **Formato de arquivo de exibição** - Quando selecionado, o formato de arquivo do ativo será exibido no componente de Download.
    * O valor padrão está selecionado.
 * **Exibir nome de arquivo** - Quando selecionado, o nome do arquivo do ativo será exibido no componente de Download.
    * O valor padrão está selecionado.

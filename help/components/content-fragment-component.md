@@ -5,12 +5,12 @@ role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
-# Componente Fragmento de Conteúdo{#content-fragment-component}
+# Componente Fragmento de Conteúdo {#content-fragment-component}
 
 O componente Fragmento do Conteúdo, dos Componentes Principais, permite a exibição de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 

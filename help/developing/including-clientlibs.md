@@ -1,5 +1,5 @@
 ---
-title: Inclusão de Bibliotecas de clientes
+title: Inclusão de Bibliotecas do cliente
 description: Há várias maneiras diferentes de incluir bibliotecas de clientes, dependendo do seu caso de uso.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Inclusão de Bibliotecas de clientes {#including-client-libraries}
+# Inclusão de Bibliotecas do cliente {#including-client-libraries}
 
 Há várias maneiras diferentes de incluir [bibliotecas de clientes](/help/developing/archetype/uifrontend.md#clientlibs), dependendo do seu caso de uso. Este documento fornece exemplos e amostras de [trechos HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=pt-BR) para cada um.
 

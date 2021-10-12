@@ -10,7 +10,7 @@ ht-degree: 97%
 
 ---
 
-# Componente de Página{#page-component}
+# Componente de Página {#page-component}
 
 O componente de Página é um componente de página extensível projetado para funcionar com o [editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html). Ele permite que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 
@@ -61,18 +61,18 @@ Como o componente representa a página inteira, a caixa de diálogo de design é
 
 Usando a janela Design da página, você pode definir as bibliotecas de clientes a serem carregadas, bem como a biblioteca de recursos da Web para a página.
 
-* **Bibliotecas de clientes** - Isso define as categorias das bibliotecas de clientes a serem carregadas. O JavaScript é adicionado na extremidade do corpo e o CSS é adicionado ao cabeçalho da página.
-* **Cabeçalho da página JavaScript de bibliotecas de clientes** - Isso define as categorias da biblioteca do cliente JavaScript a serem carregadas no cabeçalho da página.
-   * As categorias definidas aqui que também estão presentes no campo **Bibliotecas de clientes** terão o JavaScript carregado no cabeçalho da página em vez de no final do corpo.
-   * Nenhum CSS será carregado, a menos que a categoria também esteja presente no campo **Bibliotecas de clientes**.
+* **Bibliotecas do cliente** - Isso define as categorias das bibliotecas de clientes a serem carregadas. O JavaScript é adicionado na extremidade do corpo e o CSS é adicionado ao cabeçalho da página.
+* **Cabeçalho da página JavaScript de bibliotecas do cliente** - Isso define as categorias da biblioteca do cliente JavaScript a serem carregadas no cabeçalho da página.
+   * As categorias definidas aqui que também estão presentes no campo **Bibliotecas do cliente** terão o JavaScript carregado no cabeçalho da página em vez de no final do corpo.
+   * Nenhum CSS será carregado, a menos que a categoria também esteja presente no campo **Bibliotecas do cliente**.
 
-* **Bibliotecas de clientes de recursos da Web** - A categoria de bibliotecas de clientes usada para servir recursos da Web, como favicons.
+* **Biblioteca cliente de recursos da Web** - A categoria de bibliotecas de clientes usada para servir recursos da Web, como favicons.
 
-* **Pular para o seletor do elemento de conteúdo principal** - Usado como um recurso de acessibilidade para ignorar diretamente o conteúdo principal da página.
+* **Ir para o conteúdo principal - seletor de elemento** - Usado como um recurso de acessibilidade para ignorar diretamente o conteúdo principal da página.
 
 ![Caixa de diálogo de design do componente de Página](/help/assets/page-design.png)
 
-As bibliotecas podem ser configuradas para os campos **Bibliotecas de clientes** e **Cabeçalho da página JavaScript de bibliotecas de clientes** da seguinte maneira:
+As bibliotecas podem ser configuradas para os campos **Bibliotecas do cliente** e **Cabeçalho da página JavaScript de bibliotecas do cliente** da seguinte maneira:
 
 * Para adicionar um novo campo, clique ou toque no botão **Adicionar** abaixo dos campos.
 * Para remover um campo, clique ou toque no ícone da lixeira ao lado do campo a ser removido.

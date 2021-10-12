@@ -74,7 +74,7 @@ ht-degree: 95%
    + [Orientações para os componentes](developing/guidelines.md)
    + [Suporte a AMP](developing/amp.md)
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
-   + [Inclusão de Bibliotecas de clientes](developing/including-clientlibs.md)
+   + [Inclusão de Bibliotecas do cliente](developing/including-clientlibs.md)
    + Camada de dados de clientes Adobe {#data-layer}
       + [Visão geral da Camada de dados](developing/data-layer/overview.md)
       + [Integrações com a Camada de dados](developing/data-layer/integrations.md)

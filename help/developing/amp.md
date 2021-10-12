@@ -46,7 +46,7 @@ Para habilitar AMP para uma página, o **Modo AMP** deve ser selecionado na [Pol
 ![Opções de política da página de AMP](/help/assets/amp-policy.png)
 
 * **Sem AMP** - A página é entregue somente como HTML padrão.
-* **AMP emparelhado** - A página é fornecida como AMP e HTML.
+* **AMP emparelhada** - A página é fornecida como AMP e HTML.
 * **Somente AMP** - A página é entregue somente como AMP.
 
 As configurações das AMP para uma página também podem ser substituídas nas [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) para uma página individual.
@@ -55,7 +55,7 @@ As configurações das AMP para uma página também podem ser substituídas nas 
 
 * **Herdar do modelo da página** - Esse é o valor padrão, que permite que a configuração seja retirada da política do modelo da página.
 * **Sem AMP** - A página é entregue somente como HTML padrão.
-* **AMP emparelhado** - A página é fornecida como AMP e HTML.
+* **AMP emparelhada** - A página é fornecida como AMP e HTML.
 * **Somente AMP** - A página é entregue somente como AMP.
 
 ### Requisitos de CSS {#css-requirements}

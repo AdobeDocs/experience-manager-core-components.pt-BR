@@ -100,7 +100,7 @@ A dependência dos Componentes principais é adicionada apenas para versões do 
 
 | Arquétipo | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [30º](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Contínuo | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Contínuo | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Configure seu ambiente de desenvolvimento local para o [SDK do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou para [versões mais antigas do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 

@@ -18,7 +18,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 
 ## Recursos {#resources}
 
-* **[Biblioteca de componentes](https://www.adobe.com/go/aem_cmp_library)**: Uma coleção de exemplos para exibir os componentes em suas várias configurações.
+* **[Biblioteca de componentes](https://www.adobe.com/go/aem_cmp_library_br)**: Uma coleção de exemplos para exibir os componentes em suas várias configurações.
 * **Documentação de componentes (este documento)**: Para desenvolvedores e autores, com detalhes sobre cada componente.
 * **[Repositório GitHub dos Componentes principais](https://github.com/adobe/aem-core-wcm-components)**: Para detalhes do desenvolvedor sobre cada componente e download do projeto.
 * Introdução:
