@@ -48,8 +48,8 @@ Dependendo do **Tipo de ação** selecionado, as opções disponíveis no contê
 
 * [Email](#mail)
 * [Armazenar conteúdo](#store-content)
-* [Enviar pedido](#submit-order)
-* [Atualizar pedido](#update-order)
+* [Enviar Ordem](#submit-order)
+* [Atualizar a ordem](#update-order)
 
 Independentemente do tipo, há [configurações gerais](#general-settings) que se aplicam a cada ação.
 
@@ -78,13 +78,13 @@ Quando o formulário for enviado, o conteúdo será armazenado em um local de re
 * **Exibir dados** - Toque ou clique para exibir os dados enviados armazenados como JSON
 * **Iniciar fluxo de trabalho** - Configurar para iniciar um fluxo de trabalho com o conteúdo armazenado como carga útil no envio do formulário
 
-### Enviar pedido {#submit-order}
+### Enviar Ordem {#submit-order}
 
 Quando o formulário for enviado, a ordem será enviada.
 
 ![](/help/assets/chlimage_1-3.png)
 
-### Atualizar pedido {#update-order}
+### Atualizar a ordem {#update-order}
 
 Quando o formulário for enviado, a ordem será atualizada.
 
