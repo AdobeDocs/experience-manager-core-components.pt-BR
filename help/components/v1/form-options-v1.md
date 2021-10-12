@@ -128,7 +128,7 @@ Como as opções serão apresentadas
 
 * **Título** - O título que será exibido como o rótulo das opções
 * **Nome** - O nome do campo enviado com os dados de formulário
-* **Fonte** - Onde as opções são definidas
+* **Origem** - Onde as opções são definidas
 
    * **Local** - Definido no componente
       * Toque ou clique no botão **Adicionar** para adicionar um valor, **Excluir** para remover um valor
