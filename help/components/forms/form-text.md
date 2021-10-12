@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Componente de Texto do formulário{#form-text-component}
+# Componente de Texto do formulário {#form-text-component}
 
 O componente de Texto de formulário, dos Componentes principais, permite a entrada do texto de formulário para envio.
 
@@ -59,7 +59,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
    * **Senha**
 * **Linhas de texto** - Número de linhas a serem exibidas na área de texto (exibidas somente quando a **Restrição** é definida como **Área de texto**)
 * **Rótulo** - O rótulo que será exibido para o campo
-* **Ocultar a exibição do rótulo** - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
+* **Impedir o rótulo de ser exibido** - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
 * **Nome do elemento** - O nome do campo enviado com os dados de formulário
 * **Valor** - O valor padrão que é pré-preenchido no campo
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
@@ -72,7 +72,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 ![Sobre a guia](/help/assets/form-text-edit-about.png)
 
 * **Mensagem de ajuda** - Uma dica para o usuário sobre o que pode ser inserido no campo
-* **Exibir a mensagem de ajuda como espaço reservado** -Para exibir a mensagem de ajuda dentro da entrada de formulário quando ela estiver vazia e não focalizada
+* **Exibir mensagem de ajuda como espaço reservado** -Para exibir a mensagem de ajuda dentro da entrada de formulário quando ela estiver vazia e não focalizada
 
 ### Guia de restrições {#constraints-tab}
 
@@ -81,7 +81,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 * **Mensagem de restrição**
    * Se o valor não validar o Tipo escolhido, a mensagem será exibida como uma dica de ferramenta ao enviar o formulário
    * Não exibido para tipos de restrição de **Texto** e **Área de Texto**
-* **Exigido** - Caso selecionado, o usuário deve preencher um valor antes de enviar o formulário
+* **Obrigatório** - Caso selecionado, o usuário deve preencher um valor antes de enviar o formulário
    * **Mensagem obrigatória** - Mensagem exibida como uma dica de ferramenta se o campo ficar vazio
 * **Tornar somente leitura** - Caso selecionado, o usuário não poderá modificar o valor do campo
 
