@@ -4,9 +4,9 @@ description: O componente de Lista, dos Componentes principais, permite criar co
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ O componente de Lista, dos Componentes principais, permite criar com facilidade 
 
 O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas secundárias ou uma lista estática de itens definidos arbitrariamente. O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode selecionar dentre os tipos de lista disponíveis e escolher como formatar os elementos da lista na [caixa de diálogo de edição](#edit-dialog).
 
-## Redirecionamentos em Listas {#redirects}
+## Redirecionamentos em listas {#redirects}
 
-Quando uma página tem um destino de redirecionamento (independentemente de estar apontando para uma URL externa ou para outra página AEM), então uma lista que contém links para esse ponto diretamente para a URL do destino de redirecionamento.
+Quando uma página tem um destino de redirecionamento (independentemente de estar apontando para um URL externo ou para outra página do AEM), uma lista que contém links para ele, aponta diretamente para o URL do destino de redirecionamento.
 
 ### Exemplo {#redirect-example}
 
 * Crie uma página A que redirecione para a página B.
 * Crie uma página C que redireciona para `https://aemcomponents.dev`
 * Em uma página D, insira um componente de lista que contenha as páginas A e C
-* Os respectivos links que são gerados, então, apontam diretamente para a página B e `https://aemcomponents.dev`
+* Os respectivos links que são gerados, apontam diretamente para a página B e `https://aemcomponents.dev`
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -157,7 +157,7 @@ Usando a guia Configurações de item, a formatação dos elementos da lista pod
 * **Vincular itens**
 Vincula itens à página correspondente.
 * **Mostrar descrição**
-Mostra descrições do item de link.
+Mostra descrições do item de link
 * **Mostrar data**
 Mostra a data de modificação do item de link.
 
