@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Componente de Botão{#button-component}
+# Componente de Botão {#button-component}
 
 O componente de Botão, dos Componentes principais, permite a configuração e a exibição de um item de botão em uma página.
 
