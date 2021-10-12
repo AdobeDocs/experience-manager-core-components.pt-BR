@@ -92,12 +92,12 @@ A caixa de diálogo de edição permite que o autor de conteúdo suprima página
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **Nível de navegação para iniciar** - Onde na hierarquia o componente de navegação estrutural deve começar a ir para a página atual. Por exemplo, em We.Retail:
+* **Nível de navegação para começar** - Onde na hierarquia o componente de navegação estrutural deve começar a ir para a página atual. Por exemplo, em We.Retail:
 
    * 1 inicia em `/content/we-retail`
    * 2 inicia em `/content/we-retail/<country>`
 
-* **Mostrar oculto** - Mostra as páginas marcadas como ocultas na navegação estrutural (por padrão, elas não serão exibidas)
+* **Mostrar ocultos** - Mostra as páginas marcadas como ocultas na navegação estrutural (por padrão, elas não serão exibidas)
 * **Ocultar atual** - Suprime a página atual na navegação estrutural (por padrão, ela será exibida)
 
 ## Caixa de diálogo de design {#design-dialog}
@@ -106,8 +106,8 @@ A caixa de diálogo de design permite que o autor do modelo defina quais são os
 
 ![](/help/assets/chlimage_1-35.png)
 
-* **Nível de navegação para iniciar** - Define o valor padrão para onde, na hierarquia, o componente de navegação estrutural deve começar a descer para a página atual quando o componente de navegação estrutural for adicionado a uma página.
-* **Mostrar oculto** - Define o valor padrão da opção **Mostrar oculto** quando o componente de navegação estrutural é adicionado a uma página.
+* **Nível de navegação para começar** - Define o valor padrão para onde, na hierarquia, o componente de navegação estrutural deve começar a descer para a página atual quando o componente de navegação estrutural for adicionado a uma página.
+* **Mostrar ocultos** - Define o valor padrão da opção **Mostrar ocultos** quando o componente de navegação estrutural é adicionado a uma página.
 
    * Ela não ativa ou desativa a opção para o autor. Ela só define o valor padrão.
 
