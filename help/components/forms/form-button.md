@@ -39,7 +39,7 @@ Para experimentar o componente Botão de Formulário, e ver exemplos de suas op�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Botão de formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
+A documentação técnica mais recente sobre o componente Botão de formulário [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
