@@ -140,7 +140,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação d
 
    * Insira a localização
 
-      * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
+      * Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM
       * Se o link não estiver no AEM, insira o URL absoluto (caminhos não absolutos são interpretados como relativos ao AEM).
    * Inserir texto descritivo alternativo para o link
    * Selecionar comportamento do link
