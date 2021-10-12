@@ -1,23 +1,22 @@
 ---
 source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
-# Documentação dos componentes principais da Adobe Experience Manager
+# Documentação dos componentes principais do Adobe Experience Manager
 
 ## Documentação dos componentes principais
 
-Este é o repositório para os Componentes principais da Adobe Experience Manager ***documentação***. Esta documentação cobre a instalação, o uso de criação e como personalizar os componentes principais.
+Este é o repositório da ***documentação*** dos Componentes principais do Adobe Experience Manager. Esta documentação abrange a instalação, o uso de criação e como personalizar os componentes principais.
 
 Suas contribuições para a documentação são bem-vindas. Consulte os seguintes recursos:
 
-* [contribute.](contributing.md) mdPara obter uma visão geral de como contribuir para a documentação.
-* [guidelines.](guidelines.md) mdPara obter uma visão geral sobre o que é esperado nas contribuições e como compor suas contribuições de documentação.
-* [code-of-condutores.](code-of-conduct.md) mdPara obter uma visão geral dos padrões de comportamento que esperamos enquanto você contribui para este projeto de documentação.
+* [contributing.md](contributing.md) Para obter uma visão geral de como contribuir para a documentação.
+* [guidelines.md](guidelines.md) Para obter uma visão geral sobre o que é esperado das contribuições e como compor suas contribuições de documentação.
+* [code-of-conduct.md](code-of-conduct.md) Para obter uma visão geral dos padrões de comportamento que esperamos enquanto você contribui para este projeto de documentação.
 
 ## Repositório de componentes principais
 
-Os próprios [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) são mantidos como um projeto em um repositório separado. Verifique o projeto se você precisa de documentação técnica/desenvolvedor sobre os componentes, deseja contribuir com os próprios componentes ou precisa registrar um problema com a funcionalidade ou os recursos dos componentes principais.
+Os próprios [Componentes principais do Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) são mantidos como um projeto em um repositório separado. Verifique esse projeto se precisar de documentação técnica/de desenvolvedor sobre os componentes, se desejar contribuir com os próprios componentes ou se precisar registrar um problema de funcionalidade ou recursos dos componentes principais.
