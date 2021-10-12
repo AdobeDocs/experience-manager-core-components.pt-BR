@@ -10,13 +10,13 @@ ht-degree: 100%
 
 ---
 
-# Componente Formulário oculto{#form-hidden-component}
+# Componente Formulário oculto {#form-hidden-component}
 
 O componente Formulário Oculto, dos Componentes Principais, possibilita a exibição de um campo oculto.
 
 ## Uso {#usage}
 
-O componente Formulário oculto, dos Componentes Principais, possibilita a criação de campos ocultos para transmitir informações sobre a página atual de volta ao AEM. Ele deve ser usado com o [componente Contêiner de formulário](form-container.md).
+O componente Formulário oculto, dos Componentes principais, possibilita a criação de campos ocultos para transmitir informações sobre a página atual de volta ao AEM. Ele deve ser usado com o [componente Contêiner de Formulário](form-container.md).
 
 As propriedades do campo podem ser definidas pelo editor de conteúdo na [caixa de diálogo de configuração](form-hidden.md).
 
