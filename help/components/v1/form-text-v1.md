@@ -111,7 +111,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 * **Linhas de texto** - Número de linhas a serem exibidas na área de texto (exibidas somente quando a **Restrição** é definida como **Área de texto**)
 
 * **Rótulo** - O rótulo que será exibido para o campo
-* **Ocultar a exibição do rótulo** - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
+* **Impedir o rótulo de ser exibido** - Necessário se o rótulo for necessário somente para fins de acessibilidade e não imprimir nenhuma informação visual adicional sobre o campo
 * **Nome do elemento** - O nome do campo enviado com os dados de formulário
 * **Valor** - Valor padrão pré-preenchido no campo
 
@@ -120,7 +120,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 ![](/help/assets/chlimage_1-24.png)
 
 * **Mensagem de ajuda** - Uma dica para o usuário sobre o que pode ser inserido no campo
-* **Exibir a mensagem de ajuda como espaço reservado** -Para exibir a mensagem de ajuda dentro da entrada de formulário quando ela estiver vazia e não focalizada
+* **Exibir mensagem de ajuda como espaço reservado** -Para exibir a mensagem de ajuda dentro da entrada de formulário quando ela estiver vazia e não focalizada
 
 ### Restrições {#constraints}
 
@@ -131,7 +131,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
    * Se o valor não validar o Tipo escolhido, a mensagem será exibida como uma dica de ferramenta ao enviar o formulário
    * Não exibido para tipos de restrição de **Texto** e **Área de Texto**
 
-* **Exigido** - Caso selecionado, o usuário deve preencher um valor antes de enviar o formulário
+* **Obrigatório** - Caso selecionado, o usuário deve preencher um valor antes de enviar o formulário
 * **Tornar somente leitura** - Caso selecionado, o usuário não poderá modificar o valor do campo
 
 ## Caixa de diálogo de design {#design-dialog}
