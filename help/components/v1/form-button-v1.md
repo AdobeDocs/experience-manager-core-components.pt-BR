@@ -84,7 +84,7 @@ O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.co
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes Principais requer a versão 1.1.0 dos Componentes Principais. Consulte as [informações de compatibilidade dos Componentes Principais v1](/help/versions.md) para mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para mais informações.
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -112,4 +112,4 @@ A documentação técnica mais recente sobre o componente Botão de Formulário 
 
 Todo o projeto de Componentes Principais pode ser baixado do GitHub.
 
-Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
