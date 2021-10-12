@@ -134,7 +134,7 @@ O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.co
 
 >[!NOTE]
 >
->A exportação JSON dos Componentes Principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para mais informações.
+>A exportação JSON dos Componentes principais requer a versão 1.1.0 dos Componentes principais. Consulte as [informações de compatibilidade dos Componentes principais v1](/help/versions.md) para mais informações.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -230,7 +230,7 @@ Vincula itens à página correspondente
 * **Mostrar descrição**
 Mostra descrições do item de link
 * **Mostrar data**
-Mostra a data de modificação do item de link
+Mostra a data de modificação do item de link.
 
 ## Caixa de diálogo de design {#design-dialog}
 
