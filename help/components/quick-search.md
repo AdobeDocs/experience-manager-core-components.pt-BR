@@ -48,7 +48,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina onde a p
 
 ![Caixa de diálogo de edição do componente de Pesquisa rápida](/help/assets/quick-search-edit.png)
 
-**Raiz de pesquisa** - A página raiz de onde a pesquisa deve ser iniciada. A Raiz de pesquisa pode ser um blueprint principal, idioma principal ou página regular.
+**Pesquisar raiz** - A página raiz de onde a pesquisa deve ser iniciada. A Pesquisar raiz pode ser um blueprint principal, idioma principal ou página regular.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -56,7 +56,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina onde a p
 
 >[!NOTE]
 >
->Se a **Raiz de pesquisa** não estiver configurada ou não puder ser resolvida, a Pesquisa rápida assumirá como padrão a pesquisa abaixo da página atual.
+>Se a **Pesquisar raiz** não estiver configurada ou não puder ser resolvida, a Pesquisa rápida assumirá como padrão a pesquisa abaixo da página atual.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -66,20 +66,20 @@ Usando a caixa de diálogo de design, o autor do modelo pode definir o valor pad
 
 ![Caixa de diálogo de design do componente de Pesquisa rápida](/help/assets/quick-search-design.png)
 
-* **Raiz de pesquisa**
+* **Pesquisar raiz**
 O valor padrão da raiz de pesquisa quando um autor de conteúdo coloca o componente de Pesquisa rápida em uma página de conteúdo
 * **Tamanho dos resultados**
 O número máximo de resultados obtidos por uma solicitação de pesquisa
-* **Comprimento mínimo do termo de pesquisa**
+* **Tamanho mínimo do termo de pesquisa**
 Comprimento mínimo do termo de pesquisa para iniciar a pesquisa
 
 >[!NOTE]
 >
->O **Tamanho dos resultados** e o **Comprimento mínimo do termo de pesquisa** só podem ser definidos no modo de design e, portanto, somente no nível do modelo, o que significa que os autores de conteúdo não podem modificar esses valores.
+>O **Tamanho dos resultados** e o **Tamanho mínimo do termo de pesquisa** só podem ser definidos no modo de design e, portanto, somente no nível do modelo, o que significa que os autores de conteúdo não podem modificar esses valores.
 
 >[!CAUTION]
 >
->O **Tamanho dos resultados** e o **Comprimento mínimo do termo de pesquisa** podem ter impacto no desempenho se forem definidos como muito altos ou muito baixos, respectivamente.
+>O **Tamanho dos resultados** e o **Tamanho mínimo do termo de pesquisa** podem ter impacto no desempenho se forem definidos como muito altos ou muito baixos, respectivamente.
 
 ### Guia Estilos {#styles-tab}
 
