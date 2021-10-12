@@ -1,12 +1,12 @@
 ---
 title: Expansão da Camada de Dados de Clientes Adobe
 description: A Camada de Dados de Clientes Adobe pode ser expandida seguindo alguns padrões básicos
-feature: Componentes principais, Camada de Dados de Clientes Adobe
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 100%
 
 ---
