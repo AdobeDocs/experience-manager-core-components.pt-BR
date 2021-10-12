@@ -56,7 +56,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
    * **Lista suspensa de multisseleção**
 * **Título** - O título que será exibido como o rótulo das opções
 * **Nome** - O nome do campo enviado com os dados de formulário
-* **Fonte** - Onde as opções são definidas
+* **Origem** - Onde as opções são definidas
    * **Local** - Definido no componente
       * Toque ou clique no botão **Adicionar** para adicionar um valor, **Excluir** para remover um valor
          * **Valor** - O valor salvo quando essa opção é selecionada no envio do formulário
