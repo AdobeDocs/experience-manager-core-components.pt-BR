@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Obviamente, há vários elementos envolvidos para que um projeto do AEM seja sat
 
 Com o arquétipo de projeto fica mais fácil começar a desenvolver no AEM. E há várias maneiras de dar os primeiros passos.
 
-* Tutorial do WKND - Uma ótima introdução para desenvolver no AEM, incluindo como aproveitar o arquétipo. Em [Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html), há um exemplo prático que o orienta a usar o arquétipo para implementar um projeto simples.
+* Tutorial do WKND - Uma ótima introdução para desenvolver no AEM, incluindo como aproveitar o arquétipo. Em [Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR), há um exemplo prático que o orienta a usar o arquétipo para implementar um projeto simples.
 * Tutorial de eventos do WKND - Se você estiver particularmente interessado no desenvolvimento de aplicativos de página única (SPA) no AEM, verifique o [tutorial de eventos dedicados do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=pt-BR).
 * Baixe e comece sozinho! - Você pode baixar facilmente o arquétipo de projeto atual disponível no GitHub e criar seu primeiro projeto [seguindo as etapas simples abaixo](#how-to-use-the-archetype).
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * Defina `XX` para o [número de versão](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) do Arquétipo de projeto do AEM mais recente.
-* Defina `aemVersion=cloud` para o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html).\
+* Defina `aemVersion=cloud` para o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR).\
    Defina `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local.
 A dependência dos Componentes principais é adicionada apenas para versões do AEM que não estão na nuvem, pois os Componentes principais são fornecidos OOTB para o AEM as a Cloud Service.
 * Ajuste `appTitle="My Site"` para definir o título do site e os grupos de componentes.
@@ -101,10 +101,10 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `groupId` |  | ID de grupo Maven de base (por exemplo, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java Source Package (por exemplo, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versão do projeto (por exemplo, `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versão do AEM de destino (pode ser `cloud` para o [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); ou `6.5.0`, ou `6.4.4` para o [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou no local). |
-| `sdkVersion` | `latest` | Quando for `aemVersion=cloud`, uma versão [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) pode ser especificada (por exemplo, `2020.02.2265.20200217T222518Z-200130`). |
+| `aemVersion` | `cloud` | Versão do AEM de destino (pode ser `cloud` para o [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR); ou `6.5.0`, ou `6.4.4` para o [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou no local). |
+| `sdkVersion` | `latest` | Quando for `aemVersion=cloud`, uma versão [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=pt-BR) pode ser especificada (por exemplo, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclui uma configuração de dispatcher para nuvem ou para AMS/no local, dependendo do valor de `aemVersion` (pode ser `y` ou `n`). |
-| `frontendModule` | `general` | Inclui um módulo de build de front-end do Webpack que gera as bibliotecas de clientes (pode ser `general` ou `none` para sites regulares; pode ser `angular` ou `react` para um Aplicativo de página única que implementa o [Editor de SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
+| `frontendModule` | `general` | Inclui um módulo de build de front-end do Webpack que gera as bibliotecas de clientes (pode ser `general` ou `none` para sites regulares; pode ser `angular` ou `react` para um Aplicativo de página única que implementa o [Editor de SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html?)). |
 | `language` | `en` | Código de idioma (ISO 639-1) para criar a estrutura de conteúdo de (por exemplo, `en`, `deu`). |
 | `country` | `us` | Código do país (ISO 3166-1) para criar a estrutura de conteúdo de (por exemplo, `US`). |
 | `singleCountry` | `y` | Inclui uma estrutura de conteúdo principal de idioma (pode ser `y` ou `n`). |
@@ -116,7 +116,7 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `amp` | `n` | Habilita o suporte [AMP](/help/developing/amp.md) para modelos de projeto gerados. |
 | `enableDynamicMedia` | `n` | Ativa os componentes básicos do Dynamic Media nas configurações de política do projeto e ativa os recursos do Dynamic Media na política do componente de Imagem principal. |
 | `enableSSR` | `n` | Opção para habilitar o SSR para o projeto de front-end. |
-| `precompiledScripts` | `n` | Opção para [pré-compilar](/help/developing/archetype/precompiled-bundled-scripts.md) os scripts do lado do servidor de `ui.apps` e anexá-los à compilação como um artefato de pacote secundário no projeto `ui.apps`. `aemVersion` deve ser definido como  `cloud`. |
+| `precompiledScripts` | `n` | Opção para [pré-compilar](/help/developing/archetype/precompiled-bundled-scripts.md) os scripts do lado do servidor de `ui.apps` e anexá-los ao build como um artefato de pacote secundário no projeto `ui.apps`. `aemVersion` deve ser definido como `cloud`. |
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ A seção `<dependencyManagement>` do POM principal todas as dependências e ver
 
 #### Uber-Jar {#uber-jar}
 
-Uma das dependências principais é o [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Isso incluirá todas as APIs AEM com apenas uma única entrada de dependência para a versão do AEM.
+Uma das dependências principais é o [Jar da API Java do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=pt-BR). Isso incluirá todas as APIs AEM com apenas uma única entrada de dependência para a versão do AEM.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Uma das dependências principais é o [AEM Java API Jar](https://experienceleagu
 
 Claro que o Arquétipo de projeto do AEM aproveita os Componentes principais.
 
-Os Componentes principais são instalados no AEM automaticamente no modo de execução padrão e usados pelo site da WKND de amostra. Em um [modo de execução de produção](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`), os Componentes principais não estão disponíveis.
+Os Componentes principais são instalados no AEM automaticamente no modo de execução padrão e usados pelo site da WKND de amostra. Em um [modo de execução de produção](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=pt-BR#runmodes) (`nosamplecontent`), os Componentes principais não estão disponíveis.
 
 Portanto, para aproveitar os Componentes principais em todas as implantações, a prática recomendada é incluí-los como parte do projeto Maven.
 
@@ -232,7 +232,7 @@ Existem três níveis de testes contidos no projeto e, como são diferentes tipo
    * `mvn clean verify -PintegrationTests`
 * Testes Hobbes.js do lado do cliente: são testes do lado do navegador baseados em JavaScript que verificam o comportamento do lado do navegador. Para testar:
    1. Carregue o AEM no navegador da mesma maneira que você faria para criar uma página.
-   1. Abra a página no [Modo de desenvolvedor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
+   1. Abra a página no [Modo de desenvolvedor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html?lang=pt-BR)
    1. Abra o painel esquerdo e alterne para a guia **Testes**.
    1. Localize os **Testes MyName** gerados e execute-os.
 
@@ -241,6 +241,6 @@ Existem três níveis de testes contidos no projeto e, como são diferentes tipo
 Então você criou e instalou o Arquétipo de projeto do AEM. E agora? O arquétipo é pequeno, mas consiste em vários exemplos de recursos avançados do AEM configurados de acordo com as práticas recomendadas. Use-os para indicar como você pode aproveitar esses recursos no seu projeto. Para qualquer projeto, você provavelmente precisará:
 
 * [Personalizar componentes estendendo os componentes principais existentes](/help/developing/customizing.md)
-* [Acrescentar modelos adicionais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [Adaptar a estrutura de localização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
+* [Acrescentar modelos adicionais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
+* [Adaptar a estrutura de localização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=pt-BR)
 * [Saiba mais sobre o módulo de build de front-end](uifrontend.md)
