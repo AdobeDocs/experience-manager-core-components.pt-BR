@@ -4,9 +4,9 @@ description: O componente Carrossel permite que o autor de conteúdo apresente c
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher que co
 
 >[!TIP]
 >
->Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Também é possível adicionar componentes ao componente Carrossel ao [arrastar do navegador de componentes e soltar no componente Carrossel no editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Também é possível adicionar componentes ao componente Carrossel ao [arrastar do navegador de componentes e soltar no componente Carrossel no editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#inserting-a-component-from-the-components-browser).
 
 ### Guia Propriedades {#properties-tab}
 
@@ -77,9 +77,9 @@ Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer
 
 >[!NOTE]
 >
->Os controles de avanço de slides não são ativados quando estão no modo **Editar**. Use o modo [**Visualização**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
+>Os controles de avanço de slides não são ativados quando estão no modo **Editar**. Use o modo [**Visualização**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#preview-mode) ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
 >
->O recurso de avanço automático não é ativado quando está no modo **Editar**. Use a opção **[Exibir como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
+>O recurso de avanço automático não é ativado quando está no modo **Editar**. Use a opção **[Exibir como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
@@ -123,7 +123,7 @@ A guia **Propriedade** é usada para definir as configurações padrão para as 
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como slides ao componente Carrossel pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
 
 ### Guia Estilos {#styles-tab}
 
