@@ -4,9 +4,9 @@ description: O componente de Incorporação permite a incorporação de conteúd
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ O campo **Incorporável** define o tipo de processador que deseja usar. No caso 
 * **Altura** - A altura do vídeo incorporado
 * **Ativar mudo** - Esse parâmetro especifica se o vídeo será reproduzido silenciado por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
 * **Habilitar reprodução automática** - Esse parâmetro especifica se o vídeo inicial começará automaticamente a ser reproduzido quando o reprodutor for carregado. Isso só tem efeito na instância de publicação ou ao usar a opção **Exibir como Publicado** na instância de criação.
-* **Ativar loop** - N caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
+* **Ativar loop** - No caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
 * **Habilitar reprodução em linha (iOS)** - Esse parâmetro controla se os vídeos são reproduzidos em linha (ativado) ou em tela cheia (desativado) em um reprodutor HTML5 no iOS.
 * **Vídeos relacionados irrestritos** - Se essa opção estiver desativada, os vídeos relacionados serão provenientes do mesmo canal que o vídeo que acabou de ser reproduzido, caso contrário, serão provenientes de qualquer canal.
 
@@ -111,7 +111,7 @@ A marcação HTML que o autor pode inserir é filtrada para fins de segurança, 
 
 No entanto, as regras são mais complicadas porque o componente de Incorporação segue o conjunto do AEM, de regras de filtragem da estrutura de saneamento HTML global AntiSamy, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica para um projeto, por um desenvolvedor, se necessário.
 
-Informações adicionais de segurança podem ser encontradas na [documentação do desenvolvedor para instalações locais](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) do AEM, e nas [instalações do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html).
+Informações adicionais de segurança podem ser encontradas na [documentação do desenvolvedor para instalações locais](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=pt-BR) do AEM, e nas [instalações do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=pt-BR).
 
 >[!NOTE]
 >Embora as regras da estrutura de saneamento do AntiSamy possam ser configuradas ao sobrepor `/libs/cq/xssprotection/config.xml`, essas alterações afetam todo o comportamento HTL e JSP e não apenas o Componente principal de Incorporação.
