@@ -4,9 +4,9 @@ description: O componente Acordeão, dos Componentes principais, permite a cria�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Os componentes Acordeão e [Guias](tabs.md) suportam a vinculação diretamente 
 
 Para fazer isso:
 
-1. Visualize a página com o componente usando a opção **[Exibir como publicada](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** no editor de páginas.
+1. Visualize a página com o componente usando a opção **[Exibir como publicada](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** no editor de páginas.
 1. Inspecione o conteúdo da página e identifique o ID do painel.
    * Por exemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. O ID se torna a âncora que pode ser anexada ao URL usando um hash (`#`).
@@ -120,7 +120,7 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens aos painéis no componente Acordeão pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR#editing-a-template-layout-template-author)
 
 ### Guia Estilos {#styles-tab}
 
