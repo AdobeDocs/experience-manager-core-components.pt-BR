@@ -4,9 +4,9 @@ description: Os Componentes principais seguem padrões de implementação modern
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ As diretrizes nesta seção também podem ser usadas para qualquer tipo de compo
 
 ### Recursos pré-configuráveis {#pre-configurable-capabilities}
 
-Além da caixa de diálogo de edição usada pelos autores de página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configure. O [Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) permite configurar todas essas pré-configurações, que são chamadas de &quot;Políticas&quot;.
+Além da caixa de diálogo de edição usada pelos autores de página, os componentes também podem ter uma caixa de diálogo de design para que os autores de modelo os pré-configure. O [Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR) permite configurar todas essas pré-configurações, que são chamadas de &quot;Políticas&quot;.
 
 Para tornar os componentes o mais reutilizáveis possível, eles devem receber opções significativas para pré-configurar. Isso permitirá ativar ou desativar os recursos dos componentes para atender às necessidades específicas de sites diferentes.
 
@@ -85,7 +85,7 @@ Quando combinado com o [Padrão do componente proxy](#proxy-component-pattern) d
 
 ## Tudo junto na prática {#putting-it-all-together}
 
-Abaixo está uma visão geral de toda a estrutura associando os tipos de recursos, tomando o exemplo do Componente principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão de componentes para evitar que o recurso de conteúdo contenha qualquer número de versão. Ela mostra como o arquivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) do componente usa para a interface do modelo, enquanto a implementação se associa à versão específica do componente por meio de anotações [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
+Abaixo está uma visão geral de toda a estrutura associando os tipos de recursos, tomando o exemplo do Componente principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão de componentes para evitar que o recurso de conteúdo contenha qualquer número de versão. Ela mostra como o arquivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=pt-BR) do componente usa para a interface do modelo, enquanto a implementação se associa à versão específica do componente por meio de anotações [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Visão geral da associação de recursos](/help/assets/chlimage_1-32.png)
 
