@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Quando todo o arquétipo do projeto do AEM é executado usando `mvn clean instal
 
 ## Visão geral das ClientLibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando uma [ClientLib do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Ao executar o script de build NPM, o aplicativo é criado e o pacote aem-clientlib-generator transforma a saída de build resultante na ClientLib.
+O módulo de front-end é disponibilizado usando uma [ClientLib do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de build NPM, o aplicativo é criado e o pacote aem-clientlib-generator transforma a saída de build resultante na ClientLib.
 
 Uma ClientLib consistirá nos seguintes arquivos e diretórios:
 
