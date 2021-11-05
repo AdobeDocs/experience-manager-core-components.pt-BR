@@ -5,9 +5,9 @@ breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
-   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
    + [Personalizar os Componentes principais](developing/customizing.md)
    + [Orientações para os componentes](developing/guidelines.md)
    + [Suporte a AMP](developing/amp.md)
@@ -84,7 +84,7 @@ ht-degree: 95%
       + [Uso do Arquétipo](developing/archetype/using.md)
       + [Módulo principal](developing/archetype/core.md)
       + [Módulo ui.apps](developing/archetype/uiapps.md)
-      + [Scripts embutidos pré-compilados](developing/archetype/precompiled-bundled-scripts.md)
+      + [Scripts agrupados pré-compilados](developing/archetype/precompiled-bundled-scripts.md)
       + [Módulo ui.content](developing/archetype/uicontent.md)
       + [Módulo ui.frontend.general](developing/archetype/uifrontend.md)
       + [Módulo ui.frontend.react](developing/archetype/uifrontend-react.md)
