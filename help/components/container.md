@@ -4,9 +4,9 @@ description: O componente de Contêiner, dos Componentes principais, permite a c
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 
 * **Layout** - Essa opção define o comportamento ou o comportamento do layout do componente de Contêiner.
    * **Simples** - Define um contêiner como uma coleção simples de componentes
-   * **Grade responsiva** - Define um contêiner como um [Layout responsivo do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Grade responsiva** - Define um contêiner como um [Layout responsivo do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=pt-BR)
 * **Cor do plano de fundo** - Definível como valores RGB de forma livre ou usando o seletor de cores, [dependendo da configuração](#background-tab)
 * **Imagem de plano de fundo** - Define uma cor de plano de fundo para o contêiner,  [dependendo da configuração](#background-tab)
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
@@ -67,11 +67,11 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens ao componente de Contêiner pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
 ### Guia Componentes padrão {#default-components-tab}
 
-A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, de modo semelhante a [como os componentes padrão são definidos no modelo de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, de modo semelhante a [como os componentes padrão são definidos no modelo de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
 
 ### Guia Configurações responsivas {#responsive-settings-tab}
 
