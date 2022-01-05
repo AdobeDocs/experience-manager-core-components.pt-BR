@@ -3,10 +3,10 @@ title: Componente de imagem
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
+workflow-type: tm+mt
+source-wordcount: '2270'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,10 @@ As larguras de imagem, o corte e as configurações adicionais podem ser definid
 O componente de Imagem vem com recursos responsivos robustos prontos para uso. No nível do modelo da página, a [caixa de diálogo design](#design-dialog) pode ser usada para definir as larguras padrão do ativo de imagem. O componente de Imagem carregará automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o componente de Imagem carrega dinamicamente o tamanho de imagem correto. Não há necessidade de os desenvolvedores de componentes se preocuparem em definir consultas de mídia personalizadas, pois o componente de Imagem já está otimizado para carregar seu conteúdo.
 
 Além disso, o componente de Imagem oferece suporte ao carregamento lento para adiar o carregamento do ativo de imagem real até que ele fique visível no navegador, aumentando a capacidade de resposta de suas páginas.
+
+>[!TIP]
+>
+>Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre esses recursos e dicas para otimizar a seleção de representação.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
@@ -202,6 +206,10 @@ Além disso, você pode definir quais opções gerais de componente são automat
       * Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
 * **Qualidade JPEG** - O fator de qualidade (porcentagem entre 0 e 100) para imagens JPEG transformadas (por exemplo, dimensionadas ou cortadas).
 
+>[!TIP]
+>
+>Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre seus recursos e dicas para otimizar a seleção de representação, definindo cuidadosamente suas larguras.
+
 ### Guia Recursos {#features-tab}
 
 Na guia **Recursos**, é possível definir quais opções estão disponíveis para os autores de conteúdo ao usar o componente, incluindo opções de upload, orientação e de recorte.
@@ -249,6 +257,12 @@ O componente de Imagem é compatível com o [Sistema de Estilos](/help/get-start
 ## Servlet de imagem adaptável {#adaptive-image-servlet}
 
 O componente de Imagem usa o Servlet de imagem adaptável do Componente principal. [O Servlet de imagem adaptável](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes principais](/help/developing/customizing.md).
+
+### Otimização da seleção de representação {#optimizing-rendition-selection}
+
+O Adaptive Image Servlet tentará escolher a melhor representação para o tamanho e tipo de imagem solicitados. Recomenda-se que as representações do DAM e as larguras permitidas do componente de Imagem sejam definidas em sincronia para que o Servlet de Imagem Adaptativa faça o mínimo possível de processamento.
+
+Isso melhorará o desempenho e evitará que algumas imagens sejam processadas corretamente pela biblioteca de processamento de imagens subjacente.
 
 >[!NOTE]
 >
