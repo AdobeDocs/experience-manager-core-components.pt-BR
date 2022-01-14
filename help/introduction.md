@@ -4,13 +4,13 @@ description: 'Os Componentes principais fornecem componentes básicos robustos e
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
-# Introdução aos Componentes principais{#core-components-introduction}
+# Introdução aos Componentes principais {#core-components-introduction}
 
 No Adobe Experience Manager, os componentes são os elementos estruturais que constituem o conteúdo das páginas criadas. Os componentes sempre foram um elemento fundamental da experiência do AEM, tornando a criação de páginas simples, mas poderosa para o autor e o desenvolvimento de componentes flexíveis e extensíveis para o desenvolvedor.
 
