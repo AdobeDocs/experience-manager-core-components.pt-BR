@@ -4,13 +4,13 @@ description: O componente de Imagem, dos Componentes principais, é um component
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Componente de imagem{#image-component}
+# Componente de imagem {#image-component}
 
 O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável que realiza edição no local.
 
@@ -28,11 +28,11 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 >[!TIP]
 >
->Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre esses recursos e dicas para otimizar a seleção de representação.
+>Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre estes recursos e dicas para otimizar a seleção de representação.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e recortes inteligentes também são suportados.
+O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
 Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
@@ -94,16 +94,16 @@ Além da [caixa de diálogo de edição](#edit-dialog) padrão e da [caixa de di
 
 ![Guia Metadados da caixa de diálogo de configuração do componente de Imagem](/help/assets/image-configure-metadata.png)
 
-* **Tipo de predefinição** - Define os tipos de predefinições de imagens disponíveis, seja a **Predefinição de imagem** ou o **Recorte inteligente**, e só estará disponível quando os [recursos do Dynamic Media](#dynamic-meida) estiverem habilitados.
+* **Tipo de predefinição** - Define os tipos de predefinições de imagens disponíveis, seja a **Predefinição de imagem** ou o **Corte inteligente**, e só estará disponível quando os [recursos do Dynamic Media](#dynamic-meida) estiverem habilitados.
    * **Predefinição de imagem** - Quando o **Tipo de  predefinição** da **Predefinição de imagem** é selecionado, a lista suspensa **Predefinição de imagem** fica disponível, permitindo a seleção das predefinições do Dynamic Media disponíveis. Isso só estará disponível se as predefinições forem definidas para o ativo selecionado.
-   * **Recorte inteligente** - Quando o **Tipo de predefinição** do **Recorte inteligente** é selecionado, o menu suspenso de **Representação** fica disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
+   * **Corte inteligente** - Quando o **Tipo de predefinição** do **Corte inteligente** é selecionado, o menu suspenso de **Representação** fica disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
    * **Modificadores de imagem** - Comandos adicionais de veiculação de imagens do Dynamic Media podem ser definidos aqui, separados por `&`, independentemente do **Tipo de predefinição** selecionado.
-* **Imagem decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
+* **A imagem é decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
 * **Texto alternativo** - Alternativa textual do significado ou função da imagem para leitores com deficiência visual.
    * **Obter texto alternativo do DAM** - Quando marcado, o texto alternativo da imagem será preenchido com o valor dos metadados `dc:description` no DAM.
 * **Legenda** - Informações adicionais sobre a imagem, exibida abaixo da imagem por padrão.
    * **Obter legenda do DAM** - Quando marcado, o texto da legenda da imagem será preenchido com o valor dos metadados `dc:title` no DAM.
-   * **Exibir legenda como pop-up** - Quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
+   * **Exibir legendas como janelas pop-up** - Quando marcada, a legenda não será exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
 * **Vinculação** - Vincule a imagem a outro recurso.
    * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
    * Se não estiver vinculando a um recurso do AEM, insira o URL absoluto. URLs não absolutos serão interpretados como relativos a AEM.
@@ -114,7 +114,7 @@ Além da [caixa de diálogo de edição](#edit-dialog) padrão e da [caixa de di
 
 >[!TIP]
 >
->As opções **Recorte inteligente** e de **Predefinição de imagem** são mutuamente exclusivas. Se um autor precisar usar uma predefinição de imagem junto com uma representação de Recorte inteligente, ele precisará usar os **Modificadores de imagem** para adicionar predefinições manualmente.
+>As opções **Corte inteligente** e de **Predefinição de imagem** são mutuamente exclusivas. Se um autor precisar usar uma predefinição de imagem junto com uma representação de Corte inteligente, ele precisará usar os **Modificadores de imagem** para adicionar predefinições manualmente.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -191,13 +191,13 @@ Além disso, você pode definir quais opções gerais de componente são automat
 
 ![Guia Principal da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-main.png)
 
-* **Habilitar recursos do DM** - Quando marcado, os [recursos habilitados do Dynamic Media](#dynamic-media) ficam disponíveis.
+* **Ativar recursos DM** - Quando marcado, os [recursos habilitados do Dynamic Media](#dynamic-media) ficam disponíveis.
 * **Habilitar carregamento lento** - Define se a opção de carregamento lento é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Imagem decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
+* **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
 * **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Exibir legenda como pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Desativar o rastreamento de UUID** - Marque para desativar o rastreamento da UUID do ativo de imagem.
+* **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Desabilitar rastreamento do UUID** - Marque para desativar o rastreamento da UUID do ativo de imagem.
 * **Larguras** - Define uma lista de larguras em pixels para a imagem e o componente carrega automaticamente a largura mais apropriada com base no tamanho do navegador.
    * Toque ou clique no botão **Adicionar** para adicionar outro tamanho.
       * Use as alças de captura para reorganizar a ordem dos tamanhos.
@@ -208,7 +208,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
 
 >[!TIP]
 >
->Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre seus recursos e dicas para otimizar a seleção de representação, definindo cuidadosamente suas larguras.
+>Consulte a seção [Servlet de imagem adaptável](#adaptive-image-servlet) para obter mais detalhes técnicos sobre os recursos e dicas para otimizar a seleção de representação, definindo cuidadosamente suas larguras.
 
 ### Guia Recursos {#features-tab}
 
@@ -239,7 +239,7 @@ Use esta opção para permitir que o autor de conteúdo use as opções
 
    ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-cropping.png)
 
-   Selecione a opção **Permitir recorte** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
+   Selecione a opção **Permitir Cortar** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma taxa de proporção de corte predefinida.
    * Insira um nome descritivo, que será mostrado na lista suspensa **Iniciar corte**.
    * Insira a taxa numérica da proporção.
@@ -260,9 +260,9 @@ O componente de Imagem usa o Servlet de imagem adaptável do Componente principa
 
 ### Otimização da seleção de representação {#optimizing-rendition-selection}
 
-O Adaptive Image Servlet tentará escolher a melhor representação para o tamanho e tipo de imagem solicitados. Recomenda-se que as representações do DAM e as larguras permitidas do componente de Imagem sejam definidas em sincronia para que o Servlet de Imagem Adaptativa faça o mínimo possível de processamento.
+O Servlet de imagem adaptável tentará escolher a melhor representação para o tamanho e tipo de imagem solicitados. Recomenda-se que as representações do DAM e as larguras permitidas do componente de imagem sejam definidas em sincronia para que o Servlet de imagem adaptável faça o menor processamento possível.
 
-Isso melhorará o desempenho e evitará que algumas imagens sejam processadas corretamente pela biblioteca de processamento de imagens subjacente.
+Isto melhorará o desempenho e evitará que algumas imagens sejam processadas corretamente pela biblioteca de processamento de imagens subjacente.
 
 >[!NOTE]
 >
