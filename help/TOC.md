@@ -4,9 +4,9 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Introdução aos Componentes principais](introduction.md)
 + [Caminhos para o sucesso](developing/success.md)
 + [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_br)
-+ [Versões dos Componentes principais](versions.md)
++ [Versões](versions.md)
 + Introdução {#get-started}
    + [Autoria com Componentes principais](get-started/authoring.md)
    + [Utilização dos componentes principais](get-started/using.md)
