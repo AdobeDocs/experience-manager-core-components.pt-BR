@@ -1,16 +1,16 @@
 ---
-title: Componente de Página
+title: Componente de Página (v2)
 description: O componente de Página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
-# Componente de Página {#page-component}
+
+# Componente de Página  (v2) {#page-component}
 
 O componente de Página é um componente de página extensível projetado para funcionar com o [editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR). Ele permite que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 
@@ -22,17 +22,13 @@ Usando a [caixa de diálogo design](#design-dialog), as bibliotecas personalizad
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de página é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v2 do Componente de página, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/page.md) | Compatível | Compatível | Compatível |
-| [v1](v1/page-v1.md) | Compatível | Compatível | - |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v2 do componente de Página.
+>
+>Para obter detalhes sobre a versão atual do componente de Página, consulte o documento [Componente de Página](/help/components/page.md).
 
 ## Compatível com o Aplicativo web progressivo {#pwa-support}
 
@@ -70,8 +66,6 @@ Usando a janela Design da página, você pode definir as bibliotecas de clientes
 * **Biblioteca cliente de recursos da Web** - A categoria de bibliotecas de clientes usada para servir recursos da Web, como favicons.
 
 * **Ir para o conteúdo principal - seletor de elemento** - Usado como um recurso de acessibilidade para ignorar diretamente o conteúdo principal da página.
-
-* **Renderizar links de idioma alternativos** - Se estiver habilitado, os links para versões de idioma alternativas da página no mesmo site serão adicionados ao cabeçalho da página.
 
 ![Caixa de diálogo de design do componente de Página](/help/assets/page-design.png)
 

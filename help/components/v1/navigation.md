@@ -1,16 +1,16 @@
 ---
-title: Componente de Navegação
+title: Componente de Navegação (v1)
 description: O componente de Navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
-# Componente de Navegação{#navigation-component}
+
+# Componente de Navegação (v1) {#navigation-component}
 
 O componente de Navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 
@@ -24,16 +24,13 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor do conteúdo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v1 do Componente de navegação, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/navigation.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v1 do Componente de navegação.
+>
+>Para obter detalhes sobre a versão atual do Componente de navegação, consulte o [Componente de navegação](/help/components/navigation.md) documento.
 
 ## Suporte localizado à estrutura do site {#localized-site-structure}
 
@@ -155,16 +152,6 @@ Na caixa de diálogo de edição, o autor de conteúdo pode definir a página ra
 Na guia **Acessibilidade**, os valores podem ser definidos para rótulos de [acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) para o componente.
 
 * **Rótulo** - Valor de um atributo de rótulo ARIA para o componente
-
-### Guia Estilos {#styles-tab-edit}
-
-O componente Navegação é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
-
-![Guia Estilos da caixa de diálogo Editar do Componente de navegação](/help/assets/navigation-edit-styles.png)
 
 ## Caixa de diálogo de design {#design-dialog}
 

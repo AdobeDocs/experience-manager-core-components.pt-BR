@@ -3,16 +3,16 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
-workflow-type: ht
-source-wordcount: '2318'
-ht-degree: 100%
+source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+workflow-type: tm+mt
+source-wordcount: '2389'
+ht-degree: 92%
 
 ---
 
 # Versões dos Componentes principais {#core-components-versions}
 
-A versão atual dos Componentes principais é 2.17.14 e é compatível com o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR) e instalações [locais do AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=pt-BR).
+A versão atual dos Componentes principais é 2.18.0 e é compatível com o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR) e instalações [locais do AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=pt-BR).
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
@@ -26,8 +26,9 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é a versão de correção. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 13 de dezembro de 2021 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é uma versão de patch que corrige uma regressão lançada na versão anterior. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 1 de outubro de 2021 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Essa versão principal dos componentes principais vê a introdução de um novo manipulador de links em novas versões de vários componentes, juntamente com muitas melhorias de acessibilidade e correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 24 de fevereiro de 2022 |
+| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é uma versão do patch. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 13 de dezembro de 2021 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é uma versão de patch que corrige uma regressão introduzida com a versão anterior. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 1 de outubro de 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Esse patch melhora os componentes [Lista](/help/components/list.md) e [Navegação](/help/components/navigation.md) para exibir o URL externo para destinos de redirecionamento, habilita a herança de imagens da página para a próxima v2 do componente [Teaser](/help/components/teaser.md) e contém outras correções de erros. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 31 de agosto de 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta é uma versão de patch para corrigir uma alteração incompatível com versões anteriores que foi introduzida anteriormente. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 2 de agosto de 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Esta versão de patch adiciona suporte para mapas de site para Páginas e inclui várias melhorias de acessibilidade. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 29 de julho de 2021 |
@@ -79,42 +80,42 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 A tabela a seguir detalha que versões de quais componentes estão contidas em quais versões dos Componentes principais.
 
-|  | Versão 1.0.0 - 1.0.6 | Versão 1.1.0 | Versão 2.0.0 - 2.0.8 | Versão 2.1.0 | Versão 2.2.0 - 2.2.0 | Versão 2.3.0 - 2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0 - 2.8.0 | Versão 2.9.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[Página](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Título](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Imagem](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Lista](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Navegação estrutural](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Compartilhamento em redes sociais](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Container de formulário](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Texto de formulário](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Opções de formulário](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulário oculto](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Botão de formulário](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Fragmento de conteúdo](components/content-fragment-component.md)** |  | Caixa de proteção | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 |
-| **[Navegação](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Navegação de idiomas](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Pesquisa rápida](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Guias](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Carrossel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Separador](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Lista de fragmentos de conteúdo](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[Acordeão](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Botão](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Container](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Download](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Fragmento de experiência](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Incorporação](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[Barra de progresso](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
-| **[Visualizador de PDF](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+|  | Versão 1.0.0 - 1.0.6 | Versão 1.1.0 | Versão 2.0.0 - 2.0.8 | Versão 2.1.0 | Versão 2.2.0 - 2.2.0 | Versão 2.3.0 - 2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0 - 2.8.0 | Versão 2.9.0-2.17.14 | Versão 2.18.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[Página](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Título](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Imagem](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Lista](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Navegação estrutural](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Compartilhamento em redes sociais](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Container de formulário](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Texto de formulário](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Opções de formulário](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulário oculto](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Botão de formulário](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Fragmento de conteúdo](components/content-fragment-component.md)** |  | Caixa de proteção | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[Navegação](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Navegação de idiomas](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Pesquisa rápida](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Guias](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Carrossel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Separador](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Lista de fragmentos de conteúdo](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Acordeão](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Botão](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Container](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Download](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Fragmento de experiência](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 |
+| **[Incorporação](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1, v2 |
+| **[Barra de progresso](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[Visualizador de PDF](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
 
 ## Versões e lançamentos {#versions-and-releases}
 
 Os Componentes principais são distribuídos pelo GitHub. Isso permite que a Adobe adicione funcionalidades aos componentes com mais rapidez e permita contribuições da comunidade fora do ciclo de lançamento do AEM.
 
-Os Componentes principais são disponibilizados com versões AEM definidas com as quais são compatíveis. Isso significa que uma versão AEM pode suportar várias versões dos Componentes principais. Isso dá mais flexibilidade do que os antigos Componentes de base, que estavam vinculados a uma versão específica do AEM.
+Os Componentes principais são disponibilizados com versões AEM definidas com as quais são compatíveis. Isso significa que uma versão AEM pode suportar várias versões dos Componentes principais.
 
 ### Versões {#versions}
 
@@ -126,11 +127,11 @@ Para mais detalhes sobre as versões dos componentes principais, consulte a [doc
 
 ### Versões {#releases}
 
-Os Componentes principais são disponibilizados por meio de **versões** e [representam os artefatos publicados reais disponíveis no GitHub](https://github.com/adobe/aem-core-wcm-components/releases). As versões são indicadas com um número decimal do formato X.Y.Z e coletam todos os componentes principais juntos como um pacote de entrega.
+Os Componentes principais são disponibilizados por meio de **versões** e [representam os artefatos publicados reais disponíveis no GitHub](https://github.com/adobe/aem-core-wcm-components/releases). As versões são indicadas com um número decimal do formato `X.Y.Z` e coletar todos os componentes principais como um pacote entregável.
 
-* **As versões principais** podem apresentar novas versões dos componentes existentes, juntamente com componentes totalmente novos, bem como correções de bugs padrão. Isso é representado por um incremento no componente X do número da versão.
-* **As versões importantes** podem introduzir uma nova funcionalidade nas versões existentes dos componentes, juntamente com correções de erros. Isso é representado por um incremento no componente Y do número da versão.
-* **As versões secundárias** contêm apenas correções de bugs. Isso é representado por um incremento no componente Z do número da versão.
+* **Versões principais** introduzir componentes totalmente novos, melhorias na versão existente dos componentes, bem como correções de erros padrão. Isso é representado por um incremento no `X` componente do número da versão.
+* **Versões secundárias** introduzir novos componentes, nova funcionalidade nas versões existentes dos componentes, bem como correções de erros. Isso é representado por um incremento no `Y` componente do número da versão.
+* **Versões de patch** contém somente correções de erros. Isso é representado por um incremento no `Z` componente do número da versão.
 
 >[!NOTE]
 >
@@ -140,7 +141,7 @@ Os Componentes principais são disponibilizados por meio de **versões** e [repr
 
 ## Suporte para componentes principais {#core-components-support}
 
-Os componentes principais são parte integrante do AEM e são suportados como estão, nos mesmos termos e condições como se fossem fornecidos como parte do Início rápido.
+Os Componentes principais são parte integrante do AEM e são compatíveis com os mesmos termos e condições como se fossem fornecidos como parte do Início rápido.
 
 Como outros recursos do produto, a regra geral do fim da vida útil é:
 

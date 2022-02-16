@@ -1,16 +1,16 @@
 ---
-title: Componente de Navegação por idiomas
+title: Componente de Navegação por idiomas (v1)
 description: O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
-# Componente de Navegação por idiomas{#language-navigation-component}
+
+# Componente de Navegação por idiomas (v1) {#language-navigation-component}
 
 O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
 
@@ -25,16 +25,13 @@ O [caixa de diálogo de edição](#edit-dialog) permite a definição da raiz de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação de idioma é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v1 do Componente de navegação de idioma, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/language-navigation.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v1 do Componente de Navegação de Idioma.
+>
+>Para obter detalhes sobre a versão atual do Componente de Navegação de Idioma, consulte o [Componente Navegação de idioma](/help/components/language-navigation.md) documento.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -48,7 +45,7 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite a definição da raiz de navegação do site global, bem como a profundidade na estrutura para a navegação.
+A caixa de diálogo de edição permite a definição da raiz de navegação do site global, bem como a profundidade da estrutura para a navegação.
 
 Normalmente, essas configurações só precisam ser feitas no nível do modelo da página. No entanto, elas podem ser alteradas no nível da página pela [caixa de diálogo de edição](#edit-dialog).
 
@@ -96,9 +93,7 @@ O componente de Navegação de Idioma é compatível com o [Sistema de Estilos](
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-### Guia Propriedades {#properties-tab-edit}
-
-Normalmente, o componente de Navegação por idiomas só precisa ser adicionado e configurado nos modelos de página de um site. No entanto, se o componente Navegação por idiomas precisar ser adicionado a uma página de conteúdo individual, a caixa de diálogo de edição permitirá que um autor de conteúdo configure os mesmos valores, conforme descrito na [caixa de diálogo de design](#design-dialog)
+Normalmente, o componente de Navegação por idiomas só precisa ser adicionado e configurado nos modelos de página de um site. No entanto, se o componente Navegação por idiomas precisar ser adicionado a uma página de conteúdo individual, a caixa de diálogo de edição permitirá que um autor de conteúdo configure os mesmos valores, conforme descrito na [caixa de diálogo de design](#design-dialog).
 
 Além disso, você pode definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
 
@@ -107,22 +102,6 @@ Além disso, você pode definir um **ID**. Essa opção permite controlar o iden
 * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
 ![Caixa de diálogo de edição do componente Navegação por idiomas](/help/assets/language-navigation-edit.png)
-
-### Guia Acessibilidade {#accessibility-tab}
-
-* **Rótulo** - Essa opção deve ser definida se houver mais de uma navegação de idioma na página para definir o atributo aria label do componente.
-
-![Guia Acessibilidade de navegação de idiomas](/help/assets/language-navigation-edit-accessibility.png)
-
-### Guia Estilos {#styles-tab-edit}
-
-O componente Navegação de idiomas é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
-
-![Guia Estilos da caixa de diálogo Editar do Componente de Navegação de Idioma](/help/assets/language-navigation-edit-styles.png)
 
 ## Camada de dados de clientes Adobe {#data-layer}
 

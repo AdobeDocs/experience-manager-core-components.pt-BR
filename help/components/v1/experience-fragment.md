@@ -1,16 +1,16 @@
 ---
-title: Componente de Fragmento de experiência
+title: Componente de Fragmento de experiência (v1)
 description: O componente de Fragmento de experiência permite que o autor de conteúdo adicione uma variação de fragmento de experiência a uma página.
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 88%
+source-wordcount: '780'
+ht-degree: 94%
 
 ---
 
-# Componente de Fragmento de experiência{#experience-fragment-component}
+
+# Componente de Fragmento de experiência (v1) {#experience-fragment-component}
 
 O componente de Fragmento de experiência, dos Componentes principais, permite que o autor de conteúdo coloque uma variação de fragmento de experiência em uma página enquanto suporta uma estrutura de site localizada.
 
@@ -23,16 +23,13 @@ O componente de Fragmento de experiência, dos Componentes principais, permite q
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de fragmento de experiência é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v1 do Componente de fragmento de experiência, que foi introduzido com a versão 2.6.0 dos Componentes principais em setembro de 2019.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/experience-fragment.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v1 do Componente do fragmento de experiência.
+>
+>Para obter detalhes sobre a versão atual do Componente de fragmento de experiência, consulte o [Componente do fragmento de experiência](/help/components/experience-fragment.md) documento.
 
 ## Suporte localizado à estrutura do site {#localized-site-structure}
 
@@ -128,16 +125,6 @@ Você também pode definir um **ID**. Essa opção permite controlar o identific
 * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
 * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
 * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
-
-### Guia Estilos {#styles-tab-edit}
-
-![Guia Estilos da caixa de diálogo Editar do Componente de fragmento de experiência](/help/assets/experience-fragment-edit-styles.png)
-
-O componente Fragmento de experiência é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

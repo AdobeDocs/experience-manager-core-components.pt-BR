@@ -1,16 +1,16 @@
 ---
-title: Componente de Lista de fragmentos de conteúdo
+title: Componente de Lista de fragmentos de conteúdo (v1)
 description: O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de fragmentos de conteúdo.
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 86%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
-# Componente de Lista de fragmentos de conteúdo{#content-fragment-list-component}
+
+# Componente de Lista de fragmentos de conteúdo (v1) {#content-fragment-list-component}
 
 O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de [fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR).
 
@@ -23,16 +23,13 @@ O componente de Lista de fragmentos de conteúdo, dos Componentes principais, pe
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de fragmento de conteúdo é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+O documento descreve a v1 do Componente do fragmento de conteúdo, que foi introduzido com a versão 2.4.0 dos Componentes principais em maio de 2019.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/content-fragment-list.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v1 do Componente da lista de fragmentos de conteúdo.
+>
+>Para obter detalhes sobre a versão atual do Componente de lista de fragmentos de conteúdo, consulte o [Componente da lista de fragmentos do conteúdo](/help/components/content-fragment-list.md) documento.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -87,18 +84,6 @@ Por padrão, todos os elementos do Modelo de fragmento de conteúdo serão inclu
    * Clique ou toque no botão **Excluir** para remover um elemento selecionado.
    * Arraste a alça **Ordenar** para reorganizar a ordem dos elementos.
 
-### Guia Estilos {#styles-tab-edit}
-
-![Guia Estilos da caixa de diálogo Editar do Componente da lista de fragmentos de conteúdo](/help/assets/content-fragment-list-styles.png)
-
-O componente Lista de fragmentos do conteúdo é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
-
 ## Caixa de diálogo de design {#design-dialog}
 
-### Guia Estilos {#styles-tab}
-
-O componente Lista de fragmentos do conteúdo é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A caixa de diálogo de design permite que o autor do modelo defina os estilos aplicados ao componente de Lista de fragmentos de conteúdo.

@@ -4,9 +4,9 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [Texto do formulário](components/forms/form-text.md)
    + Componentes v1 {#v1-components}
       + [Navegação estrutural (v1)](components/v1/breadcrumb-v1.md)
+      + [Botão (v1)](components/v1/button.md)
+      + [Lista de fragmento do conteúdo (v1)](components/v1/content-fragment-list.md)
+      + [Download (v1)](components/v1/download.md)
+      + [Incorporado (v1)](components/v1/embed.md)
+      + [Fragmento de experiência (v1)](components/v1/experience-fragment.md)
       + [Imagem (v1)](components/v1/image-v1.md)
+      + [Navegação por idiomas (v1)](components/v1/language-navigation.md)
       + [Lista (v1)](components/v1/list-v1.md)
+      + [Navegação (v1)](components/v1/navigation.md)
       + [Página (v1)](components/v1/page-v1.md)
+      + [Teaser (v1)](components/v1/teaser.md)
       + [Texto (v1)](components/v1/text-v1.md)
       + [Título (v1)](components/v1/title-v1.md)
       + Componentes de formulário v1 {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [Formulário Oculto (v1)](components/v1/form-hidden-v1.md)
          + [Opções de formulário (v1)](components/v1/form-options-v1.md)
          + [Texto do formulário (v1)](components/v1/form-text-v1.md)
+   + Componentes v2 {#v2-components}
+      + [Navegação estrutural (v2)](components/v2/breadcrumb.md)
+      + [Imagem (v2)](components/v2/image.md)
+      + [Lista (v2)](components/v2/list.md)
+      + [Página (v2)](components/v2/page.md)
+      + [Título (v2)](components/v2/title.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)

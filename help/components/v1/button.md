@@ -1,16 +1,16 @@
 ---
-title: Componente de Botão
+title: Componente de Botão (v1)
 description: O componente de Botão, dos Componentes principais, permite a criação e a exibição de um botão.
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 79%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# Componente de Botão {#button-component}
+
+# Componente de Botão  (v1) {#button-component}
 
 O componente de Botão, dos Componentes principais, permite a configuração e a exibição de um item de botão em uma página.
 
@@ -23,16 +23,13 @@ O componente de Botão, dos Componentes principais, permite a inclusão de um bo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de botão é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+O documento descreve a v1 do Componente de botão, que foi introduzido com a versão 2.5.0 dos Componentes principais em junho de 2019.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/button.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve v1 do Componente de botão.
+>
+>Para obter detalhes sobre a versão atual do Componente de botão, consulte o [Componente do botão](/help/components/button.md) documento.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -55,7 +52,6 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 * **Texto** - O texto a ser exibido no botão
 * **Link** - Link para uma página de conteúdo no AEM, um recurso externo ou uma âncora
    * Use a **Caixa de diálogo de seleção** para escolher um caminho dentro do AEM.
-* **Abrir link em uma nova guia** - Se marcada, o link será aberto em uma nova guia do navegador.
 * **Ícone** - Identificador para exibir um ícone no botão
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
@@ -69,16 +65,6 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 Na guia **Acessibilidade**, os valores podem ser definidos para rótulos de [acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) para o componente.
 
 * **Rótulo** - Valor de um atributo de rótulo ARIA para o componente
-
-### Guia Estilos {#styles-tab-edit}
-
-![Guia Estilos da caixa de diálogo Editar do Componente de Botão](/help/assets/button-edit-styles.png)
-
-O componente Botão é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

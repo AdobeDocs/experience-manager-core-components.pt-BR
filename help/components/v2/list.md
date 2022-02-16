@@ -1,16 +1,16 @@
 ---
-title: Componente de Lista
+title: Componente de Lista (v2)
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 88%
+source-wordcount: '1022'
+ht-degree: 98%
 
 ---
 
-# Componente de Lista{#list-component}
+
+# Componente de Lista (v2) {#list-component}
 
 O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 
@@ -20,17 +20,13 @@ O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-The current version of the List Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+Este documento descreve a v1 do Componente de lista, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/list.md) | Compatível | Compatível | Compatível |
-| [v1](v1/list-v1.md) | Compatível | Compatível | - |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a versão v2 do componente de Lista.
+>
+>Para obter detalhes sobre a versão atual do componente de Lista, consulte o documento [Componente de Lista](/help/components/list.md).
 
 ## Redirecionamentos em listas {#redirects}
 
@@ -155,20 +151,12 @@ Usando a guia Configurações de item, a formatação dos elementos da lista pod
 
 ![Configurações do item](/help/assets/list-edit-items.png)
 
-* **Vincular itens** - Vincular itens à página correspondente
-* **Mostrar descrição** - Mostrar descrições do item de link
-* **Show Date** - Show modification date of the link item
-* **Exibir como teaser** - Quando marcado, o item é exibido como um teaser
-
-### Guia Estilos {#styles-tab-edit}
-
-O Componente de lista é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
-
-Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
-
-![Guia Estilos da caixa de diálogo Editar do Componente de lista](/help/assets/list-edit-styles.png)
+* **Vincular itens**
+Vincula itens à página correspondente.
+* **Mostrar descrição**
+Mostra descrições do item de link
+* **Mostrar data**
+Mostra a data de modificação do item de link.
 
 ## Caixa de diálogo de design {#design-dialog}
 

@@ -3,10 +3,10 @@ title: Componente de Guias
 description: O componente de Guias permite a criação de várias guias para organizar o conteúdo em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,28 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo
 >
 >Componentes de guia simples (não aninhados) podem ser localizados/selecionados usando a [árvore de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR#content-tree), no entanto, guias aninhadas não podem ser localizadas/selecionadas.
 
+## Versão e compatibilidade {#version-and-compatibility}
+
+A versão atual do componente de Guias é a v1, introduzida com a versão 2.2.0 dos Componentes principais em outubro de 2018, e está descrita neste documento.
+
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
+
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+
+Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+
+## Exemplo de saída do componente {#sample-component-output}
+
+Para experimentar o componente de Guias, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_tabs_br).
+
+### Detalhes técnicos {#technical-details}
+
+A documentação técnica mais recente sobre o componente de Guias [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_br).
+
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+
 ## Deep linking para um painel {#deep-linking}
 
 Os [componentes Acordeão](accordion.md) e de Guias suportam a vinculação diretamente a um painel dentro do componente.
@@ -39,28 +61,6 @@ Para fazer isso:
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser expandido por padrão, ele será expandido automaticamente.
-
-## Versão e compatibilidade {#version-and-compatibility}
-
-A versão atual do componente de Guias é a v1, introduzida com a versão 2.2.0 dos Componentes principais em outubro de 2018, e está descrita neste documento.
-
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o componente de Guias, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_tabs_br).
-
-### Detalhes técnicos {#technical-details}
-
-A documentação técnica mais recente sobre o componente de Guias [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_br).
-
-Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -118,7 +118,7 @@ Depois de escolher a opção **Selecionar painel** na barra de ferramentas do co
 
 >[!NOTE]
 >
->As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar**. Use o modo de **[Visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#preview-mode)** ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
+>As guias não podem ser selecionadas pelo autor quando estiverem no modo **Editar**. Use o modo de **[Visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#preview-mode)** ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interagir com as guias como um leitor do conteúdo publicado.
 
 ## Caixa de diálogo de design {#design-dialog}
 

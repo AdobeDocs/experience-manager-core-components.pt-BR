@@ -3,10 +3,10 @@ title: Componente Fragmento de Conteúdo
 description: O componente Fragmento de Conteúdo, dos Componentes Principais, permite a exibição de um fragmento de conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ O componente Fragmento do Conteúdo, dos Componentes Principais, permite a exibi
 
 ## Uso {#usage}
 
-O componente Fragmento de Conteúdo, dos Componentes Principais, permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR) em uma página.
+O componente Fragmento de Conteúdo, dos Componentes Principais, permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) em uma página.
 
 * O fragmento e suas propriedades podem ser selecionados na [caixa de diálogo de configuração](#configure-dialog).
 * Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na [caixa de diálogo de Design](#design-dialog).
@@ -34,7 +34,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatível | Compatível | Compatível |
+| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 >[!NOTE]
 >

@@ -1,16 +1,16 @@
 ---
-title: 'Componente de Download '
+title: Componente de download (v1)
 description: O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# Componente de Download {#download-component}
+
+# Componente de Download  (v1) {#download-component}
 
 O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 
@@ -23,16 +23,13 @@ O componente de Download, dos Componente principais, permite a inclusão de uma 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de download é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v1 do Componente de download, que foi introduzido com a versão 2.5.0 dos Componentes principais em junho de 2019.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/download.md) | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v1 do Componente de download.
+>
+>Para obter detalhes sobre a versão atual do Componente de download, consulte o [Baixar componente](/help/components/download.md) documento.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -52,7 +49,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
 
 ### Guia Ativo {#asset-tab}
 
-A seleção de um ativo de download é muito semelhante à funcionalidade do [Componente de imagem](image.md), aproveitando também o DAM do AEM.
+A seleção de um ativo de download é muito semelhante à funcionalidade do [Componente de imagem](image-v1.md), aproveitando também o DAM do AEM.
 
 * **Baixar ativo**
    * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
@@ -74,16 +71,6 @@ A seleção de um ativo de download é muito semelhante à funcionalidade do [Co
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
-
-### Guia Estilos {#styles-tab-edit}
-
-![Guia Estilos da caixa de diálogo Editar do Componente de download](/help/assets/download-edit-styles.png)
-
-O Componente de download é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

@@ -1,16 +1,16 @@
 ---
-title: Componente de Navegação estrutural
+title: Componente de Navegação estrutural (v2)
 description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 87%
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
-# Componente de Navegação estrutural{#breadcrumb-component}
+
+# Componente de Navegação estrutural (v2) {#breadcrumb-component}
 
 O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 
@@ -22,17 +22,13 @@ As opções disponíveis, como o nível de navegação padrão e a capacidade de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação estrutural é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a versão 2 do Componente de navegação estrutural, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/breadcrumb.md) | Compatível | Compatível | Compatível |
-| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | - |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento descreve a v2 do componente de Navegação estrutural.
+>
+>Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -52,8 +48,6 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 A caixa de diálogo de edição permite que o autor de conteúdo suprima páginas ocultas e ativas na navegação estrutural, bem como a profundidade na hierarquia que deve ser exibida.
 
-## Guia Propriedades {#properties-tab}
-
 ![Caixa de diálogo de edição do componentes de Navegação estrutural](/help/assets/breadcrumb-edit.png)
 
 * **Nível inicial da navegação** - Na hierarquia, é onde o componente de Navegação estrutural deve começar a descer até a página atual. Por exemplo:
@@ -64,21 +58,11 @@ A caixa de diálogo de edição permite que o autor de conteúdo suprima página
 
 * **Mostrar itens de navegação ocultos** - Mostra páginas marcadas como ocultas na navegação estrutural (por padrão, elas não serão exibidas)
 * **Ocultar página atual** - Suprimir a página atual na navegação estrutural (por padrão, ela será exibida)
-* **Desativar sombreamento** - Se a página na hierarquia for um redirecionamento, o nome da página de redirecionamento será exibido em vez do destino. Consulte o [Suporte à estrutura de shadow sites](navigation.md#shadow-structure) do componente de Navegação para mais informações.
+* **Desativar sombreamento** - Se a página na hierarquia for um redirecionamento, o nome da página de redirecionamento será exibido em vez do destino. Consulte o [Suporte à estrutura de shadow sites](../v1/navigation.md#shadow-structure) do componente de Navegação para mais informações.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
-
-### Guia Estilos {#styles-tab-edit}
-
-![Guia Estilos da caixa de diálogo Editar do Componente de lista de navegação estrutural](/help/assets/breadcrumb-edit-styles.png)
-
-O componente de navegação estrutural é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

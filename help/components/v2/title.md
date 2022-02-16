@@ -1,16 +1,16 @@
 ---
-title: Componente do título
+title: Componente do título (v2)
 description: O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
 role: Architect, Developer, Admin, User
-exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 94%
 
 ---
 
-# Componente de Título{#title-component}
+
+# Componente de Título (v2) {#title-component}
 
 O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
 
@@ -20,17 +20,13 @@ O componente de Título deve ser usado como o título ou cabeçalho de uma seç�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de título é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+Este documento descreve a v2 do Componente de título, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/title.md) | Compatível | Compatível | Compatível |
-| [v1](v1/title-v1.md) | Compatível | Compatível | - |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v2 of the Title Component.
+>
+>Para detalhes sobre a versão atual do componente de Título, consulte o documento [Componente de Título](/help/components/title.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -49,7 +45,6 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 * **Título** - Se estiver vazio, o título da página será usado
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título
 * **Link** - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
-* **Abrir link em uma nova guia** - Quando marcado, o link abrirá em uma nova guia do navegador.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -57,19 +52,13 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 
 ![Caixa de diálogo de edição do componente de Título](/help/assets/title-edit.png)
 
+>[!NOTE]
+>
+>A capacidade de definir um link para o título foi introduzida com a versão 2.2.0 dos Componentes principais.
+
 O editor local também pode ser usado para editar o texto do componente de Título.
 
 ![Edição no local do componente de Título](/help/assets/title-edit-inline.png)
-
-### Guia Estilos {#styles-tab-edit}
-
-O componente de título é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
-
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
-
-![Guia Estilos da caixa de diálogo Editar do Componente de título](/help/assets/title-edit-styles.png)
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -82,6 +71,10 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 * **Tipos / tamanhos permitidos para editores** - Ativa ou desativa tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando eles usarem o componente de Título.
 * **Tipo / Tamanho padrão** - Define o tipo de cabeçalho que será atribuído automaticamente quando um autor de conteúdo adicionar o componente de Título a uma página.
 * **Desabilitar link** - Desativa o suporte para links no componente de título para impedir que os autores de conteúdo vinculem de títulos.
+
+>[!NOTE]
+>
+>A capacidade de definir um link para o título foi introduzida com a versão 2.2.0 dos Componentes principais.
 
 ### Guia Estilos {#styles-tab}
 

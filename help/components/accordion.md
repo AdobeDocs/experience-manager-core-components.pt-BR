@@ -3,10 +3,10 @@ title: Componente Acordeão
 description: O componente Acordeão, dos Componentes principais, permite a criação de uma coleção de painéis organizados em acordeão em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,28 @@ O componente Acordeão, dos Componentes principais, permite a criação de uma c
 * A ordem dos painéis do acordeão pode ser definida na caixa de diálogo de configuração, bem como no [popover Selecionar painel](#select-panel-popover).
 * Os padrões do componente Acordeão, ao adicioná-lo a uma página, podem ser definidos na [caixa de diálogo de design](#design-dialog).
 
+## Versão e compatibilidade {#version-and-compatibility}
+
+A versão atual do componente Acordeão é v1, que foi introduzida com a versão 2.5.0 dos Componentes principais em junho de 2019, e está descrita neste documento.
+
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
+
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+
+Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+
+## Exemplo de saída do componente {#sample-component-output}
+
+Para experimentar o componente Acordeão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_accordion_br).
+
+## Detalhes técnicos {#technical-details}
+
+A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
+
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+
 ## Deep linking para um painel {#deep-linking}
 
 Os componentes Acordeão e [Guias](tabs.md) suportam a vinculação diretamente a um painel dentro do componente.
@@ -35,28 +57,6 @@ Para fazer isso:
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser expandido por padrão, ele será expandido automaticamente.
-
-## Versão e compatibilidade {#version-and-compatibility}
-
-A versão atual do componente Acordeão é v1, que foi introduzida com a versão 2.5.0 dos Componentes principais em junho de 2019, e está descrita neste documento.
-
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
-
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | Compatível | Compatível | Compatível |
-
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o componente Acordeão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_accordion_br).
-
-## Detalhes técnicos {#technical-details}
-
-A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
-
-Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
