@@ -4,9 +4,9 @@ description: O componente de Navegação permite que os usuários naveguem facil
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor do conteúdo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de navegação é a v2, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -158,13 +158,13 @@ Na guia **Acessibilidade**, os valores podem ser definidos para rótulos de [ace
 
 ### Guia Estilos {#styles-tab-edit}
 
-O componente Navegação é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de navegação é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
-![Guia Estilos da caixa de diálogo Editar do Componente de navegação](/help/assets/navigation-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de navegação](/help/assets/navigation-edit-styles.png)
 
 ## Caixa de diálogo de design {#design-dialog}
 
