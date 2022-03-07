@@ -58,7 +58,7 @@ ht-degree: 100%
       + [Botão (v1)](components/v1/button.md)
       + [Lista de fragmento do conteúdo (v1)](components/v1/content-fragment-list.md)
       + [Download (v1)](components/v1/download.md)
-      + [Incorporado (v1)](components/v1/embed.md)
+      + [Incorporar (v1)](components/v1/embed.md)
       + [Fragmento de experiência (v1)](components/v1/experience-fragment.md)
       + [Imagem (v1)](components/v1/image-v1.md)
       + [Navegação por idiomas (v1)](components/v1/language-navigation.md)
