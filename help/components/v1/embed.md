@@ -1,11 +1,11 @@
 ---
-title: Incorporar componente (v1)
+title: Componente de incorporação (v1)
 description: O componente de Incorporação permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ O componente de Incorporação, dos Componentes principais, permite que o autor 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente incorporado, que foi introduzido com a versão 2.7.0 dos Componentes principais em setembro de 2019.
+Este documento descreve a versão v1 do componente de incorporação, que foi introduzida com a versão 2.7.0 dos componentes principais em setembro de 2019.
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente incorporado.
+>Este documento descreve a versão v1 do componente de incorporação.
 >
->Para obter detalhes sobre a versão atual do Componente incorporado, consulte o [Incorporar componente](/help/components/embed.md) documento.
+>Para obter detalhes sobre a versão atual do componente de incorporação, consulte o documento [Componente de incorporação](/help/components/embed.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
