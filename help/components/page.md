@@ -4,9 +4,9 @@ description: O componente de Página é um componente de página extensível pro
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Usando a [caixa de diálogo design](#design-dialog), as bibliotecas personalizad
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de página é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de página é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -71,7 +71,7 @@ Usando a janela Design da página, você pode definir as bibliotecas de clientes
 
 * **Ir para o conteúdo principal - seletor de elemento** - Usado como um recurso de acessibilidade para ignorar diretamente o conteúdo principal da página.
 
-* **Renderizar links de idioma alternativos** - Se estiver habilitado, os links para versões de idioma alternativas da página no mesmo site serão adicionados ao cabeçalho da página.
+* **Renderizar links de idiomas alternativos** - Se habilitada, os links para versões de idiomas alternativos da página no mesmo site serão adicionados ao cabeçalho da página.
 
 ![Caixa de diálogo de design do componente de Página](/help/assets/page-design.png)
 
