@@ -3,9 +3,9 @@ title: Componente do título (v2)
 description: O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ O componente de Título deve ser usado como o título ou cabeçalho de uma seç�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v2 do Componente de título, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
+Este documento descreve a versão v2 do componente de título, que foi introduzida com a versão 2.0.0 dos componentes principais em janeiro de 2018.
 
 >[!CAUTION]
 >
->This document describes v2 of the Title Component.
+>Este documento descreve a versão v2 do componente de título.
 >
 >Para detalhes sobre a versão atual do componente de Título, consulte o documento [Componente de Título](/help/components/title.md).
 
