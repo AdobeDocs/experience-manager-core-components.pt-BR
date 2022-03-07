@@ -4,9 +4,9 @@ description: O componente de Imagem, dos Componentes principais, é um component
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1796'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ O componente de Imagem, dos Componentes principais, é um componente de imagem a
 
 O componente de Imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento e recorte fáceis da imagem para o autor de conteúdo.
 
-As larguras de imagem e as configurações adicionais podem ser definidas pelo autor do modelo na função [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos no [configure a caixa de diálogo.](#configure-dialog)
+As larguras de imagem e as configurações adicionais podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos na [caixa de diálogo de configuração.](#configure-dialog)
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de imagem é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de imagem é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -46,7 +46,7 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
 Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
@@ -80,24 +80,24 @@ O componente de Imagem oferece suporte a [schema.org microdata](https://schema.o
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-O componente de imagem oferece uma caixa de diálogo de configuração, onde a própria imagem é definida, juntamente com sua descrição e propriedades básicas.
+O componente de imagem oferece uma caixa de diálogo de configuração, onde a própria imagem é definida juntamente com sua descrição e propriedades básicas.
 
 ### Guia Ativo {#asset-tab}
 
 ![Guia Ativo da caixa de diálogo de configuração do componente de Imagem](/help/assets/image-configure-asset.png)
 
-* **Herdar imagem em destaque da página** - Essa opção usa o [imagem em destaque da página vinculada](page.md) ou a imagem em destaque da página atual se a imagem não estiver vinculada.
+* **Herdar imagem em destaque da página** - Esta opção usa a [imagem em destaque da página vinculada](page.md) ou da página atual, se a imagem não estiver vinculada.
 
-* **Texto alternativo para acessibilidade** - Este campo permite que você defina uma descrição da imagem para usuários com deficiências visuais.
+* **Texto alternativo para acessibilidade** - Este campo permite definir uma descrição da imagem para usuários com deficiências visuais.
 
-   * **Herdar texto alternativo da página** - Esta opção utiliza a descrição alternativa do valor do ativo vinculado da `dc:description` metadados no DAM ou da página atual se nenhum ativo estiver vinculado.
+   * **Herdar texto alternativo da página** - Esta opção utiliza a descrição alternativa do valor do ativo vinculado dos metadados `dc:description` no DAM ou da página atual, se nenhum ativo estiver vinculado.
 
 * **Ativos da imagem**
    * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=pt-BR) no editor de ativos.
 
-* **Não fornecer um texto alternativo** - Essa opção marca a imagem a ser ignorada por tecnologias assistivas, como leitores de tela, nos casos em que a imagem é meramente decorativa ou não transmite informações adicionais para a página.
+* **Não fornecer um texto alternativo** - Esta opção marca a imagem a ser ignorada por tecnologias assistivas, como leitores de tela, nos casos em que a imagem é meramente decorativa ou não transmite informações adicionais para a página.
 
 ### Guia Metadados {#metadata-tab}
 
@@ -113,7 +113,7 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 * **Vinculação** - Vincule a imagem a outro recurso.
    * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
    * Se não estiver vinculando a um recurso do AEM, insira o URL absoluto. URLs não absolutos serão interpretados como relativos a AEM.
-   * **Abrir link em uma nova guia** - Essa opção abre o link em uma nova janela do navegador.
+   * **Abrir link em nova guia** - Esta opção abre o link em uma nova janela do navegador.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -125,31 +125,31 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 ### Guia Estilos {#styles-tab-edit}
 
-![Guia Estilos da caixa de diálogo Editar do Componente de imagem](/help/assets/image-configure-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de imagem](/help/assets/image-configure-styles.png)
 
-O Componente de imagem é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de imagem é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-![Guia Principal da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-main.png)
+![Guia principal da caixa de diálogo de design do componente de imagem](/help/assets/image-design-main.png)
 
-* **Ativar recursos do DM** - Quando marcado, [Recursos do Dynamic Media](#dynamic-media) estão disponíveis.
-   * Essa opção só é exibida quando o Dynamic Media está ativado no ambiente .
-* **Desativar carregamento lento** - Quando marcado, o componente pré-carregará todas as imagens sem o carregamento lento.
+* **Habilitar recursos do DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
+   * Essa opção só é exibida quando o Dynamic Media está habilitado no ambiente.
+* **Desativar carregamento lento** - Quando marcada, o componente pré-carregará todas as imagens sem lentidão no carregamento.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
 * **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Redimensionar largura** - Esse valor é usado para redimensionar a largura das imagens básicas que são ativos do DAM.
+* **Redimensionar largura** - Esse valor é usado para redimensionar a largura das imagens base que são ativos do DAM.
    * A proporção das imagens será preservada.
-   * Se o valor for maior que a largura real da imagem, esse valor não terá efeito.
-   * Esse valor não tem efeito nas imagens SVG.
+   * Se o valor for maior que a largura real da imagem, ele não terá efeito.
+   * Esse valor não tem efeito em imagens SVG.
 
-Você pode definir uma lista de larguras em pixels para a imagem e o componente carregará automaticamente a largura mais apropriada com base no tamanho do navegador. Essa é uma parte importante dos [recursos responsivos](#responsive-features) do componente de Imagem.
+É possível definir uma lista de larguras em pixels para a imagem e o componente carregará automaticamente a largura mais apropriada com base no tamanho do navegador. Essa é uma parte importante dos [recursos responsivos](#responsive-features) do componente de imagem.
 
 * **Larguras** - Define uma lista de larguras em pixels para a imagem e o componente carrega automaticamente a largura mais apropriada com base no tamanho do navegador.
    * Toque ou clique no botão **Adicionar** para adicionar outro tamanho.
