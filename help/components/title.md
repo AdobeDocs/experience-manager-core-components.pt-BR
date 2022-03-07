@@ -4,9 +4,9 @@ description: O componente de Título, dos Componentes principais, é um componen
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O componente de Título deve ser usado como o título ou cabeçalho de uma seç�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de título é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de título é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -49,7 +49,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 * **Título** - Se estiver vazio, o título da página será usado
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título
 * **Link** - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
-* **Abrir link em uma nova guia** - Quando marcado, o link abrirá em uma nova guia do navegador.
+* **Abrir link em nova guia** - Quando marcada, o link abrirá em uma nova guia do navegador.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -63,13 +63,13 @@ O editor local também pode ser usado para editar o texto do componente de Títu
 
 ### Guia Estilos {#styles-tab-edit}
 
-O componente de título é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de título é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
-![Guia Estilos da caixa de diálogo Editar do Componente de título](/help/assets/title-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de título](/help/assets/title-edit-styles.png)
 
 ## Caixa de diálogo de design {#design-dialog}
 
