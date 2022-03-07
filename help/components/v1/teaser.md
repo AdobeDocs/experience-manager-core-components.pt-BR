@@ -1,11 +1,11 @@
 ---
-title: Componente Teaser (v1)
+title: Componente de teaser (v1)
 description: O componente de Teaser pode mostrar uma imagem, um título, um rich text e, opcionalmente, vincular a conteúdo adicional.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ O autor do modelo pode usar a [caixa de diálogo de design](#design-dialog) para
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Teaser Component, que foi introduzido com a versão 2.1.0 dos Componentes principais em julho de 2018.
+Este documento descreve a versão v1 do componente de teaser, que foi introduzida com a versão 2.1.0 dos componentes principais em julho de 2018.
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do componente Teaser.
+>Este documento descreve a versão v1 do componente de teaser.
 >
->Para obter detalhes sobre a versão atual do Teaser Component, consulte o [Componente Teaser](/help/components/teaser.md) documento.
+>Para obter detalhes sobre a versão atual do componente de teaser, consulte o documento [Componente de teaser](/help/components/teaser.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -61,11 +61,11 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ![Guia Texto da caixa de diálogo de edição do componente de Teaser](/help/assets/teaser-edit-text.png)
 
-* **Pretítulo** - O pretítulo será exibido antes do título do teaser.
+* **Pre-título** - O pre-título será exibido antes do título do teaser.
 * **Título** - Define um título a ser exibido como o título do teaser.
-   * **Obter título de página vinculada** - Quando marcado, o título será preenchido com o título da página vinculada.
+   * **Obter título da página vinculada** - Quando marcado, o título será preenchido com o título da página vinculada.
 * **Descrição** - Define uma descrição a ser exibida como o subtítulo do teaser.
-   * **Obter descrição de uma página vinculada** - Quando marcada, a descrição será preenchida com a descrição da página vinculada.
+   * **Obter descrição da página vinculada** - Quando marcada, a descrição será preenchida com a descrição da página vinculada.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -80,7 +80,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Por conseguinte, o [caixa de diálogo editar](image-v1.md#edit-dialog do Componente de imagem está disponível para o autor do conteúdo para manipular a imagem do teaser.
+O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Portanto, a [caixa de diálogo de edição](image.md#edit-dialog) do componente de imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -91,9 +91,9 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 ![Caixa de diálogo de design do componente de Teaser](/help/assets/teaser-design.png)
 
 * **Frases de chamariz**
-   * **Desativar Frases de chamariz** - Ocultar a opção **Frases de chamariz** para autores de conteúdo
+   * **Desabilitar frases de chamariz** - Ocultar a opção **Frases de chamariz** para autores de conteúdo
 * **Elementos**
-   * **Ocultar pretítulo** - Oculta a opção de **Pretítulo** para autores de conteúdo
+   * **Ocultar pre-título** - Oculta a opção de **Pre-título** para autores de conteúdo
    * **Ocultar título** - Oculta a opção de **Título** para autores de conteúdo
       * Quando selecionado, o **Tipo de Título** fica oculto
    * **Ocultar descrição** - Oculta a opção de **Descrição** para autores de conteúdo
@@ -101,7 +101,7 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 * **Links**
    * **Não vincular a imagem** - Quando selecionada, a imagem do teaser não é vinculada
    * **Não vincular o título** - Quando selecionado, o título do teaser não é vinculado
-* **Delegação de imagem** - Exibição informativa indicando para qual componente o Teaser delega o manuseio de imagem.
+* **Delegar imagem** - Exibição informativa indicando para qual componente o Teaser delega o manuseio de imagem.
 
 ### Guia Estilos {#styles-tab}
 
