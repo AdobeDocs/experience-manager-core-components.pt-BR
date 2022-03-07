@@ -4,9 +4,9 @@ description: O componente de Texto é um componente de edição e composição d
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 | [v1](v1/text-v1.md) | Compatível | Compatível | - |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
@@ -51,7 +51,7 @@ O restante deste artigo demonstra a configuração padrão do componente princip
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no componente de Texto.
+>Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no componente de Texto.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -127,7 +127,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
       * Os caminhos não absolutos são interpretados como relativos ao AEM
 * Inserir texto descritivo alternativo para o link
 * Selecionar comportamento do link
-   * Target
+   * Destino
    * Mesma guia
    * Nova guia
    * Quadro pai
@@ -258,7 +258,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
 
 ### Caracteres especiais {#special-characters}
 
