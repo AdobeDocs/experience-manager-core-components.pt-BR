@@ -4,9 +4,9 @@ description: O componente de Contêiner, dos Componentes principais, permite a c
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -71,7 +71,7 @@ Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e
 
 ### Guia Componentes padrão {#default-components-tab}
 
-A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, de modo semelhante a [como os componentes padrão são definidos no modelo de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+A guia Componentes padrão é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, de modo semelhante a [como os componentes padrão são definidos no modelo de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
 
 ### Guia Configurações responsivas {#responsive-settings-tab}
 
