@@ -3,9 +3,9 @@ title: Componente de Lista (v2)
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de lista, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
+Este documento descreve a versão v1 do componente de lista, que foi introduzida com a versão 2.0.0 dos componentes principais em janeiro de 2018.
 
 >[!CAUTION]
 >
->Este documento descreve a versão v2 do componente de Lista.
+>Este documento descreve a versão v2 do componente de lista.
 >
->Para obter detalhes sobre a versão atual do componente de Lista, consulte o documento [Componente de Lista](/help/components/list.md).
+>Para obter detalhes sobre a versão atual do componente de lista, consulte o documento [Componente de lista](/help/components/list.md).
 
 ## Redirecionamentos em listas {#redirects}
 
