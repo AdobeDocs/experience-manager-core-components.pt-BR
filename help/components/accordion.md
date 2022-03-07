@@ -4,9 +4,9 @@ description: O componente Acordeão, dos Componentes principais, permite a cria�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -75,7 +75,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher qual c
 
 >[!TIP]
 >
->Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente Acordeão [arrastando do navegador de componentes e soltando no componente Acordeão no editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/editing-content.html?lang=pt-BR).
+>Se a janela de visualização da página for reduzida para que a caixa de diálogo de edição se torne tela cheia, o botão **Adicionar** ficará oculto. Os componentes ainda podem ser adicionados ao componente Acordeão [arrastando do navegador de componentes e soltando no componente Acordeão no editor de páginas](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponen).
 
 ### Guia Propriedades {#properties-tab}
 
