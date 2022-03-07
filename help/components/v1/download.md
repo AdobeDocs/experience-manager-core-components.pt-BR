@@ -3,9 +3,9 @@ title: Componente de download (v1)
 description: O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ O componente de Download, dos Componente principais, permite a inclusão de uma 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v1 do Componente de download, que foi introduzido com a versão 2.5.0 dos Componentes principais em junho de 2019.
+Este documento descreve a versão v1 do componente de download, que foi introduzida com a versão 2.5.0 dos componentes principais em junho de 2019.
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente de download.
+>Este documento descreve a versão v1 do componente de download.
 >
->Para obter detalhes sobre a versão atual do Componente de download, consulte o [Baixar componente](/help/components/download.md) documento.
+>Para obter detalhes sobre a versão atual do componente de download, consulte o documento [Componente de download](/help/components/download.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
