@@ -3,9 +3,9 @@ title: Componente de imagem (v2)
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ As larguras de imagem, o corte e as configurações adicionais podem ser definid
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v2 do Componente de imagem, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
+Este documento descreve a versão v2 do componente de imagem, que foi introduzida com a versão 2.0.0 dos componentes principais em janeiro de 2018.
 
 >[!CAUTION]
 >
