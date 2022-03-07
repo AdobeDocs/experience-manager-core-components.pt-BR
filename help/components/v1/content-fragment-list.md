@@ -3,9 +3,9 @@ title: Componente de Lista de fragmentos de conteúdo (v1)
 description: O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a exibição de uma lista de fragmentos de conteúdo.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,20 +16,20 @@ O componente de Lista de fragmentos de conteúdo, dos Componentes principais, pe
 
 ## Uso {#usage}
 
-O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a inclusão de uma lista de [fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) em uma página com base em um modelo de Fragmento de conteúdo. Isso pode ser especialmente útil para criar [conteúdo sem periféricos](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que podem ser facilmente consumidos por outros aplicativos.
+O componente de Lista de fragmentos de conteúdo, dos Componentes principais, permite a inclusão de uma lista de [fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR) em uma página com base em um modelo de Fragmento de conteúdo. Isso pode ser especialmente útil para criar [conteúdo sem periféricos](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que podem ser facilmente consumidos por outros aplicativos.
 
 * A lista e suas propriedades podem ser selecionadas na [caixa de diálogo de configuração](#configure-dialog).
 * Os estilos podem ser aplicados ao componente na [caixa de diálogo de design](#design-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O documento descreve a v1 do Componente do fragmento de conteúdo, que foi introduzido com a versão 2.4.0 dos Componentes principais em maio de 2019.
+O documento descreve a versão v1 do componente de fragmento de conteúdo, que foi introduzida com a versão 2.4.0 dos componentes principais em maio de 2019.
 
 >[!CAUTION]
 >
->Este documento descreve a v1 do Componente da lista de fragmentos de conteúdo.
+>Este documento descreve a versão v1 do componente de lista do fragmento de conteúdo.
 >
->Para obter detalhes sobre a versão atual do Componente de lista de fragmentos de conteúdo, consulte o [Componente da lista de fragmentos do conteúdo](/help/components/content-fragment-list.md) documento.
+>Para obter detalhes sobre a versão atual do componente de lista do fragmento de conteúdo, consulte o documento [Componente de lista do fragmento de conteúdo](/help/components/content-fragment-list.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
