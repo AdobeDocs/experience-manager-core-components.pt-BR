@@ -4,9 +4,9 @@ description: O componente de Lista, dos Componentes principais, permite criar co
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-The current version of the List Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+A versão atual do componente de lista é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -155,20 +155,20 @@ Usando a guia Configurações de item, a formatação dos elementos da lista pod
 
 ![Configurações do item](/help/assets/list-edit-items.png)
 
-* **Vincular itens** - Vincular itens à página correspondente
-* **Mostrar descrição** - Mostrar descrições do item de link
-* **Show Date** - Show modification date of the link item
-* **Exibir como teaser** - Quando marcado, o item é exibido como um teaser
+* **Vincular itens** - Vincula itens à página correspondente.
+* **Mostrar descrição** - Mostra descrições do item de link
+* **Mostrar data** - Mostra a data de modificação do item de link.
+* **Exibir como teaser** - Quando marcada, o item é exibido como um teaser
 
 ### Guia Estilos {#styles-tab-edit}
 
-O Componente de lista é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de lista é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
-![Guia Estilos da caixa de diálogo Editar do Componente de lista](/help/assets/list-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de lista](/help/assets/list-edit-styles.png)
 
 ## Caixa de diálogo de design {#design-dialog}
 
