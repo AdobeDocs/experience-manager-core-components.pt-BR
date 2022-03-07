@@ -4,9 +4,9 @@ description: O componente de Download, dos Componentes principais, permite a cri
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ O componente de Download, dos Componente principais, permite a inclusão de uma 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de download é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de download é a v2, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -77,13 +77,13 @@ A seleção de um ativo de download é muito semelhante à funcionalidade do [Co
 
 ### Guia Estilos {#styles-tab-edit}
 
-![Guia Estilos da caixa de diálogo Editar do Componente de download](/help/assets/download-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de download](/help/assets/download-edit-styles.png)
 
-O Componente de download é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de download é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
