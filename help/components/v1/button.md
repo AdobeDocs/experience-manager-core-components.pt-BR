@@ -3,9 +3,9 @@ title: Componente de Botão (v1)
 description: O componente de Botão, dos Componentes principais, permite a criação e a exibição de um botão.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ O componente de Botão, dos Componentes principais, permite a inclusão de um bo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O documento descreve a v1 do Componente de botão, que foi introduzido com a versão 2.5.0 dos Componentes principais em junho de 2019.
+O documento descreve a versão v1 do componente de botão, que foi introduzida com a versão 2.5.0 dos componentes principais em junho de 2019.
 
 >[!CAUTION]
 >
->Este documento descreve v1 do Componente de botão.
+>Este documento descreve a versão v1 do componente de botão.
 >
->Para obter detalhes sobre a versão atual do Componente de botão, consulte o [Componente do botão](/help/components/button.md) documento.
+>Para obter detalhes sobre a versão atual do componente de botão, consulte o documento [Componente de botão](/help/components/button.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
