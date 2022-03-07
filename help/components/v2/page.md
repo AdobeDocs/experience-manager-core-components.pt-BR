@@ -3,9 +3,9 @@ title: Componente de Página (v2)
 description: O componente de Página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Usando a [caixa de diálogo design](#design-dialog), as bibliotecas personalizad
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a v2 do Componente de página, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
+Este documento descreve a versão v2 do componente de página, que foi introduzida com a versão 2.0.0 dos componentes principais em janeiro de 2018.
 
 >[!CAUTION]
 >
->Este documento descreve a v2 do componente de Página.
+>Este documento descreve a versão v2 do componente de página.
 >
->Para obter detalhes sobre a versão atual do componente de Página, consulte o documento [Componente de Página](/help/components/page.md).
+>Para obter detalhes sobre a versão atual do componente de página, consulte o documento [Componente de página](/help/components/page.md).
 
 ## Compatível com o Aplicativo web progressivo {#pwa-support}
 
