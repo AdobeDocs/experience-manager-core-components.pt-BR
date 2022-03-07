@@ -4,9 +4,9 @@ description: O componente de Fragmento de experiência permite que o autor de co
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ O componente de Fragmento de experiência, dos Componentes principais, permite q
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de fragmento de experiência é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de fragmento de experiência é a v2, introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -131,13 +131,13 @@ Você também pode definir um **ID**. Essa opção permite controlar o identific
 
 ### Guia Estilos {#styles-tab-edit}
 
-![Guia Estilos da caixa de diálogo Editar do Componente de fragmento de experiência](/help/assets/experience-fragment-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de fragmento de experiência](/help/assets/experience-fragment-edit-styles.png)
 
-O componente Fragmento de experiência é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de fragmento de experiência é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
