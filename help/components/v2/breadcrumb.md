@@ -1,16 +1,16 @@
 ---
 title: Componente de Navegação estrutural (v2)
-description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+description: O componente de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Componente de Navegação estrutural (v2) {#breadcrumb-component}
+# Componente de navegação estrutural (v2) {#breadcrumb-component}
 
 O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 
@@ -22,11 +22,11 @@ As opções disponíveis, como o nível de navegação padrão e a capacidade de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-Este documento descreve a versão 2 do Componente de navegação estrutural, que foi introduzido com a versão 2.0.0 dos Componentes principais em janeiro de 2018.
+Este documento descreve a versão v2 do componente de navegação estrutural, que foi introduzida com a versão 2.0.0 dos componentes principais em janeiro de 2018.
 
 >[!CAUTION]
 >
->Este documento descreve a v2 do componente de Navegação estrutural.
+>Este documento descreve a versão v2 do componente de navegação estrutural.
 >
 >Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
 
