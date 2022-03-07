@@ -4,9 +4,9 @@ description: O componente de Incorporação permite a incorporação de conteúd
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ O componente de Incorporação, dos Componentes principais, permite que o autor 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente incorporado é a v2, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de incorporação é a v2, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -56,7 +56,7 @@ Primeiro, escolha que tipo de recurso deve ser incorporado:
 * [Incorporável](#embeddable)
 * [HTML](#html)
 
-Para cada tipo de incorporação, é possível definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
+Para cada tipo de incorporação, é possível definir uma **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
 
 * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
 * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -111,7 +111,7 @@ Você pode adicionar HTML de forma livre à sua página usando o componente de I
 
 A marcação HTML que o autor pode inserir é filtrada para fins de segurança, a fim de evitar ataques de script entre sites que poderiam permitir, por exemplo, que os autores ganhassem direitos administrativos.
 
-Em geral, todos os scripts e elementos `style` assim como todos os atributos `on*` e `style`, serão removidos da saída.
+Em geral, todos os scripts e elementos `style`, assim como todos os atributos `on*` e `style`, serão removidos da saída.
 
 No entanto, as regras são mais complicadas porque o componente de Incorporação segue o conjunto do AEM, de regras de filtragem da estrutura de saneamento HTML global AntiSamy, que pode ser encontrado em `/libs/cq/xssprotection/config.xml`. Isso pode ser sobreposto para configuração específica para um projeto, por um desenvolvedor, se necessário.
 
@@ -123,13 +123,13 @@ Informações adicionais de segurança podem ser encontradas na [documentação 
 
 ### Guia Estilos {#styles-tab-edit}
 
-![Guia Estilos da caixa de diálogo Editar do Componente incorporado](/help/assets/embed-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de incorporação](/help/assets/embed-styles.png)
 
-O Componente incorporado é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de incorporação é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
