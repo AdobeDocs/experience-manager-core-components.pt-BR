@@ -4,9 +4,9 @@ description: O componente de Navegação estrutural, dos Componentes principais,
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ As opções disponíveis, como o nível de navegação padrão e a capacidade de
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de navegação estrutural é a v3, que foi introduzida com a versão 2.18.0 dos Componentes principais em fevereiro de 2022, e é descrita neste documento.
+A versão atual do componente de navegação estrutural é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -72,13 +72,13 @@ A caixa de diálogo de edição permite que o autor de conteúdo suprima página
 
 ### Guia Estilos {#styles-tab-edit}
 
-![Guia Estilos da caixa de diálogo Editar do Componente de lista de navegação estrutural](/help/assets/breadcrumb-edit-styles.png)
+![Guia Estilos da caixa de diálogo de edição do componente de lista da navegação estrutural](/help/assets/breadcrumb-edit-styles.png)
 
-O componente de navegação estrutural é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+O componente de navegação estrutural é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito que as selecionadas na barra de ferramentas do componente.
+Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
