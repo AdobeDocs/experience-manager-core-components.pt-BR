@@ -80,7 +80,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Portanto, a [caixa de diálogo de edição](image.md#edit-dialog) do componente de imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
+O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Portanto, a [caixa de diálogo de edição](image-v1.md#edit-dialog) do componente de imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
 
 ## Caixa de diálogo de design {#design-dialog}
 
