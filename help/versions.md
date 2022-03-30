@@ -4,9 +4,9 @@ description: Os Componentes principais são publicados como versões que podem c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Esta versão corrige um problema no AEMaaCS. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 17 de março de 2022 |
-| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Esta é a versão de correção. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 3 de março de 2022 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Esta é uma versão de correção. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 3 de março de 2022 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Essa versão principal dos componentes principais introduz um novo manipulador de links para novas versões de vários componentes, juntamente com muitas melhorias de acessibilidade e correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 16 de fevereiro de 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é a versão de correção. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 13 de dezembro de 2021 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta é uma versão de correção que corrige uma regressão introduzida na versão anterior. | 6.4.8.4+ * | 6.5.6.0+ * | Contínuo | 8, 11 | 1 de outubro de 2021 |
