@@ -4,10 +4,10 @@ description: Um modelo de projeto para aplicativos baseados no AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '1618'
-ht-degree: 100%
+source-git-commit: 0e8082b0c5db1f2efc7db51f13123b5264a3a608
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Quando todo o arquétipo do projeto do AEM é executado usando `mvn clean instal
 
 ## Visão geral das ClientLibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando uma [ClientLib do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de build NPM, o aplicativo é criado e o pacote aem-clientlib-generator transforma a saída de build resultante na ClientLib.
+O módulo de front-end é disponibilizado usando uma [ClientLib do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Ao executar o script de build NPM, o aplicativo é criado e o pacote aem-clientlib-generator transforma a saída de build resultante na ClientLib.
 
 Uma ClientLib consistirá nos seguintes arquivos e diretórios:
 
@@ -163,7 +163,7 @@ O processo de build do módulo ui.frontend aproveita o plug-in [aem-clientlib-ge
 
 ### Inclusão de bibliotecas de clientes nas páginas {#clientlib-inclusion}
 
-As categorias `clientlib-site` e `clientlib-dependencies` são incluídas nas páginas por meio da [configuração da Política da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) como parte do modelo padrão. Para exibir a política, edite o **Modelo da página de conteúdo > Informações da página > Política da página**.
+As categorias `clientlib-site` e `clientlib-dependencies` são incluídas nas páginas por meio da [configuração da Política da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#template-definitions) como parte do modelo padrão. Para exibir a política, edite o **Modelo da página de conteúdo > Informações da página > Política da página**.
 
 A inclusão final das bibliotecas de clientes na página de sites é a seguinte:
 

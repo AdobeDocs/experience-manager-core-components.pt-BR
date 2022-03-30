@@ -2,13 +2,13 @@
 title: Componente de imagem (v2)
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
+source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
+workflow-type: tm+mt
+source-wordcount: '2231'
+ht-degree: 99%
 
 ---
-
 
 # Componente de imagem  (v2) {#image-component}
 
@@ -60,7 +60,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 >[!CAUTION]
 >
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) no AEM.
+>O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) no AEM.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
