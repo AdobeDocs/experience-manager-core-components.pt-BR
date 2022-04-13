@@ -4,9 +4,9 @@ description: Os Componentes principais seguem padrões de implementação modern
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +85,11 @@ Quando combinado com o [Padrão do componente proxy](#proxy-component-pattern) d
 
 ## Tudo junto na prática {#putting-it-all-together}
 
-Abaixo está uma visão geral de toda a estrutura associando os tipos de recursos, tomando o exemplo do Componente principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão de componentes para evitar que o recurso de conteúdo contenha qualquer número de versão. Ela mostra como o arquivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) do componente usa para a interface do modelo, enquanto a implementação se associa à versão específica do componente por meio de anotações [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
+Abaixo está uma visão geral de toda a estrutura associando os tipos de recursos, tomando o exemplo do Componente principal de Título. Ele ilustra como um componente proxy específico do site permite resolver o controle de versão de componentes para evitar que o recurso de conteúdo contenha qualquer número de versão. Ela mostra como o arquivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=pt-BR) do componente usa para a interface do modelo, enquanto a implementação se associa à versão específica do componente por meio de anotações [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Visão geral da associação de recursos](/help/assets/chlimage_1-32.png)
 
-Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html) associados são referenciados.
+Abaixo está outra visão geral, que não mostra os detalhes do POJO de implementação, mas revela como os [modelos e políticas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=pt-BR) associados são referenciados.
 
 A propriedade `cq:allowedTemplates` informa quais modelos podem ser usados para um site, e o `cq:template` informa qual é o modelo associado para cada página. Cada modelo é composto das três partes a seguir:
 
