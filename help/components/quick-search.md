@@ -4,7 +4,7 @@ description: O componente de Pesquisa rápida fornece recursos de pesquisa para 
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | - | Compatível | Compatível |
-| [v1](/help/components/v1/quick-search.md) | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | - |
+| [v1](/help/components/v1/quick-search.md) | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | - |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
