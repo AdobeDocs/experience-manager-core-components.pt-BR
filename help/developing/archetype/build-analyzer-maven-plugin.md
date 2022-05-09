@@ -7,7 +7,7 @@ exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ A tabela abaixo descreve os analisadores que são executados como parte dessa et
 | `configuration-api` | Valida configurações OSGi importantes. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sim | Sim |
 | `region-deprecated-api` | Verifica se [API obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=pt-BR) é usada <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sim | Sim |
 | `artifact-rules` | Valida dependências como pacotes de conteúdo para evitar problemas conhecidos em artefatos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sim | Sim |
-| `content-package-validation` | Executa validadores de arquivos padrão. Por padrão, o jackrabbit-docviewparser é ativado, o que verifica a sintaxe de conteúdo bem formada dos pacotes xml dentro que serão instalados durante a implantação.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Para corrigir, verifique se há problemas xml no arquivo nomeado pelo analisador. | Sim | Sim |
+| `content-package-validation` | Executa validadores de cofre de arquivos. Por padrão, jackrabbit-docviewparser está habilitado, o que verifica a sintaxe de conteúdo bem formada de xml dentro de pacotes que serão instalados durante a implantação.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Para corrigir, verifique se há problemas de xml no arquivo nomeado pelo analisador. | Sim | Sim |
 
 {style=&quot;table-layout:auto&quot;}
 
