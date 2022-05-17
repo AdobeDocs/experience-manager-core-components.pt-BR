@@ -1,12 +1,12 @@
 ---
-title: Introdução aos Componentes principais
-description: 'Os Componentes principais fornecem componentes básicos robustos e extensíveis, baseados na tecnologia mais recente e nas práticas recomendadas. '
+title: 'Introdução aos Componentes principais '
+description: 'Obtenha soluções para problemas com os Componentes principais e permita que outros criem elementos dentro do AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
