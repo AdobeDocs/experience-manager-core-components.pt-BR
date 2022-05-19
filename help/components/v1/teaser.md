@@ -4,9 +4,9 @@ description: O componente de Teaser pode mostrar uma imagem, um título, um rich
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Por conseguinte, o [caixa de diálogo editar](image-v1.md#edit-dialog) do Componente de imagem está disponível para o autor de conteúdo para manipular a imagem do teaser.
+O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image-v1.md). Portanto, a [caixa de diálogo de edição](image-v1.md#edit-dialog) do Componente de imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
 
 ## Caixa de diálogo de design {#design-dialog}
 
