@@ -4,7 +4,7 @@ description: O componente de Texto é um componente de edição e composição d
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ O restante deste artigo demonstra a configuração padrão do componente princip
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no componente de Texto.
+>Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no componente de Texto.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -258,7 +258,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
 
 ### Caracteres especiais {#special-characters}
 
