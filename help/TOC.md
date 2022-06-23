@@ -4,9 +4,9 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '245'
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [Busca rápida](components/quick-search.md)
    + [Separador](components/separator.md)
    + [Compartilhamento em redes sociais](components/sharing.md)
+   + [Índice](components/tableofcontents.md)
    + [Texto](components/text.md)
    + [Guias](components/tabs.md)
    + [Teaser](components/teaser.md)

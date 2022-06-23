@@ -3,9 +3,9 @@ title: 'Introdução aos Componentes principais '
 description: 'Obtenha soluções para problemas com os Componentes principais e permita que outros criem elementos dentro do AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: ht
-source-wordcount: '924'
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 
 |  |  |
 |---|---|
-| Prontos para produção | Os Componentes principais são 28 componentes robustos e bem testados, amplamente usados e que apresentam um bom desempenho. |
+| Prontos para produção | Os Componentes principais são 30 componentes robustos e bem testados, amplamente usados e que apresentam um bom desempenho. |
 | Prontos para nuvem | Seja no [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR), no [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles simplesmente funcionam. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem reunir quase qualquer layout. |
 | Configuráveis | As [políticas de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=pt-BR#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
@@ -58,6 +58,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 * [Navegação de idiomas](components/language-navigation.md)
 * [Navegação estrutural](components/breadcrumb.md)
 * [Busca rápida](components/quick-search.md)
+* [Índice](components/tableofcontents.md)
 
 ### Componentes de Criação de página {#page-authoring-components}
 
@@ -106,7 +107,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Componentes principais   Versão | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Contínuo | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Contínuo | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
