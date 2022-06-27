@@ -3,9 +3,9 @@ title: Componente de Contêiner de formulário
 description: O componente de Contêiner de formulário, dos Componentes principais, permite a criação de formulários de envio simples.
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '954'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '955'
 ht-degree: 100%
 
 ---
@@ -32,8 +32,8 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
-| [v1](/help/components/v1/form-container-v1.md) | Compatível | Compatível | - |
+| v2 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| [v1](/help/components/v1/form-container-v1.md) | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -119,7 +119,7 @@ Independentemente do tipo de ação selecionada, uma página de agradecimento se
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina os componentes permitidos e seus mapeamentos para o contêiner semelhante à caixa de diálogo de design para o [contêiner de layout padrão no editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
+A caixa de diálogo de design permite que o autor do modelo defina os componentes permitidos e seus mapeamentos para o contêiner semelhante à caixa de diálogo de design para o [contêiner de layout padrão no editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Guia Estilos {#styles-tab}
 

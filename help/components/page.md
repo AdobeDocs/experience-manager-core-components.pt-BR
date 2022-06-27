@@ -3,9 +3,9 @@ title: Componente de Página
 description: O componente de Página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: ht
-source-wordcount: '715'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |---|---|---|---|
 | v3 | - | Compatível | Compatível |
 | [v2](v2/page.md) | Compatível | Compatível | Compatível |
-| [v1](v1/page-v1.md) | Compatível | Compatível | - |
+| [v1](v1/page-v1.md) | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

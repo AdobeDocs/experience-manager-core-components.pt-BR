@@ -3,9 +3,9 @@ title: Componente de Navegação estrutural
 description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '800'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |--- | --- |--- |---|
 | v3 | - | Compatível | Compatível |
 | [v2](v2/breadcrumb.md) | Compatível | Compatível | Compatível |
-| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | - |
+| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

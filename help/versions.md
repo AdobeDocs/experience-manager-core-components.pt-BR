@@ -3,10 +3,10 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 0e00de5d566143258f3b0ad573681806ce35d1af
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '2599'
-ht-degree: 98%
+source-wordcount: '2636'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,8 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Esta versão adiciona um novo [Componente Índice](/help/components/tableofcontents.md) e inclui correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 23 de junho de 2022 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Esta é uma versão de patch que corrige um problema no novo AEMaaCS [serviço de entrega de ativos otimizado para a Web.](/help/developing/web-optimized-image-delivery.md) | - | 6.5.10.0+ * | Contínuo | 8, 11 | 20 de junho de 2022 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Esta versão adiciona um novo [Componente Índice](/help/components/tableofcontents.md), adiciona suporte para AEMaaCS [serviço de entrega de ativos otimizado para a Web,](/help/developing/web-optimized-image-delivery.md) e inclui correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 9 de junho de 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Este lançamento adiciona uma nova versão ao [Componente de pesquisa](/help/components/quick-search.md) e recursos ao [Componente do botão](/help/components/button.md), assim como muitas melhorias de acessibilidade e correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 7 de abril de 2022 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Esta versão corrige um problema no AEMaaCS. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 17 de março de 2022 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Esta é uma versão de correção. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 3 de março de 2022 |

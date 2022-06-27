@@ -2,10 +2,11 @@
 title: Componente Índice
 description: O Componente de índice cria um ToC com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +16,11 @@ O Componente de índice cria um ToC com base nos títulos do conteúdo da págin
 
 ## Uso {#usage}
 
-O componente Índice oferece aos visitantes do site a capacidade de navegar rapidamente pelo conteúdo de sua página por meio de um ToC gerado com base nos títulos do conteúdo das páginas.
+O componente Índice oferece aos visitantes do site a capacidade de navegar rapidamente pelo conteúdo de sua página por meio de um ToC gerado com eficiência, com base nos títulos do conteúdo das páginas.
+
+* O ToC é gerado no lado do servidor.
+* Ele é totalmente armazenado em cache pelo dispatcher para entrega rápida.
+* Funciona com todos os componentes na página, não apenas os Componentes principais.
 
 O [caixa de diálogo editar](#edit-dialog) permite que o autor de conteúdo defina o intervalo de títulos a serem usados no ToC. Usar o [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir o valor padrão para os títulos quando um autor de conteúdo adiciona um Componente de índice a uma página, bem como restringir os títulos incluídos no ToC com base em nomes de classe.
 
