@@ -2,13 +2,13 @@
 title: Entrega de imagem otimizada para a Web
 description: Saiba como os Componentes principais podem aproveitar AEM recursos de entrega de imagens otimizadas para a Web do as a Cloud Service para fornecer imagens de forma mais eficiente.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Entrega de imagem otimizada para a Web {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ Saiba como os Componentes principais podem aproveitar AEM recursos de entrega de
 
 >[!NOTE]
 >
->O serviço de entrega de imagens otimizada para a Web é um recurso de pré-lançamento com a versão de junho de 2022 do AEM as a Cloud Service com GA prevista para julho.
+>O serviço de entrega de imagens otimizada para a Web é um recurso de pré-lançamento com a versão de junho de 2022 do AEM as a Cloud Service com GA previsto para julho.
 >
 >Para obter mais informações sobre os recursos de pré-lançamento do AEMaaCS, consulte o documento [Canal de pré-lançamento do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR)
 
@@ -122,6 +122,6 @@ Consulte a seção anterior [Ativação da entrega de imagem otimizada para a We
 
 Não, isso nunca deve acontecer.
 
-* No HTML, a marcação não é alterada ao ativar imagens otimizadas da Web, somente o valor do atributo SCR no elemento da imagem é alterado.
+* No HTML, a marcação não é alterada ao ativar imagens otimizadas da Web, somente o valor do atributo SRC no elemento de imagem é alterado.
 * Sempre que o novo serviço de imagem não estiver disponível ou não puder processar a imagem desejada, o URL gerado [fallback para o Adaptive Image Servlet.](#fallback)
 * As regras do Dispatcher podem bloquear o serviço de imagem otimizado para a Web e [deve ser verificado ao ativar o recurso.](#activating)
