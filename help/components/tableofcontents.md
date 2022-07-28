@@ -4,9 +4,9 @@ description: O Componente de índice cria um índice com base nos títulos do co
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ O Componente de índice cria um índice com base nos títulos do conteúdo da p�
 
 ## Uso {#usage}
 
-O componente Índice oferece aos visitantes do site a capacidade de navegar rapidamente pelo conteúdo de sua página por meio de um ToC gerado com eficiência, com base nos títulos do conteúdo das páginas.
+O componente de índice oferece aos visitantes do site a capacidade de navegar rapidamente pelo conteúdo da página por meio de um índice gerado eficientemente com base nos títulos do conteúdo das páginas.
 
-* O ToC é gerado no lado do servidor.
-* Ele é totalmente armazenado em cache pelo dispatcher para entrega rápida.
-* Funciona com todos os componentes na página, não apenas os Componentes principais.
+* O índice é gerado no lado do servidor.
+* Ele é totalmente armazenado em cache pelo Dispatcher para entrega rápida.
+* Ele funciona com todos os componentes na página, não apenas com os Componentes principais.
 
 A [caixa de diálogo de edição](#edit-dialog) permite que o autor do conteúdo defina o intervalo de títulos que será usado no índice. Usando a [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir o valor padrão para os títulos quando um autor de conteúdo adiciona um Componente de índice a uma página, bem como restringir os títulos incluídos no índice com base em nomes de classe.
 
@@ -68,7 +68,7 @@ Usando a caixa de diálogo de design, o autor do modelo pode definir o valor pad
 
 ![Caixa de diálogo de design do componente de Pesquisa rápida](/help/assets/tableofcontents-design.png)
 
-* **Restringir tipo de lista**: essa opção define o tipo de lista que o componente gerará. Selecionar essa opção restringe a capacidade do autor do conteúdo de escolher um tipo de lista diferente.
+* **Tipo de lista restrita**: essa opção define o tipo de lista que o componente gerará. Selecionar essa opção restringe a capacidade do autor do conteúdo de escolher um tipo de lista diferente.
 * **Restringir o nível inicial**: essa opção define o nível de título mais alto que o autor de conteúdo pode selecionar para definir o índice.
 * **Restringir o nível de interrupção**: essa opção define o nível de título mais baixo que o autor do conteúdo pode selecionar para definir o índice.
 * **Incluir nomes de classe**: se esta opção estiver definida, somente os títulos com os nomes de classe especificados ou contidos em elementos dos nomes de classe especificados serão considerados pelo Componente de índice.
