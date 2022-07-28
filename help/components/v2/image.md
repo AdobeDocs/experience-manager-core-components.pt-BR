@@ -4,9 +4,9 @@ description: O componente de Imagem, dos Componentes principais, é um component
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -185,9 +185,9 @@ Além disso, você pode definir quais opções gerais de componente são automat
 ![Guia Principal da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-main-v2.png)
 
 * **Ativar recursos DM** - Quando marcado, os [recursos habilitados do Dynamic Media](#dynamic-media) ficam disponíveis.
-* **Ativar imagens otimizadas para a Web** - Quando marcado, a variável [serviço de entrega de imagem otimizada para a Web](/help/developing/web-optimized-image-delivery.md) O fornecerá imagens no formato WebP, reduzindo o tamanho médio das imagens em 25%.
+* **Ativar imagens otimizadas para web** - quando marcada, o [serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
-   * Quando desmarcado ou o serviço de entrega de imagem otimizada para a Web não estiver disponível, a variável [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) é usada.
+   * Quando desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 * **Habilitar carregamento lento** - Define se a opção de carregamento lento é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
 * **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
@@ -204,7 +204,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
 
 >[!TIP]
 >
->Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter dicas para otimizar a seleção de representação definindo cuidadosamente suas larguras.
+>Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter dicas sobre como otimizar a seleção de representações definindo suas larguras criteriosamente.
 
 ### Guia Recursos {#features-tab}
 
