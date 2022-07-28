@@ -5,16 +5,16 @@ breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Ajuda dos Componentes principais do AEM {#using}
 
-+ [Introdução aos Componentes principais](introduction.md)
++ [Introdução aos Componentes principais ](introduction.md)
 + [Caminhos para o sucesso](developing/success.md)
 + [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_br)
 + [Versões](versions.md)
@@ -92,7 +92,7 @@ ht-degree: 97%
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
    + [Inclusão de Bibliotecas do cliente](developing/including-clientlibs.md)
    + [O Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md)
-   + [Entrega de imagem otimizada para a Web](/help/developing/web-optimized-image-delivery.md)
+   + [Entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md)
    + Camada de dados de clientes Adobe {#data-layer}
       + [Visão geral da Camada de dados](developing/data-layer/overview.md)
       + [Integrações com a Camada de dados](developing/data-layer/integrations.md)
