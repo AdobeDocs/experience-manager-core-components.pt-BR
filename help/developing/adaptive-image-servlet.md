@@ -3,10 +3,10 @@ title: Servlet de imagem adaptável
 description: Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: dd07fa714a23759d43ca491232674d88bc7bf88e
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 61%
 
 ---
 
@@ -27,13 +27,26 @@ Este documento descreve o Servlet de imagem adaptável padrão.
 
 Por padrão, o Componente de imagem usa o Servlet de imagem adaptável do Componente principal para fornecer imagens. [O Servlet de imagem adaptável](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes principais](/help/developing/customizing.md).
 
+## Seleção de representação {#rendition-selection}
+
+O Adaptive Image Servlet selecionará automaticamente a representação mais apropriada a ser exibida com base no tamanho do contêiner no qual ele é exibido. O processo de seleção de representação é o seguinte.
+
+1. O Adaptive Image Servlet analisa todas as representações disponíveis do ativo de imagem.
+1. Seleciona apenas aqueles com o mesmo mime/tipo do ativo referenciado original.
+   * Por exemplo, se o ativo original era um PNG, ele só considerará representações de PNG.
+1. Dessas representações, ele considera as dimensões e as compara ao tamanho do contêiner no qual a imagem deve ser exibida.
+   1. Se a representação for >= o tamanho do contêiner, ela será adicionada a uma lista de representações de candidatos.
+   1. Se a representação for &lt; do tamanho do contêiner, ela será desconsiderada.
+   1. Esses critérios garantem que a representação não seja ampliada, o que afetaria a qualidade da imagem.
+1. O Servlet de imagem adaptativa escolhe a representação com o menor tamanho de arquivo da lista de candidatos.
+
 ## Otimização da seleção de representação {#optimizing-rendition-selection}
 
 O Servlet de imagem adaptável tentará escolher a melhor representação para o tamanho e tipo de imagem solicitados. Recomenda-se que as representações do DAM e as larguras permitidas do componente de imagem sejam definidas em sincronia para que o Servlet de imagem adaptável faça o menor processamento possível.
 
 Isto melhorará o desempenho e evitará que algumas imagens sejam processadas corretamente pela biblioteca de processamento de imagens subjacente.
 
-## Usar Cabeçalhos de última modificação {#last-modified}
+## Uso de cabeçalhos com última modificação {#last-modified}
 
 As solicitações condicionais pelo cabeçalho `Last-Modified` são suportadas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified` [precisa ser ativado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
 
