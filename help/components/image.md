@@ -4,9 +4,9 @@ description: O componente de Imagem, dos Componentes principais, é um component
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 >[!TIP]
 >
->Por padrão, o Componente de imagem é alimentado pelo Servlet de imagem adaptativa. Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter detalhes sobre como funciona.
+>Por padrão, o Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter detalhes sobre seu funcionamento.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
@@ -139,7 +139,7 @@ Os estilos devem ser configurados para esse componente na [caixa de diálogo de 
 
 ![Guia principal da caixa de diálogo de design do componente de imagem](/help/assets/image-design-main.png)
 
-* **Habilitar recursos do DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
+* **Ativar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
    * Essa opção só é exibida quando o Dynamic Media está habilitado no ambiente.
 * **Ativar imagens otimizadas para web** - quando marcada, [o serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
