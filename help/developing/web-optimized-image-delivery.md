@@ -4,9 +4,9 @@ description: Saiba como os Componentes principais podem aproveitar os recursos d
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1118'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Da mesma forma que ativar a entrega de imagens otimizadas para a Web não afeta 
 
 ## Perguntas frequentes {#faq}
 
-### Por que não há opção para ativar imagens otimizadas para a Web no meu ambiente? {#missing-option}
+### Por que não há a opção de habilitar as imagens otimizadas para a Web no meu ambiente? {#missing-option}
 
 O recurso só está disponível no AEM as a Cloud Service. Ao executar o AEM localmente, o Componente de imagem [retorna](#fallback) para o uso do Servlet de imagem adaptável.
 
