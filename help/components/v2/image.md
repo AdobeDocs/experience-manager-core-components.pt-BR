@@ -4,9 +4,9 @@ description: O componente de Imagem, dos Componentes principais, é um component
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 >[!TIP]
 >
->O Componente de imagem é alimentado pelo Servlet de imagem adaptativa. Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter detalhes sobre como funciona.
+>O Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter detalhes sobre seu funcionamento.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
