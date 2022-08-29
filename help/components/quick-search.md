@@ -3,8 +3,8 @@ title: Componente de Pesquisa rápida
 description: O componente de Pesquisa rápida fornece recursos de pesquisa para um site e apresenta resultados de pesquisa para que os visitantes possam pesquisar no site e filtrar os resultados.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de Pesquisa rápida é a v1, introduzida com a versão 2.0.0 dos Componentes principais em janeiro de 2018, e está descrita neste documento.
+A versão atual do componente de Pesquisa rápida é a v2, introduzida com a versão 2.18.0 dos Componentes principais em janeiro de 2018, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
