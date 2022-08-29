@@ -2,13 +2,13 @@
 title: Componente de Lista (v2)
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
 workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Componente de Lista (v2) {#list-component}
 
@@ -64,7 +64,7 @@ A lista pode ser criada de maneiras diferentes.
 
 Independentemente de como a lista seja criada, há [Opções de Classificação e ID](#sort-options) que sempre podem ser configuradas.
 
-![Caixa de diálogo de edição do componente de Lista](/help/assets/list-edit.png)
+![Caixa de diálogo de edição do componente de Lista](/help/assets/v2/list-edit.png)
 
 Dependendo de como o autor de conteúdo optar por criar a lista, as opções de configuração adicionais serão alteradas.
 
@@ -72,7 +72,7 @@ Dependendo de como o autor de conteúdo optar por criar a lista, as opções de 
 
 A lista pode ser criada das páginas secundárias da página atual ou de outra página.
 
-![Opções de páginas secundárias](/help/assets/list-edit-child-pages.png)
+![Opções de páginas secundárias](/help/assets/v2/list-edit-child-pages.png)
 
 * **Página primária**
    * A página cujas páginas secundárias devem fazer a lista
@@ -85,7 +85,7 @@ Quantos níveis abaixo da hierarquia devem ser usados
 
 A lista pode ser criada usando uma lista fixa de itens.
 
-![Opções de lista fixa](/help/assets/list-edit-fixed.png)
+![Opções de lista fixa](/help/assets/v2/list-edit-fixed-list.png)
 
 Toque ou clique no botão **Adicionar** para inserir um novo item à lista.
 
@@ -97,7 +97,7 @@ Toque ou clique no botão **Adicionar** para inserir um novo item à lista.
 
 A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 
-![Pesquisar opções de listas](/help/assets/list-edit-search.png)
+![Pesquisar opções de listas](/help/assets/v2/list-edit-search.png)
 
 * **Pesquisar consulta**
 A sequência de caracteres para a qual uma pesquisa de texto completo será executada para gerar os elementos da lista
@@ -110,7 +110,7 @@ Onde a pesquisa deve ser executada
 
 A lista pode ser criada usando páginas que correspondem a determinadas tags em um determinado local.
 
-![Opções da lista de tags](/help/assets/list-edit-tags.png)
+![Opções da lista de tags](/help/assets/v2/list-edit-tags.png)
 
 * **Página principal**
 Onde a correspondência de tags deve começar
@@ -128,7 +128,7 @@ Define que tipo de correspondência deve qualificar uma página a ser incluída 
 
 Independentemente de como você optar por criar a lista, há certas opções de classificação que sempre podem ser definidas.
 
-![Opções de classificação](/help/assets/list-edit-sort-options.png)
+![Opções de classificação](/help/assets/v2/list-edit-sort-options.png)
 
 * **Ordenar por**
 Como os elementos devem ser ordenados
@@ -149,7 +149,7 @@ A ordem na qual os itens devem ser ordenados
 
 Usando a guia Configurações de item, a formatação dos elementos da lista pode ser configurada.
 
-![Configurações do item](/help/assets/list-edit-items.png)
+![Configurações do item](/help/assets/v2/list-edit-item-settings.png)
 
 * **Vincular itens**
 Vincula itens à página correspondente.
@@ -166,7 +166,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais tipos d
 
 Na guia **Configurações da lista**, o formato da data pode ser definido, bem como o tipo de listas que deve estar disponível no componente para os autores de conteúdo.
 
-![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/list-design-list-settings.png)
+![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/v2/list-design-list-settings.png)
 
 * **Formato da data** - Formato a ser usado na exibição da última data de modificação.
 * **Desativar secundárias**
@@ -182,7 +182,7 @@ Desativa o tipo de lista de tags no componente.
 
 Na guia **Configurações do item**, as opções de formatação para os elementos da lista individual que devem estar disponíveis no componente para os autores de conteúdo podem ser definidas.
 
-![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/list-design-item-settings.png)
+![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/v2/list-design-item-settings.png)
 
 * **Vincular itens**
 Habilita a opção Vincular itens na [caixa de diálogo de edição](#edit-dialog).
