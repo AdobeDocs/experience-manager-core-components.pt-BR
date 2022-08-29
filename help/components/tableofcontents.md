@@ -3,9 +3,9 @@ title: Componente de índice
 description: O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v1 | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o Componente de índice e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_tableofcontents).
 
 ### Detalhes técnicos {#technical-details}
 

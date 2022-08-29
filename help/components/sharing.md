@@ -3,9 +3,9 @@ title: 'Componente de Compartilhamento em redes sociais '
 description: O componente de Compartilhamento em redes sociais, dos Componentes principais, é um dispositivo de compartilhamento no Facebook e Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '400'
 ht-degree: 96%
 
 ---
@@ -35,10 +35,6 @@ A tabela a seguir detalha todas as versões compatíveis do componente e as vers
 | v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível, obsoleto | Compatível, obsoleto |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o componente de Compartilhamento em Redes Sociais, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_sharing_br).
 
 ### Detalhes técnicos {#technical-details}
 

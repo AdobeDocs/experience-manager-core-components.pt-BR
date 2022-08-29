@@ -3,8 +3,8 @@ title: Componente de Navegação por idiomas
 description: O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Para experimentar o componente de Navegação por idiomas, e ver exemplos de sua
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Navegação por idiomas [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1_br).
+A documentação técnica mais recente sobre o componente de Navegação por idiomas [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v2_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

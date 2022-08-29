@@ -3,8 +3,8 @@ title: Componente de Lista
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Para experimentar o componente de Lista, e ver exemplos de suas opções de conf
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Lista [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_list_v2_br).
+A documentação técnica mais recente sobre o Componente de Lista [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_list_v3_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
