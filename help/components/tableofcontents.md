@@ -4,7 +4,7 @@ description: O Componente de índice cria um índice com base nos títulos do co
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
 ht-degree: 100%
 
