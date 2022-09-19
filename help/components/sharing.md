@@ -4,7 +4,7 @@ description: O componente de Compartilhamento em redes sociais, dos Componentes 
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -51,8 +51,8 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor de conteúdo, opções de edição adicionais para o componente de Compartilhamento estão disponíveis na guia de compartilhamento, as [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor de conteúdo, opções de edição adicionais para o componente de Compartilhamento estão disponíveis na guia de compartilhamento, as [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=pt-BR).
 
 ## Caixa de diálogo de design {#design-dialog}
 
-Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do modelo, as opções de design para o componente de compartilhamento estão disponíveis por meio das [propriedades da página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Como o compartilhamento requer cabeçalhos de página especiais, qualquer compartilhamento deve ser ativado no nível da página. Portanto, para o autor do modelo, as opções de design para o componente de compartilhamento estão disponíveis por meio das [propriedades da página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
