@@ -4,7 +4,7 @@ description: O componente de Página é um componente de página extensível pro
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ As bibliotecas podem ser configuradas para os campos **Bibliotecas do cliente** 
 * Para remover um campo, clique ou toque no ícone da lixeira ao lado do campo a ser removido.
 * Para reorganizar a ordem de carregamento, clique ou toque e arraste a alça ao lado do campo a ser movido.
 
-Para mais informações sobre o uso de bibliotecas do lado do cliente, consulte [Uso de bibliotecas do lado do cliente](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=pt-BR).
+Para mais informações sobre o uso de bibliotecas do lado do cliente, consulte [Uso de bibliotecas do lado do cliente](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
