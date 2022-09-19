@@ -4,7 +4,7 @@ description: O componente de Lista, dos Componentes principais, permite criar co
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
 ht-degree: 100%
 
