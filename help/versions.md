@@ -3,10 +3,10 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
-workflow-type: ht
-source-wordcount: '2689'
-ht-degree: 100%
+source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
+workflow-type: tm+mt
+source-wordcount: '2753'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,12 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
+| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Esta versão inclui várias melhorias, incluindo a publicação da API do LinkHandler, melhorias no Componente de imagem e na Camada de dados, bem como melhorias nos componentes de vários painéis. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 12 de setembro de 2022 |
+| [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Esta versão corrige um problema na entrega de imagens de SVG via AdaptiveImageServlet. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 4 de agosto de 2022 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | Esta versão de correção corrige um problema com o novo [Componente de índice.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Contínuo | 8, 11 | 7 de julho de 2022 |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Esta versão de correção corrige um problema com o novo [Componente de índice.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Contínuo | 8, 11 | 29 de junho de 2022 |
-| --- | --- | --- | --- | --- | --- | --- |
+| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Esta é uma versão de correção que corrige um problema no novo [serviço de entrega de ativos otimizados para a Web](/help/developing/web-optimized-image-delivery.md) do AEMaaCS. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 20 de junho de 2022 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Esta versão adiciona um novo [Componente de índice](/help/components/tableofcontents.md), compatibilidade com o [serviço de entrega de ativos otimizados para a Web](/help/developing/web-optimized-image-delivery.md) do AEMaaCS e inclui correções de erros. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 9 de junho de 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Este lançamento adiciona uma nova versão ao [Componente de pesquisa](/help/components/quick-search.md) e recursos ao [Componente do botão](/help/components/button.md), assim como muitas melhorias de acessibilidade e correções de erros. | - | 6.5.10.0+ * | Contínuo | 8, 11 | 7 de abril de 2022 |
@@ -137,7 +139,7 @@ Para mais detalhes sobre as versões dos componentes principais, consulte a [doc
 
 ### Versões {#releases}
 
-Os Componentes principais são disponibilizados por meio de **versões** e [representam os artefatos publicados reais disponíveis no GitHub](https://github.com/adobe/aem-core-wcm-components/releases). As versões são indicadas com um número decimal do formato `X.Y.Z` e coletam todos os componentes principais juntos como um pacote de entrega.
+Os componentes principais são disponibilizados por **versões** e [representam os artefatos publicados reais disponíveis no GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) As versões são indicadas com um número decimal do formato `X.Y.Z` e coletam todos os componentes principais juntos como um pacote de entrega.
 
 * **Versões principais** introduzem componentes totalmente novos, melhorias às versões existentes de componentes, bem como correções de erros padrão. Isso é representado por um incremento no componente `X` do número da versão.
 * **Versões secundárias** introduzem novos componentes, novas funcionalidades às versões existentes de componentes, bem como correções de erros. Isso é representado por um incremento no componente `Y` do número da versão.
