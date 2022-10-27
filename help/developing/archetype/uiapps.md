@@ -4,9 +4,9 @@ description: Módulo ui.apps do Arquétipo de projeto do AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '335'
+source-git-commit: 19bceb1d8ba07c70798f2e7203db957d3e8b3d03
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ O plug-in Apache Jackrabbit FileVault Package é usado para compilar os conteúd
 Além do plug-in Jackrabbit FileVault Package, há uma definição do plug-in Pacote de conteúdo, usado para enviar o pacote para o AEM. Observe que são usadas variáveis para `aem.host`, `aem.port`, `vault.user` e `vault.password` que correspondem às propriedades globais definidas no mesmo POM principal.
 
 ## ui.apps/pom.xml {#uiapps-pom}
-
-O pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) fornece as tags `embedded` para o `filevault-package-maven-plugin`. As tags `embedded` incluem o pacote principal compilado como parte do pacote ui.apps e onde ele será instalado.
 
 Observe que os pacotes core.wcm.components.all e core.wcm.components.examples são incluídos como um subpacote. Isso implantará o pacote dos Componentes principais junto com o código WKND toda vez.
 
