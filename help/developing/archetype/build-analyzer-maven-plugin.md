@@ -4,10 +4,10 @@ description: Documentação para o plug-in Maven build analyzer local
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '710'
+ht-degree: 92%
 
 ---
 
@@ -28,6 +28,7 @@ A tabela abaixo descreve os analisadores que são executados como parte dessa et
 | Módulo | Função, exemplo e solução de problemas | SDK local | Cloud Manager |
 |---|---|---|---|
 | `api-regions-exportsimports` | Verifica se todos os pacotes OSGI têm as suas instruções de Pacote de Importação satisfeitas pela instrução de Pacote de Exportação de outros pacotes incluídos no projeto Maven. Um erro seria semelhante a: <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>Para solucionar problemas, consulte se o pacote está incluído na implantação ou, como alternativa, verifique o manifesto do pacote que você espera exportar para determinar se o nome errado ou a versão incorreta foi usada. | Sim | Sim |
+| `bundle-unversioned-packages` | Verifica se os pacotes OSGi especificam uma versão com uma declaração Export-Package e um intervalo de versão com uma declaração Import-Package. Um erro seria semelhante a: <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>Para solucionar problemas, adicione um `package-info.java` para esse pacote especificando a versão a ser exportada. | Sim | Sim |
 | `requirements-capabilities` | Verifica se todas as declarações de requisitos feitas em pacotes OSGI são satisfeitas pelas instruções de recursos de outros pacotes incluídos no projeto Maven. Um erro seria semelhante a: <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> Para solucionar problemas, verifique o manifesto do pacote que você esperaria declarar um recurso para determinar por que ele está ausente, ou verifique no manifesto do pacote que exige para ver se o requisito está correto. | Sim | Sim |
 | `bundle-content` | Fornece um aviso se um pacote contiver conteúdo inicial especificado com Sling-Initial-Content, o que é problemático no ambiente clusterizado do AEM as a Cloud Service. O aviso tem esta aparência: <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>Para solucionar problemas de conversão do conteúdo inicial em instruções de repoinit, consulte a Documentação de Repoinit. | Sim | Sim |
 | `bundle-resources` | Fornece um aviso se um pacote contiver recursos especificados com o cabeçalho Sling-Bundle-Resources, o que é problemático no ambiente clusterizados do AEM as a Cloud Service. O aviso tem esta aparência:<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Para solucionar problemas de conversão de recursos em instruções de repoinit, consulte a [Documentação de Repoinit](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=pt-BR#repo-init). | Sim | Sim |
