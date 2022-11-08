@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -107,7 +107,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Componentes principais   Versão | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---------|---------|---------|---------|---------|
-| [2.21.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Contínuo | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Contínuo | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
