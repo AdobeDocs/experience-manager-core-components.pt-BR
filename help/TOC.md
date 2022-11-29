@@ -4,10 +4,10 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
    + [Autoria com Componentes principais](get-started/authoring.md)
    + [Utilização dos componentes principais](get-started/using.md)
    + [Recursos de localização](get-started/localization.md)
-+ Os componentes {#components}
++ Os componentes do WCM {#wcm-components}
    + [Acordeão](components/accordion.md)
    + [Navegação estrutural](components/breadcrumb.md)
    + [Botão](components/button.md)
@@ -82,6 +82,22 @@ ht-degree: 95%
       + [Lista (v2)](components/v2/list.md)
       + [Página (v2)](components/v2/page.md)
       + [Título (v2)](components/v2/title.md)
++ Componentes de email {#email}
+   + [Introdução](/help/email/introduction.md)
+   + [Usar os componentes principais de email](/help/email/using.md)
+   + [Variáveis de campanha](/help/email/campaign-variables.md)
+   + [Versões](/help/email/versions.md)
+   + Os componentes de email {#components}
+      + [Página](/help/email/components/page.md)
+      + [Contêiner](/help/email/components/container.md)
+      + [Título](/help/email/components/title.md)
+      + [Texto](/help/email/components/text.md)
+      + [Imagem](/help/email/components/image.md)
+      + [Botão](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [Fragmento de experiência](/help/email/components/experience-fragment.md)
+      + [Fragmento de conteúdo](/help/email/components/content-fragment.md)
+      + [Segmentação](/help/email/components/segmentation.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
@@ -110,19 +126,3 @@ ht-degree: 95%
       + [Módulo ui.tests](developing/archetype/uitests.md)
       + [Módulo it.tests](developing/archetype/ittests.md)
       + [Plug-in Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
-+ Componentes de email {#email}
-   + [Introdução](/help/email/introduction.md)
-   + [Usar os componentes principais de email](/help/email/using.md)
-   + [Variáveis de campanha](/help/email/campaign-variables.md)
-   + [Versões](/help/email/versions.md)
-   + Os componentes de email {#components}
-      + [Página](/help/email/components/page.md)
-      + [Contêiner](/help/email/components/container.md)
-      + [Título](/help/email/components/title.md)
-      + [Texto](/help/email/components/text.md)
-      + [Imagem](/help/email/components/image.md)
-      + [Botão](/help/email/components/button.md)
-      + [Teaser](/help/email/components/teaser.md)
-      + [Fragmento de experiência](/help/email/components/experience-fragment.md)
-      + [Fragmento de conteúdo](/help/email/components/content-fragment.md)
-      + [Segmentação](/help/email/components/segmentation.md)
