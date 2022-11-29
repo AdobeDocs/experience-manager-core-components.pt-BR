@@ -2,12 +2,11 @@
 title: Usar os componentes principais de email
 description: Saiba mais sobre a instalação básica, a configuração e o uso dos Componentes principais de email.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 6%
+source-wordcount: '653'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +21,7 @@ Os Componentes principais de email podem ser usados com o AEM 6.5. Consulte o [S
 
 ### Instalar os componentes principais {#core-components}
 
-Os Componentes principais de email são criados nos Componentes principais do AEM. Como os Componentes principais não são fornecidos com o AEM, primeiro instale os Componentes principais do AEM antes de instalar os Componentes principais de email.
+Os Componentes principais de email são criados nos Componentes principais do AEM. Como os Componentes principais não são fornecidos com o AEM 6.5, primeiro instale os Componentes principais do AEM antes de instalar os Componentes principais de email.
 
 Consulte a seção [Baixe e instale](/help/get-started/using.md#download-and-install) seção do documento Uso de componentes principais para obter detalhes sobre como instalar os componentes principais.
 
@@ -80,6 +79,4 @@ Depois que os Componentes de email forem instalados e a integração com o Adobe
 
 Para obter um exemplo de criação de conteúdo de email no AEM e entrega no Adobe Campaign, consulte os seguintes recursos.
 
-* AEM as a Cloud Service: [Criação de informativos da campanha com o AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Trabalhar com o Adobe Campaign Classic e o Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-
