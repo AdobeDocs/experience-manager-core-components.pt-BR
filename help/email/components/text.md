@@ -1,30 +1,30 @@
 ---
 title: Componente de texto de email
-description: O Componente de texto de email é um componente de edição e composição de rich text que possui edição no local.
+description: O Componente de texto de email é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2328'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
 # Componente de texto de email {#email-text-component}
 
-O Componente de texto de email é um componente de edição e composição de rich text que possui edição no local.
+O Componente de texto de email é um componente de edição e composição de rich text que apresenta edição no local.
 
 ## Uso {#usage}
 
-O Componente de texto de email oferece um editor de rich text robusto que facilita a edição de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
+O componente de texto de email oferece um editor de rich text robusto que permite a edição fácil de texto em um editor simplificado e em linha, bem como um formato de tela cheia.
 
 * A [caixa de diálogo de edição](#edit-dialog) apresenta edição em linha com opções limitadas com funcionalidade completa disponível na caixa de diálogo de edição em tela cheia.
-* Usar o [diálogo de design,](#design-dialog) opções de formatação de texto como cabeçalhos, caracteres especiais e estilos de parágrafo podem ser configuradas para o modelo para o autor de conteúdo.
+* Usando a [caixa de diálogo de design](#design-dialog), opções de formatação de texto como cabeçalhos, caracteres especiais e estilos de parágrafos podem ser configurados para o modelo para o autor de conteúdo.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de texto de email é a v1, que foi introduzida com a versão X dos Componentes principais de email em outubro de 2022, e é descrita neste documento.
+A versão atual do Componente de texto do email é a v1, introduzida com a versão X dos Componentes Principais de email em outubro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -32,7 +32,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |---|---|---|
 | v1 | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
+Para mais informações sobre as versões e novidades dos Componentes Principais, consulte o documento [Versões dos Componentes Principais de Email.](/help/email/versions.md)
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -40,27 +40,27 @@ Para experimentar o componente de Texto, e ver exemplos de suas opções de conf
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de texto de email [pode ser encontrado no GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+A documentação técnica mais recente sobre o Componente de texto de email [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
 
-Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
 
-## O componente de texto de email e o editor de rich text {#the-text-component-and-the-rich-text-editor}
+## O Componente de texto de email e o editor de rich text {#the-text-component-and-the-rich-text-editor}
 
-O Componente de texto de email aproveita o Editor de Rich Text AEM (RTE). O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=pt-BR) e [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
+O Componente de texto de email aproveita o editor de rich text (RTE) do AEM. O RTE fornece aos autores de conteúdo uma ampla variedade de funcionalidades para editar seu conteúdo de texto. O RTE é flexível em sua configuração e oferece várias opções. Mais detalhes sobre como o RTE pode ser configurado podem ser encontrados nos artigos [Configurar o editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=pt-BR) e [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
 
-O restante deste documento demonstra a configuração padrão do Componente de texto de email com a configuração predefinida do RTE.
+O restante deste documento demonstra a configuração padrão do Componente de texto de email com a configuração pronta para uso do RTE.
 
 >[!NOTE]
 >
->Somente as opções ativadas por [Configurações da interface do usuário do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto de email.
+>Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no Componente de texto de email.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-![Caixa de diálogo de edição do componente de Texto](/help/email/assets/email-text-edit.png)
+![Caixa de diálogo de edição do Componente de texto](/help/email/assets/email-text-edit.png)
 
 ### Opções de formatação {#options}
 
-A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria compor texto.
+A caixa de diálogo de edição oferece as ferramentas padrão de formatação de rich text que um usuário esperaria para compor o texto.
 
 #### Negrito
 
@@ -104,7 +104,7 @@ Usado para formatar o texto selecionado ou o texto inserido após o cursor como 
 
 Cola qualquer texto copiado como texto sem formatação.
 
-Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado como texto sem formatação como visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado como texto simples sem formatação como pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
 ![Colar como exemplo de texto](/help/assets/text-paste-text-example.png)
 
@@ -112,7 +112,7 @@ Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado c
 
 ![Ícone Colar do Word](/help/assets/text-paste-word.png)
 
-Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado, mantendo sua formatação como visualização, antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
+Ao selecionar essa opção, uma janela é aberta, onde o texto pode ser colado mantendo sua formatação como pré-visualização antes de ser inserido no texto. Aceite tocando ou clicando na marca de seleção, cancele tocando ou clicando no x.
 
 ![Colar do exemplo do Word](/help/assets/text-paste-word-example.png)
 
@@ -125,7 +125,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
 ![Exemplo de hiperlink](/help/assets/text-hyperlink-example.png)
 
 * Insira o caminho
-   * Use o **Abrir seleção** para escolher um caminho em AEM
+   * Usar a caixa de diálogo **Abrir seleção** para escolher um caminho no AEM
    * Se o link não estiver no AEM, insira o URL absoluto
       * Os caminhos não absolutos são interpretados como relativos ao AEM
 * Inserir texto descritivo alternativo para o link
@@ -146,7 +146,7 @@ Use esta opção para remover um link já aplicado ao texto selecionado. Essa op
 
 #### Âncora {#anchor}
 
-![Ícone Âncora](/help/email/assets/anchor.png)
+![Ícone de Âncora](/help/email/assets/anchor.png)
 
 Use essa opção para inserir uma âncora no texto.
 
@@ -159,7 +159,7 @@ Use essa opção para pesquisar a ocorrência de uma cadeia de caracteres de tex
 ![Exemplo de localização](/help/assets/text-find-example.png)
 
 Insira o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
-Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
 
 ![Encontrar exemplo encontrado](/help/assets/text-find-example-found.png)
@@ -179,28 +179,28 @@ Use essa opção para procurar no texto por ocorrências de uma sequência de ca
 Insira o texto que deseja pesquisar, bem como o texto pelo qual ele deve ser substituído.
 
 * Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
-* Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+* Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 * Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
 
-Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. O **Substituir** só estará ativo depois que uma correspondência for feita.
+Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. O botão **Substituir** só estará ativo depois que uma correspondência for feita.
 
 A caixa de diálogo localizar e substituir se torna transparente quando a localização é clicada, e se torna opaca ao clicar em substituir. Isso permite que o autor revise o texto que será substituído.
 
 >[!NOTE]
 >
->Ao usar a funcionalidade de substituição, a string a ser substituída deve ser inserida ao mesmo tempo que a string a ser encontrada. No entanto, você ainda pode clicar em localizar para procurar a cadeia de caracteres antes de substituí-la. Se a cadeia de caracteres de substituição for inserida após clicar em localizar, a pesquisa será redefinida para o início do texto.
+>Ao usar a funcionalidade de substituição, a string que será substituída deve ser inserida ao mesmo tempo que a string que deve ser encontrada. No entanto, você ainda pode clicar em localizar para procurar a cadeia de caracteres antes de substituí-la. Se a cadeia de caracteres de substituição for inserida após clicar em localizar, a pesquisa será redefinida para o início do texto.
 
 #### Desfazer
 
 ![Ícone Desfazer](/help/email/assets/undo.png)
 
-Usada para desfazer a última edição no editor de rich text.
+Usado para desfazer a última edição no editor de rich text.
 
 #### Refazer
 
 ![Ícone Refazer](/help/email/assets/redo.png)
 
-Usado para desfazer uma edição desfeita usando o ícone desfazer .
+Usado para desfazer uma edição desfeita usando o ícone desfazer.
 
 #### Alinhar texto à esquerda
 
@@ -274,7 +274,7 @@ Usado para inserir uma tabela no texto. Selecionar essa opção abre uma janela 
 
 #### Imagem
 
-![Ícone Imagem](/help/email/assets/image-icon.png)
+![Ícone da imagem](/help/email/assets/image-icon.png)
 
 Usado para alinhar uma imagem inserida.
 
@@ -284,7 +284,7 @@ Usado para alinhar uma imagem inserida.
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
 
 #### Caracteres especiais {#special-characters}
 
@@ -324,31 +324,31 @@ Usado para aplicar a formatação de parágrafo ao texto selecionado ou ao texto
 
 #### Selecionar variável do Adobe Campaign
 
-![Ícone Selecionar variável do Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Selecionar ícone da variável do Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-Abre a variável [Selecionar variável Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
+Abre a caixa de diálogo [Selecionar variável do Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
 
 ### Edição em linha {#in-line-editing}
 
 O componente de texto também pode ser editado em linha. Para editar em linha, selecione o Componente de texto de email na página de conteúdo.
 
-![Selecionar componente Texto de email](/help/email/assets/email-text-select-component.png)
+![Selecionar componente de texto de e-mail](/help/email/assets/email-text-select-component.png)
 
-Em seguida, toque ou clique no botão **Editar** na barra de ferramentas que aparece sobre o componente. A barra de ferramentas muda para mostrar opções limitadas de formatação de texto (incluindo acesso ao **Selecionar variável Adobe Campaign** e você pode editar o texto em linha.
+Em seguida, toque ou clique no ícone **Editar** na barra de ferramentas que aparece sobre o componente. A barra de ferramentas muda para mostrar opções limitadas de formatação de texto (incluindo acesso à opção **Selecionar variável do Adobe Campaign**) e permite editar o texto em linha.
 
 ![Exemplo de edição em linha](/help/email/assets/email-text-edit-inline-example.png)
 
-Toque ou clique na marca de seleção na barra de ferramentas para salvar suas alterações ou no X para descartar.
+Toque ou clique na marca de seleção na barra de ferramentas para salvar suas alterações ou no X para descartar. 
 
 Devido a restrições de espaço, nem todas as opções de formatação estão disponíveis em linha. Para ver todas as opções, alterne para o modo de tela cheia.
 
-### Configurar uma ID {#setting-id}
+### Configurar uma ID  {#setting-id}
 
-Essa opção permite controlar o identificador exclusivo do componente no HTM.
+Essa opção permite controlar o identificador exclusivo do componente no HTM. 
 
 * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
 * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
-* A alteração da ID pode afetar o CSS.
+* A alteração de ID pode afetar o CSS.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -356,7 +356,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais opçõe
 
 ### Guia Plug-ins {#plugins-tab}
 
-O **Plug-ins** é usada para ativar e desativar várias opções de formatação de texto disponíveis para os autores de conteúdo.
+A guia **Plug-ins** é usada para ativar e desativar várias opções de formatação de texto disponíveis para os autores de conteúdo.
 
 ### Recursos {#features}
 
@@ -367,7 +367,7 @@ Os seguintes recursos podem ser ativados ou desativados para o componente.
 * Colar texto sem formatação
 * Passado da palavra
 * Localizar e substituir
-* Desfazer e refazer
+* Desfazer e refazer 
 * Verificador ortográfico
 * Opções de modificação da imagem inserida
 * Edição de fonte HTML
@@ -393,8 +393,8 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 
 * Toque ou clique no botão **Adicionar** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um estilo, toque ou clique no botão **Excluir** botão.
-* Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
+* Para remover um estilo, toque ou clique no botão **Excluir**.
+* Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças. 
 
 ### Caracteres especiais {#configuring-special-characters}
 
@@ -404,9 +404,9 @@ A opção para inserir caracteres especiais pode ser ativada ou desativada para 
 
 * Toque ou clique no botão **Adicionar** para inserir um novo caractere.
 * Insira o código HTML do caractere e uma descrição que será exibida na caixa de diálogo de edição.
-* Para remover um caractere, toque ou clique no botão **Excluir** botão.
+* Para remover um caractere, toque ou clique no botão **Excluir**.
 * Para reorganizar a ordem dos caracteres, toque ou clique e arraste as alças.
 
 ## Guia Estilos {#styles-tab}
 
-O componente de texto de email é compatível com o AEM [sistema de estilos](/help/get-started/authoring.md#component-styling).
+O Componente de texto de e-mail é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
