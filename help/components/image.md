@@ -1,22 +1,22 @@
 ---
 title: Componente de imagem
-description: O Componente principal de imagem é um componente de imagem adaptável.
+description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Componente de imagem {#image-component}
 
-O Componente principal de imagem é um componente de imagem adaptável.
+Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 
 ## Uso {#usage}
 
-O Componente de imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento de imagem fácil para o autor de conteúdo.
+O Componente de imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento facilitado de página para o autor de conteúdo.
 
 As larguras de imagem e as configurações adicionais podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos na [caixa de diálogo de configuração.](#configure-dialog)
 
