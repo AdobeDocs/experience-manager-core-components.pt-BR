@@ -4,7 +4,7 @@ description: O Componente Fragmento de conteúdo do email permite a exibição d
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ O Componente Fragmento de conteúdo de email permite a exibição de um [fragmen
 
 ## Uso {#usage}
 
-O Componente Fragmento de conteúdo de email permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR) no seu conteúdo de email. Fragmentos de conteúdo são conteúdos estruturados multicanais que podem ser criados centralmente e facilmente reutilizados.
+O Componente Fragmento de conteúdo de email permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) no seu conteúdo de email. Fragmentos de conteúdo são conteúdos estruturados multicanais que podem ser criados centralmente e facilmente reutilizados.
 
 * O fragmento e suas propriedades podem ser selecionados na [caixa de diálogo de configuração.](#configure-dialog)
 * Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na [caixa de diálogo de Design.](#design-dialog)

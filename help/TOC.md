@@ -6,8 +6,8 @@ user-guide-description: Use os Componentes principais expansíveis para permitir
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 0%
       + [Título (v2)](components/v2/title.md)
 + Componentes de email {#email}
    + [Introdução](/help/email/introduction.md)
-   + [Usar os componentes principais de email](/help/email/using.md)
+   + [Utilização dos Componentes principais de email](/help/email/using.md)
    + [Variáveis de campanha](/help/email/campaign-variables.md)
    + [Versões](/help/email/versions.md)
    + Os componentes de email {#components}

@@ -4,7 +4,7 @@ description: O Componente de container de email permite a criação de um contai
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ A guia **Componentes permitidos** funciona da mesma maneira que a guia de mesmo 
 
 ### Guia Componentes padrão {#default-components-tab}
 
-A guia **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no container, de modo semelhante a [como os componentes padrão são definidos no modelo de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
+A guia **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no container, de modo semelhante a [como os componentes padrão são definidos no modelo de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Guia Configurações do container {#container-settings-tab}
 

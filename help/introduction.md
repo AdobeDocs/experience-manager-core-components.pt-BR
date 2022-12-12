@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '967'
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Para saber quais são os requisitos das versões anteriores dos Componentes prin
 
 Os Componentes principais exigem o uso de [modelos editáveis](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=pt-BR) e não são compatíveis com a IU Clássica nem com modelos estáticos. Se necessário, verifique as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para atualizar seu projeto com esses recursos modernos do AEM.
 
-Para configurar seu ambiente de desenvolvimento local, faça check-out [esta visão geral para AEM SDK as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=pt-BR) ou este documento [para versões anteriores do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=pt-BR).
+Para configurar seu ambiente de desenvolvimento local, confira esta [visão geral do SDK do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=pt-BR) ou este documento [para versões mais antigas do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=pt-BR).
 
 >[!TIP]
 >
