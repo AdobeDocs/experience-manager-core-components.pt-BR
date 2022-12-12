@@ -1,32 +1,32 @@
 ---
-title: Componente de título de email
-description: O Componente de título de email é um componente de cabeçalho de seção para seus emails que apresenta edição no local.
+title: Componente Título de email
+description: O Componente Título de email é um componente de cabeçalho de seção para seus emails que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
-# Componente de título de email {#email-title-component}
+# Componente Título de email {#email-title-component}
 
-O Componente de título de email é um componente de cabeçalho de seção para seus emails que apresenta edição no local.
+O Componente Título de email é um componente de cabeçalho de seção para seus emails que apresenta edição no local.
 
 ## Uso {#usage}
 
-O Componente Título do email deve ser usado como o título ou cabeçalho de uma seção de um email.
+O Componente Título de email deve ser usado como o título ou cabeçalho de uma seção de um email.
 
 * Os níveis de cabeçalho disponíveis podem ser definidos pelo autor do modelo na [caixa de diálogo design.](#design-dialog)
-* O autor de conteúdo pode selecionar entre os níveis de cabeçalho disponíveis na variável [editar caixa de diálogo.](#edit-dialog)
+* O autor do conteúdo pode selecionar a partir dos níveis de cabeçalho disponíveis na [caixa de diálogo de edição.](#edit-dialog)
 
 Para maior conveniência, a edição simples no local do texto do cabeçalho também está disponível.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de título de email é a v1, que foi introduzida com a versão x dos Componentes principais de email em outubro de 2022, e é descrita neste documento.
+A versão atual do Componente Título de email é a v1, que foi introduzida com a versão x dos Componentes principais de email em outubro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -34,7 +34,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |---|---|---|
 | v1 | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões dos Componentes principais, consulte o documento [Versões dos Componentes principais de email](/help/versions.md).
+Para obter mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais de email](/help/versions.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -51,28 +51,28 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 A caixa de diálogo de edição permite que o autor de conteúdo defina o texto do título, e selecione o nível do cabeçalho.
 
 * **Título** - Se estiver vazio, o título da página será usado
-   * Clique no ícone Campanha para abrir o [Selecionar variável Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
+   * Clique no ícone Campanha para abrir a caixa de diálogo [Selecionar variável do Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título
 * **Link** - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
-   * Clique no ícone Campanha para abrir o [Selecionar variável Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
+   * Clique no ícone Campaign para abrir a caixa de diálogo [Selecionar variável do Adobe Campaign](/help/email/campaign-variables.md) para inserir conteúdo dinâmico do Adobe Campaign.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML.
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
-   * A alteração da ID pode afetar o CSS.
+   * A alteração de ID pode afetar o CSS.
 
-![Caixa de diálogo de edição do componente Título de email](/help/email/assets/email-title-edit.png)
+![Caixa de diálogo de edição do Componente Título de email](/help/email/assets/email-title-edit.png)
 
 O editor local também pode ser usado para editar o texto do componente de Título.
 
-![Edição no local do componente Título do email](/help/email/assets/email-title-edit-inline.png)
+![Edição no local do Componente Título de email](/help/email/assets/email-title-edit-inline.png)
 
 ### Guia Estilos {#styles-tab-edit}
 
-O componente Título do email é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling)
+O Componente Título de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso esteja disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso fique disponível.
 
 ![Guia Estilos da caixa de diálogo de edição do componente de título](/help/email/assets/email-title-edit-styles.png)
 
@@ -84,10 +84,10 @@ A caixa de diálogo de design permite que o autor do modelo defina o nível de c
 
 ![Caixa de diálogo de design do componente de Título](/help/email/assets/email-title-design.png)
 
-* **Tipos/tamanhos permitidos para Autores** - Ative ou desative os tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando usarem o Componente de título de email .
-* **Tipo/tamanho padrão** - Defina o tipo de cabeçalho que será atribuído automaticamente quando um autor de conteúdo adicionar o Componente de título de email a uma página.
-* **Desativar link** - Desative o suporte para links no Componente de título de email para impedir que os autores de conteúdo vinculem de títulos.
+* **Tipos / tamanhos permitidos para editores** - Ativa ou desativa tipos de cabeçalho que estarão disponíveis para autores de conteúdo quando eles usarem o Componente Título de email.
+* **Tipo / Tamanho padrão** - Define o tipo de cabeçalho que será atribuído automaticamente quando um autor de conteúdo adicionar o Componente Título de email a uma página.
+* **Desabilitar link** - Desativa o suporte para links no Componente Título de email para impedir que os autores de conteúdo vinculem a partir de títulos.
 
 ### Guia Estilos {#styles-tab}
 
-O componente Título do email é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+O Componente Título de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
