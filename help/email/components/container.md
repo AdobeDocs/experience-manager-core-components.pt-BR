@@ -1,32 +1,32 @@
 ---
-title: Componente Contêiner de email
-description: O Componente contêiner de email permite a criação de um contêiner para vários componentes adicionais no seu conteúdo de email.
+title: Componente de container de email
+description: O Componente de container de email permite a criação de um container para vários componentes adicionais no seu conteúdo de email.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 
-# Componente Contêiner de email {#email-container-component}
+# Componente de container de email {#email-container-component}
 
-O Componente contêiner de email permite a criação de um contêiner para vários componentes adicionais no seu conteúdo de email.
+O Componente de container de email permite a criação de um container para vários componentes adicionais no seu conteúdo de email.
 
 ## Uso {#usage}
 
-O componente Contêiner de email permite a criação de um contêiner para vários componentes adicionais no seu conteúdo de email e pode ser usado para agrupar outros componentes e aplicar um estilo ou layout comum.
+O Componente de container de email permite a criação de um container para vários componentes adicionais em seu conteúdo de email e pode ser usado para agrupar outros componentes e aplicar um estilo ou layout comum.
 
-* As propriedades do contêiner podem ser selecionadas na [caixa de diálogo de configuração.](#configure-dialog)
-* Os padrões do Componente contêiner de email ao adicioná-lo a uma página podem ser definidos na variável [caixa de diálogo de design.](#design-dialog)
+* As propriedades do container podem ser selecionadas na [caixa de diálogo de configuração.](#configure-dialog)
+* Os padrões do Componente de container de email (ao adicioná-lo a uma página) podem ser definidos na [caixa de diálogo de design.](#design-dialog)
 
-Depois que um componente Contêiner de email é adicionado a uma página, um autor de conteúdo pode arrastar e soltar componentes adicionais nela.
+Depois que um Componente de container de email é adicionado a uma página, um autor de conteúdo pode arrastar e soltar componentes adicionais nela.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do Componente de contêiner de email é a v1, que foi introduzida com a versão X dos Componentes principais de email em outubro de 2022, e é descrita neste documento.
+A versão atual do Componente de container de email é a v1, introduzida com a versão X dos Componentes principais de email em outubro de 2022, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -34,68 +34,68 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |---|---|---|
 | v1 | Compatível | Compatível |
 
-Para obter mais informações sobre versões e versões do Componente principal de email, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
+Para mais informações sobre as versões dos Componentes Principais de email, consulte o documento [Versões dos Componentes Principais.](/help/email/versions.md)
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o Componente do contêiner de email, bem como ver exemplos de suas opções de configuração, bem como a saída do HTML e JSON, visite o [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_container)
+Para experimentar o Componente de container de email e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_container)
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Contêiner [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
+A documentação técnica mais recente sobre o Componente de container [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-A caixa de diálogo de configuração permite que o autor de conteúdo defina o item do contêiner e como ele se comporta e aparece em seu conteúdo.
+A caixa de diálogo de configuração permite que o autor de conteúdo defina o item do container e como ele se comporta e aparece em seu conteúdo.
 
-![Caixa de diálogo Editar do componente Contêiner de email](/help/email/assets/email-container-configure.png)
+![Caixa de diálogo de edição do Componente de container de email](/help/email/assets/email-container-configure.png)
 
-* **Layout** - Essa opção define o comportamento ou o comportamento de layout do Componente do contêiner de email.
+* **Layout** - Essa opção define o comportamento ou o comportamento do layout do Componente de container de email.
    * **largura total**
-   * **half|half**
-   * **um terço|dois terceiros**
+   * **metade|metade**
+   * **um terço|dois terços**
    * **dois terços|um terço**
-   * **third|third|third**
+   * **terço|terço|terço**
 * **Cor do plano de fundo** - Definível como valores RGB de forma livre ou usando o seletor de cores, [dependendo da configuração](#container-settings-tab)
-* **Imagem de plano de fundo** - Define uma imagem de plano de fundo para o contêiner, [dependendo da configuração](#container-settings-tab)
+* **Imagem de plano de fundo** - Define uma imagem de fundo para o container, [dependendo da configuração](#container-settings-tab)
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML.
    * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar o conteúdo resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
-   * A alteração da ID pode afetar o CSS.
+   * A alteração de ID pode afetar o CSS.
 
 ### Guia Estilos {#styles-tab-edit}
 
-O componente Contêiner de email é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling)
+O Componente de container de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que a guia esteja disponível.
+Os estilos devem ser configurados para este componente na [caixa de diálogo de design](#design-dialog) para que a guia fique disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite que o autor do modelo defina as opções disponíveis para o autor de conteúdo que usa o Componente de contêiner de email.
+A caixa de diálogo de design permite que o autor do modelo defina as opções disponíveis para o autor de conteúdo que usa o Componente de container de email.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
-O **Componentes permitidos** A guia é usada para definir quais componentes podem ser adicionados como itens ao Componente de contêiner de email pelo autor de conteúdo.
+A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens ao Componente de container de email pelo autor de conteúdo.
 
-O **Componentes permitidos** A guia funciona da mesma maneira que a guia do mesmo nome quando [definindo a política e as propriedades de um Contêiner de layout no Editor de modelos.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
+A guia **Componentes permitidos** funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Container de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
 ### Guia Componentes padrão {#default-components-tab}
 
-O **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no contêiner, semelhante a [como os componentes padrão são definidos no modelo da página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+A guia **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no container, de modo semelhante a [como os componentes padrão são definidos no modelo de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
-### Guia Configurações do contêiner {#container-settings-tab}
+### Guia Configurações do container {#container-settings-tab}
 
-O **Configurações do contêiner** guia define se o autor pode definir uma imagem ou cor do fundo.
+A guia **Configurações do container** define se o autor pode configurar uma imagem ou cor de fundo.
 
-![Guia Configurações do contêiner da caixa de diálogo de design do Componente contêiner de email](/help/email/assets/email-container-design-container-settings.png)
+![Guia Configurações do container da caixa de diálogo de design do Componente de container de email](/help/email/assets/email-container-design-container-settings.png)
 
 * **Imagem de plano de fundo**
    * **Ativar imagem de plano de fundo** - Selecione esta opção para permitir que o autor de conteúdo defina uma imagem de plano de fundo para o contêiner.
-* **Cor do Plano de fundo**
+* **Cor do plano de fundo**
    * **Ativar cor de plano de fundo** - Selecione esta opção para permitir que o autor de conteúdo defina uma cor de plano de fundo para o contêiner.
    * **Somente amostras** - Selecione essa opção para permitir que o autor de conteúdo selecione apenas a partir de amostras de cores predefinidas para a cor de fundo do contêiner.
       * Disponível apenas quando **Ativar cor de plano de fundo** estiver selecionado
@@ -108,4 +108,4 @@ O **Configurações do contêiner** guia define se o autor pode definir uma imag
 
 ### Guia Estilos {#styles-tab}
 
-O componente Contêiner de email é compatível com o AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling)
+O Componente de container de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
