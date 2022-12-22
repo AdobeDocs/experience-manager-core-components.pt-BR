@@ -4,9 +4,9 @@ description: Saiba mais sobre a instalação básica, a configuração e o uso d
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Os Componentes principais de email podem ser utilizados com o AEM 6.5. Consulte 
 
 ### Instalar os Componentes principais {#core-components}
 
-Os Componentes principais de email são criados por meio dos Componentes principais do AEM. Como os Componentes principais não são fornecidos com o AEM 6.5, primeiro instale os Componentes principais do AEM antes de instalar os Componentes principais de email.
+Os Componentes principais de email são criados por meio dos Componentes principais do AEM. Visto que os componentes principais não são fornecidos com o AEM 6.5, você deve instalar os componentes principais do AEM antes de instalar os componentes principais de email.
 
 Consulte a seção [Baixar e instalar](/help/get-started/using.md#download-and-install) do documento Uso dos componentes principais para obter detalhes sobre como instalar os componentes principais.
 
@@ -74,8 +74,8 @@ Após instalar os componentes de email e configurar a integração com o Adobe C
 | 3 | Os autores utilizam o [editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=pt-BR) para criar conteúdo de email com o editor de texto, onde é possível escolher variáveis do Adobe Campaign e usar o componente de segmentação para exibir informações condicionais se o destinatário atender a determinados requisitos. | AEM |
 | 4 | Quando a criação do conteúdo de email é concluída, [um fluxo de trabalho é executado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=pt-BR) para aprovar o conteúdo e enviar para o Campaign. | AEM |
 | 5 | Uma entrega é criada e uma lista de destinatários é definida. | Campaign |
-| 6 | O conteúdo criado no AEM é selecionado como o conteúdo da entrega. | Campanha |
-| 7 | O conteúdo é enviado para os destinatários, substituindo as variáveis do Adobe Campaign pelas informações personalizadas dos destinatários. | Campanha |
+| 6 | O conteúdo criado no AEM é selecionado como o conteúdo da entrega. | Campaign |
+| 7 | O conteúdo é enviado para os destinatários, substituindo as variáveis do Adobe Campaign pelas informações personalizadas dos destinatários. | Campaign |
 
 Para obter um exemplo do processo de criação de conteúdo de email no AEM e entrega no Adobe Campaign, consulte os seguintes recursos.
 
