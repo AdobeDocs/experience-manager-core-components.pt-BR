@@ -4,9 +4,9 @@ description: Crie conteúdo atraente de email usando a flexibilidade dos Compone
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Os emails fazem parte da experiência da marca e da jornada do cliente. Com os C
 
 * Os Componentes principais de email são baseados nos [Componentes principais,](/help/introduction.md) e, por conseguinte, também são compatíveis com [Modelos editáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR) e [Sistema de estilo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=pt-BR)
 * Existem [dez componentes prontos para produção otimizados por email](#components) para criar conteúdo de email.
-* Os Componentes principais de email fornecem personalização avançada graças à inserção de [Variáveis do Adobe Campaign](campaign-variables.md) na maioria dos campos de diálogo.
-* A flexibilidade [Componente de segmentação](/help/email/components/segmentation.md) O permite a segmentação avançada do seu conteúdo.
-* Os Componentes principais de email fornecem saída de HTML amigável para email graças ao [inliner de estilos de CSS,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [ao inliner de atributo de HTML,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) e [ao sanitizer de HTML.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
+* Os componentes principais de email fornecem personalização avançada graças à inserção de [variáveis do Adobe Campaign](campaign-variables.md) na maioria dos campos de caixa de diálogo.
+* O [componente de Segmentação](/help/email/components/segmentation.md) flexível permite a segmentação avançada do seu conteúdo.
+* Os Componentes principais de email fornecem saída de HTML amigável para email graças ao [inliner de estilos de CSS](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation), [ao inliner de atributo de HTML](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner), e [ao sanitizer de HTML](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing).
 * Você pode criar conteúdo de email em qualquer lugar abaixo de `/content`.
 * Os Componentes principais do email são de [código aberto.](https://github.com/adobe/aem-core-email-components)
 
@@ -42,7 +42,7 @@ Os Componentes principais de email têm os seguintes requisitos.
 
 | AEM | Adobe Campaign | Componentes principais  |
 |---|---|---|
-| AEM 6.5.14.0+<br>No local ou no AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versão 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>No local ou AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versão 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
