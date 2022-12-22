@@ -4,9 +4,9 @@ description: Obtenha soluções para problemas com os Componentes principais e p
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 
 |  |  |
 |---|---|
-| Prontos para produção | Os Componentes principais são 30 componentes WCM robustos que são bem testados, amplamente usados e têm bom desempenho. |
+| Prontos para produção | Os componentes principais incluem 30 componentes WCM robustos, bem testados, amplamente usados e que apresentam um bom desempenho. |
 | Prontos para nuvem | Seja no [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR), no [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles simplesmente funcionam. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem reunir quase qualquer layout. |
 | Configuráveis | As [políticas de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=pt-BR#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
@@ -127,6 +127,6 @@ Para configurar seu ambiente de desenvolvimento local, confira esta [visão gera
 
 ## Outros componentes {#other-components}
 
-Há componentes adicionais disponíveis para AEM autores, que são criados nos Componentes principais.
+Há componentes adicionais disponíveis para autores do AEM, que estão integrados nos componentes principais.
 
-* [Os Componentes principais do email](/help/email/introduction.md) - Descubra os componentes criados sobre os Componentes principais especificamente para uso com o Adobe Campaign.
+* [Os componentes principais de email](/help/email/introduction.md) - Descubra componentes integrados aos componentes principais especificamente para uso no Adobe Campaign.
