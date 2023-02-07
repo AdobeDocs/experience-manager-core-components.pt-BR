@@ -3,10 +3,10 @@ title: Utilização dos componentes principais
 description: '“Para começar a usar os Componentes principais no seu próprio projeto, há três etapas a seguir: baixar e instalar, criar componentes proxy, carregar os estilos principais e permitir os componentes em seus modelos.”'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Deve-se lembrar de alguns pontos ao usar os Componentes principais no AEMaaCS:
    * Em uma próxima versão, incluir os Componentes principais novamente causará falha no build do pipeline.
 * Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
 * Mesmo que os Componentes principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
+* Para [Componente Índice](/help/components/tableofcontents.md) para renderizar seu conteúdo, um filtro precisa ser configurado no OSGi.
+   * [Consulte a documentação do GitHub do componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### AEM 6.5 e anteriores {#aem-65}
 

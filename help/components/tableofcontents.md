@@ -3,10 +3,10 @@ title: Componente de índice
 description: O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,12 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v1 | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+
+>[!NOTE]
+>
+>Em AEM as a Cloud Service, o administrador precisa ativar um filtro para o componente para que ele renderize o conteúdo do componente.
+>
+>[Consulte a documentação do GitHub do componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### Detalhes técnicos {#technical-details}
 
