@@ -4,10 +4,10 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 79%
 
 ---
 
@@ -98,6 +98,30 @@ ht-degree: 100%
       + [Fragmento de experiência](/help/email/components/experience-fragment.md)
       + [Fragmento de conteúdo](/help/email/components/content-fragment.md)
       + [Segmentação](/help/email/components/segmentation.md)
++ Formulários adaptáveis {#adaptive-forms}
+   + [Introdução](/help/adaptive-forms/introduction.md)
+   + Componentes adaptáveis do Forms {#adaptive-forms-components}
+      + [Opção Adaptive Forms](/help/adaptive-forms/components/accordion.md)
+      + [Botão Adaptável Forms](/help/adaptive-forms/components/button.md)
+      + [Grupo de caixa de seleção adaptável do Forms](/help/adaptive-forms/components/checkbox-group.md)
+      + [Seletor de data adaptável do Forms](/help/adaptive-forms/components/date-picker.md)
+      + [Lista suspensa adaptável do Forms](/help/adaptive-forms/components/drop-down.md)
+      + [Entrada de email adaptável do Forms](/help/adaptive-forms/components/email-input.md)
+      + [Anexos de arquivo adaptáveis do Forms](/help/adaptive-forms/components/file-attachment.md)
+      + [Guias horizontais adaptáveis do Forms](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Imagem adaptável do Forms](/help/adaptive-forms/components/image.md)
+      + [Entrada do número adaptável do Forms](/help/adaptive-forms/components/number-input.md)
+      + [Painel adaptável Forms](/help/adaptive-forms/components/panel-container.md)
+      + [Botão de opção adaptável do Forms](/help/adaptive-forms/components/radio-button.md)
+      + [Botão adaptável de redefinição do Forms](/help/adaptive-forms/components/reset-button.md)
+      + [Botão Adaptive Forms Submit](/help/adaptive-forms/components/submit-button.md)
+      + [Entrada de telefone adaptável do Forms](/help/adaptive-forms/components/telephone-input.md)
+      + [Texto adaptável do Forms](/help/adaptive-forms/components/text.md)
+      + [Caixa de texto adaptável do Forms](/help/adaptive-forms/components/text-input.md)
+      + [Título adaptável do Forms](/help/adaptive-forms/components/title.md)
+      + [Layout do assistente adaptável do Forms](/help/adaptive-forms/components/wizard.md)
+      + [Cabeçalho](/help/adaptive-forms/components/header.md)
+      + [Rodapé](/help/adaptive-forms/components/footer.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
