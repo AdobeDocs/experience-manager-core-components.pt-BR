@@ -2,7 +2,7 @@
 title: Componente principal adaptável do Forms - Imagem
 description: Uso ou personalização do Componente principal de imagem adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
@@ -38,8 +38,10 @@ Há vários motivos pelos quais é benéfico incluir um componente de Imagem em 
 
 O Componente principal de imagem adaptativa do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.

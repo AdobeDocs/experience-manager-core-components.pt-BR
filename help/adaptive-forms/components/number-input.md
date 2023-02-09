@@ -2,7 +2,7 @@
 title: Componente principal adaptável do Forms - Entrada de número
 description: Uso ou personalização do Componente principal de entrada do Número do Forms adaptativo.
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
@@ -39,8 +39,10 @@ Há vários motivos pelos quais é benéfico incluir um componente de entrada nu
 
 O Componente principal de entrada do Número do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -93,6 +95,7 @@ Você pode personalizar facilmente sua experiência de entrada de números para 
 * **Excluir valor mínimo** - Marque essa caixa de seleção se não quiser que o valor mínimo especificado na variável **Número mais baixo / Menor número** opção a ser incluída no intervalo de valores &#x200B; para inserir no campo de formulário.
 
 * **Número mais alto/Maior número** - Use essa opção para selecionar o número máximo permitido a ser inserido no campo de formulário. Se o número for maior que o número especificado em **Número mais alto/Maior número** for inserida no campo de formulário, a mensagem de erro será exibida.
+
 * **Mensagem de erro máxima** - Essa opção permite inserir uma mensagem de erro que é exibida quando o usuário insere um valor maior que o especificado na **Número mais alto/Maior número** opção.
 
 * **Excluir valor máximo** - Marque essa caixa de seleção se não quiser que o valor máximo especificado na variável **Número mais alto/Maior número** opção a ser incluída no intervalo de valores a serem inseridos no campo do formulário.

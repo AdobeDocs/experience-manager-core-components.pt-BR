@@ -2,7 +2,7 @@
 title: Componente principal adaptável do Forms - Seletor de data
 description: Uso ou personalização do Componente principal do seletor de data adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 2%
@@ -38,8 +38,10 @@ Há vários motivos pelos quais é benéfico incluir um seletor de datas em um f
 
 O Componente principal do seletor de data da Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade de AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -109,15 +111,17 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
-**Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
-
 No **Acessibilidade** , os valores são definidos para [Acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) rótulos do componente. Várias opções estão disponíveis para usar o texto para leitor de tela:
 
-* **Texto personalizado**: Selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado . Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
-* **Descrição**: Selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
-* **Título**: Selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
-* **Nome**: Selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
-* **Nenhum**: Selecione essa opção se não quiser adicionar rótulos de acessibilidade ARIA.
+* **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+
+
+   * **Texto personalizado**: Selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado . Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   * **Descrição**: Selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   * **Título**: Selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   * **Nome**: Selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   * **Nenhum**: Selecione essa opção se não quiser adicionar rótulos de acessibilidade ARIA.
+
 
 
 ### Guia Formatos {#format-tab}

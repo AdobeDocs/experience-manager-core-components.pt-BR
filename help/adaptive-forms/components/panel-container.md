@@ -2,10 +2,10 @@
 title: Componente principal adaptável do Forms - Contêiner do painel
 description: Uso ou personalização do Componente principal do contêiner do painel adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,10 @@ Há vários motivos para usar um painel em um formulário, incluindo:
 
 O Componente principal do contêiner do painel adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -92,7 +94,6 @@ Você pode personalizar facilmente a experiência do contêiner do painel para v
 
 * **Função de HTML para anúncio do leitor de tela** - A função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias de assistência, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de &quot;rótulo&quot; e seu campo de entrada pode ter a função de &quot;caixa de texto&quot;. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
-## Caixa de diálogo de design {#design-dialog}
 
 
 

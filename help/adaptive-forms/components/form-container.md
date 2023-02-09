@@ -2,9 +2,9 @@
 title: Componente principal adaptável do Forms - Contêiner de formulário
 description: Adicionar um formulário adaptável a uma página da Web.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,10 @@ Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 
 O Componente principal do contêiner adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -72,6 +74,7 @@ Você pode personalizar facilmente a experiência do contêiner de formulário p
 ![Guia Submissão](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 Os usuários podem configurar ações diferentes para os envios de um formulário adaptável.
+
 * **Redirecionar URL/caminho** - Essa opção permite que o usuário configure uma página para cada formulário, para a qual os usuários do formulário são redirecionados após enviar um formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Guia Mostrar mensagem](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ Os usuários podem configurar ações diferentes para os envios de um formulári
 
 * **Enviar ação** - Uma ação Enviar é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Os usuários podem selecionar Enviar ações na lista suspensa que são compatíveis imediatamente. Saiba como [configurar uma Ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## Caixa de diálogo de design {#design-dialog}
 
 
 

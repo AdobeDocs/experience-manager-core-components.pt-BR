@@ -2,7 +2,7 @@
 title: Componente principal adaptável do Forms - Botão de opção
 description: Uso ou personalização do Componente principal do botão de opção adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -44,8 +44,10 @@ Há vários motivos para usar botões de opção em um formulário, incluindo:
 
 O Componente principal do botão de opção adaptável Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -80,6 +82,7 @@ Você pode personalizar facilmente sua experiência com botões de opção para 
 * **Referência de associação** - Uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dados dinamicamente a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário contínua para coletar e gerenciar dados.
 
 * **Tipo de dados do valor enviado** - Essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se a variável **tipo de dados do valor enviado** está definida como `Number` e adicionar dados da sequência de caracteres ao **Valor dos dados** &#x200B; &#x200B; no **Opções** , a tela exibe uma `Value type mismatch` mensagem de erro.
+
 * **Opções padrão** - Essa opção permite adicionar valores padrão pré-selecionados, quando o formulário for carregado. Se a variável **tipo de dados do valor enviado** está definida como `Number` e adicionar dados da sequência de caracteres ao **Opções padrão**, a tela exibe uma `Value type mismatch` mensagem de erro.
 
 * **Opções de exibição** - Essa opção é usada para definir o alinhamento visual dos botões de opção em um formulário adaptável. As duas opções compatíveis são:
@@ -128,3 +131,4 @@ A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para
 **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do botão de opção adaptável do Forms.
 
 **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+

@@ -2,9 +2,9 @@
 title: Componente principal adaptável do Forms - Rodapé
 description: Uso ou personalização do Componente principal do rodapé adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a8b8661554eea2f669f17bee89f97165bcb58db
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 19%
 
 ---
@@ -36,8 +36,10 @@ Há vários motivos pelos quais é benéfico incluir um componente de rodapé em
 
 O Componente principal de rodapé adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -60,52 +62,49 @@ Você pode personalizar facilmente sua experiência de rodapé para visitantes c
 * **Caixa de diálogo Editar**
 A caixa de diálogo de edição fornece ferramentas padrão de formatação de rich text que permitem ao usuário criar texto para o rodapé.
 
-   * **Negrito** - Essa opção aplica a formatação em negrito ao texto selecionado ou ao texto de formato ousado inserido após o cursor. `Ctrl+B` é um atalho do teclado.
+* **Negrito** - Essa opção aplica a formatação em negrito ao texto selecionado ou ao texto de formato ousado inserido após o cursor. `Ctrl+B` é um atalho do teclado.
 
-   * **Itálico** - Essa opção aplica a formatação em itálico ao texto selecionado ou itálico ao texto inserido após o cursor. `Ctrl+I` é um atalho do teclado.
+* **Itálico** - Essa opção aplica a formatação em itálico ao texto selecionado ou itálico ao texto inserido após o cursor. `Ctrl+I` é um atalho do teclado.
 
-   * **Marcador**
-
-      ![Opções de marcador](/help/adaptive-forms/assets/footer_bullet.png)
-
-      * **Ícone de marcador** - Formata o texto selecionado como uma lista com marcadores ou inicia a inserção de uma lista com marcadores após o cursor. Para encerrar uma lista com marcadores, toque ou clique novamente no botão Marcador ou insira dois retornos de carro.
-
-      * **Ícone Lista numerada** - Formata o texto selecionado como uma lista numerada ou inicia a inserção de uma lista numerada após o cursor. Para terminar uma lista numerada, toque ou clique novamente no botão Numerado ou insira dois retornos de carro.
-
-      * **Ícone Outdent** - Diminui o nível de recuo do texto ou texto selecionado inserido após o cursor. Só fica ativo se o texto ou a posição do cursor selecionado já estiver recuada.
-
-      * **Ícone Recuar** - Aumenta o nível de recuo do texto selecionado ou do texto inserido após o cursor.
-   * **Hiperlink**
-
-      ![Opções de hiperlink](/help/adaptive-forms/assets/footer_link.png)
+![Opções de marcador](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-      * **Caminho** - Insira o caminho
-         1. Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
-         1. Se o link não estiver no AEM, insira o URL absoluto.
-         1. Os caminhos não absolutos são interpretados como relativos ao AEM.
-      * **Texto alternativo** - Insira um texto descritivo alternativo para o link.
+* **Marcador**
 
-      * **Target** - Selecionar comportamento do link
-         * Destino
-         * Mesma guia
-         * Nova guia
-         * Quadro pai
-         * Quadro superior
+   * **Ícone de marcador** - Formata o texto selecionado como uma lista com marcadores ou inicia a inserção de uma lista com marcadores após o cursor. Para encerrar uma lista com marcadores, toque ou clique novamente no botão Marcador ou insira dois retornos de carro.
+
+   * **Ícone Lista numerada** - Formata o texto selecionado como uma lista numerada ou inicia a inserção de uma lista numerada após o cursor. Para terminar uma lista numerada, toque ou clique novamente no botão Numerado ou insira dois retornos de carro.
+
+   * **Ícone Outdent** - Diminui o nível de recuo do texto ou texto selecionado inserido após o cursor. Só fica ativo se o texto ou a posição do cursor selecionado já estiver recuada.
+
+   * **Ícone Recuar** - Aumenta o nível de recuo do texto selecionado ou do texto inserido após o cursor.
+
+![Opções de hiperlink](/help/adaptive-forms/assets/footer_link.png)
+
+* **Hiperlink**
+
+   * **Caminho** - Insira o caminho
+      1. Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
+      1. Se o link não estiver no AEM, insira o URL absoluto.
+      1. Os caminhos não absolutos são interpretados como relativos ao AEM.
+   * **Texto alternativo** - Insira um texto descritivo alternativo para o link.
+
+   * **Target** - Selecionar comportamento do link
+      * Destino
+      * Mesma guia
+      * Nova guia
+      * Quadro pai
+      * Quadro superior
    * **Ícone Desvincular** - Essa opção remove um link já aplicado ao texto selecionado. Essa opção só estará ativa se o link já estiver selecionado.
 
    * **Ícone de formato de parágrafo** - Essa opção permite aplicar a formatação de parágrafo ao texto selecionado. Também ajuda a formatar o texto inserido após o cursor. Define o nível de cabeçalho do título.
 
 
 
-* **ID**
-Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de dados.
+* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de dados.
 
    * Se deixado em branco, uma ID exclusiva é automaticamente * gerada para você e pode ser encontrada ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
-
-## Caixa de diálogo de design {#design-dialog}
-
 
 

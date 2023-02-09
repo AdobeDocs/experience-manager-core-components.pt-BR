@@ -2,7 +2,7 @@
 title: Componente principal adaptável do Forms - Entrada de telefone
 description: Uso ou personalização do Componente principal de entrada Adaptive Forms Telephone.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 1%
@@ -30,8 +30,10 @@ Os motivos comuns para usar um campo de entrada de telefone em um Formulário ad
 
 O Componente principal de entrada Adaptive Forms Telephone foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
@@ -53,13 +55,19 @@ Você pode personalizar facilmente sua experiência de entrada de telefone para 
 * **Nome** - É possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não deve conter espaços ou caracteres especiais.
 
 * **Título** - Com seu Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se você não adicionar um título, o nome do componente será exibido em vez do texto do título.
+
 * **Ocultar Título** - Selecione a opção para ocultar o Título do componente.
 
 * **Texto de espaço reservado** - O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto do espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não atua como um rótulo ou valor permanente para o campo.
+
 * **Referência de associação** - Uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dados dinamicamente a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário contínua para coletar e gerenciar dados.
+
 * **Ocultar componente** - Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+
 * **Desativar Componente** - Selecione a opção para desativar o componente. O componente desativado não é ativo ou editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+
 * **Somente leitura** - Selecione a opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+
 * **Valor padrão** - Essa opção permite adicionar um valor padrão em um campo de formulário. If **Componente desativado** ou **Componente somente leitura** for selecionado, o valor padrão será exibido na tela . Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
 
 ### Guia Validação {#validation-tab}
@@ -78,10 +86,12 @@ Você pode personalizar facilmente sua experiência de entrada de telefone para 
 
 * **Número mínimo de caracteres** - Essa opção permite especificar o número mínimo de caracteres permitidos no campo. Se você digitar caracteres menores que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro é exibida na tela . O **Mensagem de erro de caracteres mínimos** caixa de diálogo permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro de caracteres mínimos** - O **Mensagem de erro de caracteres mínimos** caixa de diálogo permite adicionar uma mensagem de erro personalizada se você digitar caracteres menores que o valor especificado na **Número mínimo de caracteres** opção.
+* *Mensagem de erro de caracteres mínimos** - O **Mensagem de erro de caracteres mínimos** caixa de diálogo permite adicionar uma mensagem de erro personalizada se você digitar caracteres menores que o valor especificado na **Número mínimo de caracteres** opção.
 
 O **Padrão de validação** permite inserir um padrão para validar o número de telefone inserido. O número de telefone inserido é validado em relação ao valor inserido no **Padrão** opção. Caso o número de telefone não seja validado com o valor inserido em **Padrão** , a mensagem de erro será exibida na tela.
+
 * **Padrão** - Essa opção permite que você insira os padrões de verificação permitidos para o número de telefone. Expressões regulares também são permitidas.
+
 * **Mensagem de erro** - Esta opção permite que você insira uma mensagem que é exibida na tela se o número de telefone inserido não conseguir validar com o valor inserido no **Padrão** opção
 
 ### Guia Conteúdo da Ajuda {#help-content-tab}

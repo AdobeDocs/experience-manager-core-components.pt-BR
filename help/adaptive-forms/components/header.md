@@ -2,9 +2,9 @@
 title: Componente principal adaptável do Forms - Cabeçalho
 description: Uso ou personalização do Componente principal do cabeçalho adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ Um componente Cabeçalho em um Formulário adaptável é uma seção localizada 
 
 O Componente principal do cabeçalho adaptativo do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade do AEM e os links para a documentação correspondente:
 
+|  |  |
+|---|---|
 | Versão do componente | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
-
 Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
 
 
@@ -80,6 +81,5 @@ Essa parte do cabeçalho contém o título e a imagem do cabeçalho.
 
 Esta seção permite inserir o texto a ser incluído no cabeçalho.
 
-## Caixa de diálogo de design {#design-dialog}
 
 
