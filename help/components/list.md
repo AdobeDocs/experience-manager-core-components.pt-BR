@@ -3,10 +3,10 @@ title: Componente de Lista
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+workflow-type: tm+mt
+source-wordcount: '1208'
+ht-degree: 94%
 
 ---
 
@@ -20,15 +20,16 @@ O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de lista é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
+A versão atual do componente de lista é a v4, introduzida com a versão 2.22.0 dos componentes principais em fevereiro de 2023, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/list.md) | Compatível | Compatível | Compatível |
-| [v1](v1/list-v1.md) | Compatível | Compatível | Compatível |
+| v4 | - | Compatível | Compatível |
+| [v3](/help/components/v3/list.md) | - | Compatível | Compatível |
+| [v2](/help/components/v2/list.md) | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/list-v1.md) | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -93,7 +94,15 @@ A lista pode ser criada usando uma lista fixa de itens.
 
 Toque ou clique no botão **Adicionar** para inserir um novo item à lista.
 
-* Insira o texto para o item na lista ou use a **caixa de diálogo de Seleção** para escolher um item do AEM.
+* No **Link** campo insira
+   * Um URL totalmente qualificado
+   * Um URL relativo para o conteúdo AEM existente
+      * Você pode usar o **Caixa de diálogo de seleção** para escolher um item do AEM.
+* No **Texto** , insira o texto que será exibido para o link na lista.
+* Marque a caixa de seleção se o link deve abrir em uma nova guia do navegador
+
+Depois que mais de um item for criado para a lista, você poderá organizar a lista.
+
 * Use a alça de arrastar para reorganizar os itens na lista.
 * Use o ícone da lixeira para excluir itens na lista.
 
@@ -153,7 +162,7 @@ A ordem na qual os itens devem ser ordenados
 
 Usando a guia Configurações de item, a formatação dos elementos da lista pode ser configurada.
 
-![Configurações do item](/help/assets/list-edit-items.png)
+![Configurações do item](/help/assets/list-edit-item-settings.png)
 
 * **Vincular itens** - Vincula itens à página correspondente.
 * **Mostrar descrição** - Mostra descrições do item de link
