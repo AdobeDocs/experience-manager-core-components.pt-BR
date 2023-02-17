@@ -4,9 +4,9 @@ description: O Componente de índice cria um índice com base nos títulos do co
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 >[!NOTE]
 >
->Em AEM as a Cloud Service, o administrador precisa ativar um filtro para o componente para que ele renderize o conteúdo do componente.
+>No AEM as a Cloud Service, seu administrador precisa ativar um filtro para o componente para que ele renderize o conteúdo do componente.
 >
->[Consulte a documentação do GitHub do componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
+>[Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### Detalhes técnicos {#technical-details}
 
@@ -57,7 +57,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo defina os inter
 **Tipo de lista**: essa opção define se a lista deve ser uma lista com marcadores ou uma lista numerada.
 * **Nível inicial do título**: essa opção define o nível mais alto de títulos que o Componente de índice deve renderizar.
 * **Nível de interrupção do título**: essa opção define o nível mais baixo de títulos que o Componente de índice deve renderizar.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
+* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
