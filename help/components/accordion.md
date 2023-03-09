@@ -3,10 +3,10 @@ title: Componente Acordeão
 description: O componente Acordeão, dos Componentes principais, permite a criação de uma coleção de painéis organizados em acordeão em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -46,7 +46,7 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 ## Deep linking para um painel {#deep-linking}
 
-Os componentes Acordeão e [Guias](tabs.md) suportam a vinculação diretamente a um painel dentro do componente.
+O Acordeão, [Carrossel,](carousel.md) e [Componentes de guias](tabs.md) suporte à vinculação diretamente a um painel dentro do componente.
 
 Para fazer isso:
 

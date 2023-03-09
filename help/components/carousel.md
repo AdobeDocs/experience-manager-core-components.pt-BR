@@ -3,10 +3,10 @@ title: Componente Carrossel
 description: O componente Carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -41,6 +41,20 @@ Para experimentar o componente Carrossel, e ver exemplos de suas opções de con
 A documentação técnica mais recente sobre o componente Carrossel [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+
+## Deep linking para um painel {#deep-linking}
+
+O Carrossel, [Guias,](tabs.md) e [Componentes do Acordeão](accordion.md) suporte à vinculação diretamente a um painel dentro do componente.
+
+Para fazer isso:
+
+1. Visualize a página com o componente usando a opção **[Exibir como publicada](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** no editor de páginas.
+1. Inspecione o conteúdo da página e identifique o ID do painel.
+   * Por exemplo `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. O ID se torna a âncora que pode ser anexada ao URL usando um hash (`#`).
+   * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser exibido por padrão, ele será rolado para o automaticamente.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -67,6 +81,7 @@ Use o botão **Adicionar** para abrir o seletor de componentes e escolher que co
 
 Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer a transição automática.
 
+* **Item ativo** - O autor de conteúdo pode definir qual guia está ativa quando a página é carregada.
 * **Fazer transição automática de slides** - Quando ativo, o componente avança automaticamente para o próximo slide após um atraso especificado.
 * **Atraso de transição** - Quando Fazer transição automática de slides é selecionado, esse valor é usado para definir o atraso entre as transições (em milissegundos).
 * **Desativar a pausa automática ao passar o cursor** - Quando a opção **Fazer transição automática de slides** estiver selecionado, a transição do carrossel será automaticamente pausada sempre que cursor for passado sobre o carrossel. Selecione essa opção para que a transição não seja pausada.
@@ -87,7 +102,13 @@ Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer
 
 Na guia **Acessibilidade**, os valores podem ser definidos para rótulos de [acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) para o componente.
 
-* **Rótulo** - Valor de um atributo de rótulo ARIA para o componente
+* **Rótulo** - Valor de um atributo de rótulo ARIA do carrossel, que descreve o conteúdo do carrossel
+* **Anterior** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Anterior&quot; da navegação do carrossel
+* **Próxima** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Próximo&quot; da navegação do carrossel
+* **Reproduzir** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Reproduzir&quot; da navegação do carrossel
+* **Pausar** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Pausar&quot; da navegação do carrossel
+* **Tablist** - Valor de um atributo de rótulo ARIA do rótulo da lista de itens da navegação do carrossel
+* **Definir o rótulo ARIA do item para seu título** - Se marcada, essa opção define automaticamente o título dos itens do carrossel para sua descrição de rótulo ARIA.
 
 ## Selecionar painel {#select-panel}
 
@@ -116,8 +137,7 @@ A guia **Propriedade** é usada para definir as configurações padrão para as 
 ![Caixa de diálogo de design do componente Carrossel](/help/assets/carousel-design.png)
 
 * **Fazer a transição automática de slides** - Define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide é ativada quando o autor de conteúdo adiciona o componente Carrossel a uma página.
-* **Atraso de transição** - Define o valor padrão do atraso de transição entre os slides (em milissegundos) quando um autor de conteúdo adiciona o componente Carrossel a uma página.
-* **Desativar a pausa automática ao passar o cursor** - Define se, por padrão, a opção para desativar a pausa automática de slides é ativada quando a opção **Fazer a transição automática de slides** é selecionada pelo autor de conteúdo.
+* **Elementos de controle prefixados** - Quando marcado, os elementos de controle serão colocados na frente dos itens do carrossel para melhorar a acessibilidade.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
