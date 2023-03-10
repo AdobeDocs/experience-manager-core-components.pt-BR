@@ -3,10 +3,10 @@ title: Desenvolvimento dos Componentes principais
 description: Os Componentes principais fornecem componentes básicos robustos e extensíveis, que por sua vez, oferecem recursos avançados, entrega contínua, versões de componentes, implementação moderna, marcação simples e exportação JSON de conteúdo.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,14 +43,14 @@ Recomenda-se que qualquer novo projeto seja implementado com os Componentes prin
 
 Um esforço maior em um projeto existente (por exemplo, uma reformulação da marca ou reestruturação geral) geralmente oferece uma chance de migrar para os Componentes principais. Para facilitar essa migração, a Adobe disponibilizou uma série de ferramentas de migração para incentivar a adoção dos Componentes principais e a tecnologia mais recente do AEM.
 
-[As Ferramentas de modernização do AEM](http://opensource.adobe.com/aem-modernize-tools/) permitem a fácil conversão de:
+[As Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) permitem a fácil conversão de:
 
 * Modelos estáticos em modelos editáveis
 * Configurações de design em políticas
 * Componentes de base para Componentes principais
 * IU Clássica em IU ativada por toque
 
-Para mais informações sobre o uso dessas ferramentas, [consulte a documentação](http://opensource.adobe.com/aem-modernize-tools/).
+Para mais informações sobre o uso dessas ferramentas, [consulte a documentação](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Para obter detalhes sobre recursos de criação dos Componentes principais e op�
 | Entrega | [Pelo GitHub público](https://github.com/adobe/aem-core-wcm-components) | Pelo Início rápido |
 | Licença | [Licença do Apache](https://www.apache.org/licenses/LICENSE-2.0) | Proprietária da Adobe |
 | Contribuição | Por solicitação de envio | Não é possível |
-| Acessibilidade | Totalmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=pt-BR) | Apenas parcialmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Acessibilidade | Totalmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=pt-BR) | Apenas parcialmente compatível com o [padrão WCAG 2.0 AA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=pt-BR) |
 
 ## Lista de componentes {#component-list}
 
