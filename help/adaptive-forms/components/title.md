@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Título
 description: Uso ou personalização do Componente principal do título adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 15%
+source-wordcount: '862'
+ht-degree: 14%
 
 ---
-
 
 # Título {#title-input-adaptive-forms-core-component}
 
@@ -38,15 +38,13 @@ Em geral, o título de um formulário é um aspecto importante da experiência d
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do título adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -67,35 +65,39 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 
 * **Título** - Com seu Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se você não adicionar um título, o nome do componente será exibido em vez do texto do título.
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de Dados.
+* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de Dados.
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente Seletor de data.
+A guia Design é usada para definir e gerenciar estilos de CSS para o componente Seletor de data.
 
 ### Título
 
 A guia Título permite que os autores de modelo definam elementos de cabeçalho de HTML padrão e permitido para autores de formulários:
 
-![Guia de título da caixa de diálogo Design](/help/assets/accordion-design-properties.png)
+![Guia de título da caixa de diálogo Design](/help/adaptive-forms/assets/title_heading.png)
 
 * **Elementos de cabeçalho permitidos**: Uma lista com várias opções que permitem ao autor do modelo escolher quais elementos de cabeçalho podem ser usados pelo autor para o Título.
 
 * **Elemento de cabeçalho padrão**: Uma lista suspensa que define o elemento Cabeçalho padrão para o componente Título .
 
-
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para um componente. O Componente principal do seletor de data adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do seletor de data adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do seletor de data da Forms adaptável.
+![Guia de título da caixa de diálogo Design](/help/adaptive-forms/assets/title_styles.png)
 
-**Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do seletor de data da Forms adaptável.
+
+* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Guia Formatos {#format-tab}
 
 A guia format permite especificar os formatos de data padrão e personalizados.
+
+![Guia Formatar](/help/adaptive-forms/assets/title_styles.png)
+
 

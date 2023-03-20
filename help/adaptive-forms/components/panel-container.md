@@ -2,19 +2,19 @@
 title: Componente principal adaptável do Forms - Contêiner do painel
 description: Uso ou personalização do Componente principal do contêiner do painel adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 1%
+source-wordcount: '1696'
+ht-degree: 2%
 
 ---
 
-
 # Contêiner do painel {#panel-container-adaptive-forms-core-component}
 
-Em um Formulário adaptável, um painel é um elemento de contêiner que pode ser usado para agrupar elementos de formulário relacionados. Ele permite agrupar e organizar diferentes elementos de formulário de forma lógica e significativa. Isso pode ajudar a melhorar a estrutura geral e a legibilidade do formulário, facilitando a compreensão e a navegação pelos usuários.
+Em um formulário adaptável, um painel é um elemento de contêiner que pode ser usado para agrupar elementos de formulário relacionados. Ele permite agrupar e organizar diferentes elementos de formulário de forma lógica e significativa. Isso pode ajudar a melhorar a estrutura geral e a legibilidade do formulário, facilitando a compreensão e a navegação pelos usuários.
 
-Painéis também podem ser usados para criar seções recolhidas, o que pode ser útil para ocultar campos de formulário complexos ou usados com menos frequência, mantendo o formulário simples e fácil de usar. Também permite incluir outros componentes, como texto, caixa de seleção, botão, etc.
+Painéis podem ser usados para criar seções recolhidas, o que pode ser útil para ocultar campos de formulário complexos ou usados com menos frequência, mantendo o formulário simples e fácil de usar. Também permite incluir outros componentes, como texto, caixa de seleção, botão.
 
 Também pode ser usado para definir diferentes ações baseadas em regras, como enviar formulário, abrir um site, mostrar/ocultar componentes ou adicionar uma instância de um painel.
 
@@ -36,15 +36,13 @@ Há vários motivos para usar um painel em um formulário, incluindo:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do contêiner do painel adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -90,10 +88,52 @@ Você pode personalizar facilmente a experiência do contêiner do painel para v
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/panelcontainer_accessibilitytab.png)
 
-* **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+* **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que deve ser lido por tecnologias de assistência, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
 * **Função de HTML para anúncio do leitor de tela** - A função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias de assistência, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de &quot;rótulo&quot; e seu campo de entrada pode ter a função de &quot;caixa de texto&quot;. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
+## Caixa de diálogo de design {#design-dialog}
 
+A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente do contêiner do Painel.
 
+### Guia Componentes permitidos {#allowed-components-tab}
+
+![Guias Componentes permitidos](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+O **Componentes permitidos** Essa guia permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis no componente do contêiner do painel no editor Adaptive Forms.
+
+### Guia Componentes padrão {#default-component-tab}
+
+Essa guia permite que o editor de modelos mapeie os componentes que podem ser adicionados como itens aos painéis no componente do contêiner do painel no editor Adaptive Forms.
+
+![Componente padrão do painel](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Configurações responsivas {#responsive-settings}
+
+Essa guia permite que o editor de modelos defina o número de colunas a serem exibidas na grade responsiva.
+
+![Grade responsiva](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Guia Configurações do container {#container-setting-tab}
+
+A guia de configurações do contêiner permite definir a posição dos componentes no editor Adaptive Forms.
+
+![Configurações do container](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: O layout Simples mantém tudo fixo no lugar, enquanto a Grade Responsiva permite que você altere a posição dos componentes para atender às suas necessidades.
+* **Desativar layout**: Também é possível desativar a seleção de layout na caixa de diálogo de edição ao selecionar a opção **Desativar layout** caixa de seleção.
+* **Ativar imagem de fundo**: Essa guia permite definir a imagem e a cor do plano de fundo no editor de modelos.
+* **Ativar cor de fundo**: Essa guia permite definir a cor do plano de fundo no editor de modelos.
+
+### Guia Estilos {#styles-tab}
+
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do contêiner do painel Adaptive Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+
+![Guia Estilo](/help/adaptive-forms/assets/panel_style.png)
+
+* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal adaptável do Forms.
+
+* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no Adaptive Forms . Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o editor, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+
+* **Função de HTML para anúncio do leitor de tela** - A função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias de assistência, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de &quot;rótulo&quot; e seu campo de entrada pode ter a função de &quot;caixa de texto&quot;. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 

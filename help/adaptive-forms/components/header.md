@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Cabeçalho
 description: Uso ou personalização do Componente principal do cabeçalho adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: aa18def9-0bec-4475-8dde-213860621ef5
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '675'
+ht-degree: 6%
 
 ---
-
 
 # Cabeçalho {#header-adaptive-forms-core-component}
 
@@ -32,14 +32,13 @@ Um componente Cabeçalho em um Formulário adaptável é uma seção localizada 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do cabeçalho adaptativo do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade do AEM e os links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,6 +79,4 @@ Essa parte do cabeçalho contém o título e a imagem do cabeçalho.
 ### Guia Texto {#text-tab}
 
 Esta seção permite inserir o texto a ser incluído no cabeçalho.
-
-
 

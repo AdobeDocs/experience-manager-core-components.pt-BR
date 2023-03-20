@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Anexo de arquivo
 description: Uso ou personalização do Componente principal do anexo do arquivo Adaptive Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
-
 
 # Anexo de arquivo {#file-attachment-adaptive-forms-core-component}
 
@@ -35,15 +35,13 @@ Há vários motivos pelos quais é benéfico incluir um componente de anexo de a
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal de anexo de arquivo do Adaptive Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, AEM compatibilidade e links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -109,6 +107,9 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 
 * **Texto da ajuda** - O texto da Ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto da Ajuda fornece informações mais detalhadas do que o rótulo de um campo de formulário ou o texto de espaço reservado, e foi projetado para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
+### Guia Acessibilidade {#accessibility-tab}
+
+
 ![Guia Acessibilidade](/help/adaptive-forms/assets/fileattachement_accessibilitytab.png)
 
 * **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
@@ -122,6 +123,8 @@ A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para
 
 O Componente principal Adaptador de arquivo do Forms adaptável é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do anexo de arquivo do Adaptive Forms.
+![Caixa de diálogo de design do anexo de arquivo](/help/adaptive-forms/assets/fileattachment_designdialog.png)
 
-**Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do anexo de arquivo do Adaptive Forms.
+
+* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.

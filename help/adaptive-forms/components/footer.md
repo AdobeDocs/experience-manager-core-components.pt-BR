@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Rodapé
 description: Uso ou personalização do Componente principal do rodapé adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 19%
+source-wordcount: '770'
+ht-degree: 18%
 
 ---
-
 
 # Rodapé {#footer-adaptive-forms-core-component}
 
@@ -34,15 +34,13 @@ Há vários motivos pelos quais é benéfico incluir um componente de rodapé em
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal de rodapé adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -106,5 +104,4 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
    * Se deixado em branco, uma ID exclusiva é automaticamente * gerada para você e pode ser encontrada ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
-
 

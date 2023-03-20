@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - botão Enviar
 description: Uso ou personalização do Componente principal do botão Adaptive Forms Submit.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1152'
 ht-degree: 2%
 
 ---
-
 
 # Botão Enviar {#submit-button}
 
@@ -29,15 +29,13 @@ Os motivos para usar um botão Enviar em um formulário adaptável são:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do botão Adaptive Forms Submit foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, AEM compatibilidade e links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -79,7 +77,7 @@ Você pode personalizar facilmente sua experiência com o botão Enviar para vis
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-* **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+**Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -87,11 +85,11 @@ A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para
 
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para um componente. O Componente principal do botão Adaptive Forms Submit suporta o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do botão Adaptive Forms Submit suporta o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do botão de envio do Forms adaptável.
-
-**Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+![Caixa de diálogo de design](/help/adaptive-forms/assets/reset_designdialog.png)
 
 
+* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do botão de envio do Forms adaptável.
 
+* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.

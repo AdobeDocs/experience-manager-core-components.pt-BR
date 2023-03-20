@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Assistente
 description: Uso ou personalização do Componente principal do Assistente adaptável Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
-
 
 # Assistente {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ Em geral, o layout do Assistente pode tornar o processo de preenchimento de form
 
 O Componente principal de layout do assistente adaptável Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade de AEM e os links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ Isso ajuda a tornar o processo de criação e personalização de formulários m
 
 O **Componentes permitidos** Essa guia permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis no componente Assistente no editor adaptável Forms.
 
+![Guias Componentes permitidos](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### Guia Componentes padrão {#default-component-tab}
+
+Essa guia permite que o editor de modelos mapeie os componentes que podem ser adicionados como itens aos painéis no componente do assistente no editor Adaptive Forms.
+
+![Componente padrão do painel](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Configurações responsivas {#responsive-settings}
+
+Essa guia permite que o editor de modelos defina o número de colunas a serem exibidas na grade responsiva.
+
+![Grade responsiva](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Guia Configurações do container {#container-setting-tab}
+
+A guia de configurações do contêiner permite definir a posição dos componentes no editor Adaptive Forms.
+
+![Configurações do container](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: O layout Simples mantém tudo fixo no lugar, enquanto a Grade Responsiva permite que você altere a posição dos componentes para atender às suas necessidades.
+* **Desativar layout**: Também é possível desativar a seleção de layout na caixa de diálogo de edição ao selecionar a opção **Desativar layout** caixa de seleção.
+* **Ativar imagem de fundo**: Essa guia permite definir a imagem e a cor do plano de fundo no editor de modelos.
+* **Ativar cor de fundo**: Essa guia permite definir a cor do plano de fundo no editor de modelos.
+
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para um componente. O Componente principal do Assistente adaptável Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do Assistente adaptável Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o componente Assistente.
+![Guia Estilo](/help/adaptive-forms/assets/panel_style.png)
 
-**Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o componente Assistente.
+
+* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 

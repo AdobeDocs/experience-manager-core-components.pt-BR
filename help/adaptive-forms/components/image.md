@@ -2,13 +2,13 @@
 title: Componente principal adaptável do Forms - Imagem
 description: Uso ou personalização do Componente principal de imagem adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
-
 
 # Imagem {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ Há vários motivos pelos quais é benéfico incluir um componente de Imagem em 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal de imagem adaptativa do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, compatibilidade de AEM e links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para
 
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para um componente. O Componente principal de imagem adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal de imagem adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+
+![Caixa de diálogo de design](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal da imagem adaptável do Forms.
 

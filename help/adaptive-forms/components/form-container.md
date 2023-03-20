@@ -2,10 +2,10 @@
 title: Componente principal adaptável do Forms - Contêiner de formulário
 description: Adicionar um formulário adaptável a uma página da Web.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '719'
+ht-degree: 2%
 
 ---
 
@@ -39,16 +39,13 @@ Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do contêiner adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões suportadas, a compatibilidade AEM e os links para a documentação correspondente:
+O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
 
-|  |  |
-|---|---|
-| Versão do componente | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Compatível  com<br>[versão 2.0.4](/help/versions.md) e posterior | Compatível | Compatível |
+| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|---|---|---|
+| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/versions.md) documento.
-
+Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -65,7 +62,7 @@ Você pode personalizar facilmente a experiência do contêiner de formulário p
 
 ![Guia Básica](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Serviços de pré-preenchimento** - Essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
+* **Serviços de pré-preenchimento** - Essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o Formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 * **Categoria Biblioteca do cliente** - O usuário pode configurar uma biblioteca JavaScript personalizada por Formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que têm dependência em bibliotecas de terceiros jquery e underscore.js.
 
@@ -82,7 +79,3 @@ Os usuários podem configurar ações diferentes para os envios de um formulári
 * **Mostrar mensagem** - Essa opção permite que os usuários adicionem uma mensagem exibida quando o formulário adaptável for enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem oferece suporte a ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
 
 * **Enviar ação** - Uma ação Enviar é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Os usuários podem selecionar Enviar ações na lista suspensa que são compatíveis imediatamente. Saiba como [configurar uma Ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
-
-
-
-
