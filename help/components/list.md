@@ -4,9 +4,9 @@ description: O componente de Lista, dos Componentes principais, permite criar co
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmic
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de lista é a v4, introduzida com a versão 2.22.0 dos componentes principais em fevereiro de 2023, e está descrita neste documento.
+A versão atual do Componente de lista é a v4, introduzida com a versão 2.22.0 dos Componentes principais em fevereiro de 2023, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
@@ -94,14 +94,14 @@ A lista pode ser criada usando uma lista fixa de itens.
 
 Toque ou clique no botão **Adicionar** para inserir um novo item à lista.
 
-* No **Link** campo insira
+* No campo **Link** insira:
    * Um URL totalmente qualificado
-   * Um URL relativo para o conteúdo AEM existente
-      * Você pode usar o **Caixa de diálogo de seleção** para escolher um item do AEM.
-* No **Texto** , insira o texto que será exibido para o link na lista.
+   * Um URL relativo para um conteúdo AEM já existente
+      * Você pode usar a **Caixa de diálogo de seleção** para escolher um item do AEM.
+* No campo **Texto**, insira o texto que será exibido para o link na lista.
 * Marque a caixa de seleção se o link deve abrir em uma nova guia do navegador
 
-Depois que mais de um item for criado para a lista, você poderá organizar a lista.
+Após a criação de mais de um item para a lista, é possível organizá-la.
 
 * Use a alça de arrastar para reorganizar os itens na lista.
 * Use o ícone da lixeira para excluir itens na lista.
