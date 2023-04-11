@@ -1,18 +1,18 @@
 ---
-title: Componente principal adaptável do Forms - Rodapé
-description: Uso ou personalização do Componente principal do rodapé adaptável do Forms.
+title: Componente principal de formulários adaptáveis - Rodapé
+description: Uso ou personalização do componente principal de rodapé de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 18%
+ht-degree: 93%
 
 ---
 
 # Rodapé {#footer-adaptive-forms-core-component}
 
-Um componente de rodapé em um Formulário adaptável é uma área que normalmente aparece na parte inferior do formulário e contém informações como um aviso de copyright, links para recursos relacionados ou informações de contato. Um rodapé pode fornecer informações adicionais, como a data da última atualização, o que pode ser benéfico para os usuários com necessidades de acessibilidade.
+Um componente de rodapé de um formulário adaptável é uma área que normalmente aparece na parte inferior do formulário e contém informações como um aviso de copyright, links para recursos relacionados ou informações de contato. Um rodapé pode fornecer informações adicionais, como a data da última atualização, que podem ser benéficas para usuários com necessidades especiais.
 
 **Exemplo**
 
@@ -20,17 +20,17 @@ Um componente de rodapé em um Formulário adaptável é uma área que normalmen
 
 ## Uso {#reasons-to-use-footer}
 
-Há vários motivos pelos quais é benéfico incluir um componente de rodapé em um formulário, incluindo:
+Há várias vantagens de se incluir um componente de rodapé em um formulário, incluindo:
 
-* **Requisitos legais**: Alguns formulários podem ser exigidos para incluir uma isenção de responsabilidade, um aviso de copyright ou outras informações legais. Um rodapé é um local conveniente para incluir essas informações.
+* **Requisitos legais**: alguns formulários podem precisar incluir um aviso de isenção de responsabilidade, de copyright ou outras informações legais. Um rodapé é um local conveniente para incluir essas informações.
 
-* **Navegação**: Um rodapé pode fornecer links para outras páginas importantes do site, como uma política de privacidade, termos de serviço ou página de contato.
+* **Navegação**: um rodapé pode fornecer links para outras páginas importantes do site, como a política de privacidade, os termos de serviço ou uma página de contato.
 
-* **Marca**: Um rodapé pode ser usado para incluir um logotipo ou outros elementos de marca, ajudando a reforçar a identidade da organização ou do site.
+* **Identidade visual**: um rodapé pode ser usado para incluir um logotipo ou outros elementos de marca, ajudando a reforçar a identidade da organização ou do site.
 
-* **Consistência**: Um rodapé fornece consistência no design e no layout do formulário, tornando mais intuitivo e fácil para os usuários navegarem.
+* **Consistência**: um rodapé fornece consistência no design e layout do formulário, tornando-o mais intuitivo e fácil para os usuários navegarem.
 
-* **Contexto adicional**: Um rodapé pode fornecer um contexto adicional ao formulário, como um texto que descreve o formulário ou um link para recursos relacionados, tornando o formulário mais informativo e fácil de usar.
+* **Contexto adicional**: um rodapé pode fornecer um contexto adicional ao formulário, como um texto que descreve o formulário ou um link para recursos relacionados, tornando o formulário mais informativo e fácil de usar.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -38,9 +38,9 @@ O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 202
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -48,60 +48,60 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as últimas informações sobre o Componente principal do rodapé adaptável Forms na documentação técnica em [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de rodapé de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente sua experiência de rodapé para visitantes com a caixa de diálogo Configurar . Você também pode definir opções de rodapé com facilidade para uma experiência do usuário contínua.
+Você pode personalizar facilmente a experiência de rodapé para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de rodapé com facilidade para uma experiência de usuário perfeita.
 
 ![Guia Propriedades](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Caixa de diálogo Editar**
+* **Caixa de diálogo de edição**
 A caixa de diálogo de edição fornece ferramentas padrão de formatação de rich text que permitem ao usuário criar texto para o rodapé.
 
-* **Negrito** - Essa opção aplica a formatação em negrito ao texto selecionado ou ao texto de formato ousado inserido após o cursor. `Ctrl+B` é um atalho do teclado.
+* **Negrito**: essa opção aplica a formatação de negrito ao texto selecionado ou formata em negrito o texto inserido após o cursor. O atalho do teclado é `Ctrl+B`.
 
-* **Itálico** - Essa opção aplica a formatação em itálico ao texto selecionado ou itálico ao texto inserido após o cursor. `Ctrl+I` é um atalho do teclado.
+* **Itálico**: essa opção aplica a formatação de itálico ao texto selecionado ou formata em itálico o texto inserido após o cursor. O atalho do teclado é `Ctrl+I`.
 
-![Opções de marcador](/help/adaptive-forms/assets/footer_bullet.png)
+![Opções de marcadores](/help/adaptive-forms/assets/footer_bullet.png)
 
 
 * **Marcador**
 
-   * **Ícone de marcador** - Formata o texto selecionado como uma lista com marcadores ou inicia a inserção de uma lista com marcadores após o cursor. Para encerrar uma lista com marcadores, toque ou clique novamente no botão Marcador ou insira dois retornos de carro.
+   * **Ícone de marcador**: formata o texto selecionado como uma lista com marcadores ou inicia a inserção de uma lista com marcadores após o cursor. Para encerrar uma lista com marcadores, toque ou clique novamente no botão Marcador ou insira dois retornos de carro.
 
-   * **Ícone Lista numerada** - Formata o texto selecionado como uma lista numerada ou inicia a inserção de uma lista numerada após o cursor. Para terminar uma lista numerada, toque ou clique novamente no botão Numerado ou insira dois retornos de carro.
+   * **Ícone de lista numerada**: formata o texto selecionado como uma lista numerada ou inicia a inserção de uma lista numerada após o cursor. Para terminar uma lista numerada, toque ou clique novamente no botão Numerado ou insira dois retornos de carro.
 
-   * **Ícone Outdent** - Diminui o nível de recuo do texto ou texto selecionado inserido após o cursor. Só fica ativo se o texto ou a posição do cursor selecionado já estiver recuada.
+   * **Ícone de diminuir recuo**: diminui o nível de recuo do texto selecionado ou do texto inserido após o cursor. Só fica ativo se o texto ou a posição do cursor selecionado já estiver recuada.
 
-   * **Ícone Recuar** - Aumenta o nível de recuo do texto selecionado ou do texto inserido após o cursor.
+   * **Ícone de aumentar recuo**: aumenta o nível de recuo do texto selecionado ou do texto inserido após o cursor.
 
 ![Opções de hiperlink](/help/adaptive-forms/assets/footer_link.png)
 
 * **Hiperlink**
 
-   * **Caminho** - Insira o caminho
+   * **Caminho**: permite inserir um caminho
       1. Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
       1. Se o link não estiver no AEM, insira o URL absoluto.
       1. Os caminhos não absolutos são interpretados como relativos ao AEM.
-   * **Texto alternativo** - Insira um texto descritivo alternativo para o link.
+   * **Texto alternativo**: permite inserir um texto descritivo alternativo para o link.
 
-   * **Target** - Selecionar comportamento do link
+   * **Destino**: permite selecionar o comportamento do link
       * Destino
       * Mesma guia
       * Nova guia
       * Quadro pai
       * Quadro superior
-   * **Ícone Desvincular** - Essa opção remove um link já aplicado ao texto selecionado. Essa opção só estará ativa se o link já estiver selecionado.
+   * **Ícone Desvincular**: essa opção remove um link já aplicado ao texto selecionado. Essa opção só estará ativa quando o link já estiver selecionado.
 
-   * **Ícone de formato de parágrafo** - Essa opção permite aplicar a formatação de parágrafo ao texto selecionado. Também ajuda a formatar o texto inserido após o cursor. Define o nível de cabeçalho do título.
+   * **Ícone de formatação de parágrafo**: essa opção permite aplicar formatação de parágrafo ao texto selecionado. Também ajuda a formatar o texto inserido após o cursor. Define o nível de cabeçalho do título.
 
 
 
-* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de dados.
+* **ID**: essa opção permite controlar o identificador exclusivo do componente no HTML e na camada de dados.
 
-   * Se deixado em branco, uma ID exclusiva é automaticamente * gerada para você e pode ser encontrada ao inspecionar a página resultante.
+   * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 

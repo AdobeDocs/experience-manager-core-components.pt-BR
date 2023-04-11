@@ -1,38 +1,38 @@
 ---
-title: Componente principal adaptável do Forms - Botão
-description: Uso ou personalização do Componente principal do botão Adaptive Forms.
+title: 'Componente principal de Formulários adaptáveis: Botão'
+description: Uso ou personalização do Componente principal de Botão de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '1397'
-ht-degree: 2%
+ht-degree: 96%
 
 ---
 
 # Componente de Botão  {#button-component-adaptive-forms-core-component}
 
-Um botão em um formulário adaptável é um elemento da interface do usuário que permite aos usuários iniciar uma ação quando clicados. O elemento de botão pode ser usado para enviar um formulário, redefinir um formulário ou executar outras ações, como navegar para uma página diferente ou acionar o código personalizado. O botão pode ser criado usando o Componente principal do botão.
+Um botão em um Formulário adaptável é um elemento de interface que permite aos usuários iniciar uma ação quando clicados. O elemento de botão pode ser usado para enviar um formulário, redefinir um formulário ou executar outras ações, como navegar para uma página diferente ou acionar um código personalizado. O botão pode ser criado usando o Componente principal de Botão.
 
-O Editor de regras adaptável Forms permite que os usuários definam várias ações para o componente de botão. Essas ações incluem abrir um site, mostrar ou ocultar componentes do formulário, adicionar uma instância de um painel ou componente, enviar ou redefinir um formulário e muito mais.
+O Editor de regras de Formulários adaptáveis permite que os usuários definam várias ações para o componente de Botão. Essas ações incluem abrir um site, mostrar ou ocultar componentes do formulário, adicionar uma instância de um painel ou de um componente, enviar ou redefinir um formulário e muito mais.
 
-O Adaptive Forms também fornece componentes de botão separados para enviar ou redefinir um formulário, mas o componente de botão também pode ser configurado para executar essas ações, se necessário.
+Os Formulários adaptáveis também fornecem componentes de botão separados para enviar ou redefinir um formulário, mas o componente de botão também pode ser configurado para executar essas ações, se necessário.
 
-Os usuários podem acessar a lista completa de ações compatíveis com o componente de botão usando o Editor de regras adaptável do Forms. O Editor de regras permite que os usuários criem regras acionadas por vários eventos, como quando um botão é clicado, quando um formulário é carregado ou quando um valor de campo é alterado. Essas regras podem ser usadas para executar várias ações, como mostrar ou ocultar componentes, definir valores de campo ou enviar o formulário.
+Os usuários podem acessar a lista completa de ações compatíveis com o componente de botão usando o Editor de regras de Formulários adaptáveis. O Editor de regras permite que os usuários criem regras acionadas por diversos eventos, como quando um botão é clicado, um formulário é carregado ou um valor de campo é alterado. Essas regras podem ser usadas para executar diversas ações, como mostrar ou ocultar componentes, definir valores de campo ou enviar o formulário.
 
 ## Uso {#reasons-to-use-button}
 
-Há vários motivos pelos quais é benéfico incluir um botão em um formulário adaptável, incluindo:
+Há vários motivos pelos quais é benéfico incluir um botão em um Formulário adaptável, incluindo:
 
-* **Envio do formulário**: Normalmente, um botão é usado para enviar um formulário, permitindo que os usuários enviem os dados inseridos no servidor para processamento.
+* **Envio do formulário**: normalmente, um botão é usado para enviar um formulário, permitindo que os usuários enviem os dados inseridos ao servidor para processamento.
 
-* **Redefinição de formulário**: Os botões também podem ser usados para redefinir um formulário, limpando todos os dados inseridos pelo usuário.
+* **Redefinição de formulário**: os botões também podem ser usados para redefinir um formulário, limpando todos os dados inseridos.
 
-* **Navegação**: Os botões podem ser usados para navegar entre diferentes seções de um formulário ou páginas diferentes em um site.
+* **Navegação**: os botões podem ser usados para navegar entre diferentes seções de um formulário ou páginas em um site.
 
-* **Manuseio de evento**: Os botões podem ser usados para acionar eventos diferentes, como abrir um site, mostrar/ocultar componentes, adicionar uma instância de um painel ou componente ao botão.
+* **Manipulação de eventos**: os botões podem ser usados para acionar eventos diferentes, como abrir um site, mostrar/ocultar componentes, adicionar uma instância de um painel ou componente ao botão.
 
-* **Interatividade**: Os botões podem ser usados para criar formulários interativos. Por exemplo, um botão pode ser usado para abrir uma caixa de diálogo modal ou para alternar uma seção do formulário.
+* **Interatividade**: os botões podem ser usados para criar formulários interativos. Por exemplo, um botão pode ser usado para abrir uma caixa de diálogo modal ou para alternar uma seção do formulário.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -40,9 +40,9 @@ O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 202
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -50,57 +50,57 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal do botão adaptável Forms na documentação técnica em [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Botão de Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente sua experiência de botão para visitantes com a caixa de diálogo Configurar . Você também pode definir propriedades de botão com facilidade para uma experiência do usuário contínua.
+Você pode personalizar facilmente sua experiência de botão para visitantes com a caixa de diálogo Configurar. Você também pode definir propriedades de botão com facilidade para uma experiência do usuário perfeita.
 
-### Guia básica {#basic-tab}
+### Guia Básico {#basic-tab}
 
-![Guia básica](/help/adaptive-forms/assets/button_basictab.png)
+![Guia Básico](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Nome** - É possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não deve conter espaços ou caracteres especiais.
+* **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-* **Título** - Com seu Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se você não adicionar um título, o nome do componente será exibido em vez do texto do título.
+* **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Referência de associação** - Uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dados dinamicamente a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário contínua para coletar e gerenciar dados.
+* **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 
-* **Referência de vínculo de documento** - Essa opção permite associar um campo Formulário adaptável ao campo Documento de registro. Quando o usuário insere qualquer valor em um campo vinculado de um Formulário adaptável, esse valor também aparece no campo vinculado do Documento de registro correspondente. Por exemplo, uma referência de vínculo Documento de registro pode ser usada para exibir o nome e o endereço de um cliente em um Documento de registro, com base na ID do cliente inserida no formulário. Dessa forma, o AEM Forms permite gerar o Documento de registro e oferece uma experiência do usuário contínua para coletar e gerenciar dados.
+* **Referência de vínculo de documento de registro**: essa opção permite associar um campo de formulário adaptável ao campo de documento de registro. Quando o usuário insere qualquer valor em um campo vinculado de um formulário adaptável, esse valor também aparece no campo vinculado do documento de registro correspondente. Por exemplo, uma referência de vínculo de um documento de registro pode ser usada para exibir o nome e o endereço de um cliente em um documento de registro com base na ID do cliente inserida no formulário. Dessa forma, o AEM Forms permite gerar um Documento de registro e oferece uma experiência do usuário perfeita para coletar e gerenciar dados.
 
-* **Ocultar componente** - Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
-* **Desativar Componente** - Selecione a opção para desativar o componente. O componente desativado não é ativo ou editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Somente leitura** - Selecione a opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+* **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+* **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-### Guia Conteúdo da Ajuda {#help-content}
+### Guia Conteúdo de ajuda {#help-content}
 
-![Guia Conteúdo da Ajuda](/help/adaptive-forms/assets/button_helptab.png)
+![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Descrição curta** - Uma breve descrição é uma breve explicação de texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative o **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+* **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-* **Sempre mostrar descrição curta** - Ative a opção para exibir a Descrição curta abaixo do componente.
+* **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
-* **Texto da ajuda** - O texto da Ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto da Ajuda fornece informações mais detalhadas do que o rótulo de um campo de formulário ou o texto de espaço reservado, e foi projetado para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+* **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 ### Acessibilidade {#accessibility}
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 
-* **Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+* **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente de botão.
+A Caixa de diálogo de Design é usada para definir e gerenciar estilos CSS para o componente de botão.
 
 ### Guia Estilos {#styles-tab}
 
-O Componente principal do botão adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+O Componente principal de botão de Formulários adaptáveis é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![caixa de diálogo de design](/help/adaptive-forms/assets/button_designdialog.png)
 
-* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do botão adaptável do Forms.
+* **Classes CSS Padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de botão de Formulários adaptáveis.
 
-* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Estilos permitidos**: você pode definir um estilo fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 

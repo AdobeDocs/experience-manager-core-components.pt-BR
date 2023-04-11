@@ -1,18 +1,18 @@
 ---
-title: Componente principal adaptável do Forms - Título
-description: Uso ou personalização do Componente principal do título adaptável do Forms.
+title: Componente principal dos Formulários adaptáveis - Título
+description: Utilização ou personalização do Componente principal de Título dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 14%
+ht-degree: 90%
 
 ---
 
 # Título {#title-input-adaptive-forms-core-component}
 
-Em um formulário adaptável, um &quot;título&quot; refere-se ao texto que aparece na parte superior do formulário, normalmente abaixo do cabeçalho. O título é especificado usando o componente Título. Esse componente pode ser adicionado ao layout do formulário e seu texto pode ser editado para corresponder à finalidade ou ao tópico do formulário. O título serve como um rótulo ou uma breve descrição do formulário para o usuário, e ajuda a distinguir o formulário de outros.
+Em um Formulário adaptável, um “título” refere-se ao texto que aparece na parte superior do formulário, normalmente abaixo do cabeçalho. O título é especificado usando o componente de Título. Esse componente pode ser adicionado ao layout do formulário e seu texto pode ser editado para corresponder à finalidade ou ao tópico do formulário. O título serve como um rótulo ou uma breve descrição do formulário para o usuário, e ajuda a distinguir o formulário de outros.
 
 **Exemplo**
 
@@ -22,17 +22,17 @@ Em um formulário adaptável, um &quot;título&quot; refere-se ao texto que apar
 
 Há vários motivos pelos quais é uma boa prática usar um título em um formulário:
 
-* **Clareza**: Um título identifica claramente a finalidade do formulário, o que ajuda os usuários a entender quais informações precisam ser fornecidas.
+* **Clareza**: um título identifica claramente a finalidade do formulário, o que ajuda os usuários a entender quais informações precisam ser fornecidas.
 
-* **Organização**: Um título pode ajudar a organizar formulários por tópico ou finalidade, o que facilita para os usuários encontrar o formulário necessário.
+* **Organização**: um título pode ajudar a organizar formulários por tópico ou finalidade, o que facilita para os usuários encontrar o formulário necessário.
 
-* **Acessibilidade**: Um título é um elemento essencial para os usuários com necessidades de acessibilidade, pois é lido em voz alta pelos leitores de tela, ajudando os usuários a entender o contexto do formulário.
+* **Acessibilidade**: um título é um elemento essencial para os usuários com necessidades de acessibilidade, pois é lido em voz alta pelos leitores de tela, ajudando os usuários a entender o contexto do formulário.
 
-* **Marca**: Um título também pode ser usado para exibir o nome de uma empresa ou organização, o que ajuda a criar um senso de confiança e familiaridade com o usuário.
+* **Marca**: um título também pode ser usado para exibir o nome de uma empresa ou organização, o que ajuda a criar um senso de confiança e familiaridade com o usuário.
 
-* **Navegação**: Um título também pode ser útil para navegar pelo formulário, especialmente se ele for longo ou complexo.
+* **Navegação**: um título também pode ser útil para navegar pelo formulário, especialmente se ele for longo ou complexo.
 
-* **Otimização do mecanismo de pesquisa (SEO)**: Ter um título no formulário também ajuda na SEO, já que os mecanismos de pesquisa usam o título para determinar a relevância de uma página da Web para um query de pesquisa.
+* **Otimização de mecanismo de pesquisa (SEO)**: ter um título no formulário também ajuda na SEO, já que os mecanismos de pesquisa usam o título para determinar a relevância de uma página da Web para uma consulta de pesquisa.
 
 Em geral, o título de um formulário é um aspecto importante da experiência do usuário e deve ser usado para fornecer um rótulo claro e conciso para o formulário, que ajude os usuários a entender o contexto e a finalidade do formulário.
 
@@ -42,9 +42,9 @@ O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 202
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -53,17 +53,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal do título adaptativo do Forms na documentação técnica em [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Título dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente sua experiência de título para visitantes com a caixa de diálogo Configurar . Você também pode definir opções de título com facilidade para uma experiência do usuário contínua.
+Você pode personalizar facilmente sua experiência de título para visitantes com a caixa de diálogo Configurar. Você também pode definir opções de título com facilidade para proporcionar uma experiência do usuário contínua.
 
-![Guia Básica](/help/adaptive-forms/assets/title_properties.png)
+![Guia Básico](/help/adaptive-forms/assets/title_properties.png)
 
 A caixa de diálogo de edição permite que o autor de conteúdo defina o texto do título, e selecione o nível do cabeçalho.
 
-* **Título** - Com seu Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se você não adicionar um título, o nome do componente será exibido em vez do texto do título.
+* **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título.
 * **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na Camada de Dados.
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
@@ -78,25 +78,25 @@ A guia Design é usada para definir e gerenciar estilos de CSS para o componente
 
 A guia Título permite que os autores de modelo definam elementos de cabeçalho de HTML padrão e permitido para autores de formulários:
 
-![Guia de título da caixa de diálogo Design](/help/adaptive-forms/assets/title_heading.png)
+![Guia título da caixa de diálogo de Design](/help/adaptive-forms/assets/title_heading.png)
 
-* **Elementos de cabeçalho permitidos**: Uma lista com várias opções que permitem ao autor do modelo escolher quais elementos de cabeçalho podem ser usados pelo autor para o Título.
+* **Elementos de cabeçalho permitidos**: uma lista com várias opções que permitem ao autor do modelo escolher quais elementos de cabeçalho podem ser usados pelo autor para o título.
 
-* **Elemento de cabeçalho padrão**: Uma lista suspensa que define o elemento Cabeçalho padrão para o componente Título .
+* **Elemento de cabeçalho padrão**: uma lista suspensa que define o elemento Cabeçalho padrão para o componente Título.
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do seletor de data adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do seletor de datas de Formulários adaptáveis é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-![Guia de título da caixa de diálogo Design](/help/adaptive-forms/assets/title_styles.png)
+![Guia título da caixa de diálogo de Design](/help/adaptive-forms/assets/title_styles.png)
 
-* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal do seletor de data da Forms adaptável.
+* **Classes CSS Padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do seletor de datas dos Formulários adaptáveis.
 
-* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Guia Formatos {#format-tab}
 
-A guia format permite especificar os formatos de data padrão e personalizados.
+A guia Formatos permite especificar os formatos de data padrão e personalizados.
 
 ![Guia Formatar](/help/adaptive-forms/assets/title_styles.png)
 

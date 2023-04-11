@@ -105,7 +105,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 ## Requisitos do sistema {#system-requirements}
 
-| Componentes principais   Versão | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
+| Componentes principais  Versão | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---------|---------|---------|---------|---------|
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Contínuo | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 

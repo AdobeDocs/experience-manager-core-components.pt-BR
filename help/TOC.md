@@ -7,7 +7,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 79%
+ht-degree: 99%
 
 ---
 
@@ -103,26 +103,26 @@ ht-degree: 79%
 + Formulários adaptáveis {#adaptive-forms}
    + [Introdução](/help/adaptive-forms/introduction.md)
    + [Histórico da versão](/help/adaptive-forms/version.md)
-   + Componentes adaptáveis do Forms {#adaptive-forms-components}
-      + [Opção Adaptive Forms](/help/adaptive-forms/components/accordion.md)
-      + [Botão Adaptável Forms](/help/adaptive-forms/components/button.md)
-      + [Grupo de caixa de seleção adaptável do Forms](/help/adaptive-forms/components/checkbox-group.md)
-      + [Seletor de data adaptável do Forms](/help/adaptive-forms/components/date-picker.md)
-      + [Lista suspensa adaptável do Forms](/help/adaptive-forms/components/drop-down.md)
-      + [Entrada de email adaptável do Forms](/help/adaptive-forms/components/email-input.md)
-      + [Anexos de arquivo adaptáveis do Forms](/help/adaptive-forms/components/file-attachment.md)
-      + [Guias horizontais adaptáveis do Forms](/help/adaptive-forms/components/horizontal-tabs.md)
-      + [Imagem adaptável do Forms](/help/adaptive-forms/components/image.md)
-      + [Entrada do número adaptável do Forms](/help/adaptive-forms/components/number-input.md)
-      + [Painel adaptável Forms](/help/adaptive-forms/components/panel-container.md)
-      + [Botão de opção adaptável do Forms](/help/adaptive-forms/components/radio-button.md)
-      + [Botão adaptável de redefinição do Forms](/help/adaptive-forms/components/reset-button.md)
-      + [Botão Adaptive Forms Submit](/help/adaptive-forms/components/submit-button.md)
-      + [Entrada de telefone adaptável do Forms](/help/adaptive-forms/components/telephone-input.md)
-      + [Texto adaptável do Forms](/help/adaptive-forms/components/text.md)
-      + [Caixa de texto adaptável do Forms](/help/adaptive-forms/components/text-input.md)
-      + [Título adaptável do Forms](/help/adaptive-forms/components/title.md)
-      + [Layout do assistente adaptável do Forms](/help/adaptive-forms/components/wizard.md)
+   + Componentes de formulários adaptáveis {#adaptive-forms-components}
+      + [Acordeão de formulários adaptáveis](/help/adaptive-forms/components/accordion.md)
+      + [Botão de formulários adaptáveis](/help/adaptive-forms/components/button.md)
+      + [Grupo de caixas de seleção de formulários adaptáveis](/help/adaptive-forms/components/checkbox-group.md)
+      + [Seletor de data de formulários adaptáveis](/help/adaptive-forms/components/date-picker.md)
+      + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down.md)
+      + [Entrada de email de formulários adaptáveis](/help/adaptive-forms/components/email-input.md)
+      + [Anexos de arquivo de formulários adaptáveis](/help/adaptive-forms/components/file-attachment.md)
+      + [Guias horizontais de formulários adaptáveis](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
+      + [Entrada de número de formulários adaptáveis](/help/adaptive-forms/components/number-input.md)
+      + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel-container.md)
+      + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
+      + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
+      + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
+      + [Entrada de telefone de formulários adaptáveis](/help/adaptive-forms/components/telephone-input.md)
+      + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
+      + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-input.md)
+      + [Título de formulários adaptáveis](/help/adaptive-forms/components/title.md)
+      + [Layout do assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)
       + [Rodapé](/help/adaptive-forms/components/footer.md)
 + Desenvolvimento {#developing}
@@ -131,7 +131,7 @@ ht-degree: 79%
    + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
    + [Personalizar os Componentes principais](developing/customizing.md)
    + [Orientações para os componentes](developing/guidelines.md)
-   + [Suporte a AMP](developing/amp.md)
+   + [Suporte ao AMP](developing/amp.md)
    + [Configurações sensíveis ao contexto](developing/context-aware-configs.md)
    + [Inclusão de Bibliotecas do cliente](developing/including-clientlibs.md)
    + [O Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md)

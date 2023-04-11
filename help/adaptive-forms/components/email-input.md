@@ -1,34 +1,34 @@
 ---
-title: Componente principal adaptável do Forms - Entrada de email
-description: Uso ou personalização do Componente principal de entrada de email adaptável do Forms.
+title: Componente principal de formulários adaptáveis - Entrada de email
+description: Uso ou personalização do componente principal de entrada de email de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 1%
+ht-degree: 95%
 
 ---
 
 # Entrada de email {#Email-input-adaptive-forms-core-component}
 
-O Componente principal de entrada de email do formulário adaptável é usado para coletar endereços de email dos usuários. O campo de entrada de email permite que o navegador valide se os dados inseridos são um formato de endereço de email válido. Normalmente, ele é representado como uma caixa de texto e tem validações de padrão para aceitar apenas endereços de email válidos. O campo de entrada de email pode ser personalizado ainda mais com atributos adicionais, como &quot;obrigatório&quot;, &quot;espaço reservado&quot; e &quot;padrão&quot; para definir validações para os dados de entrada.
+O componente principal de entrada de email de formulários adaptáveis é usado para coletar endereços de email dos usuários. O campo de entrada de email permite que o navegador confirme se os dados inseridos estão em um formato de endereço de email válido. Normalmente, ele é representado como uma caixa de texto e tem um padrão de validação que aceita apenas endereços de email válidos. O campo de entrada de email pode ser personalizado ainda mais com atributos adicionais, como “obrigatório”, “espaço reservado” e “padrão” para definir validações para os dados de entrada.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
-Há vários motivos pelos quais é benéfico incluir um componente de entrada de email em um Formulário adaptável, incluindo:
+Há várias vantagens de se incluir um componente de entrada de email em um formulário adaptável, incluindo:
 
-* **Conveniência do usuário**: Uma entrada de email facilita a inserção de endereços de email pelos usuários, pois fornece uma indicação clara dos dados esperados no campo.
+* **Conveniente para o usuário**: uma entrada de email facilita a inserção de endereços de email pelos usuários, pois fornece uma indicação clara dos dados esperados no campo.
 
-* **Comunicação personalizada**: A coleta de endereços de email de usuários por meio de um formulário permite comunicação personalizada, como o envio de emails de confirmação ou informativos.
+* **Comunicação personalizada**: a coleta de endereços de email de usuários por meio de um formulário permite uma comunicação personalizada, como o envio de emails de confirmação ou boletins informativos.
 
-* **Geração de leads**: Ao coletar endereços de email por meio de um formulário, as empresas podem criar sua lista de email e usá-la para geração de leads.
+* **Geração de clientes potenciais**: ao coletar endereços de email por meio de um formulário, as empresas podem criar suas listas de emails e usá-las para a geração de clientes potenciais.
 
-* **Autenticação do usuário**: Endereços de email podem ser usados como meio de autenticação para acessar conteúdo ou serviços restritos.
+* **Autenticação do usuário**: endereços de email podem ser usados como um meio de autenticação para acessar conteúdos ou serviços restritos.
 
-* **Coleção de comentários**: Uma entrada de email em um formulário de feedback permite que a empresa se comunique com o usuário para obter acompanhamento ou esclarecimentos sobre seus comentários.
+* **Coleta de feedback**: uma entrada de email em um formulário de feedback permite que a empresa se comunique com o usuário para obter acompanhamento ou esclarecimentos sobre seu feedback.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -36,9 +36,9 @@ O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 202
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -46,89 +46,89 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de entrada de email adaptável do Forms na documentação técnica em [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de entrada de email de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente sua experiência de entrada de email para visitantes com a caixa de diálogo Configurar . Você também pode definir opções de entrada de email com facilidade para uma experiência do usuário contínua.
+Você pode personalizar facilmente a experiência de entrada de email para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de entrada de email com facilidade para uma experiência de usuário perfeita.
 
-### Guia básica {#basic-tab}
+### Guia Básico {#basic-tab}
 
-![Guia Básica](/help/adaptive-forms/assets/email_basictab.png)
+![Guia Básico](/help/adaptive-forms/assets/email_basictab.png)
 
-* **Nome** - O nome identifica exclusivamente o componente no editor de regras.Caracteres e espaços especiais não são permitidos nas sequências de nome.
+* **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
 
-* **Título** - Com seu Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se você não adicionar um título, o nome do componente será exibido em vez do texto do título.
+* **Título** - Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar Título** - Selecione a opção para ocultar o Título do componente.
+* **Ocultar título** - Selecione a opção para ocultar o Título do componente.
 
-* **Texto de espaço reservado** - O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto do espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não atua como um rótulo ou valor permanente para o campo.
+* **Texto de espaço reservado**: o texto de espaço reservado de um componente de formulário refere-se a um rótulo curto ou mensagem que aparece em um campo de entrada, fornecendo ao usuário uma dica sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
-* **Referência de associação** - Uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dados dinamicamente a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário contínua para coletar e gerenciar dados.
-* **Ocultar componente** - Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
-* **Desativar Componente** - Selecione a opção para desativar o componente. O componente desativado não é ativo ou editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Somente leitura** - Selecione a opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+* **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
+* **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+* **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-* **Valor padrão** - Essa opção permite adicionar um valor padrão em um campo de formulário. If **Componente desativado** ou **Componente somente leitura** for selecionado, o valor padrão será exibido na tela . Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
+* **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
 
 
 ### Guia Validação {#validation-tab}
 
 ![Guia Validação](/help/adaptive-forms/assets/email_validationtab.png)
 
-* **Obrigatório** - Selecione essa opção se desejar exibir o componente em um formulário adaptável. Não é possível selecionar a variável **Ocultar componente** ou **Desativar Componente**  no **Básico** quando essa opção estiver selecionada.
+* **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
 
-* **Mensagem de erro** - Essa opção permite que você insira uma mensagem que é exibida se a variável **Obrigatório** está marcada e o campo do formulário fica em branco.
+* **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 
-* **Mensagem de validação de script** - Essa opção permite que você insira uma mensagem a ser exibida se a validação do script falhar.
+* **Mensagem de validação de script**: essa opção permite inserir uma mensagem que será exibida se a validação do script falhar.
 
-* **Número máximo de caracteres** - Essa opção permite especificar o número máximo de caracteres permitidos no campo. Se você digitar caracteres maiores que o valor especificado em **Número máximo de caracteres**, uma mensagem de erro é exibida na tela . O **Mensagem de erro de máximo de caracteres** caixa de diálogo permite adicionar uma mensagem de erro personalizada.
+* **Número máximo de caracteres**: essa opção permite especificar o número máximo de caracteres permitidos no campo. Se você inserir mais caracteres que o valor especificado em **Número máximo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro de máximo de caracteres** - O **Mensagem de erro de máximo de caracteres** caixa de diálogo permite adicionar uma mensagem de erro personalizada se você digitar caracteres maiores que o valor especificado na **Número máximo de caracteres** opção.
+* **Mensagem de erro de máximo de caracteres**: a caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir mais caracteres que o valor especificado na opção **Número máximo de caracteres**.
 
-* **Número mínimo de caracteres** - Essa opção permite especificar o número mínimo de caracteres permitidos no campo. Se você digitar caracteres menores que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro é exibida na tela . O **Mensagem de erro de caracteres mínimos** caixa de diálogo permite adicionar uma mensagem de erro personalizada.
+* **Número mínimo de caracteres**: essa opção possibilita especificar o número mínimo de caracteres permitidos no campo. Se você inserir menos caracteres que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro de caracteres mínimos** - O **Mensagem de erro de caracteres mínimos** caixa de diálogo permite adicionar uma mensagem de erro personalizada se você digitar caracteres menores que o valor especificado na **Número mínimo de caracteres** opção.
+* **Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
 
 <br>
 
-    A opção **Padrão de validação** permite inserir um padrão para validar a ID de email inserida. Caso a ID de email não seja validada com o valor inserido na opção **Padrão** , a mensagem de erro será exibida na tela.
-    * **Padrão** - Essa opção permite inserir os padrões de verificação permitidos para o email. Expressões regulares também são permitidas.
-    * **Mensagem de erro** - Essa opção permite inserir uma mensagem que é exibida na tela se a ID do email não for validada com o valor inserido na opção **Padrão**
+    A opção **Padrão de validação** permite inserir um padrão para validar a ID de email inserida. Caso haja falha na validação da ID de email com o valor inserido na opção **Padrão**, a mensagem de erro será exibida na tela.
+    * **Padão**: essa opção permite inserir os padrões de verificação permitidos para email. Expressões regulares também são permitidas.
+    * **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida na tela caso haja falha na validação da ID de email com o valor inserido na opção **Padão**
 
-### Guia Conteúdo da Ajuda {#help-content-tab}
+### Guia Conteúdo de ajuda {#help-content-tab}
 
-![Guia Conteúdo da Ajuda](/help/adaptive-forms/assets/email_helptab.png)
+![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/email_helptab.png)
 
-* **Descrição curta** - Uma breve descrição é uma breve explicação de texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative o **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+* **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-* **Sempre mostrar descrição curta** - Ative a opção para exibir a Descrição curta abaixo do componente.
+* **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
-* **Texto da ajuda** - O texto da Ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto da Ajuda fornece informações mais detalhadas do que o rótulo de um campo de formulário ou o texto de espaço reservado, e foi projetado para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+* **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/email_accessibilitytab.png)
 
-**Texto para leitores de tela** - Texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias assistivas, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (Texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente de entrada de Email .
+A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente de entrada de email.
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal de entrada de email adaptável do Forms é compatível com o AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar estilos de CSS de um componente. O componente principal de entrada de email de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Guia Estilo](/help/adaptive-forms/assets/email_designdialog.png)
 
-* **Classes CSS Padrão**: Você pode fornecer uma classe CSS padrão para o Componente principal de entrada de email adaptável do Forms.
+* **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o componente principal de entrada de email de formulários adaptáveis.
 
-* **Estilos permitidos**: Você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado &quot;texto em negrito&quot; e fornecer a classe CSS &quot;peso da fonte: bold&quot;. Você pode usar ou aplicar esses estilos a um Formulário adaptável no editor adaptável do Forms. Para aplicar um estilo, no editor da Adaptive Forms, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na **Estilos** lista suspensa. Se precisar atualizar ou modificar os estilos, retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+* **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Guia Formatos {#format-tab}
 
-A guia format permite especificar os formatos de data padrão e personalizados.
+A guia Formatos permite especificar os formatos de data padrão e personalizados.
 
 ![Guia Design](/help/adaptive-forms/assets/emailinput_designformattab.png)
 

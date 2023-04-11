@@ -1,40 +1,40 @@
 ---
-title: Componente principal adaptável do Forms - Contêiner de formulário
-description: Adicionar um formulário adaptável a uma página da Web.
+title: 'Componente principal de formulários adaptáveis: container de formulário'
+description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 2%
+ht-degree: 89%
 
 ---
 
 
-# Contêineres de formulário {#form-container-adaptive-forms-core-component}
+# Container de formulário {#form-container-adaptive-forms-core-component}
 
-O Forms permite que os visitantes do site interajam com o site, fornecendo informações valiosas, que podem aumentar a participação e a satisfação do usuário. Um Contêiner de formulário adaptável no Adobe Experience Manager (AEM) Sites permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização do site, fornecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e concluam outra ação
+O Forms permite que os visitantes do site interajam com o site fornecendo informações valiosas, que podem aumentar o engajamento e a satisfação do usuário. No Adobe Experience Manager Sites (AEM Sites), um container de formulário adaptável permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização, oferecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e realizem outras ações.
 
 ## Uso {#reasons-to-use-forms-container}
 
 Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 
-* **Coleta de dados**: O Forms pode ser usado para coletar dados de visitantes do site para vários propósitos, como pesquisa de mercado, análise de comportamento do usuário e muito mais.
+* **Coleção de dados**: o Forms pode ser usado para coletar dados de visitantes do site para vários propósitos, como pesquisa de mercado, análise de comportamento dos usuários e muito mais.
 
-* **Geração de leads**: Um formulário pode ser usado para coletar informações de clientes potenciais, como nome e endereço de email, para gerar leads para esforços de vendas e marketing.
+* **Geração de clientes potenciais**: um formulário pode ser usado para coletar informações de clientes potenciais, como nome e endereço de email, a fim de gerar leads para as iniciativas de vendas e marketing.
 
-* **Comércio eletrônico**: O Forms pode ser usado para compras online, permitindo que os clientes façam pedidos e façam pagamentos por meio do site.
+* **Comércio eletrônico**: o Forms pode ser usado para compras online, permitindo que os clientes façam pedidos e pagamentos por meio do site.
 
-* **Contato**: Um formulário de contato permite que os visitantes do site acessem facilmente o proprietário do site ou a organização.
+* **Contato**: um formulário de contato permite que os visitantes do site entrem em contato com o proprietário ou a organização de maneira fácil.
 
-* **Inquéritos e sondagens**: O Forms pode ser usado para coletar comentários e opiniões de visitantes do site por meio de pesquisas e pesquisas.
+* **Pesquisas e votações**: o Forms pode ser usado para coletar comentários e opiniões de visitantes do site por meio de pesquisas e votações.
 
-* **Registro de evento**: O Forms pode ser usado para o registro de eventos, permitindo que os visitantes do site se inscrevam para eventos ou webinars.
+* **Registro em evento**: o Forms pode ser usado para o registro em eventos, permitindo que os visitantes do site se inscrevam em eventos ou webinários.
 
-* **Subscrições**: O Forms pode ser usado para assinaturas de sites, permitindo que os visitantes se inscrevam para um boletim informativo ou outras comunicações regulares.
+* **Assinaturas**: o Forms pode ser usado para assinaturas de sites, permitindo que os visitantes se inscrevam em boletins informativos ou outras comunicações regulares.
 
-* **Autenticação do usuário**: O Forms pode ser usado para autenticação de usuário, permitindo que os visitantes do site criem contas e façam logon para acessar conteúdo ou recursos exclusivos.
+* **Autenticação de usuários**: o Forms pode ser usado para a autenticação de usuários, permitindo que os visitantes do site criem contas e façam logon para acessar conteúdo ou recursos exclusivos.
 
-* **Aumentar taxa de conversão**: Um formulário bem projetado pode aumentar a taxa de conversão, facilitando para os usuários concluírem uma ação desejada, como comprar um produto ou se inscrever em um serviço.
+* **Aumentar a taxa de conversão**: um formulário bem projetado pode aumentar a taxa de conversão, tornando fácil para os usuários concluírem uma ação desejada, como comprar um produto ou se inscrever em um serviço.
 
 
 ## Versão e compatibilidade {#version-and-compatibility}
@@ -43,39 +43,39 @@ O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 202
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
 
-Para obter informações sobre versões e versões dos Componentes principais, consulte [Versões dos Componentes principais](/help/adaptive-forms/version.md) documento.
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal do contêiner adaptável Forms na documentação técnica em [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/container/v1/container). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de container de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/container/v1/container). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente a experiência do contêiner de formulário para visitantes com a caixa de diálogo Configurar . Você também pode definir opções de contêiner de formulário com facilidade para uma experiência do usuário contínua.
+Você pode personalizar facilmente a experiência do container de formulário para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de container de formulário com facilidade para uma experiência de usuário perfeita.
 
-### Guia básica {#basic-tab}
+### Guia Básico {#basic-tab}
 
-![Guia Básica](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Guia Básico](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Serviços de pré-preenchimento** - Essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o Formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
+* **Serviços de pré-preenchimento** - Essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o Formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
-* **Categoria Biblioteca do cliente** - O usuário pode configurar uma biblioteca JavaScript personalizada por Formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que têm dependência em bibliotecas de terceiros jquery e underscore.js.
+* **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
 
-### Guia Submissão {#submission-tab}
+### Guia Enviar {#submission-tab}
 
-![Guia Submissão](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
+![Guia Enviar](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
-Os usuários podem configurar ações diferentes para os envios de um formulário adaptável.
+Os usuários podem configurar ações diferentes para o envio de um formulário adaptável.
 
-* **Redirecionar URL/caminho** - Essa opção permite que o usuário configure uma página para cada formulário, para a qual os usuários do formulário são redirecionados após enviar um formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
+* **URL/caminho de redirecionamento**: essa opção permite que o usuário configure uma página em cada formulário, para a qual os usuários do formulário são redirecionados após enviar o formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=pt-BR).
 
 ![Guia Mostrar mensagem](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **Mostrar mensagem** - Essa opção permite que os usuários adicionem uma mensagem exibida quando o formulário adaptável for enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem oferece suporte a ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
+* **Mostrar mensagem**: essa opção permite que os usuários adicionem uma mensagem que é exibida quando o formulário adaptável é enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem é compatível com as ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
 
-* **Enviar ação** - Uma ação Enviar é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Os usuários podem selecionar Enviar ações na lista suspensa que são compatíveis imediatamente. Saiba como [configurar uma Ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
+* **Ação de envio**: uma ação de envio é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Na lista suspensa, os usuários podem selecionar ações de envio que são compatíveis de fábrica. Saiba como [configurar uma ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#supporting-custom-functions-in-validation-expressions-br).

@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Versões dos Componentes principais {#core-components-versions}
 
-A versão atual dos componentes principais é a 2.22.0, e é compatível com o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR) e instalações [locais do AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=pt-BR).
+A versão atual dos Componentes principais é a 2.22.0, e é compatível com o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR) e instalações [locais do AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=pt-BR).
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
@@ -26,7 +26,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Esta versão apresenta uma nova versão do [Componente de Lista](/help/components/list.md) juntamente com melhorias na [Teaser](/help/components/teaser.md) e atualização do [Visualizador de PDF](/help/components/pdf-viewer.md) e [Carrossel](/help/components/carousel.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 9 de fevereiro de 2023 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Esta versão apresenta uma nova versão do [Componente de lista](/help/components/list.md) juntamente com aprimoramentos à [Teaser](/help/components/teaser.md) e atualização da [Visualizador de PDF](/help/components/pdf-viewer.md) e [Carrossel](/help/components/carousel.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 9 de fevereiro de 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Esta é uma versão de correção para corrigir um problema com v1 e v2 [Componentes do Teaser.](/help/components/teaser.md) | - | 6.5.13.0+ * | Contínuo | 8, 11 | 12 de setembro de 2022 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Esta versão inclui várias melhorias, como a publicação da API do LinkHandler, [melhorias no Componente de imagem](/help/components/image.md) e na [Camada de dados,](/help/developing/data-layer/overview.md) bem como melhorias nos componentes de múltiplos painéis. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 12 de setembro de 2022 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Esta versão corrige um problema na entrega de imagens de SVG pelo AdaptiveImageServlet. | - | 6.5.13.0+ * | Contínuo | 8, 11 | 4 de agosto de 2022 |
@@ -91,7 +91,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 A tabela a seguir detalha que versões de quais componentes estão contidas em quais versões dos Componentes principais.
 
-|  | Versão 1.0.0 - 1.0.6 | Versão 1.1.0 | Versão 2.0.0 - 2.0.8 | Versão 2.1.0 | Versão 2.2.0 - 2.2.0 | Versão 2.3.0 - 2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0 - 2.8.0 | Versão 2.9.0 - 2.17.14 | Versão 2.18.0 | Versão 2.19.0 | Versão 2.20.0 - 2.21.2 | Versão 2.22.0+ |
+|  | Versão 1.0.0 - 1.0.6 | Versão 1.1.0 | Versão 2.0.0 - 2.0.8 | Versão 2.1.0 | Versão 2.2.0 - 2.2.0 | Versão 2.3.0 - 2.3.2 | Versão 2.4.0 | Versão 2.5.0 | Versão 2.6.0 | Versão 2.7.0 - 2.8.0 | Versão 2.9.0 - 2.17.14 | Versão 2.18.0 | Versão 2.19.0 | Versão 2.20.0-2.21.2 | Versão 2.22.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[Página](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 | v1, v2, v3 | v1, v2, v3 | v1, v2, v3 |
 | **[Título](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 | v1, v2, v3 | v1, v2, v3 | v1, v2, v3 |
