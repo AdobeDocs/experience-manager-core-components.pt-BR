@@ -4,10 +4,10 @@ user-guide-title: Componentes principais do AEM
 breadcrumb-title: Guia dos Componentes principais
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -107,6 +107,7 @@ ht-degree: 99%
       + [Acordeão de formulários adaptáveis](/help/adaptive-forms/components/accordion.md)
       + [Botão de formulários adaptáveis](/help/adaptive-forms/components/button.md)
       + [Grupo de caixas de seleção de formulários adaptáveis](/help/adaptive-forms/components/checkbox-group.md)
+      + [Contêiner Adaptive Forms](/help/adaptive-forms/components/form-container.md)
       + [Seletor de data de formulários adaptáveis](/help/adaptive-forms/components/date-picker.md)
       + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down.md)
       + [Entrada de email de formulários adaptáveis](/help/adaptive-forms/components/email-input.md)
