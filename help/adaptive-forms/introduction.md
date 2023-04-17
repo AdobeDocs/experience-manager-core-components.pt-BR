@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 86%
 
 ---
 
@@ -90,32 +90,41 @@ Os Componentes principais dos Formulários adaptáveis têm os seguintes requisi
 
 | AEM | Complemento do AEM Forms | Componentes principais |
 |---|---|---|
-| AEM as a Cloud Service | Forms - Inscrição digital | [Versão 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms - Inscrição digital | [Versão 2.20.8](version.md)+ |
+| AEM 6.5 | Complemento do Forms | [Versão 1.1.12](version.md)+ |
+
+## Configurar e criar um formulário adaptável baseado nos componentes principais
+
+**AEM Forms as a Cloud Service**: Quando você cria um novo programa as a Cloud Service do AEM Forms, os Componentes principais adaptativos do Forms já estão habilitados para seu ambiente. Se você tiver um ambiente as a Cloud Service do Forms com base no Archetype 39 ou anterior, [Ativar os Componentes principais adaptáveis do Forms para o seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+Ao ativar os Componentes principais para seu ambiente, a variável **Adaptável Forms (Componente principal)** modelo e tema da tela são adicionados ao seu ambiente. Se sua versão do SDK do AEM anterior a 2023.02.0, [certifique-se de que `prerelease` sinalizador ativado em seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components faziam parte do pré-lançamento antes da versão 2023.02.0.
+
+Para usar o assistente do Adaptive Forms e o editor de Adaptive Forms para criar um Formulário adaptável, consulte Criar um formulário adaptável ([Componentes principais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR?)).
 
 
 ## Componentes principais dos Formulários adaptáveis {#components}
 
-Você pode usar o [editor de Formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR) para criar um Formulário adaptável baseado em Componentes principais. A versão atual dos Componentes principais de Formulários adaptáveis apresenta os componentes listados abaixo.
+A versão atual dos Componentes principais de Formulários adaptáveis apresenta os componentes listados abaixo.
 
-* Acordeão
-* Botão
-* Grupo de Caixa de seleção
-* Seletor de data
-* Lista suspensa
-* Entrada de email
-* Containeres de formulário
-* Anexo de arquivo
-* Rodapé
-* Cabeçalho
-* Guias horizontais
-* Imagem
-* Entrada de número
-* Container do painel
-* Botão de opção
-* Botão Redefinir
-* Botão Enviar
-* Entrada de telefone
-* Entrada de texto
-* Texto
-* Título
-* Assistente
+* [Acordeão](/help/adaptive-forms/components/accordion.md)
+* [Botão](/help/adaptive-forms/components/button.md)
+* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
+* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
+* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
+* [Entrada de email](/help/adaptive-forms/components/email-input.md)
+* [Containeres de formulário](/help/adaptive-forms/components/form-container.md)
+* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
+* [Rodapé](/help/adaptive-forms/components/footer.md)
+* [Cabeçalho](/help/adaptive-forms/components/header.md)
+* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Imagem](/help/adaptive-forms/components/image.md)
+* [Entrada de número](/help/adaptive-forms/components/number-input.md)
+* [Container do painel](/help/adaptive-forms/components/panel-container.md)
+* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
+* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
+* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
+* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
+* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+* [Texto](/help/adaptive-forms/components/text.md)
+* [Título](/help/adaptive-forms/components/title.md)
+* [Assistente](/help/adaptive-forms/components/wizard.md)
