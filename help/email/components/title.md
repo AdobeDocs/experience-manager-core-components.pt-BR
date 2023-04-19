@@ -3,9 +3,9 @@ title: Componente Título de email
 description: O Componente Título de email é um componente de cabeçalho de seção para seus emails que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível | Compatível |
+| v1 | Compatível  | - |
 
 Para obter mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais de email](/help/versions.md).
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o componente de Título, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes.](https://adobe.com/go/aem_cmp_library_email_title)
 
 ### Detalhes técnicos {#technical-details}
 

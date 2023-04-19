@@ -3,9 +3,9 @@ title: Componente de container de email
 description: O Componente de container de email permite a criação de um container para vários componentes adicionais no seu conteúdo de email.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível | Compatível |
+| v1 | Compatível  | - |
 
 Para mais informações sobre as versões dos Componentes Principais de email, consulte o documento [Versões dos Componentes Principais.](/help/email/versions.md)
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o Componente de container de email e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_container)
 
 ## Detalhes técnicos {#technical-details}
 
@@ -85,7 +81,7 @@ A guia **Componentes permitidos** funciona da mesma maneira que a guia de mesmo 
 
 ### Guia Componentes padrão {#default-components-tab}
 
-A guia **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no container, de modo semelhante a [como os componentes padrão são definidos no modelo de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+A guia **Componentes padrão** é usada para definir qual componente é adicionado ao componente quando um tipo de ativo específico é descartado no container, de modo semelhante a [como os componentes padrão são definidos no modelo de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
 ### Guia Configurações do container {#container-settings-tab}
 

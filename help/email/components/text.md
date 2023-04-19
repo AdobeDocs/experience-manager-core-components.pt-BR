@@ -3,9 +3,9 @@ title: Componente de texto de email
 description: O Componente de texto de email é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2291'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível | Compatível |
+| v1 | Compatível  | - |
 
 Para mais informações sobre as versões e novidades dos Componentes Principais, consulte o documento [Versões dos Componentes Principais de Email.](/help/email/versions.md)
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o componente de Texto, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_email_text).
 
 ### Detalhes técnicos {#technical-details}
 
@@ -52,7 +48,7 @@ O restante deste documento demonstra a configuração padrão do Componente de t
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) estão disponíveis no Componente de texto de email.
+>Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no Componente de texto de email.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -284,7 +280,7 @@ Usado para alinhar uma imagem inserida.
 
 Usado para verificar a ortografia do conteúdo do texto. Possíveis erros ortográficos são sublinhados com linhas vermelhas quebradas.
 
-Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Mais detalhes sobre verificação ortográfica e personalização de dicionários de verificação ortográfica podem ser encontrados no documento [Configurar os plug-ins do editor de rich text](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR).
 
 #### Caracteres especiais {#special-characters}
 

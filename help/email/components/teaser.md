@@ -3,9 +3,9 @@ title: Componente de teaser de email
 description: O Componente de teaser de email pode mostrar uma imagem, um título, um texto formatado e, opcionalmente, um link para mais conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível | Compatível |
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o Componente de teaser de email e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_teaser)
+| v1 | Compatível  | - |
 
 ### Detalhes técnicos {#technical-details}
 

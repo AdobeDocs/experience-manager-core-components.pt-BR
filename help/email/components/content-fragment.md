@@ -3,9 +3,9 @@ title: Componente Fragmento de conteúdo de email
 description: O Componente Fragmento de conteúdo do email permite a exibição de um fragmento de conteúdo no seu conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ O Componente Fragmento de conteúdo de email permite a exibição de um [fragmen
 
 ## Uso {#usage}
 
-O Componente Fragmento de conteúdo de email permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) no seu conteúdo de email. Fragmentos de conteúdo são conteúdos estruturados multicanais que podem ser criados centralmente e facilmente reutilizados.
+O Componente Fragmento de conteúdo de email permite a inclusão de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR) no seu conteúdo de email. Fragmentos de conteúdo são conteúdos estruturados multicanais que podem ser criados centralmente e facilmente reutilizados.
 
 * O fragmento e suas propriedades podem ser selecionados na [caixa de diálogo de configuração.](#configure-dialog)
 * Os tipos de recursos para lidar com determinadas imagens e grades podem ser definidos na [caixa de diálogo de Design.](#design-dialog)
@@ -31,13 +31,9 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível | Compatível |
+| v1 | Compatível  | - |
 
 Para mais informações sobre as versões dos Componentes Principais de email, consulte o documento [Versões dos Componentes Principais.](/help/email/versions.md)
-
-## Exemplo de saída do componente {#sample-component-output}
-
-Para experimentar o Componente Fragmento de conteúdo de email, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_cf)
 
 ## Detalhes técnicos {#technical-details}
 
