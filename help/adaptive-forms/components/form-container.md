@@ -3,9 +3,9 @@ title: 'Componente principal de formulários adaptáveis: container de formulár
 description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
+O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 <!-- ## Sample Component Output {#sample-component-output}
@@ -62,7 +62,7 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 ![Guia Básico](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Serviços de pré-preenchimento** - Essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o Formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
+* **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
 * **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
 
