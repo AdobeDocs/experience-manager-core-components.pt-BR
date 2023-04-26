@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2198'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ A dependência dos Componentes principais é adicionada apenas para versões do 
 >
 >A prática recomendada é adicionar o perfil `adobe-public` ao arquivo Maven `settings.xml` para adicionar automaticamente o repo.adobe.com ao processo de build do maven.
 >
->Um exemplo de POM [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
+>Um exemplo de POM [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=pt-BR).
 
 ### Propriedades {#properties}
 
@@ -101,7 +101,7 @@ As seguintes propriedades estão disponíveis ao criar um projeto usando o arqu�
 | `groupId` |  | ID de grupo Maven de base (por exemplo, `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java Source Package (por exemplo, `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versão do projeto (por exemplo, `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versão do AEM de destino (pode ser `cloud` para o [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR); ou `6.5.0`, ou `6.4.4` para o [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou no local). |
+| `aemVersion` | `cloud` | Versão do AEM de destino (pode ser `cloud` para o [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR); ou `6.5.0`, ou `6.4.4` para o [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ou no local). |
 | `sdkVersion` | `latest` | Quando for `aemVersion=cloud`, uma versão [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=pt-BR) pode ser especificada (por exemplo, `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Inclui uma configuração de dispatcher para nuvem ou para AMS/no local, dependendo do valor de `aemVersion` (pode ser `y` ou `n`). |
 | `frontendModule` | `general` | Inclui um módulo de build de front-end do Webpack que gera as bibliotecas de clientes (pode ser `general` ou `none` para sites regulares; pode ser `angular` ou `react` para um Aplicativo de página única que implementa o [Editor de SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html?lang=pt-BR)). |
