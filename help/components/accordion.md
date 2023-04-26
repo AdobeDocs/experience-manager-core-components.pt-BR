@@ -4,9 +4,9 @@ description: O componente Acordeão, dos Componentes principais, permite a cria�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 ## Deep linking para um painel {#deep-linking}
 
-O Acordeão, [Carrossel,](carousel.md) e [Componentes de guias](tabs.md) suporte à vinculação diretamente a um painel dentro do componente.
+Os componentes de Acordeão, [Carrossel](carousel.md) e [Guias](tabs.md) podem ser vinculados diretamente a um painel do componente.
 
 Para fazer isso:
 
