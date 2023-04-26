@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal do assistente de fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ O componente principal do layout de assistente de formulários adaptáveis foi l
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -85,7 +85,7 @@ Você pode personalizar facilmente a experiência do assistente para visitantes 
 
 * **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 
-* **Ocultar componente** - Selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+* **Ocultar componente** - selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 * **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -93,7 +93,7 @@ Você pode personalizar facilmente a experiência do assistente para visitantes 
 
 ![Guia Ajuda](/help/adaptive-forms/assets/wizard_helptab.png)
 
-* **Descrição curta** - Uma breve descrição é uma concisa explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+* **Descrição curta** - uma breve descrição é uma concisa explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
 * **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
@@ -113,7 +113,7 @@ Você pode personalizar facilmente a experiência do assistente para visitantes 
 
 A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Assistente de Formulários adaptáveis, você pode definir o seguinte:
 
-* Os componentes principais que um criador de formulário pode adicionar ao Assistente no editor de Formulários adaptáveis
+* Os componentes principais que um criador de formulário pode adicionar ao Assistente no editor de Formulários adaptáveis.
 * Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente Assistente no editor de Formulários adaptáveis.
 
 Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
@@ -126,7 +126,7 @@ A guia **Componentes permitidos** permite que o editor de modelos defina os comp
 
 ### Guia Componentes padrão {#default-component-tab}
 
-Essa guia permite que o editor de modelos mapeie os componentes que podem ser adicionados como itens aos painéis no componente do assistente no editor Adaptive Forms.
+Esta guia permite que o editor de modelos mapeie os componentes que podem ser adicionados como itens aos painéis do componente de assistente no editor de formulários adaptáveis.
 
 ![Componente padrão do painel](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
@@ -138,18 +138,18 @@ Essa guia permite que o editor de modelos defina o número de colunas a serem ex
 
 ### Guia Configurações do container {#container-setting-tab}
 
-A guia de configurações do contêiner permite definir a posição dos componentes no editor Adaptive Forms.
+A guia de configurações do container permite definir a posição dos componentes no editor de formulários adaptáveis.
 
 ![Configurações do container](/help/adaptive-forms/assets/panel_settings.png)
 
-* **Layout**: O layout Simples mantém tudo fixo no lugar, enquanto a Grade Responsiva permite que você altere a posição dos componentes para atender às suas necessidades.
-* **Desativar layout**: Também é possível desativar a seleção de layout na caixa de diálogo de edição ao selecionar a opção **Desativar layout** caixa de seleção.
-* **Ativar imagem de fundo**: Essa guia permite definir a imagem e a cor do plano de fundo no editor de modelos.
-* **Ativar cor de fundo**: Essa guia permite definir a cor do plano de fundo no editor de modelos.
+* **Layout**: o layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você altere a posição dos componentes para atender às suas necessidades.
+* **Desabilitar layout**: também é possível desabilitar a seleção de layout na caixa de diálogo de edição marcando a caixa **Desabilitar layout**.
+* **Habilitar imagem de fundo**: essa guia permite definir a cor e a imagem do fundo no editor de modelos.
+* **Habilitar cor de fundo**: essa guia permite definir a cor do fundo no editor de modelos.
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar estilos de CSS de um componente. O Componente principal do Assistente de Formulários adaptáveis é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) AEM.
+A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal do Assistente de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) AEM.
 
 ![Guia Estilo](/help/adaptive-forms/assets/panel_style.png)
 
