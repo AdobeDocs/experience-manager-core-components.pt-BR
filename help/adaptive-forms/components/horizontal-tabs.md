@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de guias horizontai
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Os motivos comuns para se usar guias horizontais em um formulário adaptável s�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, AEM compatibilidade e links para a documentação correspondente:
+O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com<br>[versão 1.1.12](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -101,10 +101,10 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Adaptive Forms, você pode definir o seguinte:
+A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente do Assistente de formulários adaptáveis, é possível definir:
 
-* Os componentes principais que um criador de formulário pode adicionar às guias horizontais no editor adaptável do Forms
-* Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente de guias horizontais no editor Adaptive Forms.
+* Os componentes principais que um criador de formulários pode adicionar às guias horizontais no editor de formulários adaptáveis
+* Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente de guias horizontais no editor de formulários adaptáveis.
 
 Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
 
@@ -116,7 +116,7 @@ A guia **Componentes permitidos** permite que o editor do modelo defina os compo
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar estilos de CSS de um componente. O componente principal de guias horizontais de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
+A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de Guias horizontais de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Guia Estilo](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
