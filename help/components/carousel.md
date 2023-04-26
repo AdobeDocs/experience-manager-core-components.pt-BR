@@ -4,9 +4,9 @@ description: O componente Carrossel permite que o autor de conteúdo apresente c
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 ## Deep linking para um painel {#deep-linking}
 
-O Carrossel, [Guias,](tabs.md) e [Componentes do Acordeão](accordion.md) suporte à vinculação diretamente a um painel dentro do componente.
+Os componentes de Carrossel, [Guias](tabs.md) e [Acordeão](accordion.md) podem ser vinculados diretamente a um painel do componente.
 
 Para fazer isso:
 
@@ -54,7 +54,7 @@ Para fazer isso:
 1. O ID se torna a âncora que pode ser anexada ao URL usando um hash (`#`).
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
-Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser exibido por padrão, ele será rolado para o automaticamente.
+Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser exibido por padrão, a tela será rolada automaticamente até que ele esteja visível.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -102,13 +102,13 @@ Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer
 
 Na guia **Acessibilidade**, os valores podem ser definidos para rótulos de [acessibilidade ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) para o componente.
 
-* **Rótulo** - Valor de um atributo de rótulo ARIA do carrossel, que descreve o conteúdo do carrossel
-* **Anterior** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Anterior&quot; da navegação do carrossel
-* **Próxima** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Próximo&quot; da navegação do carrossel
-* **Reproduzir** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Reproduzir&quot; da navegação do carrossel
-* **Pausar** - Valor de um atributo de rótulo ARIA do rótulo do botão &quot;Pausar&quot; da navegação do carrossel
-* **Tablist** - Valor de um atributo de rótulo ARIA do rótulo da lista de itens da navegação do carrossel
-* **Definir o rótulo ARIA do item para seu título** - Se marcada, essa opção define automaticamente o título dos itens do carrossel para sua descrição de rótulo ARIA.
+* **Rótulo** - Valor de um atributo de rótulo ARIA do carrossel, o qual descreve o seu conteúdo.
+* **Anterior** - Valor de um atributo de rótulo ARIA do rótulo do botão “Anterior” da navegação do carrossel.
+* **Próximo** - Valor de um atributo de rótulo ARIA do rótulo do botão “Próximo” da navegação do carrossel
+* **Reproduzir** - Valor de um atributo de rótulo ARIA do rótulo do botão “Reproduzir” da navegação do carrossel
+* **Pausar** - Valor de um atributo de rótulo ARIA do rótulo do botão “Pausar” da navegação do carrossel
+* **Lista de guias** - Valor de um atributo de rótulo ARIA do rótulo da “Lista de itens” da navegação do carrossel
+* **Definir o rótulo ARIA do item para o seu título** - Se marcada, essa opção define automaticamente o título dos itens do carrossel de acordo com a sua descrição de rótulo ARIA.
 
 ## Selecionar painel {#select-panel}
 
@@ -137,7 +137,7 @@ A guia **Propriedade** é usada para definir as configurações padrão para as 
 ![Caixa de diálogo de design do componente Carrossel](/help/assets/carousel-design.png)
 
 * **Fazer a transição automática de slides** - Define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide é ativada quando o autor de conteúdo adiciona o componente Carrossel a uma página.
-* **Elementos de controle prefixados** - Quando marcado, os elementos de controle serão colocados na frente dos itens do carrossel para melhorar a acessibilidade.
+* **Prefixar elementos de controle** - Quando marcada, os elementos de controle serão colocados na frente dos itens do carrossel para melhorar a acessibilidade.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
