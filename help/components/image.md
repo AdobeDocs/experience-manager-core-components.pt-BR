@@ -3,9 +3,9 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: ht
-source-wordcount: '1678'
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+workflow-type: tm+mt
+source-wordcount: '1636'
 ht-degree: 100%
 
 ---
@@ -54,17 +54,13 @@ Suas experiências da Web criadas com os Componentes principais podem oferecer r
 
 Scalable Vector Graphics (SVG) são compatíveis com o componente de Imagem.
 
-* O arrastar e soltar um ativo SVG do DAM e fazer upload de um arquivo SVG de um sistema de arquivos local são suportados.
+* Tanto o processo de arrastar e soltar um ativo SVG do DAM quanto o de fazer upload de um arquivo SVG de um sistema de arquivos local são compatíveis.
 * O arquivo SVG original é transmitido (as transformações são ignoradas).
 * Para uma imagem SVG, as “imagens inteligentes” e os “tamanhos inteligentes” são definidos como uma matriz vazia no modelo de imagem.
 
 ### Segurança {#security}
 
 Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Editor de imagens. É chamado por meio de `<img src=“path-to-component”>`. Isso impede que o navegador execute qualquer script incorporado no arquivo SVG.
-
->[!NOTE]
->
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=pt-BR) no AEM.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -114,7 +110,7 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
    * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
    * Se não estiver vinculando a um recurso do AEM, insira o URL absoluto. URLs não absolutos serão interpretados como relativos a AEM.
    * **Abrir link em nova guia** - Esta opção abre o link em uma nova janela do navegador.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
+* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.

@@ -3,9 +3,9 @@ title: Componente de imagem  (v2)
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
-source-wordcount: '2115'
+source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+workflow-type: tm+mt
+source-wordcount: '2073'
 ht-degree: 100%
 
 ---
@@ -50,17 +50,13 @@ Suas experiências da Web criadas com os Componentes principais podem oferecer r
 
 Scalable Vector Graphics (SVG) são compatíveis com o componente de Imagem.
 
-* O arrastar e soltar um ativo SVG do DAM e fazer upload de um arquivo SVG de um sistema de arquivos local são suportados.
+* Tanto o processo de arrastar e soltar um ativo SVG do DAM quanto o de fazer upload de um arquivo SVG de um sistema de arquivos local são compatíveis.
 * O arquivo SVG original é transmitido (as transformações são ignoradas).
 * Para uma imagem SVG, as &quot;imagens inteligentes&quot; e os &quot;tamanhos inteligentes&quot; são definidos como uma matriz vazia no modelo de imagem.
 
 ### Segurança {#security}
 
 Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Editor de imagens. É chamado por meio de `<img src=“path-to-component”>`. Isso impede que o navegador execute qualquer script incorporado no arquivo SVG.
-
->[!CAUTION]
->
->O suporte a SVG requer a versão 2.1.0 dos Componentes principais ou superior, juntamente com o [Pacote de serviços 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) para o AEM 6.4 ou superior, para oferecer suporte aos [recursos do editor de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=pt-BR) no AEM.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
