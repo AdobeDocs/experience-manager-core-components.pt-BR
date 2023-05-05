@@ -4,7 +4,7 @@ description: O Componente do Botão de email permite a configuração e a exibi�
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 |---|---|---|
 | v1 | Compatível  | - |
 
-Para mais informações sobre as versões e novidades dos Componentes Principais, consulte o documento [Versões dos Componentes Principais de Email.](/help/email/versions.md)
+Para mais informações sobre as versões e novidades dos componentes principais, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
 
 ## Detalhes técnicos {#technical-details}
 
