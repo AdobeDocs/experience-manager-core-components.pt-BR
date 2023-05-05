@@ -4,9 +4,9 @@ description: Os Componentes principais são publicados como versões que podem c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2924'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ A versão atual dos Componentes principais é a 2.22.4, e é compatível com o [
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
-Os Componentes principais foram projetados para serem flexíveis e compatíveis com todas as versões do AEM. Por causa disso, uma versão dos componentes pode conter várias versões da mesma combinação.
+Os Componentes principais foram projetados para serem flexíveis e compatíveis com todas as versões do AEM. Por causa disso, uma versão dos componentes pode conter várias versões do mesmo componente.
 
 As tabelas a seguir ilustram a compatibilidade das versões dos Componentes principais, juntamente com as versões dos componentes em que elas estão contidas.
 
@@ -26,7 +26,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Esta é uma versão de patch para corrigir um problema no [Componente da lista de fragmentos do conteúdo.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 5 de abril de 2023 |
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Esta é uma versão de correção para corrigir um problema no [Componente de lista de fragmentos de conteúdo.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 5 de abril de 2023 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | Esta é uma versão de manutenção para lidar com dois problemas introduzidos na versão 2.22.0 | - | 6.5.14.0+ * | Contínuo | 8, 11 | 31 de março de 2023 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Este lançamento apresenta uma nova versão do [componente de Lista](/help/components/list.md), juntamente com aprimoramentos do [Teaser](/help/components/teaser.md) e a atualização do [visualizador de PDF](/help/components/pdf-viewer.md) e do [Carrossel](/help/components/carousel.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 9 de fevereiro de 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Esta é uma versão de correção para corrigir um problema com v1 e v2 [Componentes do Teaser.](/help/components/teaser.md) | - | 6.5.13.0+ * | Contínuo | 8, 11 | 12 de setembro de 2022 |
