@@ -4,9 +4,9 @@ description: Crie experiências de inscrição atraentes (formulários) usando a
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1169'
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ As experiências de captura de dados são cruciais para a geração de leads e i
 
 * **Acessibilidade**: os Componentes principais dos Formulários adaptáveis são compatíveis com padrões e diretrizes de acessibilidade para garantir que os formulários possam ser usados por pessoas com deficiência, inclusive quem usa tecnologias de assistência, como leitores de tela
 
-## Componentes principais dos Formulários adaptáveis {#components}
+## Componentes principais dos formulários adaptáveis {#components}
 
 A versão atual dos Componentes principais de Formulários adaptáveis apresenta os componentes listados abaixo.
 
@@ -106,11 +106,11 @@ Os Componentes principais dos Formulários adaptáveis têm os seguintes requisi
 
 ### Criar um formulário adaptável com base nos componentes principais
 
-**AEM Forms as a Cloud Service:** Quando você cria um novo programa as a Cloud Service do AEM Forms, os Componentes principais adaptativos do Forms já estão habilitados para seu ambiente. Se você tiver um ambiente as a Cloud Service do Forms com base no Archetype 39 ou anterior, [Ativar os Componentes principais adaptáveis do Forms para o seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+**AEM Forms as a Cloud Service:** quando você cria um novo programa do AEM Forms as a Cloud Service, os componentes principais dos formulários adaptáveis já estão habilitados para seu ambiente. Se você tiver um ambiente do Forms as a Cloud Service baseado no arquétipo 39 ou anterior, [habilite os componentes principais dos formulários adaptáveis no seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=pt-BR#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
 
-Ao ativar os Componentes principais para seu ambiente, a variável **Adaptável Forms (Componente principal)** modelo e tema da tela são adicionados ao seu ambiente. Se sua versão do SDK do AEM anterior a 2023.02.0, [certifique-se de que `prerelease` sinalizador ativado em seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components faziam parte do pré-lançamento antes da versão 2023.02.0.
+Ao habilitar os componentes principais no seu ambiente, o modelo **Formulários adaptáveis (Componente principal)** e o tema da tela são adicionados ao seu ambiente. Se sua versão do SDK do AEM for anterior à 2023.02.0, [certifique-se de que`prerelease` o sinalizador esteja habilitado em seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features), pois os componentes principais dos formulários adaptáveis faziam parte do pré-lançamento antes da versão 2023.02.0.
 
-Para usar o assistente do Adaptive Forms e o editor de Adaptive Forms para criar um Formulário adaptável, consulte Criar um formulário adaptável ([Componentes principais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR?)).
+Para usar o assistente de formulários adaptáveis e o editor de formulários adaptáveis para criar um formulário adaptável, consulte Criar um formulário adaptável ([Componentes principais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)).
 
 
 
