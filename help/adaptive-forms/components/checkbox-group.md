@@ -4,7 +4,7 @@ description: Utilização ou personalização do Componente principal do grupo d
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 100%
 

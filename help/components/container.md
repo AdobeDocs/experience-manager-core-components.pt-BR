@@ -4,7 +4,7 @@ description: O componente de Contêiner, dos Componentes principais, permite a c
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -85,7 +85,7 @@ A guia Componentes padrão é usada para definir qual componente é adicionado a
 
 * **Imagem de plano de fundo**
    * **Ativar imagem de plano de fundo** - Selecione esta opção para permitir que o autor de conteúdo defina uma imagem de plano de fundo para o contêiner.
-* **Cor do Plano de fundo**
+* **Cor do plano de fundo**
    * **Ativar cor de plano de fundo** - Selecione esta opção para permitir que o autor de conteúdo defina uma cor de plano de fundo para o contêiner.
    * **Somente amostras** - Selecione essa opção para permitir que o autor de conteúdo selecione apenas a partir de amostras de cores predefinidas para a cor de fundo do contêiner.
       * Disponível apenas quando **Ativar cor de plano de fundo** estiver selecionado

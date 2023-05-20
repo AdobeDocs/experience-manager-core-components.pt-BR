@@ -3,7 +3,7 @@ title: Scripts agrupados pré-compilados
 description: Saiba como implantar scripts de componentes por meio de pacotes OSGi no Cloud Service do Adobe Experience Manager.
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 767f83fbad11a108aab25be2b77759af3c08b864
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 

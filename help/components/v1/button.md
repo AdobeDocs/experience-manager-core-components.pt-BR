@@ -2,13 +2,13 @@
 title: Componente de Botão (v1)
 description: O componente de Botão, dos Componentes principais, permite a criação e a exibição de um botão.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # Componente de Botão  (v1) {#button-component}
 

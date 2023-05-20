@@ -4,7 +4,7 @@ description: O componente de Texto é um componente de edição e composição d
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 100%
 
@@ -150,7 +150,7 @@ Use essa opção para pesquisar a ocorrência de uma cadeia de caracteres de tex
 ![Exemplo de localização](/help/assets/text-find-example.png)
 
 Insira o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
-Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
 
 ![Encontrar exemplo encontrado](/help/assets/text-find-example-found.png)
@@ -170,7 +170,7 @@ Use essa opção para procurar no texto por ocorrências de uma sequência de ca
 Insira o texto que deseja pesquisar, bem como o texto pelo qual ele deve ser substituído.
 
 * Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
-* Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+* Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 * Selecione **Substituir todas** para substituir todas as ocorrências do texto de uma só vez.
 
 Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
