@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 89%
 
 ---
 
@@ -94,23 +94,23 @@ A versão atual dos Componentes principais de Formulários adaptáveis apresenta
 * [Título](/help/adaptive-forms/components/title.md)
 * [Assistente](/help/adaptive-forms/components/wizard.md)
 
-## Configurar componentes principais
+## Configurar os componentes principais adaptáveis do Forms
 
+A ativação dos Componentes principais do Adaptive Forms no AEM Forms as a Cloud Service permite que você comece a criar, publicar e fornecer Componentes principais baseados no Adaptive Forms e no Headless Forms, usando as instâncias do Cloud Service da AEM Forms para vários canais. Para obter instruções detalhadas sobre como ativar os Componentes principais do formulário adaptável, consulte [Ativar os Componentes principais adaptáveis do Forms no ambiente de desenvolvimento as a Cloud Service e local do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 Os Componentes principais dos Formulários adaptáveis têm os seguintes requisitos.
 
-| AEM | Complemento do AEM Forms | Componentes principais |
+| AEM | Complemento do AEM Forms | Componentes principais dos formulários adaptáveis |
 |---|---|---|
-| AEM as a Cloud Service | Forms - Inscrição digital | [Versão 2.20.8](version.md)+ |
+| AEM as a Cloud Service | Forms - Inscrição digital | [Versão 2.0.10](version.md)+ |
 | AEM 6.5 | Complemento do Forms | [Versão 1.1.12](version.md)+ |
+
+Se sua versão do SDK do AEM Cloud Service for anterior a 2023.02.0, [verifique se você tem `prerelease` sinalizador ativado no ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features) como os Componentes principais do Adaptive Forms faziam parte do pré-lançamento antes da versão 2023.02.0.
+
 
 ### Criar um formulário adaptável com base nos componentes principais
 
-**AEM Forms as a Cloud Service:** quando você cria um novo programa do AEM Forms as a Cloud Service, os componentes principais dos formulários adaptáveis já estão habilitados para seu ambiente. Se você tiver um ambiente do Forms as a Cloud Service baseado no arquétipo 39 ou anterior, [habilite os componentes principais dos formulários adaptáveis no seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=pt-BR#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-Ao habilitar os componentes principais no seu ambiente, o modelo **Formulários adaptáveis (Componente principal)** e o tema da tela são adicionados ao seu ambiente. Se sua versão do SDK do AEM for anterior à 2023.02.0, [certifique-se de que`prerelease` o sinalizador esteja habilitado em seu ambiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features), pois os componentes principais dos formulários adaptáveis faziam parte do pré-lançamento antes da versão 2023.02.0.
-
-Para usar o assistente de formulários adaptáveis e o editor de formulários adaptáveis para criar um formulário adaptável, consulte Criar um formulário adaptável ([Componentes principais](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)).
+Para criar um formulário adaptável no AEM Forms as a Cloud Service, consulte [Criar um formulário adaptável (componentes principais)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR).
 
 
 
