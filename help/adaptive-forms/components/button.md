@@ -3,10 +3,10 @@ title: 'Componente principal de Formulários adaptáveis: Botão'
 description: Uso ou personalização do Componente principal de Botão de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 100%
+source-wordcount: '1406'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Um botão em um Formulário adaptável é um elemento de interface que permite a
 
 O Editor de regras de Formulários adaptáveis permite que os usuários definam várias ações para o componente de Botão. Essas ações incluem abrir um site, mostrar ou ocultar componentes do formulário, adicionar uma instância de um painel ou de um componente, enviar ou redefinir um formulário e muito mais.
 
-Os Formulários adaptáveis também fornecem componentes de botão separados para enviar ou redefinir um formulário, mas o componente de botão também pode ser configurado para executar essas ações, se necessário.
+Os componentes separados do recurso Forms adaptável para o [Botão Enviar](/help/adaptive-forms/components/submit-button.md) e [Botão Redefinir](/help/adaptive-forms/components/reset-button.md), permitindo que os usuários enviem ou redefinam um formulário de maneira conveniente. O componente de Botão pode ser configurado de forma flexível para executar essas ações com base em necessidades específicas.
 
 Os usuários podem acessar a lista completa de ações compatíveis com o componente de botão usando o Editor de regras de Formulários adaptáveis. O Editor de regras permite que os usuários criem regras acionadas por diversos eventos, como quando um botão é clicado, um formulário é carregado ou um valor de campo é alterado. Essas regras podem ser usadas para executar diversas ações, como mostrar ou ocultar componentes, definir valores de campo ou enviar o formulário.
 
