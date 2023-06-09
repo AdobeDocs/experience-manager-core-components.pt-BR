@@ -3,10 +3,10 @@ title: Componente de Fragmento de experiência de email
 description: O Componente de Fragmento de experiência de email permite que o autor de conteúdo coloque uma variação de Fragmento de experiência em seu conteúdo enquanto suporta uma estrutura de conteúdo localizada.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ O Componente de Fragmento de experiência de email vai tentar encontrar um compo
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Fragmento de experiência [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_email_tech_xf_v1)
+Ler a mais recente [documentação técnica sobre o componente de Fragmento de experiência](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais.](/help/developing/overview.md)
 
