@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
+source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 89%
+source-wordcount: '1147'
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ Além disso, como esses componentes são de código aberto, os desenvolvedores t
 | Prontos para nuvem | Disponível para o [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=pt-BR). |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores do Forms podem reunir quase qualquer layout. |
 | Configuráveis | As [políticas de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=pt-BR#content-policies) no nível do modelo definem quais recursos podem ser ou não usados. |
-| Acessíveis | Fornecem rótulos ARIA, oferecem suporte à navegação por teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)) e texto para tecnologias assistivas, como leitores de tela. |
+| Acessíveis | Eles fornecem rótulos ARIA, suportam navegação pelo teclado e texto para tecnologias assistivas, como leitores de tela. |
 | Tema | Os componentes implementam o [Sistema de Estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=pt-BR), e a marcação segue as [convenções de CSS de BEM.](https://getbem.com/) |
 | Personalizáveis | Vários padrões permitem fácil personalização, desde o ajuste do HTML até a reutilização de funcionalidade avançada. |
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não interrompam seu site ao melhorar coisas que podem afetar você. |
