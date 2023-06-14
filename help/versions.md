@@ -4,9 +4,9 @@ description: Os Componentes principais são publicados como versões que podem c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3006'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versão de patch corrige dois problemas. | - | 6.5.14.0+ * | Contínuo | 8, 11 | 25 de maio de 2023 |
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versão de correção soluciona dois problemas | - | 6.5.14.0+ * | Contínuo | 8, 11 | 25 de maio de 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Esta versão de correção corrige duas regressões. | - | 6.5.14.0+ * | Contínuo | 8, 11 | 11 de maio de 2023 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Esta versão de correção traz de volta recursos que foram removidos acidentalmente na versão anterior. | - | 6.5.14.0+ * | Contínuo | 8, 11 | 9 de maio de 2023 |
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | Esta versão de correção corrige uma regressão no [componente de container.](/help/components/container.md) | - | 6.5.14.0+ * | Contínuo | 8, 11 | 21 de abril de 2023 |
