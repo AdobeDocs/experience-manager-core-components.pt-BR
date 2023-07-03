@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Rodapé
 description: Uso ou personalização do componente principal de rodapé de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ O componente principal Acordeão de formulário adaptável foi lançado em fever
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível  com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
+| v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -85,6 +85,7 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
       1. Use a caixa de diálogo Abrir seleção para escolher um caminho no AEM.
       1. Se o link não estiver no AEM, insira o URL absoluto.
       1. Os caminhos não absolutos são interpretados como relativos ao AEM.
+
    * **Texto alternativo**: permite inserir um texto descritivo alternativo para o link.
 
    * **Destino**: permite selecionar o comportamento do link
@@ -93,11 +94,10 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
       * Nova guia
       * Quadro pai
       * Quadro superior
+
    * **Ícone Desvincular**: essa opção remove um link já aplicado ao texto selecionado. Essa opção só estará ativa quando o link já estiver selecionado.
 
    * **Ícone de formatação de parágrafo**: essa opção permite aplicar formatação de parágrafo ao texto selecionado. Também ajuda a formatar o texto inserido após o cursor. Define o nível de cabeçalho do título.
-
-
 
 * **ID**: essa opção permite controlar o identificador exclusivo do componente no HTML e na camada de dados.
 
@@ -105,3 +105,8 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
+## Artigo relacionado {#related-article}
+
+* [Criar um formulário adaptável na página do AEM Sites ou no fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
