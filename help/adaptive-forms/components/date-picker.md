@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal do seletor
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,18 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 ![Guia Básico](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-* **Nome** - O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
+* **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
 
-* **Título** - Título é uma string que aparece na parte superior de um componente em um Formulário adaptável. Título identifica exclusivamente o componente na estrutura em árvore de um Formulário adaptável. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+* **Título**: Título é uma string que aparece na parte superior de um componente em um Formulário adaptável. Título identifica exclusivamente o componente na estrutura em árvore de um Formulário adaptável. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar título** - Selecione essa opção para ocultar o título do tipo de componente em um Formulário adaptável.
+* **Ocultar título**: Selecione essa opção para ocultar o título do tipo de componente em um Formulário adaptável.
 
-* **Texto de espaço reservado** - O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
+* **Texto de espaço reservado**: O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
-* **Ocultar Componente** - Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+* **Ocultar Componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 * **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 * **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Data padrão** - Essa opção permite adicionar uma data ao campo de formulário. A data inserida aparece por padrão no local do componente. Se nenhuma data for inserida pelo usuário, esse valor será enviado no momento do envio do formulário. Se a opção **Componente desativado** ou **Componente somente leitura** for selecionada, a data padrão será exibida na tela e enviada no momento do envio do formulário.
+* **Data padrão**: Essa opção permite adicionar uma data ao campo de formulário. A data inserida aparece por padrão no local do componente. Se nenhuma data for inserida pelo usuário, esse valor será enviado no momento do envio do formulário. Se a opção **Componente desativado** ou **Componente somente leitura** for selecionada, a data padrão será exibida na tela e enviada no momento do envio do formulário.
 
 
 ### Guia Validação {#validation-tab}
@@ -102,7 +102,7 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 * **Sempre mostrar descrição curta**- Ative a opção para exibir a Descrição curta abaixo do componente.
 
-* **Texto da ajuda** - O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+* **Texto da ajuda**: O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 
 ### Guia Acessibilidade {#accessibility-tab}
@@ -145,6 +145,6 @@ A guia Formatos permite especificar os formatos de data padrão e personalizados
 
 ## Artigo relacionado {#related-article}
 
-* [Criar um formulário adaptável na página do AEM Sites ou no fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Criar um formulário adaptável em uma página do AEM Sites ou fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=pt-BR)
 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
