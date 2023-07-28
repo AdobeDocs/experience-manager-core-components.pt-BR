@@ -4,9 +4,9 @@ description: Use o acordeão para organizar e simplificar um formulário longo o
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -76,20 +76,20 @@ Você pode personalizar facilmente a experiência de acordeão para visitantes c
 * **Layout**: o assistente pode ter um layout fixo (simples) ou um layout flexível (grade responsiva). O layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você ajuste a posição dos componentes para atender às suas necessidades. Por exemplo, use a grade responsiva para alinhar “Nome”, “Nome do meio” e “Sobrenome” em uma única linha do formulário.
 
 * **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
-* **Ocultar componente** - selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+* **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 * **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 ### Repetir acordeão {#repeat-accordion}
 
-![repeat-Accordion](/help/adaptive-forms/assets/repeat-accordion.png)
+![repeat-accordion](/help/adaptive-forms/assets/repeat-accordion.png)
 
-Você pode usar as opções de repetibilidade para duplicar painéis do Accordion e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente Acordeão e acessar suas configurações, as seguintes opções são apresentadas:
+É possível usar as opções de repetibilidade para duplicar painéis de acordeão e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente de acordeão e acessar suas configurações, as seguintes opções serão apresentadas:
 
-* **Tornar o acordeão repetível**: um recurso de alternância que permite aos usuários ativar ou desativar a funcionalidade de repetibilidade.
-* **Mínimo de repetições**: Estabelece o número mínimo de vezes que o painel do acordeão pode ser repetido. Um valor zero indica que o painel acordeão não é repetido; o valor padrão é zero.
-* **Máximo de repetições**: define o número máximo de vezes que o painel do acordeão pode ser repetido. Por padrão, esse valor é ilimitado.
+* **Tornar o acordeão repetível**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
+* **Repetições mínimas**: estabelece o número mínimo de vezes que o painel acordeão pode ser repetido. O valor padrão é zero e ele indica que o painel acordeão não é repetido.
+* **Máximo de repetições**: define o número máximo de vezes que o painel acordeão pode ser repetido. Por padrão, esse valor é ilimitado.
 
-Para gerenciar com eficiência seções repetíveis dentro do acordeão, siga as etapas fornecidas no [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artigo.
+Para gerenciar com eficácia as seções repetíveis no acordeão, siga as etapas fornecidas no artigo [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=pt-BR).
 
 ### Guia Itens {#items-tab}
 
@@ -97,8 +97,8 @@ Para gerenciar com eficiência seções repetíveis dentro do acordeão, siga as
 
 O botão Adicionar permite selecionar um componente da janela de seleção de componentes para adicionar como um painel. Após adicionar o componente, você verá as seguintes opções:
 
-* **Ícone**: o ícone identifica o componente do painel na lista. Você pode passar o mouse sobre o ícone para ver o nome completo do componente como uma dica de ferramenta.
-* **Descrição**: a descrição usada como o texto do painel. Por padrão, o nome do componente é selecionado para o painel.
+* **Ícone** - O ícone identifica o componente do painel na lista. Você pode passar o mouse sobre o ícone para ver o nome completo do componente como uma dica de ferramenta.
+* **Descrição** - A descrição usada como o texto do painel. Por padrão, o nome do componente é selecionado para o painel.
 * **Excluir** - Toque ou clique para excluir o painel do componente Acordeão.
 * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
 
@@ -218,7 +218,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 
 ## Artigo relacionado {#related-article}
 
-* [Criar um formulário adaptável na página do AEM Sites ou no fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Criar um formulário adaptável em uma página do AEM Sites ou fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=pt-BR)
 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
