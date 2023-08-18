@@ -3,10 +3,10 @@ title: Acordeão de formulário adaptável
 description: Use o acordeão para organizar e simplificar um formulário longo ou complexo, dividindo-o em seções menores e mais fáceis de se controlar.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '1950'
-ht-degree: 100%
+source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+workflow-type: tm+mt
+source-wordcount: '2051'
+ht-degree: 93%
 
 ---
 
@@ -69,14 +69,37 @@ Você pode personalizar facilmente a experiência de acordeão para visitantes c
 
 * **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar título**: selecione essa opção para ocultar o título do componente.
+* **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
-* **Agrupar dados em um objeto**: escolha “Agrupar dados em um objeto” para colocar os dados de campo do assistente dentro de um objeto JSON. Se isto não for definido, o JSON de envio de dados terá uma estrutura simples para os campos do assistente.
+* **Agrupar dados de componentes filhos no envio do formulário (Vincular dados no objeto)** - Quando a opção é selecionada, os dados de seus componentes secundários são aninhados dentro do objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem objeto para o componente principal. Por exemplo:
+
+   * Quando a opção é selecionada, os dados dos componentes filhos (por exemplo, Rua, Cidade e CEP) são aninhados no componente pai (Endereço) como um objeto JSON. Isso cria uma estrutura hierárquica, e os dados são organizados no componente principal.
+
+     Estrutura dos dados apresentados:
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   * Quando a opção não está selecionada, os dados JSON enviados têm uma estrutura simples sem objeto para o componente principal (Endereço). Todos os dados estão no mesmo nível, sem nenhuma organização hierárquica.
+
+
+     Estrutura dos dados apresentados:
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
 
 * **Layout**: o assistente pode ter um layout fixo (simples) ou um layout flexível (grade responsiva). O layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você ajuste a posição dos componentes para atender às suas necessidades. Por exemplo, use a grade responsiva para alinhar “Nome”, “Nome do meio” e “Sobrenome” em uma única linha do formulário.
 
 * **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
+
 * **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+
 * **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 ### Repetir acordeão {#repeat-accordion}
