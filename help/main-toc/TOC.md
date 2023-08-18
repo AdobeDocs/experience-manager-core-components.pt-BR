@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 98%
       + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
       + [Entrada de número de formulários adaptáveis](/help/adaptive-forms/components/number-input.md)
       + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel-container.md)
+      + [CAPTCHA adaptável do Forms](/help/adaptive-forms/components/captcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
       + [Layout do assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)
       + [Rodapé](/help/adaptive-forms/components/footer.md)
+   + [Personalizar os componentes principais adaptáveis do Forms](/help/developing/customize-adaptive-forms-core-components.md)
    + [Exemplos de temas e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
