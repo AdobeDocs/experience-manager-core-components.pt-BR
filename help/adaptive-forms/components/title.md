@@ -3,10 +3,10 @@ title: Componente principal dos Formulários adaptáveis - Título
 description: Utilização ou personalização do Componente principal de Título dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 99%
 
 ---
 
@@ -106,3 +106,26 @@ A guia Formatos permite especificar os formatos de data padrão e personalizados
 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
+## Consulte Também {#see-also}
+
+* [Acordeão](/help/adaptive-forms/components/accordion.md)
+* [Botão](/help/adaptive-forms/components/button.md)
+* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
+* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
+* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
+* [Entrada de email](/help/adaptive-forms/components/email-input.md)
+* [Containeres de formulário](/help/adaptive-forms/components/form-container.md)
+* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
+* [Rodapé](/help/adaptive-forms/components/footer.md)
+* [Cabeçalho](/help/adaptive-forms/components/header.md)
+* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Imagem](/help/adaptive-forms/components/image.md)
+* [Entrada de número](/help/adaptive-forms/components/number-input.md)
+* [Container do painel](/help/adaptive-forms/components/panel-container.md)
+* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
+* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
+* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
+* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
+* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+* [Texto](/help/adaptive-forms/components/text.md)
+* [Assistente](/help/adaptive-forms/components/wizard.md)
