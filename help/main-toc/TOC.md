@@ -6,16 +6,16 @@ feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Ajuda dos Componentes principais do AEM {#using}
 
-+ [Introdução aos Componentes principais ](/help/introduction.md)
++ [Introdução aos Componentes principais](/help/introduction.md)
 + [Caminhos para o sucesso](/help/developing/success.md)
 + [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_br)
 + [Versões](/help/versions.md)
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
       + [Entrada de número de formulários adaptáveis](/help/adaptive-forms/components/number-input.md)
       + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel-container.md)
-      + [CAPTCHA adaptável do Forms](/help/adaptive-forms/components/captcha.md)
+      + [CAPTCHA para formulários adaptáveis](/help/adaptive-forms/components/captcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
@@ -128,8 +128,8 @@ ht-degree: 96%
       + [Layout do assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)
       + [Rodapé](/help/adaptive-forms/components/footer.md)
-   + [Personalizar os componentes principais adaptáveis do Forms](/help/developing/customize-adaptive-forms-core-components.md)
-   + [Exemplos de temas e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Personalizar componentes principais dos formulários adaptáveis](/help/developing/customize-adaptive-forms-core-components.md)
+   + [Temas de amostra e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Desenvolvimento {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
