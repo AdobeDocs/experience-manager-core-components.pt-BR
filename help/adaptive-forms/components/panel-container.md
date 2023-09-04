@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -67,11 +67,11 @@ Você pode personalizar facilmente a experiência do container do painel para vi
 
 - **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
-- **Agrupar dados de componentes filhos no envio do formulário (Vincular dados no objeto)** - Quando a opção é selecionada, os dados de seus componentes secundários são aninhados dentro do objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem objeto para o componente principal. Por exemplo:
+- **Agrupar dados de componentes secundários no envio do formulário (vincular dados no objeto)**: quando essa opção é selecionada, os dados dos componentes secundários são aninhados no objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem qualquer objeto para o componente principal. Por exemplo:
 
-   - Quando a opção é selecionada, os dados dos componentes filhos (por exemplo, Rua, Cidade e CEP) são aninhados no componente pai (Endereço) como um objeto JSON. Isso cria uma estrutura hierárquica, e os dados são organizados no componente principal.
+   - Quando a opção é selecionada, os dados dos componentes secundários (por exemplo, Rua, Cidade e CEP) são aninhados no componente principal (Endereço) como um objeto JSON. Isso cria uma estrutura hierárquica e os dados são organizados no componente principal.
 
-     Estrutura dos dados apresentados:
+     Estrutura dos dados enviados:
 
      ```JSON
      { "Address":
@@ -81,10 +81,10 @@ Você pode personalizar facilmente a experiência do container do painel para vi
      }
      ```
 
-   - Quando a opção não está selecionada, os dados JSON enviados têm uma estrutura simples sem objeto para o componente principal (Endereço). Todos os dados estão no mesmo nível, sem nenhuma organização hierárquica.
+   - Quando a opção não está selecionada, os dados JSON enviados têm uma estrutura simples sem qualquer objeto para o componente principal (Endereço). Todos os dados estão no mesmo nível, sem qualquer organização hierárquica.
 
 
-     Estrutura dos dados apresentados:
+     Estrutura dos dados enviados:
 
      ```JSON
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }

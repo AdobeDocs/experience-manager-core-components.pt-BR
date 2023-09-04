@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -65,11 +65,11 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 - **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
 
-- **Agrupar dados de componentes filhos no envio do formulário (Vincular dados no objeto)** - Quando a opção é selecionada, os dados de seus componentes secundários são aninhados dentro do objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem objeto para o componente principal. Por exemplo:
+- **Agrupar dados de componentes secundários no envio do formulário (vincular dados no objeto)**: quando essa opção é selecionada, os dados dos componentes secundários são aninhados no objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem qualquer objeto para o componente principal. Por exemplo:
 
-   - Quando a opção é selecionada, os dados dos componentes filhos (por exemplo, Rua, Cidade e CEP) são aninhados no componente pai (Endereço) como um objeto JSON. Isso cria uma estrutura hierárquica, e os dados são organizados no componente principal.
+   - Quando a opção é selecionada, os dados dos componentes secundários (por exemplo, Rua, Cidade e CEP) são aninhados no componente principal (Endereço) como um objeto JSON. Isso cria uma estrutura hierárquica e os dados são organizados no componente principal.
 
-     Estrutura dos dados apresentados:
+     Estrutura dos dados enviados:
 
      ```JSON
      { "Address":
@@ -79,10 +79,10 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
      }
      ```
 
-   - Quando a opção não está selecionada, os dados JSON enviados têm uma estrutura simples sem objeto para o componente principal (Endereço). Todos os dados estão no mesmo nível, sem nenhuma organização hierárquica.
+   - Quando a opção não está selecionada, os dados JSON enviados têm uma estrutura simples sem qualquer objeto para o componente principal (Endereço). Todos os dados estão no mesmo nível, sem qualquer organização hierárquica.
 
 
-     Estrutura dos dados apresentados:
+     Estrutura dos dados enviados:
 
      ```JSON
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
@@ -139,7 +139,7 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 
 A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Guias horizontais dos Formulários adaptáveis, é possível definir o seguinte:
 
-- Os componentes principais que um criador de formulários pode adicionar às Guias horizontais no editor de Formulários adaptáveis.
+- Os componentes principais que um criador de formulários pode adicionar às Guias horizontais no editor de Formulários adaptáveis
 - Os nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente Guias horizontais no editor de Formulários adaptáveis.
 
 Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
