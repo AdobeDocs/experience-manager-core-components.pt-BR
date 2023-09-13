@@ -4,9 +4,9 @@ description: Como obter sucesso ao implementar seu projeto com os Componentes pr
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Faça referência à [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Uso do kit de interface do usuário para Adobe XD {#ui-kit}
 
-Assim que houver necessidade comprovada de um componente personalizado, aproveite o kit de interface do usuário para Adobe XD, [que pode ser baixado aqui,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que os designers comecem a criar os wireframes e os designs com os Componentes principais como blocos de construção.
+Assim que houver necessidade comprovada de um componente personalizado, use o kit de interface do Adobe XD, [que pode ser baixado aqui,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que os designers comecem a criar os wireframes e os designs usando os Componentes principais como blocos de construção.
 
 ## Não deixe de usar os recursos avançados {#powerful-features}
 
