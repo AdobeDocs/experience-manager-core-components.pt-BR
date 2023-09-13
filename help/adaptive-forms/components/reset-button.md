@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal do botão 
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
 
-## Consulte Também {#see-also}
+## Consulte também {#see-also}
 
 * [Acordeão](/help/adaptive-forms/components/accordion.md)
 * [Botão](/help/adaptive-forms/components/button.md)
