@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de rodapé de formu
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
 
-## Consulte Também {#see-also}
+## Consulte também {#see-also}
 
 * [Acordeão](/help/adaptive-forms/components/accordion.md)
 * [Botão](/help/adaptive-forms/components/button.md)
