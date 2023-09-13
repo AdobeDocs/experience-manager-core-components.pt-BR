@@ -4,9 +4,9 @@ description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Os usuários podem configurar ações diferentes para o envio de um formulário 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
 
-## Consulte Também {#see-also}
+## Consulte também {#see-also}
 
 * [Acordeão](/help/adaptive-forms/components/accordion.md)
 * [Botão](/help/adaptive-forms/components/button.md)
