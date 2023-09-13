@@ -4,9 +4,9 @@ description: Uso ou personalização do Componente principal de Botão de Formul
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ O Componente principal de botão de Formulários adaptáveis é compatível com 
 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
-## Consulte Também {#see-also}
+## Consulte também {#see-also}
 
 * [Acordeão](/help/adaptive-forms/components/accordion.md)
 * [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
