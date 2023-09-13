@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de anexo de arquivo
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ O componente principal de anexo de arquivo de formulários adaptáveis é compat
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
 
 
-## Consulte Também {#see-also}
+## Consulte também {#see-also}
 
 * [Acordeão](/help/adaptive-forms/components/accordion.md)
 * [Botão](/help/adaptive-forms/components/button.md)
