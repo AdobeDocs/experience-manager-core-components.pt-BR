@@ -3,20 +3,23 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 100%
+source-wordcount: '2084'
+ht-degree: 85%
 
 ---
 
-# Componente de imagem {#image-component}
+
+# Componente de imagem  {#image-component}
 
 Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 
 ## Uso {#usage}
 
 O Componente de imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página, bem como posicionamento facilitado de página para o autor de conteúdo.
+
+O autor de conteúdo pode usar o [caixa de diálogo editar](#edit-dialog) para editar o ativo de imagem, como aplicar um recorte ou girar a imagem.
 
 As larguras de imagem e as configurações adicionais podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos na [caixa de diálogo de configuração.](#configure-dialog)
 
@@ -50,6 +53,12 @@ O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é comp
 
 Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
+## Suporte Dynamic Media de última geração {#next-gen-dm}
+
+O componente de Imagem (em [versão 2.23.2](/help/versions.md)) oferece suporte a ativos remotos de última geração da Dynamic Media.
+
+[Depois de configurado,](/help/developing/next-gen-dm.md) você pode selecionar ativos de um serviço remoto de última geração da Dynamic Media para seu componente de imagem.
+
 ## Suporte a SVG {#svg-support}
 
 Scalable Vector Graphics (SVG) são compatíveis com o componente de Imagem.
@@ -74,6 +83,76 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 
 O componente de Imagem oferece suporte a [schema.org microdata](https://schema.org).
 
+## Caixa de diálogo de edição {#edit-dialog}
+
+A caixa de diálogo de edição permite que o autor de conteúdo recorte e amplie a imagem.
+
+Dependendo se você tiver o [Dynamic Media](#dynamic-media) ativado ou [Dynamic Media de última geração](#next-gen-dm) com os recursos ativados, as opções disponíveis para editar imagens serão diferentes.
+
+### Edição de ativo padrão {#standard-assets}
+
+Se estiver editando ativos padrão do AEM, você pode clicar na guia **Editar** ícone no menu de contexto do componente de imagem.
+
+![Caixa de diálogo de edição do componente de Imagem](/help/assets/image-edit.png)
+
+* Iniciar recorte
+
+  ![Ícone Iniciar recorte](/help/assets/image-start-crop.png)
+
+  Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
+
+   * Escolha a opção **Remover corte** para exibir o ativo original.
+
+  Depois que uma opção de recorte é selecionada, use as alças azuis para dimensionar o recorte na imagem.
+
+  ![Opções de corte](/help/assets/image-crop-options.png)
+
+* Girar para a direita
+
+  ![Ícone Girar para a direita](/help/assets/image-rotate-right.png)
+
+  Use esta opção para girar a imagem 90° para a direita (no sentido horário).
+
+* Redefinir zoom
+
+  ![Ícone Redefinir zoom](/help/assets/image-reset-zoom.png)
+
+  Se a imagem já tiver sido ampliada, use essa opção para redefinir o nível de zoom.
+
+* Abrir controle deslizante de zoom
+
+  ![Ícone Abrir controle deslizante de zoom](/help/assets/image-zoom.png)
+
+  Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
+
+  ![Controle deslizante de zoom](/help/assets/image-zoom-slider.png)
+
+O editor local também pode ser usado para modificar a imagem. Devido às limitações de espaço, somente as opções básicas estão disponíveis em linha. Para opções de edição completas, use o modo de tela cheia.
+
+![Opções de edição de imagem no local](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>As operações de edição de imagens não são suportadas para imagens GIF. Essas alterações feitas no modo de edição para GIFs não serão persistentes.
+
+### Edição de ativos do Dynamic Media {#dynamic-media-assets}
+
+Se você tiver [Recursos do Dynamic Media habilitados,](#dynamic-media) a edição da imagem propriamente dita deve ser executada no console de ativos.
+
+### Edição de ativos da Dynamic Media de última geração {#next-gen-dm-assets}
+
+Se você tiver [Dynamic Media de última geração configurado,](#next-gen-dm) o **Corte inteligente** opção está disponível nos menus de contexto do componente.
+
+![Corte inteligente](/help/assets/image-smart-crop.png)
+
+Use a caixa de diálogo para ajustar o recorte inteligente.
+
+![Caixa de diálogo Corte inteligente](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>Para obter mais informações sobre o Corte inteligente, consulte [este vídeo sobre o recurso.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+
 ## Caixa de diálogo de configuração {#configure-dialog}
 
 O componente de imagem oferece uma caixa de diálogo de configuração, onde a própria imagem é definida juntamente com sua descrição e propriedades básicas.
@@ -84,14 +163,19 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 * **Herdar imagem em destaque da página** - Esta opção usa a [imagem em destaque da página vinculada](page.md) ou da página atual, se a imagem não estiver vinculada.
 
+* **Ativo de imagem** - Será preenchido automaticamente se **Herdar imagem em destaque da página** está selecionada. Desmarque para definir manualmente a imagem definindo as opções a seguir.
+
+   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
+   * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
+   * Toque ou clique **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) para selecionar uma imagem.
+      * Se [Recursos de última geração do Dynamic Media](#next-gen-dm) estiverem ativados, você terá várias opções para selecionar um ativo:
+         * **Local** O seleciona na biblioteca local de ativos do AEM.
+         * **Remoto** O seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=pt-BR) no editor de ativos.
+
 * **Texto alternativo para acessibilidade** - Este campo permite definir uma descrição da imagem para usuários com deficiências visuais.
 
    * **Herdar texto alternativo da página** - Esta opção utiliza a descrição alternativa do valor do ativo vinculado dos metadados `dc:description` no DAM ou da página atual, se nenhum ativo estiver vinculado.
-
-* **Ativos da imagem**
-   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **pesquisar** para fazer upload de um sistema de arquivos local.
-   * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=pt-BR) no editor de ativos.
 
 * **Não fornecer um texto alternativo** - Esta opção marca a imagem a ser ignorada por tecnologias assistivas, como leitores de tela, nos casos em que a imagem é meramente decorativa ou não transmite informações adicionais para a página.
 
@@ -101,7 +185,7 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 * **Tipo de predefinição** - Define os tipos de predefinições de imagens disponíveis, seja a **Predefinição de imagem** ou o **Corte inteligente**, e só estará disponível quando os [recursos do Dynamic Media](#dynamic-meida) estiverem habilitados.
    * **Predefinição de imagem** - Quando o **Tipo de  predefinição** da **Predefinição de imagem** é selecionado, a lista suspensa **Predefinição de imagem** fica disponível, permitindo a seleção das predefinições do Dynamic Media disponíveis. Isso só estará disponível se as predefinições forem definidas para o ativo selecionado.
-   * **Corte inteligente** - Quando o **Tipo de predefinição** do **Corte inteligente** é selecionado, o menu suspenso de **Representação** fica disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
+   * **Corte inteligente** - Quando **Tipo de predefinição** de **Corte inteligente** for selecionada, a lista suspensa **Representação** O está disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
    * **Modificadores de imagem** - Comandos adicionais de veiculação de imagens do Dynamic Media podem ser definidos aqui, separados por `&`, independentemente do **Tipo de predefinição** selecionado.
 * **Legenda** - Informações adicionais sobre a imagem, exibida abaixo da imagem por padrão.
    * **Obter legenda do DAM** - Quando marcado, o texto da legenda da imagem será preenchido com o valor dos metadados `dc:title` no DAM.
