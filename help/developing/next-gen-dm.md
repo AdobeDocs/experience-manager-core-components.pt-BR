@@ -2,7 +2,7 @@
 title: Suporte Dynamic Media de última geração
 description: Saiba como configurar os Componentes de imagem e de teaser dos Componentes principais para suportar ativos remotos de última geração do Dynamic Media.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Depois que os Componentes principais e o site da WKND estiverem instalados, voc�
 
 1. Depois de autenticado, um navegador de ativos do serviço remoto será aberto. Selecione o ativo desejado e toque ou clique **Selecionar**.
 
-   ![Selecionar um ativo remoto](/help/assets/remote-asset-selection.png)
+   ![Selecionar um ativo remoto](/help/assets/remote-asset-picker.png)
 
 O ativo remoto é adicionado à página do AEM local e você verifica se o recurso está configurado corretamente.
 
