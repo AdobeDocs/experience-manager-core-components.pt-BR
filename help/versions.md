@@ -4,9 +4,9 @@ description: Os Componentes principais são publicados como versões que podem c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
-| [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versão de correção incluiu várias correções de erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 15 de setembro de 2023 |
-| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Este patch adicionou o recorte inteligente do Dynamic Media para ativos remotos ao [Imagem](/help/components/image.md) e [Componentes do Teaser](/help/components/teaser.md) e corrigiu vários bugs. | - | 6.5.17.0+ | Contínuo | 8, 11 | 4 de agosto de 2023 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versão inclui suporte para [Ativos remotos de última geração da Dynamic Media.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Contínuo | 8, 11 | 6 de junho de 2023 |
-| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versão de correção soluciona dois problemas | - | 6.5.14.0+ | Contínuo | 8, 11 | 25 de maio de 2023 |
+| [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versão de correção inclui várias correções de erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 15 de setembro de 2023 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Esta versão de correção adiciona o corte inteligente do Dynamic Media para ativos remotos aos componentes de [imagem](/help/components/image.md) e [teaser](/help/components/teaser.md), além de corrigir vários erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 4 de agosto de 2023 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versão inclui suporte para [ativos remotos do Dynamic Media de última geração.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Contínuo | 8, 11 | 6 de junho de 2023 |
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versão de correção soluciona dois problemas. | - | 6.5.14.0+ | Contínuo | 8, 11 | 25 de maio de 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Esta versão de correção corrige duas regressões. | - | 6.5.14.0+ | Contínuo | 8, 11 | 11 de maio de 2023 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Esta versão de correção traz de volta recursos que foram removidos acidentalmente na versão anterior. | - | 6.5.14.0+ | Contínuo | 8, 11 | 9 de maio de 2023 |
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | Esta versão de correção corrige uma regressão no [componente de container.](/help/components/container.md) | - | 6.5.14.0+ | Contínuo | 8, 11 | 21 de abril de 2023 |
@@ -162,7 +162,7 @@ Por serem uma parte integrante do AEM, os componentes principais são compatíve
 
 Como outros recursos do produto, a regra geral do fim da vida útil é:
 
-* Os componentes são anunciados como obsoletos antes de serem removidos.
+* Os componentes são anunciados como obsoletos antes de serem removidos
 * Logo que possível, eles serão removidos do lançamento do AEM após o anúncio.
 
 Isso dá aos clientes pelo menos um ciclo de lançamento para migrar para a nova versão do componente, antes que o suporte termine.
