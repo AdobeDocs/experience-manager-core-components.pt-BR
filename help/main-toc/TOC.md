@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 98%
    + [Inclusão de Bibliotecas do cliente](/help/developing/including-clientlibs.md)
    + [O Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md)
    + [Entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md)
-   + [Suporte Dynamic Media de última geração](/help/developing/next-gen-dm.md)
+   + [Suporte ao Dynamic Media de última geração](/help/developing/next-gen-dm.md)
    + Camada de dados de clientes Adobe {#data-layer}
       + [Visão geral da Camada de dados](/help/developing/data-layer/overview.md)
       + [Integrações com a Camada de dados](/help/developing/data-layer/integrations.md)
