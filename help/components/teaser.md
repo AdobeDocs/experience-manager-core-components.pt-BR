@@ -4,9 +4,9 @@ description: O componente de Teaser pode mostrar uma imagem, um título, um rich
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | v2 | - | Compatível | Compatível |
 | [v1](v1/teaser.md) | Compatível | Compatível | Compatível |
 
-## Suporte Dynamic Media de última geração {#next-gen-dm}
+## Suporte ao Dynamic Media de última geração {#next-gen-dm}
 
-O componente de Teaser (desde [versão 2.23.2](/help/versions.md)) oferece suporte a ativos remotos de última geração da Dynamic Media.
+O componente de teaser (a partir da [versão 2.23.2](/help/versions.md)) oferece suporte a ativos remotos do Dynamic Media de última geração.
 
-[Depois de configurado,](/help/developing/next-gen-dm.md) você pode selecionar ativos de um serviço remoto Dynamic Media de próxima geração para seu componente de teaser.
+[Após configurado,](/help/developing/next-gen-dm.md) é possível selecionar ativos de um serviço remoto do Dynamic Media de última geração para o seu componente de teaser.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -83,10 +83,10 @@ O título, a descrição e a imagem do teaser podem ser herdados da página vinc
 * **Herdar imagem em destaque da página** - Use a imagem definida nas propriedades da página vinculada ou da página atual, se nenhuma for encontrada.
 * **Ativo de imagem** - Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **procurar** para fazer upload a partir de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) para selecionar uma imagem.
-      * Se [Recursos de última geração do Dynamic Media](#next-gen-dm) estiverem ativados, você terá várias opções para selecionar um ativo:
-         * **Local** O seleciona na biblioteca local de ativos do AEM.
-         * **Remoto** O seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
+   * Toque ou clique em **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) e selecionar uma imagem.
+      * Se os [recursos do Dynamic Media de última geração](#next-gen-dm) estiverem habilitados, haverá várias opções para selecionar um ativo:
+         * **Local**: seleciona de uma biblioteca local de ativos do AEM.
+         * **Remoto**: seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=pt-BR) no editor de ativos.
 * **Texto alternativo para acessibilidade** - Este campo permite definir uma descrição da imagem para usuários com deficiências visuais.
    * **Herdar texto alternativo da página** - Esta opção utiliza a descrição alternativa do valor do ativo vinculado dos metadados `dc:description` no DAM ou da página atual, se nenhum ativo estiver vinculado.
