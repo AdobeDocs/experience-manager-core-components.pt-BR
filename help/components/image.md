@@ -6,12 +6,12 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 60%
+ht-degree: 72%
 
 ---
 
 
-# Componente de imagem  {#image-component}
+# Componente de imagem {#image-component}
 
 Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 
@@ -19,7 +19,7 @@ Dentre os Componentes de imagem, o principal é um componente de imagem adaptáv
 
 O componente de Imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página e posicionamento fácil da imagem para o autor de conteúdo.
 
-O autor de conteúdo pode usar o [caixa de diálogo editar](#edit-dialog) para editar o ativo de imagem, como aplicar um recorte ou girar a imagem.
+O autor de conteúdo pode usar a [caixa de diálogo de edição](#edit-dialog) para editar o ativo de imagem, por exemplo, recortando ou girando a imagem.
 
 As larguras de imagem e as configurações adicionais podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode fazer upload ou selecionar ativos na [caixa de diálogo de configuração.](#configure-dialog)
 
@@ -53,11 +53,11 @@ O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é comp
 
 Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
-## Suporte Dynamic Media de última geração {#next-gen-dm}
+## Suporte ao Dynamic Media de última geração {#next-gen-dm}
 
-O componente de Imagem (em [versão 2.23.2](/help/versions.md)) oferece suporte a ativos remotos de última geração da Dynamic Media.
+O componente de imagem (a partir da [versão 2.23.2](/help/versions.md)) oferece suporte a ativos remotos do Dynamic Media de última geração.
 
-[Depois de configurado,](/help/developing/next-gen-dm.md) você pode selecionar ativos de um serviço remoto de última geração da Dynamic Media para seu componente de imagem.
+[Após configurado,](/help/developing/next-gen-dm.md) é possível selecionar ativos de um serviço remoto do Dynamic Media de última geração para o seu componente de imagem.
 
 ## Suporte a SVG {#svg-support}
 
@@ -85,13 +85,13 @@ O componente de Imagem oferece suporte a [schema.org microdata](https://schema.o
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-A caixa de diálogo de edição permite que o autor de conteúdo recorte e amplie a imagem.
+A caixa de diálogo de edição permite que autores(as) de conteúdo recortem e ampliem a imagem.
 
 Dependendo se você tiver o [Dynamic Media](#dynamic-media) ativado ou [Dynamic Media de última geração](#next-gen-dm) com os recursos ativados, as opções disponíveis para edição de imagens são diferentes.
 
-### Edição de ativo padrão {#standard-assets}
+### Edição de ativos padrão {#standard-assets}
 
-Se estiver editando ativos padrão do AEM, você pode clicar na guia **Editar** ícone no menu de contexto do componente de imagem.
+Se estiver editando ativos padrão do AEM, você pode clicar no ícone **Editar** no menu de contexto do componente de imagem.
 
 ![Caixa de diálogo de edição do componente de Imagem](/help/assets/image-edit.png)
 
@@ -133,25 +133,25 @@ O editor local também pode ser usado para modificar a imagem. Devido às limita
 
 >[!NOTE]
 >
->As operações de edição de imagens não são suportadas para imagens GIF. Essas alterações feitas no modo de edição para GIF não são persistentes.
+>As operações de edição de imagem não são compatíveis com imagens GIF. Essas alterações feitas no modo de edição para GIF não são persistentes.
 
 ### Edição de ativos do Dynamic Media {#dynamic-media-assets}
 
-Se você tiver [Recursos do Dynamic Media habilitados,](#dynamic-media) a edição da imagem propriamente dita deve ser executada no console de ativos.
+Se os [recursos do Dynamic Media estiverem habilitados,](#dynamic-media) a edição da imagem propriamente dita deve ser executada no console de ativos.
 
-### Edição de ativos da Dynamic Media de última geração {#next-gen-dm-assets}
+### Edição de ativos do Dynamic Media de última geração {#next-gen-dm-assets}
 
-Se você tiver [Dynamic Media de última geração configurado,](#next-gen-dm) o **Corte inteligente** opção está disponível nos menus de contexto do componente.
+Se o [Dynamic Media de última geração estiver configurado,](#next-gen-dm) a opção de **Corte inteligente** estará disponível nos menus de contexto do componente.
 
 ![Corte inteligente](/help/assets/image-smart-crop.png)
 
-Use a caixa de diálogo para ajustar o recorte inteligente.
+Use a caixa de diálogo para ajustar o corte inteligente.
 
 ![Caixa de diálogo Corte inteligente](/help/assets/image-smart-crop-dialog.png)
 
 >[!TIP]
 >
->Para obter mais informações sobre o Corte inteligente, consulte [este vídeo sobre o recurso.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+>Para obter mais informações sobre o Corte inteligente, assista a [este vídeo sobre o recurso.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=pt-BR)
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -163,14 +163,14 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 * **Herdar imagem em destaque da página** - Esta opção usa a [imagem em destaque da página vinculada](page.md) ou da página atual, se a imagem não estiver vinculada.
 
-* **Ativo de imagem** - Será preenchido automaticamente se **Herdar imagem em destaque da página** está selecionada. Desmarque para definir manualmente a imagem definindo as opções a seguir.
+* **Ativo de imagem**: é preenchido automaticamente se a opção **Herdar imagem em destaque da página** estiver selecionada. Desmarque para definir manualmente a imagem com as opções a seguir.
 
    * Solte um ativo da [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) ou toque no **navegar** para que você possa fazer upload de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) para poder selecionar uma imagem.
-      * Se [Recursos de última geração do Dynamic Media](#next-gen-dm) estiverem ativados, você terá várias opções para selecionar um ativo:
-         * **Local** O seleciona na biblioteca local de ativos do AEM.
-         * **Remoto** O seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
+      * Se os [recursos do Dynamic Media de última geração](#next-gen-dm) estiverem habilitados, haverá várias opções para selecionar um ativo:
+         * **Local**: seleciona de uma biblioteca local de ativos do AEM.
+         * **Remoto**: seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) no Editor de ativos.
 
 * **Texto alternativo para acessibilidade** - Este campo permite definir uma descrição da imagem para usuários com deficiências visuais.

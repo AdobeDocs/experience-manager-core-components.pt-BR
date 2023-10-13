@@ -4,7 +4,7 @@ description: Saiba como configurar o componente principal de imagem e de teaser 
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
