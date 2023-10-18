@@ -3,9 +3,9 @@ title: 'Componente principal de Formulários adaptáveis: Entrada de texto (caix
 description: Uso ou personalização do Componente principal de entrada de texto de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1786'
 ht-degree: 100%
 
 ---
@@ -139,12 +139,13 @@ A guia Formatos permite especificar formatos de número padrão e personalizados
 ![Guia Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 
 
-## Artigo relacionado {#related-article}
+<!--
 
-* [Criar um formulário adaptável em uma página do AEM Sites ou fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=pt-BR)
+## Related article {#related-article}
 
-* [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
 
 >[!MORELIKETHIS]
 >
