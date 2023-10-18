@@ -2,9 +2,9 @@
 title: Componentes principais de formulários adaptáveis - Guias na parte superior
 description: Uso ou personalização do componente principal Guias na parte superior de formulários adaptáveis.
 role: Architect, Developer, Admin, User
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '471'
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -59,3 +59,32 @@ Você pode personalizar facilmente a experiência das guias na parte superior pa
 * [Criar um formulário adaptável em uma página do AEM Sites ou fragmento de experiência](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=pt-BR)
 
 * [Criar um formulário adaptável independente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+
+>[!MORELIKETHIS]
+>
+>* [Acordeão](/help/adaptive-forms/components/accordion.md)
+>* [Botão](/help/adaptive-forms/components/button.md)
+>* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
+>* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
+>* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
+>* [Entrada de email](/help/adaptive-forms/components/email-input.md)
+>* [Container de formulário](/help/adaptive-forms/components/form-container.md)
+>* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
+>* [Rodapé](/help/adaptive-forms/components/footer.md)
+>* [Cabeçalho](/help/adaptive-forms/components/header.md)
+>* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Imagem](/help/adaptive-forms/components/image.md)
+>* [Entrada de número](/help/adaptive-forms/components/number-input.md)
+>* [Container do painel](/help/adaptive-forms/components/panel-container.md)
+>* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
+>* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
+>* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
+>* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
+>* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+>* [Texto](/help/adaptive-forms/components/text.md)
+>* [Título](/help/adaptive-forms/components/title.md)
+>* [Assistente](/help/adaptive-forms/components/wizard.md)
+
+## Consulte também {#see-also}
+
+{{see-also}}
