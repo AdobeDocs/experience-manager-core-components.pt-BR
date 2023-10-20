@@ -4,9 +4,9 @@ description: Dentre os Componentes de imagem, o principal é um componente de im
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2061'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Dentre os Componentes de imagem, o principal é um componente de imagem adaptáv
 
 ## Uso {#usage}
 
-O componente de Imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para o visitante da página e posicionamento fácil da imagem para o autor de conteúdo.
+O componente de imagem apresenta seleção de imagem adaptável e comportamento responsivo com carregamento lento para visitantes da página, além de facilidade no posicionamento de imagens para o autor de conteúdo.
 
 O autor de conteúdo pode usar a [caixa de diálogo de edição](#edit-dialog) para editar o ativo de imagem, por exemplo, recortando ou girando a imagem.
 
@@ -27,7 +27,7 @@ As larguras de imagem e as configurações adicionais podem ser definidas pelo a
 
 A versão atual do componente de imagem é a v3, introduzida com a versão 2.18.0 dos componentes principais em fevereiro de 2022, e está descrita neste documento.
 
-A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
+A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais tais versões são compatíveis e os links para a documentação das versões anteriores.
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -39,17 +39,17 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 ## Recursos responsivos {#responsive-features}
 
-O componente de Imagem vem com recursos responsivos robustos prontos para uso. No nível do modelo da página, a [caixa de diálogo design](#design-dialog) pode ser usada para definir as larguras padrão do ativo de imagem. O componente de Imagem carrega automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o componente de Imagem carrega dinamicamente o tamanho de imagem correto. Não há necessidade de os desenvolvedores de componentes se preocuparem em definir consultas de mídia personalizadas, pois o componente de Imagem já está otimizado para carregar seu conteúdo.
+O componente de Imagem vem com recursos responsivos robustos prontos para uso. No nível do modelo da página, a [caixa de diálogo design](#design-dialog) pode ser usada para definir as larguras padrão do ativo de imagem. O componente de imagem carrega automaticamente a largura correta para exibição, dependendo do tamanho da janela do navegador. À medida que a janela é redimensionada, o componente de Imagem carrega dinamicamente o tamanho de imagem correto. Não há necessidade de os desenvolvedores de componentes se preocuparem em definir consultas de mídia personalizadas, pois o componente de Imagem já está otimizado para carregar seu conteúdo.
 
 Além disso, o componente de Imagem oferece suporte ao carregamento lento para adiar o carregamento do ativo de imagem real até que ele fique visível no navegador, aumentando a capacidade de resposta de suas páginas.
 
 >[!TIP]
 >
->Por padrão, o Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) para obter detalhes sobre seu funcionamento.
+>Por padrão, o Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) para obter detalhes sobre seu funcionamento.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=pt-BR). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
 Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
@@ -63,7 +63,7 @@ O componente de imagem (a partir da [versão 2.23.2](/help/versions.md)) oferece
 
 Scalable Vector Graphics (SVG) são compatíveis com o componente de Imagem.
 
-* O arrastar e soltar um ativo de SVG do DAM e fazer upload de um arquivo de SVG carregado de um sistema de arquivos local são suportados.
+* É possível arrastar e soltar um ativo SVG do DAM e fazer upload de um arquivo SVG de um sistema de arquivos local.
 * O arquivo SVG original é transmitido (as transformações são ignoradas).
 * Para uma imagem SVG, as “imagens inteligentes” e os “tamanhos inteligentes” são definidos como uma matriz vazia no modelo de imagem.
 
@@ -73,7 +73,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Imagem e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite o [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_image_br).
+Para experimentar o componente de imagem e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_image_br).
 
 ### Detalhes técnicos {#technical-details}
 
@@ -87,7 +87,7 @@ O componente de Imagem oferece suporte a [schema.org microdata](https://schema.o
 
 A caixa de diálogo de edição permite que autores(as) de conteúdo recortem e ampliem a imagem.
 
-Dependendo se você tiver o [Dynamic Media](#dynamic-media) ativado ou [Dynamic Media de última geração](#next-gen-dm) com os recursos ativados, as opções disponíveis para edição de imagens são diferentes.
+Dependendo se os recursos do [Dynamic Media](#dynamic-media) ou [Dynamic Media de última geração](#next-gen-dm) estiverem habilitados, as opções disponíveis para edição de imagens serão diferentes.
 
 ### Edição de ativos padrão {#standard-assets}
 
@@ -133,7 +133,7 @@ O editor local também pode ser usado para modificar a imagem. Devido às limita
 
 >[!NOTE]
 >
->As operações de edição de imagem não são compatíveis com imagens GIF. Essas alterações feitas no modo de edição para GIF não são persistentes.
+>As operações de edição de imagem não são compatíveis com imagens GIF. As alterações feitas no modo de edição de GIFs não serão mantidas.
 
 ### Edição de ativos do Dynamic Media {#dynamic-media-assets}
 
@@ -165,19 +165,19 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 * **Ativo de imagem**: é preenchido automaticamente se a opção **Herdar imagem em destaque da página** estiver selecionada. Desmarque para definir manualmente a imagem com as opções a seguir.
 
-   * Solte um ativo da [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) ou toque no **navegar** para que você possa fazer upload de um sistema de arquivos local.
+   * Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **Procurar** para fazer upload a partir do sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * Toque ou clique **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) para poder selecionar uma imagem.
+   * Toque ou clique em **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) e selecionar uma imagem.
       * Se os [recursos do Dynamic Media de última geração](#next-gen-dm) estiverem habilitados, haverá várias opções para selecionar um ativo:
          * **Local**: seleciona de uma biblioteca local de ativos do AEM.
          * **Remoto**: seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
-   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) no Editor de ativos.
+   * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=pt-BR) no Editor de ativos.
 
 * **Texto alternativo para acessibilidade** - Este campo permite definir uma descrição da imagem para usuários com deficiências visuais.
 
    * **Herdar texto alternativo da página** - Esta opção utiliza a descrição alternativa do valor do ativo vinculado dos metadados `dc:description` no DAM ou da página atual, se nenhum ativo estiver vinculado.
 
-* **Não fornecer um texto alternativo** - Marca a imagem a ser ignorada por tecnologias assistivas, como leitores de tela, nos casos em que a imagem é meramente decorativa ou não transmite informações adicionais para a página.
+* **Não fornecer um texto alternativo**: marca a imagem a ser ignorada por tecnologias assistivas, como leitores de tela, nos casos em que a imagem é meramente decorativa ou não transmite informações adicionais para a página.
 
 ### Guia Metadados {#metadata-tab}
 
@@ -185,33 +185,33 @@ O componente de imagem oferece uma caixa de diálogo de configuração, onde a p
 
 * **Tipo de predefinição** - Define os tipos de predefinições de imagens disponíveis, seja a **Predefinição de imagem** ou o **Corte inteligente**, e só estará disponível quando os [recursos do Dynamic Media](#dynamic-meida) estiverem habilitados.
    * **Predefinição de imagem** - Quando o **Tipo de predefinição** da **Predefinição de imagem** é selecionado, a lista suspensa **Predefinição de imagem** é disponibilizada, permitindo a seleção das predefinições disponíveis do Dynamic Media. Isso só estará disponível se as predefinições forem definidas para o ativo selecionado.
-   * **Corte inteligente** - Quando **Tipo de predefinição** de **Corte inteligente** for selecionada, o menu suspenso **Representação** O está disponível, permitindo a seleção das representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
+   * **Corte inteligente**: quando o **Tipo de predefinição** do **Corte inteligente** é selecionado, o menu suspenso de **Representação** é exibido, permitindo selecionar as representações disponíveis do ativo selecionado. Isso só estará disponível se as representações forem definidas para o ativo selecionado.
    * **Modificadores de imagem** - Comandos adicionais de veiculação de imagens do Dynamic Media podem ser definidos aqui, separados por `&`, independentemente do **Tipo de predefinição** selecionado.
-* **Legenda** - Informações adicionais sobre a imagem, exibida abaixo da imagem por padrão.
-   * **Obter legenda do DAM** - Quando marcado, o texto da legenda da imagem será preenchido com o valor de `dc:title` metadados no DAM.
-   * **Exibir legendas como janelas pop-up** - Quando marcada, esta legenda não é exibida abaixo da imagem, mas como um pop-up exibido por alguns navegadores ao passar o mouse sobre a imagem.
+* **Legenda**: informações adicionais sobre a imagem, exibidas abaixo da imagem por padrão.
+   * **Obter legenda do DAM**: quando selecionada, o texto da legenda da imagem é preenchido com o valor dos metadados `dc:title` no DAM.
+   * **Exibir legendas como janelas pop-up**: quando selecionada, a legenda não é exibida abaixo da imagem, mas aparece como um pop-up em alguns navegadores ao passar o mouse sobre a imagem.
 * **Vinculação** - Vincule a imagem a outro recurso.
    * Use a caixa de diálogo de seleção para vincular a outro recurso do AEM.
-   * Se não estiver vinculando a um recurso do AEM, insira o URL absoluto. URLs não absolutos são interpretados como relativos a AEM.
-   * **Abrir link em nova guia** - Esta opção abre o link em uma nova janela do navegador.
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
+   * Se não estiver vinculando a um recurso do AEM, insira o URL absoluto. URLs não absolutos são interpretados como relativos ao AEM.
+   * **Abrir link em nova guia**: esta opção abre o link em uma nova janela do navegador.
+* **ID**: essa opção permite controlar o identificador exclusivo do componente no HTML e na [camada de dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
-   * A alteração da ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
+   * A alteração do ID pode afetar o rastreamento de CSS, JS e da camada de dados.
 
 >[!TIP]
 >
->As opções **Corte inteligente** e de **Predefinição de imagem** são mutuamente exclusivas. Se um autor precisar usar uma predefinição de imagem junto com uma representação de Corte inteligente, ele deverá usar a **Modificadores de imagem** para adicionar predefinições manualmente.
+>As opções **Corte inteligente** e **Predefinição de imagem** são mutuamente exclusivas. Se um(a) autor(a) precisar usar uma predefinição de imagem junto com uma representação de corte inteligente, será necessário usar os **Modificadores de imagem** para adicionar predefinições manualmente.
 
 ### Guia Estilos {#styles-tab-edit}
 
 ![Guia Estilos da caixa de diálogo de edição do componente de imagem](/help/assets/image-configure-styles.png)
 
-O componente de Imagem é compatível com o [Sistema de Estilos](/help/get-started/authoring.md#component-styling) do AEM.
+O componente de imagem é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para este componente no [caixa de diálogo design](#design-dialog) para que o menu suspenso fique disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que o menu suspenso seja disponibilizado.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -221,28 +221,28 @@ Os estilos devem ser configurados para este componente no [caixa de diálogo des
 
 * **Ativar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
    * Essa opção só é exibida quando o Dynamic Media está habilitado no ambiente.
-* **Ativar imagens otimizadas para web** - Quando marcado, [o serviço de entrega de imagens otimizadas para a web](/help/developing/web-optimized-image-delivery.md) O fornece imagens no formato WebP, reduzindo os tamanhos de imagem em cerca de 25%.
+* **Habilitar imagens otimizadas para web**: quando selecionada, [o serviço de entrega de imagens otimizadas para a web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
-   * Quando desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, a variável [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) é usada.
-* **Desativar carregamento lento** - Quando marcado, o componente pré-carrega todas as imagens sem lentidão no carregamento.
+   * Se essa opção não for selecionada, ou se o serviço de entrega de imagens otimizadas para a web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
+* **Desabilitar carregamento lento**: quando selecionada, o componente pré-carregará todas as imagens sem utilizar o “carregamento lento”.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
 * **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Redimensionar largura** - Esse valor é usado para redimensionar a largura das imagens base que são ativos do DAM.
-   * A proporção das imagens é preservada.
+   * A proporção das imagens será preservada.
    * Se o valor for maior que a largura real da imagem, ele não terá efeito.
    * Esse valor não tem efeito em imagens SVG.
 
-Você pode definir uma lista de larguras em pixels para a imagem, e o componente carrega automaticamente a largura mais apropriada com base no tamanho do navegador. Essa é uma parte importante dos [recursos responsivos](#responsive-features) do componente de imagem.
+É possível definir uma lista de larguras em pixels para a imagem, e o componente carregará automaticamente a largura mais apropriada para o tamanho do navegador. Essa é uma parte importante dos [recursos responsivos](#responsive-features) do componente de imagem.
 
 * **Larguras** - Define uma lista de larguras em pixels para a imagem e o componente carrega automaticamente a largura mais apropriada com base no tamanho do navegador.
    * Toque ou clique no botão **Adicionar** para adicionar outro tamanho.
-      * Use as alças de captura para reorganizar a ordem de tamanho.
+      * Use as alças para reorganizar a ordem dos tamanhos.
       * Use o ícone **Excluir** para remover uma largura.
    * Por padrão, o carregamento de imagens é adiado até ficarem visíveis.
-      * Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
-* **Qualidade do JPEG** - O fator de qualidade (porcentagem entre 0 e 100) para imagens JPEG transformadas (por exemplo, dimensionadas ou cortadas).
+      * Selecione a opção **Desabilitar carregamento lento** para carregar as imagens ao carregar a página.
+* **Qualidade JPEG**: o fator de qualidade (porcentagem entre 0 e 100) para imagens JPEG transformadas (por exemplo, dimensionadas ou cortadas).
 
 >[!TIP]
 >
