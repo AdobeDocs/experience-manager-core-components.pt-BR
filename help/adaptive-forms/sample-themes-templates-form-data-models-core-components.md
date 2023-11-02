@@ -1,34 +1,31 @@
 ---
-title: Como obter temas de amostra e modelos para o AEM Forms?
-description: Os Componentes principais do AEM Forms fornecem temas de amostra de formulários adaptáveis, modelos e modelos de dados de formulário
+title: Como obter temas de amostra e modelos para os Componentes principais do AEM Forms?
+description: Os Componentes principais do AEM Forms fornecem exemplos de temas, modelos e modelos de dados de formulário do Formulário adaptável.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
-hide: true
-hidefromtoc: true
 level: Intermediate
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
+source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
+workflow-type: tm+mt
+source-wordcount: '1349'
+ht-degree: 68%
 
 ---
 
-
 # Temas de amostra, modelos e modelos de dados de formulário {#sample-themes-templates-and-data-models}
 
-Os Componentes principais do [!DNL AEM Forms] fornecem temas de amostra, modelos e modelos de dados de formulário prontos para uso para a criação de formulários adaptáveis versáteis com rapidez. Isso também ajuda os autores de formulários a entender a extensibilidade, adaptabilidade e capacidade de resposta dos [Componentes principais do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR) para criar formulários simples e complexos de forma rápida e fácil enquanto se conectam ao banco de dados de forma contínua.
+Os Componentes principais do [!DNL AEM Forms] fornecem temas de amostra, modelos e modelos de dados de formulário prontos para uso para a criação de formulários adaptáveis versáteis com rapidez. Isso também ajuda os autores de formulários a aprender a extensibilidade, adaptabilidade e capacidade de resposta do [Componentes principais adaptáveis do Forms](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR) criar formulários simples, rápidos e complexos facilmente enquanto se conecta ao banco de dados de maneira simples.
 
 Os temas de amostra, modelos e modelos de dados de formulário incluídos no pacote de conteúdo de referência são:
 
 | Modelos | Temas | Modelos de dados de formulário |
 ---------|----------|---------
-| [Básico](#Basic) | [Tela de desenho](#Canvas) | Microsoft® Dynamics 365 |
-| [Em branco](#Blank) | [WKND](#WKND) | Salesforce |
-| [Fale conosco](#Contact-Us) | [Cavalete](#Easel) |  |
-| [Atualização dos detalhes de contato](#Contact-Details-Update) |   |   |
-| [Formulário de consentimento](#Consent-Form) | |  |
-| [Solicitação de serviço de log](#Log-Service-Request) |  |  |
+| [Em branco](#Blank) | [Tela de desenho](#Canvas) | Microsoft® Dynamics 365 |
+| [Fale conosco](#Contact-Us) | [WKND](#WKND) | Salesforce |
+| [Atualização dos detalhes de contato](#Contact-Details-Update) | [Cavalete](#Easel) |   |
+| [Formulário de consentimento](#Consent-Form) | [FSI](#FSI) |  |
+| [Solicitação de serviço de log](#Log-Service-Request) | [Serviços de saúde](#Healthcare) |  |
 | [Fornecimento de feedback](#Give-Feedback) |  |  |
 | [Inscrição em benefícios](#Benefits-Enrollment) |  |   |
 | [Resumo de benefícios do funcionário](#Employee-Benefits-Summary) |   |   |
@@ -39,19 +36,59 @@ Os temas de amostra, modelos e modelos de dados de formulário incluídos no pac
 
 ## Temas de amostra {#Sample-Themes}
 
-Temas de amostra de referência ajudam autores a definir e personalizar o estilo de formulários, mesmo autores com apenas um conhecimento básico de CSS podem personalizar o tema como necessário.
+Temas de amostra de referência ajudam os autores a usar, definir e personalizar o estilo para formulários, os autores com até mesmo um conhecimento básico de CSS podem personalizar o tema de acordo com os requisitos.
 
 **Como obter estes temas?**
-* Para obter esses temas no ambiente do **Forms as a Cloud Service**, [habilite os Componentes principais dos Formulários Adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=pt-BR) e use o [pipeline de front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=pt-BR) para implantar esses temas.
-* Para obter esses temas em um ambiente **AEM Forms 6.5**, [habilite os Componentes principais dos Formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=pt-BR) e use o [gerenciador de pacotes](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components?lang=pt-BR) para implantar esses temas.
+Para obter esses temas, use as etapas a seguir fornecidas para **AEM as a Cloud Service** ambiente:
+
+1. [Ativar componentes principais do formulário adaptável](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=pt-BR)
+1. [Implantar um projeto do Arquétipo 45 do AEM em seu ambiente](https://github.com/adobe/aem-project-archetype)
+
+
+Ao implantar um Arquétipo AEM, você só pode usar os temas OOTB em seus formulários. Para personalizar os temas de acordo com suas necessidades, [Usar o pipeline de front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=pt-BR) para implantar os temas.
+
+>[!NOTE]
+>
+> * Os temas não estão disponíveis para **AEM 6.5** ambiente.
+
+<!--
+
+1. **AEM 6.5**
+
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
+    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+
+
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
+
+-->
+
+
+<!--
+
+### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+
+You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+
+### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
+
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
+    
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
+
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
+
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
+
+-->
 
 Os temas de [Componentes principais de Formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR) **prontos para uso** são:
 
-![Temas OOTB](/help/adaptive-forms/assets/OOTB-themes.png)
+![Temas OOTB](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### Tela de desenho {#Canvas}
 
-O tema Tela de desenho é o tema padrão para formulários e enfatiza o uso de cores básicas, transparência e ícones planos. Na captura de tela abaixo, é possível ver a aparência do tema Tela de desenho.
+O tema da tela de desenho é o tema padrão para formulários e enfatiza o uso de cores básicas, transparência e ícones planos. Na captura de tela abaixo, é possível ver a aparência do tema Tela de desenho.
 
 ![Tema Tela de desenho](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -64,16 +101,40 @@ O tema WKND incorpora um design animado, imaginativo e envolvente para dar uma a
 
 ### Cavalete {#Easel}
 
-O tema Cavalete ajuda a criar uma aparência de formulário atraente e fácil de configurar, sendo personalizado para simplicidade e facilidade de uso. O tema Cavalete é baseado no conceito do suporte portátil usado por artistas para sustentar uma tela enquanto trabalham em suas pinturas.
+O tema Cavalete ajuda a criar uma aparência de formulário atraente e fácil de configurar, sendo personalizado para simplicidade e facilidade de uso. O tema do cavalete é baseado no conceito em que um suporte portátil é usado por artistas para apoiar uma tela enquanto eles trabalham em suas pinturas.
 
 ![Tema Cavalete](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+
+### FSI (Serviços financeiros e seguros) {#FSI}
+
+O tema FSI enfatiza a necessidade de dar ao seu formulário uma aparência limpa e prática. O tom suave de azul é aplicado ao formulário quando você aplica o tema FSI, como é possível ver na imagem.
+
+![Tema FSI](/help/adaptive-forms/assets/fsi-theme-new1.png)
+
+
+### Serviços de saúde {#Healthcare}
+
+O tema Saúde emprega tons ricos e verdejantes para acentuar elementos como guias, painéis, caixas de texto e botões no formulário.
+
+![Tema de saúde](/help/adaptive-forms/assets/healthcare-new-theme.png)
+
 
 ## Modelos de amostra {#Sample-templates}
 
 No formulário, os modelos definem a estrutura inicial, o conteúdo e as ações a serem replicadas, ou usam uma estrutura de modelo semelhante ao formulário, por exemplo, o formulário de consentimento, o formulário de inscrição de benefícios e muito mais.
 
 **Como obter esses modelos?**
-É possível obter os modelos implantando um [projeto baseado no Arquétipo AEM 43 ou posterior](https://github.com/adobe/aem-project-archetype) no seu ambiente do **AEM Forms as a Cloud Service** ou do **AEM Forms 6.5**.
+Você pode obter esses modelos implantando um [Arquétipo AEM 45](https://github.com/adobe/aem-project-archetype) ao seu **AEM Forms as a Cloud Service** ambiente ou **AEM 6.5 Forms** ambiente.
+
+<!--
+
+>[!NOTE]
+>
+> * If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype.
+> * You can find list of all OOTB templates when you create a form.
+
+-->
+
 
 Os modelos **prontos para uso** dos [Componentes principais de Formulário Adaptável](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR) são:
 
@@ -81,7 +142,7 @@ Os modelos **prontos para uso** dos [Componentes principais de Formulário Adapt
 
 ### Básico {#Basic}
 
-O modelo básico ajuda a criar rapidamente um formulário de experiência de inscrição. Também é possível usá-lo para visualizar a funcionalidade dos [Componentes principais dos Formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR). O modelo básico fornece um layout de assistente para a apresentação de dados seção a seção.
+Um modelo básico ajuda a criar rapidamente um formulário de experiência de inscrição. Também é possível usá-lo para visualizar a funcionalidade do [Componentes principais adaptáveis do Forms](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=pt-BR). O modelo básico fornece um layout de assistente para a apresentação de dados seção a seção.
 
 ![Modelo básico](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -105,20 +166,20 @@ O modelo de atualização de detalhes de contato ajuda autores a criar um formul
 
 ### Formulário de consentimento {#Consent-Form}
 
-O modelo de formulário de Consentimento é usado na criação de um formulário para obter um documento legal de participantes que fazem parte de uma atividade específica, pesquisa, procedimento médico ou qualquer situação em que suas informações pessoais ou direitos possam estar envolvidos. O formulário garante a transparência, protege os direitos do participante e estabelece uma compreensão clara do que o indivíduo está concordando.
+O modelo de formulário de consentimento é usado para criar um formulário para obter um documento legal dos participantes que participam de uma atividade específica, estudo de pesquisa, procedimento médico ou qualquer situação em que suas informações pessoais ou direitos possam estar envolvidos. O formulário garante a transparência, protege os direitos do participante e estabelece uma compreensão clara do que o indivíduo está concordando.
 
 ![Formulário de Consentimento](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### Solicitação de serviço de log {#Log-Service-Request}
 
-O modelo de solicitação de serviço de log ajuda a criar um formulário que solicita serviços de registro de logs específicos de um provedor de serviços. O formulário serve como uma solicitação formal para criar um ticket de eventos, atividades ou dados registrados para o monitoramento ou acompanhamento de status.
+O modelo de solicitação de serviço de log ajuda a criar um formulário que solicita serviços de registro de logs específicos de um provedor de serviços. O formulário serve como uma solicitação formal para criar um ticket para eventos, atividades ou logs de dados para status de monitoramento ou rastreamento.
 
 ![Modelo de Solicitação de serviço de log](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### Fornecimento de feedback {#Give-Feedback}
 
-O modelo de formulário de Fornecimento de feedback ajuda na criação de um formulário para fornecer feedback construtivo a outra pessoa ou equipe. O formulário ajuda a garantir que o feedback seja claro, específico e acionável, promovendo uma comunicação aberta e o aprimoramento.
+O modelo de formulário de Fornecimento de feedback ajuda na criação de um formulário para fornecer feedback construtivo a outra pessoa ou equipe. O formulário ajuda a garantir que o feedback seja claro, específico e acionável, promovendo a comunicação aberta e o aprimoramento.
 
 ![Modelo de Fornecimento de feedback](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -138,7 +199,7 @@ O modelo de formulário de Resumo de benefícios do funcionário é usado na cri
 
 ### Solicitação de demonstrativo de conta {#Request-for-Account-Statement}
 
-O modelo de Solicitação de demonstrativo de conta ajuda a criar um formulário que inicia o processo de obtenção de um demonstrativo preciso e atualizado de clientes. O demonstrativo fornece um registro detalhado de transações financeiras, atividades ou outras informações relevantes sobre clientes que usam este formulário.
+Um modelo de solicitação de demonstrativo de conta ajuda a criar um formulário que inicia o processo de obtenção de um demonstrativo preciso e atualizado dos clientes. O demonstrativo fornece um registro detalhado de transações financeiras, atividades ou outras informações relevantes sobre clientes que usam este formulário.
 
 ![Request-for-account-statment](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
