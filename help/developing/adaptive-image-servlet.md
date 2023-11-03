@@ -4,9 +4,9 @@ description: Saiba como os Componentes principais usam o Servlet de imagem adapt
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
 
-## Servlet de imagem adaptável ou entrega de imagens otimizadas para a Web? {#options}
+## Servlet de imagem adaptável ou entrega de imagens otimizadas para a web? {#options}
 
-O Componente principal de imagem pode usar dois métodos para fornecer imagens.
+O componente principal de imagem possui dois métodos para fornecer imagens.
 
 * O Servlet de imagem adaptável é o padrão.
 * A [entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) está disponível para o AEMaaCS e reduz o tamanho do download em 25%, em média.
