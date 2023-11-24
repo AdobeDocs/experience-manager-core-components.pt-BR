@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Entrada de telefone
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '1791'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +16,17 @@ O componente principal de entrada de telefone de formulários adaptáveis permit
 
 O campo de entrada de telefone é usado normalmente em formulários de contato, de registro e outros formulários nos quais um número de telefone é necessário como meio de contato. O campo de entrada de telefone também pode ser usado para garantir que o usuário insira um número de telefone válido, pois o navegador pode impor determinadas restrições, como o comprimento e o formato do número de telefone, com base no atributo “padrão”.
 
+![exemplo](/help/adaptive-forms/assets/emailid-example.png)
+
 ## Uso {#reasons-to-use-telephone-input}
 
 Os motivos comuns para se usar um campo de entrada de telefone em um formulário adaptável são:
 
-* **Informações de contato**: normalmente, um campo de entrada de telefone é usado para coletar o número de telefone de um usuário como meio de contato.
+- **Informações de contato**: normalmente, um campo de entrada de telefone é usado para coletar o número de telefone de um usuário como meio de contato.
 
-* **Precisão dos dados aprimorada**: usando um campo de entrada de telefone, o formulário pode impor determinadas restrições no formato do número de telefone, o que pode ajudar a garantir que os dados inseridos sejam precisos e completos.
+- **Precisão dos dados aprimorada**: usando um campo de entrada de telefone, o formulário pode impor determinadas restrições no formato do número de telefone, o que pode ajudar a garantir que os dados inseridos sejam precisos e completos.
 
-* **Melhor experiência de usuário**: um campo de entrada de telefone fornece uma maneira clara e intuitiva para os usuários inserirem seus números de telefone, o que pode melhorar a experiência deles, permitindo que insiram suas informações de contato de forma rápida e fácil.
+- **Melhor experiência de usuário**: um campo de entrada de telefone fornece uma maneira clara e intuitiva para os usuários inserirem seus números de telefone, o que pode melhorar a experiência deles, permitindo que insiram suas informações de contato de forma rápida e fácil.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -50,57 +52,58 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 
 ![Guia Básico](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 
-* **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
+- **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-* **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar título**: selecione essa opção para ocultar o Título do componente.
+- **Ocultar título**: selecione essa opção para ocultar o Título do componente.
 
-* **Texto de espaço reservado**: o texto de espaço reservado em um componente de formulário refere-se a um rótulo curto ou exemplo que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
+- **Texto de espaço reservado**: o texto de espaço reservado em um componente de formulário refere-se a um rótulo curto ou exemplo que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
-* **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
+- **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
+- **Marcar como elemento de formulário não vinculado**: selecione a opção para configurar um campo de formulário não vinculado a nenhum schema. Essa opção permite salvar dados sem atualizar a fonte de dados. Ela também permite manipular dados de forma personalizada, separada da integração de banco de dados padrão.
 
-* **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
-* **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-* **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
+- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
 
 ### Guia Validação {#validation-tab}
 
 ![Guia Validação](/help/adaptive-forms/assets/telephoneinput_validationtab.png)
 
-* **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Não é possível selecionar as opções **Ocultar componente** ou **Desativar Componente** na guia **Básico** quando essa opção está selecionada.
+- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio de um formulário. Não é possível selecionar as opções **Ocultar componente** ou **Desativar Componente** na guia **Básico** quando essa opção está selecionada.
 
-* **Mensagem de erro**: essa opção permite que você insira uma mensagem que será exibida se uma caixa de seleção **Obrigatória** estiver marcada mas o campo ficar em branco.
+- **Mensagem de erro**: essa opção permite que você insira uma mensagem que será exibida se uma caixa de seleção **Obrigatória** estiver marcada mas o campo ficar em branco.
 
-* **Mensagem de validação de script**: essa opção permite que você insira uma mensagem que será exibida caso haja falha na validação do script.
+- **Mensagem de validação de script**: essa opção permite que você insira uma mensagem que será exibida caso haja falha na validação do script.
 
-* **Número máximo de caracteres**: essa opção permite especificar o número máximo de caracteres permitidos no componente. Se você inserir mais caracteres que o valor especificado em **Número máximo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada.
+- **Número máximo de caracteres**: essa opção permite especificar o número máximo de caracteres permitidos no componente. Se você inserir mais caracteres que o valor especificado em **Número máximo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro de máximo de caracteres**: a caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir mais caracteres que o valor especificado na opção **Número máximo de caracteres**.
+- **Mensagem de erro de máximo de caracteres**: a caixa de diálogo **Mensagem de erro de máximo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir mais caracteres que o valor especificado na opção **Número máximo de caracteres**.
 
-* **Número mínimo de caracteres**: essa opção possibilita especificar o número mínimo de caracteres permitidos no campo. Se você inserir menos caracteres que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada.
+- **Número mínimo de caracteres**: essa opção possibilita especificar o número mínimo de caracteres permitidos no campo. Se você inserir menos caracteres que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada.
 
-* *Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
+- *Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
 
 A opção **Padrão de validação** permite inserir um padrão para validar o número de telefone inserido. O número de telefone inserido é validado em relação ao valor inserido na opção **Padrão**. Caso o número de telefone não seja validado com o valor inserido na opção **Padrão**, a mensagem de erro será exibida na tela.
 
-* **Padrão**: essa opção permite inserir os padrões de verificação permitidos para o número de telefone. Expressões regulares também são permitidas.
+- **Padrão**: essa opção permite inserir os padrões de verificação permitidos para o número de telefone. Expressões regulares também são permitidas.
 
-* **Mensagem de erro**: essa opção permite inserir uma mensagem que será exibida na tela se o número de telefone inserido não puder ser validado com relação ao valor inserido na opção **Padrão** 
+- **Mensagem de erro**: essa opção permite inserir uma mensagem que será exibida na tela se o número de telefone inserido não puder ser validado com relação ao valor inserido na opção **Padrão** 
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/telephoneinput_helptab.png)
 
-* **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-* **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
-* **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+- **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
@@ -118,15 +121,35 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-* **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o componente principal de entrada de telefone de formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o componente principal de entrada de telefone de formulários adaptáveis.
 
-* **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+
+### Propriedades Personalizadas
+
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/telephoneinput-customproperties.png)
+
+As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+
+- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+
+   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+
+   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+
+   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
 
 ### Guia Formatos {#format-tab}
 
 A guia Formatos permite especificar formatos de número padrão e personalizados.
 
 ![Guia Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
+
+### Guia Padrões de validação {#validation-patterns-tab}
+
+A guia Padrão de validação permite inserir valores em um formato específico ou atender a determinados critérios. Algumas opções estão disponíveis por padrão, que podem ser selecionadas marcando a caixa de seleção correspondente. Além disso, é possível adicionar um formato personalizado clicando no **Adicionar** botão.
+
+![Guia Validação](/help/adaptive-forms/assets/telephoneinput-validationpatterns.png)
 
 <!--
 
@@ -137,53 +160,9 @@ A guia Formatos permite especificar formatos de número padrão e personalizados
 -->
 
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+## Artigos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 

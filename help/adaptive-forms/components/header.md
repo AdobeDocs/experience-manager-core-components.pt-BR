@@ -3,10 +3,10 @@ title: 'Componente principal de Formulários adaptáveis: Cabeçalho'
 description: Uso ou personalização do Componente principal de cabeçalho de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +20,15 @@ Um componente de cabeçalho em um Formulário adaptável é uma seção localiza
 
 ## Uso {#reasons-to-use-header}
 
-* **Marca**: um cabeçalho pode ser usado para exibir o logotipo ou o nome da organização que criou o formulário, ajudando a estabelecer o reconhecimento e a credibilidade da marca.
+- **Marca**: um cabeçalho pode ser usado para exibir o logotipo ou o nome da organização que criou o formulário, ajudando a estabelecer o reconhecimento e a credibilidade da marca.
 
-* **Contexto**: um cabeçalho pode fornecer uma breve descrição da finalidade do formulário, ajudando os usuários a entender o contexto no qual o formulário está sendo usado.
+- **Contexto**: um cabeçalho pode fornecer uma breve descrição da finalidade do formulário, ajudando os usuários a entender o contexto no qual o formulário está sendo usado.
 
-* **Navegação**: um cabeçalho pode incluir links ou botões que permitem aos usuários navegar para outras partes do site ou do aplicativo.
+- **Navegação**: um cabeçalho pode incluir links ou botões que permitem aos usuários navegar para outras partes do site ou do aplicativo.
 
-* **Informações**: um cabeçalho pode incluir informações de contato ou links para recursos de ajuda, tornando mais fácil para os usuários obter assistência se precisarem.
+- **Informações**: um cabeçalho pode incluir informações de contato ou links para recursos de ajuda, tornando mais fácil para os usuários obter assistência se precisarem.
 
-* **Experiência do usuário**: um cabeçalho pode ser usado para tornar o formulário mais simples, fornecendo uma maneira clara e intuitiva para os usuários acessarem e preencherem os campos de formulário.
+- **Experiência do usuário**: um cabeçalho pode ser usado para tornar o formulário mais simples, fornecendo uma maneira clara e intuitiva para os usuários acessarem e preencherem os campos de formulário.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ Essa parte do cabeçalho contém o título e a imagem do cabeçalho.
 
 ![Imagetab](/help/adaptive-forms/assets/header_image.png)
 
-* **Ativo de imagem**: essa opção permite usar o arrastar e soltar do mouse em um ativo como uma imagem. Também é possível fazer upload de um arquivo do sistema de arquivos local usando o botão **Procurar**. Após adicionar uma imagem, três botões são exibidos em sua parte inferior. Após adicionar uma imagem, três botões são exibidos em sua parte inferior:
-   * **Editar**: toque ou clique em **Editar** para gerenciar as representações do ativo no editor de ativos.
-   * **Limpar**: toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * **Selecionar**: toque ou clique em **Selecionar** para selecionar outra imagem da pasta Ativos.
+- **Ativo de imagem**: essa opção permite usar o arrastar e soltar do mouse em um ativo como uma imagem. Também é possível fazer upload de um arquivo do sistema de arquivos local usando o botão **Procurar**. Após adicionar uma imagem, três botões são exibidos em sua parte inferior. Após adicionar uma imagem, três botões são exibidos em sua parte inferior:
+   - **Editar**: toque ou clique em **Editar** para gerenciar as representações do ativo no editor de ativos.
+   - **Limpar**: toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
+   - **Selecionar**: toque ou clique em **Selecionar** para selecionar outra imagem da pasta Ativos.
 
-* **Título**: essa opção é usada para adicionar o título ao cabeçalho. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário.
-* **Vincular a**: é possível vincular o cabeçalho à pasta usando o ícone de **Procurar**.
-* **Descrição**: uma descrição é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de uma imagem específica.
-* **Tamanho (px)**: ajuda a ajustar o comprimento e a largura da imagem, aumentando ou diminuindo os pixels.
+- **Título**: essa opção é usada para adicionar o título ao cabeçalho. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário.
+- **Vincular a**: é possível vincular o cabeçalho à pasta usando o ícone de **Procurar**.
+- **Descrição**: uma descrição é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de uma imagem específica.
+- **Tamanho (px)**: ajuda a ajustar o comprimento e a largura da imagem, aumentando ou diminuindo os pixels.
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Texto alternativo**: essa opção é usada para inserir um texto curto e descritivo como uma alternativa para a imagem para usuários com deficiência visual.
+- **Texto alternativo**: essa opção é usada para inserir um texto curto e descritivo como uma alternativa para a imagem para usuários com deficiência visual.
 
-* **A imagem é decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
+- **A imagem é decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
 
 ### Guia Texto {#text-tab}
 
@@ -88,30 +88,9 @@ Esta seção permite inserir o texto a ser incluído no cabeçalho.
 
 -->
 
+## Artigos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 

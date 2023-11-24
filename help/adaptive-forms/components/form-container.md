@@ -3,10 +3,10 @@ title: 'Componente principal de formulários adaptáveis: container de formulár
 description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,23 +18,23 @@ O Forms permite que os visitantes do site interajam com o site fornecendo inform
 
 Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 
-* **Coleção de dados**: o Forms pode ser usado para coletar dados de visitantes do site para vários propósitos, como pesquisa de mercado, análise de comportamento dos usuários e muito mais.
+- **Coleção de dados**: o Forms pode ser usado para coletar dados de visitantes do site para vários propósitos, como pesquisa de mercado, análise de comportamento dos usuários e muito mais.
 
-* **Geração de clientes potenciais**: um formulário pode ser usado para coletar informações de clientes potenciais, como nome e endereço de email, a fim de gerar leads para as iniciativas de vendas e marketing.
+- **Geração de clientes potenciais**: um formulário pode ser usado para coletar informações de clientes potenciais, como nome e endereço de email, a fim de gerar leads para as iniciativas de vendas e marketing.
 
-* **Comércio eletrônico**: o Forms pode ser usado para compras online, permitindo que os clientes façam pedidos e pagamentos por meio do site.
+- **Comércio eletrônico**: o Forms pode ser usado para compras online, permitindo que os clientes façam pedidos e pagamentos por meio do site.
 
-* **Contato**: um formulário de contato permite que os visitantes do site entrem em contato com o proprietário ou a organização de maneira fácil.
+- **Contato**: um formulário de contato permite que os visitantes do site entrem em contato com o proprietário ou a organização de maneira fácil.
 
-* **Pesquisas e votações**: o Forms pode ser usado para coletar comentários e opiniões de visitantes do site por meio de pesquisas e votações.
+- **Pesquisas e votações**: o Forms pode ser usado para coletar comentários e opiniões de visitantes do site por meio de pesquisas e votações.
 
-* **Registro em evento**: o Forms pode ser usado para o registro em eventos, permitindo que os visitantes do site se inscrevam em eventos ou webinários.
+- **Registro em evento**: o Forms pode ser usado para o registro em eventos, permitindo que os visitantes do site se inscrevam em eventos ou webinários.
 
-* **Assinaturas**: o Forms pode ser usado para assinaturas de sites, permitindo que os visitantes se inscrevam em boletins informativos ou outras comunicações regulares.
+- **Assinaturas**: o Forms pode ser usado para assinaturas de sites, permitindo que os visitantes se inscrevam em boletins informativos ou outras comunicações regulares.
 
-* **Autenticação de usuários**: o Forms pode ser usado para a autenticação de usuários, permitindo que os visitantes do site criem contas e façam logon para acessar conteúdo ou recursos exclusivos.
+- **Autenticação de usuários**: o Forms pode ser usado para a autenticação de usuários, permitindo que os visitantes do site criem contas e façam logon para acessar conteúdo ou recursos exclusivos.
 
-* **Aumentar a taxa de conversão**: um formulário bem projetado pode aumentar a taxa de conversão, tornando fácil para os usuários concluírem uma ação desejada, como comprar um produto ou se inscrever em um serviço.
+- **Aumentar a taxa de conversão**: um formulário bem projetado pode aumentar a taxa de conversão, tornando fácil para os usuários concluírem uma ação desejada, como comprar um produto ou se inscrever em um serviço.
 
 
 ## Versão e compatibilidade {#version-and-compatibility}
@@ -62,9 +62,17 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 ![Guia Básico](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
+- **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
-* **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
+- **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
+
+### Guia Modelo de dados {#data-model-tab}
+
+![Guia Enviar](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+
+Você pode usar o Modelo de dados de formulário para conectar um formulário a uma Fonte de dados para enviar e receber dados com base nas ações do usuário. Você também pode conectar um formulário a um esquema JSON para receber os dados enviados em um formato predefinido. Com base no requisito, conecte seu formulário a um esquema JSON ou modelo de dados de formulário:
+- Crie um esquema JSON e faça upload para o seu ambiente
+- Criar um modelo de dados de formulário
 
 ### Guia Enviar {#submission-tab}
 
@@ -72,13 +80,59 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 Os usuários podem configurar ações diferentes para o envio de um formulário adaptável.
 
-* **URL/caminho de redirecionamento**: essa opção permite que o usuário configure uma página em cada formulário, para a qual os usuários do formulário são redirecionados após enviar o formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=pt-BR).
+- **URL/caminho de redirecionamento**: essa opção permite que o usuário configure uma página em cada formulário, para a qual os usuários do formulário são redirecionados após enviar o formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=pt-BR).
 
 ![Guia Mostrar mensagem](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **Mostrar mensagem**: essa opção permite que os usuários adicionem uma mensagem que é exibida quando o formulário adaptável é enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem é compatível com as ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
+- **Mostrar mensagem**: essa opção permite que os usuários adicionem uma mensagem que é exibida quando o formulário adaptável é enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem é compatível com as ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
 
-* **Ação de envio**: uma ação de envio é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Na lista suspensa, os usuários podem selecionar ações de envio que são compatíveis de fábrica. Saiba como [configurar uma ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#supporting-custom-functions-in-validation-expressions-br).
+- **Ação de envio**: uma ação de envio é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Na lista suspensa, os usuários podem selecionar ações de envio que são compatíveis de fábrica. Saiba como [configurar uma ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#supporting-custom-functions-in-validation-expressions-br).
+
+## Caixa de diálogo de design {#design-dialog}
+
+A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente de Contêiner de formulário.
+
+### Guia Componentes permitidos {#allowed-components-tab}
+
+![Guia Componente permitida da caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+
+A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente no editor Forms adaptável.
+
+### Guia Componentes padrão {#default-components-tab}
+
+![Guia do componente padrão da caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+
+A variável **Componentes padrão** permite que o editor de modelo especifique os componentes que são visíveis por padrão como itens no componente Contêiner de formulário no editor Forms adaptável.
+
+### Guia Configurações responsivas {#responsive-tab}
+
+![Guia Configurações responsivas da caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+
+A variável **Configurações responsivas** permite que o editor de modelo especifique o número de colunas na grade no componente do contêiner de formulário no editor Forms adaptável.
+
+### Guia Estilos {#styles-tab}
+
+O componente principal de anexo de arquivo de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
+
+![Caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-styletab.png)
+
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
+
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+
+### Guia Propriedades Personalizadas
+
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+
+As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+
+- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+
+   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+
+   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+
+   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
 
 <!--
 
@@ -88,31 +142,9 @@ Os usuários podem configurar ações diferentes para o envio de um formulário 
 
 -->
 
+## Artigos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 

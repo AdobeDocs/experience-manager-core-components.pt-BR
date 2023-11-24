@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Seletor de datas
 description: Utilização ou personalização do Componente principal do seletor de datas de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1702'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1906'
+ht-degree: 87%
 
 ---
 
@@ -22,17 +22,17 @@ Um componente do seletor de datas em um Formulário adaptável é um elemento da
 
 Há vários motivos pelos quais é vantajoso incluir um seletor de datas em um Formulário adaptável, incluindo:
 
-* **Praticidade**: um componente seletor de datas permite que os usuários selecionem facilmente uma data de um calendário sem precisar inserir manualmente a data em um campo de texto. Isso pode economizar tempo e reduzir erros.
+- **Praticidade**: um componente seletor de datas permite que os usuários selecionem facilmente uma data de um calendário sem precisar inserir manualmente a data em um campo de texto. Isso pode economizar tempo e reduzir erros.
 
-* **Experiência do usuário**: o componente seletor de datas pode ser usado para tornar o formulário mais simples, fornecendo uma maneira clara e intuitiva para os usuários selecionarem a data.
+- **Experiência do usuário**: o componente seletor de datas pode ser usado para tornar o formulário mais simples, fornecendo uma maneira clara e intuitiva para os usuários selecionarem a data.
 
-* **Análise de dados**: o componente seletor de datas pode ser usado para coletar dados de várias fontes e analisá-los, ou usá-los como entrada para processamento adicional.
+- **Análise de dados**: o componente seletor de datas pode ser usado para coletar dados de várias fontes e analisá-los, ou usá-los como entrada para processamento adicional.
 
-* **Gerenciamento de eventos**: o componente seletor de datas pode ser usado em sites de gerenciamento de eventos para selecionar a data do evento.
+- **Gerenciamento de eventos**: o componente seletor de datas pode ser usado em sites de gerenciamento de eventos para selecionar a data do evento.
 
-* **Reservas**: o componente seletor de datas pode ser usado em sites de reservas para selecionar as datas de check-in e check-out.
+- **Reservas**: o componente seletor de datas pode ser usado em sites de reservas para selecionar as datas de check-in e check-out.
 
-* **Formato de data**: o componente seletor de datas pode ser usado para corrigir o formato em que a data é exibida e inserida. Verifique se o formato de data é uniforme em todo o formulário para garantir uma experiência do usuário consistente.
+- **Formato de data**: o componente seletor de datas pode ser usado para corrigir o formato em que a data é exibida e inserida. Verifique se o formato de data é uniforme em todo o formulário para garantir uma experiência do usuário consistente.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -61,48 +61,50 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 ![Guia Básico](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-* **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
+- **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
 
-* **Título**: Título é uma string que aparece na parte superior de um componente em um Formulário adaptável. Título identifica exclusivamente o componente na estrutura em árvore de um Formulário adaptável. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: Título é uma string que aparece na parte superior de um componente em um Formulário adaptável. Título identifica exclusivamente o componente na estrutura em árvore de um Formulário adaptável. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar título**: Selecione essa opção para ocultar o título do tipo de componente em um Formulário adaptável.
+- **Ocultar título**: Selecione essa opção para ocultar o título do tipo de componente em um Formulário adaptável.
 
-* **Texto de espaço reservado**: O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
+- **Texto de espaço reservado**: O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
-* **Ocultar Componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
-* **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Data padrão**: Essa opção permite adicionar uma data ao campo de formulário. A data inserida aparece por padrão no local do componente. Se nenhuma data for inserida pelo usuário, esse valor será enviado no momento do envio do formulário. Se a opção **Componente desativado** ou **Componente somente leitura** for selecionada, a data padrão será exibida na tela e enviada no momento do envio do formulário.
+- **Marcar como elemento de formulário não vinculado**: selecione a opção para configurar um campo de formulário não vinculado a nenhum schema. Essa opção permite salvar dados sem atualizar a fonte de dados. Ela também permite manipular dados de forma personalizada, separada da integração de banco de dados padrão.
+
+- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Data padrão**: Essa opção permite adicionar uma data ao campo de formulário. A data inserida aparece por padrão no local do componente. Se nenhuma data for inserida pelo usuário, esse valor será enviado no momento do envio do formulário. Se a opção **Componente desativado** ou **Componente somente leitura** for selecionada, a data padrão será exibida na tela e enviada no momento do envio do formulário.
 
 
 ### Guia Validação {#validation-tab}
 
 ![Guia Validação](/help/adaptive-forms/assets/datepicker_validation.png)
 
-* **Obrigatório** - Selecione essa opção se quiser exibir o componente em um Formulário adaptável. Não é possível selecionar a opção **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
+- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve fazer uma seleção antes de prosseguir com o envio de um formulário. Não é possível selecionar a opção **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
 
-* **Mensagem de erro** - Essa opção permite que você insira uma mensagem que é exibida quando a caixa de seleção **Obrigatório** está marcada e o campo do formulário fica em branco.
+- **Mensagem de erro** - Essa opção permite que você insira uma mensagem que é exibida quando a caixa de seleção **Obrigatório** está marcada e o campo do formulário fica em branco.
 
-* **Mensagem de validação de script** - Essa opção permite que você insira uma mensagem que será exibida se a validação do script falhar.
+- **Mensagem de validação de script** - Essa opção permite que você insira uma mensagem que será exibida se a validação do script falhar.
 
-* **Data mínima** - Essa opção permite inserir a data mínima exigida. Se você inserir uma data anterior à data especificada em Data mínima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada.
+- **Data mínima** - Essa opção permite inserir a data mínima exigida. Se você inserir uma data anterior à data especificada em Data mínima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro mínima** - A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data anterior à especificada na opção **Data mínima**.
+- **Mensagem de erro mínima** - A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data anterior à especificada na opção **Data mínima**.
 
-* **Data máxima** - Essa opção permite que você insira a data máxima necessária. Se você inserir uma data posterior à data especificada em Data máxima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada.
+- **Data máxima** - Essa opção permite que você insira a data máxima necessária. Se você inserir uma data posterior à data especificada em Data máxima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada.
 
-* **Mensagem de erro máxima** - A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data posterior à data especificada na opção **Data máxima**.
+- **Mensagem de erro máxima** - A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data posterior à data especificada na opção **Data máxima**.
 
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-* **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-* **Sempre mostrar descrição curta**- Ative a opção para exibir a Descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**- Ative a opção para exibir a Descrição curta abaixo do componente.
 
-* **Texto da ajuda**: O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+- **Texto da ajuda**: O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 
 ### Guia Acessibilidade {#accessibility-tab}
@@ -115,13 +117,13 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 ![Guia Formatos](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-* **Exibir formato** - Representa o formato de data exibido ao usuário. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
+- **Exibir formato** - Representa o formato de data exibido ao usuário. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
-* **Editar formato** - Representa um formato de data em que o usuário pode editar a data. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
+- **Editar formato** - Representa um formato de data em que o usuário pode editar a data. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
-* **Exibir formato** - Representa o formato de data exibido ao usuário. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
+- **Exibir formato** - Representa o formato de data exibido ao usuário. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
-* **Editar formato** - Representa um formato de data em que o usuário edita a data. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
+- **Editar formato** - Representa um formato de data em que o usuário edita a data. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
 ## Caixa de diálogo de Design {#design-dialog}
 
@@ -133,9 +135,23 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Guia Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-* **Classes CSS Padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do seletor de datas dos Formulários adaptáveis.
+- **Classes CSS Padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do seletor de datas dos Formulários adaptáveis.
 
-* **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+
+### Propriedades Personalizadas
+
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+
+- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+
+   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+
+   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+
+   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
 
 ### Guia Formatos {#formats-tab}
 
@@ -151,31 +167,12 @@ A guia Formatos permite especificar os formatos de data padrão e personalizados
 
 -->
 
+## Artigos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 
 {{see-also}}
+
+

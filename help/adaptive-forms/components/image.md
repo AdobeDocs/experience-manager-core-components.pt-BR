@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Imagem
 description: Uso ou personalização do componente principal de imagem dos formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1015'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1205'
+ht-degree: 81%
 
 ---
 
@@ -19,20 +19,20 @@ Por questões de acessibilidade, é importante adicionar um **Texto alternativo*
 
 **Exemplo**
 
-![](/help/adaptive-forms/assets/image.png)
+![exemplo](/help/adaptive-forms/assets/image.png)
 
 
 ## Uso {#reasons-to-use-image-in-a-form}
 
 Há várias vantagens de se incluir um componente de imagem em um formulário adaptável, incluindo:
 
-* **Identidade visual**: uma imagem pode ser usada para exibir o logotipo ou o nome da organização que criou o formulário, ajudando a estabelecer o reconhecimento e a credibilidade da marca.
+- **Identidade visual**: uma imagem pode ser usada para exibir o logotipo ou o nome da organização que criou o formulário, ajudando a estabelecer o reconhecimento e a credibilidade da marca.
 
-* **Auxílios visuais**: uma imagem pode ajudar a fornecer um nível extra de informações para os usuários, servindo como um auxílio visual para ajudá-los a entender a finalidade do formulário.
+- **Auxílios visuais**: uma imagem pode ajudar a fornecer um nível extra de informações para os usuários, servindo como um auxílio visual para ajudá-los a entender a finalidade do formulário.
 
-* **Decoração**: uma imagem pode ser usada para aprimorar o design geral do formulário e torná-lo mais visualmente atraente.
+- **Decoração**: uma imagem pode ser usada para aprimorar o design geral do formulário e torná-lo mais visualmente atraente.
 
-* **Experiência do usuário**: uma imagem pode ser usada para tornar o formulário mais fácil de usar, fornecendo uma maneira clara e intuitiva dos usuários acessarem e preencherem os campos do formulário.
+- **Experiência do usuário**: uma imagem pode ser usada para tornar o formulário mais fácil de usar, fornecendo uma maneira clara e intuitiva dos usuários acessarem e preencherem os campos do formulário.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -60,24 +60,26 @@ Você pode personalizar facilmente a experiência de imagem para visitantes com 
 
 ![Guia Propriedades](/help/adaptive-forms/assets/image_properties.png)
 
-* **Nome**: é possível identificar um componente de formulário facilmente através de seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
+- **Nome**: é possível identificar um componente de formulário facilmente através de seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-* **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Referência de vínculo de documento de registro**: essa opção permite associar um campo de formulário adaptável ao campo de documento de registro. Quando o usuário insere qualquer valor em um campo vinculado de um formulário adaptável, esse valor também aparece no campo vinculado do documento de registro correspondente. Por exemplo, uma referência de vínculo de um documento de registro pode ser usada para exibir o nome e o endereço de um cliente em um documento de registro com base na ID do cliente inserida no formulário. Dessa forma, o AEM Forms permite gerar o documento de registro e oferece uma experiência de usuário fluida para coletar e gerenciar dados.
+- **Marcar como elemento de formulário não vinculado**: selecione a opção para configurar um campo de formulário não vinculado a nenhum schema. Essa opção permite salvar dados sem atualizar a fonte de dados. Ela também permite manipular dados de forma personalizada, separada da integração de banco de dados padrão.
 
-* **Descrição**: uma descrição é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de uma imagem específica.
+- **Referência de vínculo de documento de registro**: essa opção permite associar um campo de formulário adaptável ao campo de documento de registro. Quando o usuário insere qualquer valor em um campo vinculado de um formulário adaptável, esse valor também aparece no campo vinculado do documento de registro correspondente. Por exemplo, uma referência de vínculo de um documento de registro pode ser usada para exibir o nome e o endereço de um cliente em um documento de registro com base na ID do cliente inserida no formulário. Dessa forma, o AEM Forms permite gerar o documento de registro e oferece uma experiência de usuário fluida para coletar e gerenciar dados.
 
-* **Solte um ativo aqui ou procure um arquivo para fazer upload**: essa opção permite adicionar um ativo, como uma imagem, arrastando-o e soltando-o com o mouse. Também é possível fazer upload de um arquivo do sistema de arquivos local usando o botão **Procurar**. Após adicionar uma imagem, três botões são exibidos em sua parte inferior:
-   * **Editar**: toque ou clique em **Editar** para gerenciar as representações do ativo no editor de ativos.
-   * **Limpar**: toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   * **Escolher**: toque ou clique na opção **Escolher** para selecionar outra imagem da pasta de ativos.
+- **Descrição**: uma descrição é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de uma imagem específica.
 
-* **Texto alternativo**: essa opção é usada para inserir uma breve descrição em texto alternativa para a imagem, descrevendo-a para usuários com deficiência visual.
+- **Solte um ativo aqui ou procure um arquivo para fazer upload**: essa opção permite adicionar um ativo, como uma imagem, arrastando-o e soltando-o com o mouse. Também é possível fazer upload de um arquivo do sistema de arquivos local usando o botão **Procurar**. Após adicionar uma imagem, três botões são exibidos em sua parte inferior:
+   - **Editar**: toque ou clique em **Editar** para gerenciar as representações do ativo no editor de ativos.
+   - **Limpar**: toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
+   - **Escolher**: toque ou clique na opção **Escolher** para selecionar outra imagem da pasta de ativos.
 
-* **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Texto alternativo**: essa opção é usada para inserir uma breve descrição em texto alternativa para a imagem, descrevendo-a para usuários com deficiência visual.
 
-* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+
+- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -87,45 +89,29 @@ A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS d
 
 A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de Imagem dos formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-![Caixa de diálogo de design](/help/adaptive-forms/assets/image_designdialog.png)
+![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-**Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de imagem dos formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
 
-**Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
-<!--
+### Propriedades Personalizadas
 
-## Related article {#related-article}
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
 
--->
+- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
 
+   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
+   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+
+## Artigos relacionados {#related-articles}
+
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 

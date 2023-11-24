@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Grupo de caixa de sele
 description: Utilização ou personalização do Componente principal do grupo de caixa de seleção de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
-source-wordcount: '1663'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1875'
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ Um grupo de caixas de seleção em um Formulário adaptável é um conjunto de c
 
 **Exemplo**
 
-![](/help/adaptive-forms/assets/checkbox-group.png)
+![exemplo de grupo de caixas de seleção](/help/adaptive-forms/assets/checkbox-group.png)
 
 **Caixa de diálogo Propriedades**
 
-![](/help/adaptive-forms/assets/checkbox-group-properties.png)
+![caixa de diálogo propriedade do grupo de caixas de seleção](/help/adaptive-forms/assets/checkbox-group-properties.png)
 
 Neste exemplo, o elemento Opções é usado para agrupar as caixas de seleção. O elemento **Texto de exibição** é usado para fornecer um rótulo para um item e **Valor de dados** é usado para especificar o valor enviado para o servidor após o envio do formulário.
 
@@ -32,17 +32,17 @@ Além disso, o grupo de caixas de seleção pode ser configurado para ter valore
 
 Incluir um grupo de caixas de seleção em um Formulário adaptável é vantajoso por diversos motivos, dentre eles:
 
-* **Várias seleções**: um grupo de caixas de seleção permite que os usuários selecionem várias opções de uma lista, o que pode ser útil em situações em que várias seleções são permitidas ou obrigatórias.
+- **Várias seleções**: um grupo de caixas de seleção permite que os usuários selecionem várias opções de uma lista, o que pode ser útil em situações em que várias seleções são permitidas ou obrigatórias.
 
-* **Experiência do usuário**: o grupo de caixas de seleção pode ser usado para tornar o formulário mais simples, proporcionando uma maneira clara e intuitiva para os usuários selecionarem várias opções.
+- **Experiência do usuário**: o grupo de caixas de seleção pode ser usado para tornar o formulário mais simples, proporcionando uma maneira clara e intuitiva para os usuários selecionarem várias opções.
 
-* **Análise de dados**: o grupo de caixas de seleção pode ser usado para coletar dados de várias fontes e analisá-los ou usá-los como entrada para processamento adicional.
+- **Análise de dados**: o grupo de caixas de seleção pode ser usado para coletar dados de várias fontes e analisá-los ou usá-los como entrada para processamento adicional.
 
-* **Pesquisas**: o grupo de caixa de seleção pode ser usado em pesquisas para selecionar várias opções para uma pergunta.
+- **Pesquisas**: o grupo de caixa de seleção pode ser usado em pesquisas para selecionar várias opções para uma pergunta.
 
-* **Preferências do usuário**: o grupo de caixas de seleção pode ser usado para coletar as preferências do usuário para opções diferentes.
+- **Preferências do usuário**: o grupo de caixas de seleção pode ser usado para coletar as preferências do usuário para opções diferentes.
 
-* **Valor de dados**: o grupo de caixas de seleção também pode ser usado para processar itens de um grupo de caixas de seleção.
+- **Valor de dados**: o grupo de caixas de seleção também pode ser usado para processar itens de um grupo de caixas de seleção.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -71,51 +71,53 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 ![Guia Básico](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-* **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
+- **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
 
-* **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-* **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
+- **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
-* **Opções**: Você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
+- **Opções**: Você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
 
-   * **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
-   * **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
-   * **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.
-   * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
+   - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
+   - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
+   - **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.
+   - **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
 
-* **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
+- **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 
-* **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar string de dados ao **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
+- **Marcar como elemento de formulário não vinculado**: selecione a opção para configurar um campo de formulário não vinculado a nenhum schema. Essa opção permite salvar dados sem atualizar a fonte de dados. Ela também permite manipular dados de forma personalizada, separada da integração de banco de dados padrão.
 
-* **Opções de exibição**: Esta opção é usada para definir o alinhamento visual das caixas de seleção em um Formulário adaptável. As duas opções compatíveis são:
-   * **Horizontal** - Quando essa opção é selecionada, as caixas de seleção são exibidas da esquerda para a direita em um Formulário adaptável.
-   * **Vertical** - Quando essa opção é selecionada, as caixas de seleção são exibidas de cima para baixo em um Formulário adaptável.
+- **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar string de dados ao **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
 
-* **Opções padrão**: Essa opção permite que você adicione valores padrão pré-selecionados quando o formulário é carregado. Use o ícone excluir para remover as opções adicionadas. Se o **tipo de dados do valor enviado** está definido como `Number` e você adicionar dados da string às **Opções padrão**, a tela exibe uma `Value type mismatch` mensagem de erro.
-* **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
-* **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-* **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Opções de exibição**: Esta opção é usada para definir o alinhamento visual das caixas de seleção em um Formulário adaptável. As duas opções compatíveis são:
+   - **Horizontal** - Quando essa opção é selecionada, as caixas de seleção são exibidas da esquerda para a direita em um Formulário adaptável.
+   - **Vertical** - Quando essa opção é selecionada, as caixas de seleção são exibidas de cima para baixo em um Formulário adaptável.
+
+- **Opções padrão**: Essa opção permite que você adicione valores padrão pré-selecionados quando o formulário é carregado. Use o ícone excluir para remover as opções adicionadas. Se o **tipo de dados do valor enviado** está definido como `Number` e você adicionar dados da string às **Opções padrão**, a tela exibe uma `Value type mismatch` mensagem de erro.
+- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 ### Guia Validação {#validation-tab}
 
 ![Guia Validação](/help/adaptive-forms/assets/checkbox_validationtab.png)
 
-* **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
+- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve fazer uma seleção antes de prosseguir com o envio de um formulário. Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
 
-* **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
+- **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 
-* **Mensagem de validação de script**: essa opção permite que inserir uma mensagem que será exibida se a validação do script falhar.
+- **Mensagem de validação de script**: essa opção permite que inserir uma mensagem que será exibida se a validação do script falhar.
 
 ### Guia Conteúdo de ajuda {#helpcontent-tab}
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/checkbox_helptab.png)
 
-* **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-* **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
-* **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
+- **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
@@ -123,7 +125,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
-    ## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente Grupo de caixa de seleção.
 
@@ -131,43 +133,29 @@ A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para
 
 O Componente principal do grupo da caixa de seleção de Formulários adaptáveis é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox_designdialog.png)
+![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
 
-* **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
-<!--
+### Propriedades Personalizadas
 
-## Related article {#related-article}
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
 
--->
+- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
 
->[!MORELIKETHIS]
->
->* [Acordeão](/help/adaptive-forms/components/accordion.md)
->* [Botão](/help/adaptive-forms/components/button.md)
->* [Seletor de data](/help/adaptive-forms/components/date-picker.md)
->* [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de email](/help/adaptive-forms/components/email-input.md)
->* [Container de formulário](/help/adaptive-forms/components/form-container.md)
->* [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
->* [Rodapé](/help/adaptive-forms/components/footer.md)
->* [Cabeçalho](/help/adaptive-forms/components/header.md)
->* [Guias horizontais](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagem](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Container do painel](/help/adaptive-forms/components/panel-container.md)
->* [Botão de opção](/help/adaptive-forms/components/radio-button.md)
->* [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
->* [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Assistente](/help/adaptive-forms/components/wizard.md)
+   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+
+   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+
+   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+
+## Artigos relacionados {#related-articles}
+
+{{more-like-this}})
 
 ## Consulte também {#see-also}
 
