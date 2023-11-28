@@ -3,10 +3,10 @@ title: Entrega de imagens otimizadas para a Web
 description: Saiba como os Componentes principais podem aproveitar os recursos de entrega de imagens otimizadas para a Web do AEM as a Cloud Service para fornecer imagens com mais eficiência.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ Veja a seguir uma interface de serviço que pode ser usada para ajudar a gerar o
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-Esse serviço seleciona um recurso de ativo como primeiro parâmetro obrigatório e pode receber um mapa opcional das transformações de imagem desejadas que serão aplicadas e que pode conter os seguintes parâmetros.
-
-* `path` - a ID do ativo que deve ser entregue. Deve seguir o padrão `([^:\[\]\|\*\/]+)` (por exemplo: `unicorn–1234`)
-* `seoname` - nome definido pelo usuário, centrado em SEO, que será anexado ao URL da imagem. Pode conter hifens e deve seguir o padrão `([\w-]+)` (por exemplo: `my-friend-the-unicorn`)
-* `format` - o formato de imagem desejado. Pode ser `gif`, `png`, `png8`, `jpg`, `pjpg`, `bjpg`, `webp`, `webpll`, `webply` (por exemplo: `webp`)
-* `preferwebp` - se possível, fornecer a saída em WebP, ignorando o parâmetro `format` ([consulte as perguntas frequentes sobre negociação de conteúdo](#content-negotiation)), booleano (por exemplo: `true`)
-* `width` - a resolução de imagem desejada em pixels. Deve ser maior que 1 (por exemplo: `400`)
-* `quality` - a compactação desejada, entre `1` e `100` (por exemplo: `75`)
-* `c` - as coordenadas de corte da imagem desejadas. Valores de pixel separados por vírgulas (por exemplo: `100,100,400,200`)
-* `r` - a rotação da imagem desejada. Pode ser `90`, `180`, `270` (por exemplo: `90`)
-* `flip` - o fluxo de imagem desejado. Pode ser `h`, `v`, `hv` (por exemplo: `h`)
+**Observe que os URLs incorporados diretamente em uma experiência que não foi criada por meio dos Componentes principais em execução no AEM Sites CS violam os termos de licenciamento da Media Library.**
 
 ### Qual é o URL de uma imagem entregue pelo novo serviço de imagem? {#url}
 
