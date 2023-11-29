@@ -3,9 +3,9 @@ title: Componente principal adaptável do Forms - Caixa de seleção
 description: Uso ou personalização do Componente principal da caixa de seleção Forms adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1706'
 ht-degree: 53%
 
 ---
@@ -34,13 +34,13 @@ Os motivos comuns para usar a caixa de seleção em um Formulário adaptável s�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal da caixa de seleção do Forms adaptável foi lançado em fevereiro de 2023 como parte dos componentes principais 2.0.4. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
+O componente principal da caixa de seleção Forms adaptável foi lançado como parte dos Componentes principais 2.0.52. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.4](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.0.52](/help/versions.md) e posteriores | Compatível | Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

@@ -3,9 +3,9 @@ title: Componente principal adaptável do Forms - guias verticais
 description: Uso ou personalização do Componente principal de guias verticais adaptáveis do Forms.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 65%
 
 ---
@@ -32,13 +32,13 @@ Os motivos comuns para usar guias verticais em um Formulário adaptável são:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de guias verticais do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
+O componente principal de guias verticais do Forms adaptável foi lançado como parte dos Componentes principais 2.0.18. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.4](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.0.18](/help/versions.md) e posteriores | Compatível | Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
