@@ -3,14 +3,14 @@ title: Componente principal adaptável do Forms - guias verticais
 description: Uso ou personalização do Componente principal de guias verticais adaptáveis do Forms.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 65%
 
 ---
 
-# Guias verticais {#vertical-tabs-adaptive-forms-core-component}
+# Componente de Guias Verticais{#vertical-tabs-adaptive-forms-core-component}
 
 Guias verticais em um Formulário adaptável se referem a um padrão de design em que várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas verticalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias verticais ajudam a organizar formulários longos em seções gerenciáveis e melhorar a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
@@ -38,7 +38,7 @@ O componente principal de guias verticais do Forms adaptável foi lançado como 
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.18](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com<br>[versão 2.0.18](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

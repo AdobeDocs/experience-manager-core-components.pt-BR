@@ -3,14 +3,14 @@ title: Componente principal adaptável do Forms - Caixa de seleção
 description: Uso ou personalização do Componente principal da caixa de seleção Forms adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1692'
 ht-degree: 53%
 
 ---
 
-# Caixa de seleção {#checkbox-component}
+# Componente da caixa de seleção{#checkbox-component}
 
 Uma caixa de seleção é um elemento da interface gráfica do usuário geralmente usado em aplicativos de software e formulários para permitir que os usuários façam uma escolha binária entre duas opções: marcada (selecionada) ou desmarcada (desmarcada).
 
@@ -40,7 +40,7 @@ O componente principal da caixa de seleção Forms adaptável foi lançado como 
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.52](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com<br>[versão 2.0.52](/help/versions.md) e posterior | Compatível | Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -71,7 +71,7 @@ Você pode personalizar facilmente a experiência da Caixa de seleção para vis
 - **Desativar componente** - Selecione a opção para desativar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Quando Marcado, retornar o valor** -Selecione esta opção para especificar qual valor deve ser associado à caixa de seleção quando ela estiver marcada ou selecionada. É a ação que ocorre quando você marca ou marca a caixa de seleção.
-- **Habilitar desmarcação.**- Selecione a opção para ativar ou desativar a capacidade de desmarcar uma caixa de seleção que foi marcada anteriormente.
+- **Habilitar Desmarcar.**- Selecione a opção para ativar ou desativar a capacidade de desmarcar uma caixa de seleção que foi marcada anteriormente.
    - Se **Habilitar Desmarcar** estiver ativado ou definido como true, significa que o usuário pode marcar e desmarcar a caixa de seleção a seu critério. Eles podem ativar e desativar a caixa de seleção conforme necessário.
 
    - Se **Habilitar Desmarcar** estiver desativado ou definido como falso, significa que, uma vez marcada a caixa de seleção, o usuário não poderá desmarcá-la.
