@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal do assistente de fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2048'
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Para gerenciar com eficácia as seções repetíveis no Assistente, siga as etap
 
 ![Guia Itens](/help/adaptive-forms/assets/wizard_helptab.png)
 
-Essa opção permite adicionar componentes do Formulário adaptável clicando no botão Adicionar, que aparece por padrão quando o assistente é adicionado no modo de edição.
+Essa opção permite adicionar componentes de formulário adaptável clicando no botão Adicionar, que é exibido por padrão quando o assistente é adicionado no modo de edição.
 
 ### Guia Ajuda {#help-tab}
 
@@ -142,15 +142,15 @@ Isso ajuda a tornar o processo de criação e personalização de formulários m
 
 ![Guia Componentes permitidos](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente Assistente no editor Forms adaptável.
+A guia **Componentes permitidos** permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis do componente de assistente no editor de formulários adaptáveis.
 
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS de um componente. O componente principal do assistente de Forms adaptável é compatível com AEM [Sistema de Estilos](/help/get-started/authoring.md#component-styling).
+A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de Assistente para formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Guia Estilos](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do assistente de Forms adaptável.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o componente principal de assistente para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
@@ -158,15 +158,15 @@ A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS d
 
 ![Guia Propriedades personalizadas](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
-- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+- **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
-   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+   - **Pares de chave e valor**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
 
-   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+   - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
-   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+   - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
 ## Artigos relacionados {#related-articles}
 
