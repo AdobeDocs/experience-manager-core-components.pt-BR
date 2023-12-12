@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal de contain
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2036'
+ht-degree: 100%
 
 ---
 
@@ -129,25 +129,25 @@ Para gerenciar com eficácia as seções repetíveis no container do painel, sig
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente de Contêiner de formulário.
+A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do componente de Container do formulário.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
-![Guia Componente permitida da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+![Guia Componentes permitidos da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente no editor Forms adaptável.
+A guia **Componentes permitidos** permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis do componente no editor de formulários adaptáveis.
 
 ### Guia Componentes padrão {#default-components-tab}
 
-![Guia do componente padrão da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-default-component.png)
+![Guia Componentes padrão da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-default-component.png)
 
-A variável **Componentes padrão** permite que o editor de modelo especifique os componentes que são visíveis por padrão como itens no componente Contêiner de formulário no editor Forms adaptável.
+A guia **Componentes padrão** permite que o editor de modelos especifique os componentes que estarão visíveis por padrão como itens no componente de container do formulário no editor de formulários adaptáveis.
 
 ### Guia Configurações responsivas {#responsive-tab}
 
 ![Guia Configurações responsivas da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
-A variável **Configurações responsivas** permite que o editor de modelo especifique o número de colunas na grade no componente do contêiner de formulário no editor Forms adaptável.
+A guia **Configurações responsivas** permite que o editor de modelos especifique o número de colunas na grade do componente de container do formulário no editor de formulários adaptáveis.
 
 ### Guia Configurações do container
 
@@ -155,11 +155,11 @@ A variável **Configurações responsivas** permite que o editor de modelo espec
 
 - **Layout**: o assistente pode ter um layout fixo (simples) ou um layout flexível (grade responsiva). O layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você ajuste a posição dos componentes para atender às suas necessidades. Por exemplo, use a grade responsiva para alinhar “Nome”, “Nome do meio” e “Sobrenome” em uma única linha do formulário.
 
-- **Desativar layout**: selecione esta opção para desativar a seleção de layout na caixa de diálogo de edição de um componente.
+- **Desabilitar layout**: selecione essa opção para desabilitar a seleção de layout na caixa de diálogo de edição de um componente.
 
-- **Ativar imagem de plano de fundo**: essa opção permite que o usuário defina as configurações do painel para incluir um plano de fundo visual para aprimorar o apelo visual.
+- **Habilitar imagem de fundo**: essa opção permite definir as configurações do painel para incluir um fundo visual e aprimorar sua aparência.
 
-- **Ativar cor de plano de fundo**: essa opção permite definir ou alterar a cor do plano de fundo do painel. Esse recurso geralmente é usado no design da interface do usuário para personalizar a aparência dos painéis em uma interface maior. Ao selecionar a variável **Ativar cor de plano de fundo** opção, a variável **Somente amostras** é exibida. A variável **Somente amostras** permite especificar ou escolher as cores para o plano de fundo, texto ou outros elementos visuais dentro do painel usando a opção **Adicionar** botão
+- **Habilitar cor de fundo**: essa opção permite definir ou alterar a cor de fundo do painel. Esse recurso geralmente é usado no design da interface para personalizar a aparência dos painéis em uma interface maior. Ao selecionar a opção **Habilitar cor de fundo**, a opção **Somente amostras** é exibida. A opção **Somente amostras** permite especificar ou escolher as cores para o fundo, texto ou outros elementos visuais do painel clicando em **Adicionar**
 
 ### Guia Estilos {#styles-tab}
 
@@ -171,19 +171,19 @@ O componente principal de anexo de arquivo de formulários adaptáveis é compat
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
-### Guia Propriedades Personalizadas
+### Guia Propriedades personalizadas
 
 ![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
-As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
-- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+- **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
-   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+   - **Pares de chave e valor**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
 
-   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+   - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
-   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+   - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
 <!--
 
