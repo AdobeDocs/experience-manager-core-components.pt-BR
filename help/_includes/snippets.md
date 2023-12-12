@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '372'
+ht-degree: 100%
 
 ---
 # Trechos {#snippets}
@@ -54,7 +54,7 @@ ht-degree: 0%
 - [Enviar dados do Formulário adaptável a um fluxo de trabalho do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
 - [Usar o portal de formulários para listar Formulários adaptáveis do AEM em um site do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
 
-## Mais artigos como este {#more-like-this}
+## Mais itens similares {#more-like-this}
 
 - [Acordeão](/help/adaptive-forms/components/accordion.md)
 - [Botão](/help/adaptive-forms/components/button.md)
@@ -70,8 +70,8 @@ ht-degree: 0%
 - [Imagem](/help/adaptive-forms/components/image.md)
 - [Entrada de número](/help/adaptive-forms/components/number-input.md)
 - [Container do painel](/help/adaptive-forms/components/panel-container.md)
-- [Guia Horizontal](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Guia Vertical](/help/adaptive-forms/components/vertical-tabs.md)
+- [Guia horizontal](/help/adaptive-forms/components/horizontal-tabs.md)
+- [Guia vertical](/help/adaptive-forms/components/vertical-tabs.md)
 - [Botão de opção](/help/adaptive-forms/components/radio-button.md)
 - [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
 - [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
