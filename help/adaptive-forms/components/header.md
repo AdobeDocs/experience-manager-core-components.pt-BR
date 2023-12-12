@@ -4,9 +4,9 @@ description: Uso ou personalização do Componente principal de cabeçalho de Fo
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
