@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1922'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 - **Texto de espaço reservado**: o texto de espaço reservado de um componente de formulário refere-se a um rótulo curto ou mensagem que aparece em um campo de entrada, fornecendo ao usuário uma dica sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
-- **Marcar como elemento de formulário não vinculado**: selecione a opção para configurar um campo de formulário não vinculado a nenhum schema. Essa opção permite salvar dados sem atualizar a fonte de dados. Ela também permite manipular dados de forma personalizada, separada da integração de banco de dados padrão.
+- **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 - **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
@@ -81,7 +81,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 
 ![Guia Validação](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio de um formulário.Você não pode selecionar a opção **Ocultar componente** ou **Desativar componente**  no **Básico** quando essa opção estiver selecionada.
+- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio do formulário. Não é possível selecionar **Ocultar componente** ou **Desabilitar componente** na guia **Básico** quando essa opção está selecionada.
 
 - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 
@@ -97,8 +97,8 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 <br>
 
     A opção **Padrão de validação** permite inserir um padrão para validar a ID de email inserida. Caso haja falha na validação da ID de email com o valor inserido na opção **Padrão**, a mensagem de erro será exibida na tela.
-    - **Padão**: essa opção permite inserir os padrões de verificação permitidos para email. Expressões regulares também são permitidas.
-    - **Mensagem de erro** - Essa opção permite inserir uma mensagem que será exibida na tela se a validação da ID de email falhar com o valor inserido na opção **Padrão**
+    - **Padrão**: essa opção permite inserir os padrões de verificação permitidos para email. Expressões regulares também são permitidas.
+    - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida na tela caso haja falha na validação da ID do email com o valor inserido na opção **Padrão**
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
@@ -130,19 +130,19 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
-### Propriedades Personalizadas
+### Propriedades personalizadas
 
 ![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
-- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+- **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
-   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+   - **Pares de chave e valor**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
 
-   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+   - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
-   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+   - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
 ### Guia Formatos {#formats-tab}
 
