@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de guias horizontai
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2020'
+ht-degree: 100%
 
 ---
 
@@ -166,15 +166,15 @@ A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS d
 
 ![Guia Propriedades personalizadas](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Ela permite criar um comportamento de formulário dinâmico que se adapta com base nos valores de atributos personalizados. Por exemplo, os desenvolvedores podem projetar várias representações de um componente headless do Forms para plataformas móveis, de desktop ou da Web, melhorando significativamente a experiência do usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
-- **Nome do grupo**: Você pode fornecer um nome para identificar o grupo de propriedades personalizadas. Você pode adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Depois de adicionar o grupo de propriedades personalizadas, você pode ver as seguintes opções:
+- **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
-   - **Pares de valor-chave**: É possível adicionar vários nomes de propriedades personalizadas e valores de propriedades personalizadas clicando no **Adicionar** para cada grupo de propriedades personalizadas.
+   - **Pares de chave e valor**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
 
-   - **Excluir**: Toque ou clique para excluir o nome e o valor da propriedade personalizada.
+   - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
-   - **Reorganizar**: Toque ou clique e arraste para reorganizar a ordem do nome e do valor da propriedade personalizada.
+   - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
 ## Artigos relacionados {#related-articles}
 
