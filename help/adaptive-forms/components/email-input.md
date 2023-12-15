@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Entrada de email
 description: Uso ou personalização do componente principal de entrada de email de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ O componente principal Acordeão de formulário adaptável foi lançado em fever
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
+| v1 | Compatível com<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -96,9 +96,10 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 - **Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
 <br>
 
-    A opção **Padrão de validação** permite inserir um padrão para validar a ID de email inserida. Caso haja falha na validação da ID de email com o valor inserido na opção **Padrão**, a mensagem de erro será exibida na tela.
-    - **Padrão**: essa opção permite inserir os padrões de verificação permitidos para email. Expressões regulares também são permitidas.
-    - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida na tela caso haja falha na validação da ID do email com o valor inserido na opção **Padrão**
+A variável **Padrão de validação** permite inserir um padrão para validar a ID de email inserida. Se a ID do email não for validada com o valor inserido em **Padrão** , a mensagem de erro será exibida na tela.
+
+- **Padrão** - Essa opção permite inserir os padrões de verificação permitidos para email. Expressões regulares também são permitidas.
+- **Mensagem de erro** - Essa opção permite inserir uma mensagem que é exibida na tela se a ID do email não for validada com o valor inserido no **Padrão** opção
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
