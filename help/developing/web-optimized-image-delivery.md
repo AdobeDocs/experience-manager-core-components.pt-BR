@@ -4,9 +4,9 @@ description: Saiba como os Componentes principais podem aproveitar os recursos d
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Veja a seguir uma interface de serviço que pode ser usada para ajudar a gerar o
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**Observe que os URLs incorporados diretamente em uma experiência que não foi criada por meio dos Componentes principais em execução no AEM Sites CS violam os termos de licenciamento da Media Library.**
+**Observe que a execução de URLs incorporados diretamente em uma experiência, que não foi criada por meio dos Componentes principais, violam os termos de licenciamento da Media Library.**
 
 ### Qual é o URL de uma imagem entregue pelo novo serviço de imagem? {#url}
 
