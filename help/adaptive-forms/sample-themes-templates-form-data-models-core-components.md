@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Temas de amostra de referência ajudam autores a usar, definir e personalizar o 
 Para obter esses temas, use as etapas fornecidas a seguir para o ambiente do **AEM as a Cloud Service**:
 
 1. [Habilite os Componentes principais de formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=pt-BR)
-1. [Implantar um projeto do Arquétipo AEM 47 ou posterior no ambiente](https://github.com/adobe/aem-project-archetype)
+1. [Implante um projeto do Arquétipo 47 do AEM em seu ambiente](https://github.com/adobe/aem-project-archetype)
 
 
 Ao implantar um Arquétipo do AEM, só será possível usar os temas prontos para uso em seus formulários. Para personalizar os temas de acordo com suas necessidades, [Use o pipeline de front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=pt-BR) para implantar os temas.
@@ -125,7 +125,7 @@ No formulário, os modelos definem a estrutura inicial, o conteúdo e as ações
 
 **Como obter esses modelos?**
 
-Você pode obter esses modelos implantando um [Arquétipo AEM 47 ou posterior](https://github.com/adobe/aem-project-archetype) ao seu **AEM Forms as a Cloud Service** ambiente ou **AEM 6.5 Forms** ambiente.
+Você pode obter esses modelos implantando um [Arquétipo 47 ou posterior do AEM](https://github.com/adobe/aem-project-archetype) no seu ambiente do **AEM Forms as a Cloud Service** ou no ambiente do **AEM 6.5 Forms**.
 
 <!--
 
