@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal Termos e condiçõe
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2633'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Consulte a seção [Subcomponentes do componente de Termos e condições](#sub-c
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.62 para Cloud Service e Componentes principais 1.1.28 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal Acordeão de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.62 para Cloud Service e dos Componentes principais 1.1.28 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
-| v1 | Compatível com<br>[versão 2.0.62](/help/adaptive-forms/version.md) e posterior | Compatível com<br>[versão 1.1.28](/help/adaptive-forms/version.md) e posterior, mas inferior a 2.0.0. |
+| v1 | Compatível com a <br>[versão 2.0.62](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.28](/help/adaptive-forms/version.md) e posteriores que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
