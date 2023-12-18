@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal de Caixa de seleç�
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Componente da caixa de seleção{#checkbox-component}
+# Componente Caixa de seleção{#checkbox-component}
 
 Uma caixa de seleção é um elemento gráfico da interface geralmente usado em aplicativos de software e formulários para permitir que usuários façam uma escolha binária entre duas opções: marcada (selecionada) ou desmarcada (não selecionada).
 
@@ -34,13 +34,13 @@ Estes são alguns motivos comuns para se usar caixas de seleção em um formulá
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal da caixa de seleção Forms adaptável foi lançado como parte dos Componentes principais 2.0.52. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
+O componente principal Caixa de seleção para formulários adaptáveis foi lançado como parte dos Componentes principais 2.0.52. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e inclui links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com<br>[versão 2.0.52](/help/versions.md) e posterior | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.0.52](/help/versions.md) e posteriores | Compatível | Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
