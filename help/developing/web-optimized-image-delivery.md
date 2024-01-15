@@ -4,9 +4,9 @@ description: Saiba como os Componentes principais podem aproveitar os recursos d
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ A vantagem dessa técnica é que o elemento `img` e seus atributos podem permane
 
 ### Posso usar a entrega de imagens otimizadas para a Web com meu próprio componente?
 
-Sim, o serviço de entrega de imagens otimizadas para a Web pode ser usado por componentes personalizados, que são criados pela [extensão do Componente de imagem,](/help/developing/customizing.md)
+Sim, o serviço de entrega de imagens otimizadas para a web pode ser usado por componentes personalizados, que são criados pela [extensão do Componente de imagem,](/help/developing/customizing.md)
 
 Veja a seguir uma interface de serviço que pode ser usada para ajudar a gerar o URL do ativo.
 
@@ -98,7 +98,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Os recursos de URL direto incorporados em uma experiência que não é criada por meio dos Componentes principais em execução no AEM Sites CS violam os termos de licenciamento da Media Library.
+>As integrações diretas de URL em uma experiência que não é criada por meio de Componentes principais em execução no AEM Sites CS violam os termos de licenciamento da Biblioteca de mídia.
 
 ### Qual é o URL de uma imagem entregue pelo novo serviço de imagem? {#url}
 
