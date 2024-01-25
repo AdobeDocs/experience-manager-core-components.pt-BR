@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 98%
 
 ---
 
@@ -40,9 +40,9 @@ O componente principal Caixa de seleção para formulários adaptáveis foi lan�
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.52](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.0.52](/help/adaptive-forms/version.md) e posteriores | Compatível | Compatível |
 
-Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 ## Detalhes técnicos {#technical-details}
 
@@ -115,9 +115,9 @@ O componente principal de Caixa de seleção para formulários adaptáveis é co
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal da caixa de seleção Forms adaptável.
 
-- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Propriedades personalizadas
 
