@@ -3,9 +3,9 @@ title: Componente principal de Formulários adaptáveis - Seletor de datas
 description: Utilização ou personalização do Componente principal do seletor de datas de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '1906'
+source-wordcount: '1901'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Um componente do seletor de datas em um Formulário adaptável é um elemento da
 
 **Exemplo**
 
-![](/help/adaptive-forms/assets/date-picker.png)
+![exemplo](/help/adaptive-forms/assets/date-picker.png)
 
 ## Uso {#reasons-to-use-drop-date-picker}
 
