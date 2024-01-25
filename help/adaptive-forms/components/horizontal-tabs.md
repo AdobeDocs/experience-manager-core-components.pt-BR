@@ -3,9 +3,9 @@ title: Componente principal dos formulários adaptáveis - Guias horizontais
 description: Uso ou personalização do componente principal de guias horizontais de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '2020'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
-Normalmente, as guias são criadas como uma série de links ou botões, com cada link ou botão correspondendo a uma seção do formulário. Quando um usuário clica em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
+Normalmente, as guias são criadas como uma série de links ou botões, com cada link ou botão correspondendo a uma seção do formulário. Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
 
 ![exemplo](/help/adaptive-forms/assets/horizontal-example-new.png)
 
@@ -38,9 +38,9 @@ O componente principal de guias horizontais de formulários adaptáveis foi lan�
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.4](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível | Compatível |
 
-Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -64,7 +64,7 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-- **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
+- **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
 
 - **Agrupar dados de componentes secundários no envio do formulário (vincular dados no objeto)**: quando essa opção é selecionada, os dados dos componentes secundários são aninhados no objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem qualquer objeto para o componente principal. Por exemplo:
