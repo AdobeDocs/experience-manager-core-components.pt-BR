@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 98%
+source-wordcount: '1746'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Uma caixa de seleção é um elemento gráfico da interface geralmente usado em aplicativos de software e formulários para permitir que usuários façam uma escolha binária entre duas opções: marcada (selecionada) ou desmarcada (não selecionada).
 
 Normalmente, uma caixa de seleção é representada como um pequeno quadrado que pode ser ativado ou desativado pelo clique ou toque. Quando uma caixa de seleção é marcada, ela exibe uma marca de seleção para mostrar que a opção ou o recurso associado está ativo ou habilitado.
+
+>[!NOTE]
+>
+> Para AEM 6.5 Forms, esse componente foi introduzido com AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para ativar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos componentes principais adaptáveis do Forms, consulte [Versões dos componentes principais adaptáveis do Forms](/help/adaptive-forms/version.md)
 
 **Exemplo**
 
