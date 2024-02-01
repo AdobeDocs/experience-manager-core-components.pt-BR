@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1917'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Guia Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de entrada de email adaptável do Forms.
+- **Classes padrão do CSS**: você pode fornecer uma classe padrão do CSS ao componente principal entrada de email para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
