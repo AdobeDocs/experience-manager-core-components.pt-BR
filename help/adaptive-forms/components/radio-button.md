@@ -4,9 +4,9 @@ description: Uso ou personalização do Componente principal de botão de opçã
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1904'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 
 **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
-## Caixa de diálogo de Design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 A caixa de diálogo de Design é usada para definir e gerenciar estilos CSS para o componente de botão de opção.
 
@@ -129,7 +129,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do botão de opção Forms adaptável.
+- **Classes padrão do CSS**: é possível fornecer uma classe padrão do CSS ao componente principal de botão de opção para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
