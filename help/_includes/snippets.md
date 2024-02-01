@@ -1,8 +1,8 @@
 ---
 source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Trechos {#snippets}
@@ -76,7 +76,7 @@ ht-degree: 99%
 - [Botão de opção](/help/adaptive-forms/components/radio-button.md)
 - [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
 - [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
-- [Alternar](/help/adaptive-forms/components/switch.md)
+- [Interruptor](/help/adaptive-forms/components/switch.md)
 - [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
 - [Entrada de texto](/help/adaptive-forms/components/text-input.md)
 - [Texto](/help/adaptive-forms/components/text.md)
