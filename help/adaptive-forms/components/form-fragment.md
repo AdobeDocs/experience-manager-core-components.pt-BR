@@ -3,7 +3,7 @@ title: Fragmento de formulário adaptável
 description: Use fragmentos de formulários para criar segmentos de formulários ou grupos de campos, e então os reutilize nos formulários adaptáveis para melhorar a eficiência e a capacidade de reutilização.
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 100%
 

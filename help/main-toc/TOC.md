@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 97%
       + [Seletor de data de formulários adaptáveis](/help/adaptive-forms/components/date-picker.md)
       + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down.md)
       + [Entrada de email de formulários adaptáveis](/help/adaptive-forms/components/email-input.md)
-      + [Fragmento de formulário adaptável do Forms](/help/adaptive-forms/components/form-fragment.md)
+      + [Fragmentos de formulários adaptáveis](/help/adaptive-forms/components/form-fragment.md)
       + [Anexos de arquivo de formulários adaptáveis](/help/adaptive-forms/components/file-attachment.md)
       + [Guias verticais de formulários adaptáveis](/help/adaptive-forms/components/vertical-tabs.md)
       + [Guias horizontais de formulários adaptáveis](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -125,7 +125,7 @@ ht-degree: 97%
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
-      + [Switch Forms adaptável](/help/adaptive-forms/components/switch.md)
+      + [Interruptor para formulários adaptáveis](/help/adaptive-forms/components/switch.md)
       + [Entrada de telefone de formulários adaptáveis](/help/adaptive-forms/components/telephone-input.md)
       + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
       + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-input.md)
