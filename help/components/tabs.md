@@ -3,12 +3,13 @@ title: Componente de Guias
 description: O componente de Guias permite a criação de várias guias para organizar o conteúdo em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 93%
 
 ---
+
 
 # Componente de Guias {#tabs-component}
 
@@ -34,7 +35,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -61,6 +62,12 @@ Para fazer isso:
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser expandido por padrão, ele será expandido automaticamente.
+
+## Guia e design responsivo {#responsive-design}
+
+Todos os Componentes principais foram projetados para oferecer resposta total, garantindo uma experiência contínua em todos os dispositivos.
+
+Alguns componentes avançados, como o componente de guia, podem exigir uma consideração específica no contexto do projeto de implementação para manter a capacidade de resposta em todas as condições. Consulte o documento [Design responsivo dos componentes principais](/help/responsive.md) para obter mais informações.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 

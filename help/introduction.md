@@ -3,12 +3,13 @@ title: Introdução aos Componentes principais
 description: Obtenha soluções para problemas com os Componentes principais e permita que outros criem elementos dentro do AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1d16628d8a85edff8c079421204d8cf0ca3e807a
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 97%
 
 ---
+
 
 # Introdução aos Componentes principais{#core-components-introduction}
 
@@ -35,6 +36,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 | Prontos para nuvem | Seja no [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR), no [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), ou no local, eles simplesmente funcionam. |
 | Versáteis | Os componentes representam conceitos genéricos com os quais os autores podem reunir quase qualquer layout. |
 | Configuráveis | As [políticas de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=pt-BR#content-policies) no nível do modelo definem quais recursos os autores da página podem usar ou não usar. |
+| [Responsivo](responsive.md) | Todos os Componentes principais foram projetados para oferecer resposta total, garantindo uma experiência contínua em todos os dispositivos |
 | Rastreáveis | A [integração da Camada de dados de clientes Adobe](/help/developing/data-layer/overview.md) permite rastrear todos os aspectos da experiência do visitante. |
 | Acessíveis | Eles estão em conformidade com o [padrão WCAG 2.1](https://www.w3.org/TR/WCAG21/), fornecem rótulos ARIA e são compatíveis com a navegação pelo teclado ([problemas conhecidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Compatíveis com SEO | A saída HTML é semântica e fornece anotações de microdados [schema.org](https://schema.org). |
@@ -46,6 +48,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não interrompam seu site ao melhorar coisas que podem afetar você. |
 | Localizáveis | A resolução de referência inteligente permite que certos componentes encontrem e [renderizem conteúdos correspondentes localizados automaticamente](get-started/localization.md). |
 | Código aberto | Se algo não sair como deveria, [contribua com suas melhorias!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+
 
 ## Os componentes do WCM {#the-wcm-components}
 
@@ -105,7 +108,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 ## Requisitos do sistema {#system-requirements}
 
-| Componentes principais Versão | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
+| Versão dos Componentes principais | AEM as a Cloud Service | Nível de correção do AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---------|---------|---------|---------|---------|
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Contínuo | 6.5.17.0+ | 8, 11 | 3.3.9+ |
 

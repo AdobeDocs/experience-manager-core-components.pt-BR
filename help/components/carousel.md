@@ -3,12 +3,13 @@ title: Componente Carrossel
 description: O componente Carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 94%
 
 ---
+
 
 # Componente Carrossel{#carousel-component}
 
@@ -28,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -55,6 +56,12 @@ Para fazer isso:
    * Por exemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diretamente para o componente específico e exibirá o painel especificado. Se o painel estiver configurado para não ser exibido por padrão, a tela será rolada automaticamente até que ele esteja visível.
+
+## Carrossel e design responsivo {#responsive-design}
+
+Todos os Componentes principais foram projetados para oferecer resposta total, garantindo uma experiência contínua em todos os dispositivos.
+
+Alguns componentes avançados, como o componente Carrossel, podem exigir uma consideração específica no contexto do projeto de implementação para manter a capacidade de resposta em todas as condições. Consulte o documento [Design responsivo dos componentes principais](/help/responsive.md) para obter mais informações.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
