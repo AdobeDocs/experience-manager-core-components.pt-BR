@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal de Título
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A guia Design é usada para definir e gerenciar estilos CSS para o componente de título.
+A guia Design é usada para definir e gerenciar os estilos do CSS para o componente título.
 
 ### Título
 
@@ -90,7 +90,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Guia Título da caixa de diálogo de design](/help/adaptive-forms/assets/title_styles.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de Título do Forms adaptável.
+- **Classes padrão do CSS**: você pode fornecer uma classe padrão do CSS ao componente principal título para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
