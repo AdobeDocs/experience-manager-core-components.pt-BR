@@ -1,40 +1,40 @@
 ---
-title: Componente principal adaptável do Forms - Componente de switch
-description: Uso ou personalização do Componente principal do switch Forms adaptável.
+title: 'Componente principal dos formulários adaptáveis: componente Interruptor'
+description: Utilização ou personalização do componente principal interruptor para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromToC: true
 source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1689'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Alternar componente{#switch-adaptive-forms-core-component}
+# Componente interruptor{#switch-adaptive-forms-core-component}
 
-O componente de switch é uma interface gráfica do usuário usada em formulários que permite aos usuários selecionar entre duas opções. Normalmente, é um botão de alternância de dois estados que permite aos usuários escolher entre dois estados, ativando ou desativando um recurso, uma configuração ou uma funcionalidade. O componente de switch foi projetado para representar visualmente o estado atual e exibir se um recurso específico está ativado ou desativado.
+O componente interruptor é uma interface gráfica usada em formulários que permite selecionar entre duas opções. Normalmente, é um botão de alternância entre dois estados que permite a escolha entre esses dois estados, ativando ou desativando um recurso, uma configuração ou uma funcionalidade. O componente interruptor foi projetado para representar visualmente o estado atual e exibir se um recurso específico está ativado ou desativado.
 
-O componente switch é um elemento de controle booleano que define o valor como verdadeiro ou falso. Por exemplo, ele é usado para ativar ou desativar um recurso, como ativar ou desativar o som, ativar ou desativar o Bluetooth ou WiFi.
+O componente interruptor é um elemento de controle booleano que define o valor como verdadeiro ou falso. Por exemplo, ele é usado para ativar ou desativar um recurso, como ligar ou desligar o som, o Bluetooth ou o Wi-Fi.
 
-![Exemplo de componente Switch](/help/adaptive-forms/assets/switch-example.png)
+![Exemplo do componente interruptor](/help/adaptive-forms/assets/switch-example.png)
 
 ## Uso {#reasons-to-use-switch}
 
-Os motivos comuns para usar a alternância em um Formulário adaptável são:
+Estes são alguns motivos comuns para usar interruptores em um formulário adaptável:
 
-- **Interação do usuário**: os usuários podem interagir com o componente de switch clicando ou tocando nele.
+- **Interação do usuário**: os usuários podem interagir com o componente de interruptor, clicando ou tocando nele.
 
-- **Estados**: O componente de opção tem dois estados: LIGADO e DESLIGADO. O estado inicial do componente de switch depende da configuração padrão ou do status atual do recurso que ele controla.
+- **Estados**: o componente interruptor tem dois estados: LIGADO e DESLIGADO. O estado inicial do componente interruptor depende da configuração padrão ou do status atual do recurso que ele controla.
 
-- **Representação visual**: o componente de alternância reflete visualmente seu estado atual alterando a cor ou a posição.
+- **Representação visual**: o componente interruptor reflete visualmente seu estado atual, alterando a cor ou a posição.
 
-- **Funcionalidade de controle**: o componente de switch é usado para ativar ou desativar funcionalidades específicas em um Formulário AEM. Por exemplo, permite que os usuários ativem ou desativem um recurso.
+- **Controle de funcionalidades**: o componente interruptor é usado para ativar ou desativar funcionalidades específicas em um formulário do AEM. Por exemplo, ele permite ativar ou desativar um recurso.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal do switch Forms adaptável foi lançado como parte dos componentes principais 2.0.64. Esta tabela mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
+O componente principal interruptor para formulários adaptáveis foi lançado como parte dos componentes principais 2.0.64. Esta tabela mostra todas as versões compatíveis, bem como a compatibilidade com o AEM, e inclui links para a documentação correspondente:
 
 |  |  |
 |---|---|
@@ -46,11 +46,11 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal do switch Forms adaptável na documentação técnica sobre [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal interruptor para formulários adaptáveis na documentação técnica, encontrada no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente a experiência do componente Alternar para visitantes com a Caixa de diálogo de configuração. Você também pode definir opções de componentes de Switch com facilidade para obter uma experiência perfeita para o usuário.
+Você pode personalizar facilmente a experiência com o componente interruptor para visitantes com a caixa de diálogo “Configurar”. Também é possível definir as opções do componente interruptor com facilidade para uma experiência do usuário suave.
 
 ### Guia Básico
 
@@ -62,12 +62,12 @@ Você pode personalizar facilmente a experiência do componente Alternar para vi
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Preservar valor de estado de Desmarcar** - Selecionar essa opção permite especificar o valor a ser retornado quando o componente de alternância não estiver selecionado.
-- **Opções** - Especifique o valor dos dados e o texto de exibição para cada opção.
-   - **No valor de dados** - Especifique o valor a ser enviado quando a opção for ativada em um Formulário adaptável.
-   - **Texto na exibição** - Especifique o texto a ser exibido como rótulo quando a opção for ativada em um Formulário adaptável.
-   - **Valor de dados desativado** - Especifique o valor a ser enviado quando a opção não estiver ativada em um Formulário adaptável. Essa opção estará visível somente se a variável **Preservar valor de estado de Desmarcar** switch está habilitado.
-   - **Fora do texto exibido** - Especifique o texto a ser exibido como rótulo quando a opção não estiver ativada em um Formulário adaptável. Essa opção estará visível somente se a variável **Preservar valor de estado de Desmarcar** switch está habilitado.
+- **Preservar o valor do estado desmarcado**: selecionar esta opção permite especificar o valor a ser retornado quando o componente interruptor não estiver selecionado.
+- **Opções**: especifique o valor dos dados e o texto de exibição de cada opção.
+   - **Valor dos dados quando ativado**: especifique o valor a ser enviado quando a opção estiver habilitada em um formulário adaptável.
+   - **Texto de exibição quando ativado**: especifique o texto a ser exibido como rótulo quando o interruptor estiver habilitado em um formulário adaptável.
+   - **Valor dos dados quando desativado**: especifique o valor a ser enviado quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
+   - **Texto de exibição quando desativado**: especifique o texto a ser exibido como rótulo quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
@@ -109,21 +109,21 @@ Você pode personalizar facilmente a experiência do componente Alternar para vi
 
 ![Guia Estilos](/help/adaptive-forms/assets/switch-styles.png)
 
-- **Ocultar rótulos** - Selecione esta opção para ocultar os rótulos do componente de switch.
+- **Ocultar rótulos**: selecione esta opção para ocultar os rótulos do componente interruptor.
 
-- **Mostrar rótulos** - Selecione esta opção para mostrar os rótulos do componente de comutação.
+- **Mostrar rótulos**: selecione esta opção para mostrar os rótulos do componente interruptor.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente Switch.
+A caixa de diálogo de design é usada para definir e gerenciar os estilos do CSS do componente interruptor.
 
 ### Guia Estilos {#styles-design-tab}
 
-O componente principal do switch Forms adaptável é compatível com AEM [Sistema de Estilos](/help/get-started/authoring.md#component-styling).
+O componente principal de interruptor para formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de switches Forms adaptável.
+- **Classes padrão do CSS**: você pode fornecer uma classe padrão do CSS ao componente principal do grupo de interruptores para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
@@ -131,7 +131,7 @@ O componente principal do switch Forms adaptável é compatível com AEM [Sistem
 
 ![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-As propriedades personalizadas permitem associar atributos personalizados (pares de valores chave) a um componente principal do formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal para formulários adaptáveis, usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
 - **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
@@ -139,7 +139,7 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
    - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
-   - **Reorganizar**: Toque ou clique e arraste para reorganizar o nome da propriedade personalizada e o valor da propriedade personalizada.
+   - **Reordenar**: toque ou clique e arraste para reordenar o nome e o valor da propriedade personalizada.
 
 ## Artigos relacionados {#related-articles}
 
