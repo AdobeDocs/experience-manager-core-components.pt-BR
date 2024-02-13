@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,6 +155,6 @@ ht-degree: 98%
    + Arquétipo de projeto do AEM {#archetype}
       + [Visão geral do Arquétipo](/help/developing/archetype/overview.md)
       + [Uso do Arquétipo](/help/developing/archetype/using.md)
-      + [Desenvolvimento front-end](/help/developing/archetype/front-end.md)
+      + [Desenvolvimento de front-end](/help/developing/archetype/front-end.md)
       + [Scripts agrupados pré-compilados](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [Plug-in Build Analyzer Maven](/help/developing/archetype/build-analyzer-maven-plugin.md)
+      + [Plug-in Analisador de build do Maven](/help/developing/archetype/build-analyzer-maven-plugin.md)
