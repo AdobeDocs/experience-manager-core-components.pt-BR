@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal Termos e condiçõe
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2690'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ O componente de **Termos e condições** é composto por outros componentes, com
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, esse componente foi introduzido com AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para ativar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos componentes principais adaptáveis do Forms, consulte [Versões dos componentes principais adaptáveis do Forms](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, esse componente foi introduzido com o Pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 **Exemplo**
 
