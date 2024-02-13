@@ -4,9 +4,9 @@ description: O componente Carrossel permite que o autor de conteúdo apresente c
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatível com<br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
@@ -59,9 +59,9 @@ Ao navegar até o URL com o ID do painel como âncora, o navegador rolará diret
 
 ## Carrossel e design responsivo {#responsive-design}
 
-Todos os Componentes principais foram projetados para oferecer resposta total, garantindo uma experiência contínua em todos os dispositivos.
+Todos os Componentes principais foram projetados para serem totalmente responsivos, garantindo uma experiência perfeita em todos os dispositivos.
 
-Alguns componentes avançados, como o componente Carrossel, podem exigir uma consideração específica no contexto do projeto de implementação para manter a capacidade de resposta em todas as condições. Consulte o documento [Design responsivo dos componentes principais](/help/responsive.md) para obter mais informações.
+Alguns componentes avançados, como o componente Carrossel, podem exigir uma consideração específica no contexto do projeto no qual é implementado para manter a capacidade de resposta em todas as condições. Consulte o documento [Design responsivo dos componentes principais](/help/responsive.md) para obter mais informações.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
