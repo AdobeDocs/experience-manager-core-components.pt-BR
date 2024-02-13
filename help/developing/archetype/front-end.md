@@ -1,26 +1,26 @@
 ---
-title: Desenvolvimento front-end com o arquétipo de projeto AEM
-description: Saiba mais sobre o mecanismo de build de front-end opcional e dedicado do Arquétipo de projeto AEM com base no Webpack.
+title: Desenvolvimento de front-end com o Arquétipo de projeto do AEM
+description: Saiba mais sobre o mecanismo de criação de front-end dedicado e opcional do Arquétipo de projeto do AEM baseado no Webpack.
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# Desenvolvimento front-end com o arquétipo de projeto AEM {#front-end}
+# Desenvolvimento de front-end com o Arquétipo de projeto do AEM {#front-end}
 
 O Arquétipo de projeto do AEM inclui um mecanismo de build de front-end opcional e dedicado com base no Webpack. O módulo ui.frontend torna-se, portanto, o local central para todos os recursos de front-end do projeto, incluindo arquivos JavaScript e CSS. Para aproveitar ao máximo esse recurso útil e flexível, é importante entender como o desenvolvimento de front-end se encaixa em um projeto do AEM.
 
-Este documento se concentra nos padrões de uso geral do módulo de build de front-end e no que ele faz por você. Para obter opções de build detalhadas e instruções técnicas, consulte a documentação no repositório GitHub do arquétipo.
+Este documento se concentra nos padrões de uso geral do módulo de criação de front-end e no que ele faz por você. Para obter opções de criação detalhadas e instruções técnicas, consulte a documentação no repositório do GitHub do arquétipo.
 
 >[!TIP]
 >
->O Arquétipo de projeto AEM mais recente e a documentação técnica associada [pode ser encontrado no GitHub.](https://github.com/adobe/aem-project-archetype)
+>O Arquétipo de projeto do AEM mais recente e a documentação técnica associada [podem ser encontrados no GitHub.](https://github.com/adobe/aem-project-archetype)
 
 ## Desenvolvimento de front-end e back-end do AEM {#front-end-back-end}
 
@@ -37,7 +37,7 @@ No entanto, qualquer projeto final tem de utilizar os resultados de ambos os esf
 
 ## Escolha da marcação {#determining-markup}
 
-Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, se necessário.](/help/developing/customizing.md#customizing-the-markup)
+Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, caso necessário.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Possíveis fluxos de trabalho de desenvolvimento de front-end {#possible-workflows}
 
@@ -50,7 +50,7 @@ Com o Webpack, é possível criar estilos e desenvolver com base na saída está
 1. Pré-visualize a página no AEM usando o modo de pré-visualização da página ou transmitindo `wcmmode=disabled` no URL
 1. Visualize a fonte da página e salve como HTML estático no módulo ui.front-end
 1. [Inicie o Webpack](#webpack-dev-server) e comece a criar o estilo e a gerar o JavaScript e o CSS necessários
-1. Executar `npm run dev` para gerar as clientlibs
+1. Execute o `npm run dev` para gerar clientlibs
 
 Nesse fluxo, um desenvolvedor do AEM pode executar as etapas um e dois e transmitir o HTML estático para o desenvolvedor de front-end que se desenvolve com base na saída HTML do AEM.
 
@@ -60,15 +60,15 @@ Nesse fluxo, um desenvolvedor do AEM pode executar as etapas um e dois e transmi
 
 ### Uso do Storybook {#using-storybook}
 
-Com o [Storybook](https://storybook.js.org) você pode executar mais desenvolvimento atômico de front-end. Embora o Storybook não esteja incluído no Arquétipo de projeto do AEM, você pode instalá-lo e armazenar seus artefatos do Storybook no módulo ui.frontend. Quando tudo estiver pronto para ser testado com AEM, eles podem ser implantados como clientlibs executando o `npm run dev`.
+Com o [Storybook](https://storybook.js.org) você pode executar mais desenvolvimento atômico de front-end. Embora o Storybook não esteja incluído no Arquétipo de projeto do AEM, você pode instalá-lo e armazenar seus artefatos do Storybook no módulo ui.frontend. Quando tudo estiver pronto para ser testado no AEM, eles podem ser implantados como clientlibs executando o `npm run dev`.
 
 >[!NOTE]
 >
 >O [Storybook](https://storybook.js.org) não está incluído no Arquétipo de projeto do AEM. Se você optar por usá-lo, deve instalar o Storybook separadamente.
 
-## Visão geral do Clientlibs {#clientlibs}
+## Visão geral das clientlibs  {#clientlibs}
 
-O módulo de front-end é disponibilizado usando um [AEM clientlib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de build NPM, o aplicativo é criado e o `aem-clientlib-generator` O pacote pega a saída de build resultante e a transforma em uma clientlib.
+O módulo de front-end é disponibilizado usando uma [clientlib do AEM. ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de criação do NPM, o aplicativo é criado e o pacote `aem-clientlib-generator` pega a saída de build resultante e a transforma em uma clientlib.
 
 Uma clientlib consistirá nos seguintes arquivos e diretórios:
 
@@ -80,4 +80,4 @@ Uma clientlib consistirá nos seguintes arquivos e diretórios:
 
 >[!TIP]
 >
->Saiba mais sobre como o AEM lida com clientlibs no [Documentação de desenvolvimento do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR) má forma de incluí-los no [Documentação dos Componentes principais.](/help/developing/including-clientlibs.md)
+>Saiba mais sobre como o AEM lida com clientlibs na [Documentação de desenvolvimento do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR) e como incluí-las na [Documentação dos componentes principais.](/help/developing/including-clientlibs.md)
