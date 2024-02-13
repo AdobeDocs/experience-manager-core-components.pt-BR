@@ -1,28 +1,28 @@
 ---
-title: Versões dos Componentes principais do Forms adaptável do AEM
+title: Versões dos componentes principais dos formulários adaptáveis do AEM
 description: Os Componentes principais do AEM são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
-# Versões dos componentes principais adaptáveis do Forms {#core-components-versions}
+# Versões dos componentes principais de formulários adaptáveis {#core-components-versions}
 
-Identifique as versões precisas das dependências dos Componentes principais do Forms e Componentes principais do WCM necessárias para ativar os componentes principais adaptáveis do Forms mais recentes em seu ambiente. Além disso, familiarize-se com os componentes e recursos ativados em cada versão dos Componentes principais do Forms adaptável.
+Identifique as versões precisas das dependências dos componentes principais do Forms e componentes principais do WCM necessárias para ativar os componentes principais dos formulários adaptáveis mais recentes em seu ambiente. Além disso, acostume-se com os componentes e recursos disponíveis em cada versão dos Componentes principais dos formulários adaptáveis.
 
-## Histórico de versão do AEM Forms as Cloud Service {#aem-as-cs-version-history}
+## Histórico de versões do AEM as a Cloud Service {#aem-as-cs-version-history}
 
-A tabela subsequente apresenta uma lista das versões dos componentes principais compatíveis com o AEM as a Cloud Service que estão disponíveis no [GitHub, juntamente com detalhes abrangentes desses lançamentos](https://github.com/adobe/aem-core-forms-components/releases).
-
-
+A tabela subsequente apresenta uma lista das versões dos componentes principais compatíveis com o AEM as a Cloud Service que estão disponíveis no [GitHub, juntamente com detalhes abrangentes dessas versões](https://github.com/adobe/aem-core-forms-components/releases).
 
 
-| Componentes principais do Forms | Componentes principais do WCM | AEM Forms as a cloud service | Java | Maven |
+
+
+| Componentes principais do Forms | Componentes principais do WCM | AEM Forms as a Cloud Service | Java | Maven |
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
 | 2.0.86 | 2.23.4 | Contínuo | 8, 11 | 3.3.9+ |
 | 2.0.76 | 2.23.4 | Contínuo | 8, 11 | 3.3.9+ |
