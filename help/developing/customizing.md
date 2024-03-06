@@ -3,9 +3,9 @@ title: Personalizar os Componentes principais
 description: Os Componentes principais implementam vários padrões que permitem personalização simplificada, desde a estilização simples até a reutilização de funcionalidade avançada.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
-source-wordcount: '1100'
+source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+workflow-type: ht
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -59,15 +59,16 @@ Veja abaixo a estrutura de uma caixa de diálogo recomendada, bem como ocultar e
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
@@ -86,12 +87,16 @@ Como a implementação dos modelos dos Componentes principais é privada, eles d
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
