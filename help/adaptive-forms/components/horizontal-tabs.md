@@ -3,7 +3,7 @@ title: Componente principal dos formulários adaptáveis - Guias horizontais
 description: Uso ou personalização do componente principal de guias horizontais de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 98%
@@ -109,7 +109,6 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 - **Tornar as guias na parte superior repetíveis**: um recurso de alternância que permite aos usuários ativar ou desativar a funcionalidade de repetibilidade.
 - **Repetições mínimas**: estabelece o número mínimo de vezes que o componente Guias horizontais pode ser repetido. O valor padrão é zero e ele indica que o componente Guias horizontais não é repetido.
 - **Máximo de repetições**: define o número máximo de vezes que o componente de Guias horizontais pode ser repetido. Por padrão, esse valor é ilimitado.
-
 Para gerenciar com eficácia as seções repetíveis nas Guias horizontais, siga as etapas fornecidas no artigo [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=pt-BR).
 
 ### Guia Itens {#items-tab}

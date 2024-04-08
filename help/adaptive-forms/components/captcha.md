@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1048'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ O CAPTCHA (um teste de Turing público e completamente automatizado para diferen
 Os formulários adaptáveis do AEM Forms as a Cloud Service são compatíveis com o Google reCAPTCHA v2. Você pode usá-lo para apresentar um desafio de CAPTCHA no envio do formulário
 
 ## Uso {#reasons-to-use-google-recaptcha}
-
 
 - **Prevenção de spam e bot**: um dos principais motivos para se usar o reCAPTCHA é a fim de evitar que envios de spam e bots mal-intencionados inundem seu formulário. Os algoritmos avançados do reCAPTCHA podem detectar tentativas automatizadas de envio do formulário, garantindo a interação somente com usuários legítimos.
 

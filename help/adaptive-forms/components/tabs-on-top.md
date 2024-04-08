@@ -2,9 +2,9 @@
 title: Componentes principais de formulários adaptáveis - Guias na parte superior
 description: Uso ou personalização do componente principal Guias na parte superior de formulários adaptáveis.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -89,5 +89,6 @@ Você pode personalizar facilmente a experiência das guias na parte superior pa
 >* [Assistente](/help/adaptive-forms/components/wizard.md)
 
 ## Consulte também {#see-also}
+
 
 {{see-also}}

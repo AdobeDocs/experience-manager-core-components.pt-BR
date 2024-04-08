@@ -3,7 +3,7 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
 - **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.
@@ -85,7 +84,6 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
-
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir**: toque ou clique para excluir a opção de um botão de opção.

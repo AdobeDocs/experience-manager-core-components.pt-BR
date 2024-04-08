@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Assistente
 description: Uso ou personalização do componente principal do assistente de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2100'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,8 +18,7 @@ Cada etapa do assistente normalmente contém um grupo de campos de formulário r
 
 O layout de assistente é útil em formulários que possuem muitos campos ou informações que precisam ser coletadas, pois divide o formulário em partes menores e mais fáceis de se controlar. Também ajuda os usuários a se concentrarem em um conjunto de campos por vez, o que pode simplificar o processo de preenchimento de formulário.
 
-No entanto, ele também pode aumentar a complexidade do formulário, pois o usuário precisará percorrer várias páginas para terminar de preencher o formulário. Portanto, é necessário avaliar os requisitos do formulário e as necessidades do usuário antes de decidir usar um layout de assistente.
-
+No entanto, ele também pode aumentar a complexidade do formulário, pois o usuário precisará percorrer várias páginas para terminar de preencher o formulário. Portanto, é necessário avaliar o requisito do formulário e as necessidades do usuário antes de decidir usar um layout de assistente.
 Você pode usar o componente principal de layout de assistente em um formulário adaptável para criar o layout de assistente.
 
 

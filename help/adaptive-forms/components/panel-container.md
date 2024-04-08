@@ -3,7 +3,7 @@ title: Componente principal dos Formulários adaptáveis - Container do painel
 description: Utilização ou personalização do Componente principal de container do painel dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -115,7 +115,6 @@ Para gerenciar com eficácia as seções repetíveis no container do painel, sig
 ### Guia Conteúdo de ajuda {#help-content}
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/helpcontent-panel.png)
-
 
 - **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 

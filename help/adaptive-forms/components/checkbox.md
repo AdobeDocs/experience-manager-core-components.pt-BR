@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 97%
@@ -92,7 +92,6 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 - **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve fazer uma seleção antes de prosseguir com o envio de formulário. Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
 
 - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
-
 - **Mensagem de validação de script**: essa opção permite que inserir uma mensagem que será exibida se a validação do script falhar.
 
 ### Guia Conteúdo de ajuda {#helpcontent-tab}

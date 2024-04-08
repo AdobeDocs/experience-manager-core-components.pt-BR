@@ -3,7 +3,7 @@ title: 'Componente principal de Formulários adaptáveis: Lista suspensa'
 description: Uso ou personalização do Componente principal Lista suspensa de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ Você pode personalizar facilmente sua experiência de lista suspensa para visit
 - **Ocultar Título**: selecione essa opção para ocultar o Título do componente.
 
 - **Permitir seleção múltipla**: selecione essa opção para tornar possível selecionar várias opções na lista suspensa.
-
 - **Salvar valor como**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se **Salvar valor como** estiver definido como `Number` e você adicionar dados de string ao **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
 
   Na guia **Opções**, é possível adicionar pares de valores de dados e textos exibidos usando o botão **Adicionar**. Uma vez que uma nova opção for adicionada, as seguintes ações serão executadas:

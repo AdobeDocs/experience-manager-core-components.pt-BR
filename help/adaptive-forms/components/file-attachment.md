@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Anexo de arquivo
 description: Uso ou personalização do componente principal de anexo de arquivo de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 ![Guia Validação](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve incluir os anexos antes de prosseguir com o envio do formulário. Não é possível selecionar as opções **Ocultar componente** ou **Desativar Componente** na guia **Básico** quando essa opção está selecionada.
-
 - **Mensagem de erro**: essa opção permite que você insira uma mensagem que será exibida se uma caixa de seleção **Obrigatória** estiver marcada mas o campo ficar em branco.
 
 - **Mensagem de validação de script**: essa opção permite que você insira uma mensagem que será exibida caso haja falha na validação do script.
