@@ -2,13 +2,13 @@
 title: Fragmento de formulário adaptável
 description: Use fragmentos de formulários para criar segmentos de formulários ou grupos de campos, e então os reutilize nos formulários adaptáveis para melhorar a eficiência e a capacidade de reutilização.
 role: Architect, Developer, Admin, User
-source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1780'
 ht-degree: 100%
 
 ---
-
 
 # Componente fragmento de formulário {#form-fragment-component-adaptive-forms-core-component}
 
@@ -60,6 +60,10 @@ Obtenha as informações mais recentes sobre o componente principal fragmentos d
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
@@ -118,6 +122,8 @@ Obtenha as informações mais recentes sobre o componente principal fragmentos d
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
+- **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
+
 ## Caixa de diálogo de design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar os estilos do CSS do componente fragmento de formulário.
@@ -153,9 +159,3 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 ## Consulte também {#see-also}
 
 {{see-also}}
-
-
-
-
-
-

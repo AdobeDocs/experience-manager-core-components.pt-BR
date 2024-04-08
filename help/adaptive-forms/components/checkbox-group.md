@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Grupo de caixa de sele
 description: Utilização ou personalização do Componente principal do grupo de caixa de seleção de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '1875'
-ht-degree: 100%
+source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 98%
 
 ---
 
@@ -75,14 +75,28 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 - **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
 
-- **Opções**: Você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
-
+- **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.\
+  Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.
    - **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+
+    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+
+    -->
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 

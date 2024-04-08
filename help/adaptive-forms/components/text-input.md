@@ -3,10 +3,10 @@ title: 'Componente principal de Formulários adaptáveis: Entrada de texto (caix
 description: Uso ou personalização do Componente principal de entrada de texto de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ Você pode personalizar facilmente sua experiência de entrada de texto para vis
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: selecione essa opção para ocultar o Título do componente.
 
@@ -75,9 +79,7 @@ Você pode personalizar facilmente sua experiência de entrada de texto para vis
 
 - **Permitir várias linhas**: essa opção permite que o usuário insira várias linhas em um campo de formulário.
 
-- **Permitir Rich Text**: a caixa de diálogo de edição fornece ferramentas padrão de formatação de rich text que permitem que o usuário formate o texto.
-
-- **Atributo de preenchimento automático**: a opção Preenchimento automático preenche os campos de formulário de acordo com um padrão ou texto inserido anteriormente. À medida que o usuário começa a digitar o texto no campo de formulário, sugestões serão exibidas em uma lista suspensa na qual é possível selecionar a opção apropriada.
+- **Preencher atributo automaticamente** - A opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
 
 ### Guia Validação {#validation-tab}
 

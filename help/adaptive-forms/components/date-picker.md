@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Seletor de datas
 description: Utilização ou personalização do Componente principal do seletor de datas de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 - **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
 
 - **Título**: Título é uma string que aparece na parte superior de um componente em um Formulário adaptável. Título identifica exclusivamente o componente na estrutura em árvore de um Formulário adaptável. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Ocultar título**: Selecione essa opção para ocultar o título do tipo de componente em um Formulário adaptável.
 
 - **Texto de espaço reservado**: O texto do espaço reservado em um componente de formulário refere-se a um rótulo curto ou prompt que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
+
+- **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
@@ -90,11 +96,13 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 - **Data mínima** - Essa opção permite inserir a data mínima exigida. Se você inserir uma data anterior à data especificada em Data mínima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada.
 
 - **Mensagem de erro mínima** - A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data anterior à especificada na opção **Data mínima**.
+- **Excluir data mínima** - Essa opção permite omitir a data mínima em um determinado intervalo ou conjunto de datas.
 
 - **Data máxima** - Essa opção permite que você insira a data máxima necessária. Se você inserir uma data posterior à data especificada em Data máxima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada.
 
 - **Mensagem de erro máxima** - A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data posterior à data especificada na opção **Data máxima**.
 
+- **Excluir data máxima** - Essa opção permite omitir a data máxima em um determinado intervalo ou conjunto de datas.
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
@@ -120,10 +128,6 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 - **Exibir formato** - Representa o formato de data exibido ao usuário. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
 - **Editar formato** - Representa um formato de data em que o usuário pode editar a data. A opção **Tipo** permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
-
-- **Exibir formato** - Representa o formato de data exibido ao usuário. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
-
-- **Editar formato** - Representa um formato de data em que o usuário edita a data. A opção Tipo permite que o usuário selecione o formato de data. Você também pode personalizar o formato de data usando a opção **Personalizado** no menu suspenso **Tipo**.
 
 ## Caixa de diálogo de Design {#design-dialog}
 

@@ -3,9 +3,9 @@ title: 'Componente principal de formulários adaptáveis: container de formulár
 description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: ht
-source-wordcount: '1297'
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+workflow-type: tm+mt
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 ![Guia Básico](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+
 - **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
 - **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
@@ -79,15 +81,15 @@ Você pode usar o modelo de dados do formulário e conectar um formulário a uma
 
 ### Guia Enviar {#submission-tab}
 
-![Guia Enviar](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Os usuários podem configurar ações diferentes para o envio de um formulário adaptável.
 
 - **URL/caminho de redirecionamento**: essa opção permite que o usuário configure uma página em cada formulário, para a qual os usuários do formulário são redirecionados após enviar o formulário adaptável. Clique aqui para obter mais informações sobre [como configurar páginas de redirecionamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=pt-BR).
 
-![Guia Mostrar mensagem](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Guia Enviar](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **Mostrar mensagem**: essa opção permite que os usuários adicionem uma mensagem que é exibida quando o formulário adaptável é enviado com sucesso. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário. A caixa de diálogo Mostrar mensagem é compatível com as ferramentas de formatação de rich text que permitem que os usuários formatem o texto adicionado.
+
+![Guia Mostrar mensagem](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Ação de envio**: uma ação de envio é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Na lista suspensa, os usuários podem selecionar ações de envio que são compatíveis de fábrica. Saiba como [configurar uma ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#supporting-custom-functions-in-validation-expressions-br).
 

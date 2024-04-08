@@ -2,15 +2,13 @@
 title: 'Componente principal dos formulários adaptáveis: componente Interruptor'
 description: Utilização ou personalização do componente principal interruptor para formulários adaptáveis.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: ht
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 100%
 
 ---
-
 
 # Componente interruptor{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com o título, é possível identificar facilmente um componente em um formulário; por padrão, o título aparece ao lado do componente. Se você não adicionar um título, o componente não será exibido.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
@@ -68,6 +70,15 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
    - **Texto de exibição quando ativado**: especifique o texto a ser exibido como rótulo quando o interruptor estiver habilitado em um formulário adaptável.
    - **Valor dos dados quando desativado**: especifique o valor a ser enviado quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
    - **Texto de exibição quando desativado**: especifique o texto a ser exibido como rótulo quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
@@ -148,12 +159,3 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 ## Consulte também {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

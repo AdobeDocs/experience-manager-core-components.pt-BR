@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1901'
+ht-degree: 97%
 
 ---
 
@@ -67,10 +67,24 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-- **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-  Na guia **Opções**, é possível adicionar valores de dados e exibir pares de texto usando o botão **Adicionar**. Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
+- **Ocultar Título**: Selecione a opção para ocultar o Título do componente.
+
+- **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
 
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
@@ -83,7 +97,7 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 
 - **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
 
-- **Opções padrão**: essa opção permite adicionar valores padrão pré-selecionados quando o formulário for carregado. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
+- **Opção padrão** - Essa opção permite adicionar valores padrão pré-selecionados quando o formulário é carregado. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
 
 - **Opções de exibição**: essa opção é usada para definir o alinhamento visual dos botões de opção em um Formulário adaptável. As duas opções compatíveis são:
    - **Horizontal**: quando essa opção for selecionada, os botões de opção serão exibidos da esquerda para a direita em um Formulário adaptável.

@@ -3,9 +3,9 @@ title: Componente principal dos Formulários adaptáveis - Entrada de número
 description: Utilização ou personalização do Componente principal de entrada de número dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Ocultar título**: selecione essa opção para ocultar o Título do componente.
 
@@ -121,9 +125,9 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 
 - **Exibir formato**: isso permite selecionar opções de diferentes tipos de formatos inteiros-numéricos para exibição. Quando o usuário seleciona qualquer opção do menu suspenso **Tipo**, a opção **Formato** se torna visível no painel. É possível escolher um formato específico no qual os números serão exibidos para o usuário.
 
-- **Número de dígitos antes do separador decimal (1234,000)**: use essa opção para especificar o número de dígitos que serão exibidos antes do separador decimal.
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **Número de dígitos após o separador decimal (1234,000)**: use essa opção para especificar o número de dígitos que serão exibidos após o separador decimal.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## Caixa de diálogo de design {#design-dialog}
 

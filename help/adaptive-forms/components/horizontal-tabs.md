@@ -3,14 +3,14 @@ title: Componente principal dos formulários adaptáveis - Guias horizontais
 description: Uso ou personalização do componente principal de guias horizontais de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 100%
+source-wordcount: '1979'
+ht-degree: 98%
 
 ---
 
-# Guias horizontais {#horizontal-tabs-adaptive-forms-core-component}
+# Guias horizontais (Guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
 
 As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
@@ -63,9 +63,12 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
-
 
 - **Agrupar dados de componentes secundários no envio do formulário (vincular dados no objeto)**: quando essa opção é selecionada, os dados dos componentes secundários são aninhados no objeto JSON do componente principal. No entanto, se a opção não estiver selecionada, os dados JSON enviados terão uma estrutura simples, sem qualquer objeto para o componente principal. Por exemplo:
 
@@ -90,11 +93,12 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Layout**: o assistente pode ter um layout fixo (simples) ou um layout flexível (grade responsiva). O layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você ajuste a posição dos componentes para atender às suas necessidades. Por exemplo, use a grade responsiva para alinhar “Nome”, “Nome do meio” e “Sobrenome” em uma única linha do formulário.
+<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 ### Repetir guias na parte superior {#repeat-tabs-on-top}
 
@@ -102,7 +106,7 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 
 É possível usar as opções de repetibilidade para duplicar o componente Guias horizontais e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente Guias horizontais e acessar suas configurações, as seguintes opções serão apresentadas:
 
-- **Tornar Guias horizontais repetíveis**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
+- **Tornar as guias na parte superior repetíveis**: um recurso de alternância que permite aos usuários ativar ou desativar a funcionalidade de repetibilidade.
 - **Repetições mínimas**: estabelece o número mínimo de vezes que o componente Guias horizontais pode ser repetido. O valor padrão é zero e ele indica que o componente Guias horizontais não é repetido.
 - **Máximo de repetições**: define o número máximo de vezes que o componente de Guias horizontais pode ser repetido. Por padrão, esse valor é ilimitado.
 

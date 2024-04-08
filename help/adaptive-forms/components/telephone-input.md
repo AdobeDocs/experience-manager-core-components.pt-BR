@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Entrada de telefone
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '2010'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,10 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: selecione essa opção para ocultar o Título do componente.
 
@@ -69,7 +73,9 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
+- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente de somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
+
+- **Preencher atributo automaticamente**: a opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
 
 ### Guia Validação {#validation-tab}
 
@@ -87,7 +93,7 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 
 - **Número mínimo de caracteres**: essa opção possibilita especificar o número mínimo de caracteres permitidos no campo. Se você inserir menos caracteres que o valor especificado em **Número mínimo de caracteres**, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada.
 
-- *Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
+- **Mensagem de erro de mínimo de caracteres**: a caixa de diálogo **Mensagem de erro de mínimo de caracteres** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir menos caracteres que o valor especificado na opção **Número mínimo de caracteres**.
 
 A opção **Padrão de validação** permite inserir um padrão para validar o número de telefone inserido. O número de telefone inserido é validado em relação ao valor inserido na opção **Padrão**. Caso o número de telefone não seja validado com o valor inserido na opção **Padrão**, a mensagem de erro será exibida na tela.
 
@@ -133,7 +139,7 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 - **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 
-   - **Pares de valor e chave**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
+   - **Pares de chave e valor**: é possível adicionar vários nomes e valores de propriedades personalizadas clicando em **Adicionar** em cada grupo de propriedades personalizadas.
 
    - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 

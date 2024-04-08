@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Normalmente, uma caixa de seleção é representada como um pequeno quadrado que
 
 >[!NOTE]
 >
-> Para o AEM 6.5 Forms, esse componente foi introduzido com o Pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte as [Versões dos componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, esse componente foi introduzido com o Pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 **Exemplo**
 
@@ -62,6 +62,11 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 
 - **Título**: com o título, é possível identificar facilmente um componente em um formulário; por padrão, o título aparece ao lado do componente. Se você não adicionar um título, o componente não será exibido.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
@@ -73,12 +78,9 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 - **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
-- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Quando marcada, retornar o valor**: selecione essa opção para especificar qual valor deve ser associado à caixa de seleção quando ela estiver marcada ou selecionada. Essa é a ação que ocorre quando você marca a caixa de seleção.
-- **Habilitar desmarcação.**: selecione essa opção para habilitar ou desabilitar a capacidade de desmarcar uma caixa de seleção que foi marcada anteriormente.
-   - Se a opção **Habilitar desmarcação** estiver habilitada ou definida como verdadeiro, o usuário poderá marcar e desmarcar a caixa de seleção a seu critério. Será possível ativar e desativar a caixa de seleção conforme necessário.
-
-   - Se a opção **Habilitar desmarcação** estiver desabilitada ou definida como falso, após a caixa de seleção ser marcada, o usuário não poderá desmarcá-la.
+- **Preservar valor de estado de Desmarcar**- Selecione esta opção para especificar o valor a ser retornado quando o componente Caixa de seleção não estiver selecionado. Se **Preservar valor de estado de Desmarcar** está ativado ou definido como verdadeiro, **Quando Desmarcado, retorna o valor** é exibida.
 - **Quando desmarcada, retornar o valor**: essa opção permite especificar qual valor deve ser associado à caixa de seleção quando ela estiver desmarcada ou não for selecionada.
 
 - **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente de somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.

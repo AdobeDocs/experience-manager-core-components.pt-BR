@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Entrada de email
 description: Uso ou personalização do componente principal de entrada de email de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1917'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 - **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
 
 - **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: Selecione a opção para ocultar o Título do componente.
 
@@ -76,6 +80,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 
 - **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
 
+- **Preencher atributo automaticamente**: a opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
 
 ### Guia Validação {#validation-tab}
 

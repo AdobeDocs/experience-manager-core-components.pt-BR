@@ -3,9 +3,9 @@ title: Componente principal de formulários adaptáveis - Imagem
 description: Uso ou personalização do componente principal de imagem dos formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Você pode personalizar facilmente a experiência de imagem para visitantes com 
 
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
-- **Referência de vínculo de documento de registro**: essa opção permite associar um campo de formulário adaptável ao campo de documento de registro. Quando o usuário insere qualquer valor em um campo vinculado de um formulário adaptável, esse valor também aparece no campo vinculado do documento de registro correspondente. Por exemplo, uma referência de vínculo de um documento de registro pode ser usada para exibir o nome e o endereço de um cliente em um documento de registro com base na ID do cliente inserida no formulário. Dessa forma, o AEM Forms permite gerar o documento de registro e oferece uma experiência de usuário fluida para coletar e gerenciar dados.
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **Descrição**: uma descrição é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de uma imagem específica.
 
@@ -79,7 +79,8 @@ Você pode personalizar facilmente a experiência de imagem para visitantes com 
 
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
-- **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## Caixa de diálogo de design {#design-dialog}
 
