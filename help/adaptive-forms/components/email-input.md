@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Entrada de email
 description: Uso ou personalização do componente principal de entrada de email de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 93%
@@ -79,7 +79,6 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
 - **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse valor será enviado no momento do envio do formulário
-
 - **Preencher atributo automaticamente**: a opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
 
 ### Guia Validação {#validation-tab}

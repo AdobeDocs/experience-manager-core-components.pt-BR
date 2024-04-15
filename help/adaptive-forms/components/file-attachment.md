@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Anexo de arquivo
 description: Uso ou personalização do componente principal de anexo de arquivo de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
 ht-degree: 90%
@@ -72,7 +72,6 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
 - **Título do botão**: essa opção é usada para definir o rótulo do botão exibido em um formulário adaptável.
-
 - **Referência de associação**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usada em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 - **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.

@@ -3,7 +3,7 @@ title: 'Componente principal de Formulários adaptáveis: Entrada de texto (caix
 description: Uso ou personalização do Componente principal de entrada de texto de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 93%
@@ -15,7 +15,6 @@ ht-degree: 93%
 <span class="preview"> Este artigo contém conteúdo sobre o **Permitir Rich Text para Título** recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio de [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Um componente de entrada de texto (caixa de texto) permite que um usuário insira e edite uma única ou várias linhas de texto, dependendo do atributo tipo do elemento de entrada. O componente de entrada de texto pode ser colocado em um formulário e geralmente é rotulado com um texto que identifica facilmente sua finalidade. Esses são elementos fundamentais de qualquer formulário, amplamente usados para coletar diferentes tipos de dados dos usuários. Eles são simples, flexíveis e podem ser configurados para validar entradas e melhorar a precisão da coleção de dados.
-
 
 **Exemplo**
 

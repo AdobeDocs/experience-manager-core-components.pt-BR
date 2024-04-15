@@ -3,10 +3,10 @@ title: Componente principal dos Formulários adaptáveis - Título
 description: Utilização ou personalização do Componente principal de Título dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ Em um Formulário adaptável, um “título” refere-se ao texto que aparece na
 
 **Exemplo**
 
-![exemplo](/help/adaptive-forms/assets/title.png)
+![exemplo de título](/help/adaptive-forms/assets/title.png)
 
 ## Uso {#reasons-to-use-title-in-an-adaptive-form}
 

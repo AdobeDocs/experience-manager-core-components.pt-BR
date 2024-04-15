@@ -2,21 +2,20 @@
 title: Componentes principais de formulários adaptáveis - Guias na parte superior
 description: Uso ou personalização do componente principal Guias na parte superior de formulários adaptáveis.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # Guias na parte superior {#tabs-on-top-adaptive-forms-core-component}
 
-Um layout com guias na parte superior de um formulário adaptável é uma maneira de organizar e agrupar campos e seções de um formulário em guias separadas. Cada guia é representada por um rótulo de guia, normalmente localizado na parte superior do formulário, e contém um conjunto específico de campos e seções do formulário. Esse layout permite que os usuários naveguem e acessem diferentes seções do formulário com facilidade, tornando-o mais intuitivo e simplificado. Ele geralmente é usado quando o formulário contém muitos campos e seções e é necessário dividi-los em partes menores e mais gerenciáveis. As guias também podem ajudar a melhorar a acessibilidade ao permitir que os usuários naveguem no formulário usando atalhos de teclado, facilitando o acesso de usuários portadores de deficiência ao formulário.
-
+Um layout com guias na parte superior de um formulário adaptável é uma maneira de organizar e agrupar campos e seções de um formulário em guias separadas. Cada guia é representada por um rótulo de guia, normalmente localizado na parte superior do formulário, e contém um conjunto específico de campos e seções do formulário. Esse layout permite que os usuários naveguem e acessem diferentes seções do formulário com facilidade, tornando-o mais intuitivo e simplificado. Ele geralmente é usado quando o formulário contém muitos campos e seções e é necessário dividi-los em partes menores e mais gerenciáveis. As guias também podem ajudar a melhorar a acessibilidade, permitindo que os usuários naveguem pelo formulário usando atalhos de teclado, facilitando o acesso de usuários com deficiências ao formulário.
 **Exemplo**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![guias na parte superior](/help/adaptive-forms/assets/tabs.png)
 
 ## Uso {#reasons-to-use-tab-on-the-top-layout}
 

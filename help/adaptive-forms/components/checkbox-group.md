@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Grupo de caixa de sele
 description: Utilização ou personalização do Componente principal do grupo de caixa de seleção de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 90%
 
 <span class="preview"> Este artigo contém conteúdo sobre o **Permitir Rich Text para Título** e **Permitir Rich Text para Opções**  recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio de [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-Um grupo de caixas de seleção em um Formulário adaptável é um conjunto de caixas de seleção relacionadas que permitem aos usuários selecionar uma ou mais opções de uma lista. Cada caixa de seleção é representada por um valor de dados (valor usado para processar itens de um grupo de caixas de seleção) e valor de exibição (rótulo para cada item de caixa de seleção que descreve sua finalidade)
-
+Um grupo de caixas de seleção em um Formulário adaptável é um conjunto de caixas de seleção relacionadas que permitem aos usuários selecionar uma ou mais opções de uma lista. Cada caixa de seleção é representada por um Valor de dados (valor usado para processar itens de um grupo de caixas de seleção) e Valor de exibição (rótulo para cada item de caixa de seleção que descreve sua finalidade)
 **Exemplo**
 
 ![exemplo de grupo de caixas de seleção](/help/adaptive-forms/assets/checkbox-group.png)

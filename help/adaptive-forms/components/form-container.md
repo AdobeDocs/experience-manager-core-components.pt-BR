@@ -3,7 +3,7 @@ title: 'Componente principal de formulários adaptáveis: container de formulár
 description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -34,7 +34,6 @@ Há vários motivos pelos quais um formulário pode ser adicionado a um site:
 - **Autenticação de usuários**: o Forms pode ser usado para a autenticação de usuários, permitindo que os visitantes do site criem contas e façam logon para acessar conteúdo ou recursos exclusivos.
 
 - **Aumentar a taxa de conversão**: um formulário bem projetado pode aumentar a taxa de conversão, tornando fácil para os usuários concluírem uma ação desejada, como comprar um produto ou se inscrever em um serviço.
-
 
 ## Versão e compatibilidade {#version-and-compatibility}
 

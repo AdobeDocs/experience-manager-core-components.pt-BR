@@ -3,7 +3,7 @@ title: 'Componente principal de Formulários adaptáveis: botão Enviar'
 description: Uso ou personalização do Componente principal de botão Enviar de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ Os motivos para usar um botão Enviar em um Formulário adaptável são:
 - **Experiência do usuário aprimorada**: um botão de envio bem projetado pode melhorar a experiência do usuário, fornecendo um feedback claro sobre o processo de envio do formulário e indicando quando o formulário foi enviado com sucesso.
 
 - **Validação de dados**: o botão Enviar pode ser usado para acionar a verificação da validação de dados, garantindo que os dados no formulário estejam completos e precisos antes de serem enviados ao servidor.
-
 
 ## Versão e compatibilidade {#version-and-compatibility}
 

@@ -3,7 +3,7 @@ title: Componente principal dos Formulários adaptáveis - Entrada de número
 description: Utilização ou personalização do Componente principal de entrada de número dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ Há vários motivos pelos quais é vantajoso incluir um componente de entrada nu
 - **Intervalo de dados**: campos numéricos podem ser usados para definir um intervalo de valores válidos por meio do uso de atributos de valor mínimo, máximo e de etapa.
 
 - **Conteúdo dinâmico**: o componente numérico pode ser usado para exibir dados dinâmicos com base nos campos do formulário.
-
 
 ## Versão e compatibilidade {#version-and-compatibility}
 

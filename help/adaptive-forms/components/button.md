@@ -3,7 +3,7 @@ title: 'Componente principal de Formulários adaptáveis: Botão'
 description: Uso ou personalização do Componente principal de Botão de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 92%
@@ -49,6 +49,7 @@ O componente principal Acordeão de formulário adaptável foi lançado em fever
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
+
 
 <!-- ## Sample Component Output {#sample-component-output}
 

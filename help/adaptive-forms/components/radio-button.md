@@ -3,7 +3,7 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 88%
@@ -110,7 +110,6 @@ Você também pode formatar as opções para o grupo de botões de opção usand
 ![Guia Validação](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve fazer uma seleção antes de prosseguir com o envio de formulário. Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
-
 - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 
 - **Mensagem de validação de script**: essa opção permite que inserir uma mensagem que será exibida se a validação do script falhar.
