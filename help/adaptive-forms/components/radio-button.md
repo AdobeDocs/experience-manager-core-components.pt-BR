@@ -6,7 +6,7 @@ exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -76,8 +76,8 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.\
-  Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
+- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. \
+  Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir**: toque ou clique para excluir a opção de um botão de opção.
@@ -96,7 +96,7 @@ Você também pode formatar as opções para o grupo de botões de opção usand
 
 - **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
 
-- **Opção padrão** - Essa opção permite adicionar valores padrão pré-selecionados quando o formulário é carregado. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
+- **Opção padrão**: essa opção permite adicionar valores padrão pré-selecionados quando o formulário for carregado. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
 
 - **Opções de exibição**: essa opção é usada para definir o alinhamento visual dos botões de opção em um Formulário adaptável. As duas opções compatíveis são:
    - **Horizontal**: quando essa opção for selecionada, os botões de opção serão exibidos da esquerda para a direita em um Formulário adaptável.

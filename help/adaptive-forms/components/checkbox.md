@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Quando marcada, retornar o valor**: selecione essa opção para especificar qual valor deve ser associado à caixa de seleção quando ela estiver marcada ou selecionada. Essa é a ação que ocorre quando você marca a caixa de seleção.
-- **Preservar valor de estado de Desmarcar**- Selecione esta opção para especificar o valor a ser retornado quando o componente Caixa de seleção não estiver selecionado. Se **Preservar valor de estado de Desmarcar** está ativado ou definido como verdadeiro, **Quando Desmarcado, retorna o valor** é exibida.
+- **Preservar o valor do estado Desmarcar**: selecionar esta opção permite especificar o valor a ser retornado quando o componente de caixa de seleção não estiver selecionado. Se a opção **Preservar o valor do estado Desmarcado** estiver habilitada ou definida como verdadeira, a opção **Quando Desmarcado, retornar o valor** é exibida.
 - **Quando desmarcada, retornar o valor**: essa opção permite especificar qual valor deve ser associado à caixa de seleção quando ela estiver desmarcada ou não for selecionada.
 
 - **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente de somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.

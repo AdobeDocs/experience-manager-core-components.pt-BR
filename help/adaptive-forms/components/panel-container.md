@@ -6,7 +6,7 @@ exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Você pode personalizar facilmente a experiência do container do painel para vi
 
 É possível usar as opções de repetibilidade para duplicar o container do painel e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente de container do painel e acessar suas configurações, as seguintes opções são apresentadas:
 
-- **Faça com que o painel possa ser repetido**: um recurso de alternância que permite aos usuários ativar ou desativar a funcionalidade de repetibilidade.
+- **Tornar o painel repetível**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
 - **Repetições mínimas**: estabelece o número mínimo de vezes que o container do painel pode ser repetido. O valor padrão é zero e ele indica que o painel Assistente não é repetido.
 - **Máximo de repetições**: define o número máximo de vezes que o container do painel pode ser repetido. Por padrão, esse valor é ilimitado.
 

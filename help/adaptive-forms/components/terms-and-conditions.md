@@ -6,7 +6,7 @@ exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '3115'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -177,9 +177,9 @@ Este componente substitui um texto de consentimento por um ou mais links da web.
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Links**: especifique o link e o texto de exibição correspondente que será usado no lugar do texto de consentimento. É possível adicionar vários links clicando no ícone **Adicionar** botão.
-Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
-   - **Link** - Essa opção permite inserir o URL para redirecionar quando uma opção é selecionada.
+- **Links**: especifique o link e o texto de exibição correspondente que será usado no lugar do texto de consentimento. É possível adicionar vários links clicando no botão **Adicionar**.
+Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
+   - **Link**: essa opção permite inserir o URL para redirecionar quando uma opção for selecionada.
    - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir**: toque ou clique para excluir a opção de um botão de opção.
    - **Reorganizar**: toque ou clique e arraste para reorganizar a ordem das opções.

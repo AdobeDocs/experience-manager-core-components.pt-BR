@@ -6,7 +6,7 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -96,13 +96,13 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 - **Data mínima** - Essa opção permite inserir a data mínima exigida. Se você inserir uma data anterior à data especificada em Data mínima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada.
 
 - **Mensagem de erro mínima** - A caixa de diálogo **Mensagem de erro mínima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data anterior à especificada na opção **Data mínima**.
-- **Excluir data mínima** - Essa opção permite omitir a data mínima em um determinado intervalo ou conjunto de datas.
+- **Excluir data mínima**: essa opção permite omitir a data mínima em um determinado intervalo ou conjunto de datas.
 
 - **Data máxima** - Essa opção permite que você insira a data máxima necessária. Se você inserir uma data posterior à data especificada em Data máxima, uma mensagem de erro será exibida na tela. A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada.
 
 - **Mensagem de erro máxima** - A caixa de diálogo **Mensagem de erro máxima** permite adicionar uma mensagem de erro personalizada que será exibida se você inserir uma data posterior à data especificada na opção **Data máxima**.
 
-- **Excluir data máxima** - Essa opção permite omitir a data máxima em um determinado intervalo ou conjunto de datas.
+- **Excluir data máxima**: essa opção permite omitir a data máxima em um determinado intervalo ou conjunto de datas.
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 

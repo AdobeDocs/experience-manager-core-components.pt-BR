@@ -6,11 +6,11 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2093'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
-# Guias horizontais (Guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
+# Guias horizontais (guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
 
 <span class="preview"> Este artigo contém conteúdo sobre o **Permitir Rich Text para Título** recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio de [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
@@ -108,7 +108,7 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 
 É possível usar as opções de repetibilidade para duplicar o componente Guias horizontais e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente Guias horizontais e acessar suas configurações, as seguintes opções serão apresentadas:
 
-- **Tornar as guias na parte superior repetíveis**: um recurso de alternância que permite aos usuários ativar ou desativar a funcionalidade de repetibilidade.
+- **Permitir a repetição de guias na parte superior**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
 - **Repetições mínimas**: estabelece o número mínimo de vezes que o componente Guias horizontais pode ser repetido. O valor padrão é zero e ele indica que o componente Guias horizontais não é repetido.
 - **Máximo de repetições**: define o número máximo de vezes que o componente de Guias horizontais pode ser repetido. Por padrão, esse valor é ilimitado.
 Para gerenciar com eficácia as seções repetíveis nas Guias horizontais, siga as etapas fornecidas no artigo [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=pt-BR).

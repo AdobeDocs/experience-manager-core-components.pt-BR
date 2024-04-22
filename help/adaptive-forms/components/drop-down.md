@@ -6,7 +6,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -87,11 +87,11 @@ Você pode personalizar facilmente sua experiência de lista suspensa para visit
    - **Excluir**: toque ou clique nesse botão para excluir a opção do menu suspenso.
    - **Reorganizar**: toque ou clique nesse botão e em seguida arraste as opções do menu suspenso para reorganizar a sua ordem.
 
-- **Opção padrão** - Essa opção permite adicionar valores padrão. Use o ícone de excluir para remover a opção adicionada. Se **Salvar valor como** estiver definido como `Number` e você adicionar dados de string às **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
+- **Opção padrão**: essa opção permite adicionar valores padrão. Use o ícone de excluir para remover a opção adicionada. Se **Salvar valor como** estiver definido como `Number` e você adicionar dados de string às **Opções padrão**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
 
 - **Texto de espaço reservado**: o texto de espaço reservado em um componente de formulário refere-se a um rótulo curto ou exemplo que aparece em um campo de entrada como uma dica para o usuário sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 
-- **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.  Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
+- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.

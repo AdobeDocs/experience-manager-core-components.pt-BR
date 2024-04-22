@@ -6,7 +6,7 @@ exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Você pode personalizar facilmente sua experiência de entrada de texto para vis
 
 - **Permitir várias linhas**: essa opção permite que o usuário insira várias linhas em um campo de formulário.
 
-- **Preencher atributo automaticamente** - A opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
+- **Preencher atributo automaticamente**: a opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
 
 ### Guia Validação {#validation-tab}
 

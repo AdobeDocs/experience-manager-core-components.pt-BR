@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -83,8 +83,8 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Opções** - É possível adicionar valores de dados e exibir pares de texto usando o **Adicionar** botão.\
-  Depois que uma nova opção é adicionada, as seguintes ações podem ser executadas:
+- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. \
+  Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.

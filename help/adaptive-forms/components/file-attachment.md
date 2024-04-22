@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Permitir vários anexos**: selecione essa opção para permitir o upload de vários anexos ao usar o botão **Anexo de arquivo**.
-- **Arrastar e soltar texto** - É o texto mostrado na parte superior do **Anexar** botão para solicitar que os usuários anexem ou arrastem e soltem arquivos. Você tem a opção de personalizar o texto exibido na parte superior do **Anexar** botão. Além disso, é possível formatar o texto usando o menu rich text.
+- **Arrastar e soltar texto**: é o texto mostrado na parte superior do botão **Anexar** para solicitar que os usuários anexem ou arrastem e soltem arquivos. Você tem a opção de personalizar o texto exibido na parte superior do **Anexar** botão. Além disso, é possível formatar o texto usando o menu rich text.
 
 ### Guia Validação {#validation-tab}
 
