@@ -4,9 +4,9 @@ description: Os Componentes principais do AEM são publicados como versões que 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Identifique as versões precisas das dependências dos componentes principais do
 
 ## Histórico de versões do AEM as a Cloud Service {#aem-as-cs-version-history}
 
-As versões dos Componentes principais compatíveis com o AEM as a Cloud Service estão disponíveis em [GitHub, juntamente com detalhes abrangentes de suas versões](https://github.com/adobe/aem-core-forms-components/releases).
+As versões dos Componentes principais compatíveis com o AEM as a Cloud Service estão disponíveis no [GitHub junto com detalhes abrangentes de suas versões](https://github.com/adobe/aem-core-forms-components/releases).
 
 Para ver o histórico de versões dos Componentes principais do AEM as a Cloud Service, [clique aqui](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
@@ -117,9 +117,9 @@ Para ver o histórico de versões dos Componentes principais do AEM as a Cloud S
 
 ## Histórico de versão do AEM Forms 6.5 {#aem-as-form-version-history}
 
-As versões dos Componentes principais compatíveis com o AEM 6.5 Form no local e o AMS, disponíveis na [GitHub, juntamente com detalhes abrangentes de suas versões](https://github.com/adobe/aem-core-forms-components/releases).
+As versões dos Componentes principais compatíveis com o AEM Forms 6.5 no local e AMS estão disponíveis no [GitHub junto com detalhes abrangentes de suas versões](https://github.com/adobe/aem-core-forms-components/releases).
 
-Para ver o histórico de versões dos Componentes principais do AEM 6.5 Form no local e do AMS, [clique aqui](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Para ver o histórico de versões dos Componentes principais do AEM Forms 6.5 no local e AMS, [clique aqui](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

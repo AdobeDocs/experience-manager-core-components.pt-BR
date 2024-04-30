@@ -4,15 +4,15 @@ description: Utilização ou personalização do componente principal interrupto
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1867'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Componente interruptor{#switch-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o **Permitir Rich Text para Título** e **Permitir Rich Text para Opções**  recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio de [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir rich text para título** e **Permitir rich text para opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 O componente interruptor é uma interface gráfica usada em formulários que permite selecionar entre duas opções. Normalmente, é um botão de alternância entre dois estados que permite a escolha entre esses dois estados, ativando ou desativando um recurso, uma configuração ou uma funcionalidade. O componente interruptor foi projetado para representar visualmente o estado atual e exibir se um recurso específico está ativado ou desativado.
 
@@ -59,8 +59,8 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Título**: com o título, é possível identificar facilmente um componente em um formulário; por padrão, o título aparece ao lado do componente. Se você não adicionar um título, o componente não será exibido.
-- **Permitir Rich Text para Título** - Esse recurso permite que os usuários formatem títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
-  Ao marcar a caixa de seleção para **Permitir Rich Text para Título** , as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no botão ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png) guia.
+- **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
+  Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Suporte a rich text](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -73,11 +73,11 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
    - **Valor dos dados quando desativado**: especifique o valor a ser enviado quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
    - **Texto de exibição quando desativado**: especifique o texto a ser exibido como rótulo quando a opção não estiver habilitada em um formulário adaptável. Esta opção estará visível somente se a opção **Preservar o valor do estado desmarcado** estiver habilitado.
 
-  Também é possível formatar as opções do componente de alternância usando **Permitir Rich Text para Opções**.
+  Também é possível formatar as opções do componente de alternância usando **Permitir rich text para opções**.
 
   ![Suporte a rich text para opções](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
-  Depois de marcar a caixa de seleção para **Permitir Rich Text para opções** as opções de formatação se tornam visíveis para estilizar as opções do componente. Para acessar todas as opções de formatação disponíveis, clique no botão `Fullscreen` ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png) guia.
+  Depois de marcar a caixa de seleção **Permitir rich text para opções**, as opções de formatação se tornam visíveis para estilizar as opções do componente. Para acessar todas as opções de formatação disponíveis, clique no `Fullscreen` ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Suporte a rich text para opções](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
