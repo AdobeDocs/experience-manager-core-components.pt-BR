@@ -3,9 +3,9 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ O editor local também pode ser usado para modificar a imagem. Devido às limita
 ### Edição de ativos do Dynamic Media {#dynamic-media-assets}
 
 Se os [recursos do Dynamic Media estiverem habilitados,](#dynamic-media) a edição da imagem propriamente dita deve ser executada no console de ativos.
-
-### Edição de ativos do Dynamic Media de última geração {#next-gen-dm-assets}
-
-Se o [Dynamic Media de última geração estiver configurado,](#next-gen-dm) a opção de **Corte inteligente** estará disponível nos menus de contexto do componente.
-
-![Corte inteligente](/help/assets/image-smart-crop.png)
-
-Use a caixa de diálogo para ajustar o corte inteligente.
-
-![Caixa de diálogo Corte inteligente](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Para obter mais informações sobre o Corte inteligente, assista a [este vídeo sobre o recurso.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=pt-BR)
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
