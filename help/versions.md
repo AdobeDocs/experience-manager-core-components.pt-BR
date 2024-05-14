@@ -3,10 +3,10 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '3044'
-ht-degree: 100%
+source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,11 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Esta versão adiciona suporte para smartcrop nomeados no Dynamic Media, inclui melhorias de desempenho e acessibilidade e várias correções de erros. | - | 6.5.21.0+ | Contínuo | 8, 11 | 2 de maio de 2024 |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Esta versão de patch inclui melhorias para a inicialização da camada de dados. | - | 6.5.21.0+ | Contínuo | 8, 11 | 22 de abril de 2024 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Esta versão de patch corrige uma inicialização do Modelo Sling. | - | 6.5.21.0+ | Contínuo | 8, 11 | 1 de abril de 2024 |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Esta versão de patch melhora a estabilidade dos testes de integração. | - | 6.5.21.0+ | Contínuo | 8, 11 | 22 de fevereiro de 2024 |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Esta versão adiciona suporte para a Camada de dados do Google Tag Manager e inclui várias correções de erros. | - | 6.5.21.0+ | Contínuo | 8, 11 | 14 de fevereiro de 2024 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versão de correção inclui várias correções de erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 15 de setembro de 2023 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Esta versão de correção adiciona o corte inteligente do Dynamic Media para ativos remotos aos componentes de [imagem](/help/components/image.md) e [teaser](/help/components/teaser.md), além de corrigir vários erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 4 de agosto de 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versão inclui suporte para [ativos remotos do Dynamic Media de última geração.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Contínuo | 8, 11 | 6 de junho de 2023 |
