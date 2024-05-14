@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: ht
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,15 +112,15 @@ ht-degree: 100%
       + [Grupo de caixas de seleção de formulários adaptáveis](/help/adaptive-forms/components/checkbox-group.md)
       + [Container de formulários adaptáveis](/help/adaptive-forms/components/form-container.md)
       + [Seletor de data de formulários adaptáveis](/help/adaptive-forms/components/date-picker.md)
-      + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down.md)
+      + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down-list.md)
       + [Entrada de email de formulários adaptáveis](/help/adaptive-forms/components/email-input.md)
-      + [Fragmentos de formulários adaptáveis](/help/adaptive-forms/components/form-fragment.md)
+      + [Fragmentos de formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Anexos de arquivo de formulários adaptáveis](/help/adaptive-forms/components/file-attachment.md)
       + [Guias verticais de formulários adaptáveis](/help/adaptive-forms/components/vertical-tabs.md)
       + [Guias horizontais de formulários adaptáveis](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
-      + [Entrada de número de formulários adaptáveis](/help/adaptive-forms/components/number-input.md)
-      + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel-container.md)
+      + [Caixa numérica do Forms adaptável](/help/adaptive-forms/components/numeric-box.md)
+      + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA para formulários adaptáveis](/help/adaptive-forms/components/captcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
@@ -128,7 +128,7 @@ ht-degree: 100%
       + [Interruptor para formulários adaptáveis](/help/adaptive-forms/components/switch.md)
       + [Entrada de telefone de formulários adaptáveis](/help/adaptive-forms/components/telephone-input.md)
       + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
-      + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-input.md)
+      + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-box.md)
       + [Título de formulários adaptáveis](/help/adaptive-forms/components/title.md)
       + [Layout do assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Termos e condições dos formulários adaptáveis](/help/adaptive-forms/components/terms-and-conditions.md)

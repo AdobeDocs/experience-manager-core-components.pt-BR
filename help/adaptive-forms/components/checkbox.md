@@ -3,16 +3,16 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Componente Caixa de seleção{#checkbox-component}
 
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir rich text para título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Uma caixa de seleção é um elemento gráfico da interface geralmente usado em aplicativos de software e formulários para permitir que usuários façam uma escolha binária entre duas opções: marcada (selecionada) ou desmarcada (não selecionada).
 

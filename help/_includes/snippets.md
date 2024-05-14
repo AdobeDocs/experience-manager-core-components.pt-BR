@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # Trechos {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [Grupo de Caixa de seleção](/help/adaptive-forms/components/checkbox-group.md)
 - [Caixa de seleção](/help/adaptive-forms/components/checkbox.md)
 - [Seletor de data](/help/adaptive-forms/components/date-picker.md)
-- [Lista suspensa](/help/adaptive-forms/components/drop-down.md)
+- [Lista suspensa](/help/adaptive-forms/components/drop-down-list.md)
 - [Entrada de email](/help/adaptive-forms/components/email-input.md)
 - [Containeres de formulário](/help/adaptive-forms/components/form-container.md)
 - [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
-- [Fragmento de formulário](/help/adaptive-forms/components/form-fragment.md)
+- [Fragmentos do formulário adaptável](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Rodapé](/help/adaptive-forms/components/footer.md)
 - [Cabeçalho](/help/adaptive-forms/components/header.md)
 - [Imagem](/help/adaptive-forms/components/image.md)
-- [Entrada de número](/help/adaptive-forms/components/number-input.md)
-- [Container do painel](/help/adaptive-forms/components/panel-container.md)
+- [Caixa numérica](/help/adaptive-forms/components/numeric-box.md)
+- [Painel](/help/adaptive-forms/components/panel.md)
 - [Guia horizontal](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Guia vertical](/help/adaptive-forms/components/vertical-tabs.md)
 - [Botão de opção](/help/adaptive-forms/components/radio-button.md)
 - [Botão Redefinir](/help/adaptive-forms/components/reset-button.md)
 - [Botão Enviar](/help/adaptive-forms/components/submit-button.md)
-- [Interruptor](/help/adaptive-forms/components/switch.md)
 - [Entrada de telefone](/help/adaptive-forms/components/telephone-input.md)
-- [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+- [Caixa de texto](/help/adaptive-forms/components/text-box.md)
 - [Texto](/help/adaptive-forms/components/text.md)
 - [Título](/help/adaptive-forms/components/title.md)
 - [Guia Termos e condições](/help/adaptive-forms/components/terms-and-conditions.md)

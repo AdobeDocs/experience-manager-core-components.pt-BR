@@ -3,16 +3,16 @@ title: Componente principal de formulários adaptáveis - Guias verticais
 description: Uso ou personalização do componente principal de Guias verticais para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Componente Guias verticais{#vertical-tabs-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir rich text para título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 As guias verticais de um formulário adaptável referem-se a um padrão de design no qual várias seções do formulário são agrupadas e exibidas como guias separadas, alinhadas verticalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias verticais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência de usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
