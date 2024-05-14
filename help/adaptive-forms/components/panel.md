@@ -1,40 +1,44 @@
 ---
-title: Componente principal dos formulários adaptáveis - Guias horizontais
-description: Uso ou personalização do componente principal de guias horizontais de formulários adaptáveis.
+title: Componente principal dos Formulários adaptáveis - Container do painel
+description: Utilização ou personalização do Componente principal de container do painel dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 98%
+source-wordcount: '2166'
+ht-degree: 99%
 
 ---
 
-# Componente de Guias horizontais (Guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
+# Componente do painel{#panel-container-adaptive-forms-core-component}
 
 <span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
-As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
+Em um Formulário adaptável, um painel é um elemento de container que pode ser usado para agrupar elementos de formulário relacionados. Ele permite agrupar e organizar diferentes elementos de formulário de forma lógica e significativa. Isso pode ajudar a melhorar a estrutura geral e a legibilidade do formulário, facilitando a compreensão e a navegação pelos usuários.
 
-Normalmente, as guias são criadas como uma série de links ou botões, com cada link ou botão correspondendo a uma seção do formulário. Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
+Painéis também podem ser usados para criar seções recolhidas, o que pode ser útil para ocultar campos de formulário complexos ou usados com menos frequência, mantendo o formulário simples e fácil de usar. Também permite incluir outros componentes, como texto, caixa de seleção, botão etc.
 
-![exemplo](/help/adaptive-forms/assets/horizontal-example-new.png)
+Também pode ser usado para definir diferentes ações baseadas em regras, como enviar formulário, abrir um site, mostrar/ocultar componentes ou adicionar uma instância de um painel.
 
-## Uso {#reasons-to-use-horizontal-tabs}
+**Exemplo**
 
-Os motivos comuns para se usar guias horizontais em um formulário adaptável são:
+![exemplo](/help/adaptive-forms/assets/panel-container.png)
 
-- **Melhor usabilidade**: guias horizontais tornam a navegação pelo formulário mais fácil para os usuários, especialmente se ele possuir várias seções ou um grande número de campos.
+## Uso {#reasons-to-use-panel-container}
 
-- **Gerenciamento do espaço**: as guias horizontais ajudam a preservar o espaço na tela agrupando seções de formulário relacionadas em guias e exibindo apenas uma seção por vez.
+Há vários motivos para usar um painel em um formulário, incluindo:
 
-- **Melhor organização**: as guias fornecem uma estrutura clara e organizada para um formulário, tornando mais fácil para os usuários a compreensão e o preenchimento do formulário.
+- **Organizar elementos de formulário**: um painel pode ser usado para agrupar elementos de formulário relacionados, facilitando a compreensão e a navegação dos usuários.
 
-- **Aumento do engajamento do usuário**: as guias horizontais podem tornar um formulário mais visualmente atraente e envolvente para os usuários, o que pode melhorar a taxa de preenchimento do formulário.
+- **Melhoria da estrutura dos formulários**: ao agrupar elementos de formulário em painéis, é possível melhorar a estrutura geral e a legibilidade do formulário, facilitando sua compreensão.
+
+- **Criação de seções recolhidas**: painéis podem ser usados para criar seções recolhidas, o que pode ser útil para ocultar campos de formulário complexos ou usados com menos frequência, mantendo o formulário simples e fácil de usar.
+
+- **Aprimoramento da usabilidade**: ao usar painéis para organizar elementos de formulário, ele pode tornar o formulário mais fácil de usar e intuitivo, o que pode resultar em taxas de conclusão mais altas.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de guias horizontais de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta tabela mostra todas as versões compatíveis, a compatibilidade com AEM e inclui links para a documentação correspondente:
+O Componente principal de Container do painel dos Formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade com o AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
@@ -44,23 +48,21 @@ O componente principal de guias horizontais de formulários adaptáveis foi lan�
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
-
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal de guias horizontais de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Container do painel dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente a experiência das guias horizontais para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de guias horizontais com facilidade para uma experiência de usuário perfeita.
+Você pode personalizar facilmente a experiência do container do painel para visitantes com a caixa de diálogo Configurar. Você também pode definir opções de container de painel com facilidade para proporcionar uma experiência do usuário contínua.
 
 ### Guia Básico {#basic-tab}
 
-![Guia Básico](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![Guia Básico](/help/adaptive-forms/assets/basic-panel.png)
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
@@ -95,47 +97,37 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
-
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-### Repetir guias na parte superior {#repeat-tabs-on-top}
+### Repetir painel Guia {#repeat-panel}
 
-![Guia Acessibilidade](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![repetir guia](/help/adaptive-forms/assets/repeat-panel.png)
 
-É possível usar as opções de repetibilidade para duplicar o componente Guias horizontais e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente Guias horizontais e acessar suas configurações, as seguintes opções serão apresentadas:
+É possível usar as opções de repetibilidade para duplicar o container do painel e seus componentes secundários, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente de container do painel e acessar suas configurações, as seguintes opções são apresentadas:
 
-- **Permitir a repetição de guias na parte superior**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
-- **Repetições mínimas**: estabelece o número mínimo de vezes que o componente Guias horizontais pode ser repetido. O valor padrão é zero e ele indica que o componente Guias horizontais não é repetido.
-- **Máximo de repetições**: define o número máximo de vezes que o componente de Guias horizontais pode ser repetido. Por padrão, esse valor é ilimitado.
-Para gerenciar com eficácia as seções repetíveis nas Guias horizontais, siga as etapas fornecidas no artigo [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=pt-BR).
+- **Tornar o painel repetível**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetibilidade.
+- **Repetições mínimas**: estabelece o número mínimo de vezes que o container do painel pode ser repetido. O valor padrão é zero e ele indica que o painel Assistente não é repetido.
+- **Máximo de repetições**: define o número máximo de vezes que o container do painel pode ser repetido. Por padrão, esse valor é ilimitado.
 
-### Guia Itens {#items-tab}
-
-![Guia Itens](/help/adaptive-forms/assets/items-tabs-on-top.png)
-
-O botão **Adicionar** permite selecionar um componente da janela de seleção de componentes para adicionar como um painel. Após adicionar o componente, você verá as seguintes opções:
-
-- **Ícone** - O ícone identifica o componente do painel na lista. Você pode passar o mouse sobre o ícone para ver o nome completo do componente como uma dica de ferramenta.
-- **Descrição** - A descrição usada como o texto do painel. Por padrão, o nome do componente selecionado para o painel é usado.
-- **Excluir** - Toque ou clique para excluir o painel do componente Guias horizontais.
-- **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
+Para gerenciar com eficácia as seções repetíveis no container do painel, siga as etapas fornecidas no artigo [Criação de formulários com seções repetíveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=pt-BR).
 
 ### Guia Conteúdo de ajuda {#help-content}
 
-![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/helpcontent-panel.png)
 
 - **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+
 - **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
 ### Guia Acessibilidade {#accessibility}
 
-![Guia Acessibilidade](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![Guia Acessibilidade](/help/adaptive-forms/assets/accessibilty-panel.png)
+
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
@@ -143,32 +135,51 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Guias horizontais dos Formulários adaptáveis, é possível definir o seguinte:
-
-- Os componentes principais que um criador de formulários pode adicionar às Guias horizontais no editor de Formulários adaptáveis
-- Os nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente Guias horizontais no editor de Formulários adaptáveis.
-
-Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
+A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do componente de Container do formulário.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
-![Guia Componentes permitidos](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![Guia Componentes permitidos da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-A guia **Componentes permitidos** permite que o editor do modelo defina os componentes que podem ser adicionados como itens aos painéis no componente de guias horizontais no editor de formulários adaptáveis.
+A guia **Componentes permitidos** permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis do componente no editor de formulários adaptáveis.
+
+### Guia Componentes padrão {#default-components-tab}
+
+![Guia Componentes padrão da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+A guia **Componentes padrão** permite que o editor de modelos especifique os componentes que estarão visíveis por padrão como itens no componente de container do formulário no editor de formulários adaptáveis.
+
+### Guia Configurações responsivas {#responsive-tab}
+
+![Guia Configurações responsivas da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+A guia **Configurações responsivas** permite que o editor de modelos especifique o número de colunas na grade do componente de container do formulário no editor de formulários adaptáveis.
+
+### Guia Configurações do container
+
+![Guia Configurações do container](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **Layout**: o assistente pode ter um layout fixo (simples) ou um layout flexível (grade responsiva). O layout simples mantém tudo fixo no lugar, enquanto a grade responsiva permite que você ajuste a posição dos componentes para atender às suas necessidades. Por exemplo, use a grade responsiva para alinhar “Nome”, “Nome do meio” e “Sobrenome” em uma única linha do formulário.
+
+- **Desabilitar layout**: selecione essa opção para desabilitar a seleção de layout na caixa de diálogo de edição de um componente.
+
+- **Habilitar imagem de fundo**: essa opção permite definir as configurações do painel para incluir um fundo visual e aprimorar sua aparência.
+
+- **Habilitar cor de fundo**: essa opção permite definir ou alterar a cor de fundo do painel. Esse recurso geralmente é usado no design da interface para personalizar a aparência dos painéis em uma interface maior. Ao selecionar a opção **Habilitar cor de fundo**, a opção **Somente amostras** é exibida. A opção **Somente amostras** permite especificar ou escolher as cores para o fundo, texto ou outros elementos visuais do painel clicando em **Adicionar**
 
 ### Guia Estilos {#styles-tab}
 
-A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de guias horizontais de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
+O componente principal de anexo de arquivo de formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
-![Guia Estilos](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![Caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-styles-tab.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o componente principal de guias horizontais de formulários adaptáveis.
+- **Classes padrão do CSS**: você pode fornecer uma classe padrão do CSS ao componente principal container de painel para formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Guia Propriedades personalizadas
 
-![Guia Propriedades personalizadas](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![Caixa de diálogo Propriedades personalizadas](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
 As propriedades personalizadas permitem associar atributos personalizados (pares de chave e valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
@@ -179,6 +190,14 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
    - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
    - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 ## Artigos relacionados {#related-articles}
 
