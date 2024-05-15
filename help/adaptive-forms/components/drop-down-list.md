@@ -3,7 +3,7 @@ title: 'Componente principal de Formulários adaptáveis: Lista suspensa'
 description: Uso ou personalização do Componente principal Lista suspensa de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente de Lista suspensa{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Uma lista suspensa em um Formulário adaptável permite que os usuários selecionem uma ou mais opções de uma lista de opções predefinidas. As opções podem ser do tipo string, número ou booleano. Além disso, o componente de lista suspensa pode ser configurado para ter validação diferente e valores padrão.
 

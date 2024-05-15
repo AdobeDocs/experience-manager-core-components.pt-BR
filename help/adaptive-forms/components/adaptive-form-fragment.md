@@ -3,7 +3,7 @@ title: Fragmento de formulário adaptável
 description: Use fragmentos de formulários para criar segmentos de formulários ou grupos de campos, e então os reutilize nos formulários adaptáveis para melhorar a eficiência e a capacidade de reutilização.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente Fragmento de formulário adaptável {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Os formulários adaptáveis oferecem uma maneira conveniente de criar segmentos de formulário, como painéis ou grupos de campos, para que possam ser reutilizados em diferentes formulários adaptáveis. Esses segmentos reutilizáveis e independentes são chamados de [Fragmentos de formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=pt-BR).
 

@@ -3,7 +3,7 @@ title: Acordeão de formulário adaptável
 description: Use o acordeão para organizar e simplificar um formulário longo ou complexo, dividindo-o em seções menores e mais fáceis de se controlar.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente de acordeão {#accordion-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 O componente principal de acordeão permite que os usuários criem seções que podem ser expandidas ou recolhidas em um formulário adaptável. Ele geralmente é usado para organizar e simplificar formulários longos ou complexos, dividindo-os em seções menores e mais fáceis de se controlar. Cada seção de um acordeão é normalmente representada por um cabeçalho, no qual o usuário pode clicar para expandir ou recolher o conteúdo correspondente. O conteúdo pode ser qualquer componente principal.
 

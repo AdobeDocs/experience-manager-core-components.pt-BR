@@ -5,9 +5,9 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 98%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
       + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-box.md)
       + [Título de formulários adaptáveis](/help/adaptive-forms/components/title.md)
-      + [Layout do assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
+      + [Assistente de Forms adaptável](/help/adaptive-forms/components/wizard.md)
       + [Termos e condições dos formulários adaptáveis](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)
       + [Rodapé](/help/adaptive-forms/components/footer.md)

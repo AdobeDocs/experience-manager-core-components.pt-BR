@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Entrada de telefone
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2142'
 ht-degree: 99%
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 # Componente de entrada de telefone{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 O componente principal de entrada de telefone de formulários adaptáveis permite que os usuários insiram um número de telefone. O campo de entrada de telefone exibe teclados em dispositivos móveis que são relevantes para números de telefone. Ele pode ser personalizado com atributos adicionais, como um “padrão” e um “espaço reservado”, para especificar o formato e a descrição do número de telefone.
 

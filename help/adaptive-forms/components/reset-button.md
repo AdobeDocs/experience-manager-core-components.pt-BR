@@ -3,7 +3,7 @@ title: Componente principal de Formulários adaptáveis - botão Redefinir
 description: Utilização ou personalização do Componente principal do botão Redefinir de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente do botão Redefinir {#reset-button}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um botão de redefinição em um Formulário adaptável é um botão que permite que os usuários limpem ou redefinam todos os campos do formulário para seus valores padrão. Ao clicar no botão redefinir, os dados inseridos nos campos do formulário são excluídos e os campos retornam ao seu estado original. O botão redefinir é normalmente usado como uma alternativa ao botão Enviar e fornece uma maneira de os usuários recomeçarem se inserirem dados incorretos ou indesejados no formulário.
 

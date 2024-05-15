@@ -3,7 +3,7 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente Botão de opção {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  e  **Permitir Rich Text para Opções**   recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**   e   **Permitir Rich Text para Opções**   recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um botão de opção em um Formulário adaptável é um tipo de elemento de entrada que permite ao usuário selecionar uma opção de um grupo de opções relacionadas. Ele é representado por um pequeno botão circular que pode estar preenchido ou vazio para indicar se a opção está selecionada ou não. Quando um usuário seleciona um botão de opção, os outros no grupo ficam desmarcados. Normalmente, os botões de opção são usados quando há várias opções mutuamente exclusivas e apenas uma pode ser selecionada de cada vez.
 

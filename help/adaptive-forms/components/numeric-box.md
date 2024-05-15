@@ -3,7 +3,7 @@ title: Componente principal dos Formulários adaptáveis - Entrada de número
 description: Utilização ou personalização do Componente principal de entrada de número dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente da caixa numérica{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um componente Entrada de número em um Formulário adaptável é um tipo de campo de formulário que permite que os usuários insiram valores numéricos. Normalmente, o componente é representado por um campo de texto com uma seta para cima e para baixo para aumentar e diminuir o número.
 

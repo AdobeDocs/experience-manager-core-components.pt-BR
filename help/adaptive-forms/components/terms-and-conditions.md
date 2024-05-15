@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Termos e condições
 description: Uso ou personalização do componente principal Termos e condições para formulários adaptáveis
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente dos Termos e condições
 
-<span class="preview"> Este artigo contém conteúdo sobre o  **Permitir Rich Text para Título**  e  **Permitir Rich Text para Opções**  recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**   e   **Permitir Rich Text para Opções**   recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um componente de **Termos e condições** refere-se a uma seção de um formulário que descreve os termos, regras e condições com os quais os usuários devem concordar ou aderir ao usar um serviço ou acessar conteúdo.
 
