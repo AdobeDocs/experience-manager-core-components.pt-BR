@@ -4,15 +4,15 @@ description: Uso ou personalização do componente principal de anexo de arquivo
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1852'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente de anexo de arquivo {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um componente de anexo de arquivo de um formulário adaptável permite que os usuários selecionem e façam upload de arquivos de seu computador local ou dispositivo. O componente de anexo de arquivo pode ser configurado para permitir tipos de arquivo específicos, limites de tamanho e anexação de múltiplos arquivos.
 

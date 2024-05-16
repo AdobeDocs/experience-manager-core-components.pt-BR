@@ -4,15 +4,15 @@ description: Use fragmentos de formulários para criar segmentos de formulários
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1895'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente Fragmento de formulário adaptável {#form-fragment-component-adaptive-forms-core-component}
+# Componente de fragmento de formulário adaptável {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Os formulários adaptáveis oferecem uma maneira conveniente de criar segmentos de formulário, como painéis ou grupos de campos, para que possam ser reutilizados em diferentes formulários adaptáveis. Esses segmentos reutilizáveis e independentes são chamados de [Fragmentos de formulários adaptáveis](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=pt-BR).
 

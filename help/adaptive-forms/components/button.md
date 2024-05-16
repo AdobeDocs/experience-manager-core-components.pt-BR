@@ -4,15 +4,15 @@ description: Uso ou personalização do Componente principal de Botão de Formul
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1601'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente de Botão  {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um botão em um Formulário adaptável é um elemento de interface que permite aos usuários iniciar uma ação quando clicados. O elemento de botão pode ser usado para enviar um formulário, redefinir um formulário ou executar outras ações, como navegar para uma página diferente ou acionar um código personalizado. O botão pode ser criado usando o Componente principal de Botão.
 

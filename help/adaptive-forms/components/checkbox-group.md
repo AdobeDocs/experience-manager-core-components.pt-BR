@@ -4,15 +4,15 @@ description: Utilização ou personalização do Componente principal do grupo d
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente Grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
+# Componente de Grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**   e   **Permitir Rich Text para Opções**   recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir Texto formatado para Título** e **Permitir Texto formatado para Opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um grupo de caixas de seleção em um formulário adaptável é um conjunto de caixas de seleção relacionadas que permitem selecionar uma ou mais opções de uma lista. Cada caixa de seleção é representada por um Valor de dados (usado para processar itens de um grupo de caixas de seleção) e Valor de exibição (rótulo para cada item de caixa de seleção que descreve sua finalidade)
 **Exemplo**

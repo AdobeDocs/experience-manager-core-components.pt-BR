@@ -4,15 +4,15 @@ description: Uso ou personalização do componente principal Termos e condiçõe
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente dos Termos e condições
+# Componente de termos e condições
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**   e   **Permitir Rich Text para Opções**   recursos, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir Texto formatado para Título** e **Permitir Texto formatado para Opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um componente de **Termos e condições** refere-se a uma seção de um formulário que descreve os termos, regras e condições com os quais os usuários devem concordar ou aderir ao usar um serviço ou acessar conteúdo.
 

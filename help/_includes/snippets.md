@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Trechos {#snippets}
@@ -65,7 +65,7 @@ ht-degree: 99%
 - [Entrada de email](/help/adaptive-forms/components/email-input.md)
 - [Containeres de formulário](/help/adaptive-forms/components/form-container.md)
 - [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
-- [Fragmentos do formulário adaptável](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [Fragmentos de formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Rodapé](/help/adaptive-forms/components/footer.md)
 - [Cabeçalho](/help/adaptive-forms/components/header.md)
 - [Imagem](/help/adaptive-forms/components/image.md)

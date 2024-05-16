@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 98%
       + [Guias verticais de formulários adaptáveis](/help/adaptive-forms/components/vertical-tabs.md)
       + [Guias horizontais de formulários adaptáveis](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
-      + [Caixa numérica do Forms adaptável](/help/adaptive-forms/components/numeric-box.md)
+      + [Caixa numérica de formulários adaptáveis](/help/adaptive-forms/components/numeric-box.md)
       + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA para formulários adaptáveis](/help/adaptive-forms/components/captcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
       + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-box.md)
       + [Título de formulários adaptáveis](/help/adaptive-forms/components/title.md)
-      + [Assistente de Forms adaptável](/help/adaptive-forms/components/wizard.md)
+      + [Assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Termos e condições dos formulários adaptáveis](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)
       + [Rodapé](/help/adaptive-forms/components/footer.md)

@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal do assistente de fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente do assistente{#wizard-adaptive-forms-core-component}
+# Componente de assistente{#wizard-adaptive-forms-core-component}
 
 O layout de assistente em um formulário adaptável refere-se a um formulário dividido em várias etapas ou páginas, permitindo que o usuário se mova pelo formulário uma etapa de cada vez. Esse layout é chamado de “assistente” porque guia o usuário passo a passo através do formulário.
 

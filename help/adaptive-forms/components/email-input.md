@@ -4,15 +4,15 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente de entrada de email {#Email-input-adaptive-forms-core-component}
+# Componente do botão de email {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo contém conteúdo sobre o   **Permitir Rich Text para Título**    recurso, um recurso de pré-lançamento do. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 O componente principal de entrada de email de formulários adaptáveis é usado para coletar endereços de email dos usuários. O campo de entrada de email permite que o navegador confirme se os dados inseridos estão em um formato de endereço de email válido. Normalmente, ele é representado como uma caixa de texto e tem um padrão de validação que aceita apenas endereços de email válidos. O campo de entrada de email pode ser personalizado ainda mais com atributos adicionais, como “obrigatório”, “espaço reservado” e “padrão” para definir validações para os dados de entrada.
 

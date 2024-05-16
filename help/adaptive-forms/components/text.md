@@ -4,7 +4,7 @@ description: Uso ou personalização do componente principal de texto de formul�
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
 ht-degree: 100%
 
