@@ -3,7 +3,7 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
+source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 47%
@@ -24,7 +24,7 @@ Em geral, os Componentes principais são uma ferramenta essencial para criar e g
 
 ## Componentes principais dos Formulários adaptáveis
 
-Os Componentes principais dos Formulários adaptáveis são um conjunto de 24 componentes de código aberto compatíveis com BEM, criados na base dos Componentes principais do WCM no Adobe Experience Manager. Eles foram especificamente projetados para serem usados na criação dos Formulários adaptáveis, que são formulários que se adaptam ao dispositivo, navegador e tamanho da tela do usuário.
+Os Componentes principais dos Formulários adaptáveis são um conjunto de 29 componentes de código aberto compatíveis com BEM, criados na base dos Componentes principais do WCM no Adobe Experience Manager. Eles foram especificamente projetados para serem usados na criação dos Formulários adaptáveis, que são formulários que se adaptam ao dispositivo, navegador e tamanho da tela do usuário.
 
 Esses componentes podem ser usados para criar experiências excepcionais de captura e registro de dados, fornecendo uma grande variedade de opções de campos de formulário, incluindo campos de texto, caixas de seleção, menus suspensos e muito mais. Eles também incluem recursos como validação, lógica condicional e design responsivo, que podem ser usados para criar formulários fáceis de usar e intuitivos.
 
