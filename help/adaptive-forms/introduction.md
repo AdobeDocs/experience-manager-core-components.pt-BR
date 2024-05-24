@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
-workflow-type: ht
-source-wordcount: '2215'
-ht-degree: 100%
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
+workflow-type: tm+mt
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -69,9 +69,9 @@ As experiências de captura de dados são cruciais para a geração de leads e i
 
 * **[Controle de versão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: você pode criar e gerenciar várias versões de um formulário adaptável baseado em componentes principais, participar de discussões colaborativas por meio de comentários e anexar anotações a componentes de formulário específicos, aprimorando assim a experiência geral de criação de formulários.
 
-## Comparação entre componentes principais, componentes de fundação e componentes de bloco de formulário {#components}
+## Componentes disponíveis: um detalhamento por tipo de componente
 
-A versão atual do AEM inclui os seguintes componentes principais, [componentes de fundação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar) e [componentes de blocos de formulário (Edge Delivery Services)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+A versão atual do AEM Forms tem os seguintes Componentes principais, [Componentes de base](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), e [Componentes de blocos de formulário (Edge Delivery Services)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Componentes | Componentes de fundação | Componentes principais | Componentes de bloco de formulário | Informações adicionais |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
