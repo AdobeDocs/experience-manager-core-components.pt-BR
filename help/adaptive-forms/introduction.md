@@ -4,9 +4,9 @@ description: Crie experiências de inscrição atraentes (formulários) usando a
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ As experiências de captura de dados são cruciais para a geração de leads e i
 
 ## Componentes disponíveis: um detalhamento por tipo de componente
 
-A versão atual do AEM Forms tem os seguintes Componentes principais, [Componentes de base](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), e [Componentes de blocos de formulário (Edge Delivery Services)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+A versão atual do AEM Forms inclui os seguintes componentes principais: [componentes de fundação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar) e [componentes de blocos de formulário (Edge Delivery Services)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Componentes | Componentes de fundação | Componentes principais | Componentes de bloco de formulário | Informações adicionais |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
