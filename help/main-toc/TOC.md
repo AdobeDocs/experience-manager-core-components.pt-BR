@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 100%
    + [Inclusão de Bibliotecas do cliente](/help/developing/including-clientlibs.md)
    + [O Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md)
    + [Entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md)
-   + [Suporte ao Dynamic Media de última geração](/help/developing/next-gen-dm.md)
+   + [Suporte a ativos remotos](/help/developing/remote-assets.md)
    + Camada de dados de clientes Adobe {#data-layer}
       + [Visão geral da Camada de dados](/help/developing/data-layer/overview.md)
       + [Integrações com a Camada de dados](/help/developing/data-layer/integrations.md)

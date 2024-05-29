@@ -3,8 +3,8 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: ht
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Esta versão adiciona suporte para a camada de dados do Google Tag Manager e inclui várias correções de erros. | - | 6.5.21.0+ | Contínuo | 8, 11 | 14 de fevereiro de 2024 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versão de correção inclui várias correções de erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 15 de setembro de 2023 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Esta versão de correção adiciona o corte inteligente do Dynamic Media para ativos remotos aos componentes de [imagem](/help/components/image.md) e [teaser](/help/components/teaser.md), além de corrigir vários erros. | - | 6.5.17.0+ | Contínuo | 8, 11 | 4 de agosto de 2023 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versão inclui suporte para [ativos remotos do Dynamic Media de última geração.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Contínuo | 8, 11 | 6 de junho de 2023 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versão inclui suporte para [ativos remotos do Dynamic Media de última geração.](/help/developing/remote-assets.md) | - | 6.5.17.0+ | Contínuo | 8, 11 | 6 de junho de 2023 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versão de correção soluciona dois problemas. | - | 6.5.14.0+ | Contínuo | 8, 11 | 25 de maio de 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Esta versão de correção corrige duas regressões. | - | 6.5.14.0+ | Contínuo | 8, 11 | 11 de maio de 2023 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Esta versão de correção traz de volta recursos que foram removidos acidentalmente na versão anterior. | - | 6.5.14.0+ | Contínuo | 8, 11 | 9 de maio de 2023 |
