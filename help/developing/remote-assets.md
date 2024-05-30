@@ -1,34 +1,34 @@
 ---
 title: Suporte para ativos remotos
-description: Saiba como configurar os Componentes de imagem e de teaser dos Componentes principais para suportar ativos remotos usando o Dynamic Media com OpenAPI.
+description: Saiba como configurar o componente principal de imagem e de teaser para oferecer suporte a ativos remotos usando o Dynamic Media com OpenAPI.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # Suporte para ativos remotos {#remote-assets-support}
 
-Saiba como configurar os Componentes de imagem e de teaser dos Componentes principais para suportar ativos remotos usando o Dynamic Media com OpenAPI.
+Saiba como configurar o componente principal de imagem e de teaser para oferecer suporte a ativos remotos usando o Dynamic Media com OpenAPI.
 
 >[!NOTE]
 >
->O Dynamic Media com OpenAPI era conhecido anteriormente como Next Generation Dynamic Media. A funcionalidade e o uso são idênticos.
+>O Dynamic Media com OpenAPI era conhecido anteriormente como Dynamic Media da próxima geração. A funcionalidade e o uso são idênticos.
 
 ## Obter a versão mais recente do AEM {#latest}
 
-O suporte para ativos remotos usando o Dynamic Media com OpenAPI exige:
+O suporte para ativos remotos usando o Dynamic Media com OpenAPI precisa de:
 
 * AEM 6.5 SP 18+ ou AEM as a Cloud Service
 * Versão 2.23.2 ou posterior dos Componentes principais
 
 ## Configurar HTTPS {#https}
 
-Geralmente, é recomendável executar todas as instâncias de produção do AEM usando HTTPs. No entanto, os ambientes de desenvolvimento locais podem não estar configurados dessa forma. No entanto, os ativos remotos que usam o Dynamic Media com OpenAPI exigem HTTPS para funcionar.
+Geralmente, é recomendável executar todas as instâncias de produção do AEM usando HTTPs. No entanto, os ambientes de desenvolvimento locais podem não estar configurados dessa forma. No entanto, os ativos remotos que usam o Dynamic Media com OpenAPI precisam de HTTPS para funcionar.
 
 [Use este guia](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=pt-BR) para configurar HTTPS sempre que desejar usar ativos remotos, incluindo ambientes de desenvolvimento.
 
@@ -52,7 +52,7 @@ Para obter detalhes sobre como configurar o OSGi, consulte os seguintes document
 
 ## Verificar configuração {#verify}
 
-Agora é possível verificar se o recurso de ativos remotos usando o Dynamic Media com OpenAPI está funcionando. Para fazer isso, você pode instalar o site de amostra WKND e os componentes principais.
+Agora é possível verificar que o recurso de ativos remotos usando o Dynamic Media com OpenAPI está funcionando. Para fazer isso, você pode instalar o site de amostra WKND e os componentes principais.
 
 * A versão 2.23.2 dos [Componentes principais](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) ou posterior é necessária.
 * A versão 3.2.0 do [site de amostra WKND](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) ou posterior é necessária.

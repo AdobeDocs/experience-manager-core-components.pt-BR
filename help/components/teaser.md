@@ -4,9 +4,9 @@ description: O componente de Teaser pode mostrar uma imagem, um título, um rich
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ## Suporte a ativos remotos {#remote-assets}
 
-O componente de Teaser (desde [versão 2.23.2](/help/versions.md)) suporta ativos remotos. [Depois de configurado,](/help/developing/remote-assets.md) você pode selecionar ativos de um serviço remoto para seu componente de teaser.
+O componente de teaser (a partir da [versão 2.23.2](/help/versions.md)) é compatível com ativos remotos. [Após configurado,](/help/developing/remote-assets.md) será possível selecionar ativos de um serviço remoto para o seu componente de teaser.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -82,7 +82,7 @@ O título, a descrição e a imagem do teaser podem ser herdados da página vinc
 * **Ativo de imagem** - Solte um ativo do [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) ou toque na opção **procurar** para fazer upload a partir de um sistema de arquivos local.
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique em **Escolher** para abrir o [navegador de ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=pt-BR) e selecionar uma imagem.
-      * Se [Suporte a ativos remotos](#remote-assets) estiver ativado, você terá várias opções para selecionar um ativo:
+      * Se [Suporte a ativos remotos](#remote-assets) estiver habilitado, você terá várias opções para selecionar um ativo:
          * **Local**: seleciona de uma biblioteca local de ativos do AEM.
          * **Remoto**: seleciona de uma biblioteca do Dynamic Media fora da instância do AEM.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=pt-BR) no editor de ativos.
