@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: ht
-source-wordcount: '2214'
-ht-degree: 100%
+source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+workflow-type: tm+mt
+source-wordcount: '2210'
+ht-degree: 99%
 
 ---
 
@@ -78,9 +78,8 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Bloco do Adobe Sign | ✔️ | | | A [integração do Adobe Sign](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) está disponível somente para os componentes de fundação. |
 | Acordeão | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Para os componentes de fundação, é possível configurar o layout do acordeão nas [propriedades dos componentes do painel](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
 | Fragmento de formulário adaptável | ✔️ | ✔️ | | Para os componentes de fundação, é possível [adicionar um fragmento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) a partir do navegador de ativos. |
-| reCAPTCHA de formulário adaptável | ✔️ | ✔️ | ✔️ | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| reCAPTCHA | ✔️ | ✔️ | ✔️ | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Botão | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Gráfico | ✔️ | | | |
 | Caixa de seleção | ✔️ | ✔️ | | |
 | Grupo de caixas de seleção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Para os componentes de fundação, use o componente caixa de seleção para adicionar várias caixas de seleção |
@@ -94,6 +93,7 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Espaço reservado para nota de rodapé | ✔️ | | | |
 | Container de formulário | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para componentes de fundação, use o [componente do painel raiz](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Título do formulário | ✔️ | ✔️ | | Para componentes de fundação, use o componente título. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | |
 | Cabeçalho | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Guias horizontais | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Para os componentes de fundação, é possível configurar o [layout de guias na parte superior (guias horizontais)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel. |
 | Imagem | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -118,6 +118,7 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Caixa de texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
 | Título | ✔️ | | | Para os componentes principais, use o componente [Título do formulário](/help/adaptive-forms/components/title.md). |
+| Captcha com tartaruga | ✔️ | | | [Captcha com tartaruga](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) está disponível somente para Componentes de base. |
 | Guias verticais | ✔️ | ✔️ | | Para os componentes de fundação, é possível configurar o [layout de guias à esquerda (guias verticais)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
 | Assistente | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Para os componentes de fundação, é possível configurar o [layout do assistente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
 
