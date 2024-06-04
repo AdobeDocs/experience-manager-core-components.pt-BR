@@ -3,16 +3,14 @@ title: Componente principal de formulários adaptáveis - Termos e condições
 description: Uso ou personalização do componente principal Termos e condições para formulários adaptáveis
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '3254'
+ht-degree: 99%
 
 ---
 
-# Componente de termos e condições
-
-<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir Texto formatado para Título** e **Permitir Texto formatado para Opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente dos Termos e condições
 
 Um componente de **Termos e condições** refere-se a uma seção de um formulário que descreve os termos, regras e condições com os quais os usuários devem concordar ou aderir ao usar um serviço ou acessar conteúdo.
 
@@ -121,6 +119,11 @@ Obtenha as informações mais recentes sobre o componente principal termos e con
 ![Guia Acessibilidade](/help/adaptive-forms/assets/terms-and-conditions-accessibility-tab.png)
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
 ## Caixa de diálogo de design {#design-dialog}
@@ -220,7 +223,12 @@ Depois que uma nova opção for adicionada, as seguintes ações poderão ser ex
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/link-accessibilty-tab.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ### Componente de texto {#text}
 

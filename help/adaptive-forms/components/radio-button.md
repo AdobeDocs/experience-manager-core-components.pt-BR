@@ -3,16 +3,14 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2080'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2134'
+ht-degree: 99%
 
 ---
 
 # Componente do botão de opção {#radio-button-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir Texto formatado para Título** e **Permitir Texto formatado para Opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um botão de opção em um Formulário adaptável é um tipo de elemento de entrada que permite ao usuário selecionar uma opção de um grupo de opções relacionadas. Ele é representado por um pequeno botão circular que pode estar preenchido ou vazio para indicar se a opção está selecionada ou não. Quando um usuário seleciona um botão de opção, os outros no grupo ficam desmarcados. Normalmente, os botões de opção são usados quando há várias opções mutuamente exclusivas e apenas uma pode ser selecionada de cada vez.
 
@@ -128,7 +126,12 @@ Você também pode formatar as opções do grupo de botões de opção usando **
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo de design {#design-dialog}
 

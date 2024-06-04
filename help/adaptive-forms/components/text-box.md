@@ -3,16 +3,14 @@ title: 'Componente principal de Formulários adaptáveis: Entrada de texto (caix
 description: Uso ou personalização do Componente principal de entrada de texto de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2121'
+ht-degree: 99%
 
 ---
 
-# Componente de caixa de texto{#text-input-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente Caixa de texto{#text-input-adaptive-forms-core-component}
 
 Um componente de entrada de texto (caixa de texto) permite que um usuário insira e edite uma única ou várias linhas de texto, dependendo do atributo tipo do elemento de entrada. O componente de entrada de texto pode ser colocado em um formulário e geralmente é rotulado com um texto que identifica facilmente sua finalidade. Esses são elementos fundamentais de qualquer formulário, amplamente usados para coletar diferentes tipos de dados dos usuários. Eles são simples, flexíveis e podem ser configurados para validar entradas e melhorar a precisão da coleção de dados.
 
@@ -119,7 +117,12 @@ A opção **Padrão de validação** permite inserir um padrão para validar o t
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -131,7 +134,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Guia Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classes padrão do CSS**: você pode fornecer uma classe padrão do CSS ao componente principal entrada de texto para formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal Caixa de texto Forms adaptável.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 

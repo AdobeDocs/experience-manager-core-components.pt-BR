@@ -3,16 +3,14 @@ title: 'Componente principal de Formulários adaptáveis: Lista suspensa'
 description: Uso ou personalização do Componente principal Lista suspensa de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2126'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2185'
+ht-degree: 99%
 
 ---
 
-# Componente de lista suspensa{#drop-down-list-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente da lista suspensa{#drop-down-list-adaptive-forms-core-component}
 
 Uma lista suspensa em um Formulário adaptável permite que os usuários selecionem uma ou mais opções de uma lista de opções predefinidas. As opções podem ser do tipo string, número ou booleano. Além disso, o componente de lista suspensa pode ser configurado para ter validação diferente e valores padrão.
 
@@ -129,8 +127,13 @@ Você pode personalizar facilmente sua experiência de lista suspensa para visit
 ![Guia Acessibilidade](/help/adaptive-forms/assets/dropdown_accessibilitytab.png)
 
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo de design {#design-dialog}
 

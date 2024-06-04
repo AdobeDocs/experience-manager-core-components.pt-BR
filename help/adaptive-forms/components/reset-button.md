@@ -3,16 +3,14 @@ title: Componente principal de Formulários adaptáveis - botão Redefinir
 description: Utilização ou personalização do Componente principal do botão Redefinir de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '1491'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '1550'
+ht-degree: 99%
 
 ---
 
-# Componente de botão Redefinir {#reset-button}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente do botão Redefinir {#reset-button}
 
 Um botão de redefinição em um Formulário adaptável é um botão que permite que os usuários limpem ou redefinam todos os campos do formulário para seus valores padrão. Ao clicar no botão redefinir, os dados inseridos nos campos do formulário são excluídos e os campos retornam ao seu estado original. O botão redefinir é normalmente usado como uma alternativa ao botão Enviar e fornece uma maneira de os usuários recomeçarem se inserirem dados incorretos ou indesejados no formulário.
 
@@ -85,9 +83,14 @@ Você pode personalizar facilmente a experiência do botão Redefinir para visit
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de Design {#design-dialog}
+## Caixa de diálogo de design {#design-dialog}
 
 A caixa de diálogo de Design é usada para definir e gerenciar os estilos CSS para o componente do botão Redefinir.
 

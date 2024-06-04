@@ -3,16 +3,14 @@ title: Componente principal dos formulários adaptáveis - Guias horizontais
 description: Uso ou personalização do componente principal de guias horizontais de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2094'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2153'
+ht-degree: 96%
 
 ---
 
-# Componente de guias horizontais (guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente de Guias horizontais (Guias na parte superior) Componente{#horizontal-tabs-adaptive-forms-core-component}
 
 As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
@@ -52,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal de guias horizontais de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de guias horizontais adaptáveis do Forms na documentação técnica sobre [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -138,15 +136,20 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 ![Guia Acessibilidade](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Guias horizontais dos Formulários adaptáveis, é possível definir o seguinte:
+A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente de guias horizontais do Forms adaptável, você pode definir o seguinte:
 
-- Os componentes principais que um criador de formulários pode adicionar às Guias horizontais no editor de Formulários adaptáveis
-- Os nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente Guias horizontais no editor de Formulários adaptáveis.
+- Os componentes principais que um criador de formulário pode adicionar às guias Horizontal no editor Forms adaptável
+- Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente de Guias horizontais no editor Adaptive Forms.
 
 Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
 

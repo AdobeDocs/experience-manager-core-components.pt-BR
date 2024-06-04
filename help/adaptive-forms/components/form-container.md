@@ -3,14 +3,14 @@ title: 'Componente principal de formulários adaptáveis: container de formulár
 description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
-# Container de formulário {#form-container-adaptive-forms-core-component}
+# Contêiner de formulário {#form-container-adaptive-forms-core-component}
 
 O Forms permite que os visitantes do site interajam com o site fornecendo informações valiosas, que podem aumentar o engajamento e a satisfação do usuário. No Adobe Experience Manager Sites (AEM Sites), um container de formulário adaptável permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização, oferecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e realizem outras ações.
 
@@ -99,7 +99,7 @@ A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do c
 
 ![Guia Componentes permitidos da caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-A guia **Componentes permitidos** permite que o editor de modelos defina os componentes que podem ser adicionados como itens aos painéis do componente no editor de formulários adaptáveis.
+A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente no editor Forms adaptável.
 
 ### Guia Componentes padrão {#default-components-tab}
 

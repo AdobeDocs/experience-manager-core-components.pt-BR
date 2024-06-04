@@ -3,14 +3,14 @@ title: Componente principal de formulários adaptáveis - Assistente
 description: Uso ou personalização do componente principal do assistente de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 99%
 
 ---
 
-# Componente de assistente{#wizard-adaptive-forms-core-component}
+# Componente do assistente{#wizard-adaptive-forms-core-component}
 
 O layout de assistente em um formulário adaptável refere-se a um formulário dividido em várias etapas ou páginas, permitindo que o usuário se mova pelo formulário uma etapa de cada vez. Esse layout é chamado de “assistente” porque guia o usuário passo a passo através do formulário.
 
@@ -148,6 +148,11 @@ Essa opção permite adicionar componentes de formulário adaptável clicando no
 ![Guia Acessibilidade](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 

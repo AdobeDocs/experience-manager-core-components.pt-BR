@@ -3,16 +3,14 @@ title: Componente principal de Formulários adaptáveis - Grupo de caixa de sele
 description: Utilização ou personalização do Componente principal do grupo de caixa de seleção de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 99%
 
 ---
 
-# Componente de Grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre os recursos **Permitir Texto formatado para Título** e **Permitir Texto formatado para Opções**, recursos de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente do grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
 
 Um grupo de caixas de seleção em um formulário adaptável é um conjunto de caixas de seleção relacionadas que permitem selecionar uma ou mais opções de uma lista. Cada caixa de seleção é representada por um Valor de dados (usado para processar itens de um grupo de caixas de seleção) e Valor de exibição (rótulo para cada item de caixa de seleção que descreve sua finalidade)
 **Exemplo**
@@ -136,7 +134,12 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/checkbox_accessibility.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo de design {#design-dialog}
 

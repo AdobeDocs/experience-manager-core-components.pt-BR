@@ -2,7 +2,7 @@
 title: Introdução aos Componentes principais dos Formulários adaptáveis do AEM
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: ae81102adafef131b013425465ad56af41f604bf
+source-git-commit: e1ee09854a40c960f8a907149240b755c95fe176
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 99%
@@ -86,7 +86,7 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Campo de entrada de data | ✔️ | | | Para os componentes principais, use o componente de [seletor de data](/help/adaptive-forms/components/date-picker.md). Também é possível adicionar componentes separados de [caixa de texto](/help/adaptive-forms/components/text-box.md) ou [caixa numérica](/help/adaptive-forms/components/numeric-box.md) para captar o dia, o mês e o ano. |
 | Seletor de data | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | Lista suspensa | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
-| Email | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
+| Email | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email.md)</span> | ✔️ | |
 | Anexo de arquivo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
 | Listagem do anexo de arquivo | ✔️ | | | |
 | Rodapé | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
@@ -103,7 +103,7 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Escalonador numérico | ✔️ | | | |
 | Painel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Caixa de senha | ✔️ | | ✔️ | |
-| Telefone / Celular | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
+| Telefone / Celular | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Botão Anterior | ✔️ | | | Use o [componente assistente](/help/adaptive-forms/components/wizard.md) para os botões de próximo e anterior para mover-se entre vários painéis. |
 | Botão de opção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | Grupo de botões de opção | | | ✔️ | |
@@ -112,12 +112,12 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Separador | ✔️ | | | |
 | Botão Enviar | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Etapa de resumo | ✔️ | | | |
-| Interruptor | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
+| Interruptor | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
 | Tabela | ✔️ | | | |
 | Termos e condições | ✔️ | ✔️ | | |
 | Texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Caixa de texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Título | ✔️ | | | Para os componentes principais, use o componente [Título do formulário](/help/adaptive-forms/components/title.md). |
+| Título | ✔️ | | | Para os componentes principais, use o componente [Título do formulário](/help/adaptive-forms/components/form-title.md). |
 | Captcha com tartaruga | ✔️ | | | [Captcha com tartaruga](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) está disponível somente para Componentes de base. |
 | Guias verticais | ✔️ | ✔️ | | Para os componentes de fundação, é possível configurar o [layout de guias à esquerda (guias verticais)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
 | Assistente | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Para os componentes de fundação, é possível configurar o [layout do assistente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
@@ -134,11 +134,13 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 
 <!-- >
 * [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
+* [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
 * [Button](/help/adaptive-forms/components/button.md)
 * [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
 * [Date Picker](/help/adaptive-forms/components/date-picker.md)
 * [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
-* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Email](/help/adaptive-forms/components/email.md)
 * [Form Container](/help/adaptive-forms/components/form-container.md)
 * [File Attachment](/help/adaptive-forms/components/file-attachment.md)
 * [Footer](/help/adaptive-forms/components/footer.md)
@@ -147,13 +149,14 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 * [Image](/help/adaptive-forms/components/image.md)
 * [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
 * [Panel](/help/adaptive-forms/components/panel.md)
+* [Phone](/help/adaptive-forms/components/phone.md)
 * [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Adaptive Form reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 * [Reset Button](/help/adaptive-forms/components/reset-button.md)
 * [Submit Button](/help/adaptive-forms/components/submit-button.md)
-* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
 * [Text Box](/help/adaptive-forms/components/text-box.md)
 * [Text](/help/adaptive-forms/components/text.md)
-* [Title](/help/adaptive-forms/components/title.md)
+* [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
 
 -->

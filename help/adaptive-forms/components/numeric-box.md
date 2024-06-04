@@ -3,16 +3,14 @@ title: Componente principal dos Formulários adaptáveis - Entrada de número
 description: Utilização ou personalização do Componente principal de entrada de número dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2104'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2163'
+ht-degree: 98%
 
 ---
 
 # Componente da caixa numérica{#number-input-adaptive-forms-core-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
 
 Um componente Entrada de número em um Formulário adaptável é um tipo de campo de formulário que permite que os usuários insiram valores numéricos. Normalmente, o componente é representado por um campo de texto com uma seta para cima e para baixo para aumentar e diminuir o número.
 
@@ -117,7 +115,12 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**Texto para leitores de tela**: isso se refere ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: isso se refere ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar rótulos de acessibilidade ARIA.
 
 ### Guia Formatos {#formats-configure-tab}
 
@@ -131,7 +134,7 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 
 ## Caixa de diálogo de design {#design-dialog}
 
-A caixa de diálogo de Design é usada para definir e gerenciar estilos CSS para o componente de entrada Número.
+A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente Caixa numérica.
 
 ### Guia Estilos {#styles-tab}
 
@@ -139,7 +142,7 @@ A guia é usada para definir e gerenciar os estilos CSS de um componente. O comp
 
 ![Guia Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Classes padrão do CSS**: é possível fornecer uma classe padrão do CSS ao componente principal entrada de números para formulários adaptáveis.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de caixa numérica do Forms adaptável.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 

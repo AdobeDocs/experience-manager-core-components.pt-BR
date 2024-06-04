@@ -3,16 +3,14 @@ title: Componente principal de formulários adaptáveis - Caixa de seleção
 description: Uso ou personalização do componente principal de Caixa de seleção para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '1780'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '1836'
+ht-degree: 99%
 
 ---
 
-# Componente Caixa de seleção{#checkbox-component}
-
-<span class="preview"> Este artigo tem conteúdo sobre o recurso **Permitir Texto formatado para Título**, um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+# Componente de caixa de seleção{#checkbox-component}
 
 Uma caixa de seleção é um elemento gráfico da interface geralmente usado em aplicativos de software e formulários para permitir que usuários façam uma escolha binária entre duas opções: marcada (selecionada) ou desmarcada (não selecionada).
 
@@ -85,7 +83,7 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 - **Preservar o valor do estado Desmarcar**: selecionar esta opção permite especificar o valor a ser retornado quando o componente de caixa de seleção não estiver selecionado. Se a opção **Preservar o valor do estado Desmarcado** estiver habilitada ou definida como verdadeira, a opção **Quando Desmarcado, retornar o valor** é exibida.
 - **Quando desmarcada, retornar o valor**: essa opção permite especificar qual valor deve ser associado à caixa de seleção quando ela estiver desmarcada ou não for selecionada.
 
-- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se o **Componente desativado** ou o **Componente de somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
+- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se **Desativar componente** for selecionada, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
 
 ### Guia Validação {#validation-tab}
 
@@ -110,7 +108,12 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/checkbox-accessibility.png)
 
-**Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+   - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
+   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+   - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo de design {#design-dialog}
 
