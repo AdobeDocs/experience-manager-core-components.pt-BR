@@ -3,9 +3,9 @@ title: Componente principal do Forms adaptável - Entrada de telefone, telefone
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 97%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # Componente de telefone{#telephone-input-adaptive-forms-core-component}
 
-O componente principal de entrada de telefone de formulários adaptáveis permite que os usuários insiram um número de telefone. O campo de entrada de telefone exibe teclados em dispositivos móveis que são relevantes para números de telefone. Ele pode ser personalizado com atributos adicionais, como um “padrão” e um “espaço reservado”, para especificar o formato e a descrição do número de telefone.
+O componente principal do telefone do formulário adaptável permite que os usuários insiram um número de telefone. O campo de entrada de telefone exibe teclados em dispositivos móveis que são relevantes para números de telefone. Ele pode ser personalizado com atributos adicionais, como um “padrão” e um “espaço reservado”, para especificar o formato e a descrição do número de telefone.
 
 O campo de entrada de telefone é usado normalmente em formulários de contato, de registro e outros formulários nos quais um número de telefone é necessário como meio de contato. O campo de entrada de telefone também pode ser usado para garantir que o usuário insira um número de telefone válido, pois o navegador pode impor determinadas restrições, como o comprimento e o formato do número de telefone, com base no atributo “padrão”.
 
