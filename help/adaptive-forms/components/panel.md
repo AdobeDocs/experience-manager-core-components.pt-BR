@@ -4,13 +4,13 @@ description: Utilização ou personalização do Componente principal de contain
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente do painel{#panel-container-adaptive-forms-core-component}
+# Componente Painel{#panel-container-adaptive-forms-core-component}
 
 Em um Formulário adaptável, um painel é um elemento de container que pode ser usado para agrupar elementos de formulário relacionados. Ele permite agrupar e organizar diferentes elementos de formulário de forma lógica e significativa. Isso pode ajudar a melhorar a estrutura geral e a legibilidade do formulário, facilitando a compreensão e a navegação pelos usuários.
 
@@ -52,7 +52,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de Container do painel dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Container do painel dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -64,7 +64,7 @@ Você pode personalizar facilmente a experiência do container do painel para vi
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -136,15 +136,15 @@ Para gerenciar com eficácia as seções repetíveis no container do painel, sig
 
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente do painel.
+A caixa de diálogo Design é usada para definir e gerenciar estilos CSS do componente de painel.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
 ![Guia Componentes permitidos da caixa de diálogo de design](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente no editor Forms adaptável.
+A guia **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis do componente no editor de formulários adaptáveis.
 
 ### Guia Componentes padrão {#default-components-tab}
 

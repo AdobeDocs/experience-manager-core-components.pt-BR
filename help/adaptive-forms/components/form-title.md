@@ -4,13 +4,13 @@ description: Utilização ou personalização do Componente principal de Título
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Componente do título do formulário{#title-input-adaptive-forms-core-component}
+# Componente Título de formulário{#title-input-adaptive-forms-core-component}
 
 Em um Formulário adaptável, um “título” refere-se ao texto que aparece na parte superior do formulário, normalmente abaixo do cabeçalho. O título é especificado usando o componente de Título. Esse componente pode ser adicionado ao layout do formulário e seu texto pode ser editado para corresponder à finalidade ou ao tópico do formulário. O título serve como um rótulo ou uma breve descrição do formulário para o usuário, e ajuda a distinguir o formulário de outros.
 
@@ -53,7 +53,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de Título dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Título dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -70,9 +70,9 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
    - Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    - A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A guia Design é usada para definir e gerenciar estilos CSS para o componente de título de formulário.
+A guia Design é usada para definir e gerenciar os estilos CSS para o componente de título.
 
 ### Título
 

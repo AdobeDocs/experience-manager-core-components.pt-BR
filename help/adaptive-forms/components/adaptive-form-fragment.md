@@ -4,9 +4,9 @@ description: Use fragmentos de formulários para criar segmentos de formulários
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Obtenha as informações mais recentes sobre o componente principal fragmentos d
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -128,7 +128,7 @@ Obtenha as informações mais recentes sobre o componente principal fragmentos d
 
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar os estilos do CSS do componente fragmento de formulário.
 

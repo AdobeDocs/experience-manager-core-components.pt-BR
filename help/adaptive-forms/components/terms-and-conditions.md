@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal Termos e condiçõe
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente dos Termos e condições
+# Componente de Termos e condições
 
 Um componente de **Termos e condições** refere-se a uma seção de um formulário que descreve os termos, regras e condições com os quais os usuários devem concordar ou aderir ao usar um serviço ou acessar conteúdo.
 
@@ -62,7 +62,7 @@ Obtenha as informações mais recentes sobre o componente principal termos e con
 
 - **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
 
-- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -126,7 +126,7 @@ Obtenha as informações mais recentes sobre o componente principal termos e con
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do componente de Termos e condições.
 
@@ -172,7 +172,7 @@ Este componente substitui um texto de consentimento por um ou mais links da web.
 
 - **Nome**: O nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não são permitidos nas strings de nome.
 
-- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos usando opções como negrito, itálico, estilos de fonte, cores e alinhamento, aprimorando a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -194,7 +194,7 @@ Depois que uma nova opção for adicionada, as seguintes ações poderão ser ex
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.

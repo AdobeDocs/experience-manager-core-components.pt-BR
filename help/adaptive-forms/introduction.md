@@ -4,7 +4,7 @@ description: Crie experiências de inscrição atraentes (formulários) usando a
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2229'
 ht-degree: 100%
 
@@ -197,7 +197,7 @@ O editor dos formulários adaptáveis baseados em componentes principais é seme
 
 * **[Modelo de dados de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: um modelo de dados de formulários adaptáveis (FDM) atua como uma ponte entre os formulários adaptáveis e as fontes de dados. Esse modelo define basicamente a estrutura e a organização dos dados que seus formulários coletam e interagem. É possível usar o editor para conectar facilmente seu formulário a um modelo de dados de formulário (FDM).
 
-* **[Envios de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: o envio de um formulário refere-se ao processo de envio dos formulários preenchidos.  Isso aciona uma série de ações definidas na configuração do formulário, levando ao armazenamento ou processamento dos dados enviados. O editor de formulários adaptáveis oferece uma variedade de opções para configurar envios de formulários. Algumas das ações comuns de envio são:
+* **[Envios de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: o envio de um formulário refere-se ao processo de envio dos formulários preenchidos. Isso aciona uma série de ações definidas na configuração do formulário, levando ao armazenamento ou processamento dos dados enviados. O editor de formulários adaptáveis oferece uma variedade de opções para configurar envios de formulários. Algumas das ações comuns de envio são:
 
    * [Enviar email](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
    * [Chamar um fluxo do Power Automate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)

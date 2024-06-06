@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
    + [Título](/help/components/title.md)
    + Componentes de formulário {#forms}
       + [Botão de formulário](/help/components/forms/form-button.md)
-      + [Contêineres de formulário](/help/components/forms/form-container.md)
+      + [Container de formulário](/help/components/forms/form-container.md)
       + [Formulário Oculto](/help/components/forms/form-hidden.md)
       + [Opções de formulário](/help/components/forms/form-options.md)
       + [Texto do formulário](/help/components/forms/form-text.md)
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [Container de formulários adaptáveis](/help/adaptive-forms/components/form-container.md)
       + [Seletor de data de formulários adaptáveis](/help/adaptive-forms/components/date-picker.md)
       + [Lista suspensa de formulários adaptáveis](/help/adaptive-forms/components/drop-down-list.md)
-      + [Email adaptável do Forms](/help/adaptive-forms/components/email.md)
+      + [Email de formulários adaptáveis](/help/adaptive-forms/components/email.md)
       + [Fragmentos de formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Anexos de arquivo de formulários adaptáveis](/help/adaptive-forms/components/file-attachment.md)
       + [Guias verticais de formulários adaptáveis](/help/adaptive-forms/components/vertical-tabs.md)
@@ -127,10 +127,10 @@ ht-degree: 97%
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
       + [Interruptor para formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [Telefone Forms adaptável](/help/adaptive-forms/components/phone.md)
+      + [Celular de formulários adaptáveis](/help/adaptive-forms/components/phone.md)
       + [Texto de formulários adaptáveis](/help/adaptive-forms/components/text.md)
       + [Caixa de texto de formulários adaptáveis](/help/adaptive-forms/components/text-box.md)
-      + [Título do formulário adaptável do Forms](/help/adaptive-forms/components/form-title.md)
+      + [Título de formulários adaptáveis](/help/adaptive-forms/components/form-title.md)
       + [Assistente de formulários adaptáveis](/help/adaptive-forms/components/wizard.md)
       + [Termos e condições dos formulários adaptáveis](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Cabeçalho](/help/adaptive-forms/components/header.md)

@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de Caixa de seleç�
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1836'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Obtenha as informações mais recentes sobre o componente principal de Caixa de 
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente a experiência das caixas de seleção para visitantes com a caixa de diálogo Configurar. Também é possível definir opções de caixa de seleção com facilidade para uma experiência de usuário perfeita.
+Você pode personalizar facilmente a experiência de caixas de seleção para os visitantes com a caixa de diálogo Configurar. Também é possível definir opções de caixa de seleção com facilidade para uma experiência de usuário perfeita.
 
 ![Guia Básico](/help/adaptive-forms/assets/checkbox-basic.png)
 
@@ -75,7 +75,7 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 
 - **Tipo de dados do valor enviado**: esta opção especifica o tipo de dados do valor enviado quando uma opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
 
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
@@ -83,7 +83,7 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
 - **Preservar o valor do estado Desmarcar**: selecionar esta opção permite especificar o valor a ser retornado quando o componente de caixa de seleção não estiver selecionado. Se a opção **Preservar o valor do estado Desmarcado** estiver habilitada ou definida como verdadeira, a opção **Quando Desmarcado, retornar o valor** é exibida.
 - **Quando desmarcada, retornar o valor**: essa opção permite especificar qual valor deve ser associado à caixa de seleção quando ela estiver desmarcada ou não for selecionada.
 
-- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se **Desativar componente** for selecionada, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
+- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. Se a opção **Desabilitar componente** for selecionada, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
 
 ### Guia Validação {#validation-tab}
 
@@ -115,7 +115,7 @@ Você pode personalizar facilmente a experiência das caixas de seleção para v
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do componente Caixa de seleção.
 

@@ -4,15 +4,15 @@ description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Contêiner de formulário {#form-container-adaptive-forms-core-component}
+# Container de formulário {#form-container-adaptive-forms-core-component}
 
-O Forms permite que os visitantes do site interajam com o site fornecendo informações valiosas, que podem aumentar o engajamento e a satisfação do usuário. No Adobe Experience Manager Sites (AEM Sites), um container de formulário adaptável permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização, oferecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e realizem outras ações.
+O Forms permite que os visitantes do site interajam com o site fornecendo informações valiosas, que podem aumentar o engajamento e a satisfação do usuário. No Adobe Experience Manager Sites (AEM Sites), um container de formulário adaptável permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização, oferecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e realizem outras ações
 
 ## Uso {#reasons-to-use-forms-container}
 
@@ -60,7 +60,7 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 ![Guia Básico](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
 - **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
@@ -91,7 +91,7 @@ Os usuários podem configurar ações diferentes para o envio de um formulário 
 
 - **Ação de envio**: uma ação de envio é acionada quando um usuário clica no botão Enviar em um formulário adaptável. Na lista suspensa, os usuários podem selecionar ações de envio que são compatíveis de fábrica. Saiba como [configurar uma ação de envio na guia Enviar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=pt-BR#supporting-custom-functions-in-validation-expressions-br).
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do componente de Container do formulário.
 
@@ -99,7 +99,7 @@ A caixa de diálogo de design é usada para definir e gerenciar estilos CSS do c
 
 ![Guia Componentes permitidos da caixa de diálogo de design](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-A variável **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis no componente no editor Forms adaptável.
+A guia **Componentes permitidos** permite que o editor de modelo defina os componentes que podem ser adicionados como itens aos painéis do componente no editor de formulários adaptáveis.
 
 ### Guia Componentes padrão {#default-components-tab}
 

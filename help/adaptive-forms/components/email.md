@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2113'
 ht-degree: 100%
 
 ---
 
-# Componente de e-mail {#Email-input-adaptive-forms-core-component}
+# Componente Email {#Email-input-adaptive-forms-core-component}
 
 O componente principal de entrada de email de formulários adaptáveis é usado para coletar endereços de email dos usuários. O campo de entrada de email permite que o navegador confirme se os dados inseridos estão em um formato de endereço de email válido. Normalmente, ele é representado como uma caixa de texto e tem um padrão de validação que aceita apenas endereços de email válidos. O campo de entrada de email pode ser personalizado ainda mais com atributos adicionais, como “obrigatório”, “espaço reservado” e “padrão” para definir validações para os dados de entrada.
 
@@ -49,7 +49,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal de entrada de email de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de entrada de email de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -61,7 +61,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 
 - **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
 
-- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -72,7 +72,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 - **Texto de espaço reservado**: o texto de espaço reservado de um componente de formulário refere-se a um rótulo curto ou mensagem que aparece em um campo de entrada, fornecendo ao usuário uma dica sobre que tipo de informação deve ser inserida nesse campo. O texto de espaço reservado desaparece quando o usuário começa a digitar no campo e reaparece se o campo estiver vazio. Fornece uma dica visual ao usuário, mas não age como um rótulo ou valor permanente para o campo.
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -125,7 +125,7 @@ A opção **Padrão de validação** permite inserir um padrão para validar a
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente de entrada de email.
 

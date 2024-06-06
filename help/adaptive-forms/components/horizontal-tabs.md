@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal de guias horizontai
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Componente de Guias horizontais (Guias na parte superior) Componente{#horizontal-tabs-adaptive-forms-core-component}
+# Componente Guias horizontais (guias na parte superior){#horizontal-tabs-adaptive-forms-core-component}
 
 As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
@@ -50,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de guias horizontais adaptáveis do Forms na documentação técnica sobre [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de guias horizontais de formulários adaptáveis na documentação técnica, encontrada no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -62,7 +62,7 @@ Você pode personalizar facilmente a experiência das guias horizontais para vis
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -144,12 +144,12 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente de guias horizontais do Forms adaptável, você pode definir o seguinte:
+A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente de guias horizontais de formulários adaptáveis, você pode definir o seguinte:
 
-- Os componentes principais que um criador de formulário pode adicionar às guias Horizontal no editor Forms adaptável
-- Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente de Guias horizontais no editor Adaptive Forms.
+- Os componentes principais que um criador de formulários pode adicionar às guias horizontais no editor de formulários adaptáveis
+- Nomes simples para estilos (classes CSS) que podem ser aplicados na caixa de diálogo de propriedades do componente Guias horizontais no editor de formulários adaptáveis.
 
 Isso ajuda a tornar o processo de criação e personalização de formulários mais simples e eficiente.
 

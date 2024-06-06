@@ -4,7 +4,7 @@ description: Uso ou personalização do componente principal de imagem dos formu
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -59,9 +59,9 @@ Você pode personalizar facilmente a experiência de imagem para visitantes com 
 
 ![Guia Propriedades](/help/adaptive-forms/assets/image_properties.png)
 
-- **Nome**: é possível identificar um componente de formulário facilmente através de seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
+- **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
@@ -81,7 +81,7 @@ Você pode personalizar facilmente a experiência de imagem para visitantes com 
 <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -->
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS do componente de imagem.
 

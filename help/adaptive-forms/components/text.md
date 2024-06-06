@@ -4,7 +4,7 @@ description: Uso ou personalização do componente principal de texto de formul�
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as últimas informações sobre o Componente principal de texto de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text). Para mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
+Obtenha as últimas informações sobre o Componente principal de texto de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -56,14 +56,14 @@ Você pode personalizar facilmente a experiência de texto para visitantes com a
 
 ![Guia Básico](/help/adaptive-forms/assets/text_properties.png)
 
-- **Nome** - É possível identificar um componente de formulário facilmente com o nome exclusivo no formulário e no editor de regras, mas o nome não deve conter espaços ou caracteres especiais.
+- **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
   <!--    **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é utilizada para definir e gerenciar os estilos CSS para o componente de texto.
 

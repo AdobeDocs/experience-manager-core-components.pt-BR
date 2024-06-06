@@ -4,13 +4,13 @@ description: Uso ou personalização do Componente principal de botão de opçã
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente do botão de opção {#radio-button-adaptive-forms-core-component}
+# Componente de botão de opção {#radio-button-adaptive-forms-core-component}
 
 Um botão de opção em um Formulário adaptável é um tipo de elemento de entrada que permite ao usuário selecionar uma opção de um grupo de opções relacionadas. Ele é representado por um pequeno botão circular que pode estar preenchido ou vazio para indicar se a opção está selecionada ou não. Quando um usuário seleciona um botão de opção, os outros no grupo ficam desmarcados. Normalmente, os botões de opção são usados quando há várias opções mutuamente exclusivas e apenas uma pode ser selecionada de cada vez.
 
@@ -56,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de botão de opção dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de botão de opção dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -66,7 +66,7 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -74,7 +74,7 @@ Você pode personalizar facilmente a experiência dos botões de opção para vi
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. \
+- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**.\
   Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
@@ -133,7 +133,7 @@ Você também pode formatar as opções do grupo de botões de opção usando **
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de Design é usada para definir e gerenciar estilos CSS para o componente de botão de opção.
 

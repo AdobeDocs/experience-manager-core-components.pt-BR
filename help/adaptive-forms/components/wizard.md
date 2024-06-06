@@ -4,13 +4,13 @@ description: Uso ou personalização do componente principal do assistente de fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente do assistente{#wizard-adaptive-forms-core-component}
+# Componente Assistente{#wizard-adaptive-forms-core-component}
 
 O layout de assistente em um formulário adaptável refere-se a um formulário dividido em várias etapas ou páginas, permitindo que o usuário se mova pelo formulário uma etapa de cada vez. Esse layout é chamado de “assistente” porque guia o usuário passo a passo através do formulário.
 
@@ -63,7 +63,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de Título dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [Documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de Título dos Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -75,7 +75,7 @@ Você pode personalizar facilmente a experiência do assistente para visitantes 
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente.
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
@@ -136,7 +136,7 @@ Essa opção permite adicionar componentes de formulário adaptável clicando no
 
 ![Guia Ajuda](/help/adaptive-forms/assets/wizard_helptab.png)
 
-- **Descrição curta**: uma breve descrição é uma concisa explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
 - **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
@@ -157,7 +157,7 @@ Essa opção permite adicionar componentes de formulário adaptável clicando no
 - **Função de HTML para anúncio do leitor de tela**: a função HTML é um atributo usado para especificar a finalidade de um elemento HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design permite que os criadores de modelos controlem a exibição padrão dos elementos. Para o componente Assistente de Formulários adaptáveis, você pode definir o seguinte:
 

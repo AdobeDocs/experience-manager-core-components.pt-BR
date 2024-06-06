@@ -4,13 +4,13 @@ description: Utilização ou personalização do Componente principal do grupo d
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente do grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
+# Componente de Grupo de caixas de seleção {#button-component-adaptive-forms-core-component}
 
 Um grupo de caixas de seleção em um formulário adaptável é um conjunto de caixas de seleção relacionadas que permitem selecionar uma ou mais opções de uma lista. Cada caixa de seleção é representada por um Valor de dados (usado para processar itens de um grupo de caixas de seleção) e Valor de exibição (rótulo para cada item de caixa de seleção que descreve sua finalidade)
 **Exemplo**
@@ -63,7 +63,7 @@ Obtenha as informações mais recentes sobre o Componente principal do grupo de 
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-Você pode personalizar facilmente a experiência de caixas de seleção para os visitantes com a caixa de diálogo Configurar. Você também pode definir opções de caixas de seleção com facilidade para uma experiência do usuário ininterrupta.
+Você pode personalizar facilmente a experiência de caixas de seleção para os visitantes com a caixa de diálogo Configurar. Também é possível definir opções de caixa de seleção com facilidade para uma experiência de usuário perfeita.
 
 
 ### Guia Básico {#basic-tab}
@@ -72,7 +72,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 - **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
 
-- **Título**: Com o Título, é possível identificar facilmente um componente em um formulário e, por padrão, o título aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no `Fullscreen` ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
@@ -81,7 +81,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 - **Ocultar título**: selecione essa opção para ocultar o título do componente.
 
-- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**. \
+- **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**.\
   Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
    - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
@@ -106,7 +106,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
    - **Vertical** - Quando essa opção é selecionada, as caixas de seleção são exibidas de cima para baixo em um Formulário adaptável.
 
 - **Opções padrão**: Essa opção permite que você adicione valores padrão pré-selecionados quando o formulário é carregado. Use o ícone excluir para remover as opções adicionadas. Se o **tipo de dados do valor enviado** está definido como `Number` e você adicionar dados da string às **Opções padrão**, a tela exibe uma `Value type mismatch` mensagem de erro.
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -141,7 +141,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo Design é usada para definir e gerenciar estilos de CSS para o componente Grupo de caixa de seleção.
 

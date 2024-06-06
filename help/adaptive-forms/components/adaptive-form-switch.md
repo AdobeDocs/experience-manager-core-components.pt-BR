@@ -4,13 +4,13 @@ description: Utilização ou personalização do componente principal interrupto
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1922'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente de alternância de formulário adaptável{#switch-adaptive-forms-core-component}
+# Componente de troca de formulário adaptável{#switch-adaptive-forms-core-component}
 
 O componente interruptor é uma interface gráfica usada em formulários que permite selecionar entre duas opções. Normalmente, é um botão de alternância entre dois estados que permite a escolha entre esses dois estados, ativando ou desativando um recurso, uma configuração ou uma funcionalidade. O componente interruptor foi projetado para representar visualmente o estado atual e exibir se um recurso específico está ativado ou desativado.
 
@@ -83,7 +83,7 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
 - **Tipo de dados do valor enviado**: esta opção especifica o tipo de dados do valor enviado quando uma opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -128,7 +128,7 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 
 - **Mostrar rótulos**: selecione esta opção para mostrar os rótulos do componente interruptor.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 A caixa de diálogo de design é usada para definir e gerenciar os estilos do CSS do componente interruptor.
 
@@ -138,7 +138,7 @@ O componente principal de interruptor para formulários adaptáveis é compatív
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do switch Forms adaptável.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão ao componente de troca de formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
