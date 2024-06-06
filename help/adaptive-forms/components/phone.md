@@ -1,17 +1,17 @@
 ---
-title: Componente principal do Forms adaptável - Entrada de telefone, telefone
+title: Componente principal de formulários adaptáveis – Entrada de telefone, celular
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
 source-wordcount: '2197'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
-# Componente de telefone{#telephone-input-adaptive-forms-core-component}
+# Componente de celular{#telephone-input-adaptive-forms-core-component}
 
 O componente principal do telefone do formulário adaptável permite que os usuários insiram um número de telefone. O campo de entrada de telefone exibe teclados em dispositivos móveis que são relevantes para números de telefone. Ele pode ser personalizado com atributos adicionais, como um “padrão” e um “espaço reservado”, para especificar o formato e a descrição do número de telefone.
 
@@ -55,7 +55,7 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
-- **Título**: com seu Título, é possível identificar facilmente um componente em um formulário. Ele aparece na parte superior do componente por padrão. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
+- **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
   Ao marcar a caixa de seleção **Permitir rich text para título**, as opções de formatação se tornam visíveis para estilizar o título do componente. Para acessar todas as opções de formatação disponíveis, clique no ![Ícone de tela cheia](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -67,7 +67,7 @@ Você pode personalizar facilmente a experiência de entrada de telefone para vi
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
-- **Ocultar componente**: Selecione a opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -99,7 +99,7 @@ A opção **Padrão de validação** permite inserir um padrão para validar o n
 
 - **Padrão**: essa opção permite inserir os padrões de verificação permitidos para o número de telefone. Expressões regulares também são permitidas.
 
-- **Mensagem de erro**: essa opção permite inserir uma mensagem que será exibida na tela se o número de telefone inserido não puder ser validado com relação ao valor inserido na opção **Padrão** 
+- **Mensagem de erro**: essa opção permite inserir uma mensagem que será exibida na tela se o número de telefone inserido não puder ser validado com relação ao valor inserido na opção **Padrão**
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
@@ -121,17 +121,17 @@ A opção **Padrão de validação** permite inserir um padrão para validar o n
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
    - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo de design é usada para definir e gerenciar estilos CSS para o componente de telefone.
+A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS do componente de celular.
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de telefone adaptável do Forms é compatível com AEM [Sistema de Estilos](/help/get-started/authoring.md#component-styling).
+A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de celular de formulários adaptáveis oferece suporte ao [Sistema de estilo](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Caixa de diálogo de design](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal de telefone do Forms Adaptive.
+- **Classes CSS padrão**: você pode fornecer uma classe CSS padrão ao componente principal de celular de formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
