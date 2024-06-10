@@ -4,15 +4,15 @@ description: Utilização ou personalização do Componente principal de entrada
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Componente Caixa numérica{#number-input-adaptive-forms-core-component}
 
-Um componente Caixa numérica em um formulário adaptável é um tipo de campo de formulário que permite que os usuários insiram valores numéricos. Normalmente, o componente é representado por um campo de texto com uma seta para cima e para baixo para aumentar e diminuir o número.
+Um componente Caixa numérica em um formulário adaptável é um tipo de campo de formulário que permite aos usuários inserir valores numéricos. Normalmente, o componente é representado por um campo de texto com uma seta para cima e para baixo para aumentar e diminuir o número.
 
 Também pode ser usado com atributos como mín., máx., etapa, valor e muito mais. Esses atributos podem ser usados para definir os valores mínimo e máximo permitidos no campo, o intervalo de etapas para aumentar ou diminuir o número e o valor padrão do campo.
 
@@ -127,20 +127,20 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 ![Guia Acessibilidade](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Exibir formato**: isso permite selecionar opções de diferentes tipos de formatos inteiros-numéricos para exibição. Quando o usuário seleciona qualquer opção do menu suspenso **Tipo**, a opção **Formato** se torna visível no painel. É possível escolher um formato específico no qual os números serão exibidos para o usuário.
-- **Idioma** - Esse recurso é usado para formatar o campo específico. Quando um usuário seleciona qualquer opção de idioma no **Tipo** menu suspenso, a variável **Marca de idioma IETF BCP 47** será exibida no painel. Você pode escolher o idioma para a formatação de campo ao traduzir um Formulário adaptável em um idioma específico.
+- **Idioma**: esse recurso é usado para formatar o campo específico. Quando um usuário seleciona qualquer opção de idioma no menu suspenso **Tipo**, a opção **Tag de idioma IETF BCP 47** aparece no painel. Você pode escolher o idioma para a formatação de campo ao traduzir um formulário adaptável para um idioma específico.
 
-O conjunto de idiomas não está visível por padrão, mas os usuários podem inserir um idioma personalizado **Marca de idioma IETF BCP 47** atualizando a política do template:
+O conjunto de idiomas não está visível por padrão, mas os usuários podem inserir uma **Tag de idioma IETF BCP 47** personalizada atualizando a política do modelo:
 
-1. Abra o modelo correspondente associado a um Formulário adaptável no editor de modelos.
+1. Abra o modelo correspondente associado a um formulário adaptável no editor de modelo.
 2. Selecione a política existente como `numberinput-default-policy` no menu suspenso.
 
-   ![Política de modelo do Seletor de Data](/help/adaptive-forms/assets/numberinput-template-policy.png)
+   ![Política de modelo do seletor de data](/help/adaptive-forms/assets/numberinput-template-policy.png)
 
 3. Clique em **Concluído**.
 
    >[!NOTE]
    >
-   > Para obter mais informações sobre como traduzir um Formulário adaptável para um local específico, [clique aqui](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Para obter mais informações sobre como traduzir um formulário adaptável para um idioma específico, [clique aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## Caixa de diálogo Design {#design-dialog}
