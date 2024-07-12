@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatível  | - |
+| v1 | Compatível | - |
 
 Para obter mais informações sobre as versões dos componentes principais, consulte o documento [Versões dos Componentes principais de email](/help/versions.md).
 

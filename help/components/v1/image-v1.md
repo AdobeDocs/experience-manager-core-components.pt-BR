@@ -6,8 +6,8 @@ role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 98%
 
 ---
 
@@ -104,28 +104,28 @@ A caixa de diálogo de edição permite que o autor de conteúdo recorte, modifi
 
 * Iniciar recorte
 
-   ![](/help/assets/chlimage_1-9.png)
+  ![](/help/assets/chlimage_1-9.png)
 
-   Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
+  Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
 
    * Escolha a opção **Mão livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
 
-   Depois que uma opção de recorte é selecionada, use as alças azuis para dimensionar o recorte na imagem.
+  Depois que uma opção de recorte é selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
-   ![](/help/assets/chlimage_1-10.png)
+  ![](/help/assets/chlimage_1-10.png)
 
 * Girar para a direita
 
-   ![](/help/assets/chlimage_1-11.png)
+  ![](/help/assets/chlimage_1-11.png)
 
-   Use esta opção para girar a imagem 90° para a direita (no sentido horário).
+  Use esta opção para girar a imagem 90° para a direita (no sentido horário).
 
 * Mapa de lançamento
 
-   ![](/help/assets/chlimage_1-12.png)
+  ![](/help/assets/chlimage_1-12.png)
 
-   Use esta opção para aplicar um mapa de lançamento à imagem. Selecionar essa opção abre uma nova janela que permite ao usuário selecionar a forma do mapa:
+  Use esta opção para aplicar um mapa de lançamento à imagem. Selecionar essa opção abre uma nova janela que permite ao usuário selecionar a forma do mapa:
 
    * **Adicionar mapa retangular**
    * **Adicionar mapa circular**
@@ -133,11 +133,11 @@ A caixa de diálogo de edição permite que o autor de conteúdo recorte, modifi
 
       * Por padrão, adiciona um mapa de triângulo. Clique duas vezes em uma linha da forma para adicionar uma nova alça de redimensionamento azul em um novo lado.
 
-   Depois que uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças azuis de redimensionamento para ajustar a forma.
+  Depois que uma forma de mapa é selecionada, ela é sobreposta à imagem, permitindo o redimensionamento. Arraste e solte as alças azuis de redimensionamento para ajustar a forma.
 
-   ![](/help/assets/chlimage_1-13.png)
+  ![](/help/assets/chlimage_1-13.png)
 
-   Após dimensionar o mapa de lançamento, clique nele para abrir uma barra de ferramentas flutuante para definir o caminho do link.
+  Após dimensionar o mapa de lançamento, clique nele para abrir uma barra de ferramentas flutuante para definir o caminho do link.
 
    * **Caminho**
       * Use a opção Seletor de caminho para selecionar um caminho no AEM.
@@ -151,23 +151,23 @@ Descrição alternativa do destino do caminho
          * **Quadro pai**
          * **Quadro superior**
 
-   Toque ou clique na marca de seleção azul para salvar, no x preto para cancelar, e na lixeira vermelha para excluir o mapa.
+  Toque ou clique na marca de seleção azul para salvar, no x preto para cancelar, e na lixeira vermelha para excluir o mapa.
 
-   ![](/help/assets/chlimage_1-14.png)
+  ![](/help/assets/chlimage_1-14.png)
 
 * Redefinir zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+  ![](/help/assets/chlimage_1-15.png)
 
-   Se a imagem já tiver sido ampliada, use essa opção para redefinir o nível de zoom.
+  Se a imagem já tiver sido ampliada, use essa opção para redefinir o nível de zoom.
 
 * Abrir controle deslizante de zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+  ![](/help/assets/chlimage_1-16.png)
 
-   Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
+  Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
 
-   ![](/help/assets/chlimage_1-17.png)
+  ![](/help/assets/chlimage_1-17.png)
 
 O editor local também pode ser usado para modificar a imagem. Devido às limitações de espaço, somente as opções básicas estão disponíveis em linha. Para opções de edição completas, use o modo de tela cheia.
 
@@ -208,36 +208,36 @@ Na guia **Recursos**, é possível definir quais opções estão disponíveis pa
 
 * Origem
 
-   ![](/help/assets/chlimage_1-19.png)
+  ![](/help/assets/chlimage_1-19.png)
 
-   Selecione a opção **Permitir o upload de ativos do sistema de arquivos** para permitir que os autores de conteúdo façam upload de imagens do computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
+  Selecione a opção **Permitir o upload de ativos do sistema de arquivos** para permitir que os autores de conteúdo façam upload de imagens do computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
 
 * Orientação
 
-   ![](/help/assets/chlimage_1-20.png)
+  ![](/help/assets/chlimage_1-20.png)
 
    * **Girar** - Use essa opção para permitir que o autor do conteúdo use a opção **Girar para a direita**.
    * **Inverter**
-Use esta opção para permitir que o autor de conteúdo use as opções 
-**Inverter horizontalmente** e **Inverter verticalmente**.
-   >[!CAUTION]
-   >
-   >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
+Use esta opção para permitir que o autor de conteúdo use as opções **Inverter Horizontalmente** e **Inverter Verticalmente**.
+
+  >[!CAUTION]
+  >
+  >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
 
 * Cortar
 
-   ![](/help/assets/chlimage_1-21.png)
+  ![](/help/assets/chlimage_1-21.png)
 
-   Selecione a opção **Permitir recorte** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
+  Selecione a opção **Permitir recorte** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma taxa de proporção de corte predefinida.
    * Insira um nome descritivo, que será mostrado na lista suspensa **Iniciar corte**.
    * Insira a taxa numérica da proporção.
    * Use as alças de arrastar para reorganizar a ordem das taxas de proporções.
    * Use o ícone da lixeira para excluir uma taxa de proporção.
 
-   >[!CAUTION]
-   >
-   >Observe que no AEM, as taxas de proporções de corte estão definidas como **altura/largura**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não estarão cientes de qualquer diferença, desde que você forneça um nome claro da proporção, pois o nome é mostrado na interface do usuário e não a própria proporção.
+  >[!CAUTION]
+  >
+  >Observe que no AEM, as taxas de proporções de corte estão definidas como **altura/largura**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não estarão cientes de qualquer diferença, desde que você forneça um nome claro da proporção, pois o nome é mostrado na interface do usuário e não a própria proporção.
 
 ## Detalhes técnicos {#technical-details}
 

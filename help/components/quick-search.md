@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | - | Compatível | Compatível |
-| [v1](/help/components/v1/quick-search.md) | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| [v1](/help/components/v1/quick-search.md) | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

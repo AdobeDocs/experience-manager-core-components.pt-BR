@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Neste modelo, adicionaremos os componentes básicos nos quais queremos que as p�
    * Apontamos o componente de Fragmento de experiência para o caminho do fragmento em nossa linguagem de criação do fragmento que representa o rodapé.
    * Com base no caminho desse fragmento e na estrutura dos fragmentos de experiência que espelham a estrutura da página localizada, o componente pode automaticamente encontrar o conteúdo localizado correspondente.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Páginas {#pages}
 

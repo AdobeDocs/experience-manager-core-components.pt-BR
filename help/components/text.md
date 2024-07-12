@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2180'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | Compatível  com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
+| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
 | [v1](v1/text-v1.md) | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
@@ -133,7 +133,7 @@ Use essa opção para converter o texto selecionado em um hiperlink ou modificar
    * Quadro pai
    * Quadro superior
 
-   Toque ou clique na marca de seleção para aplicar o link ou o x para cancelar.
+  Toque ou clique na marca de seleção para aplicar o link ou o x para cancelar.
 
 ### Desvincular
 

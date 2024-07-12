@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '758'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ A caixa de diálogo de edição permite que o autor do conteúdo defina os inter
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.
 
-## Caixa de diálogo de design {#design-dialog}
+## Caixa de diálogo Design {#design-dialog}
 
 Usando a caixa de diálogo de design, o autor do modelo pode definir o valor padrão para o intervalo de título do Componente de índice, bem como restringir títulos incluídos no índice com base em nomes de classe.
 

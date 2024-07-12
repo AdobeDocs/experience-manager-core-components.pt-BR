@@ -3,7 +3,7 @@ title: Componentes principais de formulários adaptáveis - Guias na parte super
 description: Uso ou personalização do componente principal Guias na parte superior de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: O componente Acorde√£o, dos Componentes principais, permite a cria√
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 

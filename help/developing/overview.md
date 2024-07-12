@@ -5,7 +5,7 @@ role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ Portanto, a Adobe recomenda o seguinte:
 Os novos projetos devem sempre tentar usar os Componentes principais. Se os Componentes principais não puderem ser usados diretamente ou [estendidos](customizing.md) para atender aos requisitos do projeto, crie um componente personalizado seguindo a arquitetura de componentes definida nos Componentes principais. Exceto quando não for possível, evite usar os [componentes de base](/help/versions.md#foundation-component-support).
 * **Projetos existentes**
 Recomenda-se continuar usando os [componentes de base](/help/versions.md#foundation-component-support), a menos que haja planos de reestruturação do site ou de componentes.\
-   Como são muito usados pela maioria dos projetos existentes, os componentes de base [continuarão sendo compatíveis](/help/versions.md#foundation-component-support).
+  Como são muito usados pela maioria dos projetos existentes, os componentes de base [continuarão sendo compatíveis](/help/versions.md#foundation-component-support).
 * **Novos componentes personalizados**
 Avalie se um [Componente principal existente pode ser personalizado](customizing.md).\
-   Caso contrário, a recomendação é criar um novo componente personalizado seguindo as [Diretrizes de componentes](guidelines.md).
+  Caso contrário, a recomendação é criar um novo componente personalizado seguindo as [Diretrizes de componentes](guidelines.md).
 * **Componentes personalizados existentes**
-Se os componentes funcionarem conforme o esperado, mantenha-os como estão.
-\
-   Caso contrário, consulte &quot;Novos componentes personalizados&quot; acima.
+Se os componentes funcionarem conforme o esperado, mantenha-os como estão.\
+  Caso contrário, consulte &quot;Novos componentes personalizados&quot; acima.
 
 ## Como obter resultados com os Componentes principais {#how-to-succeed}
 

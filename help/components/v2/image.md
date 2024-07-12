@@ -1,16 +1,16 @@
 ---
-title: Componente de imagem  (v2)
+title: Componente de imagem (v2)
 description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2048'
+ht-degree: 98%
 
 ---
 
-# Componente de imagem   (v2) {#image-component}
+# Componente de imagem (v2) {#image-component}
 
 O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável que realiza edição no local.
 
@@ -121,48 +121,48 @@ A caixa de diálogo de edição permite que o autor de conteúdo recorte, modifi
 
 * Iniciar recorte
 
-   ![Ícone Iniciar recorte](/help/assets/image-start-crop.png)
+  ![Ícone Iniciar recorte](/help/assets/image-start-crop.png)
 
-   Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
+  Selecionar essa opção abre uma lista suspensa para proporções de corte predefinidas.
 
    * Escolha a opção **Mão livre** para definir seu próprio corte.
    * Escolha a opção **Remover corte** para exibir o ativo original.
 
-   Depois que uma opção de recorte é selecionada, use as alças azuis para dimensionar o recorte na imagem.
+  Depois que uma opção de recorte é selecionada, use as alças azuis para dimensionar o recorte na imagem.
 
-   ![Opções de corte](/help/assets/image-crop-options.png)
+  ![Opções de corte](/help/assets/image-crop-options.png)
 
 * Girar para a direita
 
-   ![Ícone Girar para a direita](/help/assets/image-rotate-right.png)
+  ![Ícone Girar para a direita](/help/assets/image-rotate-right.png)
 
-   Use esta opção para girar a imagem 90° para a direita (no sentido horário).
+  Use esta opção para girar a imagem 90° para a direita (no sentido horário).
 
 * Inverter horizontalmente
 
-   ![Ícone Inverter horizontalmente](/help/assets/image-flip-horizontal.png)
+  ![Ícone Inverter horizontalmente](/help/assets/image-flip-horizontal.png)
 
-   Use essa opção para inverter a imagem horizontalmente ou girar a imagem 180° ao longo do eixo y.
+  Use essa opção para inverter a imagem horizontalmente ou girar a imagem 180° ao longo do eixo y.
 
 * Inverter verticalmente
 
-   ![Ícone Inverter verticalmente](/help/assets/image-flip-vertical.png)
+  ![Ícone Inverter verticalmente](/help/assets/image-flip-vertical.png)
 
-   Use essa opção para inverter a imagem verticalmente ou girar a imagem 180° ao longo do eixo x.
+  Use essa opção para inverter a imagem verticalmente ou girar a imagem 180° ao longo do eixo x.
 
 * Redefinir zoom
 
-   ![Ícone Redefinir zoom](/help/assets/image-reset-zoom.png)
+  ![Ícone Redefinir zoom](/help/assets/image-reset-zoom.png)
 
-   Se a imagem já tiver sido ampliada, use essa opção para redefinir o nível de zoom.
+  Se a imagem já tiver sido ampliada, use essa opção para redefinir o nível de zoom.
 
 * Abrir controle deslizante de zoom
 
-   ![Ícone Abrir controle deslizante de zoom](/help/assets/image-zoom.png)
+  ![Ícone Abrir controle deslizante de zoom](/help/assets/image-zoom.png)
 
-   Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
+  Use essa opção para exibir um controle deslizante para controlar o nível de zoom da imagem.
 
-   ![Controle deslizante de zoom](/help/assets/image-zoom-slider.png)
+  ![Controle deslizante de zoom](/help/assets/image-zoom-slider.png)
 
 O editor local também pode ser usado para modificar a imagem. Devido às limitações de espaço, somente as opções básicas estão disponíveis em linha. Para opções de edição completas, use o modo de tela cheia.
 
@@ -212,39 +212,37 @@ Na guia **Recursos**, é possível definir quais opções estão disponíveis pa
 
 * Origem
 
-   ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-source.png)
+  ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-source.png)
 
-   Selecione a opção **Permitir o upload de ativos do sistema de arquivos** para permitir que os autores de conteúdo façam upload de imagens do computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
+  Selecione a opção **Permitir o upload de ativos do sistema de arquivos** para permitir que os autores de conteúdo façam upload de imagens do computador local. Para forçar autores de conteúdo a selecionar somente ativos do AEM, desmarque essa opção.
 
 * Orientação
 
-   ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-orientation.png)
+  ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-orientation.png)
 
 * **Girar**
-Use esta opção para permitir que o autor de conteúdo use a opção 
-**Girar para a direita**.
+Use esta opção para permitir que o autor de conteúdo use a opção **Girar para a Direita**.
 * **Inverter**
-Use esta opção para permitir que o autor de conteúdo use as opções 
-**Inverter horizontalmente** e **Inverter verticalmente**.
+Use esta opção para permitir que o autor de conteúdo use as opções **Inverter Horizontalmente** e **Inverter Verticalmente**.
 
-   >[!CAUTION]
-   >
-   >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
+  >[!CAUTION]
+  >
+  >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
 
 * Cortar
 
-   ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-cropping.png)
+  ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-cropping.png)
 
-   Selecione a opção **Permitir Cortar** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
+  Selecione a opção **Permitir Cortar** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma taxa de proporção de corte predefinida.
    * Insira um nome descritivo, que será mostrado na lista suspensa **Iniciar corte**.
    * Insira a taxa numérica da proporção.
    * Use as alças de arrastar para reorganizar a ordem das taxas de proporções.
    * Use o ícone da lixeira para excluir uma taxa de proporção.
 
-   >[!CAUTION]
-   >
-   >Observe que no AEM, as taxas de proporções de corte estão definidas como **altura/largura**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não estarão cientes de qualquer diferença, desde que você forneça um nome claro da proporção, pois o nome é mostrado na interface do usuário e não a própria proporção.
+  >[!CAUTION]
+  >
+  >Observe que no AEM, as taxas de proporções de corte estão definidas como **altura/largura**. Isso difere da definição convencional de largura/altura e é feita por motivos de compatibilidade legal. Os autores de conteúdo não estarão cientes de qualquer diferença, desde que você forneça um nome claro da proporção, pois o nome é mostrado na interface do usuário e não a própria proporção.
 
 ### Guia Estilos {#styles-tab-1}
 
