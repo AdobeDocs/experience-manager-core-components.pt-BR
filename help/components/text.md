@@ -3,10 +3,10 @@ title: Componente de texto
 description: O componente de Texto é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 100%
+source-wordcount: '2181'
+ht-degree: 99%
 
 ---
 
@@ -302,9 +302,9 @@ O componente de Texto também pode ser editado em linha, mas devido a restriçõ
 
 ![Exemplo de edição em linha](/help/assets/text-edit-inline-example.png)
 
-### Configuração e ID {#setting-id}
+### Configurar uma ID  {#setting-id}
 
-Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
+Esta opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados.](/help/developing/data-layer/overview.md)
 
 * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
 * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
