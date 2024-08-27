@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: eafbe18b13830edde3535fbb67d9ef62b7d045f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ A tabela abaixo descreve os analisadores que são executados como parte dessa et
 | `artifact-rules` | Valida dependências como pacotes de conteúdo para evitar problemas conhecidos em artefatos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sim | Sim |
 | `aem-env-var` | Verifica o uso de variáveis de ambiente de acordo com o [guia de nomenclatura da variável](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=pt-BR#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | Sim | Sim |
 | `content-package-validation` | Executa validadores de cofre de arquivos. Por padrão, jackrabbit-docviewparser está habilitado, o que verifica a sintaxe de conteúdo bem formada de xml dentro de pacotes que serão instalados durante a implantação.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Para corrigir, verifique se há problemas de xml no arquivo nomeado pelo analisador. | Sim | Sim |
-| `aem-provider-type` | Verifica se o código do aplicativo implementa ou estende uma interface/classe &quot;ProviderType&quot; do AEM (o produto), consulte [CQBP-84](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html?lang=en#product-apis-annotated-with-providertype-should-not-be-implemented-or-extended-by-customers) | Sim | Sim |
-| `configurations-basic` | Verifica as configurações do OSGi em busca de erros comuns, como não especificar o tipo correto da propriedade &quot;service.ranking&quot;. | Sim | Sim |
+| `aem-provider-type` | Verifica se o código do aplicativo implementa ou estende uma interface/classe “ProviderType” do AEM (o produto), consulte [CQBP-84](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/custom-code-quality-rules.html?lang=pt_BR#product-apis-annotated-with-providertype-should-not-be-implemented-or-extended-by-customers) | Sim | Sim |
+| `configurations-basic` | Verifica as configurações do OSGi em busca de erros comuns, como não especificar o tipo correto da propriedade “service.ranking”. | Sim | Sim |
 
 {style="table-layout:auto"}
 
