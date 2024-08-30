@@ -3,10 +3,10 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 100%
+source-wordcount: '2205'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,6 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Fragmento de formulário adaptável | ✔️ | ✔️ | | Para os componentes de fundação, é possível [adicionar um fragmento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) a partir do navegador de ativos. |
 | reCAPTCHA de formulário adaptável | ✔️ | ✔️ | ✔️ | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Botão | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Gráfico | ✔️ | | | |
 | Caixa de seleção | ✔️ | ✔️ | | |
 | Grupo de caixas de seleção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Para os componentes de fundação, use o componente caixa de seleção para adicionar várias caixas de seleção |
@@ -105,12 +104,11 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Painel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Caixa de senha | ✔️ | | ✔️ | |
 | Telefone / Celular | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Botão Anterior | ✔️ | | | Use o [componente assistente](/help/adaptive-forms/components/wizard.md) para os botões de próximo e anterior para mover-se entre vários painéis. |
-| Botão de opção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| Grupo de botões de opção | | | ✔️ | |
+| Botão Anterior | ✔️ | ✔️ | | Use o [componente assistente](/help/adaptive-forms/components/wizard.md) para os botões de próximo e anterior para mover-se entre vários painéis. |
+| Grupo de botões de opção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Botão Redefinir | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Rabiscar a assinatura | ✔️ | | | |
-| Separador | ✔️ | | | |
+| Separador | ✔️ | | | Usar componente [Separador](/help/components/separator.md) do WCM |
 | Botão Enviar | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Etapa de resumo | ✔️ | | | |
 | Interruptor | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Termos e condições | ✔️ | ✔️ | | |
 | Texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Caixa de texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Título | ✔️ | | | Para os componentes principais, use o componente [Título do formulário](/help/adaptive-forms/components/form-title.md). |
 | Captcha Turnstile | ✔️ | | | O [Captcha Turnstile](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) está disponível somente para componentes de fundação. |
 | Guias verticais | ✔️ | ✔️ | | Para os componentes de fundação, é possível configurar o [layout de guias à esquerda (guias verticais)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
 | Assistente | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Para os componentes de fundação, é possível configurar o [layout do assistente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel |
