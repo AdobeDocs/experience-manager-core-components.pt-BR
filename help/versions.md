@@ -3,10 +3,10 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1df528aec070c21c836f2fd6a92c7c6460f30798
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
+workflow-type: tm+mt
+source-wordcount: '3103'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|
+| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Esta versão aborda várias correções de erros. | - | 6.5.21.0+ | Contínuo | 8, 11 | 10 de setembro de 2024 |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Esta versão aborda várias correções de erros. | - | 6.5.21.0+ | Contínuo | 8, 11 | 31 de julho de 2024 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Esta é uma versão secundária que corrige algumas falhas de TI. | - | 6.5.21.0+ | Contínuo | 8, 11 | 10 de maio de 2024 |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Esta é uma versão secundária que corrige algumas falhas de TI. | - | 6.5.21.0+ | Contínuo | 8, 11 | 9 de maio de 2024 |
