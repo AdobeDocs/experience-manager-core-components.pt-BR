@@ -1,8 +1,8 @@
 ---
-source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 # Trechos {#snippets}
@@ -71,7 +71,8 @@ ht-degree: 100%
 - [Rodapé](/help/adaptive-forms/components/footer.md)
 - [Cabeçalho](/help/adaptive-forms/components/header.md)
 - [Imagem](/help/adaptive-forms/components/image.md)
-- [Caixa numérica](/help/adaptive-forms/components/numeric-box.md)
+- [Caixa Numérica](/help/adaptive-forms/components/numeric-box.md)
+  <!--- [Password Box](/help/adaptive-forms/components/password-box.md)-->
 - [Painel](/help/adaptive-forms/components/panel.md)
 - [Celular](/help/adaptive-forms/components/phone.md)
 - [Guia horizontal](/help/adaptive-forms/components/horizontal-tabs.md)

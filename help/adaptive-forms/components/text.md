@@ -3,10 +3,10 @@ title: Componentes principais dos formulários adaptáveis - Texto
 description: Uso ou personalização do componente principal de texto de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Há vários motivos para usar texto em um formulário:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de texto do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -53,6 +53,8 @@ Obtenha as últimas informações sobre o Componente principal de texto de formu
 ## Caixa de diálogo de configuração {#configure-dialog}
 
 Você pode personalizar facilmente a experiência de texto para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de texto com facilidade para uma experiência de usuário perfeita.
+
+### Guia Básico
 
 ![Guia Básico](/help/adaptive-forms/assets/text_properties.png)
 

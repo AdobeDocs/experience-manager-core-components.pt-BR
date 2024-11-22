@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis – Entrada de telefone,
 description: Uso ou personalização do componente principal de entrada de telefone de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 100%
+source-wordcount: '2199'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Os motivos comuns para se usar um campo de entrada de telefone em um formulário
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal do telefone Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -50,6 +50,8 @@ Obtenha as informações mais recentes sobre o componente principal de entrada d
 ## Caixa de diálogo de configuração {#configure-dialog}
 
 Você pode personalizar facilmente a experiência de entrada de telefone para visitantes com a caixa de diálogo de configuração. Você também pode definir opções de entrada de telefone com facilidade para uma experiência de usuário perfeita.
+
+### Guia Básico
 
 ![Guia Básico](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 

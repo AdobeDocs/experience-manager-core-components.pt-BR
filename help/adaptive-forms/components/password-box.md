@@ -1,43 +1,48 @@
 ---
-title: 'Componente principal de Formulários adaptáveis: Entrada de texto (caixa de texto)'
-description: Uso ou personalização do Componente principal de entrada de texto de Formulários adaptáveis.
+title: Componente principal adaptável do Forms - Caixa Senha
+description: Uso ou personalização do Componente principal da caixa Senha adaptável do Forms.
 role: Architect, Developer, Admin, User
-exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+hide: true
+hidefromtoc: true
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 98%
+source-wordcount: '1916'
+ht-degree: 89%
 
 ---
 
-# Componente de caixa de texto{#text-input-adaptive-forms-core-component}
+# Componente da caixa de senha
 
-Um componente de entrada de texto (caixa de texto) permite que um usuário insira e edite uma única ou várias linhas de texto, dependendo do atributo tipo do elemento de entrada. O componente de entrada de texto pode ser colocado em um formulário e geralmente é rotulado com um texto que identifica facilmente sua finalidade. Esses são elementos fundamentais de qualquer formulário, amplamente usados para coletar diferentes tipos de dados dos usuários. Eles são simples, flexíveis e podem ser configurados para validar entradas e melhorar a precisão da coleção de dados.
+<span class="preview"> Este é um recurso de pré-lançamento acessível através do nosso [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features). </span>
+
+Um componente de caixa de senha permite que os usuários insiram e editem informações confidenciais, geralmente mascaradas para fins de privacidade. O componente de senha pode ser configurado com várias regras de validação para garantir a precisão dos dados. Normalmente usados em formulários, os campos de senha são diretos e melhoram a segurança dos dados.
 
 **Exemplo**
 
-![exemplo](/help/adaptive-forms/assets/text-input.png)
+![exemplo de passwordbox](/help/adaptive-forms/assets/password.png)
 
+O usuário pode clicar no ícone de olho para alternar a visibilidade do texto de senha inserido. Isso aumenta a segurança e, ao mesmo tempo, permite que os usuários insiram informações confidenciais com precisão.
 
-## Uso {#reasons-to-use-text-input-field}
+## Uso
 
-Há vários motivos para usar o componente de entrada de texto em um Formulário adaptável:
+Há vários motivos para usar o componente Caixa de senha em um formulário adaptável:
 
-- **Coleção de dados**: os campos de entrada de texto são um dos elementos de formulário mais comuns usados para coletar uma grande variedade de informações dos usuários, como nomes, endereços de email, números de telefone e outros tipos de dados de texto.
+- **Coleta de dados segura**: o campo de caixa de senha é usado para coletar informações confidenciais, como senhas, PINs e outras entradas confidenciais, exibindo caracteres mascarados para fins de privacidade.
 
-- **Fácil de usar**: os campos de entrada de texto são simples e fáceis de usar, facilitando a inserção e edição de texto pelos usuários.
+- **Fácil de usar**: o campo da caixa de senha permite que os usuários insiram e editem informações com segurança sem expor na tela.
 
-- **Flexibilidade**: os campos de entrada de texto podem ser usados para coletar uma grande variedade de informações, desde entradas de texto curtas com uma única linha até entradas de texto mais longas com várias linhas.
+- **Flexibilidade**: o componente da caixa de senha pode ser configurado para atender aos requisitos de segurança, como comprimento mínimo de caracteres, caracteres especiais ou outras validações personalizadas, para garantir proteção e precisão de dados.
 
-## Versão e compatibilidade {#version-and-compatibility}
+<!--
+## Version and Compatibility {#version-and-compatibility}
 
-O componente principal da caixa de texto Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+The Adaptive Forms Password box Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-| v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -53,7 +58,7 @@ Você pode personalizar facilmente sua experiência de entrada de texto para vis
 
 ### Guia Básico
 
-![Guia Básico](/help/adaptive-forms/assets/textinput_basictab.png)
+![Guia Básico](/help/adaptive-forms/assets/password-basic.png)
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
@@ -75,15 +80,9 @@ Você pode personalizar facilmente sua experiência de entrada de texto para vis
 
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-- **Valor padrão**: essa opção permite adicionar um valor padrão a um campo de formulário. O texto desaparece quando o usuário começa a digitar no campo. Se o **Componente desativado** ou o **Componente de somente leitura** for selecionado, o valor padrão será exibido na tela. Se nenhum valor for inserido pelo usuário no campo de formulário, esse será o valor enviado no momento do envio do formulário.
-
-- **Permitir várias linhas**: essa opção permite que o usuário insira várias linhas em um campo de formulário.
-
-- **Preencher atributo automaticamente**: a opção permite que os usuários insiram um valor que é preenchido automaticamente no campo de formulário com base nas informações armazenadas.
-
 ### Guia Validação {#validation-tab}
 
-![Guia Validação](/help/adaptive-forms/assets/textinput_validationtab.png)
+![Guia Validação](/help/adaptive-forms/assets/password-validation.png)
 
 - **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio de formulário. Não é possível selecionar as opções **Ocultar componente** ou **Desativar Componente** na guia **Básico** quando essa opção está selecionada.
 
@@ -107,7 +106,7 @@ A opção **Padrão de validação** permite inserir um padrão para validar o t
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
-![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/textinput_helptab.png)
+![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/password-help.png)
 
 - **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
@@ -117,7 +116,7 @@ A opção **Padrão de validação** permite inserir um padrão para validar o t
 
 ### Guia Acessibilidade {#accessibility-tab}
 
-![Guia Acessibilidade](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
+![Guia Acessibilidade](/help/adaptive-forms/assets/password-accessibilty.png)
 
 - **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
    - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.

@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 100%
+source-wordcount: '2137'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Há vários motivos para usar botões de opção em um formulário, incluindo:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal do botão de opção Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -61,6 +61,8 @@ Obtenha as informações mais recentes sobre o Componente principal de botão de
 ## Caixa de diálogo de configuração {#configure-dialog}
 
 Você pode personalizar facilmente a experiência dos botões de opção para visitantes com a caixa de diálogo Configurar. Você também pode definir as opções dos botões de opção com facilidade para oferecer uma experiência do usuário contínua.
+
+### Guia Básico
 
 ![Guia Básico](/help/adaptive-forms/assets/radiobutton_basictab.png)
 

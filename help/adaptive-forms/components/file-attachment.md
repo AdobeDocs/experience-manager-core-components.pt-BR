@@ -3,14 +3,16 @@ title: Componente principal de formulários adaptáveis - Anexo de arquivo
 description: Uso ou personalização do componente principal de anexo de arquivo de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 100%
+source-wordcount: '2043'
+ht-degree: 93%
 
 ---
 
 # Componente de anexo de arquivo {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> O recurso **Tipo de dados do valor enviado** está disponível em um programa de adoção antecipada. Você pode escrever para aem-forms-ea@adobe.com da sua ID de email oficial para ingressar no programa de adoção antecipada e solicitar acesso ao recurso. </span>
 
 Um componente de anexo de arquivo de um formulário adaptável permite que os usuários selecionem e façam upload de arquivos de seu computador local ou dispositivo. O componente de anexo de arquivo pode ser configurado para permitir tipos de arquivo específicos, limites de tamanho e anexação de múltiplos arquivos.
 
@@ -35,7 +37,7 @@ Há várias vantagens de se incluir um componente de anexo de arquivo em um form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal do anexo de arquivo do Adaptive Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -57,7 +59,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 
 ### Guia Básico {#basic-tab}
 
-![Guia Básico](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![Guia Básico](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **Nome**: é possível identificar um componente de formulário facilmente com seu nome exclusivo no formulário e no editor de regras, mas o nome não pode conter espaços ou caracteres especiais.
 
@@ -72,6 +74,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 - **Título do botão**: essa opção é usada para definir o rótulo do botão exibido em um formulário adaptável.
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
+- **Tipo de dados do valor enviado**: selecione a opção para determinar como o arquivo anexado é enviado ao servidor. Para enviar o anexo como dados binários, escolha a opção `File`. Para enviar o anexo como uma sequência codificada em Base64, escolha a opção `String`. Se `String` for selecionado, o arquivo no formato binário será enviado ao servidor como uma URL de dados. O servidor converte automaticamente o URL dos dados de volta para o formato binário, garantindo a compatibilidade com as ações existentes, como enviar emails e gerar o Documento de registro, sem exigir alterações dos usuários. Por padrão, a opção `File` está selecionada.
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.

@@ -3,10 +3,10 @@ title: 'Componente principal de Formulários adaptáveis: Lista suspensa'
 description: Uso ou personalização do Componente principal Lista suspensa de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 100%
+source-wordcount: '2188'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Além disso, a lista suspensa pode ser configurada para ter valores de processam
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal Acordeão de formulário adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal da lista suspensa Adaptive Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -62,6 +62,8 @@ Obtenha as informações mais recentes sobre o Componente principal de Lista sus
 ## Caixa de diálogo de configuração {#configure-dialog}
 
 Você pode personalizar facilmente sua experiência de lista suspensa para visitantes com a caixa de diálogo Configurar. Você também pode definir opções de lista suspensa com facilidade para uma experiência do usuário perfeita.
+
+### Guia Básico
 
 ![Guia Básico](/help/adaptive-forms/assets/dropdown_basictab.png)
 
