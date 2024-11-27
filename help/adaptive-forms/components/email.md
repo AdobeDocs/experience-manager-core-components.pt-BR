@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2113'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Há várias vantagens de se incluir um componente de entrada de email em um form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal de email adaptável do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de email de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|

@@ -4,15 +4,15 @@ description: Uso ou personalização do componente principal de anexo de arquivo
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Componente de anexo de arquivo {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> O recurso **Tipo de dados do valor enviado** está disponível em um programa de adoção antecipada. Você pode escrever para aem-forms-ea@adobe.com da sua ID de email oficial para ingressar no programa de adoção antecipada e solicitar acesso ao recurso. </span>
+<span class="preview"> O recurso **Tipo de dados do valor enviado** está disponível em um programa de adoção antecipada. Você pode escrever para aem-forms-ea@adobe.com a partir da sua ID de email oficial para ingressar no programa de adoção antecipada e solicitar acesso ao recurso. </span>
 
 Um componente de anexo de arquivo de um formulário adaptável permite que os usuários selecionem e façam upload de arquivos de seu computador local ou dispositivo. O componente de anexo de arquivo pode ser configurado para permitir tipos de arquivo específicos, limites de tamanho e anexação de múltiplos arquivos.
 
@@ -37,7 +37,7 @@ Há várias vantagens de se incluir um componente de anexo de arquivo em um form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal do anexo de arquivo do Adaptive Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de anexo de arquivo de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -74,7 +74,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 - **Título do botão**: essa opção é usada para definir o rótulo do botão exibido em um formulário adaptável.
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
-- **Tipo de dados do valor enviado**: selecione a opção para determinar como o arquivo anexado é enviado ao servidor. Para enviar o anexo como dados binários, escolha a opção `File`. Para enviar o anexo como uma sequência codificada em Base64, escolha a opção `String`. Se `String` for selecionado, o arquivo no formato binário será enviado ao servidor como uma URL de dados. O servidor converte automaticamente o URL dos dados de volta para o formato binário, garantindo a compatibilidade com as ações existentes, como enviar emails e gerar o Documento de registro, sem exigir alterações dos usuários. Por padrão, a opção `File` está selecionada.
+- **Tipo de dados do valor enviado**: selecione a opção para determinar como o arquivo anexado é enviado ao servidor. Para enviar o anexo como dados binários, escolha a opção `File`. Para enviar o anexo como uma string codificada em Base64, escolha a opção `String`. Se `String` for selecionado, o arquivo no formato binário será enviado ao servidor como um URL de dados. O servidor converte automaticamente o URL dos dados de volta para o formato binário, garantindo a compatibilidade com ações existentes, como envio de emails e gerar o Documento de registro, sem exigir nenhuma alteração dos usuários. Por padrão, a opção `File` é selecionada.
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
@@ -109,7 +109,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 
 - **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative a opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 

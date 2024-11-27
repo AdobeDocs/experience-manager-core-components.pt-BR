@@ -1,12 +1,12 @@
 ---
 title: Componente principal de formulários adaptáveis - Termos e condições
-description: Uso ou personalização do componente principal Termos e condições para formulários adaptáveis
+description: Uso ou personalização do componente principal Termos e condições para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3256'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Consulte a seção [Subcomponentes do componente de Termos e condições](#sub-c
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal dos Termos e condições adaptáveis do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.62 para Cloud Service e Componentes principais 1.1.28 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de termos e condições de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.62 para Cloud Service e dos Componentes principais 1.1.28 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|

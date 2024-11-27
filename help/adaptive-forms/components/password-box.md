@@ -1,37 +1,37 @@
 ---
-title: Componente principal adaptável do Forms - Caixa Senha
-description: Uso ou personalização do Componente principal da caixa Senha adaptável do Forms.
+title: Componente principal de formulários adaptáveis – Caixa de senha
+description: Uso ou personalização do Componente principal de caixa de senha de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Componente da caixa de senha
+# Componente de caixa de senha
 
-<span class="preview"> Este é um recurso de pré-lançamento acessível através do nosso [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features). </span>
+<span class="preview"> É um recurso de pré-lançamento acessível através do nosso [canal de pré-lançamento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features). </span>
 
-Um componente de caixa de senha permite que os usuários insiram e editem informações confidenciais, geralmente mascaradas para fins de privacidade. O componente de senha pode ser configurado com várias regras de validação para garantir a precisão dos dados. Normalmente usados em formulários, os campos de senha são diretos e melhoram a segurança dos dados.
+Um componente de caixa de senha permite que os usuários insiram e editem informações confidenciais, geralmente mascaradas para fins de privacidade. O componente de senha pode ser configurado com várias regras de validação para garantir a precisão dos dados. Normalmente usados em formulários, os campos de senha são simples e aumentam a segurança dos dados.
 
 **Exemplo**
 
-![exemplo de passwordbox](/help/adaptive-forms/assets/password.png)
+![exemplo de caixa de senha](/help/adaptive-forms/assets/password.png)
 
-O usuário pode clicar no ícone de olho para alternar a visibilidade do texto de senha inserido. Isso aumenta a segurança e, ao mesmo tempo, permite que os usuários insiram informações confidenciais com precisão.
+O usuário pode clicar no ícone de olho para exibir o texto da senha inserida. Isso aumenta a segurança e permite que os usuários insiram informações confidenciais com precisão.
 
 ## Uso
 
-Há vários motivos para usar o componente Caixa de senha em um formulário adaptável:
+Há vários motivos para usar o componente de caixa de senha em um Formulário adaptável:
 
-- **Coleta de dados segura**: o campo de caixa de senha é usado para coletar informações confidenciais, como senhas, PINs e outras entradas confidenciais, exibindo caracteres mascarados para fins de privacidade.
+- **Coleção de dados segura**: o campo de caixa de senha é usado para coletar informações sensíveis, como senhas, PINs e outros registros confidenciais, exibindo caracteres mascarados para fins de privacidade.
 
-- **Fácil de usar**: o campo da caixa de senha permite que os usuários insiram e editem informações com segurança sem expor na tela.
+- **Fácil de usar**: o campo de caixa de senha permite que os usuários insiram e editem informações com segurança sem exibi-las na tela.
 
-- **Flexibilidade**: o componente da caixa de senha pode ser configurado para atender aos requisitos de segurança, como comprimento mínimo de caracteres, caracteres especiais ou outras validações personalizadas, para garantir proteção e precisão de dados.
+- **Flexibilidade**: o componente de caixa de senha pode ser configurado para atender aos requisitos de segurança, como comprimento mínimo de caracteres, caracteres especiais ou outras validações personalizadas para garantir a proteção e precisão dos dados.
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
@@ -123,7 +123,7 @@ A opção **Padrão de validação** permite inserir um padrão para validar o t
    - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
    - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
-   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo Design {#design-dialog}
 

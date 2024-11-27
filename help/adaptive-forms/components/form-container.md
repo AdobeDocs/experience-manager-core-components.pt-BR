@@ -4,15 +4,15 @@ description: Adicionar um formulário adaptável a uma página da web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Container de formulário {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Este artigo discute o recurso **Rascunhos** <!--and **Hamburger Menu Support** -->, que é um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features).</span>
+<span class="preview"> Este artigo discute o recurso **Rascunhos** <!--and **Hamburger Menu Support** -->, que é um recurso de pré-lançamento. O recurso de pré-lançamento pode ser acessado somente por meio do [canal de pré-lançamento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/prerelease#new-features).</span>
 
 O Forms permite que os visitantes do site interajam com o site fornecendo informações valiosas, que podem aumentar o engajamento e a satisfação do usuário. No Adobe Experience Manager Sites (AEM Sites), um container de formulário adaptável permite que os proprietários de sites adicionem formulários facilmente a suas páginas. Isso ajuda a facilitar a comunicação entre os visitantes do site e o proprietário ou a organização, oferecendo uma maneira simplificada para que os visitantes forneçam feedback, façam consultas e realizem outras ações
 
@@ -64,12 +64,12 @@ Você pode personalizar facilmente a experiência do container de formulário pa
 
 - **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
-- **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de preenchimento prévio](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
+- **Serviços de preenchimento prévio**: essa opção permite que o usuário selecione um serviço de preenchimento prévio para recuperar dados quando o formulário adaptável for renderizado. Saiba mais sobre [como criar e configurar um serviço de pré-preenchimento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=pt-BR#aem-forms-custom-prefill-service).
 
-- **Função**: a função é um atributo de HTML usado para especificar a finalidade de um elemento de HTML para tecnologias assistivas, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
+- **Função**: a função é um atributo HTML usado para especificar a finalidade de um elemento HTML para tecnologias de assistência, como leitores de tela. O atributo de função é usado para fornecer contexto e significado semântico adicionais a um elemento, facilitando a interpretação e o anúncio do conteúdo pelos leitores de tela. Por exemplo, no AEM Forms, o rótulo de um campo de formulário pode ter a função de “rótulo” e seu campo de entrada pode ter a função de “caixa de texto”. Isso ajuda o leitor de tela a entender a relação entre o rótulo e o campo de entrada e anunciá-los corretamente ao usuário.
 
 - **Categoria de biblioteca do cliente**: o usuário pode configurar uma biblioteca JavaScript personalizada por formulário adaptável. É recomendável manter somente as funções reutilizáveis na biblioteca, que dependem das bibliotecas de terceiros de jquery e underscore.js.
-Às vezes, se houver **regras de validação complexas**, o script de validação exato residirá em funções personalizadas, e os usuários chamam essas funções personalizadas a partir da expressão de validação do campo. Para tornar esta biblioteca de funções personalizadas conhecida e disponível durante a execução de validações no lado do servidor, o usuário do formulário pode configurar o nome da biblioteca do cliente AEM na guia **[!UICONTROL Básico]** das propriedades do Contêiner de formulário adaptável.
+Às vezes, se houver **regras de validação complexas**, o script de validação exato residirá em funções personalizadas, e os usuários chamam essas funções personalizadas a partir da expressão de validação do campo. Para tornar esta biblioteca de funções personalizadas conhecida e disponível durante a execução de validações do lado do servidor, o usuário do formulário pode configurar o nome da biblioteca do cliente do AEM na guia **[!UICONTROL Básico]** das propriedades do Container de formulários adaptáveis.
 Usuários podem configurar a biblioteca customJavaScript para cada formulário adaptável. Na biblioteca, mantenha somente as funções reutilizáveis, que dependem de bibliotecas de terceiros de jquery e underscore.js.
 
 <!--
@@ -88,9 +88,9 @@ Você pode usar o modelo de dados do formulário e conectar um formulário a uma
 
 ![Guia Enviar](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Salvar rascunhos automaticamente**: marque a caixa de seleção **Salvar rascunhos automaticamente** para habilitar o salvamento de formulários como rascunhos.
-- **Salvar Preferência**: Configurar **Salvar Preferência** como **Salvar rascunhos em intervalos regulares**, para salvar automaticamente o formulário após um intervalo de tempo específico.
-  **Frequência do intervalo de salvamento (Segundos)**: especifique o intervalo de tempo (em segundos) para definir a duração que aciona o salvamento automático do formulário no intervalo definido.
+- **Salvar rascunhos automaticamente**: marque a caixa de seleção **Salvar rascunhos automaticamente** para habilitar o salvamento de formulários como rascunhos.
+- **Salvar preferência**: Configure a opção **Salvar preferência** como **Salvar rascunhos em intervalos regulares** para salvar automaticamente o formulário após um intervalo de tempo específico.
+  **Frequência do intervalo de salvamento (segundos)**: especifique o intervalo de tempo (em segundos) para definir a duração que aciona o salvamento automático do formulário no intervalo definido.
 
 ### Guia Enviar {#submission-tab}
 

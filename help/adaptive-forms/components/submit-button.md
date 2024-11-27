@@ -4,9 +4,9 @@ description: Uso ou personalização do Componente principal de botão Enviar de
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Os motivos para usar um botão Enviar em um Formulário adaptável são:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal do botão Enviar do Adaptive Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de botão enviar de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
