@@ -4,10 +4,11 @@ description: Melhore a segurança dos formulários com o serviço hCaptcha&reg; 
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 9a691fc2aa656f5a96d8cd4b6285e6bd473cdaa4
-workflow-type: tm+mt
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: be25eac36cafda0ff0cb745454593640cc54ceea
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +77,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 **Saiba mais** sobre outros **Componentes de Captcha** e seus serviços, como:
 
-- [Usar o hCaptcha em um formulário adaptável para os componentes principais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [Usar o hCaptcha em um formulário adaptável para os componentes principais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
 - [Usar o hCaptcha em um formulário adaptável para componentes de fundação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
