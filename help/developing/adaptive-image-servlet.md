@@ -3,16 +3,22 @@ title: Servlet de imagem adaptável
 description: Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # Servlet de imagem adaptável {#adaptive-image-servlet}
 
 Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
+
+>[!WARNING]
+>
+>Por motivos de desempenho, é altamente recomendável armazenar imagens no DAM e usar a entrega de imagens otimizadas para a Web.
+>
+>O armazenamento de imagens diretamente no nó do componente se destina ao uso ocasional. Ele não aproveita as representações do DAM para reduzir o processamento no Servlet de imagem adaptável e não permite os benefícios de desempenho da entrega de imagens otimizadas para a Web, resultando em possíveis problemas de desempenho.
 
 ## Servlet de imagem adaptável ou entrega de imagens otimizadas para a Web? {#options}
 
