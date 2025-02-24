@@ -3,10 +3,10 @@ title: Servlet de imagem adaptável
 description: Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -41,9 +41,9 @@ O Servlet de imagem adaptável selecionará automaticamente a representação ma
 1. Ele seleciona apenas aquelas com o mesmo tipo MIME do ativo referenciado original.
    * Por exemplo: se o ativo original era um arquivo PNG, ele só considerará representações em PNG.
 1. Dessas representações, ele considera as dimensões e as compara ao tamanho do container no qual a imagem deve ser exibida.
-   1. Se a representação for maior ou igual ao tamanho do container, ela será adicionada a uma lista de representações candidatas.
-   1. Se a representação for menor do que o container, ela será desconsiderada.
-   1. Esses critérios garantem que a representação não seja ampliada, o que afetaria a qualidade da imagem.
+1. Se a representação for maior ou igual ao tamanho do container, ela será adicionada a uma lista de representações candidatas.
+1. Se a representação for menor do que o container, ela será desconsiderada.
+1. Esses critérios garantem que a representação não seja ampliada, o que afetaria a qualidade da imagem.
 1. O Servlet de imagem adaptável escolhe a representação da lista de candidatas que tem o menor tamanho de arquivo.
 
 ## Otimização da seleção de representação {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ Isto melhorará o desempenho e evitará que algumas imagens sejam processadas co
 
 As solicitações condicionais pelo cabeçalho `Last-Modified` são suportadas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified` [precisa ser ativado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
 
-A amostra da configuração do Dispatcher do [Arquétipo de projeto do AEM](/help/developing/archetype/overview.md) já contém essa configuração.
+[A amostra da configuração do Dispatcher ](/help/developing/archetype/overview.md) do Arquétipo de Projeto do AEM já contém essa configuração.
