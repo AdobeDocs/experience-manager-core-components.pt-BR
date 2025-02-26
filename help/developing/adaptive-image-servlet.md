@@ -4,9 +4,9 @@ description: Saiba como os Componentes principais usam o Servlet de imagem adapt
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ Isto melhorará o desempenho e evitará que algumas imagens sejam processadas co
 
 ## Usar cabeçalhos de última modificação {#last-modified}
 
-As solicitações condicionais pelo cabeçalho `Last-Modified` são suportadas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified` [precisa ser ativado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
+As solicitações condicionais pelo cabeçalho `Last-Modified` são aceitas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified` [precisa ser ativado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
 
-[A amostra da configuração do Dispatcher ](/help/developing/archetype/overview.md) do Arquétipo de Projeto do AEM já contém essa configuração.
+A amostra da configuração do Dispatcher do [Arquétipo de projeto do AEM](/help/developing/archetype/overview.md) já contém essa configuração.
