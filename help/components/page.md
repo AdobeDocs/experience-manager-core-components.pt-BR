@@ -3,10 +3,10 @@ title: Componente de Página
 description: O componente de Página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -26,17 +26,17 @@ A versão atual do componente de página é a v3, introduzida com a versão 2.18
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/page.md) | Compatível | Compatível | Compatível |
-| [v1](v1/page-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v3 | - | Compatível | Compatível | Compatível |
+| [v2](v2/page.md) | Compatível | Compatível | - | Compatível |
+| [v1](v1/page-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
 ## Compatível com o Aplicativo web progressivo {#pwa-support}
 
-A versão 2.15.0 dos Componentes principais introduziu o suporte para recursos incorporados de [Aplicativos web progressivos (PWA) do AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
+A versão 2.15.0 dos Componentes principais introduziu o suporte para recursos integrados de [Aplicativos web progressivos (PWA) do AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
 
 ### Detalhes técnicos {#technical-details}
 

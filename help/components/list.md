@@ -3,10 +3,10 @@ title: Componente de Lista
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '1204'
+ht-degree: 99%
 
 ---
 
@@ -24,12 +24,12 @@ A versão atual do Componente de lista é a v4, introduzida com a versão 2.22.0
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
 | v4 | - | Compatível | Compatível |
-| [v3](/help/components/v3/list.md) | - | Compatível | Compatível |
-| [v2](/help/components/v2/list.md) | Compatível | Compatível | Compatível |
-| [v1](/help/components/v1/list-v1.md) | Compatível | Compatível | Compatível |
+| [v3](/help/components/v3/list.md) | - | Compatível | Compatível | Compatível |
+| [v2](/help/components/v2/list.md) | Compatível | Compatível | - | Compatível |
+| [v1](/help/components/v1/list-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

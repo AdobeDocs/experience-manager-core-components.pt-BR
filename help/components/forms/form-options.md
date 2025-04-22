@@ -3,10 +3,10 @@ title: Componente Opções de formulário
 description: O componente Opções de formulário, dos Componentes principais, permitem a seleção de opções predefinidas em vários formatos.
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ A versão atual do componente Opções de formulário é a v2, introduzida com a
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
-| [v1](/help/components/v1/form-options-v1.md) | Compatível | Compatível | Compatível |
+| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível | Compatível |
+| [v1](/help/components/v1/form-options-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

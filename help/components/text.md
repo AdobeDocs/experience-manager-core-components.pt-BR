@@ -3,10 +3,10 @@ title: Componente de texto
 description: O componente de Texto é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: ht
-source-wordcount: '2181'
-ht-degree: 100%
+source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
+workflow-type: tm+mt
+source-wordcount: '2185'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ A versão atual do componente de Texto é a v2, introduzida com a versão 2.0.0 
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível |
-| [v1](v1/text-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | Compatível | Compatível |
+| [v1](v1/text-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

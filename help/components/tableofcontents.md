@@ -3,10 +3,10 @@ title: Componente de índice
 description: O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ A versão atual do Componente de índice é a v1, introduzida com a versão 2.20
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatível | Compatível |
+| Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatível | Compatível | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

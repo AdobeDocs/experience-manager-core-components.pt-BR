@@ -1,12 +1,12 @@
 ---
-title: Componente de Compartilhamento em redes sociais
+title: 'Componente de Compartilhamento em redes sociais '
 description: O componente de Compartilhamento em redes sociais, dos Componentes principais, é um dispositivo de compartilhamento no Facebook e Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ A versão atual do componente de Compartilhamento em redes sociais é a v1, intr
 
 A tabela a seguir detalha todas as versões compatíveis do componente e as versões de AEM com as quais as versões do componente são compatíveis.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível, descontinuado | Compatível, descontinuado |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível, descontinuado | Compatível, descontinuado | Compatível, descontinuado |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

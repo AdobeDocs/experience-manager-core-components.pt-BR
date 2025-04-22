@@ -3,10 +3,10 @@ title: Componente de Teaser
 description: O componente de Teaser pode mostrar uma imagem, um título, um rich text e, opcionalmente, vincular a conteúdo adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ A versão atual do componente de teaser é a v2, introduzida com a versão 2.18.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/teaser.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | - | Compatível | Compatível | Compatível |
+| [v1](v1/teaser.md) | Compatível | Compatível | - | Compatível |
 
 ## Suporte a ativos remotos {#remote-assets}
 
@@ -102,7 +102,7 @@ Os estilos devem ser configurados para esse componente na [caixa de diálogo de 
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image.md). Portanto, a [caixa de diálogo de edição](image.md#edit-dialog) do componente de Imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
+O componente de Teaser delega a renderização da imagem ao [componente de Imagem](image.md). Portanto, a [caixa de diálogo de edição]&#x200B;(image.md#edit-dialog) do componente de Imagem está disponível ao autor de conteúdo para manipular a imagem do teaser.
 
 ## Caixa de diálogo de design {#design-dialog}
 

@@ -3,10 +3,10 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 100%
+source-wordcount: '1961'
+ht-degree: 99%
 
 ---
 
@@ -29,11 +29,11 @@ A versão atual do componente de imagem é a v3, introduzida com a versão 2.18.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais tais versões são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/image.md) | Compatível | Compatível | Compatível |
-| [v1](v1/image-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v3 | - | Compatível | Compatível | Compatível |
+| [v2](v2/image.md) | Compatível | Compatível | - | Compatível |
+| [v1](v1/image-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

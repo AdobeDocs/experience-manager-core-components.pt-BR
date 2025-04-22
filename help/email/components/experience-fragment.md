@@ -3,10 +3,10 @@ title: Componente de Fragmento de experiência de email
 description: O Componente de Fragmento de experiência de email permite que o autor de conteúdo coloque uma variação de Fragmento de experiência em seu conteúdo enquanto suporta uma estrutura de conteúdo localizada.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ A versão atual do Componente de Fragmento de experiência de email é a v1, int
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatível | - |
+| Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatível | Compatível | - |
 
 Para mais informações sobre as versões dos Componentes principais de email, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
 

@@ -3,10 +3,10 @@ title: Componente de Navegação
 description: O componente de Navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 100%
+source-wordcount: '1544'
+ht-degree: 99%
 
 ---
 
@@ -28,10 +28,10 @@ A versão atual do componente de navegação é a v2, introduzida com a versão 
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatível | Compatível |
-| [v1](v1/navigation.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatível | Compatível | Compatível |
+| [v1](v1/navigation.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

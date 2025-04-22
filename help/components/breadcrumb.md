@@ -3,10 +3,10 @@ title: Componente de Navegação estrutural
 description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ A versão atual do componente de navegação estrutural é a v3, introduzida com
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Compatível | Compatível |
-| [v2](v2/breadcrumb.md) | Compatível | Compatível | Compatível |
-| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | Compatível |
+| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- | --- |--- |---|---|
+| v3 | - | Compatível | Compatível | Compatível |
+| [v2](v2/breadcrumb.md) | Compatível | Compatível | - | Compatível |
+| [v1](v1/breadcrumb-v1.md) | Compatível | Compatível | - | Compatível |
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
