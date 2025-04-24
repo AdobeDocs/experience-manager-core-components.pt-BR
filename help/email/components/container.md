@@ -3,9 +3,9 @@ title: Componente de container de email
 description: O Componente de container de email permite a criação de um container para vários componentes adicionais no seu conteúdo de email.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatível | Compatível | - |
+| v1 | Compatível | - | - |
 
 Para mais informações sobre as versões dos Componentes principais de email, consulte o documento [Versões dos Componentes principais.](/help/email/versions.md)
 

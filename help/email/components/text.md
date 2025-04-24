@@ -3,9 +3,9 @@ title: Componente de texto de email
 description: O Componente de texto de email é um componente de edição e composição de rich text que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2264'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatível | Compatível | - |
+| v1 | Compatível | - | - |
 
 Para mais informações sobre as versões e novidades dos componentes principais, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
 

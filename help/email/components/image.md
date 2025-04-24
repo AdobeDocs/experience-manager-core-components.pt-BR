@@ -3,9 +3,9 @@ title: 'Componente de imagem de email '
 description: O Componente de imagem de email é um componente de imagem adaptável que conta com um sistema de edição incorporado.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatível | Compatível | - |
+| v1 | Compatível | - | - |
 
 Para mais informações sobre as versões e lançamentos dos Componentes principais, consulte o documento [Versões dos Componentes principais de email](/help/email/versions.md).
 

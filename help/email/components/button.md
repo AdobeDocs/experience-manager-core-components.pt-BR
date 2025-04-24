@@ -3,9 +3,9 @@ title: Componente do Botão de email
 description: O Componente do Botão de email permite a configuração e a exibição de um item de botão em seu conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatível | Compatível | - |
+| v1 | Compatível | - | - |
 
 Para mais informações sobre as versões e novidades dos componentes principais, consulte o documento [Versões dos Componentes principais de email.](/help/email/versions.md)
 
