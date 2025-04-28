@@ -4,9 +4,9 @@ description: O componente Separador cria uma quebra entre componentes em uma pá
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
