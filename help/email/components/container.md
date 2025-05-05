@@ -4,7 +4,7 @@ description: O Componente de container de email permite a criação de um contai
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: Dentre os Componentes de imagem, o principal é um componente de im
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 >
 >Por padrão, o Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) para obter detalhes sobre seu funcionamento.
 
-### Diferenças com a v2 {#v2-differences}
+### Diferenças em comparação com a v2 {#v2-differences}
 
-Ao contrário da versão 2 do componente de Imagem, a versão 3 usa a capacidade de resposta nativa do navegador. Isso significa que ele fornece ao navegador um conjunto de fontes para uma imagem de diferentes larguras e o navegador escolherá a melhor.
+Ao contrário da versão 2 do componente de imagem, a versão 3 usa a capacidade de resposta nativa do navegador. Isso significa que ela fornece ao navegador um conjunto de fontes para uma imagem com diferentes larguras para que o navegador escolha a melhor.
 
-Na maioria das vezes, os navegadores preferem diminuir localmente uma largura maior para ajustar-se a uma janela de visualização menor, em vez de buscar a imagem de largura menor do servidor. Isso é esperado e por que o componente de Imagem não deve ser usado para a direção de arte (imagens/culturas diferentes para visores diferentes).
+Na maioria das vezes, os navegadores preferem reduzir localmente uma largura maior para caber em uma janela de visualização menor, em vez de buscar a imagem de largura menor do servidor. Esse comportamento é esperado e é por isso que o componente de imagem não deve ser usado para direção de arte (imagens/cortes diferentes para diferentes janelas de visualização).
 
-[Consulte a documentação técnica do componente de Imagem](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) para obter mais informações.
+[Consulte a documentação técnica do componente de imagem](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) para obter mais informações.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 

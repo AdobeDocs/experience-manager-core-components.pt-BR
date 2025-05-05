@@ -4,9 +4,9 @@ description: Crie conteúdo atraente de email usando a flexibilidade dos Compone
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Os Componentes principais de email têm os seguintes requisitos.
 
 | AEM | Adobe Campaign | Componentes principais  |
 |---|---|---|
-| AEM 6.5.14.0+<br>No local ou AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versão 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>Local ou para AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versão 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

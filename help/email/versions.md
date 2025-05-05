@@ -4,16 +4,16 @@ description: Os componentes principais de e-mail são publicados em cada lançam
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Versões dos componentes principais de e-mail {#core-components-versions}
 
-A versão atual dos componentes principais de e-mail é a 1.3.0, e ela é compatível com o AEM 6.5, no local e AMS.
+A versão atual dos componentes principais de email é a 1.3.0, e ela é compatível com o AEM 6.5 local e para AMS.
 
 Consulte a [seção Requisitos](/help/email/introduction.md#requirements) do documento de Introdução aos componentes principais de e-mail e a [seção Instalação](/help/email/using.md#installing-the-email-core-components) do documento Utilização dos componentes principais de e-mail para obter mais informações sobre os requisitos e a instalação, respectivamente.
 

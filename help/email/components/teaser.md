@@ -4,7 +4,7 @@ description: O Componente de teaser de email pode mostrar uma imagem, um título
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
 ht-degree: 100%
 
