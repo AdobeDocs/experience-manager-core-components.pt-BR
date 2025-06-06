@@ -3,7 +3,7 @@ title: Componente principal de formulários adaptáveis - Anexo de arquivo
 description: Uso ou personalização do componente principal de anexo de arquivo de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 97%
@@ -47,7 +47,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -101,12 +101,8 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
    - **Excluir**: toque ou clique nessa opção para remover os tipos específicos de arquivos.
    - **Reorganizar**: toque ou clique nessa opção e então arraste os tipos de arquivos permitidos para reorganizar a ordem deles.
 
+  O envio de um arquivo alterando seu tipo para um formato de tipos de arquivo permitidos gera um erro durante o envio do formulário.
 - **Mensagem de erro de tipo de arquivo**: essa opção permite que você insira uma mensagem de erro que será exibida se você fizer upload de arquivos com um formato diferente dos listados na opção **Tipos de arquivo permitidos**.
-
->
->
-> O envio de um arquivo alterando seu tipo para um formato de tipos de arquivo permitidos gera um erro durante o envio do formulário.
-
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
@@ -162,7 +158,7 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
