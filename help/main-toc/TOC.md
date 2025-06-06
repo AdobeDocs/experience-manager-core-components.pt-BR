@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Use os Componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
    + [Guias](/help/components/tabs.md)
    + [Teaser](/help/components/teaser.md)
    + [Título](/help/components/title.md)
-   + Componentes de formulário {#forms}
+   + Componentes de formulários {#forms}
       + [Botão de formulário](/help/components/forms/form-button.md)
       + [Container de formulário](/help/components/forms/form-container.md)
       + [Formulário Oculto](/help/components/forms/form-hidden.md)
@@ -72,7 +72,7 @@ ht-degree: 100%
       + [Pesquisa rápida (v1)](/help/components/v1/quick-search.md)
       + [Texto (v1)](/help/components/v1/text-v1.md)
       + [Título (v1)](/help/components/v1/title-v1.md)
-      + Componentes de formulário v1 {#v1-forms}
+      + Componentes de forma v1 {#v1-forms}
          + [Botão de formulário (v1)](/help/components/v1/form-button-v1.md)
          + [Contêineres de formulário (v1)](/help/components/v1/form-container-v1.md)
          + [Formulário Oculto (v1)](/help/components/v1/form-hidden-v1.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Formulários adaptáveis {#adaptive-forms}
    + [Introdução](/help/adaptive-forms/introduction.md)
    + [Histórico da versão](/help/adaptive-forms/version.md)
-   + Componentes de formulários adaptáveis {#adaptive-forms-components}
+   + Componentes adaptáveis do Forms {#adaptive-forms-components}
       + [Acordeão de formulários adaptáveis](/help/adaptive-forms/components/accordion.md)
       + [Botão de formulários adaptáveis](/help/adaptive-forms/components/button.md)
       + [Caixa de seleção de formulários adaptáveis](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [CAPTCHA para formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
+      + [Revisão de formulário adaptável](/help/adaptive-forms/components/review.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
       + [Interruptor para formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Celular de formulários adaptáveis](/help/adaptive-forms/components/phone.md)
@@ -138,7 +139,7 @@ ht-degree: 100%
       + [Rodapé](/help/adaptive-forms/components/footer.md)
    + [Personalizar componentes principais dos formulários adaptáveis](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temas de amostra e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-+ Desenvolvimento {#developing}
++ Desenvolver {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
    + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
@@ -150,7 +151,7 @@ ht-degree: 100%
    + [O Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md)
    + [Entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md)
    + [Suporte a ativos remotos](/help/developing/remote-assets.md)
-   + Camada de dados de clientes Adobe {#data-layer}
+   + Camada de dados de clientes da Adobe {#data-layer}
       + [Visão geral da Camada de dados](/help/developing/data-layer/overview.md)
       + [Integrações com a Camada de dados](/help/developing/data-layer/integrations.md)
       + [Expansão da Camada de dados](/help/developing/data-layer/extending.md)

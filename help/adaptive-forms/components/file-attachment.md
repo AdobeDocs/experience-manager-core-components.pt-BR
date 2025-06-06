@@ -3,10 +3,10 @@ title: Componente principal de formulários adaptáveis - Anexo de arquivo
 description: Uso ou personalização do componente principal de anexo de arquivo de formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: ht
-source-wordcount: '2043'
-ht-degree: 100%
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
+workflow-type: tm+mt
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Há várias vantagens de se incluir um componente de anexo de arquivo em um form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de anexo de arquivo de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal do anexo de arquivo do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
 |---|---|---|
@@ -47,7 +47,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -103,6 +103,11 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 
 - **Mensagem de erro de tipo de arquivo**: essa opção permite que você insira uma mensagem de erro que será exibida se você fizer upload de arquivos com um formato diferente dos listados na opção **Tipos de arquivo permitidos**.
 
+>
+>
+> O envio de um arquivo alterando seu tipo para um formato de tipos de arquivo permitidos gera um erro durante o envio do formulário.
+
+
 ### Guia Conteúdo de ajuda {#help-content-tab}
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -118,13 +123,13 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
 
 ![Guia Acessibilidade](/help/adaptive-forms/assets/fileattachement_accessibilitytab.png)
 
-- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por indivíduos com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
+- **Texto para leitores de tela**: o texto para leitores de tela refere-se ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por pessoas com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
 
    - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
    - **Descrição**: selecione essa opção para usar a descrição para rótulos de acessibilidade ARIA.
    - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
    - **Nome**: selecione essa opção para usar o nome para rótulos de acessibilidade ARIA.
-   - **Nenhum**: selecione essa opção se não quiser adicionar nada aos rótulos de acessibilidade ARIA.
+   - **Nenhum**: selecione essa opção se não quiser adicionar rótulos de acessibilidade ARIA.
 
 ## Caixa de diálogo Design {#design-dialog}
 
@@ -157,7 +162,7 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
