@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Há várias vantagens de se incluir um componente de anexo de arquivo em um form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal do anexo de arquivo do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e Componentes principais 1.1.12 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de anexo de arquivo de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4 para Cloud Service e dos Componentes principais 1.1.12 para AEM Forms 6.5.16.0 ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
-| Versão do componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms ou posterior |
+| Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
@@ -47,7 +47,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -101,7 +101,7 @@ Você pode personalizar facilmente sua experiência de anexo de arquivo para vis
    - **Excluir**: toque ou clique nessa opção para remover os tipos específicos de arquivos.
    - **Reorganizar**: toque ou clique nessa opção e então arraste os tipos de arquivos permitidos para reorganizar a ordem deles.
 
-  O envio de um arquivo alterando seu tipo para um formato de tipos de arquivo permitidos gera um erro durante o envio do formulário.
+  Enviar um arquivo com uma alteração do tipo para um formato de tipo de arquivo permitido gera um erro durante o envio do formulário.
 - **Mensagem de erro de tipo de arquivo**: essa opção permite que você insira uma mensagem de erro que será exibida se você fizer upload de arquivos com um formato diferente dos listados na opção **Tipos de arquivo permitidos**.
 
 ### Guia Conteúdo de ajuda {#help-content-tab}
@@ -158,7 +158,7 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

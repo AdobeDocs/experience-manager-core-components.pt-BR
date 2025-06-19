@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [Título](/help/components/title.md)
    + Componentes de formulários {#forms}
       + [Botão de formulário](/help/components/forms/form-button.md)
-      + [Container de formulário](/help/components/forms/form-container.md)
+      + [Container do formulário](/help/components/forms/form-container.md)
       + [Formulário Oculto](/help/components/forms/form-hidden.md)
       + [Opções de formulário](/help/components/forms/form-options.md)
       + [Texto do formulário](/help/components/forms/form-text.md)
@@ -72,7 +72,7 @@ ht-degree: 92%
       + [Pesquisa rápida (v1)](/help/components/v1/quick-search.md)
       + [Texto (v1)](/help/components/v1/text-v1.md)
       + [Título (v1)](/help/components/v1/title-v1.md)
-      + Componentes de forma v1 {#v1-forms}
+      + Componentes de formulários v1 {#v1-forms}
          + [Botão de formulário (v1)](/help/components/v1/form-button-v1.md)
          + [Contêineres de formulário (v1)](/help/components/v1/form-container-v1.md)
          + [Formulário Oculto (v1)](/help/components/v1/form-hidden-v1.md)
@@ -105,7 +105,7 @@ ht-degree: 92%
 + Formulários adaptáveis {#adaptive-forms}
    + [Introdução](/help/adaptive-forms/introduction.md)
    + [Histórico da versão](/help/adaptive-forms/version.md)
-   + Componentes adaptáveis do Forms {#adaptive-forms-components}
+   + Componentes de formulários adaptáveis {#adaptive-forms-components}
       + [Acordeão de formulários adaptáveis](/help/adaptive-forms/components/accordion.md)
       + [Botão de formulários adaptáveis](/help/adaptive-forms/components/button.md)
       + [Caixa de seleção de formulários adaptáveis](/help/adaptive-forms/components/checkbox.md)
