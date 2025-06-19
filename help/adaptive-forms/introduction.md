@@ -4,7 +4,7 @@ description: Crie experiências de inscrição atraentes (formulários) usando a
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2123'
 ht-degree: 100%
 
@@ -78,21 +78,21 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Bloco do Adobe Sign | ✔️ | | | A [integração do Adobe Sign](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) está disponível somente para os componentes de fundação. |
 | Acordeão | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Para os componentes de fundação, é possível configurar o layout do acordeão nas [propriedades dos componentes do painel](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
 | Fragmento de formulário adaptável | ✔️ | ✔️ | | Para os componentes de fundação, é possível [adicionar um fragmento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) a partir do navegador de ativos. |
-| reCAPTCHA de formulário adaptável | ✔️ | ✔️ | ✔️ | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| reCAPTCHA do formulário adaptável | ✔️ | ✔️ | ✔️ | Para os componentes de fundação, use o componente Captcha para [adicionar o Google reCaptcha a um formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Botão | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
 | Gráfico | ✔️ | | | |
 | Caixa de seleção | ✔️ | ✔️ | | |
 | Grupo de caixas de seleção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Para os componentes de fundação, use o componente caixa de seleção para adicionar várias caixas de seleção |
 | Campo de entrada de data | ✔️ | | | Para os componentes principais, use o componente de [seletor de data](/help/adaptive-forms/components/date-picker.md). Também é possível adicionar componentes separados de [caixa de texto](/help/adaptive-forms/components/text-box.md) ou [caixa numérica](/help/adaptive-forms/components/numeric-box.md) para captar o dia, o mês e o ano. |
-| Seletor de data | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
+| Seletor de datas | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | Lista suspensa | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | Email | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email.md)</span> | ✔️ | |
-| Anexo de arquivo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
-| Listagem do anexo de arquivo | ✔️ | | | |
+| Arquivo em anexo | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
+| Listagem de anexos de arquivo | ✔️ | | | |
 | Rodapé | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | Espaço reservado para nota de rodapé | ✔️ | | | |
-| Container de formulário | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para componentes de fundação, use o [componente do painel raiz](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
-| Título do formulário | ✔️ | ✔️ | | Para componentes de fundação, use o componente título. |
+| Container do formulário | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para componentes de fundação, use o [componente do painel raiz](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
+| Título do formulário | ✔️ | ✔️ | | Para componentes de fundação, use o componente de título. |
 | hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | É possível [conectar seus formulários adaptáveis com o hCaptcha](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) para formulários baseados em componentes de fundação. |
 | Cabeçalho | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Guias horizontais | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Para os componentes de fundação, é possível configurar o [layout de guias na parte superior (guias horizontais)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) nas propriedades dos componentes do painel. |
@@ -102,15 +102,15 @@ A versão atual do AEM Forms inclui os seguintes componentes principais: [compon
 | Escalonador numérico | ✔️ | | | |
 | Painel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Telefone / Celular | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Botão Anterior | ✔️ | ✔️ | | Use o [componente assistente](/help/adaptive-forms/components/wizard.md) para os botões de próximo e anterior para mover-se entre vários painéis. |
+| Botão Anterior | ✔️ | ✔️ | | Use o [componente de assistente](/help/adaptive-forms/components/wizard.md) nos botões Próximo e Anterior para mover-se entre vários painéis. |
 | Grupo de botões de opção | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
-| Botão Redefinir | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Botão de redefinir | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Revisar |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | Rabiscar a assinatura | ✔️ | | | |
 | Separador | ✔️ | | | Usar componente [Separador](/help/components/separator.md) do WCM |
-| Botão Enviar | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
+| Botão de enviar | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Etapa de resumo | ✔️ | | | |
-| Interruptor | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
+| Botão | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
 | Tabela | ✔️ | | | |
 | Termos e condições | ✔️ | ✔️ | | |
 | Texto | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
@@ -195,9 +195,9 @@ O editor dos formulários adaptáveis baseados em componentes principais é seme
 
 * **[Modelo de dados de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: um modelo de dados de formulários adaptáveis (FDM) atua como uma ponte entre os formulários adaptáveis e as fontes de dados. Esse modelo define basicamente a estrutura e a organização dos dados que seus formulários coletam e interagem. É possível usar o editor para conectar facilmente seu formulário a um modelo de dados de formulário (FDM).
 
-* **[Envios de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: o envio de um formulário refere-se ao processo de envio dos formulários preenchidos. Isso aciona uma série de ações definidas na configuração do formulário, levando ao armazenamento ou processamento dos dados enviados. O editor de formulários adaptáveis oferece uma variedade de opções para configurar envios de formulários. Algumas das ações comuns de envio são:
+* **[Envios de formulário](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: o envio de um formulário refere-se ao processo de envio dos formulários preenchidos. Isso aciona uma série de ações definidas na configuração do formulário, levando ao armazenamento ou processamento dos dados enviados. O editor de formulários adaptáveis oferece uma variedade de opções para configurar envios de formulários. Algumas das ações comuns de envio são:
 
-   * [Enviar email](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   * [Enviar email](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
    * [Chamar um fluxo do Power Automate](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
    * [Enviar para o SharePoint](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
    * [Chamar um Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
