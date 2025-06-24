@@ -3,8 +3,8 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Componente de imagem {#image-component}
 
 Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

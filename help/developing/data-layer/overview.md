@@ -4,12 +4,13 @@ description: Uso da Camada de dados de clientes Adobe com os Componentes princip
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
+
 
 # Uso da Camada de dados de clientes Adobe com os Componentes principais {#data-layer-core-components}
 
@@ -24,6 +25,8 @@ Como os Componentes principais, o código da Camada de dados de clientes Adobe e
 >Para mais informações sobre a Camada de dados de clientes Adobe, [consulte os recursos no repositório do GitHub](https://github.com/adobe/adobe-client-data-layer).
 >
 >Para mais detalhes técnicos sobre a integração da Camada de dados de clientes Adobe com os Componentes principais, consulte o [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) arquivo no repositório dos Componentes principais.
+
+{{traditional-aem}}
 
 ## Instalação e ativação {#installation-activation}
 

@@ -1,20 +1,22 @@
 ---
 title: Orientações para os componentes
-description: Os Componentes principais seguem padrões de implementação modernos bem diferentes dos componentes de base.
+description: Os Componentes principais seguem padrões de implementação bem diferentes dos componentes de base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 97%
 
 ---
 
 # Orientações para os componentes {#component-guidelines}
 
-Os [Componentes principais](overview.md) seguem padrões de implementação modernos bem diferentes dos componentes de base.
+Os [Componentes principais](overview.md) seguem padrões de implementação bem diferentes dos componentes de base.
 
 Esta página explica esses padrões e quando usá-los para criar seus próprios componentes para autoria. A primeira seção [Padrões gerais de componentes](#general-component-patterns) se aplica a qualquer tipo de componente; enquanto a segunda seção [Padrões de componentes reutilizáveis](#reusable-component-patterns) se aplica a componentes que devem ser reutilizados em sites ou projetos, como os Componentes principais, por exemplo.
+
+{{traditional-aem}}
 
 ## Padrões gerais de componentes {#general-component-patterns}
 

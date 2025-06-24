@@ -3,8 +3,9 @@ title: Componente de teaser de email
 description: O Componente de teaser de email pode mostrar uma imagem, um título, um texto formatado e, opcionalmente, um link para mais conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 

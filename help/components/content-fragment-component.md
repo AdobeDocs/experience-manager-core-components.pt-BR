@@ -3,12 +3,13 @@ title: Componente Fragmento de Conteúdo
 description: O componente Fragmento de Conteúdo, dos Componentes Principais, permite a exibição de um fragmento de conteúdo.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
 
 ---
+
 
 # Componente Fragmento de Conteúdo {#content-fragment-component}
 
@@ -17,6 +18,8 @@ O componente Fragmento do Conteúdo, dos Componentes Principais, permite a exibi
 >[!NOTE]
 >
 >Antes da versão 2.4.0 dos Componentes Principais, o componente Fragmento de Conteúdo estava disponível como uma extensão para os Componentes Principais e precisava ser baixado separadamente e ativado explicitamente.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

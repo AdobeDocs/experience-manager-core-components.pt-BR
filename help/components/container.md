@@ -3,16 +3,19 @@ title: Componente de Contêiner
 description: O componente de Contêiner, dos Componentes principais, permite a criação de um contêiner para vários componentes adicionais em uma página.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 
 ---
 
+
 # Componente de Contêiner{#container-component}
 
 O componente de Contêiner, dos Componentes principais, permite a criação de um contêiner para vários componentes adicionais em uma página.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

@@ -4,8 +4,9 @@ description: Uso ou personalização do componente principal de revisão de form
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # Componente de revisão
 
 O componente de revisão de formulários adaptáveis permite que os usuários revisem e verifiquem as informações inseridas antes de enviar o formulário. Ele serve como uma página de resumo, fornecendo uma visualização do tipo somente leitura de todos os campos e seus valores em um formato estruturado e fácil de usar. Esse recurso garante que os usuários possam identificar e corrigir erros ou omissões antes de finalizar o envio, melhorando a experiência geral com o formulário. Ao clicar no ícone de edição, é possível modificar as informações inseridas antes de enviar o formulário.
+
+{{traditional-aem}}
 
 **Exemplo**
 
@@ -76,4 +79,3 @@ O vídeo abaixo demonstra como configurar o componente de **Revisão**, de modo 
 ## Consulte também {#see-also}
 
 {{see-also}}
-

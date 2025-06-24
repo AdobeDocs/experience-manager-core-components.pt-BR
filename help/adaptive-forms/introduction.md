@@ -3,16 +3,19 @@ title: Introdução aos Componentes principais dos Formulários adaptáveis do A
 description: Crie experiências de inscrição atraentes (formulários) usando a flexibilidade dos Componentes principais dos Formulários adaptáveis e as disponibilize com a eficiência do Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 100%
 
 ---
 
+
 # Componentes principais dos formulários adaptáveis  {#adaptive-forms-core-components-introduction}
 
 Usando os componentes principais dos formulários adaptáveis do Adobe Experience Manager, e possível criar experiências de inscrição atraentes.
+
+{{traditional-aem}}
 
 ## Componentes principais {#overview}
 

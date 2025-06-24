@@ -3,16 +3,19 @@ title: Componente de Navegação
 description: O componente de Navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 
 ---
 
+
 # Componente de Navegação{#navigation-component}
 
 O componente de Navegação permite que os usuários naveguem facilmente em uma estrutura de site globalizada.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 
@@ -140,8 +143,8 @@ Na caixa de diálogo de edição, o autor de conteúdo pode definir a página ra
    * 1 = excluir o nível raiz
    * 2 = excluir a raiz e 1 nível superior
    * etc.
-* **Coletar todas as páginas secundárias** - Coleta todas as páginas descendentes da raiz de navegação.
-* **Profundidade da estrutura de navegação** - Define quantos níveis abaixo da árvore de navegação o componente deve exibir em relação à raiz de navegação (disponível apenas quando **Coletar todas as páginas secundárias** não estiver selecionada).
+* **Coletar todas as páginas filhas** - Coleta todas as páginas descendentes da raiz de navegação.
+* **Profundidade da estrutura de navegação** - Define quantos níveis abaixo da árvore de navegação o componente deve exibir em relação à raiz de navegação (disponível apenas quando **Coletar todas as páginas filhas** não estiver selecionada).
 * **Desativar sombreamento** - Se a página na hierarquia for um redirecionamento, o nome da página de redirecionamento será exibido em vez do destino. Consulte o [Suporte à estrutura de shadow site](#shadow-structure) para mais informações.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
@@ -180,7 +183,7 @@ A caixa de diálogo de design permite que o autor do modelo defina os valores pa
    * 1 = excluir o nível raiz
    * 2 = excluir a raiz e 1 nível superior
    * etc.
-* **Coletar todas as páginas secundárias** - O valor padrão da opção para coletar todas as páginas que sejam descendentes da raiz de navegação.
+* **Coletar todas as páginas filhas** - O valor padrão da opção para coletar todas as páginas que sejam descendentes da raiz de navegação.
 * **Profundidade da estrutura de navegação** - o valor padrão da profundidade da estrutura de navegação.
 * **Desativar sombreamento** - O valor padrão caso o sombreamento deva ser desativado ao adicionar um componente de navegação
 

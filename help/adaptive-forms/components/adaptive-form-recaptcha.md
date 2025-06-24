@@ -3,18 +3,21 @@ title: Componente principal de formulários adaptáveis – Google reCAPTCHA
 description: Aumente a segurança dos formulários com o serviço Google reCAPTCHA sem esforço com o AEM Forms. Explicar as propriedades do reCaptcha do formulário adaptável
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
 
+
 # reCAPTCHA de formulário adaptável {#google-recaptcha}
 
 O CAPTCHA (teste de Turing público e completamente automatizado para diferenciar computadores e humanos, sigla em inglês) é um programa usado em transações online para distinguir entre humanos e programas ou bots automatizados. O recurso apresenta um desafio e avalia a resposta do usuário para determinar se é um humano ou um bot interagindo com o site. O CAPTCHA impede que o usuário prossiga se o teste falhar e ajuda a tornar as transações online seguras, evitando que bots publiquem spam ou outro conteúdo mal-intencionado.
 
 Os formulários adaptáveis do AEM Forms as a Cloud Service são compatíveis com o Google reCAPTCHA v2. Você pode usá-lo para apresentar um desafio de CAPTCHA no envio do formulário
+
+{{traditional-aem}}
 
 ## Uso {#reasons-to-use-google-recaptcha}
 

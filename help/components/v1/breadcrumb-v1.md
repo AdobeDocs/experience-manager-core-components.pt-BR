@@ -4,12 +4,13 @@ description: O componente de Navegação estrutural, dos Componentes principais,
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
+
 
 # Componente de Navegação estrutural (v1) {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ A tabela a seguir lista a compatibilidade da v1 do componente de Navegação est
 >[!CAUTION]
 >
 >Este documento descreve a v1 do componente de Navegação estrutural.
->Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
+>>Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 

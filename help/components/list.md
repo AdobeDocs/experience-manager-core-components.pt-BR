@@ -3,20 +3,23 @@ title: Componente de Lista
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 100%
 
 ---
 
+
 # Componente de Lista{#list-component}
 
 O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 
+{{traditional-aem}}
+
 ## Uso {#usage}
 
-O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas secundárias ou uma lista estática de itens definidos arbitrariamente. O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode selecionar dentre os tipos de lista disponíveis e escolher como formatar os elementos da lista na [caixa de diálogo de edição](#edit-dialog).
+O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens definidos arbitrariamente. O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode selecionar dentre os tipos de lista disponíveis e escolher como formatar os elementos da lista na [caixa de diálogo de edição](#edit-dialog).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -62,7 +65,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo configure a lis
 
 A lista pode ser criada de maneiras diferentes.
 
-* [Páginas secundárias](#child-pages)
+* [Páginas filhas](#child-pages)
 * [Lista fixa](#fixed-list)
 * [Pesquisar](#search-options)
 * [Tags](#tags)
@@ -73,17 +76,17 @@ Independentemente de como a lista seja criada, há [Opções de Classificação 
 
 Dependendo de como o autor de conteúdo optar por criar a lista, as opções de configuração adicionais serão alteradas.
 
-#### Páginas secundárias {#child-pages}
+#### Páginas filhas {#child-pages}
 
-A lista pode ser criada das páginas secundárias da página atual ou de outra página.
+A lista pode ser criada das páginas filhas da página atual ou de outra página.
 
-![Opções de páginas secundárias](/help/assets/list-edit-child-pages.png)
+![Opções de páginas filhas](/help/assets/list-edit-child-pages.png)
 
 * **Página primária**
-   * A página cujas páginas secundárias devem fazer a lista
+   * A página cujas páginas filhas devem fazer a lista
    * Deixe em branco para utilizar a página atual
 
-* **Profundidade-secundária**
+* **Profundidade-dos filhos**
 Quantos níveis abaixo da hierarquia devem ser usados
 
 #### Lista fixa {#fixed-list}
@@ -190,8 +193,8 @@ Na guia **Configurações da lista**, o formato da data pode ser definido, bem c
 ![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/list-design-list-settings.png)
 
 * **Formato da data** - Formato a ser usado na exibição da última data de modificação.
-* **Desativar secundárias**
-Desativa o tipo de listas secundárias no componente.
+* **Desativar filhos**
+Desativa o tipo de listas filhas no componente.
 * **Desativar estática**
 Desativa o tipo de lista estática no componente.
 * **Desativar pesquisa**

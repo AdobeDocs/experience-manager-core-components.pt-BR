@@ -4,12 +4,13 @@ description: O componente de Lista, dos Componentes principais, permite criar co
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
 ---
+
 
 # Componente de Lista (v1) {#list-component-v}
 
@@ -17,7 +18,7 @@ O componente de Lista, dos Componentes principais, permite criar com facilidade 
 
 ## Uso {#usage}
 
-O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas secundárias ou uma lista estática de itens definidos arbitrariamente.
+O componente de Lista pode ser usado para criar, por exemplo, uma lista dinâmica de páginas filhas ou uma lista estática de itens definidos arbitrariamente.
 
 O tipo de listas disponíveis e as opções de formatação podem ser definidas pelo autor do modelo na [caixa de diálogo de design](#design-dialog). O editor de conteúdo pode selecionar dentre os tipos de lista disponíveis e escolher como formatar os elementos da lista na [caixa de diálogo de edição](#edit-dialog).
 
@@ -144,7 +145,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo configure a lis
 
 A lista pode ser criada de maneiras diferentes.
 
-* [Páginas secundárias](#child-pages)
+* [Páginas filhas](#child-pages)
 * [Lista fixa](#fixed-list)
 * [Pesquisar](#search-list)
 * [Tags](#tags)
@@ -155,16 +156,16 @@ Independentemente de como a lista é criada, há [Opções de classificação](#
 
 Dependendo de como o autor de conteúdo optar por criar a lista, as opções de configuração adicionais serão alteradas.
 
-#### Páginas secundárias {#child-pages}
+#### Páginas filhas {#child-pages}
 
-A lista pode ser criada das páginas secundárias da página atual ou de outra página.
+A lista pode ser criada das páginas filhas da página atual ou de outra página.
 
 ![](/help/assets/chlimage_1-39.png)
 
 * **Página primária**
-   * A página cujas páginas secundárias devem fazer a lista
+   * A página cujas páginas filhas devem fazer a lista
    * Deixe em branco para utilizar a página atual
-* **Profundidade da secundária** - Quantos níveis abaixo na hierarquia devem ser usados
+* **Profundidade dos filhos** - Quantos níveis abaixo na hierarquia devem ser usados
 
 #### Lista fixa {#fixed-list}
 
@@ -243,7 +244,7 @@ Na guia **Configurações da lista**, o formato da data pode ser definido, bem c
 ![](/help/assets/chlimage_1-45.png)
 
 * **Formato da data** - Formato a ser usado na exibição da última data de modificação
-* **Desativar secundárias** - Desativa o tipo de listas secundárias no componente
+* **Desativar filhos** - Desativa o tipo de listas filhas no componente
 * **Desativar estática** - Desativa o tipo de lista estática no componente
 * **Desativar pesquisa** - Desativa o tipo de lista de pesquisa no componente
 * **Desativar tags** - Desativa o tipo de lista de tags no componente

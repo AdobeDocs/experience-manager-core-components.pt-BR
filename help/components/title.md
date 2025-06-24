@@ -3,16 +3,19 @@ title: Componente do título
 description: O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
 ---
 
+
 # Componente de Título{#title-component}
 
 O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

@@ -3,7 +3,7 @@ title: Personalizar componentes principais dos formulários adaptáveis
 description: Saiba como estender ou criar um componente principal para formulários adaptáveis e implementar funcionalidades personalizadas na sua organização.
 role: Architect, Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # Personalizar componentes principais dos formulários adaptáveis
 
 Personalizar os componentes principais dos formulários adaptáveis permite adaptar as funcionalidades prontas para uso para que atendam a necessidades específicas. Este guia orienta você pelo processo de personalização desses componentes, a fim de criar uma experiência mais individual.
+
+{{traditional-aem}}
 
 ## Pré-requisito
 

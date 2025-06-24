@@ -4,12 +4,13 @@ description: O componente de Imagem, dos Componentes principais, é um component
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 98%
 
 ---
+
 
 # Componente de Imagem (v1) {#image-component-v}
 

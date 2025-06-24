@@ -3,8 +3,8 @@ title: Componente Carrossel
 description: O componente Carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Componente Carrossel{#carousel-component}
 
 O componente Carrossel, dos Componentes principais, permite que o autor do conteúdo apresente conteúdo em um carrossel navegável.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 
@@ -91,7 +93,7 @@ Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer
 * **Item ativo** - O autor de conteúdo pode definir qual guia está ativa quando a página é carregada.
 * **Fazer transição automática de slides** - Quando ativo, o componente avança automaticamente para o próximo slide após um atraso especificado.
 * **Atraso de transição** - Quando Fazer transição automática de slides é selecionado, esse valor é usado para definir o atraso entre as transições (em milissegundos).
-* **Desativar a pausa automática ao passar o cursor** - Quando a opção **Fazer transição automática de slides** estiver selecionado, a transição do carrossel será automaticamente pausada sempre que cursor for passado sobre o carrossel. Selecione essa opção para que a transição não seja pausada.
+* **Desativar a pausa automática ao passar o mouse** - Quando a opção **Fazer transição automática de slides** estiver selecionado, a transição do carrossel será automaticamente pausada sempre que cursor for passado sobre o carrossel. Selecione essa opção para que a transição não seja pausada.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.

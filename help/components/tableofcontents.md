@@ -3,16 +3,19 @@ title: Componente de índice
 description: O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
 
+
 # Componente de índice {#table-of-contents-component}
 
 O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 
@@ -40,11 +43,11 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 >
 >No AEM as a Cloud Service, seu administrador precisa ativar um filtro para o componente para que ele renderize o conteúdo do componente.
 >
->[Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br) para obter mais informações.
+>[Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de índice [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br).
+A documentação técnica mais recente sobre o Componente de índice [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

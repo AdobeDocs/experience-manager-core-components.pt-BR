@@ -3,8 +3,9 @@ title: 'Componente de imagem de email '
 description: O Componente de imagem de email é um componente de imagem adaptável que conta com um sistema de edição incorporado.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
