@@ -39,7 +39,7 @@ Para experimentar o componente de Incorporação, e ver exemplos de suas opçõe
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
