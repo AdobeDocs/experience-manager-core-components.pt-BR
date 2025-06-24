@@ -35,7 +35,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 >[!CAUTION]
 >
 >Este documento descreve a v1 do Componente de pesquisa rápida.
->>Para obter detalhes sobre a versão atual do Componente de pesquisa rápida, consulte o documento [Componente de pesquisa rápida](/help/components/quick-search.md).
+>&#x200B;>Para obter detalhes sobre a versão atual do Componente de pesquisa rápida, consulte o documento [Componente de pesquisa rápida](/help/components/quick-search.md).
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
