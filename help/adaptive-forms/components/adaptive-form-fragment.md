@@ -4,9 +4,9 @@ description: Use fragmentos de formulários para criar segmentos de formulários
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Você pode [adicionar um fragmento várias vezes a um documento](https://experie
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal do fragmento de Forms adaptável foi lançado como parte dos Componentes principais 2.0.50 para Cloud Service e Componentes principais 1.1.26 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de fragmento de formulários adaptáveis foi lançado como parte dos componentes principais 2.0.50 para serviços na nuvem e dos componentes principais 1.1.26 para o AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|

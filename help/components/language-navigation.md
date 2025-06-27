@@ -4,7 +4,7 @@ description: O componente de Navegação por idiomas fornece uma navegação de 
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
 ht-degree: 100%
 

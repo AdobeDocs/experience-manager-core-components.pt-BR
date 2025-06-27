@@ -4,7 +4,7 @@ description: O componente Carrossel permite que o autor de conteúdo apresente c
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
 ht-degree: 100%
 

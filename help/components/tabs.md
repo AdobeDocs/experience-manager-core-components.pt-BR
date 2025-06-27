@@ -4,7 +4,7 @@ description: O componente de Guias permite a criação de várias guias para org
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Aumente a segurança dos formulários com o serviço Google reCAPTC
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Para experimentar o componente de Incorporação, e ver exemplos de suas opçõe
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_br).
+A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

@@ -1,20 +1,20 @@
 ---
-title: Componente de Lista (v2)
-description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
+title: Componente de lista (v2)
+description: O componente de lista, que faz parte dos componentes principais, permite criar listas dinâmicas e estáticas com facilidade.
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Componente de Lista (v2) {#list-component}
+# Componente de lista (v2) {#list-component}
 
-O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
+O componente de lista, que faz parte dos componentes principais, permite criar listas dinâmicas e estáticas com facilidade.
 
 ## Uso {#usage}
 

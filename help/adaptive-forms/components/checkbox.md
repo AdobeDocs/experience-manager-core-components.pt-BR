@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de Caixa de seleç�
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1837'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Normalmente, uma caixa de seleção é representada como um pequeno quadrado que
 
 >[!NOTE]
 >
-> Para o AEM 6.5 Forms, esse componente foi introduzido com o AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, este componente foi introduzido com o pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 

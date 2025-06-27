@@ -1,16 +1,16 @@
 ---
-title: Orientações para os componentes
-description: Os Componentes principais seguem padrões de implementação bem diferentes dos componentes de base.
+title: Orientações sobre os componentes
+description: Os componentes principais seguem padrões de implementação bem diferentes dos componentes de base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Orientações para os componentes {#component-guidelines}
+# Orientações sobre os componentes {#component-guidelines}
 
 Os [Componentes principais](overview.md) seguem padrões de implementação bem diferentes dos componentes de base.
 

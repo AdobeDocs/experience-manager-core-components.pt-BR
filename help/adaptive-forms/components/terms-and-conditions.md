@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal Termos e condiçõe
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ O componente de **Termos e condições** é composto por outros componentes, com
 
 >[!NOTE]
 >
-> Para o AEM 6.5 Forms, esse componente foi introduzido com o AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, este componente foi introduzido com o pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos Componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 
@@ -43,7 +43,7 @@ Consulte a seção [Subcomponentes do componente de Termos e condições](#sub-c
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O Componente principal dos Termos e condições adaptáveis do Forms foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.62 para o Cloud Service e Componentes principais 1.1.28 para o AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de termos e condições de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos componentes principais 2.0.62 para serviços na nuvem e dos componentes principais 1.1.28 para AEM 6.5.16.0 Forms ou posterior. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|

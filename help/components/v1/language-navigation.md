@@ -1,18 +1,18 @@
 ---
-title: Componente de Navegação por idiomas (v1)
-description: O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
+title: Componente de navegação por idiomas (v1)
+description: O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um idioma diferente.
 role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Componente de Navegação por idiomas (v1) {#language-navigation-component}
+# Componente de navegação por idiomas (v1) {#language-navigation-component}
 
 O componente de Navegação por idiomas fornece uma navegação de idioma/país para um site, para que os visitantes possam navegar para a mesma página em um local diferente.
 

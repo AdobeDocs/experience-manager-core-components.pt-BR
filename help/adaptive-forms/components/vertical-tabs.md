@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de Guias verticais 
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2173'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente pa
 
 >[!NOTE]
 >
-> Para o AEM 6.5 Forms, esse componente foi introduzido com o AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, este componente foi introduzido com o pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 ![exemplo](/help/adaptive-forms/assets/horizontal-example.png)
 

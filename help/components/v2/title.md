@@ -1,20 +1,20 @@
 ---
-title: Componente de Título (v2)
-description: O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
+title: Componente de título (v2)
+description: O componente de título, que faz parte dos componentes principais, é um componente de cabeçalho de seção que inclui edição no local.
 role: Architect, Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Componente de Título (v2) {#title-component}
+# Componente de título (v2) {#title-component}
 
-O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
+O componente de título, que faz parte dos componentes principais, é um componente de cabeçalho de seção que inclui edição no local.
 
 ## Uso {#usage}
 

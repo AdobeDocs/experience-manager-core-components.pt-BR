@@ -4,7 +4,7 @@ description: Crie experiências de inscrição atraentes (formulários) usando a
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2123'
 ht-degree: 100%
 

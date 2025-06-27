@@ -4,7 +4,7 @@ description: Os Componentes principais fornecem componentes básicos robustos e 
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
 ht-degree: 100%
 
@@ -117,12 +117,12 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Fragmento de conteúdo](https://adobe.com/go/aem_cmp_tech_cf_v1_br) | Permite a exibição de um fragmento de conteúdo | `-` |
 | [Lista de fragmentos do conteúdo](https://adobe.com/go/aem_cmp_tech_cflist_v1_br) | Permite exibir uma lista de fragmentos de conteúdo | `-` |
 | [Separador](https://adobe.com/go/aem_cmp_tech_separator_v1_br) | Separa o conteúdo em uma página | `-` |
-| [Acordeão](https://adobe.com/go/aem_cmp_tech_accordion_v1_br) | Organiza painéis de conteúdo em um acordeão recolhível | `-` |
+| [Acordeão](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organiza painéis de conteúdo em um acordeão recolhível | `-` |
 | [Contêiner](https://adobe.com/go/aem_cmp_tech_container_v1_br) | Organiza componentes dentro de um contêiner | `-` |
-| [Botão](https://adobe.com/go/aem_cmp_tech_button_v1_br) | Cria um botão em uma página | `-` |
-| [Download](https://adobe.com/go/aem_cmp_tech_download_v1_br) | Adiciona um ativo baixável a uma página | `-` |
-| [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1_br) | Adiciona um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorporação](https://adobe.com/go/aem_cmp_tech_embed_v1_br) | Incorpora um recurso externo em uma página | - |
+| [Botão](https://adobe.com/go/aem_cmp_tech_button_v1) | Cria um botão em uma página | `-` |
+| [Download](https://adobe.com/go/aem_cmp_tech_download_v1) | Adiciona um ativo baixável a uma página | `-` |
+| [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1) | Adiciona um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorporação](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorpora um recurso externo em uma página | - |
 | [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornece uma representação visual do progresso em direção a uma meta | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_br) | Apresenta um documento PDF em uma página | - |
 

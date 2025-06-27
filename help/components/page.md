@@ -4,7 +4,7 @@ description: O componente de Página é um componente de página extensível pro
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
 ht-degree: 100%
 

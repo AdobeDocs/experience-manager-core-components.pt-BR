@@ -4,7 +4,7 @@ description: O componente de Botão, dos Componentes principais, permite a cria�
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Para experimentar o componente de Botão, e ver exemplos de suas opções de con
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Botão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_br).
+A documentação técnica mais recente sobre o componente de Botão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

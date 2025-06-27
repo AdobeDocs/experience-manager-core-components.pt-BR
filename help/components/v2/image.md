@@ -1,13 +1,13 @@
 ---
 title: Componente de imagem (v2)
-description: O componente de Imagem, dos Componentes principais, é um componente de imagem adaptável com edição no local.
+description: O componente de imagem, que faz parte dos componentes principais, é um componente de imagem adaptável que inclui edição no local.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -223,9 +223,9 @@ Na guia **Recursos**, é possível definir quais opções estão disponíveis pa
   ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-orientation.png)
 
 * **Girar**
-Use esta opção para permitir que o autor de conteúdo use a opção **Girar para a Direita**.
+Use esta opção para permitir que o criador de conteúdo use a opção de **Girar para a direita**.
 * **Inverter**
-Use esta opção para permitir que o autor de conteúdo use as opções **Inverter Horizontalmente** e **Inverter Verticalmente**.
+Use esta opção para permitir que o criador de conteúdo use as opções de **Inverter horizontalmente** e **Inverter verticalmente**.
 
   >[!CAUTION]
   >
