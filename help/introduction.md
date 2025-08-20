@@ -4,7 +4,7 @@ description: Obtenha soluções para problemas com os Componentes principais e p
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: f35fba4bee041b8d64dea69437c5d441950df7c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 | Compatíveis com SEO | A saída HTML é semântica e fornece anotações de microdados [schema.org](https://schema.org). |
 | Prontos para aplicativos Web | A [saída JSON simplificada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=pt-BR) permite renderização no lado do cliente, ainda com uma possibilidade de [edição no contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=pt-BR). |
 | Suporte ao AMP | Os componentes têm [suporte para o padrão AMP](/help/developing/amp.md) integrado, o que acelera suas experiências em dispositivos móveis. |
-| Kit de design | Um [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=pt-BR) permite que os designers criem wireframes para que possam [estilizar conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| Kit de design | Um [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite que os designers criem wireframes para que possam [estilizar conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Temáticos | Os componentes implementam o [Sistema de Estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=pt-BR), e a marcação segue as [convenções de CSS de BEM.](https://getbem.com/) |
 | Personalizáveis | Vários padrões permitem [fácil personalização](developing/customizing.md), desde o ajuste do HTML até a reutilização de funcionalidade avançada. |
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não interrompam seu site ao melhorar coisas que podem afetar você. |
@@ -118,7 +118,7 @@ Para saber quais são os requisitos das versões anteriores dos Componentes prin
 
 Os Componentes principais exigem o uso de [modelos editáveis](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=pt-BR) e não são compatíveis com a IU Clássica nem com modelos estáticos. Se necessário, verifique as [Ferramentas de modernização do AEM](https://opensource.adobe.com/aem-modernize-tools/) para atualizar seu projeto com esses recursos modernos do AEM.
 
-Para configurar seu ambiente de desenvolvimento local, confira esta [visão geral do SDK do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=pt-BR) ou este documento [para versões mais antigas do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=pt-BR).
+Para configurar seu ambiente de desenvolvimento local, confira esta [visão geral do SDK do AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ou este documento [para versões mais antigas do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=pt-BR).
 
 >[!TIP]
 >
