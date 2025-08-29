@@ -2,15 +2,17 @@
 title: Componente principal adaptável do Forms - assinatura escritas
 description: Uso ou personalização do Componente principal de assinatura escritas adaptável do Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 76%
+source-wordcount: '1761'
+ht-degree: 75%
 
 ---
 
 
 # Rabiscar o componente de assinatura
+
+<span>O componente de assinatura assinável está no Programa de Primeiros usuários. Você pode escrever para `aem-forms-ea@adobe.com` a partir de sua ID de email oficial para participar do programa de adoção antecipada e solicitar acesso à funcionalidade.</span>
 
 Um componente de Assinatura Escrita em um Formulário Adaptável é um elemento da interface do usuário que permite aos usuários desenhar sua **assinatura** diretamente no formulário usando um mouse, caneta ou tela sensível ao toque. Ele garante a captura precisa de consentimento, aprovações ou verificação manuscritos em fluxos de trabalho digitais.
 
