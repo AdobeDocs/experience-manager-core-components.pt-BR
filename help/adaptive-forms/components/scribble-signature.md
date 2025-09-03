@@ -1,65 +1,65 @@
 ---
-title: Componente principal adaptável do Forms - assinatura escritas
-description: Uso ou personalização do Componente principal de assinatura escritas adaptável do Forms.
+title: 'Componente principal de formulários adaptáveis: assinatura à mão'
+description: Usar ou personalizar o componente principal de assinatura à mão dos formulários adaptáveis.
 role: Architect, Developer, Admin, User
-source-git-commit: 246a608e4c23a9075813a64691d583584164578c
+exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
+source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
-
-# Rabiscar o componente de assinatura
+# Componente de assinatura à mão
 
 <span>O componente de assinatura assinável está no Programa de Primeiros usuários. Você pode escrever para `aem-forms-ea@adobe.com` a partir de sua ID de email oficial para participar do programa de adoção antecipada e solicitar acesso à funcionalidade.</span>
 
-Um componente de Assinatura Escrita em um Formulário Adaptável é um elemento da interface do usuário que permite aos usuários desenhar sua **assinatura** diretamente no formulário usando um mouse, caneta ou tela sensível ao toque. Ele garante a captura precisa de consentimento, aprovações ou verificação manuscritos em fluxos de trabalho digitais.
+Um componente de assinatura à mão em um formulário adaptável é um elemento da interface do usuário que permite que os usuários desenhem sua **assinatura** diretamente no formulário com um mouse, caneta ou tela sensível ao toque. Ele garante uma captação precisa de consentimentos, aprovações ou verificações escritos à mão em fluxos de trabalho digitais.
 
 **Exemplo**
 
 ![exemplo](/help/adaptive-forms/assets/scribble-signature.png){width=50%,align-center}
 
-**Várias Opções disponíveis na Janela de Assinatura**
+**Várias opções disponíveis na janela de assinatura**
 
-- **A:** Clique no ícone **Desenhar** para desenhar sua assinatura na tela.
-- **B:** Clique no ícone **Limpar** para limpar a assinatura na tela.
-- **C:** Clique no ícone **Geolocalização** para adicionar a geolocalização junto com a assinatura.
-- **D:** Clique no ícone **Teclado** para digitar seu nome na tela.
+- **A:** clique no ícone de **Desenhar** para desenhar a sua assinatura na tela.
+- **B:** clique no ícone de **Limpar** para limpar a assinatura na tela.
+- **C:** clique no ícone de **Geolocalização** para adicionar a geolocalização junto com a assinatura.
+- **D:** clique no ícone de **Teclado** para digitar o seu nome na tela.
 
-Depois de selecionar o ícone **Salvar** na janela Assinatura Escrita, você não poderá editar a assinatura. No caso, se você quiser editar a assinatura, desconsidere a assinatura atual e assine novamente usando a opção Pincel/Teclado acima.
+Depois de selecionar o ícone de **Salvar** na janela de assinatura à mão, você não poderá editar a assinatura. Caso você queira editar a assinatura, desconsidere a assinatura atual e assine novamente com a opção de pincel/teclado acima.
 
 >[!NOTE]
 >
-> As assinaturas são sempre salvas em formato PNG.
+> As assinaturas são sempre salvas no formato PNG.
 
 ## Uso {#reasons-to-use-scribble-signature}
 
-Há vários motivos pelos quais é benéfico incluir um campo Assinatura Escrita em um formulário, incluindo:
+Há vários motivos por que é vantajoso incluir um campo de assinatura à mão em um formulário, incluindo:
 
 - **Consentimento digital**: permite que os usuários forneçam assinaturas válidas legalmente de forma eletrônica.
-- **Experiência do usuário aprimorada**: fornece uma maneira natural de entrar diretamente em dispositivos sem verificação ou carregamento.
+- **Experiência do usuário aprimorada**: fornece uma maneira natural de fazer logon diretamente em dispositivos sem verificação ou carregamento.
 - **Fluxos de trabalho sem papel**: elimina a necessidade de imprimir, assinar e digitalizar novamente os documentos.
 - **Autenticação**: atua como uma camada adicional de confirmação e aprovação.
-- **Precisão dos dados**: garante a captura correta da entrada manuscrita do signatário em formato digital.
+- **Precisão dos dados**: garante uma captação correta da entrada escrita à mão do signatário em formato digital.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de assinatura de assinatura de assinatura de assinatura de assinatura adaptável do Forms foi lançado em **agosto de 2025** como parte dos **Componentes principais 2.24.6** para o Cloud Service e posteriores.
+O componente principal de assinatura à mão dos formulários adaptáveis foi lançado em **agosto de 2025** como parte dos **Componentes principais 2.24.6** para o Cloud Service e posteriores.
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
 | v1 | Compatível com a <br>[versão 2.24.6](/help/adaptive-forms/version.md) e posteriores | |
 
-Para obter detalhes sobre versões, consulte [Versões dos Componentes Principais](/help/adaptive-forms/version.md).
+Para mais detalhes sobre versões, consulte [Versões dos componentes principais](/help/adaptive-forms/version.md).
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha os detalhes técnicos mais recentes do Componente principal de assinatura de assinatura de assinatura de assinatura de assinatura adaptável do Forms no [GitHub](https://github.com/adobe/aem-core-forms-components). Para obter mais informações sobre o desenvolvimento dos Componentes Principais, consulte a [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
+Confira os detalhes técnicos mais recentes do componente principal de assinatura à mão dos formulários adaptáveis no [GitHub](https://github.com/adobe/aem-core-forms-components). Para mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação dos componentes principais para desenvolvedores](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
-A caixa de diálogo de Configuração permite a personalização do componente de Assinatura Escrita.
+A caixa de diálogo de configuração permite a personalização do componente de assinatura à mão.
 
 ### Guia Básico {#basic-tab}
 
@@ -83,9 +83,9 @@ A caixa de diálogo de Configuração permite a personalização do componente d
 - **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
-- **Título da Caixa de Diálogo de Assinatura**: o Título da Caixa de Diálogo de Assinatura define o texto exibido na parte superior da caixa de diálogo de captura de assinatura. Ele serve como um prompt ou instrução para o usuário quando ele precisa fornecer uma assinatura. O texto ajuda a guiar o usuário pelo processo de assinatura, tornando a interação clara e intuitiva.
+- **Título da caixa de diálogo de assinatura**: o título da caixa de diálogo de assinatura define o texto exibido na parte superior da caixa de diálogo de captação da assinatura. Ele serve como um prompt ou instrução para o usuário quando for necessário fornecer uma assinatura. O texto ajuda a guiar o usuário pelo processo de assinatura, tornando a interação clara e intuitiva.
 
-### Guia Validação
+### Guia de validação
 
 ![guia de validação](/help/adaptive-forms/assets/scribble-signature-validation.png)
 
@@ -99,9 +99,9 @@ A caixa de diálogo de Configuração permite a personalização do componente d
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/scribble-signature-helptab.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**- Ative a opção para exibir a Descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**- Habilite a opção para exibir a Descrição curta abaixo do componente.
 
 - **Texto da ajuda**: O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
@@ -118,15 +118,15 @@ A caixa de diálogo de Configuração permite a personalização do componente d
 
 ## Caixa de diálogo Design {#design-dialog}
 
-A caixa de diálogo Design é usada para definir e gerenciar estilos CSS para o componente de Assinatura Escrita.
+A caixa de diálogo de design é usada para definir e gerenciar estilos de CSS do componente de assinatura à mão.
 
 ### Guia Estilos {#styles-tab}
 
-A guia é usada para definir e gerenciar os estilos CSS de um componente. O Componente principal de assinatura de rabisco adaptável do Forms é compatível com o [Sistema de Estilos](/help/get-started/authoring.md#component-styling) do AEM.
+A guia é usada para definir e gerenciar os estilos CSS de um componente. O componente principal de assinatura à mão dos formulários adaptáveis é compatível com o [sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 ![Caixa de diálogo Design](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Classes CSS Padrão**: você pode fornecer uma classe CSS padrão para o Componente Principal de Assinatura Escrita do Forms Adaptive.
+- **Classes padrão do CSS**: é possível fornecer uma classe padrão do CSS ao componente principal de assinatura à mão dos formulários adaptáveis.
 
 - **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
