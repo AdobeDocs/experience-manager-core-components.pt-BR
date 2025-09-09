@@ -4,15 +4,15 @@ description: Usar ou personalizar o componente principal de assinatura à mão d
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Componente de assinatura à mão
 
-<span>O componente de assinatura assinável está no Programa de Primeiros usuários. Você pode escrever para `aem-forms-ea@adobe.com` a partir de sua ID de email oficial para participar do programa de adoção antecipada e solicitar acesso à funcionalidade.</span>
+<span>O componente de assinatura à mãe está no programa de primeiros usuários. Você pode escrever para `aem-forms-ea@adobe.com` com sua ID de email oficial para entrar no programa de primeiros usuários e solicitar acesso ao recurso.</span>
 
 Um componente de assinatura à mão em um formulário adaptável é um elemento da interface do usuário que permite que os usuários desenhem sua **assinatura** diretamente no formulário com um mouse, caneta ou tela sensível ao toque. Ele garante uma captação precisa de consentimentos, aprovações ou verificações escritos à mão em fluxos de trabalho digitais.
 
