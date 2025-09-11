@@ -4,7 +4,7 @@ description: O componente de imagem, que faz parte dos componentes principais, �
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
 workflow-type: ht
 source-wordcount: '2048'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 >[!TIP]
 >
->O Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter detalhes sobre seu funcionamento.
+>O Componente de imagem é fornecido pelo Servlet de imagem adaptável. Consulte o documento [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) para obter detalhes sobre seu funcionamento.
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
@@ -187,13 +187,13 @@ Além disso, você pode definir quais opções gerais de componente são automat
 ![Guia Principal da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-main-v2.png)
 
 * **Ativar recursos DM** - Quando marcado, os [recursos habilitados do Dynamic Media](#dynamic-media) ficam disponíveis.
-* **Ativar imagens otimizadas para web** - quando marcada, o [serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
+* **Habilitar imagens otimizadas para web** - quando marcada, o [serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
    * Quando desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 * **Habilitar carregamento lento** - Define se a opção de carregamento lento é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
-* **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter texto alternhabilito do DAM** - Define se a opção para recuperar o texto alternhabilito do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Desabilitar rastreamento do UUID** - Marque para desativar o rastreamento da UUID do ativo de imagem.
 * **Larguras** - Define uma lista de larguras em pixels para a imagem e o componente carrega automaticamente a largura mais apropriada com base no tamanho do navegador.
@@ -206,7 +206,7 @@ Além disso, você pode definir quais opções gerais de componente são automat
 
 >[!TIP]
 >
->Consulte o documento [Servlet de imagem adaptável](#adaptive-image-servlet) para obter dicas sobre como otimizar a seleção de representações definindo suas larguras criteriosamente.
+>Consulte o documento [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) para obter dicas sobre como otimizar a seleção de representações definindo suas larguras criteriosamente.
 
 ### Guia Recursos {#features-tab}
 
@@ -229,7 +229,7 @@ Use esta opção para permitir que o criador de conteúdo use as opções de **I
 
   >[!CAUTION]
   >
-  >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
+  >A opção **Inverter** está desativada por padrão. Habilitar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
 
 * Cortar
 
