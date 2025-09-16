@@ -3,10 +3,10 @@ title: Versões dos Componentes principais
 description: Os Componentes principais são publicados como versões que podem conter mais de uma versão dos mesmos componentes principais. Este documento explica quais são as versões e como entender a compatibilidade com os Componentes principais e o AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 821530ce1958566f0a2c1fb88c5017572057f88f
-workflow-type: ht
-source-wordcount: '3056'
-ht-degree: 100%
+source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|---|
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Essa versão abordou vários problemas de ativos e Dynamic Media, esclarece o suporte a LTS e aborda várias correções de erros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11 | 4 de setembro de 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Essa versão adicionou suporte para a criação de versões de visualização de ativos no componente principal do site e aborda várias correções de erros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11 | 21 de abril de 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Esta versão aborda várias correções de erros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11 | 17 de março de 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Esta versão aborda várias correções de erros. | - | 6.5.21.0+ | - | Contínuo | 11 | 10 de setembro de 2024 |
