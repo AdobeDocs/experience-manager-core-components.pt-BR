@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Seletor de datas
 description: Utilização ou personalização do Componente principal do seletor de datas de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -107,9 +107,9 @@ Você pode personalizar facilmente sua experiência de seletor de datas para vis
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**- Ative a opção para exibir a Descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**- Habilite a opção para exibir a Descrição curta abaixo do componente.
 
 - **Texto da ajuda**: O texto da ajuda se refere a informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
@@ -178,15 +178,31 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ### Guia Formatos {#formats-tab}
 
-A guia Formatos permite especificar os formatos de data padrão e personalizados.
+A guia Formatos permite especificar formatos de data padrão e personalizados. Além disso, você também pode adicionar um novo formato de data personalizado usando o botão **Adicionar**.
 
 ![Guia Formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### Adicionar formatos na política de modelos do componente
+
+Para exibir os formatos disponíveis para o componente, você deve adicioná-los à política de modelo do componente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+Para adicionar formatos à política de template:
+
+1. Abra o modelo correspondente associado a um Formulário adaptável ou Sites no editor de modelo.
+2. Na seção **Componentes Permitidos**, selecione o componente **[!UICONTROL Seletor de Datas]**.
+   ![Política de modelo do Seletor de Data](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Clique no ícone **[!UICONTROL Adicionar]** para criar uma nova política para o componente Seletor de datas.
+4. Insira um nome para a política e selecione todos os formatos necessários na guia **Formato**.
+   ![Criar Política](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. Clique em **[!UICONTROL Concluído]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

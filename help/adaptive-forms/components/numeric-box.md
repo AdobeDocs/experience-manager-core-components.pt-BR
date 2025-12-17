@@ -3,10 +3,10 @@ title: Componente principal dos Formulários adaptáveis - Entrada de número
 description: Utilização ou personalização do Componente principal de entrada de número dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2282'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -108,9 +108,9 @@ Você pode personalizar facilmente a experiência de entrada de números para vi
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: habilite essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
@@ -143,7 +143,7 @@ O conjunto de idiomas não está visível por padrão, mas os usuários podem in
 
    >[!NOTE]
    >
-   > Para obter mais informações sobre como traduzir um formulário adaptável para um idioma específico, [clique aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Para obter mais informações sobre como traduzir um formulário adaptável para uma localidade específica, [clique aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## Caixa de diálogo Design {#design-dialog}
@@ -176,15 +176,31 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ### Guia Formatos {#formats-tab}
 
-A guia Formatos permite especificar os formatos de data padrão e personalizados.
+A guia Formatos permite especificar formatos de data padrão e personalizados. Além disso, você também pode adicionar um novo formato de número personalizado usando o botão **Adicionar**.
 
 ![Guia Formato](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+#### Adicionar formatos na política de modelos do componente
+
+Para exibir os formatos disponíveis para o componente, você deve adicioná-los à política de modelo do componente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
+
+Para adicionar formatos à política de template:
+
+1. Abra o modelo correspondente associado a um Formulário adaptável ou Sites no editor de modelo.
+2. Na seção **Componentes Permitidos**, selecione o componente **[!UICONTROL Entrada de Número]**.
+   ![Política de modelo do Seletor de Data](/help/adaptive-forms/assets/number-input-policy.png)
+3. Clique no ícone **[!UICONTROL Adicionar]** para criar uma nova política para o componente de Entrada de número.
+4. Insira um nome para a política e selecione todos os formatos necessários na guia **Formato**.
+   ![Criar Política](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. Clique em **[!UICONTROL Concluído]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
