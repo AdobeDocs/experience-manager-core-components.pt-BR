@@ -37,7 +37,7 @@ Para experimentar o componente de Barra de Progresso, e ver exemplos de suas op�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente da Barra de progresso [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
+A documentação técnica mais recente sobre o componente da Barra de progresso [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_br).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

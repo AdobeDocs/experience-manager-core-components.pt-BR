@@ -123,7 +123,7 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1_br) | Adiciona um ativo baixável a uma página | `-` |
 | [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1_br) | Adiciona um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incorporação](https://adobe.com/go/aem_cmp_tech_embed_v1_br) | Incorpora um recurso externo em uma página | - |
-| [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornece uma representação visual do progresso em direção a uma meta | - |
+| [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1_br) | Fornece uma representação visual do progresso em direção a uma meta | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_br) | Apresenta um documento PDF em uma página | - |
 
 ## Atualização dos Componentes principais {#upgrade-of-core-components}

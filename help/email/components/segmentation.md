@@ -37,7 +37,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_br)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 

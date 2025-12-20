@@ -35,7 +35,7 @@ O documento descreve a versão v1 do componente de botão, que foi introduzida c
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Botão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_button).
+Para experimentar o componente de Botão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_button_br).
 
 ## Detalhes técnicos {#technical-details}
 
