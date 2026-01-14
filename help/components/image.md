@@ -3,10 +3,10 @@ title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Na maioria das vezes, os navegadores preferem reduzir localmente uma largura mai
 
 O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=pt-BR). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pela IA do Adobe, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
 ## Suporte a ativos remotos {#remote-assets}
 
@@ -213,15 +213,15 @@ Os estilos devem ser configurados para esse componente na [caixa de diálogo de 
 
 ![Guia principal da caixa de diálogo de design do componente de imagem](/help/assets/image-design-main.png)
 
-* **Ativar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
+* **Habilitar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
    * Essa opção só é exibida quando o Dynamic Media está habilitado no ambiente.
 * **Habilitar imagens otimizadas para web**: quando selecionada, [o serviço de entrega de imagens otimizadas para a web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
    * Se essa opção não for selecionada, ou se o serviço de entrega de imagens otimizadas para a web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 * **Desabilitar carregamento lento**: quando selecionada, o componente pré-carregará todas as imagens sem utilizar o “carregamento lento”.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
-* **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter texto alternhabilito do DAM** - Define se a opção para recuperar o texto alternhabilito do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Redimensionar largura** - Esse valor é usado para redimensionar a largura das imagens base que são ativos do DAM.
    * A proporção das imagens será preservada.

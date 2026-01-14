@@ -4,10 +4,10 @@ description: O componente de imagem, que faz parte dos componentes principais, �
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 100%
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pelo Sensei, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pela IA do Adobe, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
 ## Suporte a SVG {#svg-support}
 

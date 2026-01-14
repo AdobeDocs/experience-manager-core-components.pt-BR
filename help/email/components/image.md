@@ -4,10 +4,10 @@ description: O Componente de imagem de email é um componente de imagem adaptáv
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Além disso, o Componente de imagem de email é compatível com um sistema de ca
 
 O Componente de imagem de email é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências de email criadas com os Componentes principais de email podem oferecer recursos de imagens do Dynamic Media avançados, viabilizados pelo Sensei, robustos, de alto desempenho e em várias plataformas.
+Suas experiências de email criadas com os Componentes principais de email podem oferecer recursos de imagens avançados potencializados pela IA do Adobe, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
 ## Suporte a SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de imagem de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_br)
+A documentação técnica mais recente sobre o Componente de imagem de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -136,14 +136,14 @@ Os estilos devem ser configurados para este componente na [caixa de diálogo de 
 
 ![Guia principal da caixa de diálogo de design do componente de imagem](/help/email/assets/email-image-design-main.png)
 
-* **Ativar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
+* **Habilitar recursos DM** - Quando marcada, os [recursos do Dynamic Media](#dynamic-media) ficam disponíveis.
    * Essa opção só é exibida quando o Dynamic Media está habilitado no ambiente.
-* **Ativar imagens otimizadas para web** - quando marcada, [o serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
+* **Habilitar imagens otimizadas para web** - quando marcada, [o serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
    * Quando a opção estiver desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 * **A imagem é decorativa** - Define se a opção de imagem decorativa é automaticamente habilitada ao adicionar o componente de Imagem a uma página.
-* **Obter texto alternativo do DAM** - Define se a opção para recuperar o texto alternativo do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
-* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é ativada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter texto alternhabilito do DAM** - Define se a opção para recuperar o texto alternhabilito do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
+* **Obter legenda do DAM** - Define se a opção para recuperar a legenda do DAM é habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Exibir legendas como janelas pop-up** - Define se a opção para exibir a legenda da imagem como um pop-up será habilitada automaticamente ao adicionar o componente de Imagem a uma página.
 * **Redimensionar largura** - Esse valor é usado para redimensionar a largura das imagens base que são ativos do DAM.
    * A proporção das imagens será preservada.
