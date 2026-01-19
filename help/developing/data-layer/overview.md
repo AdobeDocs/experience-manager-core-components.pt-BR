@@ -4,10 +4,10 @@ description: Uso da Camada de dados de clientes Adobe com os Componentes princip
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -120,6 +120,10 @@ id: {                   // component ID
 }
 ```
 
+>[!NOTE]
+>
+>Este esquema é o esquema de item de componente genérico usado como um padrão base para vários Componentes principais. Isso não garante que cada componente listado preencherá todos esses campos em cada item.
+
 O seguinte [evento](#events) é relevante para o esquema de itens de Componentes/Contêineres:
 
 * `cmp:click`
@@ -224,7 +228,7 @@ O seguinte [evento](#events) é relevante para o esquema de Ativo:
 
 * `cmp:click`
 
-### Esquema de Fragmento do conteúdo {#content-fragment}
+### Esquema de fragmento de conteúdo {#content-fragment}
 
 O esquema de Fragmento de conteúdo é usado pelo [componente de Fragmento de conteúdo](/help/components/content-fragment-component.md).
 
@@ -313,4 +317,4 @@ Deseja explorar a Camada de dados e os Componentes principais com mais detalhes?
 
 >[!TIP]
 >
->Para explorar ainda mais a flexibilidade da Camada de Dados, analise as opções de integração, incluindo como ativar a Camada de dados para seus componentes personalizados.
+>Para explorar ainda mais a flexibilidade da Camada de Dados, analise as opções de integração, incluindo como habilitar a Camada de dados para seus componentes personalizados.
