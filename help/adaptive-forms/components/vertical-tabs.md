@@ -3,9 +3,9 @@ title: Componente principal de formulários adaptáveis - Guias verticais
 description: Uso ou personalização do componente principal de Guias verticais para formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2173'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente pa
 
 >[!NOTE]
 >
-> Para o AEM 6.5 Forms, este componente foi introduzido com o pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para habilitar esse componente, verifique se as versões necessárias dos Componentes principais do Forms e do WCM estão instaladas. Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
+> Para o AEM 6.5 Forms, este componente foi introduzido com o pacote de serviços 19 do AEM 6.5 Forms (6.5.19.0). Para obter informações detalhadas sobre as versões dos Componentes principais de formulários adaptáveis, consulte [Versões dos componentes principais de formulários adaptáveis](/help/adaptive-forms/version.md)
 
 ![exemplo](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -34,7 +34,7 @@ Estes são alguns motivos comuns para se usar guias verticais em um formulário 
 
 - **Melhor organização**: as guias fornecem uma estrutura clara e organizada para um formulário, facilitando sua compreensão e preenchimento.
 
-- **Aumento do engajamento de usuário**: as guias verticais podem melhorar a aparência do formulário e o engajamento dos usuários, o que pode aumentar a taxa de preenchimento do formulário.
+- **Aumento do engajamento de usuário**: as guias verticais podem melhorar a aparência do formulário e o engajamento dos usuários, o que pode aumentar a taxa de conclusão do formulário.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -105,7 +105,7 @@ Você pode personalizar facilmente a experiência das guias verticais para visit
 
 É possível usar as opções de repetição para duplicar o componente de guias verticais e seus subcomponentes, definir uma contagem de repetição mínima e máxima e facilitar a replicação de seções semelhantes em um formulário. Ao interagir com o componente de guias verticais e acessar suas configurações, as seguintes opções serão apresentadas:
 
-- **Permitir a repetição das guias verticais**: um recurso que permite habilitar ou desabilitar a funcionalidade de repetição.
+- **Permitir a repetição das guias verticais**: um botão de alternância que permite habilitar ou desabilitar a funcionalidade de repetição.
 - **Repetições mínimas**: estabelece o número mínimo de vezes que o componente de guias verticais pode ser repetido. O valor padrão é zero e indica que o componente de guias verticais não é repetido.
 - **Máximo de repetições**: define o número máximo de vezes que o componente de guias verticais pode ser repetido. Por padrão, esse valor é ilimitado.
 
@@ -126,9 +126,9 @@ O botão **Adicionar** permite selecionar um componente da janela de seleção d
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/vertical-tab-help.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: habilite essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
