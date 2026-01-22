@@ -224,7 +224,7 @@ O editor dos formulários adaptáveis baseados em componentes principais é seme
 
 ## Enable Adaptive Forms Core Components
 
-Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=pt-BR).
 
 The Adaptive Forms Core Components have the following requirements.
 
@@ -233,7 +233,7 @@ The Adaptive Forms Core Components have the following requirements.
 |AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
 |AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=pt-BR#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
 -->
 
