@@ -145,7 +145,7 @@ ht-degree: 98%
 + Desenvolver {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
-   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
    + [Personalizar os Componentes principais](/help/developing/customizing.md)
    + [Orientações para os componentes](/help/developing/guidelines.md)
    + [Suporte ao AMP](/help/developing/amp.md)
