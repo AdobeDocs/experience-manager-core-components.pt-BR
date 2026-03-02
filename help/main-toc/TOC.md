@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Para projetos do AEM tradicional, use os componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    + [Carrossel](/help/components/carousel.md)
    + [Contêiner](/help/components/container.md)
    + [Fragmento de conteúdo](/help/components/content-fragment-component.md)
-   + [Lista de fragmentos do conteúdo](/help/components/content-fragment-list.md)
+   + [Lista de fragmentos de conteúdo](/help/components/content-fragment-list.md)
    + [Download](/help/components/download.md)
    + [Incorporação](/help/components/embed.md)
    + [Fragmento de experiência](/help/components/experience-fragment.md)
@@ -59,7 +59,7 @@ ht-degree: 100%
    + Componentes v1 {#v1-components}
       + [Navegação estrutural (v1)](/help/components/v1/breadcrumb-v1.md)
       + [Botão (v1)](/help/components/v1/button.md)
-      + [Lista de fragmento do conteúdo (v1)](/help/components/v1/content-fragment-list.md)
+      + [Lista de fragmentos de conteúdo (v1)](/help/components/v1/content-fragment-list.md)
       + [Download (v1)](/help/components/v1/download.md)
       + [Incorporar (v1)](/help/components/v1/embed.md)
       + [Fragmento de experiência (v1)](/help/components/v1/experience-fragment.md)
@@ -141,10 +141,11 @@ ht-degree: 100%
       + [Rodapé](/help/adaptive-forms/components/footer.md)
    + [Personalizar componentes principais dos formulários adaptáveis](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temas de amostra e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Ativar padrões de validação de entrada de texto](/help/adaptive-forms/enable-validation-patterns.md)
 + Desenvolver {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
-   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
+   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalizar os Componentes principais](/help/developing/customizing.md)
    + [Orientações para os componentes](/help/developing/guidelines.md)
    + [Suporte ao AMP](/help/developing/amp.md)
