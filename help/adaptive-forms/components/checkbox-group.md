@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Grupo de caixa de sele
 description: Utilização ou personalização do Componente principal do grupo de caixa de seleção de Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2315'
+ht-degree: 91%
 
 ---
 
@@ -53,17 +53,22 @@ O componente principal de grupo de caixas de seleção de formulários adaptáve
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
+| v2 | Compatível com <br>[versão 3.0.142](/help/adaptive-forms/version.md) e posterior | |
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> A versão v1 do componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal do grupo de caixas de seleção de Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal do grupo de caixas de seleção de Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -88,7 +93,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 - **Opções**: você pode adicionar pares de valores de dados e textos de exibição usando o botão **Adicionar**.\
   Depois que uma nova opção for adicionada, as seguintes ações poderão ser executadas:
    - **Valor de dados**: essa opção permite inserir o conteúdo a ser enviado quando uma opção for selecionada.
-   - **Texto de exibição** - Esta opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
+   - **Texto de exibição**: essa opção permite inserir o conteúdo a ser exibido em um Formulário adaptável.
    - **Excluir** - Toque ou clique para excluir a opção de uma caixa de seleção.
    - **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem dos painéis.
 
@@ -103,14 +108,14 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 
-- **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar string de dados ao **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro de `Value type mismatch`.
+- **Tipo de dados do valor enviado**: essa opção especifica o tipo de dados do valor enviado quando qualquer opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
 
 - **Opções de exibição**: Esta opção é usada para definir o alinhamento visual das caixas de seleção em um Formulário adaptável. As duas opções compatíveis são:
    - **Horizontal** - Quando essa opção é selecionada, as caixas de seleção são exibidas da esquerda para a direita em um Formulário adaptável.
    - **Vertical** - Quando essa opção é selecionada, as caixas de seleção são exibidas de cima para baixo em um Formulário adaptável.
 
 - **Opções padrão**: Essa opção permite que você adicione valores padrão pré-selecionados quando o formulário é carregado. Use o ícone excluir para remover as opções adicionadas. Se o **tipo de dados do valor enviado** está definido como `Number` e você adicionar dados da string às **Opções padrão**, a tela exibe uma `Value type mismatch` mensagem de erro.
-- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente no formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 - **Somente leitura**: selecione essa opção para tornar o componente não editável. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -128,9 +133,9 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/checkbox_helptab.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: habilite essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
@@ -157,7 +162,7 @@ O Componente principal do grupo da caixa de seleção de Formulários adaptávei
 
 - **Classes CSS padrão**: você pode fornecer uma classe CSS padrão para o Componente principal do grupo de caixas de seleção de Formulários adaptáveis.
 
-- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que representa o estilo. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
+- **Estilos permitidos**: você pode definir estilos fornecendo um nome e a classe CSS que o representa. Por exemplo, você pode criar um estilo chamado “texto em negrito” e fornecer a classe CSS “font-weight: bold”. Você pode usar ou aplicar esses estilos a um formulário adaptável no editor de formulários adaptáveis. Para aplicar um estilo, no editor de formulários adaptáveis, selecione o componente ao qual deseja aplicar o estilo, navegue até a caixa de diálogo de propriedades e selecione o estilo desejado na lista suspensa **Estilos**. Se precisar atualizar ou modificar os estilos, simplesmente retorne à caixa de diálogo Design, atualize os estilos na guia estilos e salve as alterações.
 
 ### Propriedades personalizadas
 
@@ -173,9 +178,19 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
    - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
+## Suporte de conjunto de campos e legenda para Grupo de caixas de seleção (v2)
+
+<span class="preview"> Esse recurso está disponível por meio do programa de acesso antecipado. Para solicitar acesso, envie um email de seu endereço oficial para [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Os Componentes principais adaptáveis do Forms usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de caixas de seleção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
+
+O componente group(v2) da caixa de seleção é renderizado em um elemento `<fieldset>`, com o rótulo do grupo encapsulado em um `<legend>` como seu primeiro filho. Essa estrutura garante que os leitores de tela anunciem o rótulo do grupo antes de ler as opções individuais de caixa de seleção, facilitando para os usuários com tecnologias de assistência a compreensão do contexto e da finalidade de cada opção.
+
+![conjunto de campos de caixa de seleção](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Artigos relacionados {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## Consulte também {#see-also}
 

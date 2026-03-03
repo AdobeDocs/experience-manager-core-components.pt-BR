@@ -3,10 +3,10 @@ title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2135'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2349'
+ht-degree: 91%
 
 ---
 
@@ -49,13 +49,19 @@ O componente principal de botão de opções de formulários adaptáveis foi lan
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
+| v2 | Compatível com <br>[versão 3.0.142](/help/adaptive-forms/version.md) e posterior | |
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
+
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> A versão v1 do componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalhes técnicos {#technical-details}
 
@@ -121,9 +127,9 @@ Você também pode formatar as opções do grupo de botões de opção usando **
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/radiobutton_helptab.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: habilite essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 
@@ -166,6 +172,16 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
    - **Excluir**: toque ou clique para excluir o nome e o valor da propriedade personalizada.
 
    - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
+
+## Suporte de conjunto de campos e legenda para o botão de opção (v2)
+
+<span class="preview"> Esse recurso está disponível por meio do programa de acesso antecipado. Para solicitar acesso, envie um email de seu endereço oficial para [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Os Componentes principais adaptáveis do Forms usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de botões de opção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
+
+Os componentes do botão de opção (v2) são renderizados em um elemento `<fieldset>`, com o rótulo do grupo encapsulado em um `<legend>` como seu primeiro filho. Os atributos ARIA redundantes ou inválidos são removidos e os rótulos individuais são associados corretamente às respectivas entradas. Isso garante que os leitores de tela leiam cada rótulo de botão de opção claramente, juntamente com o contexto do grupo.
+
+![botão de opção](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Artigos relacionados {#related-articles}
 
