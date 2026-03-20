@@ -1,12 +1,12 @@
 ---
 title: 'Componente principal dos formulários adaptáveis: componente Interruptor'
 description: Utilização ou personalização do componente principal interruptor para formulários adaptáveis.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 O componente interruptor é uma interface gráfica usada em formulários que permite selecionar entre duas opções. Normalmente, é um botão de alternância entre dois estados que permite a escolha entre esses dois estados, ativando ou desativando um recurso, uma configuração ou uma funcionalidade. O componente interruptor foi projetado para representar visualmente o estado atual e exibir se um recurso específico está ativado ou desativado.
 
-O componente interruptor é um elemento de controle booleano que define o valor como verdadeiro ou falso. Por exemplo, ele é usado para ativar ou desativar um recurso, como ligar ou desligar o som, o Bluetooth ou o Wi-Fi.
+O componente interruptor é um elemento de controle booleano que define o valor como verdadeiro ou falso. Por exemplo, ele é usado para habilitar ou desabilitar um recurso, como ligar ou desligar o som, o Bluetooth ou o Wi-Fi.
 
 ![Exemplo do componente interruptor](/help/adaptive-forms/assets/switch-example.png)
 
@@ -31,23 +31,23 @@ Estes são alguns motivos comuns para usar interruptores em um formulário adapt
 
 - **Representação visual**: o componente interruptor reflete visualmente seu estado atual, alterando a cor ou a posição.
 
-- **Controle de funcionalidades**: o componente interruptor é usado para ativar ou desativar funcionalidades específicas em um formulário do AEM. Por exemplo, ele permite ativar ou desativar um recurso.
+- **Controle de funcionalidades**: o componente interruptor é usado para habilitar ou desabilitar funcionalidades específicas em um formulário do AEM. Por exemplo, ele permite ativar ou desativar um recurso.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal interruptor para formulários adaptáveis foi lançado como parte dos componentes principais 2.0.64. Esta tabela mostra todas as versões compatíveis, bem como a compatibilidade com o AEM, e inclui links para a documentação correspondente:
+O componente principal do switch Forms adaptável foi lançado como parte dos componentes principais 2.0.64. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com a <br>[versão 2.0.64](/help/adaptive-forms/version.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com <br>[versão 2.0.64](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal interruptor para formulários adaptáveis na documentação técnica, encontrada no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal interruptor para formulários adaptáveis na documentação técnica, encontrada no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -85,7 +85,7 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Marcar como elemento de formulário não vinculado**: selecione essa opção para configurar um campo de formulário não vinculado a um esquema. Essa opção permite salvar dados sem atualizar a fonte de dados. Além disso, permite manipular dados de forma personalizada, separadamente da integração do banco de dados padrão.
 - **Tipo de dados do valor enviado**: esta opção especifica o tipo de dados do valor enviado quando uma opção é selecionada. Se o **tipo de dados do valor enviado** estiver definido como `Number` e você adicionar uma string de dados em **Valor de dados** na guia **Opções**, a tela exibirá uma mensagem de erro `Value type mismatch`.
-- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente no formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desabilitar componente**: selecione essa opção para desabilitar ou bloquear o componente. O componente desativado não está ativo nem editável pelo usuário final. O usuário pode ver o valor do campo, mas não pode modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -105,9 +105,9 @@ Você pode personalizar facilmente a experiência com o componente interruptor p
 
 ![Guia Conteúdo de ajuda](/help/adaptive-forms/assets/switch-help.png)
 
-- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Ative a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
+- **Descrição curta**: uma descrição curta é uma breve explicação em texto que fornece informações adicionais ou esclarecimentos sobre a finalidade de um campo de formulário específico. Ela ajuda o usuário a entender qual tipo de dados deve ser inserido no campo e pode fornecer diretrizes ou exemplos para ajudar a garantir que as informações inseridas sejam válidas e atendam aos critérios desejados. Por padrão, as descrições curtas permanecem ocultas. Habilite a opção **Sempre mostrar descrição curta** para exibi-la abaixo do componente.
 
-- **Sempre mostrar descrição curta**: ative essa opção para exibir a descrição curta abaixo do componente.
+- **Sempre mostrar descrição curta**: habilite essa opção para exibir a descrição curta abaixo do componente.
 
 - **Texto de ajuda**: o texto de ajuda refere-se às informações adicionais ou orientações fornecidas ao usuário para auxiliá-lo no preenchimento correto de um campo de formulário. Ele é exibido quando o usuário clica no ícone de ajuda (i) colocado ao lado do componente. O texto de ajuda fornece informações mais detalhadas do que o rótulo do campo de formulário ou o texto do espaço reservado e foi desenvolvido para ajudar o usuário a entender os requisitos ou restrições do campo. Ele também pode oferecer sugestões ou exemplos para tornar o preenchimento do formulário mais fácil e preciso.
 

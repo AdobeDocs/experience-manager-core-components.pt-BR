@@ -1,13 +1,13 @@
 ---
 title: Componente de navegação (v1)
 description: O componente de navegação permite que os usuários naveguem facilmente por uma estrutura de site globalizada.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 

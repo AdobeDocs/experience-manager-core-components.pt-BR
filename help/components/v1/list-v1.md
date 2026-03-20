@@ -1,12 +1,12 @@
 ---
 title: Componente de Lista (v1)
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '836'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente de Lista (v1) {#list-component-v}
 
-O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
+O componente de lista, que faz parte dos componentes principais, permite criar listas dinâmicas e estáticas com facilidade.
 
 ## Uso {#usage}
 
@@ -187,7 +187,7 @@ A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 
 * **Consulta de pesquisa** - a sequência de caracteres para a qual uma pesquisa de texto completo será executada para gerar os elementos da lista
 * **Pesquisar em** - Onde a pesquisa deve ser executada
-   * Use a **caixa de diálogo de Seleção** para escolher o local no AEM
+   * Use a **caixa de diálogo de seleção** para escolher o local no AEM
    * Use página atual se deixado em branco
 
 #### Tags {#tags}
@@ -197,7 +197,7 @@ A lista pode ser criada usando páginas que correspondem a determinadas tags em 
 ![](/help/assets/chlimage_1-42.png)
 
 * **Página principal** - Onde a correspondência de tags deve começar
-   * Use a **caixa de diálogo de Seleção** para escolher o local no AEM
+   * Use a **caixa de diálogo de seleção** para escolher o local no AEM
    * Use página atual se deixado em branco
 * **Tags** - As tags que devem ser correspondidas
    * Use a caixa de diálogo **Procurar** para selecionar as tags
@@ -227,7 +227,7 @@ Usando a guia **configurações do item**, a formatação dos elementos da lista
 ![](/help/assets/chlimage_1-44.png)
 
 * **Vincular itens**
-Vincula itens à página correspondente
+Vincula itens à página correspondente.
 * **Mostrar descrição**
 Mostra descrições do item de link
 * **Mostrar data**
@@ -261,7 +261,7 @@ Na guia **Configurações do item**, as opções de formatação para os element
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+A documentação técnica mais recente sobre o Componente de Lista [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Todo o projeto dos Componentes principais pode ser baixado do GitHub.
 

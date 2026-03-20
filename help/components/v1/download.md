@@ -1,12 +1,12 @@
 ---
 title: Componente de download (v1)
 description: O componente de download, que faz parte dos componentes principais, permite a criação de uma opção de download em uma página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '621'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente de download (v1) {#download-component}
 
-O componente de download, que faz parte dos componentes principais, permite a criação de uma opção de download em uma página.
+O componente de Download, dos Componentes principais, permite a criação de uma opção de download em uma página.
 
 ## Uso {#usage}
 
@@ -39,7 +39,7 @@ Para experimentar o componente de Download, e ver exemplos de suas opções de c
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Download [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_br).
+A documentação técnica mais recente sobre o componente de Download [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

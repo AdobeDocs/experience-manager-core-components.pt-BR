@@ -1,12 +1,12 @@
 ---
 title: Componente principal de formulários adaptáveis – Google reCAPTCHA
 description: Aumente a segurança dos formulários com o serviço Google reCAPTCHA sem esforço com o AEM Forms. Explicar as propriedades do reCaptcha do formulário adaptável
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1325'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -39,13 +39,13 @@ O componente principal de formulários adaptáveis do Google reCAPTCHA foi lanç
 
 | Versão do componente | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Compatível com a <br>[versão 2.0.4](/help/versions.md) e posteriores | Compatível | Compatível |
+| v1 | Compatível com <br>[versão 2.0.4](/help/versions.md) e posterior \| Compatível\|Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal de formulários adaptáveis do Google reCAPTCHA na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de formulários adaptáveis do Google reCAPTCHA na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -76,7 +76,7 @@ Você pode personalizar facilmente a experiência do Google reCAPTCHA para visit
    - **Normal**: refere-se à versão padrão maior do dispositivo reCAPTCHA, que pode ser mais visível e mais fácil para os usuários interagirem, especialmente em dispositivos com telas maiores.
    - **Compacto**: refere-se a uma versão menor do dispositivo reCAPTCHA. Esta opção é adequada para situações em que o espaço é limitado, como em dispositivos móveis ou em layouts reduzidos em páginas da Web.
 
-- **Ocultar componente**: selecione essa opção para ocultar o componente do formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
+- **Ocultar componente**: selecione essa opção para ocultar o componente no formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.
 
 - **Desativar Componente**: selecione essa opção para desativar o componente. O componente desativado não está ativo nem editável pelo usuário final. Os dados do componente desabilitado não são enviados. Usuários podem ver o valor do campo, mas não modificá-lo. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras.
 
@@ -88,7 +88,7 @@ Você pode personalizar facilmente a experiência do Google reCAPTCHA para visit
 
 - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 
-- **Mensagem de validação de script**: essa opção permite inserir uma mensagem que será exibida se a validação do script falhar.
+- **Mensagem de validação de script**: essa opção permite que inserir uma mensagem que será exibida se a validação do script falhar.
 
 ## Caixa de diálogo Design {#design-dialog}
 

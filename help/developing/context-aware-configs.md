@@ -1,11 +1,11 @@
 ---
 title: Configurações sensíveis ao contexto do Sling e Componentes principais
 description: Os Componentes principais usam as configurações sensíveis ao contexto do Sling para determinados recursos
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
@@ -29,6 +29,6 @@ Vários recursos dos Componentes principais usam configurações sensíveis ao c
 As configurações individuais dependem do componente ou do recurso específico. Os recursos dos componentes principais que usam configurações sensíveis ao contexto incluem:
 
 * [O componente de página](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) depende de configuração sensível ao contexto ao renderizar tags `link`, `script` e `meta`.
-* [Componente Visualizador de PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Camada de dados de clientes Adobe](/help/developing/data-layer/overview.md#installation-activation)
+* [Componente de Visualizador de PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+* [Camada de dados de clientes da Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Suporte ao AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

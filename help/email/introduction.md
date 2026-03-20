@@ -1,12 +1,12 @@
 ---
 title: Introdução aos Componentes principais de email
 description: Crie conteúdo atraente de email usando a flexibilidade dos Componentes principais de email e forneça-o com o poder do Adobe Campaign.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '376'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Crie conteúdo atraente de email usando a flexibilidade dos Componentes principa
 
 ## Visão geral {#overview}
 
-Os Componentes principais de email são criados na mesma base poderosa dos Componentes principais. Eles permitem a criação simples e flexível de conteúdo de email ao arrastar e soltar, o que pode ser entregue ao seu público usando o poder do Adobe Campaign.
+Os Componentes principais de email são criados na mesma base poderosa dos Componentes principais. Eles permitem a criação simples e flexível de conteúdo de email ao arrastar e soltar, o que pode ser entregue ao seu público-alvo usando o poder do Adobe Campaign.
 
 ## Benefícios {#benefits}
 
@@ -41,7 +41,7 @@ Os emails fazem parte da experiência da marca e da jornada do cliente. Com os C
 
 Os Componentes principais de email têm os seguintes requisitos.
 
-| AEM | Adobe Campaign | Componentes principais  |
+| AEM | Adobe Campaign | Componentes principais |
 |---|---|---|
 | AEM 6.5.14.0+<br>Local ou para AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versão 2.21.2](/help/versions.md)+ |
 

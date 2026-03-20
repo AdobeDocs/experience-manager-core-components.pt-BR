@@ -1,11 +1,11 @@
 ---
 title: Componente de Visualizador de PDF
 description: O componente de Visualizador de PDF permite a exibição de um documento PDF.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '685'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -78,11 +78,11 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 * **Modo de exibição padrão** - Como o visualizador se ajustará à página em que é exibido
    * Ajustar página
    * Ajustar largura
-* **Tela cheia** - Quando ativado, o visualizador assume a altura/largura totais da janela de visualização.
-* **Ferramentas de anotação** - Quando ativadas, as ferramentas de anotação estão disponíveis.
-* **Painel da esquerda** - Quando ativado, o painel da esquerda é exibido.
-* **Download de PDF** - Quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - Quando ativado, o botão Imprimir é exibido.
+* **Tela cheia** - Quando habilitado, o visualizador assume a altura/largura totais da janela de visualização.
+* **Ferramentas de anotação** - Quando habilitadas, as ferramentas de anotação estão disponíveis.
+* **Painel da esquerda** - Quando habilitado, o painel da esquerda é exibido.
+* **Download de PDF** - Quando habilitado, o botão de download é exibido.
+* **Imprimir PDF** - Quando habilitado, o botão Imprimir é exibido.
 * **Controles de página** - Alterna o comportamento dos controles de página.
    * Fixar
    * Desafixar
@@ -93,9 +93,9 @@ A área de visualização é renderizada no navegador completo. Isso é mais ade
 
 ![Personalizar a opção de contêiner dimensionado por tabulação, da caixa de diálogo de edição, do componente de Visualizador de PDF](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Tela cheia** - Quando ativado, o visualizador assume a altura/largura totais da janela de visualização.
-* **Download de PDF** - Quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - Quando ativado, o botão Imprimir é exibido.
+* **Tela cheia** - Quando habilitado, o visualizador assume a altura/largura totais da janela de visualização.
+* **Download de PDF** - Quando habilitado, o botão de download é exibido.
+* **Imprimir PDF** - Quando habilitado, o botão Imprimir é exibido.
 * **Controles de página** - Alterna o comportamento dos controles de página.
    * Fixar
    * Desafixar
@@ -106,8 +106,8 @@ Todas as páginas em PDF renderizadas em linha em uma página da Web. Isso é ma
 
 ![Personalizar a opção de contêiner dimensionado por tabulação, da caixa de diálogo de edição, do componente de Visualizador de PDF](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **Download de PDF** - Quando ativado, o botão de download é exibido.
-* **Imprimir PDF** - Quando ativado, o botão Imprimir é exibido.
+* **Download de PDF** - Quando habilitado, o botão de download é exibido.
+* **Imprimir PDF** - Quando habilitado, o botão Imprimir é exibido.
 
 ## Caixa de diálogo de design {#design-dialog}
 

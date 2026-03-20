@@ -1,17 +1,17 @@
 ---
 title: Componente do título
 description: O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '623'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
 
 
-# Componente de Título{#title-component}
+# Componente do título{#title-component}
 
 O componente de Título, dos Componentes principais, é um componente de cabeçalho de seção que apresenta edição no local.
 
@@ -53,7 +53,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o texto 
 * **Tipo / Tamanho** - Define o nível de cabeçalho do título
 * **Link** - Define o conteúdo ao qual o título será vinculado. Pode ser um caminho para uma página de conteúdo, um URL externo ou uma âncora de página.
 * **Abrir link em nova guia** - Quando marcada, o link abrirá em uma nova guia do navegador.
-* **ID**: Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração do ID pode afetar o rastreamento de CSS, JS e da Camada de Dados.

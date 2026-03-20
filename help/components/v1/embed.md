@@ -1,12 +1,12 @@
 ---
 title: Componente de incorporação (v1)
 description: O componente de Incorporação permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1240'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1317'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,11 @@ Este documento descreve a versão v1 do componente de incorporação, que foi in
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed_br).
+Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_br).
+A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
@@ -79,9 +79,9 @@ O campo **Incorporável** define o tipo de processador que deseja usar. No caso 
 * **ID do vídeo** - O ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
 * **Largura** - A largura do vídeo incorporado
 * **Altura** - A altura do vídeo incorporado
-* **Ativar mudo** - Esse parâmetro especifica se o vídeo será reproduzido silenciado por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
+* **Habilitar mudo** - Esse parâmetro especifica se o vídeo será reproduzido silenciado por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
 * **Habilitar reprodução automática** - Esse parâmetro especifica se o vídeo inicial começará automaticamente a ser reproduzido quando o reprodutor for carregado. Isso só tem efeito na instância de publicação ou ao usar a opção **Exibir como Publicado** na instância de criação.
-* **Ativar loop** - No caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
+* **Habilitar loop** - No caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
 * **Habilitar reprodução em linha (iOS)** - Esse parâmetro controla se os vídeos são reproduzidos em linha (ativado) ou em tela cheia (desativado) em um reprodutor HTML5 no iOS.
 * **Vídeos relacionados irrestritos** - Se essa opção estiver desativada, os vídeos relacionados serão provenientes do mesmo canal que o vídeo que acabou de ser reproduzido, caso contrário, serão provenientes de qualquer canal.
 

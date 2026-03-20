@@ -1,12 +1,12 @@
 ---
 title: Componente de Fragmento de experiência
 description: O componente de Fragmento de experiência permite que o autor de conteúdo adicione uma variação de fragmento de experiência a uma página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
@@ -124,7 +124,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo selecione
 
 Use o botão **Abrir caixa de diálogo de seleção** para abrir o seletor de componentes e escolher qual variação de componente de fragmento de experiência adicionar à página de conteúdo.
 
-Se você adicionar o componente de Fragmento de experiência a um modelo, observe que ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para mais informações.
+Se você adicionar o componente de Fragmento de experiência a um modelo, observe que ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para obter mais informações.
 
 Você também pode definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
 

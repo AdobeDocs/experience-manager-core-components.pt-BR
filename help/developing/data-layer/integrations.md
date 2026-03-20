@@ -2,12 +2,12 @@
 title: Integrações e a Camada de dados de clientes Adobe
 description: Saiba como a Camada de dados de clientes Adobe pode se integrar aos seus componentes personalizados e como as integrações com o Adobe Analytics e o Adobe Target podem ajudar você a obter insights sobre o seu site
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -17,16 +17,16 @@ A Camada de dados de clientes Adobe reduz o esforço de instrumentar sites, forn
 
 A Camada de dados de clientes Adobe pode se integrar aos seus componentes personalizados e às integrações com o Adobe Analytics e o Adobe Target pode ajudar você a obter insights sobre o seu site.
 
-## Ativar a Camada de dados para Componentes personalizados {#enabling-custom-components}
+## Habilitar a Camada de dados para Componentes personalizados {#enabling-custom-components}
 
 Para adicionar automaticamente um componente personalizado à Camada de dados:
 
 1. Defina as propriedades do modelo de componente personalizado que precisam ser rastreadas.
-1. Adicione o atributo `data-cmp-data-layer` ao componente personalizado HTL. Por exemplo `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Adicione o atributo `data-cmp-data-layer` ao componente personalizado HTL. Por exemplo: `data-cmp-data-layer="${mycomponent.data.json}"`.
 
 Para fazer com que a Camada de dados acione automaticamente um evento `cmp:click` sempre que um elemento específico do componente personalizado for clicado, adicione o atributo `data-cmp-clickable` ao elemento a ser rastreado no componente personalizado HTL.
 
-O atributo `data-cmp-data-layer-enabled` pode ser consultado no lado do cliente para verificar se a camada de dados está ativada.
+O atributo `data-cmp-data-layer-enabled` pode ser consultado no lado do cliente para verificar se a camada de dados está habilitada.
 
 >[!TIP]
 >

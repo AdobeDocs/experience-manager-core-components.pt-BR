@@ -1,13 +1,13 @@
 ---
 title: Componente de Fragmento de experiência de email
 description: O Componente de Fragmento de experiência de email permite que o autor de conteúdo coloque uma variação de Fragmento de experiência em seu conteúdo enquanto suporta uma estrutura de conteúdo localizada.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -120,7 +120,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo selecione
 
 Use o botão **Abrir Caixa de diálogo de seleção** para abrir o seletor de componentes e escolher qual variação de Componente de Fragmento de experiência adicionar à página de conteúdo.
 
-Se você adicionar o Componente de Fragmento de experiência de email a um modelo, ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para mais informações.
+Se você adicionar o Componente de Fragmento de experiência de email a um modelo, ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para obter mais informações.
 
 Você também pode definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTM.
 
@@ -130,11 +130,11 @@ Você também pode definir um **ID**. Essa opção permite controlar o identific
 
 ### Guia Estilos {#styles-tab-edit}
 
-O Componente do Fragmento de experiência de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
+O Componente Fragmento de experiência de email é compatível com o [Sistema de estilos](/help/get-started/authoring.md#component-styling) do AEM.
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para este componente na [caixa de diálogo de design](#design-dialog) para que a guia fique disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que a guia esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

@@ -1,12 +1,12 @@
 ---
 title: Componente de Contêiner de formulário
 description: O componente de Contêiner de formulário, dos Componentes principais, permite a criação de formulários de envio simples.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Ao usar a [caixa de diálogo de configuração](#configure-dialog), o editor de 
 
 >[!NOTE]
 >
->O componente de Contêiner de formulário, dos Componentes principais, suporta somente o uso de outros componentes de formulário dos componente principais (botão, texto, oculto etc.). Não há suporte para o uso de componentes de formulários de [componentes de base](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=pt-BR) dentro do componente de contêiner de formulário (e vice-versa).
+>O componente de Contêiner de formulário, dos Componentes principais, suporta somente o uso de outros componentes de formulário dos componente principais (botão, texto, oculto etc.). Não há suporte para o uso de componentes de formulários de [componentes principais](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=pt-BR) dentro do componente de contêiner de formulário (e vice-versa).
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -69,7 +69,7 @@ Quando o formulário for enviado, o tipo de ação pós-formulário de dados pas
 * **Mensagem de erro** - Mensagem a ser exibida se o envio não for bem-sucedido
 
 >[!TIP]
->Há opções de tempo limite adicionais que um administrador de sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica no GitHub para obter informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Há opções de tempo limite adicionais que um administrador do sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica no GitHub para obter mais informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Email {#mail}
 

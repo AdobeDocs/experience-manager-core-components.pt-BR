@@ -1,12 +1,12 @@
 ---
 title: Servlet de imagem adaptável
 description: Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Este documento descreve o Servlet de imagem adaptável padrão.
 
 ## Visão geral {#overview}
 
-Por padrão, o Componente de imagem usa o Servlet de imagem adaptável do Componente principal para fornecer imagens. [O Servlet de imagem adaptável](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes principais](/help/developing/customizing.md).
+Por padrão, o Componente de imagem usa o Servlet de imagem adaptável do Componente principal para fornecer imagens. [O Servlet de Imagem Adaptável ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes Principais](/help/developing/customizing.md).
 
 ## Seleção de representação {#rendition-selection}
 
@@ -39,7 +39,7 @@ O Servlet de imagem adaptável selecionará automaticamente a representação ma
 
 1. O Servlet de imagem adaptável analisa todas as representações disponíveis do ativo da imagem.
 1. Ele seleciona apenas aquelas com o mesmo tipo MIME do ativo referenciado original.
-   * Por exemplo: se o ativo original era um arquivo PNG, ele só considerará representações em PNG.
+   * E.g. se o ativo original era um arquivo PNG, ele só considerará representações em PNG.
 1. Dessas representações, ele considera as dimensões e as compara ao tamanho do container no qual a imagem deve ser exibida.
 1. Se a representação for maior ou igual ao tamanho do container, ela será adicionada a uma lista de representações candidatas.
 1. Se a representação for menor do que o container, ela será desconsiderada.
@@ -54,6 +54,6 @@ Isto melhorará o desempenho e evitará que algumas imagens sejam processadas co
 
 ## Usar cabeçalhos de última modificação {#last-modified}
 
-As solicitações condicionais pelo cabeçalho `Last-Modified` são aceitas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified` [precisa ser ativado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
+As solicitações condicionais pelo cabeçalho `Last-Modified` são suportadas pelo Servlet de imagem adaptável, mas o armazenamento em cache do cabeçalho `Last-Modified`[precisa ser habilitado no Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=pt-BR#caching-http-response-headers).
 
 A amostra da configuração do Dispatcher do [Arquétipo de projeto do AEM](/help/developing/archetype/overview.md) já contém essa configuração.

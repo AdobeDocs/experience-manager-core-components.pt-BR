@@ -1,18 +1,18 @@
 ---
-title: 'Componente de imagem de email '
+title: Componente de imagem de email
 description: O Componente de imagem de email é um componente de imagem adaptável que conta com um sistema de edição incorporado.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 98%
+source-wordcount: '1685'
+ht-degree: 96%
 
 ---
 
 
-# Componente de imagem de email  {#email-image-component}
+# Componente de imagem de email {#email-image-component}
 
 O Componente de imagem de email é um componente de imagem adaptável que conta com um sistema de edição incorporado.
 
@@ -47,9 +47,9 @@ Além disso, o Componente de imagem de email é compatível com um sistema de ca
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O Componente de imagem de email é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O Componente de imagem de email é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados,](#design-dialog) esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências de email criadas com os Componentes principais de email podem oferecer recursos de imagens avançados potencializados pela IA do Adobe, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências de email criadas com os Componentes principais de email podem oferecer recursos de imagens avançados potencializados pela Adobe AI, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
 ## Suporte a SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Por motivos de segurança, o SVG original nunca é chamado diretamente pelo Edit
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de imagem de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_br)
+A documentação técnica mais recente sobre o Componente de imagem de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -128,7 +128,7 @@ O Componente de imagem de email é compatível com o [sistema de estilos](/help/
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para este componente na [caixa de diálogo de design](#design-dialog) para que a guia fique disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que a guia esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 

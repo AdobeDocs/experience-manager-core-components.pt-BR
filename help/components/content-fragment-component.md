@@ -1,23 +1,23 @@
 ---
 title: Componente Fragmento de Conteúdo
 description: O componente Fragmento de Conteúdo, dos Componentes Principais, permite a exibição de um fragmento de conteúdo.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '659'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
 
 
-# Componente Fragmento de Conteúdo {#content-fragment-component}
+# Componente Fragmento de Conteúdo{#content-fragment-component}
 
 O componente Fragmento do Conteúdo, dos Componentes Principais, permite a exibição de um [fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=pt-BR).
 
 >[!NOTE]
 >
->Antes da versão 2.4.0 dos Componentes Principais, o componente Fragmento de Conteúdo estava disponível como uma extensão para os Componentes Principais e precisava ser baixado separadamente e ativado explicitamente.
+>Antes da versão 2.4.0 dos Componentes Principais, o componente Fragmento de Conteúdo estava disponível como uma extensão para os Componentes Principais e precisava ser baixado separadamente e habilitado explicitamente.
 
 {{traditional-aem}}
 
@@ -51,7 +51,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 >
 >Embora ambos sejam a versão v1, qualquer componente Fragmento de Conteúdo que tenha sido usado da pasta de extensões exigirá uma migração de seus componentes proxy relacionados para usar o novo tipo de recurso ao atualizar para a versão 2.4.0 ou posterior dos Componentes Principais.
 
-Para mais informações sobre as versões dos Componentes Principais, consulte o documento [Versões dos Componentes Principais](/help/versions.md).
+Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -61,7 +61,7 @@ Para experimentar o componente Fragmento de Conteúdo, e ver exemplos de suas op
 
 A documentação técnica mais recente sobre o componente Fragmento de Conteúdo [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1_br).
 
-Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -77,7 +77,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo defina o 
    * A **Caixa de diálogo de Seleção** pode ser usada para localizar o fragmento
 
 * **Modo de exibição**
-   * **Elemento de texto único** - Habilita a seleção de um elemento de texto multilinha e permite as opções de controle de parágrafo
+   * **Elemento de texto simples** - Habilita a seleção de um elemento de texto multilinha e permite as opções de controle de parágrafo
    * **Vários elementos** - Permite a seleção de um ou mais elementos do fragmento de conteúdo selecionado
 * **Elemento** - O elemento ou os elementos do fragmento de conteúdo que serão incluídos
 * **Variação** - Que variação do fragmento de conteúdo usar (o padrão é **Principal**)

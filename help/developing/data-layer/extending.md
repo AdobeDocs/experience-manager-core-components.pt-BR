@@ -2,11 +2,11 @@
 title: Expansão da Camada de Dados de Clientes Adobe
 description: A Camada de Dados de Clientes Adobe pode ser expandida seguindo alguns padrões básicos
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,4 @@ Isso adicionará um atributo `data-cmp-data-layer` ao elemento HTML do seu compo
 
 >[!TIP]
 >
->Para explorar ainda mais a flexibilidade da Camada de Dados, analise as opções de integração, incluindo como ativar a Camada de Dados para seus componentes personalizados.
+>Para explorar ainda mais a flexibilidade da Camada de Dados, analise as opções de integração, incluindo como habilitar a Camada de dados para seus componentes personalizados.

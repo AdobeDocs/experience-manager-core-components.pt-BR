@@ -1,11 +1,11 @@
 ---
 title: Personalizar componentes principais dos formulários adaptáveis
 description: Saiba como estender ou criar um componente principal para formulários adaptáveis e implementar funcionalidades personalizadas na sua organização.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '562'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---

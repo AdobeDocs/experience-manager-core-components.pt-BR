@@ -1,11 +1,11 @@
 ---
 title: Componente de Lista
 description: O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1204'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | Compatível | Compatível |
+| v4 | - | Compatível | Compatível | |
 | [v3](/help/components/v3/list.md) | - | Compatível | Compatível | Compatível |
 | [v2](/help/components/v2/list.md) | Compatível | Compatível | - | Compatível |
 | [v1](/help/components/v1/list-v1.md) | Compatível | Compatível | - | Compatível |

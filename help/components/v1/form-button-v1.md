@@ -1,12 +1,12 @@
 ---
 title: Componente Botão de formulário (v1)
 description: O componente Formulário Oculto, dos Componentes Principais, possibilita a inclusão de um campo oculto em um formulário.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '323'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -111,6 +111,6 @@ Não há caixa de diálogo de design para o componente Botão de formulário.
 
 A documentação técnica mais recente sobre o componente Botão de Formulário [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
-Todo o projeto de Componentes Principais pode ser baixado do GitHub.
+Todo o projeto dos Componentes principais pode ser baixado do GitHub.
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).

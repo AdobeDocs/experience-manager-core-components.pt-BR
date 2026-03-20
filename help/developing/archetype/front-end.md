@@ -2,12 +2,12 @@
 title: Desenvolvimento de front-end com o Arquétipo de projeto do AEM
 description: Saiba mais sobre o mecanismo de criação de front-end dedicado e opcional do Arquétipo de projeto do AEM baseado no Webpack.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ No entanto, qualquer projeto final tem de utilizar os resultados de ambos os esf
 
 ## Escolha da marcação {#determining-markup}
 
-Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, caso necessário.](/help/developing/customizing.md#customizing-the-markup)
+Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, se necessário.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Possíveis fluxos de trabalho de desenvolvimento de front-end {#possible-workflows}
 
@@ -66,9 +66,9 @@ Com o [Storybook](https://storybook.js.org) você pode executar mais desenvolvim
 >
 >O [Storybook](https://storybook.js.org) não está incluído no Arquétipo de projeto do AEM. Se você optar por usá-lo, deve instalar o Storybook separadamente.
 
-## Visão geral das clientlibs  {#clientlibs}
+## Visão geral das clientlibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando uma [clientlib do AEM. ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de criação do NPM, o aplicativo é criado e o pacote `aem-clientlib-generator` pega a saída de build resultante e a transforma em uma clientlib.
+O módulo de front-end é disponibilizado usando uma [clientlib do AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de compilação NPM, o aplicativo é compilado e o pacote `aem-clientlib-generator` pega a saída de compilação resultante e a transforma na clientlib.
 
 Uma clientlib consistirá nos seguintes arquivos e diretórios:
 

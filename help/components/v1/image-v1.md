@@ -1,12 +1,12 @@
 ---
 title: Componente de Imagem (v1)
 description: O componente de imagem, que faz parte dos componentes principais, é um componente de imagem adaptável que inclui edição no local.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1293'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1369'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ A tabela a seguir lista a compatibilidade da v1 do componente de Imagem.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-O exemplo a seguir foi retirado do [We.Retail](https://helpx.adobe.com/br/experience-manager/6-4/sites/developing/using/we-retail.html).
+O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=pt-BR).
 
 ### Captura de tela {#screenshot}
 
@@ -87,7 +87,7 @@ Além da [caixa de diálogo de edição](#edit-dialog) padrão e da [caixa de di
    * Toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
    * Toque ou clique em **Editar** para [gerenciar as representações do ativo](https://helpx.adobe.com/br/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) no editor de ativos.
 
-* **Imagem decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
+* **A imagem é decorativa** - Verifique se a imagem deve ser ignorada pela tecnologia assistiva e, portanto, não requer um texto alternativo. Isso se aplica somente a imagens decorativas.
 * **Texto alternativo** - Alternativa textual do significado ou função da imagem para leitores com deficiência visual.
 * **Link**
    * Vincule a imagem a outro recurso.
@@ -195,7 +195,7 @@ Toque ou clique no botão Adicionar para adicionar outro tamanho.
 
 Por padrão, o carregamento de imagens é adiado até ficarem visíveis. Selecione a opção **Desativar carregamento lento** para carregar as imagens ao carregar a página.
 
-* **Ativar imagens otimizadas para web** - Quando marcada, o [serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
+* **Habilitar imagens otimizadas para web** - quando marcada, o [serviço de entrega de imagens otimizadas para a Web](/help/developing/web-optimized-image-delivery.md) fornecerá imagens no formato WebP, reduzindo o tamanho das imagens em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
    * Quando desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 
@@ -203,7 +203,7 @@ Por padrão, o carregamento de imagens é adiado até ficarem visíveis. Selecio
 
 Na guia **Recursos**, é possível definir quais opções estão disponíveis para os autores de conteúdo ao usar o componente, incluindo opções de upload, orientação e de recorte.
 
-* **Ativar imagens otimizadas para web** - quando marcada, o serviço de entrega de imagens otimizadas para a Web fornecerá imagens no formato WebP, reduzindo os tamanhos de imagem em cerca de 25%.
+* **Habilitar imagens otimizadas para web** - quando marcada, o serviço de entrega de imagens otimizadas para a Web fornecerá imagens no formato WebP, reduzindo os tamanhos de imagem em cerca de 25%.
    * Essa opção só está disponível no AEMaaCS.
    * Quando desmarcada ou quando o serviço de entrega de imagens otimizadas para a Web não estiver disponível, o [Servlet de imagem adaptável](/help/developing/adaptive-image-servlet.md) será usado.
 
@@ -223,13 +223,13 @@ Use esta opção para permitir que o criador de conteúdo use as opções de **I
 
   >[!CAUTION]
   >
-  >A opção **Inverter** está desativada por padrão. Ativar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
+  >A opção **Inverter** está desativada por padrão. Habilitar essa opção exibirá os botões **Inverter verticalmente** e **Inverter horizontalmente** na caixa de diálogo de edição do componente de imagem. No entanto, o recurso não é atualmente suportado pelo AEM e quaisquer alterações feitas usando essas opções não serão persistentes.
 
 * Cortar
 
   ![](/help/assets/chlimage_1-21.png)
 
-  Selecione a opção **Permitir recorte** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
+  Selecione a opção **Permitir Cortar** para que o autor de conteúdo recorte a imagem no componente na caixa de diálogo de edição.
    * Clique em **Adicionar** para adicionar uma taxa de proporção de corte predefinida.
    * Insira um nome descritivo, que será mostrado na lista suspensa **Iniciar corte**.
    * Insira a taxa numérica da proporção.

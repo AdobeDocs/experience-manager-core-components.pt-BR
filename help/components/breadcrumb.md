@@ -1,11 +1,11 @@
 ---
 title: Componente de Navegação estrutural
-description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
-role: Architect, Developer, Admin, User
+description: O componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+role: Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '800'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Componente de Navegação estrutural{#breadcrumb-component}
 
-O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+O componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 
 {{traditional-aem}}
 
@@ -94,11 +94,11 @@ A caixa de diálogo de design permite que o autor do modelo defina quais são os
 * **Nível inicial de navegação** - Define o valor padrão para onde, na hierarquia, o componente de Navegação estrutural deve começar a descer até a página atual, quando o componente de navegação estrutural for adicionado a uma página.
 * **Mostrar itens de navegação ocultos** - Define o valor padrão da opção **Mostrar itens de navegação ocultos** quando o componente de Navegação estrutural é adicionado a uma página.
 
-   * Ela não ativa ou desativa a opção para o autor. Ela só define o valor padrão.
+   * Ela não habilita ou desabilita a opção para o autor. Ela só define o valor padrão.
 
 * **Ocultar página atual** - Define o valor padrão da opção **Ocultar página atual**, quando o componente de Navegação estrutural é adicionado a uma página.
 
-   * Ela não ativa ou desativa a opção para o autor. Ela só define o valor padrão.
+   * Ela não habilita ou desabilita a opção para o autor. Ela só define o valor padrão.
 
 * **Desativar sombreamento** - Define o valor padrão da opção **Desativar** sombreamento quando o componente de navegação estrutural for adicionado a uma página.
 

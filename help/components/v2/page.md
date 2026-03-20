@@ -1,13 +1,13 @@
 ---
 title: Componente de página (v2)
 description: O componente de página é um componente de página extensível projetado para funcionar com o editor de modelo e permitir que o cabeçalho/rodapé da página e os componentes da estrutura sejam montados com o editor de modelo.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Este documento descreve a versão v2 do componente de página, que foi introduzi
 
 ## Compatível com o Aplicativo web progressivo {#pwa-support}
 
-A versão 2.15.0 dos Componentes principais introduziu o suporte para recursos integrados de [Aplicativos web progressivos (PWA) do AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) Com uma configuração simples no nível do site, transforme sua experiência AEM em um PWA!
+A versão 2.15.0 dos Componentes Principais introduziu o suporte para os recursos incorporados do [Aplicativos Web Progressivos (PWA) do AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) Com uma configuração simples no nível do site, transforme sua experiência com o AEM em uma PWA!
 
 ### Detalhes técnicos {#technical-details}
 
@@ -65,7 +65,7 @@ Usando a janela Design da página, você pode definir as bibliotecas de clientes
    * As categorias definidas aqui que também estão presentes no campo **Bibliotecas do cliente** terão o JavaScript carregado no cabeçalho da página em vez de no final do corpo.
    * Nenhum CSS será carregado, a menos que a categoria também esteja presente no campo **Bibliotecas do cliente**.
 
-* **Biblioteca cliente de recursos da Web** - A categoria de bibliotecas de clientes usada para servir recursos da Web, como favicons.
+* **Biblioteca cliente de recursos na Web** - A categoria de bibliotecas de clientes usada para servir recursos da Web, como favicons.
 
 * **Ir para o conteúdo principal - seletor de elemento** - Usado como um recurso de acessibilidade para ignorar diretamente o conteúdo principal da página.
 

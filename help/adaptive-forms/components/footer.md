@@ -1,12 +1,12 @@
 ---
 title: Componente principal de formulários adaptáveis - Rodapé
 description: Uso ou personalização do componente principal de rodapé de formulários adaptáveis.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -45,13 +45,15 @@ O componente principal de rodapé de formulários adaptáveis foi lançado em fe
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o componente principal de rodapé de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o componente principal de rodapé de formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 
 ## Caixa de diálogo de configuração {#configure-dialog}
@@ -63,9 +65,9 @@ Você pode personalizar facilmente a experiência de rodapé para visitantes com
 - **Caixa de diálogo de edição**
 A caixa de diálogo de edição fornece ferramentas padrão de formatação de rich text que permitem ao usuário criar texto para o rodapé.
 
-- **Negrito**: essa opção aplica a formatação de negrito ao texto selecionado ou formata em negrito o texto inserido após o cursor. O atalho do teclado é `Ctrl+B`.
+- **Negrito** - Esta opção aplica a formatação em negrito ao texto selecionado ou em negrito   formatar texto inserido após o cursor. `Ctrl+B` é um atalho de teclado.
 
-- **Itálico**: essa opção aplica a formatação de itálico ao texto selecionado ou formata em itálico o texto inserido após o cursor. O atalho do teclado é `Ctrl+I`.
+- **Itálico** - Esta opção aplica a formatação em itálico ao texto selecionado ou   colocar o texto em itálico inserido após o cursor. `Ctrl+I` é um atalho de teclado.
 
 ![Opções de marcadores](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -112,7 +114,7 @@ A caixa de diálogo de edição fornece ferramentas padrão de formatação de r
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -1,11 +1,11 @@
 ---
 title: Componente Acordeão
 description: O componente Acordeão, dos Componentes principais, permite a criação de uma coleção de painéis organizados em acordeão em uma página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1102'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Para experimentar o componente Acordeão, e ver exemplos de suas opções de con
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_br).
+A documentação técnica mais recente sobre o componente Acordeão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

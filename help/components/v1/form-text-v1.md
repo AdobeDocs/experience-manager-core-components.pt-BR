@@ -1,12 +1,12 @@
 ---
 title: Componente de Texto de formulário (v1)
 description: O componente de Texto de formulário, dos Componentes principais, permite a entrada do texto de formulário para envio.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '472'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '501'
 ht-degree: 100%
 
 ---

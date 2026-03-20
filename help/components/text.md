@@ -1,11 +1,11 @@
 ---
 title: Componente de texto
 description: O componente de Texto é um componente de edição e composição de rich text que apresenta edição no local.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2185'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2265'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ O restante deste artigo demonstra a configuração padrão do componente princip
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no componente de Texto.
+>Somente as opções habilitadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no componente de Texto.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -305,7 +305,7 @@ O componente de Texto também pode ser editado em linha, mas devido a restriçõ
 
 ![Exemplo de edição em linha](/help/assets/text-edit-inline-example.png)
 
-### Configurar uma ID  {#setting-id}
+### Configurar uma ID {#setting-id}
 
 Esta opção permite controlar o identificador exclusivo do componente no HTML e na [camada de dados](/help/developing/data-layer/overview.md).
 
@@ -319,7 +319,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais opçõe
 
 ### Guia Plug-ins {#plugins-tab}
 
-A guia Plug-ins é usada para ativar e desativar várias opções de formatação de texto disponíveis para os autores de conteúdo.
+A guia Plug-ins é usada para habilitar e desabilitar várias opções de formatação de texto disponíveis para os autores de conteúdo.
 
 ### Recursos {#features}
 

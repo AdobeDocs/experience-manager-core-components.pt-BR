@@ -1,11 +1,11 @@
 ---
 title: 'Componente principal de Formulários adaptáveis: Cabeçalho'
 description: Uso ou personalização do Componente principal de cabeçalho de Formulários adaptáveis.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '672'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -44,13 +44,15 @@ O componente principal de cabeçalho de formulários adaptáveis foi lançado em
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalhes técnicos {#technical-details}
 
-Obtenha as informações mais recentes sobre o Componente principal de cabeçalho de Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Para obter mais informações sobre o desenvolvimento dos Componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Obtenha as informações mais recentes sobre o Componente principal de cabeçalho de Formulários adaptáveis na documentação técnica no [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Para obter mais informações sobre o desenvolvimento dos componentes principais, consulte a [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
 ## Caixa de diálogo de configuração {#configure-dialog}
 
@@ -65,7 +67,7 @@ Essa parte do cabeçalho contém o título e a imagem do cabeçalho.
 - **Ativo de imagem**: essa opção permite usar o arrastar e soltar do mouse em um ativo como uma imagem. Também é possível fazer upload de um arquivo do sistema de arquivos local usando o botão **Procurar**. Após adicionar uma imagem, três botões são exibidos em sua parte inferior. Após adicionar uma imagem, três botões são exibidos em sua parte inferior:
    - **Editar**: toque ou clique em **Editar** para gerenciar as representações do ativo no editor de ativos.
    - **Limpar**: toque ou clique em **Limpar** para desmarcar a imagem atualmente selecionada.
-   - **Selecionar**: toque ou clique em **Selecionar** para selecionar outra imagem da pasta Ativos.
+   - **Escolher**: toque ou clique na opção **Escolher** para selecionar outra imagem da pasta de ativos.
 
 - **Título**: essa opção é usada para adicionar o título ao cabeçalho. O texto predefinido é incluído na caixa de diálogo e pode ser modificado pelo usuário.
 - **Vincular a**: é possível vincular o cabeçalho à pasta usando o ícone de **Procurar**.
@@ -86,7 +88,7 @@ Esta seção permite inserir o texto a ser incluído no cabeçalho.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

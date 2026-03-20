@@ -1,12 +1,12 @@
 ---
 title: Componente de Navegação estrutural (v1)
-description: O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
-index: n
-role: Architect, Developer, Admin, User
+description: O componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '530'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente de Navegação estrutural (v1) {#breadcrumb-component-v}
 
-O componente de Navegação estrutural, dos Componentes principais, é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
+O componente principal de navegação estrutural é um componente de navegação que cria uma navegação estrutural de links com base no local da página na hierarquia de conteúdo.
 
 ## Uso {#usage}
 
@@ -36,7 +36,7 @@ A tabela a seguir lista a compatibilidade da v1 do componente de Navegação est
 >[!CAUTION]
 >
 >Este documento descreve a v1 do componente de Navegação estrutural.
->>Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
+>Para obter detalhes sobre a versão atual do componente de Navegação estrutural, consulte o documento [Componente de Navegação estrutural](/help/components/breadcrumb.md).
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -110,11 +110,11 @@ A caixa de diálogo de design permite que o autor do modelo defina quais são os
 * **Nível de navegação para começar** - Define o valor padrão para onde, na hierarquia, o componente de navegação estrutural deve começar a descer para a página atual quando o componente de navegação estrutural for adicionado a uma página.
 * **Mostrar ocultos** - Define o valor padrão da opção **Mostrar ocultos** quando o componente de navegação estrutural é adicionado a uma página.
 
-   * Ela não ativa ou desativa a opção para o autor. Ela só define o valor padrão.
+   * Ela não habilita ou desabilita a opção para o autor. Ela só define o valor padrão.
 
 * **Ocultar atual** - Define o valor padrão da opção **Ocultar atual** quando o componente de navegação estrutural é adicionado a uma página.
 
-   * Ela não ativa ou desativa a opção para o autor. Ela só define o valor padrão.
+   * Ela não habilita ou desabilita a opção para o autor. Ela só define o valor padrão.
 
 ## Detalhes técnicos {#technical-details}
 

@@ -1,12 +1,12 @@
 ---
 title: Variáveis de campanha
 description: Use variáveis de campanha como espaços reservados para compor um conteúdo de email personalizado.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '294'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,11 @@ Clicar em ambos os ícones abre a caixa de diálogo **Selecionar variável do Ad
 
 Use a exibição de coluna para localizar a variável que deseja inserir. Clicar em um nó em uma coluna mostra os filhos em uma nova coluna à direita. Dessa forma, você pode navegar pela estrutura de conteúdo de variáveis.
 
-Selecione a variável que deseja inserir e clique na marca de seleção na parte superior direita da caixa de diálogo. 
+Selecione a variável que deseja inserir e clique na marca de seleção na parte superior direita da caixa de diálogo.
 
 ![Variável do Adobe Campaign selecionada](assets/select-campaign-variable-dialog-selected.png)
 
-A variável é inserida no campo da caixa de diálogo de edição do Componente principal de email. 
+A variável é inserida no campo da caixa de diálogo de edição do Componente principal de email.
 
 ![Variável de campanha inserida na caixa de diálogo de edição](assets/campaign-variable.png)
 

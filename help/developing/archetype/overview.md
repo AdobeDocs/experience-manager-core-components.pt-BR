@@ -2,11 +2,11 @@
 title: Arquétipo de projeto do AEM
 description: Saiba mais sobre o Arquétipo de Projeto do AEM, que serve como modelo para aplicativos baseados em AEM.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '527'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '705'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Obviamente, há vários elementos envolvidos para que [um projeto do AEM seja be
 * **Sistema de Estilos:** Evita criar componentes personalizados permitindo que os autores [apliquem estilos diferentes](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=pt-BR) a eles.
 * **Criação de front-end:** desenvolvedores de front-end podem [simular páginas do AEM e criar bibliotecas de clientes](front-end.md) com Webpack, TypeScript e SASS.
 * **Pronto para WebApp:** para sites que usam o React ou o Angular, use o [SDK SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=pt-BR) para manter a [autoria no contexto do aplicativo](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=pt-BR).
-* **Ativado para comércio:** Para projetos que desejam integrar o [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=pt-BR) com soluções comerciais, como [Magento](https://magento.com/br) usando os [Componentes principais do Commerce](https://github.com/adobe/aem-core-cif-components).
+* **Habilitado para comércio:** Para projetos que desejam integrar o [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=pt-BR) com soluções comerciais, como [Magento](https://magento.com/br) usando os [Componentes principais do Commerce](https://github.com/adobe/aem-core-cif-components).
 * **Exemplo de código:** Conheça o componente HelloWorld e modelos de amostra, servlets, filtros e schedulers.
 * **Código aberto:** Se algo não está como devia, [contribua](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) para as melhorias!
 

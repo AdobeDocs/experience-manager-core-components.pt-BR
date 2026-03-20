@@ -1,11 +1,11 @@
 ---
 title: Componente de Incorporação
 description: O componente de Incorporação permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1343'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed_br).
+Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalhes técnicos {#technical-details}
 
@@ -87,9 +87,9 @@ O campo **Incorporável** define o tipo de processador que deseja usar. No caso 
 * **ID do vídeo** - O ID de vídeo exclusiva do YouTube do recurso que você deseja incorporar
 * **Largura** - A largura do vídeo incorporado
 * **Altura** - A altura do vídeo incorporado
-* **Ativar mudo** - Esse parâmetro especifica se o vídeo será reproduzido silenciado por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
+* **Habilitar mudo** - Esse parâmetro especifica se o vídeo será reproduzido silenciado por padrão. Habilitar isso aumenta a chance de a reprodução automática funcionar em navegadores modernos.
 * **Habilitar reprodução automática** - Esse parâmetro especifica se o vídeo inicial começará automaticamente a ser reproduzido quando o reprodutor for carregado. Isso só tem efeito na instância de publicação ou ao usar a opção **Exibir como Publicado** na instância de criação.
-* **Ativar loop** - No caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
+* **Habilitar loop** - No caso de um único vídeo, esse parâmetro especifica se o reprodutor deve reproduzir o vídeo inicial repetidamente. No caso de uma lista de reprodução, o reprodutor reproduz a lista inteira e, em seguida, inicia novamente no primeiro vídeo.
 * **Habilitar reprodução em linha (iOS)** - Esse parâmetro controla se os vídeos são reproduzidos em linha (ativado) ou em tela cheia (desativado) em um reprodutor HTML5 no iOS.
 * **Vídeos relacionados irrestritos** - Se essa opção estiver desativada, os vídeos relacionados serão provenientes do mesmo canal que o vídeo que acabou de ser reproduzido, caso contrário, serão provenientes de qualquer canal.
 

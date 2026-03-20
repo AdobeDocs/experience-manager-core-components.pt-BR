@@ -1,12 +1,12 @@
 ---
 title: Componente de container de email
 description: O Componente de container de email permite a criação de um container para vários componentes adicionais no seu conteúdo de email.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '780'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais de email, c
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de container [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1_br)
+A documentação técnica mais recente sobre o Componente de container [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -68,7 +68,7 @@ O Componente de container de email é compatível com o [Sistema de estilos](/he
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para este componente na [caixa de diálogo de design](#design-dialog) para que a guia fique disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que a guia esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
@@ -95,7 +95,7 @@ A guia **Configurações do container** define se o autor pode configurar uma im
 * **Cor do plano de fundo**
    * **Ativar cor de plano de fundo** - Selecione esta opção para permitir que o autor de conteúdo defina uma cor de plano de fundo para o contêiner.
    * **Somente amostras** - Selecione essa opção para permitir que o autor de conteúdo selecione apenas a partir de amostras de cores predefinidas para a cor de fundo do contêiner.
-      * Disponível apenas quando **Ativar cor de plano de fundo** estiver selecionado
+      * Disponível apenas quando **Habilitar cor de plano de fundo** estiver selecionado
 * **Amostras permitidas** - Defina as cores predefinidas a partir das quais o autor de conteúdo pode selecionar a cor do plano de fundo do contêiner
    * Use o botão **Adicionar** para adicionar uma amostra de cor predefinida. Uma vez adicionada, uma entrada é adicionada à lista, que contém as seguintes colunas:
    * **Valor** - defina a cor manualmente por meio dos valores RGB

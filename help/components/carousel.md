@@ -1,11 +1,11 @@
 ---
 title: Componente Carrossel
 description: O componente Carrossel permite que o autor de conteúdo apresente conteúdo em um carrossel giratório.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ O componente Carrossel, dos Componentes principais, permite que o autor do conte
 
 Com o componente Carrossel, o autor do conteúdo pode organizar o conteúdo em um carrossel giratório de slides.
 
-A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo crie, nomeie e ordene vários slides e habilite a transição automática com atraso. Usando a [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados ao carrossel, ativar ou desativar transições automáticas e personalizar os estilos.
+A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo crie, nomeie e ordene vários slides e habilite a transição automática com atraso. Usando a [caixa de diálogo de design](#design-dialog), o autor do modelo pode definir quais componentes podem ser adicionados ao carrossel, habilitar ou desabilitar transições automáticas e personalizar os estilos.
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
@@ -101,9 +101,9 @@ Na guia **Propriedades**, o autor de conteúdo pode definir os slides para fazer
 
 >[!NOTE]
 >
->Os controles de avanço de slides não são ativados quando estão no modo **Editar**. Use o modo [**Visualização**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#preview-mode) ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
+>Os controles de avanço de slides não são habilitados quando estão no modo **Editar**. Use o modo [**Visualização**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#preview-mode) ou a opção **[Visualizar como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para interagir com o carrossel como um leitor do conteúdo publicado.
 >
->O recurso de avanço automático não é ativado quando está no modo **Editar**. Use a opção **[Exibir como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
+>O recurso de avanço automático não é habilitado quando está no modo **Editar**. Use a opção **[Exibir como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=pt-BR#view-as-published)** para ver o recurso de avanço automático como um leitor do conteúdo publicado.
 
 ### Guia Acessibilidade {#accessibility-tab}
 
@@ -145,14 +145,14 @@ A guia **Propriedade** é usada para definir as configurações padrão para as 
 
 ![Caixa de diálogo de design do componente Carrossel](/help/assets/carousel-design.png)
 
-* **Fazer a transição automática de slides** - Define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide é ativada quando o autor de conteúdo adiciona o componente Carrossel a uma página.
+* **Fazer a transição automática de slides** - Define se, por padrão, a opção de avançar automaticamente o carrossel para o próximo slide é habilitada quando o autor de conteúdo adiciona o componente Carrossel a uma página.
 * **Prefixar elementos de controle** - Quando marcada, os elementos de controle serão colocados na frente dos itens do carrossel para melhorar a acessibilidade.
 
 ### Guia Componentes permitidos {#allowed-components-tab}
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como slides ao componente Carrossel pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
 ### Guia Estilos {#styles-tab}
 

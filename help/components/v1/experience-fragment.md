@@ -1,13 +1,13 @@
 ---
 title: Componente de fragmento de experiência (v1)
 description: O componente de fragmento de experiência permite que o autor de conteúdo adicione uma variação de fragmento de experiência a uma página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Para experimentar o componente Fragmento de Experiência, e ver exemplos de suas
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Fragmento de experiência [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_br).
+A documentação técnica mais recente sobre o componente de Fragmento de experiência [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
@@ -120,7 +120,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo selecione
 
 Use o botão **Abrir caixa de diálogo de seleção** para abrir o seletor de componentes e escolher qual variação de componente de fragmento de experiência adicionar à página de conteúdo.
 
-Se você adicionar o componente de Fragmento de experiência a um modelo, observe que ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para mais informações.
+Se você adicionar o componente de Fragmento de experiência a um modelo, observe que ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para obter mais informações.
 
 Você também pode definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de dados](/help/developing/data-layer/overview.md).
 

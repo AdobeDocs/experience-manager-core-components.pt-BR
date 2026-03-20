@@ -1,12 +1,12 @@
 ---
 title: Personalizar os Componentes principais
 description: Os Componentes principais implementam vários padrões que permitem personalização simplificada, desde a estilização simples até a reutilização de funcionalidade avançada.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Talvez seja desejável personalizar as opções de configuração disponíveis e
 
 Cada caixa de diálogo tem uma estrutura de nó consistente. Recomenda-se que esta estrutura seja replicada em um componente herdado para que as opções [Mesclagem de recursos do Sling](https://helpx.adobe.com/br/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) e [Ocultar condições](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/hide-conditions.html?lang=pt-BR) possam ser usadas para ocultar, substituir ou reordenar seções da caixa de diálogo original. A estrutura a ser replicada é definida como qualquer coisa até o nível do nó do item de guia.
 
-Para ser totalmente compatível com qualquer alteração feita em uma caixa de diálogo na versão atual, é importante que as estruturas abaixo do nível do item de guia não sejam tocadas (ocultas, adicionadas, substituídas, reordenadas etc.). Em vez disso, um item de guia do nível principal deve ser oculto por meio da propriedade `sling:hideResource` (consulte [Propriedades da Mesclagem de recursos do Sling](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=pt-BR)), e de novos itens de guia adicionados que contêm os campos de configuração do bespoke. `sling:orderBefore` pode ser usado para reordenar os itens da guia, se necessário.
+Para ser totalmente compatível com qualquer alteração feita em uma caixa de diálogo na versão atual, é importante que as estruturas abaixo do nível do item de guia não sejam tocadas (ocultas, adicionadas, substituídas, reordenadas etc.). Em vez disso, um item de guia do pai deve ser oculto por meio da propriedade `sling:hideResource` (consulte [Propriedades do Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=pt-BR)), e de novos itens de guia adicionados que contêm os campos de configuração do bespoke. `sling:orderBefore` pode ser usado para reordenar os itens da guia, se necessário.
 
 Veja abaixo a estrutura de uma caixa de diálogo recomendada, bem como ocultar e substituir uma guia herdada, conforme descrito acima:
 
@@ -166,4 +166,4 @@ Consulte também a seção [Suporte a Componentes principais](overview.md#core-c
 **Leia a seguir:**
 
 * [Uso de Componentes principais](/help/get-started/using.md) - comece a usar os Componentes principais no seu próprio projeto.
-* [Diretrizes dos Componentes](guidelines.md) - para conhecer os padrões de implementação dos Componentes principais.
+* [Diretrizes de componentes](guidelines.md) para conhecer os padrões de implementação dos Componentes principais.

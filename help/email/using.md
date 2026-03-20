@@ -1,24 +1,24 @@
 ---
 title: Utilização dos Componentes principais de email
-description: 'Saiba mais sobre a instalação básica, a configuração e o uso dos Componentes principais de email. '
-role: Architect, Developer, Admin, User
+description: Saiba mais sobre a instalação básica, a configuração e o uso dos Componentes principais de email.
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
 
 # Utilização dos Componentes principais de email {#using}
 
-Saiba mais sobre a instalação básica, a configuração e o uso dos Componentes principais de email. 
+Saiba mais sobre a instalação básica, a configuração e o uso dos Componentes principais de email.
 
 ## Instalar os Componentes principais de email {#installation}
 
-Os Componentes principais de email podem ser utilizados com o AEM 6.5. Consulte a [seção de requisitos do documento de Introdução aos componentes principais de email](introduction.md#requirements) para obter mais informações.
+Os Componentes principais de email podem ser usados com o AEM 6.5. Consulte a seção [Requisitos do documento de Introdução aos componentes principais de email](introduction.md#requirements) para obter mais informações.
 
 ### Instalar os Componentes principais {#core-components}
 
@@ -41,8 +41,8 @@ Após instalar os componentes principais, você deve concluir duas etapas de con
 Você deve configurar a integração do AEM com o Adobe Campaign para que as duas soluções se comuniquem.
 
 * Configurar sua integração do Adobe Campaign
-   * Adobe Campaign Classic: [Integração com o Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=pt-BR) 
-   * Adobe Campaign Standard: [Integração com o Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR) 
+   * Adobe Campaign Classic: [Integração com o Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=pt-BR)
+   * Adobe Campaign Standard: [Integração com o Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR)
 * [Vincule a configuração de integração do Adobe Campaign](/help/email/components/page.md#cloud-services-tab) à página de conteúdo na qual você usará os componentes principais de email
 
 ### Adicionar um Filtro de tipo de recurso do AEM para componentes de email {#aem-resource-filter}
@@ -66,7 +66,7 @@ Para que o Adobe Campaign possa renderizar emails com base nos componentes princ
 
 ## Utilização dos Componentes principais de email {#using-components}
 
-Após instalar os componentes de email e configurar a integração com o Adobe Campaign, você pode usar os componentes de email para criar conteúdo de email no AEM e depois enviar esse conteúdo aos destinatários usando o Adobe Campaign. Veja a seguir uma visão geral do fluxo de trabalho. 
+Após instalar os componentes de email e configurar a integração com o Adobe Campaign, você pode usar os componentes de email para criar conteúdo de email no AEM e depois enviar esse conteúdo aos destinatários usando o Adobe Campaign. Veja a seguir uma visão geral do fluxo de trabalho.
 
 | Etapa | Descrição | Solução |
 |---|---|---|

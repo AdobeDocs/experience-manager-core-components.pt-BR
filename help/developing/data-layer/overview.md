@@ -2,12 +2,12 @@
 title: Uso da Camada de dados de clientes Adobe com os Componentes principais
 description: Uso da Camada de dados de clientes Adobe com os Componentes principais
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Como os Componentes principais, o código da Camada de dados de clientes Adobe e
 
 ## Instalação e ativação {#installation-activation}
 
-A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma biblioteca de clientes do AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [Arquétipo de projeto do AEM v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de dados ativada por padrão.
+A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma biblioteca de clientes do AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [Arquétipo de Projetos AEM v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de Dados ativada por padrão.
 
 Para ativar manualmente a Camada de dados, você deve criar uma [configuração com reconhecimento de contexto](/help/developing/context-aware-configs.md) para ela:
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-Deseja explorar a Camada de dados e os Componentes principais com mais detalhes? [Dê uma olhada neste tutorial prático](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=pt-BR).
+Deseja explorar a Camada de dados e os Componentes principais com mais detalhes? [Veja este tutorial prático](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=pt-BR).
 
 >[!TIP]
 >

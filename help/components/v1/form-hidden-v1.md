@@ -1,12 +1,12 @@
 ---
 title: Componente Formulário oculto (v1)
 description: O componente Formulário oculto, dos Componentes principais, possibilita a exibição de um campo oculto.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '316'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente Formulário oculto (v1) {#form-hidden-component-v}
 
-O componente Formulário oculto, dos Componentes principais, possibilita a exibição de um campo oculto.
+O componente Formulário Oculto, dos Componentes Principais, possibilita a exibição de um campo oculto.
 
 ## Uso {#usage}
 
@@ -99,7 +99,7 @@ Não há caixa de diálogo de design para o componente Formulário oculto.
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente Formulário oculto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+A documentação técnica mais recente sobre o componente Formulário Oculto [pode ser encontrada no GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Todo o projeto dos Componentes principais pode ser baixado do GitHub.
 

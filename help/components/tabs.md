@@ -1,11 +1,11 @@
 ---
 title: Componente de Guias
 description: O componente de Guias permite a criação de várias guias para organizar o conteúdo em uma página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1038'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1128'
 ht-degree: 100%
 
 ---
@@ -137,7 +137,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais compone
 
 A guia **Componentes permitidos** é usada para definir quais componentes podem ser adicionados como itens ao componente de guias pelo autor de conteúdo.
 
-Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR).
+Ela funciona da mesma maneira que a guia de mesmo nome ao [definir a política e as propriedades de um Contêiner de layout no Editor de modelo.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR)
 
 ### Guia Estilos {#styles-tab}
 

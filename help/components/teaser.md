@@ -1,12 +1,12 @@
 ---
 title: Componente de Teaser
 description: O componente de Teaser pode mostrar uma imagem, um título, um rich text e, opcionalmente, vincular a conteúdo adicional.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ## Suporte a ativos remotos {#remote-assets}
 
-O componente de teaser (a partir da [versão 2.23.2](/help/versions.md)) é compatível com ativos remotos. [Após configurado,](/help/developing/remote-assets.md) será possível selecionar ativos de um serviço remoto para o seu componente de teaser.
+O componente de Teaser (a partir da [versão 2.23.2](/help/versions.md)) dá suporte a ativos remotos. [Após a configuração,](/help/developing/remote-assets.md) você pode selecionar ativos de um serviço remoto para seu componente de teaser.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -56,7 +56,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ![Guia Links da caixa de diálogo de edição do componente de teaser](/help/assets/teaser-edit-links.png)
 
-O título, a descrição e a imagem do teaser podem ser herdados da página vinculada ou da página vinculada na primeira frase de chamariz. Se não for especificado um link ou uma frase de chamariz, o título, a descrição e a imagem serão herdados da página atual.
+O título, a descrição e a imagem do teaser podem ser herdados da página vinculada ou da página vinculada na primeira call to action. Se não for especificado um link ou uma call to action, o título, a descrição e a imagem serão herdados da página atual.
 
 * **Link** - Este arquivo vincula à uma página de conteúdo, um URL externo ou uma âncora de página.
 * **Abrir link em nova guia** - Se habilitada, o link será aberto em uma nova guia do navegador.

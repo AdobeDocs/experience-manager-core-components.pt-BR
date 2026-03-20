@@ -1,12 +1,12 @@
 ---
 title: Suporte AMP para os Componentes principais
 description: Os Componentes principais são compatíveis com AMP - Páginas para Dispositivos Móveis Aceleradas
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Páginas para Dispositivos Móveis Aceleradas ou AMP é uma estrutura de código
 
 ## AMP nos Componentes principais {#amp-in-core-components}
 
-O suporte para AMP nos Componentes principais é [totalmente configurável.](#enabling-amp) As versões das AMP podem ser fornecidas exclusivamente, junto com as versões HTML padrão, ou não são fornecidas.
+O suporte para AMP nos Componentes Principais é [totalmente configurável.](#enabling-amp) As versões das AMP podem ser fornecidas exclusivamente, junto com as versões padrão do HTML, ou não são fornecidas.
 
 Os Componentes principais usam `amp` como um seletor do Sling para renderizar uma AMP. Por exemplo, `example.html` renderizaria a página normal e `example.amp.html` seria a versão de AMP.
 
@@ -39,7 +39,7 @@ Embora o suporte a AMP ofereça muita flexibilidade, para começar a usá-las ra
 1. [Habilite o suporte AMP](#enabling-amp) no nível do modelo ou em suas páginas individuais.
 1. [Implante o CSS incorporado](#css-requirements), conforme necessário.
 
-### Ativar AMP para páginas {#enabling-amp}
+### Habilitar AMP para páginas {#enabling-amp}
 
 Para habilitar AMP para uma página, o **Modo AMP** deve ser selecionado na [Política da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=pt-BR#editing-a-template-page-policy-template-author-developer).
 

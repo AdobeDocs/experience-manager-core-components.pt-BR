@@ -1,12 +1,12 @@
 ---
 title: Componente de texto de email
 description: O Componente de texto de email é um componente de edição e composição de rich text que apresenta edição no local.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '2264'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2346'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Para mais informações sobre as versões e novidades dos componentes principais
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de texto de email [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1_br).
+A documentação técnica mais recente sobre o Componente de texto de email [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes Principais podem ser encontrados na [documentação do desenvolvedor dos Componentes Principais](/help/developing/overview.md).
 
@@ -49,7 +49,7 @@ O restante deste documento demonstra a configuração padrão do Componente de t
 
 >[!NOTE]
 >
->Somente as opções ativadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no Componente de texto de email.
+>Somente as opções habilitadas pelas [configurações da IU do RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=pt-BR) estão disponíveis no Componente de texto de email.
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
@@ -335,13 +335,13 @@ Em seguida, toque ou clique no ícone **Editar** na barra de ferramentas que apa
 
 ![Exemplo de edição em linha](/help/email/assets/email-text-edit-inline-example.png)
 
-Toque ou clique na marca de seleção na barra de ferramentas para salvar suas alterações ou no X para descartar. 
+Toque ou clique na marca de seleção na barra de ferramentas para salvar suas alterações ou no X para descartar.
 
 Devido a restrições de espaço, nem todas as opções de formatação estão disponíveis em linha. Para ver todas as opções, alterne para o modo de tela cheia.
 
-### Configurar uma ID  {#setting-id}
+### Configurar uma ID {#setting-id}
 
-Essa opção permite controlar o identificador exclusivo do componente no HTM. 
+Essa opção permite controlar o identificador exclusivo do componente no HTM.
 
 * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
 * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
@@ -353,7 +353,7 @@ A caixa de diálogo de design permite que o autor do modelo defina quais opçõe
 
 ### Guia Plug-ins {#plugins-tab}
 
-A guia **Plug-ins** é usada para ativar e desativar várias opções de formatação de texto disponíveis para os autores de conteúdo.
+A guia **Plug-ins** é usada para habilitar e desabilitar várias opções de formatação de texto disponíveis para os autores de conteúdo.
 
 ### Recursos {#features}
 
@@ -364,7 +364,7 @@ Os seguintes recursos podem ser ativados ou desativados para o componente.
 * Colar texto sem formatação
 * Passado da palavra
 * Localizar e substituir
-* Desfazer e refazer 
+* Desfazer e refazer
 * Verificador ortográfico
 * Opções de modificação da imagem inserida
 * Edição de fonte HTML
@@ -391,7 +391,7 @@ Os estilos de parágrafo podem ser ativados ou desativados para o componente. Qu
 * Toque ou clique no botão **Adicionar** para inserir um novo estilo.
 * Insira o código do estilo e uma descrição que será exibida na caixa de diálogo de edição.
 * Para remover um estilo, toque ou clique no botão **Excluir**.
-* Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças. 
+* Para reorganizar a ordem dos formatos, toque ou clique e arraste as alças.
 
 ### Caracteres especiais {#configuring-special-characters}
 

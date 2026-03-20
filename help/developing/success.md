@@ -1,11 +1,11 @@
 ---
 title: Caminhos para o sucesso com os Componentes principais
 description: Como obter sucesso ao implementar seu projeto com os Componentes principais
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -37,11 +37,11 @@ Em vez de considerar apenas os Componentes principais na fase de implementação
 
 ### Uso da Biblioteca de componentes {#component-library}
 
-Faça referência à [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_br) já na fase de design. Os Componentes principais são poderosos e flexíveis e podem levar você até o ponto de partida. Adicione somente componentes personalizados quando houver uma necessidade real de negócios que não possa ser razoavelmente alcançada com um Componente principal.
+Faça referência à [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_br) já na fase de design. Os Componentes principais são poderosos e flexíveis e podem levar você até o ponto de partida. Adicione somente componentes personalizados quando houver uma necessidade empresarial real que não possa ser razoavelmente alcançada com um Componente principal.
 
 ### Uso do kit de interface do usuário para Adobe XD {#ui-kit}
 
-Assim que houver necessidade comprovada de um componente personalizado, use o kit de interface do Adobe XD, [que pode ser baixado aqui,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=pt-BR) para que os designers comecem a criar os wireframes e os designs usando os Componentes principais como blocos de construção.
+Assim que houver necessidade comprovada de um componente personalizado, use o kit de interface do Adobe XD, [que pode ser baixado aqui,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que os designers comecem a criar os wireframes e os designs usando os Componentes principais como blocos de construção.
 
 ## Não deixe de usar os recursos avançados {#powerful-features}
 

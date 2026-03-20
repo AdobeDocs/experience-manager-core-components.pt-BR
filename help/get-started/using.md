@@ -1,12 +1,12 @@
 ---
 title: Utilização dos Componentes principais
 description: 'Para começar a usar os Componentes principais no seu próprio projeto, há três etapas a seguir: baixar e instalar, criar componentes proxy, carregar os estilos principais e permitir os componentes em seus modelos.'
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 96%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,12 @@ Para começar a usar os Componentes principais no seu próprio projeto, há quat
 1. [Download e instalação](#download-and-install)
 1. [Criação de componentes proxy](#create-proxy-components)
 1. [Carregamentos dos estilos principais](#load-the-core-styles)
-1. [Ativação dos Componentes](#allow-the-components)
+1. [Habilitação dos Componentes](#allow-the-components)
 
 >[!TIP]
 >
 >Para instruções mais detalhadas sobre como começar do zero com a configuração do projeto, os Componentes principais, Modelos editáveis, Bibliotecas de clientes e desenvolvimento de componentes, o tutorial abaixo, dividido em várias partes, pode ser de interesse:\
->[Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
+>[Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -44,9 +44,9 @@ Deve-se lembrar de alguns pontos ao usar os Componentes principais no AEMaaCS:
 * O pipeline de build de projeto gerará avisos no log se incluir os Componentes principais novamente como parte de `/apps` e ignorará a versão incorporada como parte do projeto.
    * Em uma próxima versão, incluir os Componentes principais novamente causará falha no build do pipeline.
 * Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
-* Mesmo que os Componentes principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
+* Mesmo que os Componentes Principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy ](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
 * Para que o [Componente Tabela de conteúdos](/help/components/tableofcontents.md) renderize seu conteúdo, um filtro precisa ser configurado no OSGi.
-   * [Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br) para obter mais informações.
+   * [Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### AEM 6.5 e anteriores {#aem-65}
 

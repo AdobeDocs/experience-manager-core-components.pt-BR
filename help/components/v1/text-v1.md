@@ -1,12 +1,12 @@
 ---
 title: Componente de Texto (v1)
 description: O componente de Texto é um componente de edição e composição de rich text que apresenta edição no local.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1639'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1674'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação d
 
   Insira o texto para o qual deseja pesquisar e toque ou clique em **Localizar** para iniciar a pesquisa. Toque ou clique no x para cancelar.
 
-  Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+  Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 
   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Toque ou clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência.
 
@@ -193,7 +193,7 @@ A caixa de diálogo de edição oferece as ferramentas padrão de formatação d
 
   Toque ou clique em **Localizar** para iniciar a pesquisa. Clique ou toque no x para cancelar.
 
-  Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Corresponder Maiúsculas e Minúsculas** antes de iniciar a pesquisa.
+  Se desejar fazer uma correspondência exata de acordo com letras maiúsculas ou minúsculas, selecione a opção **Diferenciar maiúsculas de minúsculas** antes de iniciar a pesquisa.
 
   Se uma correspondência for encontrada, ela será realçada e a caixa de diálogo de pesquisa ficará esmaecida. Clique no botão **Localizar** novamente na caixa de diálogo esmaecida para procurar a próxima ocorrência ou selecione o botão **Substituir** para substituir o texto destacado e correspondente. Observe que o botão **Substituir** só estará ativo depois que uma correspondência for feita.
 

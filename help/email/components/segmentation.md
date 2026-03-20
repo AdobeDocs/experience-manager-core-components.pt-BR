@@ -1,18 +1,18 @@
 ---
-title: 'Componente de segmentação de email '
+title: Componente de segmentação de email
 description: O Componente de segmentação de email
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
 
-# Componente de segmentação de email  {#email-segmentation-component}
+# Componente de segmentação de email {#email-segmentation-component}
 
 O Componente de segmentação de email usa variáveis do Adobe Campaign para exibir e ocultar o conteúdo com base no seu destinatário.
 
@@ -37,7 +37,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_br)
+A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -54,13 +54,13 @@ Use o botão **Adicionar segmento** para abrir o seletor de componentes e escolh
 * **Ícone** - O ícone do tipo de componente do segmento para facilitar a identificação na lista. Passe o mouse sobre o ícone para ver o nome completo do componente como uma dica de ferramenta.
 * **Condição** - A condição que deve ser atendida para que esse segmento seja exibido ao destinatário do conteúdo.
    * As condições disponíveis são definidas na [caixa de diálogo de design.](#design-dialog)
-   * **Padrão** - Define o segmento padrão a ser exibido se nenhuma outra condição for atendida 
-   * **Personalizado** - Permite que o autor defina uma condição 
+   * **Padrão** - Define o segmento padrão a ser exibido se nenhuma outra condição for atendida
+   * **Personalizado** - Permite que o autor defina uma condição
       * As condições são baseadas nas variáveis de personalização do Adobe Campaign
       * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR)
       * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=pt-BR)
 * **Excluir** - Toque ou clique para excluir o segmento do Componente de segmentação de email.
-* **Reorganizar** - Toque ou clique e arraste para reorganizar os segmentos. 
+* **Reorganizar** - Toque ou clique e arraste para reorganizar os segmentos.
 
 >[!TIP]
 >
@@ -70,7 +70,7 @@ Use o botão **Adicionar segmento** para abrir o seletor de componentes e escolh
 
 ![Guia de propriedades da caixa de diálogo de configuração do Componente de segmentação de email](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML. 
+* **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML.
    * Caso deixado em branco, uma ID exclusiva é gerada automaticamente para você e pode ser encontrada ao inspecionar o conteúdo resultante.
    * Se um ID for especificado, é responsabilidade do autor garantir que ele seja exclusivo.
    * A alteração de ID pode afetar o CSS.
@@ -136,6 +136,6 @@ Toque ou clique no botão **Adicionar** para criar novas condições.
 * **Nome da condição do segmento** - Uma descrição da condição
 * **Condição de segmento** - A condição atual que deve ser atendida, com base nas variáveis de personalização do Adobe Campaign
    * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR)
-   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=pt-BR
+   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Remover** - Toque ou clique para remover a condição
 * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem das condições

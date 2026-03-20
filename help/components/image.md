@@ -1,12 +1,12 @@
 ---
 title: Componente de imagem
 description: Dentre os Componentes de imagem, o principal é um componente de imagem adaptável.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -59,13 +59,13 @@ Na maioria das vezes, os navegadores preferem reduzir localmente uma largura mai
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=pt-BR). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) dá suporte a ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=pt-BR). [Quando habilitados,](#design-dialog) esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pela IA do Adobe, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pela Adobe AI, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
 
 ## Suporte a ativos remotos {#remote-assets}
 
-O componente de imagem (a partir da [versão 2.23.2](/help/versions.md)) é compatível com ativos remotos. [Após configurado,](/help/developing/remote-assets.md) será possível selecionar ativos de um serviço remoto para o seu componente de imagem.
+O Componente de Imagem (a partir da [versão 2.23.2](/help/versions.md)) dá suporte a ativos remotos. [Após a configuração,](/help/developing/remote-assets.md) você pode selecionar ativos de um serviço remoto para seu componente de imagem.
 
 ## Suporte a SVG {#svg-support}
 

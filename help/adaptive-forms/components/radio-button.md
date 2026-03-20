@@ -1,9 +1,9 @@
 ---
 title: Componente principal de Formulários adaptáveis - Botão de opção
 description: Uso ou personalização do Componente principal de botão de opção dos Formulários adaptáveis.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 91%
@@ -59,9 +59,11 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 >
 > A versão v1 do componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalhes técnicos {#technical-details}
 

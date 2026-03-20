@@ -1,12 +1,12 @@
 ---
 title: Componente do Botão de email
 description: O Componente do Botão de email permite a configuração e a exibição de um item de botão em seu conteúdo.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Para mais informações sobre as versões e novidades dos componentes principais
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Botão de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1_br)
+A documentação técnica mais recente sobre o Componente de Botão de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -75,7 +75,7 @@ O Componente de Botão do email é compatível com o [sistema de estilos](/help/
 
 Use o menu suspenso para selecionar os estilos que deseja aplicar ao componente. As seleções feitas na caixa de diálogo de edição têm o mesmo efeito das selecionadas na barra de ferramentas do componente.
 
-Os estilos devem ser configurados para este componente na [caixa de diálogo de design](#design-dialog) para que a guia fique disponível.
+Os estilos devem ser configurados para esse componente na [caixa de diálogo de design](#design-dialog) para que a guia esteja disponível.
 
 ## Caixa de diálogo de design {#design-dialog}
 
