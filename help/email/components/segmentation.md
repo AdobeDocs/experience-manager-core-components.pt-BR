@@ -37,7 +37,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_br)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
@@ -136,6 +136,6 @@ Toque ou clique no botão **Adicionar** para criar novas condições.
 * **Nome da condição do segmento** - Uma descrição da condição
 * **Condição de segmento** - A condição atual que deve ser atendida, com base nas variáveis de personalização do Adobe Campaign
    * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR)
-   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=pt-BR
 * **Remover** - Toque ou clique para remover a condição
 * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem das condições

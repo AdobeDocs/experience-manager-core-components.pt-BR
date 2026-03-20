@@ -37,7 +37,7 @@ Para mais informações sobre as versões e lançamentos do componente principal
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de página [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
+A documentação técnica mais recente sobre o componente de página [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1_br)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

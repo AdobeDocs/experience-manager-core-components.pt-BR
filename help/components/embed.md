@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed).
+Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed_br).
 
 ## Detalhes técnicos {#technical-details}
 
