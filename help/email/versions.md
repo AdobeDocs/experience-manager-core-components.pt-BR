@@ -20,7 +20,7 @@ Consulte a [seção Requisitos](/help/email/introduction.md#requirements) do doc
 
 ## Histórico e compatibilidade da versão {#release-history-and-compatibility}
 
-Os componentes principais de e-mail foram criados para serem flexíveis e compatíveis com todas as versões do AEM. Os detalhes completos do histórico de versões dos Componentes Principais de Email [ podem ser encontrados no GitHub.](https://github.com/adobe/aem-core-email-components/releases) No entanto, a tabela a seguir fornece uma visão geral das versões dos componentes principais de e-mail e sua compatibilidade com versões do AEM e do Java.
+Os componentes principais de e-mail foram criados para serem flexíveis e compatíveis com todas as versões do AEM. Os detalhes completos do histórico de versões dos Componentes Principais de Email [&#x200B; podem ser encontrados no GitHub.](https://github.com/adobe/aem-core-email-components/releases) No entanto, a tabela a seguir fornece uma visão geral das versões dos componentes principais de e-mail e sua compatibilidade com versões do AEM e do Java.
 
 | Versão | Descrição | AEM 6.5 | AEM 6.5 LTS | Componentes principais | Java | Data de lançamento |
 |---|---|---|---|---|---|---|

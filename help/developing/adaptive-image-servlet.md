@@ -31,7 +31,7 @@ Este documento descreve o Servlet de imagem adaptável padrão.
 
 ## Visão geral {#overview}
 
-Por padrão, o Componente de imagem usa o Servlet de imagem adaptável do Componente principal para fornecer imagens. [O Servlet de Imagem Adaptável ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes Principais](/help/developing/customizing.md).
+Por padrão, o Componente de imagem usa o Servlet de imagem adaptável do Componente principal para fornecer imagens. [O Servlet de Imagem Adaptável &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) é responsável pelo processamento e transmissão de imagens e pode ser aproveitado pelos desenvolvedores em suas [personalizações dos Componentes Principais](/help/developing/customizing.md).
 
 ## Seleção de representação {#rendition-selection}
 

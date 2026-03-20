@@ -44,7 +44,7 @@ Deve-se lembrar de alguns pontos ao usar os Componentes principais no AEMaaCS:
 * O pipeline de build de projeto gerará avisos no log se incluir os Componentes principais novamente como parte de `/apps` e ignorará a versão incorporada como parte do projeto.
    * Em uma próxima versão, incluir os Componentes principais novamente causará falha no build do pipeline.
 * Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
-* Mesmo que os Componentes Principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy ](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
+* Mesmo que os Componentes Principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
 * Para que o [Componente Tabela de conteúdos](/help/components/tableofcontents.md) renderize seu conteúdo, um filtro precisa ser configurado no OSGi.
    * [Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
