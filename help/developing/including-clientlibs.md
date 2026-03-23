@@ -1,12 +1,12 @@
 ---
 title: Bibliotecas de clientes e os Componentes principais
 description: Os Componentes principais vêm com várias bibliotecas de clientes e oferecem a capacidade de incluir as suas.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 
@@ -149,4 +149,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[Consulte a documentação técnica do componente de Página para mais informações](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs).
+[Consulte a documentação técnica do componente de Página para mais informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
