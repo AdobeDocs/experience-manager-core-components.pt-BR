@@ -5,10 +5,10 @@ breadcrumb-title: Guia dos Componentes principais
 feature: Core Components
 user-guide-description: Para projetos do AEM tradicional, use os componentes principais expansíveis para permitir que os autores criem conteúdo facilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 98%
       + [Guias horizontais de formulários adaptáveis](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagem de formulários adaptáveis](/help/adaptive-forms/components/image.md)
       + [Caixa numérica de formulários adaptáveis](/help/adaptive-forms/components/numeric-box.md)
-      + [Caixa de senha de formulários adaptáveis](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[Caixa Senha Adaptável do Forms](/help/adaptive-forms/components/password-box.md)
       + [Painel de formulários adaptáveis](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA para formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botão de opção de formulários adaptáveis](/help/adaptive-forms/components/radio-button.md)
       + [Botão de redefinição de formulários adaptáveis](/help/adaptive-forms/components/reset-button.md)
-      + [Revisão de formulário adaptável](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[Revisão do formulário adaptável](/help/adaptive-forms/components/review.md)
       + [Assinatura à mão dos formulários adaptáveis](/help/adaptive-forms/components/scribble-signature.md)
       + [Botão de envio de formulários adaptáveis](/help/adaptive-forms/components/submit-button.md)
       + [Interruptor para formulários adaptáveis](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -141,11 +141,11 @@ ht-degree: 98%
       + [Rodapé](/help/adaptive-forms/components/footer.md)
    + [Personalizar componentes principais dos formulários adaptáveis](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temas de amostra e modelos](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + [Ativar padrões de validação de entrada de texto](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[Habilitar Padrões de Validação de Entrada de Texto](/help/adaptive-forms/enable-validation-patterns.md)
 + Desenvolver {#developing}
    + [Desenvolvimento dos Componentes principais](/help/developing/overview.md)
    + [Caminhos para o sucesso](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=pt-BR)
-   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
+   + [Tutorial do desenvolvedor do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalizar os Componentes principais](/help/developing/customizing.md)
    + [Orientações para os componentes](/help/developing/guidelines.md)
    + [Suporte ao AMP](/help/developing/amp.md)
