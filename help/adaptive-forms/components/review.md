@@ -3,9 +3,8 @@ title: 'Componente principal dos formulários adaptáveis: componente de revisã
 description: Uso ou personalização do componente principal de revisão de formulários adaptáveis.
 role: Developer, Admin, User
 hide: true
-hidefromtoc: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%

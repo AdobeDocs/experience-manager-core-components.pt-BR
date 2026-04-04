@@ -2,14 +2,13 @@
 title: Ativar e usar padrões de validação de entrada de texto no Adobe Experience Manager Adaptive Forms
 description: Saiba como configurar políticas de modelos para expor padrões de validação como Números de telefone, Números de CPF e Códigos postais e, em seguida, usá-los no Adaptive Forms.
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # Ativar e usar padrões de validação de entrada de texto no Adobe Experience Manager Adaptive Forms
 
