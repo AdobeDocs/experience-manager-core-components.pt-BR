@@ -3,7 +3,7 @@ title: Ativar e usar padrões de validação de entrada de texto no Adobe Experi
 description: Saiba como configurar políticas de modelos para expor padrões de validação como Números de telefone, Números de CPF e Códigos postais e, em seguida, usá-los no Adaptive Forms.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
