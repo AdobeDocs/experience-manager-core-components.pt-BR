@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de Caixa de seleç�
 role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1843'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Estes são alguns motivos comuns para se usar caixas de seleção em um formulá
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal da caixa de seleção Forms adaptável foi lançado como parte dos Componentes principais 2.0.52. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O Componente principal Grupo de caixas de seleção de formulários adaptáveis foi lançado como parte dos Componentes principais 2.0.52. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.52](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.52](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 

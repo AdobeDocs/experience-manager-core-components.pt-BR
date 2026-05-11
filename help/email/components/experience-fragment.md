@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ A caixa de diálogo de configuração permite que o autor de conteúdo selecione
 
 Use o botão **Abrir Caixa de diálogo de seleção** para abrir o seletor de componentes e escolher qual variação de Componente de Fragmento de experiência adicionar à página de conteúdo.
 
-Se você adicionar o Componente de Fragmento de experiência de email a um modelo, ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para obter mais informações.
+Se você adicionar o Componente de Fragmento de experiência de email a um modelo, ele será localizado automaticamente, desde que os Fragmentos de experiência estejam localizados, de modo que o que é renderizado na página possa variar do componente selecionado explicitamente. [Consulte o exemplo acima](#example) para mais informações.
 
 Você também pode definir um **ID**. Essa opção permite controlar o identificador exclusivo do componente no HTM.
 

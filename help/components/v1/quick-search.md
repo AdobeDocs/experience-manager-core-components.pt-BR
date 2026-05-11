@@ -5,8 +5,8 @@ role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '647'
+workflow-type: ht
+source-wordcount: '648'
 ht-degree: 100%
 
 ---
@@ -67,18 +67,18 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina onde a p
 
 ## Caixa de diálogo de design {#design-dialog}
 
-Usando a caixa de diálogo de design, o autor do modelo pode definir o valor padrão para onde a pesquisa deve começar na árvore de conteúdo, bem como o tamanho máximo do conjunto de resultados e o comprimento mínimo do termo de pesquisa. A caixa de diálogo de design permite ao autor do modelo definir quais opções de formatação de texto estão disponíveis para os autores de conteúdo.
+Usando a caixa de diálogo de design, o autor do modelo pode definir o valor padrão de onde, na árvore de conteúdo, a pesquisa deve começar, bem como o tamanho máximo do conjunto de resultados e a duração mínima do termo de pesquisa.A caixa de diálogo de design permite que o autor do modelo defina quais opções de formatação de texto estão disponíveis para os autores de conteúdo.
 
 ### Guia Propriedades {#properties-tab}
 
 ![Caixa de diálogo de design do componente de Pesquisa rápida](/help/assets/quick-search-design.png)
 
-* **Pesquisar raiz**
-O valor padrão da raiz de pesquisa quando um autor de conteúdo coloca o componente de Pesquisa rápida em uma página de conteúdo
+* **Raiz de pesquisa**
+O valor padrão da raiz de pesquisa quando um autor de conteúdo insere o Componente de pesquisa rápida em uma página de conteúdo
 * **Tamanho dos resultados**
 O número máximo de resultados obtidos por uma solicitação de pesquisa
 * **Tamanho mínimo do termo de pesquisa**
-Comprimento mínimo do termo de pesquisa para iniciar a pesquisa
+Tamanho mínimo do termo de pesquisa para iniciar a pesquisa
 
 >[!NOTE]
 >

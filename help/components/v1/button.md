@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ O documento descreve a versão v1 do componente de botão, que foi introduzida c
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Botão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_button_br).
+Para experimentar o componente de Botão, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_button).
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Botão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_br).
+A documentação técnica mais recente sobre o componente de Botão [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

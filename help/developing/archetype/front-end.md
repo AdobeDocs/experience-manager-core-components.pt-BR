@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ No entanto, qualquer projeto final tem de utilizar os resultados de ambos os esf
 
 ## Escolha da marcação {#determining-markup}
 
-Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, se necessário.](/help/developing/customizing.md#customizing-the-markup)
+Qualquer que seja o fluxo de trabalho de desenvolvimento do front-end que você decida implementar para seu projeto, os desenvolvedores de back-end e os de front-end devem primeiro concordar sobre a marcação. Normalmente, o AEM define a marcação, que é fornecida pelos componentes principais. [No entanto, isso pode ser personalizado, caso necessário.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Possíveis fluxos de trabalho de desenvolvimento de front-end {#possible-workflows}
 
@@ -68,7 +68,7 @@ Com o [Storybook](https://storybook.js.org) você pode executar mais desenvolvim
 
 ## Visão geral das clientlibs {#clientlibs}
 
-O módulo de front-end é disponibilizado usando uma [clientlib do AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de compilação NPM, o aplicativo é compilado e o pacote `aem-clientlib-generator` pega a saída de compilação resultante e a transforma na clientlib.
+O módulo de front-end é disponibilizado por meio de uma [clientlib do AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=pt-BR). Ao executar o script de build do NPM, o aplicativo é compilado e o pacote `aem-clientlib-generator` transforma o resultado dessa build em uma clientlib.
 
 Uma clientlib consistirá nos seguintes arquivos e diretórios:
 

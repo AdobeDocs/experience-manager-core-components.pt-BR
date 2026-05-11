@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal do seletor
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalhes técnicos {#technical-details}
@@ -180,31 +180,31 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 ### Guia Formatos {#formats-tab}
 
-A guia Formatos permite especificar os formatos de data padrão e personalizados. Além disso, você também pode adicionar um novo formato de data personalizado usando o botão **Adicionar**.
+A guia Formatos permite especificar os formatos de data padrão e personalizados. Além disso, também é possível adicionar novo formato de data personalizado usando o botão **Adicionar**.
 
 ![Guia Formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-#### Adicionar formatos na política de modelos do componente
+#### Adicionar formatos na política de modelo do componente
 
-Para exibir os formatos disponíveis para o componente, você deve adicioná-los à política de modelo do componente.
+Para exibir os formatos disponíveis no componente, você deve adicioná-los à política de modelo do componente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
 
-Para adicionar formatos à política de template:
+Para adicionar formatos à política de modelo:
 
 1. Abra o modelo correspondente associado a um Formulário adaptável ou Sites no editor de modelo.
-2. Na seção **Componentes Permitidos**, selecione o componente **[!UICONTROL Seletor de Datas]**.
-   ![Política de modelo do Seletor de Data](/help/adaptive-forms/assets/date-picker-policy.png)
-3. Clique no ícone **[!UICONTROL Adicionar]** para criar uma nova política para o componente Seletor de datas.
+2. Na seção **Componentes permitidos**, selecione o componente **[!UICONTROL Seletor de data]**.
+   ![Política de modelo do seletor de data](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Clique no ícone **[!UICONTROL Adicionar]** para criar uma nova política no componente Seletor de data.
 4. Insira um nome para a política e selecione todos os formatos necessários na guia **Formato**.
-   ![Criar Política](/help/adaptive-forms/assets/number-input-format-policy.png)
+   ![Criar política](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. Clique em **[!UICONTROL Concluído]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

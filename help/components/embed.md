@@ -4,7 +4,7 @@ description: O componente de Incorporação permite a incorporação de conteúd
 role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed_br).
+Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalhes técnicos {#technical-details}
 

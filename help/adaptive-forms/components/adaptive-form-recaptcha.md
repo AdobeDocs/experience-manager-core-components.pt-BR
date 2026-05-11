@@ -4,9 +4,9 @@ description: Aumente a segurança dos formulários com o serviço Google reCAPTC
 role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1382'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ O componente principal de formulários adaptáveis do Google reCAPTCHA foi lanç
 
 | Versão do componente | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Compatível com <br>[versão 2.0.4](/help/versions.md) e posterior \| Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.4](/help/versions.md) e posteriores \| Compatível\|Compatível |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 

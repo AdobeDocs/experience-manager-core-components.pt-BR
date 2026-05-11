@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ Em conjunto com a Adobe Analytics e a Adobe Target, a Camada de dados de cliente
 
 Saiba como usar os recursos integrados da Camada de dados de clientes Adobe com os Componentes principais do AEM para coletar dados sobre uma página no Adobe Experience Manager Sites. O Experience Platform Launch e a extensão do Adobe Analytics serão usados para criar regras para enviar dados de página para o Adobe Analytics.
 
-[Veja o tutorial aqui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=pt-BR)
+[Visualize o tutorial aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics)
 
 ### Rastrear componentes clicados com o Adobe Analytics {#track-clicked-components}
 
 Use a Camada de dados de clientes Adobe orientada por eventos com os Componentes principais do AEM para rastrear cliques de componentes específicos em um site do Adobe Experience Manager. Saiba como usar as regras no Experience Platform Launch para acompanhar eventos de clique, filtrar por componente e enviar os dados ao Adobe Analytics com um aviso de rastreamento de link.
 
-[Veja o tutorial aqui.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=pt-BR)
+[Visualize o tutorial aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component)

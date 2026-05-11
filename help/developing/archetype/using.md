@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Com o arquétipo de projeto fica mais fácil começar a desenvolver no AEM. Voc�
 
 * **Tutorial do WKND**: para obter uma excelente introdução ao desenvolvimento no AEM, inclusive como aproveitar o arquétipo, consulte a [Introdução ao AEM Sites – Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR) para obter um exemplo prático que orienta através do uso do arquétipo para implementar um projeto simples.
 * **Tutorial de eventos do WKND**: se você estiver particularmente interessado no desenvolvimento de aplicativos de página única (SPA) no AEM, confira o [tutorial dedicado de eventos do WKND.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html?lang=pt-BR)
-* **Comece sozinho!** - Você pode baixar facilmente o [arquétipo de projeto atual disponível no GitHub](https://github.com/adobe/aem-project-archetype) e criar seu primeiro projeto sozinho.
+* **Comece por conta própria.** - Você pode baixar facilmente o [arquétipo de projeto atual disponível no GitHub](https://github.com/adobe/aem-project-archetype) e criar seu primeiro projeto por conta própria.
 
 ## Como usar o arquétipo {#how-to-use-the-archetype}
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Estrutura do módulo {#module-structure}
 
-A seção `<modules>` do POM principal define os módulos que o projeto criará. Por padrão, o projeto compila [os módulos padrão definidos anteriormente.](#what-you-get) Mais módulos sempre podem ser adicionados à medida que um projeto evolui.
+A seção `<modules>` do POM principal define os módulos que o projeto criará. Por padrão, o projeto cria [os módulos padrão previamente definidos.](#what-you-get) Mais módulos sempre podem ser adicionados à medida que o projeto evolui.
 
 ### Dependências {#dependencies}
 
@@ -87,7 +87,7 @@ A seção `<dependencyManagement>` do POM principal todas as dependências e ver
 
 #### Uber-Jar {#uber-jar}
 
-Uma das dependências principais é o [Jar da API Java do AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=pt-BR) Isso incluirá todas as APIs do AEM com apenas uma única entrada de dependência para a versão do AEM.
+Uma das principais dependências é o [Jar da API Java do AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=pt-BR) Ela inclui todas as APIs do AEM com apenas uma única entrada de dependência para a versão do AEM.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Uma das dependências principais é o [Jar da API Java do AEM.](https://experien
 
 #### Componentes principais {#core-components}
 
-É claro que o arquétipo aproveita os [Componentes principais.](/help/introduction.md) Portanto, para aproveitar os Componentes principais em todas as implantações, é uma prática recomendada incluí-los como parte do projeto Maven.
+O arquétipo, naturalmente, aproveita os [Componentes principais.](/help/introduction.md) Portanto, para aproveitar os Componentes principais em todas as implantações, a prática recomendada é incluí-los como parte do projeto Maven.
 
 O core.wcm.components.examples é um conjunto de páginas de exemplo que ilustra exemplos dos Componentes principais. Como prática recomendada, ao implantar um projeto para uso de produção, você deve remover essa dependência e a inclusão do subpacote.
 

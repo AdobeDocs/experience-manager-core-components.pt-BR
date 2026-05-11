@@ -4,9 +4,9 @@ description: Use o acordeão para organizar e simplificar um formulário longo o
 role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,13 +44,13 @@ As caixas de diálogo de configuração e de design, bem como o popover Selecion
 ## Versão e compatibilidade {#version-and-compatibility}
 
 
-O componente principal Adaptive Forms Accordion foi lançado em fevereiro de 2023 como parte dos componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de acordeão de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -58,7 +58,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_br). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalhes técnicos {#technical-details}
@@ -229,7 +229,7 @@ A caixa de diálogo de design é usada para definir e gerenciar os estilos CSS d
 ### Propriedades personalizadas
 
 ![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
-Através das propriedades personalizadas, é possível associar atributos personalizados (pares de chave-valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
+As propriedades personalizadas permitem associar atributos personalizados (pares de chave-valor) a um componente principal de formulário adaptável usando o modelo de formulário. As propriedades personalizadas são refletidas na seção de propriedades da representação headless do componente. Isso permite criar um comportamento de formulário dinâmico que se adapta de acordo com os valores de atributos personalizados. Por exemplo, desenvolvedores(as) podem criar várias representações de um componente de formulário headless para plataformas móveis, de desktop ou da web, melhorando significativamente a experiência de usuário em uma grande variedade de dispositivos.
 
 - **Nome do grupo**: você pode fornecer um nome para identificar o grupo de propriedades personalizadas. É possível adicionar, excluir ou reorganizar vários grupos de propriedades personalizadas. Após adicionar o grupo de propriedades personalizadas, você verá as seguintes opções:
 

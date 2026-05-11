@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
 ht-degree: 100%
 
@@ -91,8 +91,8 @@ A lista pode ser criada das páginas filhas da página atual ou de outra página
    * A página cujas páginas filhas devem fazer a lista
    * Deixe em branco para utilizar a página atual
 
-* **Profundidade-dos filhos**
-Quantos níveis abaixo da hierarquia devem ser usados
+* **Profundidade de filhos**
+Quantos níveis abaixo na hierarquia devem ser usados
 
 #### Lista fixa {#fixed-list}
 
@@ -113,7 +113,7 @@ A lista pode ser criada usando os resultados de uma pesquisa de conteúdo AEM.
 ![Pesquisar opções de listas](/help/assets/v3/list-edit-search.png)
 
 * **Pesquisar consulta**
-A sequência de caracteres para a qual uma pesquisa de texto completo será executada para gerar os elementos da lista
+A string para a qual será executada uma pesquisa de texto completo para gerar os elementos da lista
 * **Pesquisar em**
 Onde a pesquisa deve ser executada
    * Use a **caixa de diálogo de seleção** para escolher o local no AEM
@@ -132,8 +132,8 @@ Onde a correspondência de tags deve começar
 * **Tags**
 Quais tags devem ser correspondidas
    * Use a caixa de diálogo **Procurar** para selecionar as tags
-* **Correspondência**
-Define que tipo de correspondência deve qualificar uma página a ser incluída na lista
+* **Combinação**
+Defina qual tipo de correspondência deve qualificar uma página para ser incluída na lista
    * **qualquer tag**
    * **todas as tags**
 
@@ -148,10 +148,11 @@ Como os elementos devem ser ordenados
    * **Título**
    * **Última data de modificação**
 * **Ordem de classificação**
-A ordem na qual os itens devem ser ordenados
+A ordem em que os itens devem ser classificados
    * **ascendente**
    * **descendente**
-* **Número máximo de itens** - Número máximo de itens exibidos na lista.
+* **Máximo de itens**
+Número máximo de itens exibidos na lista.
    * Deixe em branco para retornar todos os itens.
 * **ID** - Essa opção permite controlar o identificador exclusivo do componente no HTML e na [Camada de Dados](/help/developing/data-layer/overview.md).
    * Caso deixado em branco, um ID exclusivo é gerado automaticamente para você e pode ser encontrado ao inspecionar a página resultante.
@@ -189,15 +190,16 @@ Na guia **Configurações da lista**, o formato da data pode ser definido, bem c
 
 ![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/v3/list-design-list-settings.png)
 
-* **Formato da data** - Formato a ser usado na exibição da última data de modificação.
-* **Desativar filhos**
-Desativa o tipo de listas filhas no componente.
-* **Desativar estática**
-Desativa o tipo de lista estática no componente.
-* **Desativar pesquisa**
-Desativa o tipo de lista de pesquisa no componente.
-* **Desativar tags**
-Desativa o tipo de lista de tags no componente.
+* **Formato de data**
+Formato a ser usado para exibir a data da última modificação
+* **Desabilitar itens secundários**
+Desabilitar o tipo de lista de itens secundários no componente
+* **Desabilitar estática**
+Desabilitar o tipo de lista estática no componente
+* **Desabilitar pesquisa**
+Desabilitar o tipo de lista de pesquisa no componente
+* **Desabilitar tags**
+Desabilitar a lista de tags no componente
 
 ### Configurações do item {#item-settings}
 
@@ -206,11 +208,11 @@ Na guia **Configurações do item**, as opções de formatação para os element
 ![Configuração da lista da caixa de diálogo de design do componente de Lista](/help/assets/v3/list-design-item-settings.png)
 
 * **Vincular itens**
-Habilita a opção Vincular itens na [caixa de diálogo de edição](#edit-dialog).
+Habilitar a opção Vincular itens na [caixa de diálogo de edição](#edit-dialog)
 * **Mostrar descrições**
-Habilita a opção Mostrar descrições na [caixa de diálogo de edição](#edit-dialog).
+Habilitar a opção Mostrar descrições na [caixa de diálogo de edição](#edit-dialog)
 * **Mostrar data**
-Habilita a opção Mostrar data na [caixa de diálogo de edição](#edit-dialog).
+Habilitar a opção Mostrar data na [caixa de diálogo de edição](#edit-dialog)
 
 ### Guia Estilos {#styles-tab}
 

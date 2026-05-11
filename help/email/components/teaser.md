@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_br)
+A documentação técnica mais recente sobre o Componente de teaser de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 

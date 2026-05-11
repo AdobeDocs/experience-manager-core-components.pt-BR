@@ -4,7 +4,7 @@ description: O componente de Texto é um componente de edição e composição d
 role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2265'
 ht-degree: 100%
 
@@ -330,7 +330,7 @@ Os seguintes recursos podem ser ativados ou desativados para o componente.
 * Colar texto sem formatação
 * Passado da palavra
 * Localizar e substituir
-* Verificador ortográfico
+* verificador ortográfico
 * Opções de modificação da imagem inserida
 * Edição de fonte HTML
 

@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Componente de Lista (v1) {#list-component-v}
 
-O componente de lista, que faz parte dos componentes principais, permite criar listas dinâmicas e estáticas com facilidade.
+O componente de Lista, dos Componentes principais, permite criar com facilidade listas dinâmicas e estáticas.
 
 ## Uso {#usage}
 
@@ -227,11 +227,11 @@ Usando a guia **configurações do item**, a formatação dos elementos da lista
 ![](/help/assets/chlimage_1-44.png)
 
 * **Vincular itens**
-Vincula itens à página correspondente.
+Vincular os itens à página correspondente
 * **Mostrar descrição**
-Mostra descrições do item de link
+Mostrar descrições do item do link
 * **Mostrar data**
-Mostra a data de modificação do item de link.
+Mostrar data de modificação do item do link
 
 ## Caixa de diálogo de design {#design-dialog}
 

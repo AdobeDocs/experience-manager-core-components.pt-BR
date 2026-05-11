@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Este documento descreve a versão v1 do componente de incorporação, que foi in
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed_br).
+Para experimentar o componente de Incorporação, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_br).
+A documentação técnica mais recente sobre o componente de Incorporação [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

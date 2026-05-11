@@ -4,9 +4,9 @@ description: O componente de Página é um componente de página extensível pro
 role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 
 ## Compatível com o Aplicativo web progressivo {#pwa-support}
 
-A versão 2.15.0 dos Componentes Principais introduziu o suporte para os recursos incorporados do [Aplicativos Web Progressivos (PWA) do AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) Com uma configuração simples no nível do site, transforme sua experiência com o AEM em uma PWA!
+A versão 2.15.0 dos componentes principais introduziu suporte para os [recursos integrados de Aplicativos Web Progressivos (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR) do AEM as a Cloud Service. Com uma configuração simples no nível do site, transforme sua experiência com o AEM em um PWA.
 
 ### Detalhes técnicos {#technical-details}
 

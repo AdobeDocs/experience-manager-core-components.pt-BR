@@ -4,7 +4,7 @@ description: Os Componentes principais usam as configurações sensíveis ao con
 role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
@@ -30,5 +30,5 @@ As configurações individuais dependem do componente ou do recurso específico.
 
 * [O componente de página](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) depende de configuração sensível ao contexto ao renderizar tags `link`, `script` e `meta`.
 * [Componente de Visualizador de PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Camada de dados de clientes da Adobe](/help/developing/data-layer/overview.md#installation-activation)
+* [Camada de dados de clientes Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Suporte ao AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

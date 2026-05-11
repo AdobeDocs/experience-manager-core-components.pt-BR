@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Como os Componentes principais, o código da Camada de dados de clientes Adobe e
 
 ## Instalação e ativação {#installation-activation}
 
-A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma biblioteca de clientes do AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [Arquétipo de Projetos AEM v. 24+](/help/developing/archetype/overview.md) incluem uma Camada de Dados ativada por padrão.
+A partir da versão 2.9.0 dos Componentes principais, a Camada de dados é distribuída com os Componentes principais como uma biblioteca de clientes do AEM e nenhuma instalação é necessária. Todos os projetos gerados pelo [Arquétipo v de Projeto do AEM. 24+](/help/developing/archetype/overview.md) incluem uma Camada de dados ativada por padrão.
 
 Para ativar manualmente a Camada de dados, você deve criar uma [configuração com reconhecimento de contexto](/help/developing/context-aware-configs.md) para ela:
 
@@ -122,7 +122,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->Este esquema é o esquema de item de componente genérico usado como um padrão base para vários Componentes principais. Isso não garante que cada componente listado preencherá todos esses campos em cada item.
+>Este esquema é o esquema de item de componente genérico usado como um padrão base para vários Componentes principais. Isso não garante que cada componente listado preenche todos esses campos em cada item.
 
 O seguinte [evento](#events) é relevante para o esquema de itens de Componentes/Contêineres:
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-Deseja explorar a Camada de dados e os Componentes principais com mais detalhes? [Veja este tutorial prático](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=pt-BR).
+Deseja explorar a Camada de dados e os Componentes principais com mais detalhes? [Dê uma olhada neste tutorial prático](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=pt-BR).
 
 >[!TIP]
 >

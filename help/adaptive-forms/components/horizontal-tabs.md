@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de guias horizontai
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 As guias horizontais de um formulário adaptável referem-se a um padrão de design no qual várias seções de um formulário são agrupadas e exibidas como guias separadas, alinhadas horizontalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias horizontais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência do usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
 
-Normalmente, as guias são criadas como uma série de links ou botões, com cada link ou botão correspondendo a uma seção do formulário. Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
+Normalmente, as guias são criadas como uma série de links ou botões, com cada link ou botão correspondendo a uma seção do formulário. Quando um usuário clica em uma guia, o conteúdo do formulário é atualizado dinamicamente para exibir a seção correspondente.
 
 ![exemplo](/help/adaptive-forms/assets/horizontal-example-new.png)
 
@@ -35,13 +35,13 @@ Os motivos comuns para se usar guias horizontais em um formulário adaptável s�
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de guias horizontais do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal Guias horizontais de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 

@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Para mais informações sobre as versões e lançamentos do componente principal
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o componente de página [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1_br)
+A documentação técnica mais recente sobre o componente de página [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 

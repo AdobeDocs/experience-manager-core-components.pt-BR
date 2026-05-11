@@ -4,9 +4,9 @@ description: O componente de Teaser pode mostrar uma imagem, um título, um rich
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 ## Suporte a ativos remotos {#remote-assets}
 
-O componente de Teaser (a partir da [versão 2.23.2](/help/versions.md)) dá suporte a ativos remotos. [Após a configuração,](/help/developing/remote-assets.md) você pode selecionar ativos de um serviço remoto para seu componente de teaser.
+O componente de teaser (a partir da [versão 2.23.2](/help/versions.md)) é compatível com ativos remotos. [Após configurado,](/help/developing/remote-assets.md) será possível selecionar ativos de um serviço remoto para o seu componente de teaser.
 
 ## Exemplo de saída do componente {#sample-component-output}
 
@@ -56,7 +56,7 @@ O autor do conteúdo pode usar a caixa de diálogo de configuração para defini
 
 ![Guia Links da caixa de diálogo de edição do componente de teaser](/help/assets/teaser-edit-links.png)
 
-O título, a descrição e a imagem do teaser podem ser herdados da página vinculada ou da página vinculada na primeira call to action. Se não for especificado um link ou uma call to action, o título, a descrição e a imagem serão herdados da página atual.
+O título, a descrição e a imagem do teaser podem ser herdados da página vinculada ou da página vinculada na primeira chamada para ação. Caso não seja especificado um link nem uma chamada para ação, o título, a descrição e a imagem serão herdados da página atual.
 
 * **Link** - Este arquivo vincula à uma página de conteúdo, um URL externo ou uma âncora de página.
 * **Abrir link em nova guia** - Se habilitada, o link será aberto em uma nova guia do navegador.

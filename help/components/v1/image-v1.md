@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -217,9 +217,9 @@ Na guia **Recursos**, é possível definir quais opções estão disponíveis pa
 
   ![](/help/assets/chlimage_1-20.png)
 
-   * **Girar** - Use essa opção para permitir que o autor do conteúdo use a opção **Girar para a direita**.
+   * **Girar** – Use essa opção para permitir que o autor do conteúdo use a opção **Girar para a direita**.
    * **Inverter**
-Use esta opção para permitir que o criador de conteúdo use as opções de **Inverter horizontalmente** e **Inverter verticalmente**.
+Use esta opção para permitir que o autor do conteúdo use as opções **Inverter horizontalmente** e **Inverter verticalmente**.
 
   >[!CAUTION]
   >

@@ -4,9 +4,9 @@ description: O componente de Contêiner de formulário, dos Componentes principa
 role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Quando o formulário for enviado, o tipo de ação pós-formulário de dados pas
 * **Mensagem de erro** - Mensagem a ser exibida se o envio não for bem-sucedido
 
 >[!TIP]
->Há opções de tempo limite adicionais que um administrador do sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica no GitHub para obter mais informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Há opções de tempo-limite adicionais que um administrador de sistema pode ajustar para lidar com o processamento de dados de formulário encaminhados. [Consulte a documentação técnica no GitHub para obter informações.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Email {#mail}
 

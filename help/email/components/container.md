@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Para mais informações sobre as versões dos Componentes principais de email, c
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de container [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1_br)
+A documentação técnica mais recente sobre o Componente de container [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 

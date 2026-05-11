@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de Guias verticais 
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Componente de Guias verticais{#vertical-tabs-adaptive-forms-core-component}
 
 As guias verticais de um formulário adaptável referem-se a um padrão de design no qual várias seções do formulário são agrupadas e exibidas como guias separadas, alinhadas verticalmente. O usuário pode alternar entre as guias para acessar diferentes seções do formulário. Cada guia atua como um acionador para mostrar e ocultar o conteúdo do formulário relacionado. As guias verticais ajudam a organizar formulários longos em seções gerenciáveis e melhoram a experiência de usuário. As guias podem ajudar a tornar um formulário mais acessível para pessoas com deficiências, pois elas podem alternar entre as seções usando a navegação pelo teclado.
-Ao clicar em uma guia, o conteúdo do formulário é atualizado dinamicamente para mostrar a seção correspondente.
+Quando um usuário clica em uma guia, o conteúdo do formulário é atualizado dinamicamente para exibir a seção correspondente.
 
 >[!NOTE]
 >
@@ -38,13 +38,13 @@ Estes são alguns motivos comuns para se usar guias verticais em um formulário 
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de guias verticais do Forms adaptável foi lançado como parte dos Componentes principais 2.0.18. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O Componente principal de guias verticais de formulários adaptáveis foi lançado como parte dos Componentes principais 2.0.18. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.18](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.18](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 

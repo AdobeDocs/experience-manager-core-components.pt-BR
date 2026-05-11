@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Para mais informações sobre as versões dos Componentes principais de email, c
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente Fragmento de conteúdo de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1_br)
+A documentação técnica mais recente sobre o Componente Fragmento de conteúdo de email [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
