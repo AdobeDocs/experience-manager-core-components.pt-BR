@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal de contain
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Há vários motivos para usar um painel em um formulário, incluindo:
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal do contêiner do painel do Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de container de painel de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
@@ -100,9 +100,9 @@ Você pode personalizar facilmente a experiência do container do painel para vi
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Agrupar campo sob um cabeçalho de seção**: selecione essa opção para organizar campos de formulário relacionados sob um cabeçalho de seção comum. Esse agrupamento garante que as tecnologias de assistência, como leitores de tela, possam identificar e anunciar os campos agrupados como uma unidade única e coesa, melhorando a acessibilidade e a navegação do formulário para todos os usuários.
+- **Agrupar campo sob um cabeçalho de seção**: selecione essa opção para organizar campos de formulário relacionados sob um cabeçalho de seção comum. Esse agrupamento garante que tecnologias assistivas, como leitores de tela, possam identificar e anunciar os campos agrupados como uma única unidade coesa, melhorando a acessibilidade e a navegação dos formulários para todos os usuários.
 
-  ![Campo do Grupo de Painéis](/help/adaptive-forms/assets/panel-fieldset.png)
+  ![Campo do grupo de painéis](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **Referência de vínculo**: uma referência de vínculo é uma referência a um elemento de dados armazenado em uma fonte de dados externa e usado em um formulário. A referência de vínculo permite vincular dinamicamente os dados a campos de formulário, de modo que o formulário possa exibir os dados mais atualizados da fonte de dados. Por exemplo, uma referência de vínculo pode ser usada para exibir o nome e o endereço de um cliente em um formulário, com base na ID do cliente inserida no formulário. A referência de vínculo também pode ser usada para atualizar a fonte de dados com os dados inseridos no formulário. Dessa forma, o AEM Forms permite criar formulários que interagem com fontes de dados externas, fornecendo uma experiência do usuário perfeita para coletar e gerenciar dados.
 - **Ocultar componente**: selecione essa opção para ocultar o componente no formulário. O componente permanece acessível para outros fins, como usá-lo para cálculos no Editor de regras. Isso é útil quando você precisa armazenar informações que não precisam ser vistas ou alteradas diretamente pelo usuário.

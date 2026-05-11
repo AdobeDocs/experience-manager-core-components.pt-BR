@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Além disso, o componente de Imagem oferece suporte ao carregamento lento para a
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) dá suporte a ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados,](#design-dialog) esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O componente de Imagem (a partir da [versão 2.13.0](/help/versions.md)) é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências da Web criadas com os Componentes principais podem oferecer recursos de imagens avançados potencializados pela Adobe AI, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências web criadas com os componentes principais agora podem contar com recursos avançados, tecnologia de IA da Adobe, robustez, alto desempenho e funcionalidades multiplataforma para imagens do Dynamic Media.
 
 ## Suporte a SVG {#svg-support}
 
@@ -223,9 +223,9 @@ Na guia **Recursos**, é possível definir quais opções estão disponíveis pa
   ![Guia Recursos da caixa de diálogo de design do componente de Imagem](/help/assets/image-design-features-orientation.png)
 
 * **Girar**
-Use esta opção para permitir que o criador de conteúdo use a opção de **Girar para a direita**.
+Use esta opção para permitir que o autor do conteúdo use a opção **Girar à direita**.
 * **Inverter**
-Use esta opção para permitir que o criador de conteúdo use as opções de **Inverter horizontalmente** e **Inverter verticalmente**.
+Use esta opção para permitir que o autor do conteúdo use as opções **Inverter horizontalmente** e **Inverter verticalmente**.
 
   >[!CAUTION]
   >

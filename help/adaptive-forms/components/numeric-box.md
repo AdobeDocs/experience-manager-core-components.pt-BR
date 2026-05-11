@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal de entrada
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -182,20 +182,20 @@ A guia Formatos permite especificar os formatos de data padrão e personalizados
 
 ![Guia Formato](/help/adaptive-forms/assets/emailinput_formattab.png)
 
-#### Adicionar formatos na política de modelos do componente
+#### Adicionar formatos na política de modelo do componente
 
-Para exibir os formatos disponíveis para o componente, você deve adicioná-los à política de modelo do componente.
+Para exibir os formatos disponíveis no componente, você deve adicioná-los à política de modelo do componente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
 
-Para adicionar formatos à política de template:
+Para adicionar formatos à política de modelo:
 
 1. Abra o modelo correspondente associado a um Formulário adaptável ou Sites no editor de modelo.
-2. Na seção **Componentes Permitidos**, selecione o componente **[!UICONTROL Entrada de Número]**.
-   ![Política de modelo do Seletor de Data](/help/adaptive-forms/assets/number-input-policy.png)
+2. Na seção **Componentes permitidos**, selecione o componente **[!UICONTROL Entrada de número]**.
+   ![Política de modelo do seletor de data](/help/adaptive-forms/assets/number-input-policy.png)
 3. Clique no ícone **[!UICONTROL Adicionar]** para criar uma nova política para o componente de Entrada de número.
 4. Insira um nome para a política e selecione todos os formatos necessários na guia **Formato**.
-   ![Criar Política](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![Criar política](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. Clique em **[!UICONTROL Concluído]**.
 
 <!--

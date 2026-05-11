@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ Use o botão **Adicionar segmento** para abrir o seletor de componentes e escolh
    * **Padrão** - Define o segmento padrão a ser exibido se nenhuma outra condição for atendida
    * **Personalizado** - Permite que o autor defina uma condição
       * As condições são baseadas nas variáveis de personalização do Adobe Campaign
-      * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR)
-      * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=pt-BR)
+      * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR&)
+      * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields)
 * **Excluir** - Toque ou clique para excluir o segmento do Componente de segmentação de email.
 * **Reorganizar** - Toque ou clique e arraste para reorganizar os segmentos.
 
@@ -135,7 +135,7 @@ Toque ou clique no botão **Adicionar** para criar novas condições.
 
 * **Nome da condição do segmento** - Uma descrição da condição
 * **Condição de segmento** - A condição atual que deve ser atendida, com base nas variáveis de personalização do Adobe Campaign
-   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR)
+   * [Consulte esta página para ver recursos de personalização do Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=pt-BR&)
    * [Consulte esta página para ver recursos de personalização do Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=pt-BR
 * **Remover** - Toque ou clique para remover a condição
 * **Reorganizar** - Toque ou clique e arraste para reorganizar a ordem das condições

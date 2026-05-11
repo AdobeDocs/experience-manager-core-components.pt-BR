@@ -4,8 +4,8 @@ description: Uso ou personalização do componente principal de entrada de email
 role: Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2135'
+workflow-type: ht
+source-wordcount: '2137'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 
 ![Guia Básico](/help/adaptive-forms/assets/email_basictab.png)
 
-- **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
+- **Nome**: O nome identifica exclusivamente o componente no editor de regras.Caracteres especiais e espaços não são permitidos nas strings de nome.
 
 - **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 - **Permitir rich text para título**: esse recurso permite formatar títulos de texto simples, incorporando recursos como negrito, itálico, texto sublinhado, várias fontes, tamanhos de fonte, cores e uma opção adicional para aprimorar a apresentação visual e a personalização. Ele oferece maior flexibilidade e controle criativo para que os títulos se destaquem em documentos, sites ou aplicativos.\
@@ -91,7 +91,7 @@ Você pode personalizar facilmente a experiência de entrada de email para visit
 
 ![Guia Validação](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio do formulário. Não é possível selecionar **Ocultar componente** ou **Desabilitar componente** na guia **Básico** quando essa opção está selecionada.
+- **Obrigatório**: selecione essa opção se desejar exibir o componente em um formulário adaptável. Após selecionar a opção, você deve inserir um valor antes de prosseguir com o envio de formulário.Não é possível selecionar **Ocultar componente** ou **Desativar componente** na guia **Básico** quando essa opção estiver selecionada.
 
 - **Mensagem de erro**: essa opção permite inserir uma mensagem que é exibida se a caixa de seleção **Obrigatório** estiver marcada e o campo do formulário for deixado em branco.
 

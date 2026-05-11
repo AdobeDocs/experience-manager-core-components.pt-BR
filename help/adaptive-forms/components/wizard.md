@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal do assistente de fo
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Cada etapa do assistente normalmente contém um grupo de campos de formulário r
 O layout de assistente é útil em formulários que possuem muitos campos ou informações que precisam ser coletadas, pois divide o formulário em partes menores e mais fáceis de se controlar. Também ajuda os usuários a se concentrarem em um conjunto de campos por vez, o que pode simplificar o processo de preenchimento de formulário.
 
 No entanto, ele também pode aumentar a complexidade do formulário, pois o usuário precisará percorrer várias páginas para terminar de preencher o formulário. Portanto, é necessário avaliar os requisitos do formulário e as necessidades do usuário antes de decidir usar um layout de assistente.
-Você pode usar o componente principal de layout de assistente em um formulário adaptável para criar o layout de assistente.
+Você pode usar o componente principal de Layout de assistente em um formulário adaptável para criar um layout de assistente.
 
 {{traditional-aem}}
 
@@ -50,13 +50,13 @@ Em geral, o layout de assistente pode tornar o processo de preenchimento de form
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-O componente principal de Layout do assistente de Forms adaptável foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
+O componente principal de Layout de assistente de formulários adaptáveis foi lançado em fevereiro de 2023 como parte dos Componentes principais 2.0.4. Esta é uma tabela que mostra todas as versões compatíveis, a compatibilidade do AEM e os links para a documentação correspondente:
 
 |  |  |
 |---|---|
 | Versão do componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatível com <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posterior\|Compatível\|Compatível |
+| v1 | Compatível com a<br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores\|Compatible\|Compatible |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 

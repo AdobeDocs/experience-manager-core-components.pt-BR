@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Além disso, o Componente de imagem de email é compatível com um sistema de ca
 
 ## Suporte ao Dynamic Media {#dynamic-media}
 
-O Componente de imagem de email é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados,](#design-dialog) esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
+O Componente de imagem de email é compatível com os ativos do [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=pt-BR#dynamicmedia). [Quando habilitados](#design-dialog), esses recursos oferecem a capacidade de adicionar ativos de imagem do Dynamic Media com um simples arrastar e soltar ou por meio do navegador de ativos, como você faria com qualquer outra imagem. Além disso, modificadores de imagem, predefinições de imagem e cortes inteligentes também são suportados.
 
-Suas experiências de email criadas com os Componentes principais de email podem oferecer recursos de imagens avançados potencializados pela Adobe AI, robustos, de alto desempenho e em várias plataformas do Dynamic Media.
+Suas experiências web criadas com os componentes principais agora podem contar com recursos avançados, tecnologia de IA da Adobe, robustez, alto desempenho e funcionalidades multiplataforma para imagens do Dynamic Media.
 
 ## Suporte a SVG {#svg-support}
 

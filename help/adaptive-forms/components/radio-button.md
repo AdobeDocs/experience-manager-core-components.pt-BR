@@ -4,9 +4,9 @@ description: Uso ou personalização do Componente principal de botão de opçã
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ O componente principal de botão de opções de formulários adaptáveis foi lan
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
-| v2 | Compatível com <br>[versão 3.0.142](/help/adaptive-forms/version.md) e posterior | |
+| v2 | Compatível com a<br>[versão 3.0.142](/help/adaptive-forms/version.md) e posterior | |
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 
@@ -57,7 +57,7 @@ Para obter informações sobre as versões dos Componentes principais, consulte 
 
 >[!NOTE]
 >
-> A versão v1 do componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
+> A versão v1 do Componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -175,11 +175,11 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
    - **Reorganizar**: toque ou clique e arraste para alterar a ordem do nome e do valor da propriedade personalizada.
 
-## Suporte de conjunto de campos e legenda para o botão de opção (v2)
+## Suporte de conjunto de campos e legenda do botão de opção (v2)
 
 <span class="preview"> Esse recurso está disponível por meio do programa de acesso antecipado. Para solicitar acesso, envie um email de seu endereço oficial para [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Os Componentes principais adaptáveis do Forms usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de botões de opção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
+Os Componentes principais de formulários adaptáveis usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de botões de opção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
 
 Os componentes do botão de opção (v2) são renderizados em um elemento `<fieldset>`, com o rótulo do grupo encapsulado em um `<legend>` como seu primeiro filho. Os atributos ARIA redundantes ou inválidos são removidos e os rótulos individuais são associados corretamente às respectivas entradas. Isso garante que os leitores de tela leiam cada rótulo de botão de opção claramente, juntamente com o contexto do grupo.
 

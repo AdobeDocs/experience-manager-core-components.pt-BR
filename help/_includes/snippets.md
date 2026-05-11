@@ -1,7 +1,7 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: ht
-source-wordcount: '254'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 ## Consulte também {#see-also}
 
-- [Criar um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=pt-BR)
-- [Adicionar um Formulário adaptável do AEM a uma página do AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=pt-BR)
+- [Criar um formulário adaptável do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+- [Adicionar um formulário adaptável do AEM a uma página do AEM Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page)
 - [Aplicar temas a um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=pt-BR)
-- [Adicionar componentes a um Formulário adaptável do AEM](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [Usar o reCAPTCHA em um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=pt-BR)
+- [Adicionar componentes a um formulário adaptável do AEM](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
+- [Usar o reCAPTCHA em um Formulário adaptável do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms)
 - [Gerar versão em PDF (DoR) de um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=pt-BR)
 - [Traduzir um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=pt-BR)
 - [Habilitar o Adobe Analytics para um Formulário adaptável a fim de rastrear o uso do formulário](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=pt-BR)
@@ -47,7 +47,7 @@ ht-degree: 100%
 - [Conectar o Formulário adaptável ao Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=pt-BR#submit-to-onedrive)
 - [Conectar o Formulário adaptável ao armazenamento do Microsoft Azure Blob](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=pt-BR#submit-to-azure-blob-storage)
 - [Conectar o Formulário adaptável ao Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=pt-BR)
-- [Usar o Adobe Acrobat Sign em um Formulário adaptável do AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=pt-br)
+- [Usar o Adobe Acrobat Sign em um Formulário adaptável do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign)
 - [Adicionar nova localidade para um Formulário adaptável](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=pt-BR)
 - [Enviar dados do Formulário adaptável a um banco de dados](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=pt-BR)
 - [Enviar dados do Formulário adaptável a um ponto de acesso REST](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=pt-BR#submit-to-rest-endpoint)
@@ -68,7 +68,7 @@ ht-degree: 100%
 - [Email](/help/adaptive-forms/components/email.md)
 - [Container do formulário](/help/adaptive-forms/components/form-container.md)
 - [Título do formulário](/help/adaptive-forms/components/form-title.md)
-- [Arquivo em anexo](/help/adaptive-forms/components/file-attachment.md)
+- [Anexo de arquivo](/help/adaptive-forms/components/file-attachment.md)
 - [Rodapé](/help/adaptive-forms/components/footer.md)
 - [Cabeçalho](/help/adaptive-forms/components/header.md)
 - [Imagem](/help/adaptive-forms/components/image.md)
@@ -81,7 +81,7 @@ ht-degree: 100%
 - [Botão de opção](/help/adaptive-forms/components/radio-button.md)
 - [Botão de redefinir](/help/adaptive-forms/components/reset-button.md)
 - [Revisar](/help/adaptive-forms/components/review.md)
-- [Rabiscar a assinatura](/help/adaptive-forms/components/scribble-signature.md)
+- [Assinatura à mão](/help/adaptive-forms/components/scribble-signature.md)
 - [Botão de enviar](/help/adaptive-forms/components/submit-button.md)
 - [Caixa de texto](/help/adaptive-forms/components/text-box.md)
 - [Texto](/help/adaptive-forms/components/text.md)

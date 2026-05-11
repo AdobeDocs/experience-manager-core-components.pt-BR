@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O componente de navegação permite que os usuários naveguem facilmente por uma
 
 O componente de Navegação lista uma árvore de páginas para que os usuários de um site possam navegar facilmente pela estrutura do site.
 
-O componente de Navegação pode detectar automaticamente a estrutura globalizada do site e [adaptar-se automaticamente a uma página localizada.](#localized-site-structure) Além disso, ele pode suportar qualquer estrutura de site arbitrária usando [páginas de redirecionamento de sombra](#shadow-structure) para representar outra estrutura diferente da estrutura de conteúdo principal.
+O Componente de navegação pode detectar automaticamente a estrutura globalizada do seu site e [adaptar-se automaticamente a uma página localizada.](#localized-site-structure) Além disso, aceita qualquer estrutura de site arbitrária usando [páginas de redirecionamento de sombra](#shadow-structure) para representar uma estrutura diferente da sua estrutura de conteúdo principal.
 
 A [caixa de diálogo de edição](#edit-dialog) permite que o autor do conteúdo defina a página raiz de navegação junto com a profundidade da navegação. A [caixa de diálogo de design](#design-dialog) permite que o autor do modelo defina valores padrão para a raiz e a profundidade de navegação.
 

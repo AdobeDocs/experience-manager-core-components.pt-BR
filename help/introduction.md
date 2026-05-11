@@ -4,9 +4,9 @@ description: Obtenha soluções para problemas com os Componentes principais e p
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 ### Componentes de formulários {#form-components}
 
-* [Contêineres de formulário](components/forms/form-container.md)
+* [Container do formulário](components/forms/form-container.md)
 * [Texto do formulário](components/forms/form-text.md)
 * [Opções de formulário](components/forms/form-options.md)
 * [Formulário oculto](components/forms/form-hidden.md)

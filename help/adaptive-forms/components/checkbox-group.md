@@ -4,9 +4,9 @@ description: Utilização ou personalização do Componente principal do grupo d
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2315'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '2316'
+ht-degree: 100%
 
 ---
 
@@ -53,14 +53,14 @@ O componente principal de grupo de caixas de seleção de formulários adaptáve
 
 | Versão do componente | AEM as a Cloud Service | AEM Forms 6.5.16.0 ou posterior |
 |---|---|---|
-| v2 | Compatível com <br>[versão 3.0.142](/help/adaptive-forms/version.md) e posterior | |
+| v2 | Compatível com a<br>[versão 3.0.142](/help/adaptive-forms/version.md) e posteriores | |
 | v1 | Compatível com a <br>[versão 2.0.4](/help/adaptive-forms/version.md) e posteriores | Compatível com a <br>[versão 1.1.12](/help/adaptive-forms/version.md) e versões posteriores, mas que sejam inferiores à 2.0.0. |
 
 Para obter informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/adaptive-forms/version.md).
 
 >[!NOTE]
 >
-> A versão v1 do componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
+> A versão v1 do Componente principal do grupo de caixas de seleção é compatível com a WCAG 2.1, que se concentra em tornar o conteúdo acessível seguindo as práticas recomendadas de usabilidade e legibilidade. A versão v2 é compatível com a WCAG 2.2, que vai um passo além, enfatizando a acessibilidade clara, previsível e inequívoca por meio do agrupamento lógico e semântico de campos relacionados, tornando-a um requisito essencial para o design de formulários inclusivos.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -81,7 +81,7 @@ Você pode personalizar facilmente a experiência de caixas de seleção para os
 
 ![Guia Básico](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-- **Nome**: o nome identifica exclusivamente o componente no editor de regras. Caracteres especiais e espaços não podem ser usados nas strings de nome.
+- **Nome**: O nome identifica exclusivamente o componente no editor de regras.Caracteres especiais e espaços não são permitidos nas strings de nome.
 
 - **Título**: o título permite identificar facilmente um componente em um formulário; por padrão, ele aparece na parte superior do componente. Se um título não for adicionado, o nome do componente será exibido em vez do texto do título.
 
@@ -184,9 +184,9 @@ As propriedades personalizadas permitem associar atributos personalizados (pares
 
 <span class="preview"> Esse recurso está disponível por meio do programa de acesso antecipado. Para solicitar acesso, envie um email de seu endereço oficial para [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Os Componentes principais adaptáveis do Forms usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de caixas de seleção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
+Os Componentes principais de formulários adaptáveis usam elementos HTML semânticos `<fieldset>` e `<legend>` para melhorar a acessibilidade de grupos de caixas de seleção. Esses elementos permitem que os leitores de tela interpretem com precisão a estrutura do formulário e transmitam as relações entre os rótulos de grupo e suas opções.
 
-O componente group(v2) da caixa de seleção é renderizado em um elemento `<fieldset>`, com o rótulo do grupo encapsulado em um `<legend>` como seu primeiro filho. Essa estrutura garante que os leitores de tela anunciem o rótulo do grupo antes de ler as opções individuais de caixa de seleção, facilitando para os usuários com tecnologias de assistência a compreensão do contexto e da finalidade de cada opção.
+O componente de grupo de caixas de seleção (v2) é renderizado dentro de um elemento `<fieldset>`, com o rótulo do grupo encapsulado em um `<legend>` como seu primeiro filho. Essa estrutura garante que os leitores de tela anunciem o rótulo do grupo antes de ler as opções individuais das caixas de seleção, facilitando a compreensão do contexto e da finalidade de cada opção para usuários com tecnologias assistivas.
 
 ![conjunto de campos de caixa de seleção](/help/adaptive-forms/assets/checkbox-fieldset.png)
 

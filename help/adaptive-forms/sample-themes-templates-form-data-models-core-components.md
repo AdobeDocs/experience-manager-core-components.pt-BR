@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,10 +41,10 @@ Os temas de amostra, modelos e modelos de dados de formulário incluídos no pac
 Temas de amostra de referência ajudam autores a usar, definir e personalizar o estilo de formulários, mesmo autores com apenas um conhecimento básico de CSS podem personalizar o tema como necessário.
 
 **Como obter estes temas?**
-Para obter esses temas, use as seguintes etapas fornecidas abaixo para o ambiente **AEM as a Cloud Service**:
+Para obter esses temas, siga os passos descritos abaixo para o ambiente do **AEM as a Cloud Service**:
 
 <!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=pt-BR) -->
-1. [Implantar um projeto do AEM Archetype 47 ou posterior no ambiente](https://github.com/adobe/aem-project-archetype)
+1. [Implante um projeto do Arquétipo 47 do AEM ou posterior em seu ambiente](https://github.com/adobe/aem-project-archetype)
 
 
 Ao implantar um Arquétipo do AEM, só será possível usar os temas prontos para uso em seus formulários. Para personalizar os temas de acordo com suas necessidades, [Use o pipeline de front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=pt-BR) para implantar os temas.
@@ -200,8 +200,8 @@ O modelo de formulário de Inscrição em benefícios é usado na criação de u
 
 ### Resumo de benefícios do funcionário {#Employee-Benefits-Summary}
 
-O modelo de formulário de Resumo de benefícios do funcionário é usado na criação de um formulário para reunir detalhes essenciais sobre os benefícios de uma pessoa. Ele ajuda a avaliar a cobertura de forma rápida e precisa, fornecendo uma visão geral abrangente para assistência e suporte eficientes.
-![Resumo dos Benefícios do Funcionário](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+O modelo de formulário de Resumo de benefícios do funcionário é usado na criação de um formulário para reunir detalhes essenciais sobre os benefícios de uma pessoa. O formulário ajuda a avaliar a cobertura de forma rápida e precisa, fornecendo uma visão geral abrangente para assistência e suporte eficientes.
+![Resumo de benefícios do funcionário](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### Solicitação de demonstrativo de conta {#Request-for-Account-Statement}

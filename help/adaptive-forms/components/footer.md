@@ -4,9 +4,9 @@ description: Uso ou personalização do componente principal de rodapé de formu
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -62,12 +62,12 @@ Você pode personalizar facilmente a experiência de rodapé para visitantes com
 
 ![Guia Propriedades](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-- **Caixa de diálogo de edição**
-A caixa de diálogo de edição fornece ferramentas padrão de formatação de rich text que permitem ao usuário criar texto para o rodapé.
+- **Editar caixa de diálogo**
+A caixa de diálogo de edição fornece ferramentas padrão de formatação de texto avançada que permitem ao usuário criar texto para o rodapé.
 
-- **Negrito** - Esta opção aplica a formatação em negrito ao texto selecionado ou em negrito   formatar texto inserido após o cursor. `Ctrl+B` é um atalho de teclado.
+- **Negrito**: essa opção aplica a formatação de negrito ao texto selecionado ou formata em negrito o texto inserido após o cursor. O atalho do teclado é `Ctrl+B`.
 
-- **Itálico** - Esta opção aplica a formatação em itálico ao texto selecionado ou   colocar o texto em itálico inserido após o cursor. `Ctrl+I` é um atalho de teclado.
+- **Itálico**: essa opção aplica a formatação de itálico ao texto selecionado ou formata em itálico o texto inserido após o cursor. O atalho do teclado é `Ctrl+I`.
 
 ![Opções de marcadores](/help/adaptive-forms/assets/footer_bullet.png)
 

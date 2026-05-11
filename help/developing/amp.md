@@ -4,9 +4,9 @@ description: Os Componentes principais são compatíveis com AMP - Páginas para
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Páginas para Dispositivos Móveis Aceleradas ou AMP é uma estrutura de código
 
 ## AMP nos Componentes principais {#amp-in-core-components}
 
-O suporte para AMP nos Componentes Principais é [totalmente configurável.](#enabling-amp) As versões das AMP podem ser fornecidas exclusivamente, junto com as versões padrão do HTML, ou não são fornecidas.
+O suporte para AMP nos componentes principais é [totalmente configurável.](#enabling-amp) As versões da AMP das páginas podem ser exibidas exclusivamente, juntamente com as versões HTML padrão, ou não serem exibidas de forma alguma.
 
 Os Componentes principais usam `amp` como um seletor do Sling para renderizar uma AMP. Por exemplo, `example.html` renderizaria a página normal e `example.amp.html` seria a versão de AMP.
 

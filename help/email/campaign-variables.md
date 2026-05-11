@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ A lista de campos de personalização disponíveis é sincronizada com a instân
 A caixa de diálogo Selecionar variável do Adobe Campaign está disponível em várias caixas de diálogo de edição dos Componentes principais de email. Para usá-la, basta clicar no ícone **Selecionar variável Adobe Campaign** ao lado do campo aplicável. Esse ícone pode ter duas formas.
 
 ![Botão do Adobe Campaign](/help/email/assets/campaign-button.png)
-![Ícone Selecionar variável do Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Selecionar o ícone de variável do Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
 Clicar em ambos os ícones abre a caixa de diálogo **Selecionar variável do Adobe Campaign**.
 
