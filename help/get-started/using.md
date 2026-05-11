@@ -22,7 +22,7 @@ Para começar a usar os Componentes principais no seu próprio projeto, há quat
 >[!TIP]
 >
 >Para instruções mais detalhadas sobre como começar do zero com a configuração do projeto, os Componentes principais, Modelos editáveis, Bibliotecas de clientes e desenvolvimento de componentes, o tutorial abaixo, dividido em várias partes, pode ser de interesse:\
->[Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Introdução ao AEM Sites - Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Deve-se lembrar de alguns pontos ao usar os Componentes principais no AEMaaCS:
 * Se o projeto incluiu os Componentes principais em `/apps`, [talvez seja necessário ajustar o projeto.](/help/developing/overview.md#via-aemaacs)
 * Mesmo que os Componentes principais agora estejam em `/libs`, não é recomendável criar qualquer sobreposição do mesmo caminho em `/apps`. [O padrão do componente proxy](/help/developing/guidelines.md#proxy-component-pattern) deve ser usado se qualquer aspecto dos componentes precisar ser personalizado.
 * Para que o [Componente Tabela de conteúdos](/help/components/tableofcontents.md) renderize seu conteúdo, um filtro precisa ser configurado no OSGi.
-   * [Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
+   * [Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br) para obter mais informações.
 
 ### AEM 6.5 e anteriores {#aem-65}
 
