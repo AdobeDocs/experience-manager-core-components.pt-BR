@@ -3,9 +3,15 @@ title: Desenvolvimento dos Componentes principais
 description: Os Componentes principais fornecem componentes básicos robustos e extensíveis, que por sua vez, oferecem recursos avançados, entrega contínua, versões de componentes, implementação moderna, marcação simples e exportação JSON de conteúdo.
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1339'
+TQID: https://experienceleague.adobe.com/ul-w1fUkmXE-T8S1oEqIdCd9TjS34WPYZipw8uMzAyA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1339
 ht-degree: 100%
 
 ---
@@ -117,13 +123,13 @@ A tabela a seguir lista os Componentes principais disponíveis, vinculando à AP
 | [Fragmento de conteúdo](https://adobe.com/go/aem_cmp_tech_cf_v1_br) | Permite a exibição de um fragmento de conteúdo | `-` |
 | [Lista de fragmentos de conteúdo](https://adobe.com/go/aem_cmp_tech_cflist_v1_br) | Permite exibir uma lista de fragmentos de conteúdo | `-` |
 | [Separador](https://adobe.com/go/aem_cmp_tech_separator_v1_br) | Separa o conteúdo em uma página | `-` |
-| [Acordeão](https://adobe.com/go/aem_cmp_tech_accordion_v1_br) | Organiza painéis de conteúdo em um acordeão recolhível | `-` |
+| [Acordeão](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organiza painéis de conteúdo em um acordeão recolhível | `-` |
 | [Contêiner](https://adobe.com/go/aem_cmp_tech_container_v1_br) | Organiza componentes dentro de um contêiner | `-` |
-| [Botão](https://adobe.com/go/aem_cmp_tech_button_v1_br) | Cria um botão em uma página | `-` |
-| [Download](https://adobe.com/go/aem_cmp_tech_download_v1_br) | Adiciona um ativo baixável a uma página | `-` |
-| [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1_br) | Adiciona um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incorporação](https://adobe.com/go/aem_cmp_tech_embed_v1_br) | Incorpora um recurso externo em uma página | - |
-| [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1_br) | Fornece uma representação visual do progresso em direção a uma meta | - |
+| [Botão](https://adobe.com/go/aem_cmp_tech_button_v1) | Cria um botão em uma página | `-` |
+| [Download](https://adobe.com/go/aem_cmp_tech_download_v1) | Adiciona um ativo baixável a uma página | `-` |
+| [Fragmento de experiência](https://adobe.com/go/aem_cmp_tech_xf_v1) | Adiciona um fragmento de experiência a uma página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incorporação](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incorpora um recurso externo em uma página | - |
+| [Barra de progresso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Fornece uma representação visual do progresso em direção a uma meta | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_br) | Apresenta um documento PDF em uma página | - |
 
 ## Atualização dos Componentes principais {#upgrade-of-core-components}

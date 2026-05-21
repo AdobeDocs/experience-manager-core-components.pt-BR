@@ -3,13 +3,16 @@ title: Componente de índice
 description: O Componente de índice cria um índice com base nos títulos do conteúdo da página, permitindo que os leitores naveguem rapidamente pela página.
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '753'
+TQID: https://experienceleague.adobe.com/zFTfdF-y3R8wvpGwKexpiRscC45wpFD9PI48S-8iXG8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 753
 ht-degree: 100%
 
 ---
-
 
 # Componente de índice {#table-of-contents-component}
 
@@ -43,11 +46,11 @@ Para mais informações sobre as versões dos Componentes principais, consulte o
 >
 >No AEM as a Cloud Service, seu administrador precisa habilitar um filtro para o componente para que ele renderize o conteúdo do componente.
 >
->[Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br) para obter mais informações.
+>[Consulte a documentação do componente no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obter mais informações.
 
 ### Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de índice [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_br).
+A documentação técnica mais recente sobre o Componente de índice [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
 
