@@ -3,9 +3,17 @@ title: Servlet de imagem adaptável
 description: Saiba como os Componentes principais usam o Servlet de imagem adaptável para entrega de imagens e como você pode otimizar seu uso.
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '487'
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 487
 ht-degree: 100%
 
 ---
@@ -39,7 +47,7 @@ O Servlet de imagem adaptável selecionará automaticamente a representação ma
 
 1. O Servlet de imagem adaptável analisa todas as representações disponíveis do ativo da imagem.
 1. Ele seleciona apenas aquelas com o mesmo tipo MIME do ativo referenciado original.
-   * Por exemplo,se o ativo original era um arquivo PNG, ele só considerará representações em PNG.
+   * E.g. se o ativo original era um arquivo PNG, ele só considerará representações em PNG.
 1. Dessas representações, ele considera as dimensões e as compara ao tamanho do container no qual a imagem deve ser exibida.
 1. Se a representação for maior ou igual ao tamanho do container, ela será adicionada a uma lista de representações candidatas.
 1. Se a representação for menor do que o container, ela será desconsiderada.
