@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
 workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
@@ -126,7 +126,7 @@ Para mais detalhes sobre o padrão de delegação, consulte o artigo Wiki do Git
 
 Isso pode ser feito facilmente copiando os arquivos HTL que precisam ser modificados do Componente principal no [componente proxy](guidelines.md#proxy-component-pattern).
 
-Tomando novamente o exemplo do componente principal de Navegação estrutural, para personalizar a saída da marcação desse componente, o arquivo `breadcrumb.html` teria que ser copiado para o componente específico do site que tem um `sling:resourceSuperTypes` que aponta para o componente principal de Navegação estrutural.
+Tomando novamente o exemplo do componente principal de Navegação estrutural, para personalizar a saída da marcação desse componente, o arquivo `breadcrumb.html` teria que ser copiado para o componente específico do site que tem um `sling:resourceSuperType` que aponta para o componente principal de Navegação estrutural.
 
 ### Alterar o estilo dos componentes {#styling-the-components}
 
