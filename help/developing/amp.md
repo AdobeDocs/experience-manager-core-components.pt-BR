@@ -4,22 +4,17 @@ description: Os Componentes principais são compatíveis com AMP - Páginas para
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 TQID: https://experienceleague.adobe.com/5v1tXLzHNRvAxy6-aJipN-ZYzsPJ1xFNc1hKmz73wic
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 59ca85e0f0b99ba46bb2b85f383f1fefd2b1c5fd
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 100%
+source-wordcount: 680
+ht-degree: 76%
 
 ---
+
 
 # Suporte AMP para os Componentes principais {#amp-support}
 
@@ -43,10 +38,12 @@ Projetos individuais podem decidir se utilizam ou não AMP. Na verdade, como as 
 
 Embora o suporte a AMP ofereça muita flexibilidade, para começar a usá-las rapidamente, algumas etapas simples são necessárias:
 
-1. Instale a extensão de suporte AMP, se necessário.
-   * Para projetos do AEM as a Cloud Service, a extensão é disponibilizada automaticamente com os Componentes principais e nenhuma instalação é necessária.
-   * Para projetos no local e do AMS, a extensão deve ser explicitamente instalada ao instalar os Componentes principais.
-1. Quando a extensão AMP estiver instalada, o autor do componente deverá simplesmente apontar os supertipos de componentes para aqueles na extensão.
+1. [Instalar os Componentes principais](/help/get-started/using.md#download-and-install)
+   * Para projetos AEM as a Cloud Service, os Componentes principais estão disponíveis por padrão e nenhuma instalação adicional é necessária.
+   * Para projetos no local e do AMS, você pode [baixar o pacote de conteúdo mais recente para os Componentes principais do GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalá-lo em seus ambientes do AEM.
+   * Se o seu projeto no local ou AMS usar uma versão dos Componentes principais anterior a 2.14.0, você também deverá instalar a extensão AMP disponível como parte da versão no GitHub.
+1. Aponte seu componente `resourceSuperType`s para `core/wcm/extensions/amp/components/page/v1/page`.
+   * Se você usou o [Arquétipo de Projetos AEM](/help/developing/archetype/using.md) para o seu projeto como prática recomendada e escolheu [a opção para habilitar o suporte AMP](https://github.com/adobe/aem-project-archetype/tree/develop), isso foi feito para você automaticamente.
 1. [Habilite o suporte AMP](#enabling-amp) no nível do modelo ou em suas páginas individuais.
 1. [Implante o CSS incorporado](#css-requirements), conforme necessário.
 
@@ -68,6 +65,8 @@ As configurações das AMP para uma página também podem ser substituídas nas 
 * **Sem AMP** - A página é entregue somente como HTML padrão.
 * **AMP emparelhada** - A página é fornecida como AMP e HTML.
 * **Somente AMP** - A página é entregue somente como AMP.
+
+Essas opções aparecerão na interface do usuário somente se `resourceSuperType` estiver definido corretamente para suporte AMP. O conteúdo de amostra WKND padrão não tem o `resourceSuperType` definido e, portanto, as opções de AMP não estão visíveis na interface.
 
 ### Requisitos de CSS {#css-requirements}
 
