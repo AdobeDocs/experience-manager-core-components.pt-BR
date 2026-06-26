@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 739
-ht-degree: 100%
+source-wordcount: 778
+ht-degree: 88%
 
 ---
 
@@ -50,10 +50,6 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
 
-## Compatível com o Aplicativo web progressivo {#pwa-support}
-
-A versão 2.15.0 dos componentes principais introduziu suporte para os [recursos integrados de Aplicativos Web Progressivos (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=pt-BR)do AEM as a Cloud Service. Com uma configuração simples no nível do site, transforme sua experiência com o AEM em um PWA.
-
 ### Detalhes técnicos {#technical-details}
 
 A documentação técnica mais recente sobre o componente de Página [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_page_v3_br).
@@ -63,6 +59,12 @@ Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encon
 ## Caixa de diálogo de edição {#edit-dialog}
 
 Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=pt-BR).
+
+### Suporte a dados estruturados {#structured-data}
+
+A [Versão 2.31.0](/help/versions.md) dos Componentes Principais introduziu o suporte a Dados Estruturados em nível de página (JSON-LD) dos tipos [schema.org](https://schema.org) para todas as versões do Componente de Página.  O AEM renderiza esses blocos no lado do servidor no cabeçalho da página.
+
+A [Versão 2026.6.0 do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) adicionou a capacidade de os autores usarem a janela Propriedades da Página para adicionar um ou mais blocos JSON-LD a uma página na seção **SEO** da guia **Avançado**.
 
 ## Caixa de diálogo de design {#design-dialog}
 
