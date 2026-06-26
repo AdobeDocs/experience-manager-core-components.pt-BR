@@ -5,23 +5,15 @@ index: false
 role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 TQID: https://experienceleague.adobe.com/3vhSBWyt0Fn6rqGRdPNW0j-o9rN64h4RKMVoZuaLwww
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 100%
+source-wordcount: 606
+ht-degree: 83%
 
 ---
 
@@ -696,7 +688,14 @@ O exemplo a seguir foi retirado do [We.Retail](https://experienceleague.adobe.co
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
-Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela [Propriedades da página](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/editing-page-properties.html?lang=pt-BR).
+Como o componente representa a página inteira, as configurações que normalmente estariam em uma caixa de diálogo de edição são encontradas na janela [Propriedades da página](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
+
+### Suporte a dados estruturados {#structured-data}
+
+A [Versão 2.31.0](/help/versions.md) dos Componentes Principais introduziu o suporte a Dados Estruturados em nível de página (JSON-LD) dos tipos [schema.org](https://schema.org) para todas as versões do Componente de Página.  O AEM renderiza esses blocos no lado do servidor no cabeçalho da página.
+
+A [Versão 2026.6.0 do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) adicionou a capacidade de os autores usarem a janela Propriedades da Página para adicionar um ou mais blocos JSON-LD a uma página na seção **SEO** da guia **Avançado**.
+
 
 ## Caixa de diálogo de design {#design-dialog}
 
