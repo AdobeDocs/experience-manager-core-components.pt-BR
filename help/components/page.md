@@ -64,7 +64,7 @@ Como o componente representa a página inteira, as configurações que normalmen
 
 A [Versão 2.31.0](/help/versions.md) dos Componentes Principais introduziu o suporte a Dados Estruturados em nível de página (JSON-LD) dos tipos [schema.org](https://schema.org) para todas as versões do Componente de Página.  O AEM renderiza esses blocos no lado do servidor no cabeçalho da página.
 
-A [Versão 2026.6.0 do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) adicionou a capacidade de os autores usarem a janela Propriedades da Página para adicionar um ou mais blocos JSON-LD a uma página na seção **SEO** da guia **Avançado**.
+A [Versão 2026.6.0 do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) adicionou a capacidade de os autores usarem a janela Propriedades da Página para adicionar um ou mais blocos JSON-LD a uma página na seção **SEO** da guia **Avançado**.
 
 ## Caixa de diálogo de design {#design-dialog}
 
