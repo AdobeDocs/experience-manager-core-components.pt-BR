@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +39,10 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 * **Documentação de componentes (este documento)**: Para desenvolvedores e autores, com detalhes sobre cada componente.
 * **[Repositório GitHub dos Componentes principais](https://github.com/adobe/aem-core-wcm-components)**: Para detalhes do desenvolvedor sobre cada componente e download do projeto.
 * Introdução:
-   * **[Sucesso com os Componentes principais](/help/developing/success.md)**: Diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os Componentes principais.
-   * **[Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)**: Tutorial de dois dias para criar um novo site.
-   * **[Tutorial do Summit](https://expleague.azureedge.net/labs/L767/index.html)**: Tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
-   * **[Gems Webinar](https://helpx.adobe.com/br/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**: Tour orientado sobre os Componentes principais (gravado em dezembro de 2018).
+  * **[Sucesso com os Componentes principais](/help/developing/success.md)**: Diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os Componentes principais.
+  * **[Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)**: Tutorial de dois dias para criar um novo site.
+  * **[Tutorial do Summit](https://expleague.azureedge.net/labs/L767/index.html)**: Tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
+  * **[Gems Webinar](https://helpx.adobe.com/br/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**: Tour orientado sobre os Componentes principais (gravado em dezembro de 2018).
 
 ## Recursos {#features}
 
@@ -126,7 +126,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Lançamento dos Componentes principais | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Contínuo | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Contínuo | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 Para saber quais são os requisitos das versões anteriores dos Componentes principais, consulte [Versões dos Componentes principais](versions.md).
 
