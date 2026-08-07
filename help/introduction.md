@@ -4,23 +4,14 @@ description: Obtenha soluções para problemas com os Componentes principais e p
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +30,10 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 * **Documentação de componentes (este documento)**: Para desenvolvedores e autores, com detalhes sobre cada componente.
 * **[Repositório GitHub dos Componentes principais](https://github.com/adobe/aem-core-wcm-components)**: Para detalhes do desenvolvedor sobre cada componente e download do projeto.
 * Introdução:
-   * **[Sucesso com os Componentes principais](/help/developing/success.md)**: Diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os Componentes principais.
-   * **[Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)**: Tutorial de dois dias para criar um novo site.
-   * **[Tutorial do Summit](https://expleague.azureedge.net/labs/L767/index.html)**: Tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
-   * **[Gems Webinar](https://helpx.adobe.com/br/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**: Tour orientado sobre os Componentes principais (gravado em dezembro de 2018).
+  * **[Sucesso com os Componentes principais](/help/developing/success.md)**: Diretrizes que devem ser consideradas antes do início de qualquer projeto que usará os Componentes principais.
+  * **[Tutorial do WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=pt-BR)**: Tutorial de dois dias para criar um novo site.
+  * **[Tutorial do Summit](https://expleague.azureedge.net/labs/L767/index.html)**: Tutorial de duas horas para a criação de um novo site (de um laboratório no US Summit 2019).
+  * **[Gems Webinar](https://helpx.adobe.com/br/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**: Tour orientado sobre os Componentes principais (gravado em dezembro de 2018).
 
 ## Recursos {#features}
 
@@ -58,7 +49,7 @@ Os Componentes principais são um conjunto de componentes padronizados de Gerenc
 | Compatíveis com SEO | A saída HTML é semântica e fornece anotações de microdados [schema.org](https://schema.org). |
 | Prontos para aplicativos Web | A [saída JSON simplificada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=pt-BR) permite renderização no lado do cliente, ainda com uma possibilidade de [edição no contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=pt-BR). |
 | Suporte ao AMP | Os componentes têm [suporte para o padrão AMP](/help/developing/amp.md) integrado, o que acelera suas experiências em dispositivos móveis. |
-| Kit de design | Um [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=pt-BR) permite que os designers criem wireframes para que possam [estilizar conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| Kit de design | Um [kit de interface do usuário para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite que os designers criem wireframes para que possam [estilizar conforme necessário](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Temáticos | Os componentes implementam o [Sistema de Estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=pt-BR), e a marcação segue as [convenções de CSS de BEM.](https://getbem.com/) |
 | Personalizáveis | Vários padrões permitem [fácil personalização](developing/customizing.md), desde o ajuste do HTML até a reutilização de funcionalidade avançada. |
 | Versões | A [política de controle de versão](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garante que os Componentes principais não interrompam seu site ao melhorar coisas que podem afetar você. |
@@ -126,7 +117,7 @@ A versão atual dos Componentes principais apresenta os seguintes componentes:
 
 | Lançamento dos Componentes principais | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Versão do Java SE | Versão do Maven |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Contínuo | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Contínuo | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 Para saber quais são os requisitos das versões anteriores dos Componentes principais, consulte [Versões dos Componentes principais](versions.md).
 
