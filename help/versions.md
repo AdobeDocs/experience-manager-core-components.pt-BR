@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Esta versão corrige um erro. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 15 de julho de 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Esta versão abordou bugs nas versões anteriores das bibliotecas de clientes de pesquisa. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 15 de julho de 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Esta versão apresenta o [Componente de Pesquisa com IA de Conteúdo](/help/components/ai-search.md) uma nova versão do [Componente de Pesquisa Rápida](/help/components/quick-search.md) com um botão opcional de Pesquisa com IA e aborda erros de localização, entre outros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 14 de julho de 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Esta versão apresentou uma nova versão do [Componente de Pesquisa Rápida](/help/components/quick-search.md) com uma Pesquisa com IA opcional, bem como aborda erros de localização, entre outros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 14 de julho de 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Esta versão aborda bugs em que determinadas informações não eram mantidas corretamente. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 22 de junho de 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Essa versão introduziu o suporte para dados JSON-LD para o componente de Página, bem como desempenho aprimorado para vários outros componentes, além de várias correções de erros. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 19 de maio de 2026 |

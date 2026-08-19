@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,21 +43,27 @@ A tabela a seguir detalha todas as versões compatíveis do componente, as vers�
 
 | Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | Compatível | Compatível | Compatível |
+| v3 | - | Compatível* | Compatível* | Compatível |
 | [v2](/help/components/v2/quick-search.md) | - | Compatível | Compatível | Compatível |
 | [v1](/help/components/v1/quick-search.md) | Compatível com a <br>[versão 2.17.4](/help/versions.md) e anteriores | Compatível | - | Compatível |
 
-Para mais informações sobre as versões dos Componentes principais, consulte o documento [Versões dos Componentes principais](/help/versions.md).
+*O botão Pesquisa semântica só está disponível no AEM as a Cloud Service.
 
-### Detalhes técnicos {#technical-details}
+Para obter mais informações sobre versões e lançamentos dos Componentes Principais, consulte o documento [Versões dos Componentes Principais.](/help/versions.md)
+
+## Exemplo de saída do componente {#sample-component-output}
+
+Para experimentar o componente de Pesquisa Rápida, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes.](https://adobe.com/go/aem_cmp_library_search_br)
+
+## Detalhes técnicos {#technical-details}
 
 >[!NOTE]
 >
 >A proteção do componente de Pesquisa ou de qualquer aplicativo baseado no AEM contra ataques de DOS deve ser implementada em um nível superior, por exemplo, usando `mod_security` no dispatcher.
 
-A documentação técnica mais recente sobre o componente de Pesquisa rápida [pode ser encontrada no GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_br).
+A documentação técnica mais recente sobre o Componente de Pesquisa Rápida [pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais](/help/developing/overview.md).
+Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
 ## Caixa de diálogo de edição {#edit-dialog}
 
