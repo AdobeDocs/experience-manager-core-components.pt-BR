@@ -53,7 +53,7 @@ Para obter mais informações sobre versões e lançamentos dos Componentes Prin
 
 ## Exemplo de saída do componente {#sample-component-output}
 
-Para experimentar o componente de Pesquisa Rápida, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes.](https://adobe.com/go/aem_cmp_library_search)
+Para experimentar o componente de Pesquisa Rápida, e ver exemplos de suas opções de configuração e de saídas HTML e JSON, visite a [Biblioteca de Componentes.](https://adobe.com/go/aem_cmp_library_search_br)
 
 ## Detalhes técnicos {#technical-details}
 

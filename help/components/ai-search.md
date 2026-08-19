@@ -29,7 +29,7 @@ O componente Pesquisa com IA de conteúdo fornece aos visitantes do site uma pes
 
 ## Uso {#usage}
 
-O componente Pesquisa com IA de conteúdo permite que os visitantes pesquisem um [Source de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) diretamente de uma página e, opcionalmente, vejam um resumo dos resultados gerado por IA. Ele combina uma caixa de pesquisa padrão de texto completo/semântica com um painel **Mostrar resumo gerado por IA** alternável viabilizado pelo AEM Content AI.
+O componente Pesquisa com IA de conteúdo permite que os visitantes pesquisem um [Source de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-content-ai/using/contentsources) diretamente de uma página e, opcionalmente, vejam um resumo dos resultados gerado por IA. Ele combina uma caixa de pesquisa padrão de texto completo/semântica com um painel **Mostrar resumo gerado por IA** alternável viabilizado pelo AEM Content AI.
 
 A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo defina o escopo de conteúdo da pesquisa, o comportamento de pesquisa e as configurações geradoras. Não há caixa de diálogo de design, pois não há configurações disponíveis no nível do modelo.
 
@@ -78,7 +78,7 @@ A caixa de diálogo de edição permite que o autor de conteúdo defina o escopo
   * **PERSONALIZADO** - Uma origem registrada fora dos próprios pipelines de assimilação da AEM
 * **Fontes de conteúdo** - Isso define o Source de conteúdo que este componente pesquisa.
   * As entradas disponíveis correspondem às Fontes de Conteúdo que já existem e são **Disponíveis** e também correspondem ao tipo definido em **Tipo de Source de Conteúdo**
-  * Consulte o documento [Configurar e gerenciar suas Fontes de IA de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) para obter detalhes.
+  * Consulte o documento [Configurar e gerenciar suas Fontes de IA de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-content-ai/using/contentsources) para obter detalhes.
 
 ### Guia Comportamento de pesquisa {#search-behavior}
 
