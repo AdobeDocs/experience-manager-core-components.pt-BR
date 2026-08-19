@@ -2,10 +2,17 @@
 title: Componente de Pesquisa com IA de conteúdo
 description: O componente Pesquisa com IA de conteúdo fornece aos visitantes do site uma pesquisa gerativa baseada em IA.
 role: Developer, Admin, User
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
 workflow-type: tm+mt
 source-wordcount: 805
@@ -48,7 +55,7 @@ Para experimentar o componente Pesquisa com IA de Conteúdo, e ver exemplos de s
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [ pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [&#x200B; pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
