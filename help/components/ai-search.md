@@ -55,7 +55,7 @@ Para experimentar o componente Pesquisa com IA de Conteúdo, e ver exemplos de s
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [&#x200B; pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [&#x200B; pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_br)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
