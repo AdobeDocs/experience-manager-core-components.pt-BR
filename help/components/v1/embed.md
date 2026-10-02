@@ -7,22 +7,27 @@ index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 100%
-
 ---
-
 # Componente de incorporação (v1) {#embed-component}
 
 O componente de Incorporação, dos Componentes principais, permite a incorporação de conteúdo externo em uma página de conteúdo do AEM.
@@ -145,12 +150,12 @@ A caixa de diálogo de design permite que o autor do modelo defina as opções d
 ![Guia YouTube da caixa de diálogo de design do componente de Incorporação](/help/assets/embed-design-youtube.png)
 
 * **Permitir configuração do comportamento de mudo** - Permite que o autor de conteúdo configure a opção **Habilitar mudo** no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão de mudo** - Define automaticamente a opção **Habilitar mudo** quando o tipo de incorporação do YouTube é selecionado
+  * **Valor padrão de mudo** - Define automaticamente a opção **Habilitar mudo** quando o tipo de incorporação do YouTube é selecionado
 * **Permitir configuração do comportamento de reprodução automática** - Permite que o autor de conteúdo configure a opção **Habilitar reprodução automática** no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão de reprodução automática** - Define automaticamente a opção **Habilitar reprodução automática** quando o tipo de incorporação do YouTube é selecionado
+  * **Valor padrão de reprodução automática** - Define automaticamente a opção **Habilitar reprodução automática** quando o tipo de incorporação do YouTube é selecionado
 * **Permitir configuração de comportamento de loop** - Permite que o autor de conteúdo configure a opção **Habilitar loop** no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão do loop** - Define automaticamente a opção **Habilitar loop** quando o tipo de incorporação do YouTube é selecionado
+  * **Valor padrão do loop** - Define automaticamente a opção **Habilitar loop** quando o tipo de incorporação do YouTube é selecionado
 * **Permitir configuração de reprodução em linha (iOS)** - Permite que o autor de conteúdo configure a opção **Habilitar reprodução em linha (iOS)** no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão da reprodução em linha (iOS)** - Define automaticamente a opção **Habilitar reprodução em linha (iOS)** quando o tipo de incorporação do YouTube é selecionado
+  * **Valor padrão da reprodução em linha (iOS)** - Define automaticamente a opção **Habilitar reprodução em linha (iOS)** quando o tipo de incorporação do YouTube é selecionado
 * **Permitir configuração de vídeos em linha** - Permite que o autor de conteúdo configure a opção **Vídeos relacionados irrestritos** no componente quando o tipo de incorporação do YouTube é selecionado
-   * **Valor padrão de vídeos relacionados irrestritos** - Define automaticamente a opção **Vídeos relacionados irrestritos** quando o tipo de incorporação do YouTube é selecionado
+  * **Valor padrão de vídeos relacionados irrestritos** - Define automaticamente a opção **Vídeos relacionados irrestritos** quando o tipo de incorporação do YouTube é selecionado
