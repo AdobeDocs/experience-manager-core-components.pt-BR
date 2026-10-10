@@ -3,13 +3,16 @@ title: Habilitar e usar padrões de validação de entrada de texto em formulár
 description: Saiba como configurar políticas de modelos para expor padrões de validação como Números de telefone, Números de CPF e CEPs e, em seguida, usá-los em formulários adaptáveis.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Habilitar e usar padrões de validação de entrada de texto em formulários adaptáveis do Adobe Experience Manager
 
 ## Visão geral
@@ -113,13 +116,13 @@ Para verificar se os padrões de validação estão funcionando corretamente:
 ## Resolução de problemas
 
 - **Problema:** os padrões de validação não aparecem no componente de formulário.
-   - **Solução:** verifique se a política de modelo foi salva corretamente e se você está usando o modelo correto ao criar o formulário.
+  - **Solução:** verifique se a política de modelo foi salva corretamente e se você está usando o modelo correto ao criar o formulário.
 
 - **Problema:** não é possível acessar o editor de modelo.
-   - **Solução:** verifique se você tem as permissões necessárias para editar modelos (associação no grupo `template-authors`).
+  - **Solução:** verifique se você tem as permissões necessárias para editar modelos (associação no grupo `template-authors`).
 
 - **Problema:** O componente de Entrada de Texto não valida a entrada corretamente.
-   - **Solução:** verifique novamente as configurações do padrão de validação na guia Validação do componente e verifique se o padrão correto está selecionado.
+  - **Solução:** verifique novamente as configurações do padrão de validação na guia Validação do componente e verifique se o padrão correto está selecionado.
 
 ## Próximas etapas
 

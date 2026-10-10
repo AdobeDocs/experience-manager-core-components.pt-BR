@@ -3,13 +3,23 @@ title: Componente principal adaptável do Forms - Opção de imagem
 description: Uso do Componente principal da Opção de imagem.
 role: Developer, Admin, User
 hide: true
-source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 58%
-
 ---
-
 # Campo ImageChoice do formulário adaptável {#image-choice}
 
 O componente Opção de imagem em um formulário permite que os usuários façam seleções com base em representações visuais, como imagens, em vez de opções baseadas em texto. Apresenta uma série de imagens, cada uma representando uma escolha distinta. Os usuários podem selecionar uma ou mais imagens, com feedback visual indicando sua seleção. Este componente é útil para opções como variantes de produtos, respostas de pesquisas ou imagens de perfis. Ele aumenta o engajamento e a clareza do usuário, oferecendo um método de seleção intuitivo e visualmente atraente.
@@ -102,8 +112,8 @@ Com a caixa de diálogo de configuração, é possível personalizar facilmente 
 ![Opção de imagem de acessibilidade](accessibility-imagechoice.png)
 
 - **Texto para leitores de tela**: isso se refere ao texto adicional que é especificamente destinado a ser lido por tecnologias de acessibilidade, como leitores de tela, usadas por pessoas com deficiências visuais. Esse texto fornece uma descrição de áudio da finalidade do campo de formulário e pode incluir informações sobre o título do campo, a descrição, o nome e quaisquer mensagens relevantes (texto personalizado). O texto do leitor de tela ajuda a garantir que o formulário seja acessível a todos os usuários, incluindo aqueles com deficiências visuais, e fornece a eles uma compreensão completa do campo de formulário e de seus requisitos.
-   - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
-   - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
+  - **Texto personalizado**: selecione essa opção para usar o texto personalizado para rótulos de acessibilidade ARIA. Selecionar essa opção exibe a caixa de diálogo Texto personalizado. Você pode adicionar informações relevantes na caixa de diálogo Texto personalizado.
+  - **Título**: selecione essa opção para usar o título para rótulos de acessibilidade ARIA.
 
 ## Artigos relacionados {#related-articles}
 
