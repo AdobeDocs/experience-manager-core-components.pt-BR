@@ -6,28 +6,38 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 4308
-ht-degree: 94%
-
+source-wordcount: '4354'
+ht-degree: 93%
 ---
-
 # Versões dos Componentes principais {#core-components-versions}
 
 Os componentes principais são compatíveis com instalações do [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR) e do [AEM no local](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=pt-BR).
@@ -44,6 +54,7 @@ A tabela a seguir, cujo conteúdo está [disponível no GitHub com detalhes comp
 
 | Versão | Descrição | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Data de lançamento |
 |---|---|---|---|---|---|---|---|
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | Esta versão aborda várias melhorias para os componentes relacionados ao Fragmento de Conteúdo e introduz a versão 2 do [Componente de Pesquisa com IA de Conteúdo.](/help/components/ai-search.md) | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 5 de outubro de 2026 |
 | [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Esta versão habilita o [Componente de Pesquisa com IA de conteúdo](/help/components/ai-search.md) no AMS. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 8 de setembro de 2026 |
 | [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Esta versão corrige um erro. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 10 de agosto de 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Esta versão corrige um erro. | - | 6.5.21.0+ | 6.5 LTS GA | Contínuo | 8, 11, 17, 21 | 15 de julho de 2026 |

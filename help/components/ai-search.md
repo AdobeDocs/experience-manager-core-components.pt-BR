@@ -4,22 +4,27 @@ description: O componente Pesquisa com IA de conteúdo fornece aos visitantes do
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # Componente de Pesquisa com IA de conteúdo {#content-ai-search-component}
 
@@ -39,13 +44,16 @@ A [caixa de diálogo de edição](#edit-dialog) permite que o autor de conteúdo
 
 ## Versão e compatibilidade {#version-and-compatibility}
 
-A versão atual do componente de Pesquisa com IA de conteúdo é a v1, introduzida com a versão 2.32.0 dos componentes principais em julho de 2026, e está descrita neste documento.
+A versão atual do componente de Pesquisa com IA de conteúdo é a v2, introduzida com a versão 2.33.0 dos componentes principais em outubro de 2026, e está descrita neste documento.
 
 A tabela a seguir detalha todas as versões compatíveis do componente, as versões do AEM com as quais as versões do componente são compatíveis e os links para a documentação das versões anteriores.
 
-| Versão do componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | Em andamento |
+| Versão do componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0 e superior* | 6,5 GA* | Compatível |
+| [v1](/help/components/v1/ai-search.md) | - | - | Compatível |
+
+*O suporte para o componente Pesquisa com IA de conteúdo no AEM 6.5 e 6.5 LTS é limitado ao Adobe Managed Services (AMS).
 
 Para obter mais informações sobre versões e lançamentos dos Componentes Principais, consulte o documento [Versões dos Componentes Principais.](/help/versions.md)
 
@@ -55,7 +63,7 @@ Para experimentar o componente Pesquisa com IA de Conteúdo, e ver exemplos de s
 
 ## Detalhes técnicos {#technical-details}
 
-A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [&#x200B; pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_br)
+A documentação técnica mais recente sobre o Componente de Pesquisa com IA de Conteúdo [&#x200B; pode ser encontrada no GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Mais detalhes sobre o desenvolvimento dos Componentes principais podem ser encontrados na [documentação do desenvolvedor dos Componentes principais.](/help/developing/overview.md)
 
